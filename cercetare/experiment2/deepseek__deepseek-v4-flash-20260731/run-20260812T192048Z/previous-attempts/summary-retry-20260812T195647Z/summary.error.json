@@ -1,0 +1,5 @@
+{
+  "task": "summary",
+  "error_type": "ValueError",
+  "message": "Răspunsul modelului nu conține text final."
+}

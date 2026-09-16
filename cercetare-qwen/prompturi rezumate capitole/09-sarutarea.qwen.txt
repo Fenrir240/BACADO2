@@ -1,0 +1,56 @@
+# Rezumat factual — Capitolul IX - Sărutarea
+
+Ești un verbalizator factual. Transformă numai evenimentele verificate din `GRAPH_PACKET`
+într-un rezumat pentru Bacalaureat. Nu folosi memoria proprie despre roman și nu completa goluri.
+
+## Reguli obligatorii
+
+1. Folosește exclusiv `verified_events`, în ordinea `order`.
+2. Acoperă toate și numai ID-urile din `chapter.verified_event_sequence`.
+3. Nu folosi `excluded_events`; ele sunt păstrate doar pentru audit.
+4. Fiecare propoziție trebuie să aibă unul sau cel mult două `event_ids`.
+5. Pentru fiecare propoziție returnează numai `event_ids`; citatele rămân în packet și sunt
+   asociate local de validator. Nu copia citatele în răspuns.
+6. `fact` este reformularea canonică, iar `provenance.evidence_quote` este dovada primară.
+   Păstrează numai detaliile compatibile cu ambele și preferă formularea mai prudentă dacă
+   citatul susține doar o parte din `fact`.
+7. Nu adăuga cauze, intenții, consecințe, intensificări sau precizări temporale absente
+   din `fact` și din citatul-sursă. Sunt interzise în special cuvinte precum
+   „instantaneu”, „definitiv”, „complet”, „exclusiv” și „singura soluție” dacă nu apar în dovezi.
+8. Nu transforma interpretările simbolice în fapte. Rezumatul conține numai acțiuni și stări narative.
+9. Scrie concis, orientativ 80-220 de cuvinte, în 2-4 paragrafe. Acoperirea factuală are
+   prioritate față de lungime; nu adăuga informații pentru a atinge o limită minimă.
+10. `sentence_text` trebuie să reproducă exact propoziția corespunzătoare din `summary`.
+11. Dacă datele verificate sunt insuficiente, păstrează rezumatul mai scurt și explică în
+    `validation_notes`; nu inventa nimic.
+
+Returnează exclusiv JSON valid:
+
+```json
+{
+  "task": "chapter_summary",
+  "chapter_id": "CH_09",
+  "chapter_title": "Capitolul IX - Sărutarea",
+  "status": "generated",
+  "summary": "Rezumatul factual.",
+  "sentence_evidence": [
+    {
+      "sentence_index": 1,
+      "sentence_text": "Propoziția exactă din summary.",
+      "event_ids": ["EV_..."]
+    }
+  ],
+  "coverage": {
+    "covered_event_ids": ["EV_..."],
+    "excluded_event_ids": [],
+    "event_count_expected": 9,
+    "event_count_covered": 9
+  },
+  "style": {"language": "ro", "word_count": 0, "paragraph_count": 0},
+  "validation_notes": []
+}
+```
+
+## GRAPH_PACKET
+
+{"metadata":{"packet_id":"ION-GRAPH2-SUMMARY-09","task":"chapter_summary","source_graph":"cercetare/graf2/knowledge-graph.json","source_graph_version":"5.1","source_graph_sha256":"d5e72342a6eaf448cc20cf49c0160d5ed79890b5491cea2b890785ab8d9c3bb1","language":"ro","compact":true,"chapter_id":"CH_09","chapter_title":"Capitolul IX - Sărutarea","source_event_count":9,"verified_event_count":9,"excluded_event_count":0},"usage_rules":{"canonical_scope":"Numai verified_events pot apărea în rezumat.","provenance_rule":"Validatorul asociază local event_ids cu evidence_quote; modelul nu recopiază citatele.","source_support_rule":"O propoziție păstrează numai detaliile compatibile cu fact și evidence_quote.","exclusion_rule":"excluded_events nu se verbalizează.","interpretation_rule":"Rezumatul factual nu folosește teme, simboluri sau motivații deduse."},"chapter":{"id":"CH_09","ordinal":9,"title":"Capitolul IX - Sărutarea","part_id":"PART_02","source_event_sequence":["EV_081","EV_082","EV_083","EV_084","EV_085","EV_086","EV_087","EV_088","EV_089"],"verified_event_sequence":["EV_081","EV_082","EV_083","EV_084","EV_085","EV_086","EV_087","EV_088","EV_089"],"excluded_event_sequence":[]},"verified_events":[{"id":"EV_081","order":1,"importance":"major","assertion_type":"explicit_fact","fact":"Temându-se că Ana ar putea cere despărțirea înaintea procesului cu Vasile, Ion trece pentru o vreme de la bătăi la mângâieri.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":371,"evidence_quote":"Fiindcă se fixase ziua înfăţişării lor la judecată, Ion începea să aibă visuri urâte: ba că s-a bătut cu socrul său şi a rămas dedesubt, ba că Grofşoru l-a părăsit şi a trecut de partea lui Vasile, ba că Ana a cerut despărţenia şl s -a mutat la tatăl ei, cu copil cu tot, lăsându -l pe el cu buzele umflate... Mai ales cel cu Ana i se înfipse în cap ca un şurub. Iar când Herdelea îi spuse c -ar fi rău dacă Ana s -ar despărţi de dânsul, îşi schimbă purtarea fată de ea, trecând deodată de la bătăi la mângâieri şi răsfăţuri, încât şi vecinii se întrebară: ce-o mai fi plănuind feciorul Glanetaşului? Pe Ana însă dragostea lui n -o mai putea încălzi .","support_score":0.4545}},{"id":"EV_082","order":2,"importance":"major","assertion_type":"explicit_fact","fact":"Înspăimântat de apropierea judecății, Vasile Baciu hotărăște să încheie conflictul și să-i dea lui Ion averea.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":378,"evidence_quote":"Când ningea mai vrăjmaş, pe la prânzul cel mic, Vasile Baciu, îmbrăcat cu cojocul alb de oaie, cu căciula albă de miel înfundată până pe ochi, ieşi din casă, hotărât să sfârşească cu Ion. În viaţa lui, deşi era om aproape de cincizeci de ani, n -a umblat pe la judecăţi; ş -acuma poimâine are înfăţişare cu ginere -său. S-a ţinut, s-a împotrivit, că doar -doar îl va înmuia. Cu cât se apropia însă sorocul, cu atât frica i se încuiba în inimă.","support_score":0.5556}},{"id":"EV_083","order":3,"importance":"medium","assertion_type":"explicit_fact","fact":"Vasile Baciu și Ion merg la notarul din Jidovița pentru încheierea contractului.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":380,"evidence_quote":"Era casa notarului şi cancelaria comunală. Vasile Baciu simţi o strângere cruntă în inimă şi se opri brusc. Din hornul înalt, subţire, acoperit, se ridica un nour de fum gros şi negricios pe care nici viscolul nu-l putea împrăştia, ci trebuia să-l învârtească mai întâi şi apoi să-l trântească, uluit, pe coasta de mesteacăni ce pornea pieziş chiar din spatele casei. Vasile suflă pe nări, se uită furiş la Ion care -l înţrecuse cu vre -o doi paşi, fără să bage de seamă că s -a oprit, şi porni iar înainte bombănind furios. Când să intre în Jidoviţa, ginerele întrebă cu glas foarte răguşit: - Da unde ne ducem, socrule?","support_score":0.5714}},{"id":"EV_084","order":4,"importance":"medium","assertion_type":"explicit_fact","fact":"Contractul îl face pe Ion stăpânul tuturor pământurilor lui Vasile Baciu.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":384,"evidence_quote":"- Tot, tot... să se isprăvească! zise iar Vasile înăbuşit. Stoessel ceru practicantului formularele trebuincioase, puse pe Ion să iscălească pentru el şi pentru Ana, iar Vasile, neştiind carte, apăsă cu degetul pe cruce.","support_score":0.1429}},{"id":"EV_085","order":5,"importance":"medium","assertion_type":"explicit_fact","fact":"După semnarea contractului, Vasile își dă seama că a fost lăsat fără nimic și se repede la Ion.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":384,"evidence_quote":"- Tâlharule, tâlharule, m -ai lăsat pe drumuri! izbucni deodată Vasile Baciu, otrăvit de furie, şi -şi înfipse mâinile în gâtul ginerelui.","support_score":0.2}},{"id":"EV_086","order":6,"importance":"medium","assertion_type":"explicit_fact","fact":"Întâlnindu-l pe Titu întors din Lușca, Ion îi spune cu mândrie cum l-a învins pe Vasile Baciu.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":406,"evidence_quote":"Pe drum, Ion îi povesti cu mare mândrie cum a biruit pe Vasile Baciu. - Dacă nu m-ai fi învăţat d-ta domnişorule, rămâneam mai rău ca ţiganii! sfârşi ţăranul întorcând capul spre Titu cu o privire recunoscătoare.","support_score":0.4444}},{"id":"EV_087","order":7,"importance":"major","assertion_type":"explicit_fact","fact":"Ion îi spune lui Titu că tot pământul este acum al lui.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":406,"evidence_quote":"- Tot pământul e al meu, domnişorule! rânji Ion cu o mulţumire pătimaşă. Cât pământ!... Numai să -mi dea Dumnezeu sănătate să-l stăpânesc, că-i al meu!... Patima din glasul lui înfiora pe Titu .","support_score":0.5}},{"id":"EV_088","order":8,"importance":"medium","assertion_type":"explicit_fact","fact":"Ajuns pe câmp, Ion privește pământurile dobândite și se simte puternic în fața lor.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":407,"evidence_quote":"Acuma, stăpân al tuturor pămân turilor, râvnea să le vază, să le mângâie ca pe nişte ibovnice credincioase.","support_score":0.0}},{"id":"EV_089","order":9,"importance":"major","assertion_type":"explicit_fact","fact":"Ion îngenunchează și își lipește buzele de pământul ud într-un gest de posesie și adorare.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_09","pdf_page":408,"evidence_quote":"îşi încrucişa braţele pe piept şi -şi linse buzele simţind neîncetat atingerea rece şi dulceaţa amară a pământului.","support_score":0.25}}],"excluded_events":[],"validation":{"passed":true,"checks":{"partition_is_exact":true,"verified_sequence_exact":true,"excluded_sequence_exact":true,"all_verified_have_primary_quotes":true,"no_boundary_context":true,"no_graph_noise":true},"verified_event_count":9,"excluded_event_count":0}}

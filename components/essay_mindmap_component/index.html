@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    :root { --ink:#203242; --muted:#627788; --line:#9ebbc7; --root:#236d79; --card:#fff; --selected:#e9f5f1; }
+    * { box-sizing:border-box; }
+    html, body { width:100%; height:100%; margin:0; overflow:hidden; background:transparent; }
+    body { font-family:"Aptos","Segoe UI",sans-serif; }
+    .map {
+      position:relative; height:238px; overflow:hidden; border:1px solid #dce8eb; border-radius:22px;
+      background:radial-gradient(circle at 50% 50%,rgba(220,239,238,.95),transparent 34%),linear-gradient(135deg,#fcfefe,#f3f8f8); transition:height 360ms ease;
+    }
+    .map.multi-expanded { height:238px; overflow-y:auto; overflow-x:hidden; scrollbar-color:#8eb6c1 transparent; scrollbar-width:thin; }
+    .map.multi-expanded::-webkit-scrollbar { width:9px; }
+    .map.multi-expanded::-webkit-scrollbar-thumb { border:2px solid transparent; border-radius:999px; background:#8eb6c1; background-clip:padding-box; }
+    .map.multi-expanded::-webkit-scrollbar-track { background:transparent; }
+    .map.multi-expanded svg { height:360px; }
+    .scroll-spacer { height:0; }
+    .map.multi-expanded .scroll-spacer { height:360px; }
+    .map.fullscreen-mode { height:388px; overflow-y:auto; overflow-x:hidden; }
+    .map.fullscreen-mode svg { height:388px; }
+    .map.fullscreen-mode .scroll-spacer { height:388px; }
+    .map::before { position:absolute; inset:0; z-index:0; background-image:radial-gradient(#c4d8dc .75px,transparent .75px); background-size:18px 18px; content:""; opacity:.4; }
+    .eyebrow { position:absolute; top:11px; left:15px; z-index:4; color:var(--muted); font-size:.62rem; font-weight:750; letter-spacing:.1em; text-transform:uppercase; }
+    button.fullscreen-toggle {
+      position:absolute; top:10px; right:12px; z-index:6; display:flex; align-items:center; gap:6px; min-height:30px; padding:6px 10px;
+      border:1px solid #c9dde1; border-radius:10px; background:rgba(255,255,255,.9); color:var(--root); cursor:pointer;
+      font:700 .66rem/1 "Aptos","Segoe UI",sans-serif; box-shadow:0 6px 14px rgba(38,75,89,.09);
+    }
+    button.fullscreen-toggle:hover, button.fullscreen-toggle:focus-visible { border-color:#6da4aa; background:#fff; outline:none; }
+    svg { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+    .connector { fill:none; stroke:var(--line); stroke-linecap:round; stroke-width:1.7; opacity:0; stroke-dasharray:280; stroke-dashoffset:280; transition:opacity 220ms ease,stroke-dashoffset 560ms ease; }
+    .trait-connector { stroke-width:1.45; }
+    button.node {
+      position:absolute; display:flex; align-items:center; gap:9px; min-height:29px; padding:6px 9px; border:1px solid #d6e3e6; border-radius:10px;
+      background:var(--card); box-shadow:0 8px 18px rgba(38,75,89,.09); color:var(--ink); cursor:pointer;
+      font:650 .68rem/1.15 "Aptos","Segoe UI",sans-serif; text-align:left; transition:transform 200ms ease,opacity 280ms ease,border-color 180ms ease,background 180ms ease,box-shadow 180ms ease;
+    }
+    button.node:hover, button.node:focus-visible { border-color:#78a8ad; box-shadow:0 10px 24px rgba(29,95,104,.16); outline:none; transform:translateY(-2px); }
+    button.node::after { display:grid; width:14px; height:14px; border-radius:50%; background:#e9f4f3; color:var(--root); content:"›"; font-size:.82rem; font-weight:800; line-height:1; place-items:center; }
+    .root {
+      top:50%; left:50%; z-index:3; min-height:48px!important; padding:11px 14px!important; border:0!important; border-radius:13px!important;
+      background:linear-gradient(135deg,var(--root),#318a91)!important; box-shadow:0 16px 34px rgba(24,87,96,.27)!important; color:#fff!important;
+      font-size:.84rem!important; transform:translate(-50%,-50%) scale(1.08); transition:left 740ms cubic-bezier(.18,.9,.3,1.08),top 740ms cubic-bezier(.18,.9,.3,1.08),transform 740ms cubic-bezier(.18,.9,.3,1.08);
+    }
+    .root::after { background:rgba(255,255,255,.18)!important; color:#fff!important; content:"+"; }
+    .root[aria-expanded="true"]::after { content:"−"; }
+    .intro .root { animation:root-arrival 730ms cubic-bezier(.18,.9,.25,1.22); }
+    .branch { left:27%; z-index:2; min-width:160px; opacity:0; pointer-events:none; transform:translateX(-18px) scale(.96); }
+    .branch-1 { top:28px; } .branch-2 { top:65px; } .branch-3 { top:102px; } .branch-4 { top:139px; } .branch-5 { top:176px; }
+    .branch.selected { border-color:#65a597; background:var(--selected); box-shadow:0 10px 24px rgba(28,105,91,.16); }
+    button.node.movement {
+      left:42%; top:65px; z-index:2; min-width:90px; border-color:#247f88; background:linear-gradient(135deg,#197481,#2f9aa0);
+      box-shadow:0 10px 22px rgba(25,116,129,.22); color:#fff; cursor:pointer; opacity:0; pointer-events:none; transform:translateX(-18px) scale(.96);
+    }
+    button.node.movement::after { background:rgba(255,255,255,.18); color:#fff; }
+    button.node.movement:hover, button.node.movement:focus-visible { border-color:#b9ece8; box-shadow:0 12px 26px rgba(25,116,129,.3); transform:translateX(0) translateY(-2px) scale(1); }
+    button.node.movement.selected { border-color:#fff; box-shadow:0 0 0 3px rgba(25,116,129,.22),0 12px 26px rgba(25,116,129,.3); }
+    button.node.theme-concept {
+      left:38%; top:94px; z-index:2; width:clamp(175px,22vw,255px); min-height:45px; border-color:#247f88;
+      background:linear-gradient(135deg,#197481,#2f9aa0); box-shadow:0 10px 22px rgba(25,116,129,.22); color:#fff;
+      cursor:default; justify-content:center; text-align:center; opacity:0; pointer-events:none; transform:translateX(-18px) scale(.96);
+    }
+    button.node.theme-concept::after { display:none; }
+    button.node.theme-concept:hover, button.node.theme-concept:focus-visible { border-color:#247f88; box-shadow:0 10px 22px rgba(25,116,129,.22); transform:translateX(0) scale(1); }
+    .subnode { left:calc(42% + 125px); z-index:2; min-width:112px; opacity:0; pointer-events:none; transform:translateX(-18px) scale(.96); }
+    .trait-1 { top:45px; } .trait-2 { top:82px; }
+    .theme-sequence { left:calc(38% + clamp(175px, 22vw, 255px) + 20px); z-index:2; min-width:108px; opacity:0; pointer-events:none; transform:translateX(-18px) scale(.96); }
+    .sequence-1 { top:83px; } .sequence-2 { top:120px; }
+    .open.traits-open .movement { opacity:1; pointer-events:auto; transform:translateX(0) scale(1); animation:branch-pop 420ms cubic-bezier(.18,.9,.25,1.18) both; }
+    .open.traits-open .subnode { opacity:1; pointer-events:auto; transform:translateX(0) scale(1); animation:branch-pop 460ms cubic-bezier(.18,.9,.25,1.18) both; }
+    .open.traits-open .trait-2 { animation-delay:70ms; }
+    .open.theme-open .theme-concept { opacity:1; pointer-events:auto; transform:translateX(0) scale(1); animation:branch-pop 420ms cubic-bezier(.18,.9,.25,1.18) both; }
+    .open.theme-open .theme-sequence { opacity:1; pointer-events:auto; transform:translateX(0) scale(1); animation:branch-pop 460ms cubic-bezier(.18,.9,.25,1.18) both; }
+    .open.theme-open .sequence-2 { animation-delay:70ms; }
+    .composition-element { left:calc(27% + 185px); z-index:2; min-width:145px; opacity:0; pointer-events:none; transform:translateX(-18px) scale(.96); }
+    .composition-1 { top:157px; }
+    .composition-2 { top:197px; }
+    .open.composition-open .composition-element { opacity:1; pointer-events:auto; transform:translateX(0) scale(1); animation:branch-pop 460ms cubic-bezier(.18,.9,.25,1.18) both; }
+    .open.composition-open .composition-2 { animation-delay:70ms; }
+    .compact .root { top:112px; left:3%; transform:translate(0,-50%) scale(.58); }
+    .open .connector { opacity:1; stroke-dashoffset:0; }
+    .open .branch { opacity:1; pointer-events:auto; transform:translateX(0) scale(1); animation:branch-pop 520ms cubic-bezier(.18,.9,.25,1.18) both; }
+    .open .branch-1 { animation-delay:65ms; } .open .branch-2 { animation-delay:120ms; } .open .branch-3 { animation-delay:175ms; } .open .branch-4 { animation-delay:230ms; } .open .branch-5 { animation-delay:285ms; }
+    /* Keep the secondary realism connectors hidden despite the generic
+       .open connector rule; only the traits branch may reveal them. */
+    .open .trait-connector { opacity:0; stroke-dashoffset:280; }
+    .open.traits-open.traits-lines-ready .trait-connector { opacity:1; stroke-dashoffset:0; }
+    .open .theme-connector { opacity:0; stroke-dashoffset:280; }
+    .open.theme-open.theme-lines-ready .theme-connector { opacity:1; stroke-dashoffset:0; }
+    .open .composition-connector { opacity:0; stroke-dashoffset:280; }
+    .open.composition-open.composition-lines-ready .composition-connector { opacity:1; stroke-dashoffset:0; }
+    .compact:not(.open) .connector { opacity:0; stroke-dashoffset:280; }
+    .compact:not(.open) .branch { opacity:0; pointer-events:none; transform:translateX(-18px) scale(.96); }
+    .multi-expanded.compact .root { top:180px; }
+    @keyframes root-arrival { 0%{opacity:0;transform:translate(-50%,-50%) scale(.38) rotate(-5deg)} 66%{opacity:1;transform:translate(-50%,-50%) scale(1.23) rotate(1deg)} 100%{opacity:1;transform:translate(-50%,-50%) scale(1.08) rotate(0)} }
+    @keyframes branch-pop { 0%{opacity:0;transform:translateX(-38px) scale(.72)} 68%{opacity:1;transform:translateX(5px) scale(1.04)} 100%{opacity:1;transform:translateX(0) scale(1)} }
+    @media (max-width:610px) { .eyebrow{left:14px} .compact .root{top:112px;left:10px;transform:translate(0,-50%) scale(.54)} .branch{left:37%;min-width:min(160px,59vw);font-size:.66rem!important} }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important} }
+  </style>
+</head>
+<body>
+  <main id="essay-map" class="map" aria-label="Schema interactivă a eseului pentru romanul Ion">
+    <div class="eyebrow">Schema eseului</div>
+    <div class="scroll-spacer" aria-hidden="true"></div>
+    <button class="fullscreen-toggle" id="fullscreen-toggle" type="button" title="Deschide mind map-ul pe tot ecranul">⛶ Mărește</button>
+    <svg viewBox="0 0 1000 238" preserveAspectRatio="none" aria-hidden="true">
+      <path class="connector primary-connector" id="root-to-branch-1" d="" />
+      <path class="connector primary-connector" id="root-to-branch-2" d="" />
+      <path class="connector primary-connector" id="root-to-branch-3" d="" />
+      <path class="connector primary-connector" id="root-to-branch-4" d="" />
+      <path class="connector primary-connector" id="root-to-branch-5" d="" />
+      <path class="connector trait-connector" id="traits-to-realism" d="" />
+      <path class="connector trait-connector" id="realism-to-trait-1" d="" />
+      <path class="connector trait-connector" id="realism-to-trait-2" d="" />
+      <path class="connector theme-connector" id="theme-to-concept" d="" />
+      <path class="connector theme-connector" id="concept-to-sequence-1" d="" />
+      <path class="connector theme-connector" id="concept-to-sequence-2" d="" />
+      <path class="connector composition-connector" id="composition-to-element-1" d="" />
+      <path class="connector composition-connector" id="composition-to-element-2" d="" />
+    </svg>
+    <button class="node root" id="work-root" type="button" aria-expanded="false">Ion — Liviu Rebreanu</button>
+    <button class="node branch branch-1" type="button" data-section="introducere">Introducere</button>
+    <button class="node branch branch-2" type="button" data-section="trasaturi_curent" aria-expanded="false">Trăsături de curent</button>
+    <button class="node movement" id="realism-node" type="button" data-section="curent_literar">Realism</button>
+    <button class="node subnode trait-1" id="trait-1-node" type="button" data-section="trasatura_1_realism">Trăsătura 1</button>
+    <button class="node subnode trait-2" id="trait-2-node" type="button" data-section="trasatura_2_realism">Trăsătura 2</button>
+    <button class="node branch branch-3" type="button" data-section="tema">Tema</button>
+    <button class="node theme-concept" id="theme-concept-node" type="button" data-section="tema">Relația mistică dintre țăran și pământ</button>
+    <button class="node theme-sequence sequence-1" id="sequence-1-node" type="button" data-section="scena_cositul">Secvența 1</button>
+    <button class="node theme-sequence sequence-2" id="sequence-2-node" type="button" data-section="scena_sarutarea">Secvența 2</button>
+    <button class="node branch branch-4" type="button" data-section="elemente_compozitie" aria-expanded="false">Elemente de compoziție</button>
+    <button class="node branch branch-5" type="button" data-section="concluzie">Concluzie</button>
+    <button class="node composition-element composition-1" id="composition-element-1" type="button" hidden></button>
+    <button class="node composition-element composition-2" id="composition-element-2" type="button" hidden></button>
+  </main>
+  <script>
+    const map = document.getElementById("essay-map");
+    const root = document.getElementById("work-root");
+    const fullscreenToggle = document.getElementById("fullscreen-toggle");
+    const branches = [...document.querySelectorAll(".branch")];
+    const primaryConnectorPaths = [
+      document.getElementById("root-to-branch-1"),
+      document.getElementById("root-to-branch-2"),
+      document.getElementById("root-to-branch-3"),
+      document.getElementById("root-to-branch-4"),
+      document.getElementById("root-to-branch-5"),
+    ];
+    const traitsBranch = document.querySelector('[data-section="trasaturi_curent"]');
+    const traitNodes = [...document.querySelectorAll(".subnode")];
+    const realismNode = document.getElementById("realism-node");
+    const traitsToRealismPath = document.getElementById("traits-to-realism");
+    const traitConnectorPaths = [
+      [document.getElementById("realism-to-trait-1"), document.getElementById("trait-1-node")],
+      [document.getElementById("realism-to-trait-2"), document.getElementById("trait-2-node")],
+    ];
+    const themeBranch = document.querySelector('[data-section="tema"]');
+    const sequenceNodes = [...document.querySelectorAll(".theme-sequence")];
+    const themeConceptNode = document.getElementById("theme-concept-node");
+    const themeToConceptPath = document.getElementById("theme-to-concept");
+    const themeConnectorPaths = [
+      [document.getElementById("concept-to-sequence-1"), document.getElementById("sequence-1-node")],
+      [document.getElementById("concept-to-sequence-2"), document.getElementById("sequence-2-node")],
+    ];
+    const compositionBranch = document.querySelector('[data-section="elemente_compozitie"]');
+    const compositionNodes = [
+      document.getElementById("composition-element-1"),
+      document.getElementById("composition-element-2"),
+    ];
+    const compositionConnectorPaths = [
+      document.getElementById("composition-to-element-1"),
+      document.getElementById("composition-to-element-2"),
+    ];
+    let args = {};
+    let animationStarted = false;
+
+    function send(type, data) { window.parent.postMessage({ isStreamlitMessage:true, type, ...data }, "*"); }
+    function setOpen(open) {
+      map.classList.toggle("open", open);
+      root.setAttribute("aria-expanded", String(open));
+      if (!open) {
+        closeTraits();
+        closeTheme();
+        closeComposition();
+      }
+      layoutGraph();
+    }
+    function closeTraits() {
+      map.classList.remove("traits-open", "traits-lines-ready");
+      traitsBranch.setAttribute("aria-expanded", "false");
+      realismNode.classList.remove("selected");
+      traitNodes.forEach((node) => node.classList.remove("selected"));
+    }
+    function closeTheme() {
+      map.classList.remove("theme-open", "theme-lines-ready");
+      themeBranch.setAttribute("aria-expanded", "false");
+      sequenceNodes.forEach((node) => node.classList.remove("selected"));
+    }
+    function closeComposition() {
+      map.classList.remove("composition-open", "composition-lines-ready");
+      compositionBranch.setAttribute("aria-expanded", "false");
+      compositionNodes.forEach((node) => node.classList.remove("selected"));
+    }
+    function positionNodeAfter(node, previousNode, gap) {
+      const mapBox = map.getBoundingClientRect();
+      const previousBox = previousNode.getBoundingClientRect();
+      node.style.left = `${previousBox.right - mapBox.left + gap}px`;
+    }
+    function layoutTraitNodes() {
+      positionNodeAfter(realismNode, traitsBranch, 20);
+      const realismLeft = parseFloat(realismNode.style.left);
+      const childLeft = realismLeft + realismNode.offsetWidth + 24;
+      traitNodes.forEach((node) => { node.style.left = `${childLeft}px`; });
+    }
+    function layoutThemeNodes() {
+      positionNodeAfter(themeConceptNode, themeBranch, 20);
+      const conceptLeft = parseFloat(themeConceptNode.style.left);
+      const sequenceLeft = conceptLeft + themeConceptNode.offsetWidth + 24;
+      sequenceNodes.forEach((node) => { node.style.left = `${sequenceLeft}px`; });
+    }
+    function layoutCompositionNodes() {
+      const mapBox = map.getBoundingClientRect();
+      const branchBox = compositionBranch.getBoundingClientRect();
+      const childLeft = branchBox.right - mapBox.left + 20;
+      compositionNodes.forEach((node) => { node.style.left = `${childLeft}px`; });
+    }
+    function updatePrimaryConnectors() {
+      const mapBox = map.getBoundingClientRect();
+      if (!mapBox.width || !mapBox.height) return;
+      const xScale = 1000 / mapBox.width;
+      const graphHeight = args.fullscreen ? 388 : (map.classList.contains("multi-expanded") ? 360 : mapBox.height);
+      const yScale = 238 / graphHeight;
+      const sourceBox = root.getBoundingClientRect();
+      const sourceX = (sourceBox.right - mapBox.left) * xScale;
+      const sourceY = (sourceBox.top + sourceBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+      branches.forEach((branch, index) => {
+        const targetBox = branch.getBoundingClientRect();
+        const targetX = (targetBox.left - mapBox.left) * xScale;
+        const targetY = (targetBox.top + targetBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+        const bendX = sourceX + (targetX - sourceX) * 0.56;
+        primaryConnectorPaths[index].setAttribute(
+          "d",
+          `M ${sourceX} ${sourceY} C ${bendX} ${sourceY}, ${bendX} ${targetY}, ${targetX} ${targetY}`,
+        );
+      });
+    }
+    function syncGraphConnectors() {
+      const startedAt = performance.now();
+      const sync = (now) => {
+        updatePrimaryConnectors();
+        if (map.classList.contains("traits-open")) updateTraitConnectors();
+        if (map.classList.contains("theme-open")) updateThemeConnectors();
+        if (map.classList.contains("composition-open")) updateCompositionConnectors();
+        if (now - startedAt < 820) window.requestAnimationFrame(sync);
+      };
+      window.requestAnimationFrame(sync);
+    }
+    function layoutGraph() {
+      const expandedBranchCount = ["traits-open", "theme-open", "composition-open"]
+        .filter((className) => map.classList.contains(className)).length;
+      const multiExpanded = expandedBranchCount >= 2;
+      map.classList.toggle("multi-expanded", multiExpanded);
+      root.style.top = multiExpanded ? "180px" : "";
+      const branchTops = multiExpanded ? [22, 66, 151, 241, 285] : [];
+      branches.forEach((branch, index) => { branch.style.top = multiExpanded ? `${branchTops[index]}px` : ""; });
+      realismNode.style.top = multiExpanded ? "57px" : "";
+      traitNodes[0].style.top = multiExpanded ? "35px" : "";
+      traitNodes[1].style.top = multiExpanded ? "75px" : "";
+      themeConceptNode.style.top = multiExpanded ? "138px" : "";
+      sequenceNodes[0].style.top = multiExpanded ? "124px" : "";
+      sequenceNodes[1].style.top = multiExpanded ? "166px" : "";
+      compositionNodes[0].style.top = multiExpanded ? "224px" : "";
+      compositionNodes[1].style.top = multiExpanded ? "264px" : "";
+      if (map.classList.contains("traits-open")) layoutTraitNodes();
+      if (map.classList.contains("theme-open")) layoutThemeNodes();
+      if (map.classList.contains("composition-open")) layoutCompositionNodes();
+      send("streamlit:setFrameHeight", { height: args.fullscreen ? 400 : 250 });
+      syncGraphConnectors();
+    }
+    function updateTraitConnectors() {
+      const mapBox = map.getBoundingClientRect();
+      if (!mapBox.width || !mapBox.height) return;
+      const xScale = 1000 / mapBox.width;
+      const graphHeight = args.fullscreen ? 388 : (map.classList.contains("multi-expanded") ? 360 : mapBox.height);
+      const yScale = 238 / graphHeight;
+      const source = realismNode.getBoundingClientRect();
+      const sourceX = (source.right - mapBox.left) * xScale;
+      const sourceY = (source.top + source.height / 2 - mapBox.top + map.scrollTop) * yScale;
+      const traitsBox = traitsBranch.getBoundingClientRect();
+      const traitsX = (traitsBox.right - mapBox.left) * xScale;
+      const realismX = (source.left - mapBox.left) * xScale;
+      const traitsY = (traitsBox.top + traitsBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+      const realismY = (source.top + source.height / 2 - mapBox.top + map.scrollTop) * yScale;
+      const traitsBendX = traitsX + (realismX - traitsX) * 0.48;
+      traitsToRealismPath.setAttribute(
+        "d",
+        `M ${traitsX} ${traitsY} C ${traitsBendX} ${traitsY}, ${traitsBendX} ${realismY}, ${realismX} ${realismY}`,
+      );
+      traitConnectorPaths.forEach(([path, target]) => {
+        const targetBox = target.getBoundingClientRect();
+        const targetX = (targetBox.left - mapBox.left) * xScale;
+        const targetY = (targetBox.top + targetBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+        const bendX = sourceX + (targetX - sourceX) * 0.52;
+        path.setAttribute("d", `M ${sourceX} ${sourceY} C ${bendX} ${sourceY}, ${bendX} ${targetY}, ${targetX} ${targetY}`);
+      });
+    }
+    function revealTraitConnectors() {
+      map.classList.remove("traits-lines-ready");
+      const startedAt = performance.now();
+      const sync = (now) => {
+        if (!map.classList.contains("traits-open")) return;
+        updateTraitConnectors();
+        if (now - startedAt < 460) {
+          window.requestAnimationFrame(sync);
+        } else {
+          map.classList.add("traits-lines-ready");
+        }
+      };
+      window.requestAnimationFrame(sync);
+    }
+    function updateThemeConnectors() {
+      const mapBox = map.getBoundingClientRect();
+      if (!mapBox.width || !mapBox.height) return;
+      const xScale = 1000 / mapBox.width;
+      const graphHeight = args.fullscreen ? 388 : (map.classList.contains("multi-expanded") ? 360 : mapBox.height);
+      const yScale = 238 / graphHeight;
+      const themeBox = themeBranch.getBoundingClientRect();
+      const conceptBox = themeConceptNode.getBoundingClientRect();
+      const themeX = (themeBox.right - mapBox.left) * xScale;
+      const themeY = (themeBox.top + themeBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+      const conceptX = (conceptBox.left - mapBox.left) * xScale;
+      const conceptY = (conceptBox.top + conceptBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+      const firstBendX = themeX + (conceptX - themeX) * 0.48;
+      themeToConceptPath.setAttribute(
+        "d",
+        `M ${themeX} ${themeY} C ${firstBendX} ${themeY}, ${firstBendX} ${conceptY}, ${conceptX} ${conceptY}`,
+      );
+      const sourceX = (conceptBox.right - mapBox.left) * xScale;
+      const sourceY = conceptY;
+      themeConnectorPaths.forEach(([path, target]) => {
+        const targetBox = target.getBoundingClientRect();
+        const targetX = (targetBox.left - mapBox.left) * xScale;
+        const targetY = (targetBox.top + targetBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+        const bendX = sourceX + (targetX - sourceX) * 0.52;
+        path.setAttribute("d", `M ${sourceX} ${sourceY} C ${bendX} ${sourceY}, ${bendX} ${targetY}, ${targetX} ${targetY}`);
+      });
+    }
+    function revealThemeConnectors() {
+      map.classList.remove("theme-lines-ready");
+      const startedAt = performance.now();
+      const sync = (now) => {
+        if (!map.classList.contains("theme-open")) return;
+        updateThemeConnectors();
+        if (now - startedAt < 460) {
+          window.requestAnimationFrame(sync);
+        } else {
+          map.classList.add("theme-lines-ready");
+        }
+      };
+      window.requestAnimationFrame(sync);
+    }
+    function updateCompositionConnectors() {
+      const mapBox = map.getBoundingClientRect();
+      if (!mapBox.width || !mapBox.height) return;
+      const xScale = 1000 / mapBox.width;
+      const graphHeight = args.fullscreen ? 388 : (map.classList.contains("multi-expanded") ? 360 : mapBox.height);
+      const yScale = 238 / graphHeight;
+      const sourceBox = compositionBranch.getBoundingClientRect();
+      const sourceX = (sourceBox.right - mapBox.left) * xScale;
+      const sourceY = (sourceBox.top + sourceBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+      compositionNodes.forEach((target, index) => {
+        if (target.hidden) {
+          compositionConnectorPaths[index].setAttribute("d", "");
+          return;
+        }
+        const targetBox = target.getBoundingClientRect();
+        const targetX = (targetBox.left - mapBox.left) * xScale;
+        const targetY = (targetBox.top + targetBox.height / 2 - mapBox.top + map.scrollTop) * yScale;
+        const bendX = sourceX + (targetX - sourceX) * 0.52;
+        compositionConnectorPaths[index].setAttribute(
+          "d",
+          `M ${sourceX} ${sourceY} C ${bendX} ${sourceY}, ${bendX} ${targetY}, ${targetX} ${targetY}`,
+        );
+      });
+    }
+    function revealCompositionConnectors() {
+      map.classList.remove("composition-lines-ready");
+      const startedAt = performance.now();
+      const sync = (now) => {
+        if (!map.classList.contains("composition-open")) return;
+        updateCompositionConnectors();
+        if (now - startedAt < 460) window.requestAnimationFrame(sync);
+        else map.classList.add("composition-lines-ready");
+      };
+      window.requestAnimationFrame(sync);
+    }
+    function applyCompositionElements() {
+      const elements = Array.isArray(args.composition_elements) ? args.composition_elements.slice(0, 2) : [];
+      compositionNodes.forEach((node, index) => {
+        const element = elements[index];
+        node.hidden = !element;
+        node.textContent = element?.title || "";
+        node.dataset.section = element?.section_id || "";
+      });
+      if (elements.length === 0) closeComposition();
+    }
+    function applyEssayBlueprint() {
+      const blueprint = args.essay_blueprint && typeof args.essay_blueprint === "object"
+        ? args.essay_blueprint
+        : {};
+      const mindmap = blueprint.mindmap && typeof blueprint.mindmap === "object"
+        ? blueprint.mindmap
+        : {};
+      const traits = Array.isArray(mindmap.traits) ? mindmap.traits.slice(0, 2) : [];
+      const sequences = Array.isArray(mindmap.sequences) ? mindmap.sequences.slice(0, 2) : [];
+      const movementName = String(mindmap.movement_name || "Realism");
+      realismNode.textContent = movementName;
+      realismNode.dataset.section = String(blueprint.movement?.id || "curent_literar");
+      traitsBranch.textContent = `Trăsături — ${movementName}`;
+      traitNodes.forEach((node, index) => {
+        const trait = traits[index];
+        if (!trait) return;
+        node.textContent = String(trait.title || `Trăsătura ${index + 1}`);
+        node.dataset.section = String(trait.id || `trasatura_${index + 1}`);
+      });
+      const theme = mindmap.theme && typeof mindmap.theme === "object" ? mindmap.theme : {};
+      if (theme.title) themeConceptNode.textContent = String(theme.title);
+      if (theme.id) themeConceptNode.dataset.section = String(theme.id);
+      sequenceNodes.forEach((node, index) => {
+        const sequence = sequences[index];
+        if (!sequence) return;
+        node.textContent = String(sequence.title || `Secvența ${index + 1}`);
+        node.dataset.section = String(sequence.id || `secventa_${index + 1}`);
+      });
+      map.setAttribute(
+        "aria-label",
+        `Schema interactivă a eseului pentru ${String(args.work_title || "operă")}`,
+      );
+    }
+    function applySelection() {
+      const selected = args.selected_section || "";
+      const selectedMovement = realismNode.dataset.section === selected;
+      const selectedTrait = traitNodes.some((node) => node.dataset.section === selected);
+      const selectedSequence = sequenceNodes.some((node) => node.dataset.section === selected);
+      const selectedThemeConcept = themeConceptNode.dataset.section === selected;
+      const selectedComposition = compositionNodes.some((node) => node.dataset.section === selected);
+      branches.forEach((branch) => branch.classList.toggle(
+        "selected",
+        branch.dataset.section === selected
+          || (branch === traitsBranch && (selectedMovement || selectedTrait))
+          || (branch === themeBranch && (selectedSequence || selectedThemeConcept))
+          || (branch === compositionBranch && selectedComposition),
+      ));
+      traitNodes.forEach((node) => node.classList.toggle("selected", node.dataset.section === selected));
+      realismNode.classList.toggle("selected", selectedMovement);
+      sequenceNodes.forEach((node) => node.classList.toggle("selected", node.dataset.section === selected));
+      themeConceptNode.classList.toggle("selected", selectedThemeConcept);
+      compositionNodes.forEach((node) => node.classList.toggle("selected", node.dataset.section === selected));
+      if (selectedMovement || selectedTrait) {
+        map.classList.add("traits-open");
+        traitsBranch.setAttribute("aria-expanded", "true");
+        layoutGraph();
+        revealTraitConnectors();
+      }
+      if (selectedSequence || selectedThemeConcept) {
+        map.classList.add("theme-open");
+        themeBranch.setAttribute("aria-expanded", "true");
+        layoutGraph();
+        revealThemeConnectors();
+      }
+      if (selectedComposition) {
+        map.classList.add("composition-open");
+        compositionBranch.setAttribute("aria-expanded", "true");
+        layoutGraph();
+        revealCompositionConnectors();
+      }
+    }
+    function startIntro() {
+      if (animationStarted) return;
+      animationStarted = true;
+      if (args.selected_section) { map.classList.add("compact"); setOpen(true); applySelection(); return; }
+      map.classList.add("intro");
+      window.setTimeout(() => { map.classList.add("compact"); setOpen(true); }, 980);
+    }
+    function render() {
+      const isFullscreen = Boolean(args.fullscreen);
+      root.textContent = [args.work_title, args.work_author].filter(Boolean).join(" — ") || "Opera";
+      applyEssayBlueprint();
+      applyCompositionElements();
+      map.classList.toggle("fullscreen-mode", isFullscreen);
+      fullscreenToggle.textContent = isFullscreen ? "↙ Revino" : "⛶ Mărește";
+      fullscreenToggle.title = isFullscreen ? "Revino la mind map-ul din pagină" : "Deschide mind map-ul pe tot ecranul";
+      send("streamlit:setFrameHeight", { height: isFullscreen ? 400 : 250 });
+      startIntro();
+      if (args.selected_section) { map.classList.add("compact"); setOpen(true); applySelection(); }
+    }
+    root.addEventListener("click", () => setOpen(!map.classList.contains("open")));
+    fullscreenToggle.addEventListener("click", () => {
+      send("streamlit:setComponentValue", { value:{ event_id:`fullscreen:${Date.now()}`, type:"toggle_fullscreen" } });
+    });
+    traitsBranch.addEventListener("click", () => {
+      const expanded = !map.classList.contains("traits-open");
+      map.classList.toggle("traits-open", expanded);
+      layoutGraph();
+      traitsBranch.setAttribute("aria-expanded", String(expanded));
+      branches.forEach((item) => item.classList.toggle("selected", item === traitsBranch));
+      if (expanded) revealTraitConnectors();
+      else map.classList.remove("traits-lines-ready");
+    });
+    themeBranch.addEventListener("click", () => {
+      const expanded = !map.classList.contains("theme-open");
+      map.classList.toggle("theme-open", expanded);
+      layoutGraph();
+      themeBranch.setAttribute("aria-expanded", String(expanded));
+      branches.forEach((item) => item.classList.toggle("selected", item === themeBranch));
+      if (expanded) revealThemeConnectors();
+      else map.classList.remove("theme-lines-ready");
+    });
+    traitNodes.forEach((node) => node.addEventListener("click", () => {
+      traitNodes.forEach((item) => item.classList.toggle("selected", item === node));
+      send("streamlit:setComponentValue", { value:{ event_id:`section:${node.dataset.section}:${Date.now()}`, type:"select_section", section:node.dataset.section } });
+    }));
+    realismNode.addEventListener("click", () => {
+      realismNode.classList.add("selected");
+      send("streamlit:setComponentValue", { value:{ event_id:`section:${realismNode.dataset.section}:${Date.now()}`, type:"select_section", section:realismNode.dataset.section } });
+    });
+    sequenceNodes.forEach((node) => node.addEventListener("click", () => {
+      sequenceNodes.forEach((item) => item.classList.toggle("selected", item === node));
+      send("streamlit:setComponentValue", { value:{ event_id:`section:${node.dataset.section}:${Date.now()}`, type:"select_section", section:node.dataset.section } });
+    }));
+    themeConceptNode.addEventListener("click", () => {
+      themeConceptNode.classList.add("selected");
+      send("streamlit:setComponentValue", { value:{ event_id:`section:${themeConceptNode.dataset.section}:${Date.now()}`, type:"select_section", section:themeConceptNode.dataset.section } });
+    });
+    compositionBranch.addEventListener("click", () => {
+      const hasElements = compositionNodes.some((node) => !node.hidden);
+      if (!hasElements) return;
+      const expanded = !map.classList.contains("composition-open");
+      map.classList.toggle("composition-open", expanded);
+      compositionBranch.setAttribute("aria-expanded", String(expanded));
+      branches.forEach((item) => item.classList.toggle("selected", item === compositionBranch));
+      layoutGraph();
+      if (expanded) revealCompositionConnectors();
+      else map.classList.remove("composition-lines-ready");
+    });
+    compositionNodes.forEach((node) => node.addEventListener("click", () => {
+      compositionNodes.forEach((item) => item.classList.toggle("selected", item === node));
+      if (!node.dataset.section) return;
+      send("streamlit:setComponentValue", { value:{ event_id:`section:${node.dataset.section}:${Date.now()}`, type:"select_section", section:node.dataset.section } });
+    }));
+    branches.filter((branch) => branch !== traitsBranch && branch !== themeBranch && branch !== compositionBranch).forEach((branch) => branch.addEventListener("click", () => {
+      branches.forEach((item) => item.classList.toggle("selected", item === branch));
+      send("streamlit:setComponentValue", { value:{ event_id:`section:${branch.dataset.section}:${Date.now()}`, type:"select_section", section:branch.dataset.section } });
+    }));
+    window.addEventListener("message", (event) => { if (event.data?.type !== "streamlit:render") return; args=event.data.args || {}; render(); });
+    window.addEventListener("resize", () => {
+      layoutGraph();
+      if (map.classList.contains("traits-lines-ready")) {
+        updateTraitConnectors();
+      }
+      if (map.classList.contains("theme-lines-ready")) {
+        updateThemeConnectors();
+      }
+      if (map.classList.contains("composition-lines-ready")) {
+        updateCompositionConnectors();
+      }
+    });
+    send("streamlit:componentReady", { apiVersion:1 });
+  </script>
+</body>
+</html>

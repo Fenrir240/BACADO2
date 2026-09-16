@@ -1,0 +1,56 @@
+# Rezumat factual — Capitolul II - Zvârcolirea
+
+Ești un verbalizator factual. Transformă numai evenimentele verificate din `GRAPH_PACKET`
+într-un rezumat pentru Bacalaureat. Nu folosi memoria proprie despre roman și nu completa goluri.
+
+## Reguli obligatorii
+
+1. Folosește exclusiv `verified_events`, în ordinea `order`.
+2. Acoperă toate și numai ID-urile din `chapter.verified_event_sequence`.
+3. Nu folosi `excluded_events`; ele sunt păstrate doar pentru audit.
+4. Fiecare propoziție trebuie să aibă unul sau cel mult două `event_ids`.
+5. Pentru fiecare propoziție returnează numai `event_ids`; citatele rămân în packet și sunt
+   asociate local de validator. Nu copia citatele în răspuns.
+6. `fact` este reformularea canonică, iar `provenance.evidence_quote` este dovada primară.
+   Păstrează numai detaliile compatibile cu ambele și preferă formularea mai prudentă dacă
+   citatul susține doar o parte din `fact`.
+7. Nu adăuga cauze, intenții, consecințe, intensificări sau precizări temporale absente
+   din `fact` și din citatul-sursă. Sunt interzise în special cuvinte precum
+   „instantaneu”, „definitiv”, „complet”, „exclusiv” și „singura soluție” dacă nu apar în dovezi.
+8. Nu transforma interpretările simbolice în fapte. Rezumatul conține numai acțiuni și stări narative.
+9. Scrie concis, orientativ 80-220 de cuvinte, în 2-4 paragrafe. Acoperirea factuală are
+   prioritate față de lungime; nu adăuga informații pentru a atinge o limită minimă.
+10. `sentence_text` trebuie să reproducă exact propoziția corespunzătoare din `summary`.
+11. Dacă datele verificate sunt insuficiente, păstrează rezumatul mai scurt și explică în
+    `validation_notes`; nu inventa nimic.
+
+Returnează exclusiv JSON valid:
+
+```json
+{
+  "task": "chapter_summary",
+  "chapter_id": "CH_02",
+  "chapter_title": "Capitolul II - Zvârcolirea",
+  "status": "generated",
+  "summary": "Rezumatul factual.",
+  "sentence_evidence": [
+    {
+      "sentence_index": 1,
+      "sentence_text": "Propoziția exactă din summary.",
+      "event_ids": ["EV_..."]
+    }
+  ],
+  "coverage": {
+    "covered_event_ids": ["EV_..."],
+    "excluded_event_ids": [],
+    "event_count_expected": 11,
+    "event_count_covered": 11
+  },
+  "style": {"language": "ro", "word_count": 0, "paragraph_count": 0},
+  "validation_notes": []
+}
+```
+
+## GRAPH_PACKET
+
+{"metadata":{"packet_id":"ION-GRAPH2-SUMMARY-02","task":"chapter_summary","source_graph":"cercetare/graf2/knowledge-graph.json","source_graph_version":"5.1","source_graph_sha256":"d5e72342a6eaf448cc20cf49c0160d5ed79890b5491cea2b890785ab8d9c3bb1","language":"ro","compact":true,"chapter_id":"CH_02","chapter_title":"Capitolul II - Zvârcolirea","source_event_count":12,"verified_event_count":11,"excluded_event_count":1},"usage_rules":{"canonical_scope":"Numai verified_events pot apărea în rezumat.","provenance_rule":"Validatorul asociază local event_ids cu evidence_quote; modelul nu recopiază citatele.","source_support_rule":"O propoziție păstrează numai detaliile compatibile cu fact și evidence_quote.","exclusion_rule":"excluded_events nu se verbalizează.","interpretation_rule":"Rezumatul factual nu folosește teme, simboluri sau motivații deduse."},"chapter":{"id":"CH_02","ordinal":2,"title":"Capitolul II - Zvârcolirea","part_id":"PART_01","source_event_sequence":["EV_014","EV_012","EV_013","EV_011","EV_015","EV_018","EV_016","EV_017","EV_020","EV_019","EV_021","EV_022"],"verified_event_sequence":["EV_014","EV_012","EV_013","EV_011","EV_015","EV_016","EV_017","EV_020","EV_019","EV_021","EV_022"],"excluded_event_sequence":["EV_018"]},"verified_events":[{"id":"EV_014","order":1,"importance":"medium","assertion_type":"explicit_fact","fact":"Prin lipsa de muncă, datorii și băutură, Alexandru Glanetașu vinde treptat cea mai mare parte a pământurilor familiei.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":50,"evidence_quote":"Aceasta au şi vândut -o îndată lui Iftode Con -dratu, ca să se mai uşureze din datorii. Măcar acuma de-ar fi pus umărul Glanetaşu... Dar nu l -a pus. S-a lăsat de fluier şi s -a apucat de beţie. Cât e Armadia de mare, toate crâşmele le bătea .","support_score":0.25}},{"id":"EV_012","order":2,"importance":"major","assertion_type":"explicit_fact","fact":"Privind hotarul, Ion simte glasul pământului ca pe o chemare care îl copleșește.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":53,"evidence_quote":"Glasul pământului pătrundea năvalnic în sufletul flăcăului, ca o chemare, copleşindu -I.","support_score":0.5714}},{"id":"EV_013","order":3,"importance":"medium","assertion_type":"explicit_fact","fact":"În fața hotarului Ion se simte slab, dar lucrând propriul petec se imaginează stăpân.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":53,"evidence_quote":"Se simţi mic şi slab, cât un vierme pe care -l calci în picioare sau ca o frunză pe care vântul o vâltoreşte cum îi place. Suspină prelung, umilit şi înfricoşat în faţa uriaşului: - Cât pământ, Doamne!... În acelaşi timp însă iarba tăiată şi udă parcă începea să i se zvârcolească sub picioare. Un fir îl înţepa în gleznă, din sus de opincă. Brazda culcată îl privea, neputincioasă, biruită, umplându -i mima deodată cu o mândrie de stăpân.","support_score":0.3333}},{"id":"EV_011","order":4,"importance":"major","assertion_type":"explicit_fact","fact":"Ion cosește cu înverșunare pe mica sa fâneață și privește întinderea hotarului.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":54,"evidence_quote":"Acuma Ion cosea din răsputeri. Brazdele se prăvăleau drepte, grele, mirositoare.","support_score":0.0}},{"id":"EV_015","order":5,"importance":"medium","assertion_type":"explicit_fact","fact":"În drum spre tatăl ei cu un coș de mâncare, Ana se oprește la fâneața lui Ion și îi vorbește.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":55,"evidence_quote":"Pe cărare suia încet Ana, cu un coş pe care -l muta mereu dintr-o mână în cealaltă. - Uuu mă Anuţoooo! strigă Ion, uitând într-o clipire osteneala şi fierbinţeala. Fata, cam departe, ridică fruntea, îl văzu şi răspunse cu glas subţire ca o aţă: - Uuu mă Ionicăăă!... Ion îi ieşi înainte la capătul dinspre cărare al locului. Obrajii Anei erau îmbujoraţi de căldură şi umezi de năduşeală. Puse coşul jos şi zise încet: - Duc demâncare tatii...","support_score":0.0}},{"id":"EV_016","order":7,"importance":"medium","assertion_type":"explicit_fact","fact":"Florica apare la fâneață și îi reproșează lui Ion că umblă după Ana.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":57,"evidence_quote":"A trecut pe-aici Ana lui Vasile Baciu şi... Îşi curmă graiul brusc, întâlnind întristarea ce răsări în ochii fetei . Îi păru rău că n -a tăcut şi vru s -o dreagă, făcând un pas ca să schimbe vorba. Florica însă nu-^mai dădu răgaz să înceapă şi-i zise cu imputare: - Am văzut...","support_score":0.1667}},{"id":"EV_017","order":8,"importance":"medium","assertion_type":"explicit_fact","fact":"Ion îi spune Floricăi că ea a rămas crăiasa inimii lui, apoi o îmbrățișează și o sărută.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":57,"evidence_quote":"Nu izbuti, dar răspunse cald, mângâind-o din ochi: - Nu vezi tu cum e lumea azi, Florico?... Vai de sufletul meu... Crede -mă! în inima mea însă tot tu ai rămas crăiasă...","support_score":0.375}},{"id":"EV_020","order":9,"importance":"medium","assertion_type":"explicit_fact","fact":"În casa Herdelea, Zaharia și Maria, împreună cu Titu, Laura și Ghighi, discută întâmplările din Pripas.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":62,"evidence_quote":"- Eu tocmai m-am nemerit pe-acolo când s-a întâmplat... - zise Titu misterios, trăgându-şi ghetele. Laura şi Ghighi, mezina familiei, tăbărâră pe el, să le povestească tot, din fir în păr. Chiar şi d -na Herdelea îşi ascuţi urechile de lângă sobă, unde se învârtea cu gătirea bucatelor pentru amiazi.","support_score":0.4545}},{"id":"EV_019","order":10,"importance":"medium","assertion_type":"explicit_fact","fact":"Învățătorul și familia sa îl consideră pe Ion o victimă a celor bogați.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":63,"evidence_quote":"Toată familia Herdelea era, cu trup cu suflet, de partea lui Ion. Ziceau că bine a făcut dacă a scuturat puţin pe butoiul cela de George. De ce să -şi bată joc de un băiat cumsecade ca Ion?... Părtinirea însă nu era prea dezinteresată. Învăţătorul făcuse o clacă, iarna trecută, să -i aducă satul lemne de foc.","support_score":0.3333}},{"id":"EV_021","order":11,"importance":"medium","assertion_type":"explicit_fact","fact":"Atras de doamna Lang, Titu merge la Jidovița și caută prilejuri de a o cuceri.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":66,"evidence_quote":"Lui Titu mai ales din pricina aceasta îi plăcea şi umbla s -o cucerească. Deşi ofta după Lucreţia, râvnea mult şi o iubire pasionată. Dar nu prea ştia cum trebuie cucerită o femeie şi de -aceea îi era frică să nu se facă de râs în faţa unguroaicei. Cât a dorit dânsul şi n -a fost în stare să cucerească nici o fată din Pripas, cu toate că i se scurgeau ochii după unele. Simţea însă că doamna Lang îl simpatiza şi aceasta îi dădea imbold să stăruiască.","support_score":0.4444}},{"id":"EV_022","order":12,"importance":"major","assertion_type":"explicit_fact","fact":"Preotul Belciug bănuiește că învățătorul Herdelea îi subminează autoritatea în sat.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_02","pdf_page":77,"evidence_quote":"Belciug plecă fierbând, fără a -şi mai lua rămas bun. Apărarea lui Ion de către familia Herdelea i se părea o jignire personală. Dealtfel, din ziua când a intrat învăţătorul în sat, a cam simţit el că umblă să -i sape şi să-i ştirbească autoritatea.","support_score":0.5714}}],"excluded_events":[{"id":"EV_018","order":6,"reason":"Afirmație interpretativă; nu poate fi verbalizată drept fapt în rezumat.","assertion_type":"literary_interpretation","support_score":0.0}],"validation":{"passed":true,"checks":{"partition_is_exact":true,"verified_sequence_exact":true,"excluded_sequence_exact":true,"all_verified_have_primary_quotes":true,"no_boundary_context":true,"no_graph_noise":true},"verified_event_count":11,"excluded_event_count":1}}

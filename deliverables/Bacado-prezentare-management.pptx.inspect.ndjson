@@ -1,0 +1,411 @@
+{"kind":"deck","id":"pr/we1zg2","name":"Deck"}
+{"kind":"layout","layoutId":"034463ed-35d3-497e-9c58-192eb26bd018","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"0c9177fc-22fc-4776-9a26-c103822e88df","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/tfnmn1","slide":1,"title":"BACADO","textShapes":4}
+{"kind":"shape","id":"sh/0vidcnml","slide":1,"bbox":[0,0,730,720]}
+{"kind":"shape","id":"sh/zu9c3il0","slide":1,"bbox":[56,54,110,8]}
+{"kind":"textbox","id":"sh/y9gvad4f","slide":1,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[56,88,420,30]}
+{"kind":"textbox","id":"sh/90re9s32","slide":1,"text":"Pregătirea pentru BAC,\ntransformată într-un\ntraseu verificabil","textPreview":"Pregătirea pentru BAC, | transformată într-un | traseu verificabil","textChars":62,"textLines":3,"bbox":[56,156,610,238]}
+{"kind":"textbox","id":"sh/8zidgnmh","slide":1,"text":"Platformă educațională cu knowledge graph, conținut generat controlat și profesor AI.","textPreview":"Platformă educațională cu knowledge graph, conținut generat controlat și profesor AI.","textChars":85,"textLines":1,"bbox":[58,430,575,82]}
+{"kind":"textbox","id":"sh/ny9c72lc","slide":1,"text":"Prezentare executivă & tehnică  •  23 august 2026","textPreview":"Prezentare executivă & tehnică  •  23 august 2026","textChars":49,"textLines":1,"bbox":[58,626,590,28]}
+{"kind":"shape","id":"sh/mx0vex4r","slide":1,"bbox":[790,82,420,536]}
+{"kind":"image","id":"im/4ne5kzip","slide":1,"name":"","geometry":"roundRect","alt":"Sigla Bacado: avocado cu tocă academică și carte","bbox":[814,106,372,488]}
+{"kind":"notes","id":"nt/tfnmn1","slide":1,"text":"Deschideți cu problema: elevul are mult conținut, dar puțină structură, feedback și trasabilitate.\n\n[Sources]\n- assets/bacorado-logo.jpeg\n- app.py\n[/Sources]"}
+{"kind":"slide","id":"sl/9uztnx","slide":2,"title":"REZUMAT EXECUTIV","textShapes":23}
+{"kind":"textbox","id":"sh/47atszud","slide":2,"text":"REZUMAT EXECUTIV","textPreview":"REZUMAT EXECUTIV","textChars":16,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/j61czud8","slide":2,"text":"01 / PRODUS","textPreview":"01 / PRODUS","textChars":11,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/ilsbqpcn","slide":2,"text":"Bacado transformă fiecare operă într-un produs educațional complet","textPreview":"Bacado transformă fiecare operă într-un produs educațional complet","textChars":66,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/hkzuxkv2","slide":2,"text":"O singură bază factuală alimentează învățarea, evaluarea și construirea eseului.","textPreview":"O singură bază factuală alimentează învățarea, evaluarea și construirea eseului.","textChars":80,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/wjqt4fuh","slide":2,"bbox":[64,202,250,116]}
+{"kind":"shape","id":"sh/vihcvadw","slide":2,"bbox":[64,202,8,116]}
+{"kind":"textbox","id":"sh/uh8b2pcb","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[88,220,210,45]}
+{"kind":"textbox","id":"sh/9gzutkvq","slide":2,"text":"opere disponibile în aplicație","textPreview":"opere disponibile în aplicație","textChars":30,"textLines":1,"bbox":[88,270,210,36]}
+{"kind":"shape","id":"sh/8fqt0ful","slide":2,"bbox":[332,202,250,116]}
+{"kind":"shape","id":"sh/i18jmh8b","slide":2,"bbox":[332,202,8,116]}
+{"kind":"textbox","id":"sh/j2hkvm9w","slide":2,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[356,220,210,45]}
+{"kind":"textbox","id":"sh/k3qlorqh","slide":2,"text":"formate de testare rapidă","textPreview":"formate de testare rapidă","textChars":25,"textLines":1,"bbox":[356,270,210,36]}
+{"kind":"shape","id":"sh/54j2xwr2","slide":2,"bbox":[600,202,272,116]}
+{"kind":"shape","id":"sh/ax8jih8f","slide":2,"bbox":[600,202,8,116]}
+{"kind":"textbox","id":"sh/vyhkrm90","slide":2,"text":"55","textPreview":"55","textChars":2,"textLines":1,"bbox":[624,220,232,45]}
+{"kind":"textbox","id":"sh/wzq1k7q5","slide":2,"text":"apeluri AI în pipeline-ul Moara cu noroc","textPreview":"apeluri AI în pipeline-ul Moara cu noroc","textChars":40,"textLines":1,"bbox":[624,270,232,36]}
+{"kind":"shape","id":"sh/x0z2tcrq","slide":2,"bbox":[890,202,326,116]}
+{"kind":"shape","id":"sh/m9ojex83","slide":2,"bbox":[890,202,8,116]}
+{"kind":"textbox","id":"sh/nuxkn29o","slide":2,"text":"$0,092","textPreview":"$0,092","textChars":6,"textLines":1,"bbox":[914,220,286,45]}
+{"kind":"textbox","id":"sh/r2t8zel4","slide":2,"text":"cost AI măsurat / Moara cu noroc","textPreview":"cost AI măsurat / Moara cu noroc","textChars":32,"textLines":1,"bbox":[914,270,286,36]}
+{"kind":"shape","id":"sh/q1k769kj","slide":2,"bbox":[64,352,1152,264]}
+{"kind":"textbox","id":"sh/d4bq143a","slide":2,"text":"De ce merită continuat","textPreview":"De ce merită continuat","textChars":22,"textLines":1,"bbox":[92,378,330,34]}
+{"kind":"textbox","id":"sh/s3298j2p","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,429,24,30]}
+{"kind":"textbox","id":"sh/fqt83elg","slide":2,"text":"Reutilizare: același knowledge graph susține rezumate, exerciții și eseu.","textPreview":"Reutilizare: același knowledge graph susține rezumate, exerciții și eseu.","textChars":73,"textLines":1,"bbox":[116,430,476,46]}
+{"kind":"textbox","id":"sh/epkra9kv","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[92,495,24,30]}
+{"kind":"textbox","id":"sh/1svq5o36","slide":2,"text":"Control: validatoare locale, hash-uri și artefacte auditabile reduc riscul factual.","textPreview":"Control: validatoare locale, hash-uri și artefacte auditabile reduc riscul factual.","textChars":83,"textLines":1,"bbox":[116,496,476,46]}
+{"kind":"textbox","id":"sh/0rm9cj21","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[632,429,24,30]}
+{"kind":"textbox","id":"sh/vu98rulw","slide":2,"text":"Scalare: costul marginal de generare este mic; efortul critic rămâne QA-ul didactic.","textPreview":"Scalare: costul marginal de generare este mic; efortul critic rămâne QA-ul didactic.","textChars":84,"textLines":1,"bbox":[656,430,496,46]}
+{"kind":"textbox","id":"sh/ut07yp4r","slide":2,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[632,495,24,30]}
+{"kind":"textbox","id":"sh/kze5svi9","slide":2,"text":"Diferențiere: elevul trece de la citire la practică și redactare asistată în același flux.","textPreview":"Diferențiere: elevul trece de la citire la practică și redactare asistată în același flux.","textChars":90,"textLines":1,"bbox":[656,496,496,46]}
+{"kind":"shape","id":"sh/l0n61gju","slide":2,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/ydwnql0j","slide":2,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/je54zq1o","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/9uztnx","slide":2,"text":"Cele patru cifre sunt repere concrete ale produsului; costul este doar consumul modelului, nu TCO.\n\n[Sources]\n- data/works.json\n- data/generated_works/moara_cu_noroc/manifest.json\n- data/generated_works/moara_cu_noroc/testare-rapida/manifest.json\n- data/generated_works/moara_cu_noroc/cost-report.json\n[/Sources]"}
+{"kind":"slide","id":"sl/iebyw9","slide":3,"title":"EXPERIENȚA ELEVULUI","textShapes":19}
+{"kind":"textbox","id":"sh/72t03e5k","slide":3,"text":"EXPERIENȚA ELEVULUI","textPreview":"EXPERIENȚA ELEVULUI","textChars":19,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/s32hwjmp","slide":3,"text":"02 / FLUX","textPreview":"02 / FLUX","textChars":9,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/t4bi54na","slide":3,"text":"Un traseu simplu: înțelegere → practică → argumentare","textPreview":"Un traseu simplu: înțelegere → practică → argumentare","textChars":53,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/u5kzy94v","slide":3,"text":"Progresul și materialele salvate rămân asociate contului elevului.","textPreview":"Progresul și materialele salvate rămân asociate contului elevului.","textChars":66,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/f6t07e5g","slide":3,"bbox":[64,214,344,214]}
+{"kind":"shape","id":"sh/g72h0jm1","slide":3,"bbox":[86,236,48,48]}
+{"kind":"textbox","id":"sh/h8vi9onm","slide":3,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,243,48,30]}
+{"kind":"textbox","id":"sh/294j2t47","slide":3,"text":"Înțelege opera","textPreview":"Înțelege opera","textChars":14,"textLines":1,"bbox":[86,298,300,34]}
+{"kind":"textbox","id":"sh/3ad0by5c","slide":3,"text":"Rezumate pe capitole, personaje, relații, curent literar, secvențe relevante și elemente compoziționale.","textPreview":"Rezumate pe capitole, personaje, relații, curent literar, secvențe relevante și elemente compoziționale.","textChars":104,"textLines":1,"bbox":[86,338,300,70]}
+{"kind":"textbox","id":"sh/re5k36xc","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[416,292,50,58]}
+{"kind":"shape","id":"sh/qdw3ulgr","slide":3,"bbox":[468,214,344,214]}
+{"kind":"shape","id":"sh/dgn25gfi","slide":3,"bbox":[490,236,48,48]}
+{"kind":"textbox","id":"sh/sfelwbyx","slide":3,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[490,243,48,30]}
+{"kind":"textbox","id":"sh/3alkz6x0","slide":3,"text":"Testare rapidă","textPreview":"Testare rapidă","textChars":14,"textLines":1,"bbox":[490,298,300,34]}
+{"kind":"textbox","id":"sh/ipcjq1gv","slide":3,"text":"Flashcarduri, grile, cronologii, completări și asocieri, cu progres urmărit pe utilizator.","textPreview":"Flashcarduri, grile, cronologii, completări și asocieri, cu progres urmărit pe utilizator.","textChars":90,"textLines":1,"bbox":[490,338,300,70]}
+{"kind":"textbox","id":"sh/5cn21gf6","slide":3,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[820,292,50,58]}
+{"kind":"shape","id":"sh/4bulsbyl","slide":3,"bbox":[872,214,344,214]}
+{"kind":"shape","id":"sh/n6pkbaxk","slide":3,"bbox":[894,236,48,48]}
+{"kind":"textbox","id":"sh/2lg325wz","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[894,243,48,30]}
+{"kind":"textbox","id":"sh/y10na9g7","slide":3,"text":"Construiește eseul","textPreview":"Construiește eseul","textChars":18,"textLines":1,"bbox":[894,298,300,34]}
+{"kind":"textbox","id":"sh/j29o3uhs","slide":3,"text":"Diagramă de idei, paragrafe de până la 2.000 de caractere, citate transferate automat și feedback AI.","textPreview":"Diagramă de idei, paragrafe de până la 2.000 de caractere, citate transferate automat și feedback AI.","textChars":101,"textLines":1,"bbox":[894,338,300,70]}
+{"kind":"shape","id":"sh/k325czyd","slide":3,"bbox":[64,470,1152,140]}
+{"kind":"textbox","id":"sh/l4b654zi","slide":3,"text":"Profesorul AI este stratul de ghidare — nu sursa unică de adevăr.","textPreview":"Profesorul AI este stratul de ghidare — nu sursa unică de adevăr.","textChars":65,"textLines":1,"bbox":[92,494,720,38]}
+{"kind":"textbox","id":"sh/65kne9g3","slide":3,"text":"Contextul educațional provine din artefactele operei; animația de procesare face așteptarea vizibilă, iar răspunsurile sunt calibrate pentru sarcina curentă.","textPreview":"Contextul educațional provine din artefactele operei; animația de procesare face așteptarea vizibilă, iar răspunsurile sunt calibrate pen...","textChars":157,"textLines":1,"bbox":[92,542,1010,48]}
+{"kind":"shape","id":"sh/76to7eho","slide":3,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/8725gjy9","slide":3,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/t8b69ozu","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/iebyw9","slide":3,"text":"Prezentați produsul ca un traseu coerent, nu ca o colecție de funcții independente.\n\n[Sources]\n- pages/opera_page.py\n- components/learning_path_ui.py\n- components/quiz_ui.py\n- components/essay_ui.py\n- components/ai_status_ui.py\n- services/progress_service.py\n[/Sources]"}
+{"kind":"slide","id":"sl/3zlkei","slide":4,"title":"PROFUNZIMEA PRODUSULUI","textShapes":22}
+{"kind":"textbox","id":"sh/wja5sbex","slide":4,"text":"PROFUNZIMEA PRODUSULUI","textPreview":"PROFUNZIMEA PRODUSULUI","textChars":22,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/vi14j6xc","slide":4,"text":"03 / CONȚINUT","textPreview":"03 / CONȚINUT","textChars":13,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/uhsnq1wr","slide":4,"text":"Exemplu concret: Moara cu noroc, pachet educațional complet","textPreview":"Exemplu concret: Moara cu noroc, pachet educațional complet","textChars":59,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/583mpgfe","slide":4,"text":"Conținutul nu se limitează la un rezumat sau la un chatbot generic.","textPreview":"Conținutul nu se limitează la un rezumat sau la un chatbot generic.","textChars":67,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/47u5wbet","slide":4,"bbox":[64,200,520,416]}
+{"kind":"textbox","id":"sh/j6l4n6x8","slide":4,"text":"ÎNȚELEGERE","textPreview":"ÎNȚELEGERE","textChars":10,"textLines":1,"bbox":[92,230,210,24]}
+{"kind":"textbox","id":"sh/i5cnu1w3","slide":4,"text":"17 capitole","textPreview":"17 capitole","textChars":11,"textLines":1,"bbox":[92,270,380,52]}
+{"kind":"textbox","id":"sh/lczmdcfa","slide":4,"text":"Rezumate protejate de sursă, hărți de personaje, secvențe, curent literar și elemente compoziționale.","textPreview":"Rezumate protejate de sursă, hărți de personaje, secvențe, curent literar și elemente compoziționale.","textChars":101,"textLines":1,"bbox":[92,332,416,92]}
+{"kind":"shape","id":"sh/kbq5kryp","slide":4,"bbox":[92,462,432,1.5]}
+{"kind":"textbox","id":"sh/ylsj294z","slide":4,"text":"Eseul respectă strict trăsăturile dezvoltate în modelul profesorului și verifică fragmentele-sursă.","textPreview":"Eseul respectă strict trăsăturile dezvoltate în modelul profesorului și verifică fragmentele-sursă.","textChars":99,"textLines":1,"bbox":[92,490,416,82]}
+{"kind":"shape","id":"sh/zm1kve5k","slide":4,"bbox":[620,200,596,416]}
+{"kind":"textbox","id":"sh/0nu14jm5","slide":4,"text":"TESTARE RAPIDĂ","textPreview":"TESTARE RAPIDĂ","textChars":14,"textLines":1,"bbox":[650,230,220,24]}
+{"kind":"shape","id":"sh/lo32xonq","slide":4,"bbox":[650,276,244,76]}
+{"kind":"textbox","id":"sh/mpc36t4b","slide":4,"text":"93","textPreview":"93","textChars":2,"textLines":1,"bbox":[666,289,64,38]}
+{"kind":"textbox","id":"sh/nqlkze5w","slide":4,"text":"flashcarduri","textPreview":"flashcarduri","textChars":12,"textLines":1,"bbox":[734,296,144,32]}
+{"kind":"shape","id":"sh/8rul8jmh","slide":4,"bbox":[916,276,244,76]}
+{"kind":"textbox","id":"sh/9s321onm","slide":4,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[932,289,64,38]}
+{"kind":"textbox","id":"sh/atc3at47","slide":4,"text":"grile","textPreview":"grile","textChars":5,"textLines":1,"bbox":[1000,296,144,32]}
+{"kind":"shape","id":"sh/vulk3y5s","slide":4,"bbox":[650,372,244,76]}
+{"kind":"textbox","id":"sh/7y5kry10","slide":4,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[666,385,64,38]}
+{"kind":"textbox","id":"sh/6xwjitkf","slide":4,"text":"cronologii","textPreview":"cronologii","textChars":10,"textLines":1,"bbox":[734,392,144,32]}
+{"kind":"shape","id":"sh/tkn2t8j6","slide":4,"bbox":[916,372,244,76]}
+{"kind":"textbox","id":"sh/sje1k32l","slide":4,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[932,385,64,38]}
+{"kind":"textbox","id":"sh/ju50nylo","slide":4,"text":"completări","textPreview":"completări","textChars":10,"textLines":1,"bbox":[1000,392,144,32]}
+{"kind":"shape","id":"sh/itcjetkj","slide":4,"bbox":[650,468,244,76]}
+{"kind":"textbox","id":"sh/5wnipo3u","slide":4,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[666,481,64,38]}
+{"kind":"textbox","id":"sh/kve1gj29","slide":4,"text":"seturi de asociere","textPreview":"seturi de asociere","textChars":18,"textLines":1,"bbox":[734,488,144,32]}
+{"kind":"textbox","id":"sh/vql0jels","slide":4,"text":"+ 48 perechi în seturile de asociere","textPreview":"+ 48 perechi în seturile de asociere","textChars":36,"textLines":1,"bbox":[650,574,520,24]}
+{"kind":"shape","id":"sh/apcjq9k7","slide":4,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/0vahkfi5","slide":4,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/lwjytkjq","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/3zlkei","slide":4,"text":"Acest slide demonstrează densitatea livrabilului pentru o singură operă și separă înțelegerea de evaluare.\n\n[Sources]\n- data/generated_works/moara_cu_noroc/intelegere-opera/manifest.json\n- data/generated_works/moara_cu_noroc/testare-rapida/manifest.json\n- data/generated_works/moara_cu_noroc/construieste-eseu/manifest.json\n[/Sources]"}
+{"kind":"slide","id":"sl/9aarsa","slide":5,"title":"ARHITECTURA CONȚINUTULUI","textShapes":27}
+{"kind":"textbox","id":"sh/5ojepknm","slide":5,"text":"ARHITECTURA CONȚINUTULUI","textPreview":"ARHITECTURA CONȚINUTULUI","textChars":24,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/il8vu5ov","slide":5,"text":"04 / PIPELINE","textPreview":"04 / PIPELINE","textChars":13,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/3mhwna5g","slide":5,"text":"Din PDF și eseu-model până la materiale publicabile","textPreview":"Din PDF și eseu-model până la materiale publicabile","textChars":51,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/gzqdsv65","slide":5,"text":"Pipeline-ul este reluabil, validat local și păstrează fiecare rezultat intermediar.","textPreview":"Pipeline-ul este reluabil, validat local și păstrează fiecare rezultat intermediar.","textChars":83,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/h0zul07q","slide":5,"bbox":[64,244,190,236]}
+{"kind":"textbox","id":"sh/ux8vq5oz","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[84,264,52,28]}
+{"kind":"textbox","id":"sh/vyhcjqpk","slide":5,"text":"Surse","textPreview":"Surse","textChars":5,"textLines":1,"bbox":[84,306,150,56]}
+{"kind":"textbox","id":"sh/0vad4z69","slide":5,"text":"PDF integral\nEseu-model","textPreview":"PDF integral | Eseu-model","textChars":23,"textLines":2,"bbox":[84,380,150,64]}
+{"kind":"textbox","id":"sh/1w3ex4nu","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[254,326,36,42]}
+{"kind":"shape","id":"sh/l8f2tw3u","slide":5,"bbox":[290,244,190,236]}
+{"kind":"textbox","id":"sh/076lkrm9","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[310,264,52,28]}
+{"kind":"textbox","id":"sh/z6xkrmlo","slide":5,"text":"Knowledge graph","textPreview":"Knowledge graph","textChars":15,"textLines":1,"bbox":[310,306,150,56]}
+{"kind":"textbox","id":"sh/y5o3ih4j","slide":5,"text":"evenimente • relații\nevidențe • literar","textPreview":"evenimente • relații | evidențe • literar","textChars":39,"textLines":2,"bbox":[310,380,150,64]}
+{"kind":"textbox","id":"sh/d4f2pc3y","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[480,326,36,42]}
+{"kind":"shape","id":"sh/c36lg7md","slide":5,"bbox":[516,244,190,236]}
+{"kind":"textbox","id":"sh/b2dkn25s","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[536,264,52,28]}
+{"kind":"textbox","id":"sh/q143ex47","slide":5,"text":"Generare Qwen","textPreview":"Generare Qwen","textChars":13,"textLines":1,"bbox":[536,306,150,56]}
+{"kind":"textbox","id":"sh/x0zm1g32","slide":5,"text":"pachete fixe\nreasoning medium","textPreview":"pachete fixe | reasoning medium","textChars":29,"textLines":2,"bbox":[536,380,150,64]}
+{"kind":"textbox","id":"sh/wzqlsbmh","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[706,326,36,42]}
+{"kind":"shape","id":"sh/g3y5ofut","slide":5,"bbox":[742,244,190,236]}
+{"kind":"textbox","id":"sh/h476xkbe","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[762,264,52,28]}
+{"kind":"textbox","id":"sh/uhgnm5cn","slide":5,"text":"Validare","textPreview":"Validare","textChars":8,"textLines":1,"bbox":[762,306,150,56]}
+{"kind":"textbox","id":"sh/f2povat8","slide":5,"text":"scheme • reguli\nhash-uri • audit","textPreview":"scheme • reguli | hash-uri • audit","textChars":32,"textLines":2,"bbox":[762,380,150,64]}
+{"kind":"textbox","id":"sh/sfy5kvuh","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[932,326,36,42]}
+{"kind":"shape","id":"sh/tg7mt0b2","slide":5,"bbox":[968,244,190,236]}
+{"kind":"textbox","id":"sh/6dwni5cr","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[988,264,52,28]}
+{"kind":"textbox","id":"sh/7ep4ratc","slide":5,"text":"Publicare","textPreview":"Publicare","textChars":9,"textLines":1,"bbox":[988,306,150,56]}
+{"kind":"textbox","id":"sh/kbe5gvul","slide":5,"text":"înțelegere • teste\neseu • registru","textPreview":"înțelegere • teste | eseu • registru","textChars":34,"textLines":2,"bbox":[988,380,150,64]}
+{"kind":"shape","id":"sh/5cnmp0b6","slide":5,"bbox":[64,520,1094,88]}
+{"kind":"textbox","id":"sh/n6lozqxs","slide":5,"text":"Sursa nu este rescrisă","textPreview":"Sursa nu este rescrisă","textChars":22,"textLines":1,"bbox":[86,542,270,24]}
+{"kind":"textbox","id":"sh/m5cn6lw7","slide":5,"text":"Hash-urile detectează schimbările, rulările pot fi reluate, iar artefactele deja valide pot fi reutilizate fără cost suplimentar.","textPreview":"Hash-urile detectează schimbările, rulările pot fi reluate, iar artefactele deja valide pot fi reutilizate fără cost suplimentar.","textChars":129,"textLines":1,"bbox":[350,538,772,42]}
+{"kind":"shape","id":"sh/98n610vy","slide":5,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/o7ep8ved","slide":5,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/ba5o3qd4","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/9aarsa","slide":5,"text":"Accentuați diferența față de un prompt unic: Bacado are un proces editorial tehnic, nu doar o cerere trimisă unui model.\n\n[Sources]\n- scripts/build_complete_work.py\n- scripts/README-creare-opera.md\n- data/generated_works/moara_cu_noroc/manifest.json\n- cercetare-qwen/README.md\n[/Sources]"}
+{"kind":"slide","id":"sl/2zrn79","slide":6,"title":"NUCLEUL DIFERENȚIATOR","textShapes":27}
+{"kind":"textbox","id":"sh/a5w7m5gf","slide":6,"text":"NUCLEUL DIFERENȚIATOR","textPreview":"NUCLEUL DIFERENȚIATOR","textChars":21,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/x876xkz6","slide":6,"text":"05 / KNOWLEDGE GRAPH","textPreview":"05 / KNOWLEDGE GRAPH","textChars":20,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/c7ypofyl","slide":6,"text":"Knowledge graph-ul este contractul factual al produsului","textPreview":"Knowledge graph-ul este contractul factual al produsului","textChars":56,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/zupozahc","slide":6,"text":"Leagă conținutul educațional de personaje, evenimente, relații, cronologie și dovezi din operă.","textPreview":"Leagă conținutul educațional de personaje, evenimente, relații, cronologie și dovezi din operă.","textChars":95,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/ytg7q5gr","slide":6,"bbox":[64,204,590,408]}
+{"kind":"textbox","id":"sh/lw7q1kzi","slide":6,"text":"MOARA CU NOROC","textPreview":"MOARA CU NOROC","textChars":14,"textLines":1,"bbox":[88,228,250,22]}
+{"kind":"shape","id":"sh/kvypsfyx","slide":6,"bbox":[246,320,224,74]}
+{"kind":"textbox","id":"sh/fylonqhs","slide":6,"text":"OPERĂ","textPreview":"OPERĂ","textChars":5,"textLines":1,"bbox":[246,342,224,28]}
+{"kind":"shape","id":"sh/excnel0n","slide":6,"bbox":[92,274,126,58]}
+{"kind":"textbox","id":"sh/cvihkb69","slide":6,"text":"personaje","textPreview":"personaje","textChars":9,"textLines":1,"bbox":[100,291,110,25]}
+{"kind":"shape","id":"sh/xwrytgnu","slide":6,"bbox":[492,270,130,58]}
+{"kind":"textbox","id":"sh/at0fi1oj","slide":6,"text":"evenimente","textPreview":"evenimente","textChars":10,"textLines":1,"bbox":[500,287,114,25]}
+{"kind":"shape","id":"sh/bu9gr654","slide":6,"bbox":[92,438,136,58]}
+{"kind":"textbox","id":"sh/kzihov6l","slide":6,"text":"curent literar","textPreview":"curent literar","textChars":14,"textLines":1,"bbox":[100,455,120,25]}
+{"kind":"shape","id":"sh/lkbyx0n6","slide":6,"bbox":[486,442,136,58]}
+{"kind":"textbox","id":"sh/yx0zmlof","slide":6,"text":"compoziție","textPreview":"compoziție","textChars":10,"textLines":1,"bbox":[494,459,120,25]}
+{"kind":"shape","id":"sh/zy9gvq50","slide":6,"bbox":[284,514,144,58]}
+{"kind":"textbox","id":"sh/03yxcr61","slide":6,"text":"evidențe PDF","textPreview":"evidențe PDF","textChars":12,"textLines":1,"bbox":[292,531,128,25]}
+{"kind":"textbox","id":"sh/147ylwnm","slide":6,"text":"↖","textPreview":"↖","textChars":1,"textLines":1,"bbox":[213,300,40,40]}
+{"kind":"textbox","id":"sh/h8fmtobe","slide":6,"text":"↗","textPreview":"↗","textChars":1,"textLines":1,"bbox":[465,300,40,40]}
+{"kind":"textbox","id":"sh/g7650jut","slide":6,"text":"↙","textPreview":"↙","textChars":1,"textLines":1,"bbox":[218,398,40,40]}
+{"kind":"textbox","id":"sh/vmx4ret8","slide":6,"text":"↘","textPreview":"↘","textChars":1,"textLines":1,"bbox":[462,398,40,40]}
+{"kind":"textbox","id":"sh/ulonytcn","slide":6,"text":"↓","textPreview":"↓","textChars":1,"textLines":1,"bbox":[338,402,40,62]}
+{"kind":"shape","id":"sh/5cz6x8ba","slide":6,"bbox":[690,204,526,408]}
+{"kind":"textbox","id":"sh/4bq543u5","slide":6,"text":"Ce câștigăm","textPreview":"Ce câștigăm","textChars":11,"textLines":1,"bbox":[720,230,300,34]}
+{"kind":"textbox","id":"sh/3ax4vytk","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[720,285,24,30]}
+{"kind":"textbox","id":"sh/i9on2tcz","slide":6,"text":"Autosuficiență: aplicația poate răspunde din structura operei, nu din memoria generică a modelului.","textPreview":"Autosuficiență: aplicația poate răspunde din structura operei, nu din memoria generică a modelului.","textChars":99,"textLines":1,"bbox":[744,286,424,66]}
+{"kind":"textbox","id":"sh/dgz618bm","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[720,373,24,30]}
+{"kind":"textbox","id":"sh/sfq583u1","slide":6,"text":"Trasabilitate: evenimentele pot include pagină, locator și fragment de evidență.","textPreview":"Trasabilitate: evenimentele pot include pagină, locator și fragment de evidență.","textChars":80,"textLines":1,"bbox":[744,374,424,58]}
+{"kind":"textbox","id":"sh/alkj25sj","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[720,449,24,30]}
+{"kind":"textbox","id":"sh/bmtkva94","slide":6,"text":"Coerență: aceleași entități sunt reutilizate în rezumate, exerciții și eseu.","textPreview":"Coerență: aceleași entități sunt reutilizate în rezumate, exerciții și eseu.","textChars":76,"textLines":1,"bbox":[744,450,424,58]}
+{"kind":"textbox","id":"sh/cn214fap","slide":6,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[720,525,24,30]}
+{"kind":"textbox","id":"sh/xob2xkru","slide":6,"text":"Extensibilitate: noduri dedicate curentului literar și elementelor compoziționale.","textPreview":"Extensibilitate: noduri dedicate curentului literar și elementelor compoziționale.","textChars":82,"textLines":1,"bbox":[744,526,424,58]}
+{"kind":"shape","id":"sh/ypk36psf","slide":6,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/zqtkzu90","slide":6,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/kr2l8fal","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/2zrn79","slide":6,"text":"Explicați knowledge graph-ul ca pe o bază editorială structurată, nu ca pe un grafic decorativ.\n\n[Sources]\n- grafuri/moara-cu-noroc/knowledge-graph.json\n- grafuri/moara-cu-noroc/prompt-generare-graf-moara-cu-noroc.md\n- data/generated_works/moara_cu_noroc/intelegere-opera/manifest.json\n- cercetare-qwen/README.md\n[/Sources]"}
+{"kind":"slide","id":"sl/220hu9","slide":7,"title":"STACK TEHNOLOGIC","textShapes":19}
+{"kind":"textbox","id":"sh/gfe94bad","slide":7,"text":"STACK TEHNOLOGIC","textPreview":"STACK TEHNOLOGIC","textChars":16,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/fe5sv6t8","slide":7,"text":"06 / IMPLEMENTARE","textPreview":"06 / IMPLEMENTARE","textChars":17,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/udwr21sn","slide":7,"text":"Tehnologii pragmatice, cu separare clară între UI, servicii, date și AI","textPreview":"Tehnologii pragmatice, cu separare clară între UI, servicii, date și AI","textChars":71,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/p47a1gba","slide":7,"text":"Componentele sunt în mare parte Python; interacțiunile bogate folosesc HTML/JavaScript în Streamlit.","textPreview":"Componentele sunt în mare parte Python; interacțiunile bogate folosesc HTML/JavaScript în Streamlit.","textChars":100,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/43e98bap","slide":7,"bbox":[92,208,154,42]}
+{"kind":"textbox","id":"sh/325sz6t4","slide":7,"text":"Interfață","textPreview":"Interfață","textChars":9,"textLines":1,"bbox":[104,217,130,25]}
+{"kind":"textbox","id":"sh/2hwr6lsj","slide":7,"text":"Streamlit + componente HTML/JavaScript pentru hărți, exerciții și adnotări","textPreview":"Streamlit + componente HTML/JavaScript pentru hărți, exerciții și adnotări","textChars":74,"textLines":1,"bbox":[270,215,780,34]}
+{"kind":"shape","id":"sh/583qpwbq","slide":7,"bbox":[92,270,154,42]}
+{"kind":"textbox","id":"sh/k7u9wral","slide":7,"text":"Aplicație","textPreview":"Aplicație","textChars":9,"textLines":1,"bbox":[104,279,130,25]}
+{"kind":"textbox","id":"sh/e5srqx4n","slide":7,"text":"Python: pagini, servicii, pipeline-uri deterministe și validatoare locale","textPreview":"Python: pagini, servicii, pipeline-uri deterministe și validatoare locale","textChars":73,"textLines":1,"bbox":[270,277,780,34]}
+{"kind":"shape","id":"sh/zq1sj258","slide":7,"bbox":[92,332,154,42]}
+{"kind":"textbox","id":"sh/0ra9s7md","slide":7,"text":"Date","textPreview":"Date","textChars":4,"textLines":1,"bbox":[104,341,130,25]}
+{"kind":"textbox","id":"sh/1sjalcny","slide":7,"text":"JSON/Markdown pentru artefacte; SQLite pentru utilizatori, progres, notițe și eseuri","textPreview":"JSON/Markdown pentru artefacte; SQLite pentru utilizatori, progres, notițe și eseuri","textChars":84,"textLines":1,"bbox":[270,339,780,34]}
+{"kind":"shape","id":"sh/mtcruh4j","slide":7,"bbox":[92,394,154,42]}
+{"kind":"textbox","id":"sh/nulsn254","slide":7,"text":"AI online","textPreview":"AI online","textChars":9,"textLines":1,"bbox":[104,403,130,25]}
+{"kind":"textbox","id":"sh/ovu9w7mp","slide":7,"text":"OpenRouter Chat Completions + qwen/qwen3.7-flash, răspuns text sau JSON","textPreview":"OpenRouter Chat Completions + qwen/qwen3.7-flash, răspuns text sau JSON","textChars":71,"textLines":1,"bbox":[270,401,780,34]}
+{"kind":"shape","id":"sh/9w3apcna","slide":7,"bbox":[92,456,154,42]}
+{"kind":"textbox","id":"sh/axcryh4v","slide":7,"text":"Cercetare","textPreview":"Cercetare","textChars":9,"textLines":1,"bbox":[104,465,130,25]}
+{"kind":"textbox","id":"sh/bylsrm50","slide":7,"text":"Sentence Transformers + PyTorch; Transformers/PEFT/LoRA în prototipul RQUGE-Ro","textPreview":"Sentence Transformers + PyTorch; Transformers/PEFT/LoRA în prototipul RQUGE-Ro","textChars":78,"textLines":1,"bbox":[270,463,780,34]}
+{"kind":"shape","id":"sh/7258fm18","slide":7,"bbox":[92,518,154,42]}
+{"kind":"textbox","id":"sh/61wr6hkn","slide":7,"text":"Operare","textPreview":"Operare","textChars":7,"textLines":1,"bbox":[104,527,130,25]}
+{"kind":"textbox","id":"sh/tonqhwje","slide":7,"text":"Hash-uri SHA-256, manifeste, rezultate brute, cost-report și rulări reluabile","textPreview":"Hash-uri SHA-256, manifeste, rezultate brute, cost-report și rulări reluabile","textChars":77,"textLines":1,"bbox":[270,525,780,34]}
+{"kind":"shape","id":"sh/8ne98r2t","slide":7,"bbox":[1098,204,118,356]}
+{"kind":"textbox","id":"sh/jyl8bm1c","slide":7,"text":"EDITABIL\n\nAUDITABIL\n\nEXTENSIBIL","textPreview":"EDITABIL |  | AUDITABIL |  | EXTENSIBIL","textChars":31,"textLines":5,"bbox":[1112,244,90,260]}
+{"kind":"shape","id":"sh/yxcr2hkr","slide":7,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/l0nqdcj2","slide":7,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/kzu9472x","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/220hu9","slide":7,"text":"Acesta este slide-ul de inventar tehnic; evitați să îl transformați într-o listă de buzzwords.\n\n[Sources]\n- app.py\n- components/\n- services/\n- services/openrouter_provider.py\n- services/auth_service.py\n- cercetare/experiment2/requirements.txt\n- cercetare/experiment3/rquge_ro/requirements.txt\n[/Sources]"}
+{"kind":"slide","id":"sl/bpgoqg","slide":8,"title":"FIABILITATE & SECURITATE","textShapes":28}
+{"kind":"textbox","id":"sh/m9wrmxor","slide":8,"text":"FIABILITATE & SECURITATE","textPreview":"FIABILITATE & SECURITATE","textChars":24,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/9cnahcn2","slide":8,"text":"07 / CONTROL","textPreview":"07 / CONTROL","textChars":12,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/obe9o76x","slide":8,"text":"AI-ul este încadrat de controale locale și urme de audit","textPreview":"AI-ul este încadrat de controale locale și urme de audit","textChars":56,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/zm58b2p0","slide":8,"text":"Controlul nu elimină riscul, dar îl face detectabil și gestionabil.","textPreview":"Controlul nu elimină riscul, dar îl face detectabil și gestionabil.","textChars":67,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/elcrixof","slide":8,"bbox":[64,218,352,358]}
+{"kind":"shape","id":"sh/18nadc76","slide":8,"bbox":[64,218,352,10]}
+{"kind":"textbox","id":"sh/0ne9k76l","slide":8,"text":"Corectitudine","textPreview":"Corectitudine","textChars":13,"textLines":1,"bbox":[90,254,300,36]}
+{"kind":"textbox","id":"sh/jipsnm5k","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[90,315,24,30]}
+{"kind":"textbox","id":"sh/ihgruhoz","slide":8,"text":"JSON și scheme validate local","textPreview":"JSON și scheme validate local","textChars":29,"textLines":1,"bbox":[114,316,272,48]}
+{"kind":"textbox","id":"sh/k7q5ov2h","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[90,387,24,30]}
+{"kind":"textbox","id":"sh/58jmh0j2","slide":8,"text":"Reguli stricte pentru eseul-model","textPreview":"Reguli stricte pentru eseul-model","textChars":33,"textLines":1,"bbox":[114,388,272,48]}
+{"kind":"textbox","id":"sh/i58nmlkb","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[90,459,24,30]}
+{"kind":"textbox","id":"sh/j6h4fq1w","slide":8,"text":"Fragmente și secvențe verificate","textPreview":"Fragmente și secvențe verificate","textChars":32,"textLines":1,"bbox":[114,460,272,48]}
+{"kind":"shape","id":"sh/w3qlkb2l","slide":8,"bbox":[448,218,352,358]}
+{"kind":"shape","id":"sh/x4zmdgj6","slide":8,"bbox":[448,218,352,10]}
+{"kind":"textbox","id":"sh/ah83ilkf","slide":8,"text":"Reproductibilitate","textPreview":"Reproductibilitate","textChars":18,"textLines":1,"bbox":[474,254,300,36]}
+{"kind":"textbox","id":"sh/vih4b610","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[474,315,24,30]}
+{"kind":"textbox","id":"sh/8f6lgb29","slide":8,"text":"Prompturi și intrări hash-uite","textPreview":"Prompturi și intrări hash-uite","textChars":30,"textLines":1,"bbox":[498,316,272,48]}
+{"kind":"textbox","id":"sh/9gfm9gju","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[474,387,24,30]}
+{"kind":"textbox","id":"sh/p07ax8rm","slide":8,"text":"Rezultate brute păstrate","textPreview":"Rezultate brute păstrate","textChars":24,"textLines":1,"bbox":[498,388,272,48]}
+{"kind":"textbox","id":"sh/ozyto3q1","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[474,459,24,30]}
+{"kind":"textbox","id":"sh/3y5svy9g","slide":8,"text":"Rulări reluabile și reutilizare","textPreview":"Rulări reluabile și reutilizare","textChars":31,"textLines":1,"bbox":[498,460,272,48]}
+{"kind":"shape","id":"sh/2xwbmt8v","slide":8,"bbox":[832,218,352,358]}
+{"kind":"shape","id":"sh/1wnatora","slide":8,"bbox":[832,218,352,10]}
+{"kind":"textbox","id":"sh/gvetkjqp","slide":8,"text":"Date & acces","textPreview":"Date & acces","textChars":12,"textLines":1,"bbox":[858,254,300,36]}
+{"kind":"textbox","id":"sh/fu5sry9k","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[858,315,24,30]}
+{"kind":"textbox","id":"sh/etwbit8z","slide":8,"text":"SQLite cu separare per utilizator","textPreview":"SQLite cu separare per utilizator","textChars":33,"textLines":1,"bbox":[882,316,272,48]}
+{"kind":"textbox","id":"sh/lsru5s7u","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[858,387,24,30]}
+{"kind":"textbox","id":"sh/0ritwnq9","slide":8,"text":"PBKDF2-SHA256 pentru parole","textPreview":"PBKDF2-SHA256 pentru parole","textChars":27,"textLines":1,"bbox":[882,388,272,48]}
+{"kind":"textbox","id":"sh/ixs7qpor","slide":8,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[858,459,24,30]}
+{"kind":"textbox","id":"sh/jy18zupc","slide":8,"text":"Token semnat, expirare la 24 h","textPreview":"Token semnat, expirare la 24 h","textChars":30,"textLines":1,"bbox":[882,460,272,48]}
+{"kind":"textbox","id":"sh/kza9sz6h","slide":8,"text":"Configurația OpenRouter cere respectarea parametrilor, permite fallback și setează data_collection = deny.","textPreview":"Configurația OpenRouter cere respectarea parametrilor, permite fallback și setează data_collection = deny.","textChars":106,"textLines":1,"bbox":[64,606,1152,34]}
+{"kind":"shape","id":"sh/503q1k72","slide":8,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/a9s7m5of","slide":8,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/va18vap0","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/bpgoqg","slide":8,"text":"Prezentați aceste controale ca bază bună pentru pilot; înainte de producție este necesară întărirea secretelor și a operării.\n\n[Sources]\n- services/openrouter_provider.py\n- services/auth_service.py\n- services/progress_service.py\n- data/generated_works/moara_cu_noroc/manifest.json\n- data/generated_works/moara_cu_noroc/construieste-eseu/manifest.json\n[/Sources]"}
+{"kind":"slide","id":"sl/0g333g","slide":9,"title":"PROGRAMUL DE CERCETARE","textShapes":20}
+{"kind":"textbox","id":"sh/1kv69czi","slide":9,"text":"PROGRAMUL DE CERCETARE","textPreview":"PROGRAMUL DE CERCETARE","textChars":22,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/ex47exgr","slide":9,"text":"08 / EVALUARE","textPreview":"08 / EVALUARE","textChars":13,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/fydo72hc","slide":9,"text":"Cercetarea reduce riscul de model și de evaluare superficială","textPreview":"Cercetarea reduce riscul de model și de evaluare superficială","textChars":61,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/on6pkryt","slide":9,"text":"Trei experimente construiesc progresiv un cadru pentru calitate factuală, semantică și pedagogică.","textPreview":"Trei experimente construiesc progresiv un cadru pentru calitate factuală, semantică și pedagogică.","textChars":98,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/pof6dcfe","slide":9,"bbox":[64,220,344,214]}
+{"kind":"shape","id":"sh/2l47ihgn","slide":9,"bbox":[86,242,48,48]}
+{"kind":"textbox","id":"sh/3mxobmx8","slide":9,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[86,249,48,30]}
+{"kind":"textbox","id":"sh/cr6pory5","slide":9,"text":"Baseline controlat","textPreview":"Baseline controlat","textChars":18,"textLines":1,"bbox":[86,304,300,34]}
+{"kind":"textbox","id":"sh/dsf6hwfa","slide":9,"text":"Prompt, graf și evaluator fixe. Sunt salvate răspunsurile brute, scorurile, metadatele și validitatea JSON.","textPreview":"Prompt, graf și evaluator fixe. Sunt salvate răspunsurile brute, scorurile, metadatele și validitatea JSON.","textChars":107,"textLines":1,"bbox":[86,344,300,70]}
+{"kind":"textbox","id":"sh/107qt8z6","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[416,298,50,58]}
+{"kind":"shape","id":"sh/gzyp03y1","slide":9,"bbox":[468,220,344,214]}
+{"kind":"shape","id":"sh/fyp8ryhg","slide":9,"bbox":[490,242,48,48]}
+{"kind":"textbox","id":"sh/exg7ydgv","slide":9,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[490,249,48,30]}
+{"kind":"textbox","id":"sh/p4rqxsfi","slide":9,"text":"Semantică + stil","textPreview":"Semantică + stil","textChars":16,"textLines":1,"bbox":[490,304,300,34]}
+{"kind":"textbox","id":"sh/o3i94nyx","slide":9,"text":"Embeddings multilingve detectează duplicatele; profilul stilistic penalizează umplutura și repetițiile.","textPreview":"Embeddings multilingve detectează duplicatele; profilul stilistic penalizează umplutura și repetițiile.","textChars":103,"textLines":1,"bbox":[490,344,300,70]}
+{"kind":"textbox","id":"sh/3298vixc","slide":9,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[820,298,50,58]}
+{"kind":"shape","id":"sh/21g72dgr","slide":9,"bbox":[872,220,344,214]}
+{"kind":"shape","id":"sh/58nqloze","slide":9,"bbox":[894,242,48,48]}
+{"kind":"textbox","id":"sh/47epsjyt","slide":9,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[894,249,48,30]}
+{"kind":"textbox","id":"sh/wbip836p","slide":9,"text":"RQUGE-Ro","textPreview":"RQUGE-Ro","textChars":8,"textLines":1,"bbox":[894,304,300,34]}
+{"kind":"textbox","id":"sh/xcrq1o7u","slide":9,"text":"Prototip de evaluator antrenabil în limba română, bazat pe mT5, XLM-R și opțional LoRA.","textPreview":"Prototip de evaluator antrenabil în limba română, bazat pe mT5, XLM-R și opțional LoRA.","textChars":87,"textLines":1,"bbox":[894,344,300,70]}
+{"kind":"shape","id":"sh/ap076toj","slide":9,"bbox":[64,484,1152,126]}
+{"kind":"textbox","id":"sh/va98zyp4","slide":9,"text":"Stadiu actual","textPreview":"Stadiu actual","textChars":13,"textLines":1,"bbox":[90,510,180,24]}
+{"kind":"textbox","id":"sh/kfi9c36l","slide":9,"text":"Experimentele 1–2 au rezultate înregistrate. Experimentul 3 este infrastructură de cercetare și nu contribuie încă la scorul oficial.","textPreview":"Experimentele 1–2 au rezultate înregistrate. Experimentul 3 este infrastructură de cercetare și nu contribuie încă la scorul oficial.","textChars":133,"textLines":1,"bbox":[270,506,884,52]}
+{"kind":"textbox","id":"sh/5gbq5876","slide":9,"text":"Pragurile semantice sunt provizorii și trebuie calibrate pe perechi etichetate de evaluatori BAC.","textPreview":"Pragurile semantice sunt provizorii și trebuie calibrate pe perechi etichetate de evaluatori BAC.","textChars":97,"textLines":1,"bbox":[270,564,884,30]}
+{"kind":"shape","id":"sh/id0ratof","slide":9,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/je983yp0","slide":9,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/sj29gn6h","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/0g333g","slide":9,"text":"Fiți explicit privind maturitatea: RQUGE-Ro este direcție de cercetare, nu funcționalitate validată în producție.\n\n[Sources]\n- cercetare/experiment1/README.md\n- cercetare/experiment2/README.md\n- cercetare/experiment3/README.md\n- cercetare/experiment3/rquge_ro/requirements.txt\n[/Sources]"}
+{"kind":"slide","id":"sl/m2fxwn","slide":10,"title":"REZULTATE DE CERCETARE","textShapes":13}
+{"kind":"textbox","id":"sh/q183ih03","slide":10,"text":"REZULTATE DE CERCETARE","textPreview":"REZULTATE DE CERCETARE","textChars":22,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/d4zmtwze","slide":10,"text":"09 / DATE","textPreview":"09 / DATE","textChars":9,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/c3qlkri9","slide":10,"text":"Progres tehnic, dar nu încă impact demonstrat","textPreview":"Progres tehnic, dar nu încă impact demonstrat","textChars":45,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/3exkn2hc","slide":10,"text":"Scorurile sunt utile pentru selecția inginerească; comparația nu este un studiu pedagogic final.","textPreview":"Scorurile sunt utile pentru selecția inginerească; comparația nu este un studiu pedagogic final.","textChars":96,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/2do3ux0r","slide":10,"bbox":[64,214,708,348]}
+{"kind":"textbox","id":"sh/p0z2pczi","slide":10,"text":"Cel mai bun scor valid / experiment","textPreview":"Cel mai bun scor valid / experiment","textChars":35,"textLines":1,"bbox":[90,240,420,28]}
+{"kind":"shape","id":"sh/faxkj2hg","slide":10,"bbox":[804,214,412,154]}
+{"kind":"textbox","id":"sh/e9o3qx0v","slide":10,"text":"4 / 5","textPreview":"4 / 5","textChars":5,"textLines":1,"bbox":[830,238,150,44]}
+{"kind":"textbox","id":"sh/orqh8ful","slide":10,"text":"rulări complet valide în Experimentul 1","textPreview":"rulări complet valide în Experimentul 1","textChars":39,"textLines":1,"bbox":[830,290,320,48]}
+{"kind":"shape","id":"sh/pszy1kv6","slide":10,"bbox":[804,386,412,176]}
+{"kind":"textbox","id":"sh/2p8z65cf","slide":10,"text":"5 / 7","textPreview":"5 / 7","textChars":5,"textLines":1,"bbox":[830,412,150,44]}
+{"kind":"textbox","id":"sh/nqhgzad0","slide":10,"text":"rulări complet valide în Experimentul 2","textPreview":"rulări complet valide în Experimentul 2","textChars":39,"textLines":1,"bbox":[830,466,320,48]}
+{"kind":"textbox","id":"sh/0nqh4vup","slide":10,"text":"+1,21 puncte între cele mai bune rulări","textPreview":"+1,21 puncte între cele mai bune rulări","textChars":39,"textLines":1,"bbox":[830,524,330,24]}
+{"kind":"shape","id":"sh/1ozyx0vu","slide":10,"bbox":[64,590,1152,50]}
+{"kind":"textbox","id":"sh/eloz25cj","slide":10,"text":"Notă: modelele, providerii și numărul de rulări diferă; rezultatul este orientativ, nu o concluzie cauzală.","textPreview":"Notă: modelele, providerii și numărul de rulări diferă; rezultatul este orientativ, nu o concluzie cauzală.","textChars":107,"textLines":1,"bbox":[84,604,1110,24]}
+{"kind":"shape","id":"sh/fmhgvad4","slide":10,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/kjahgzut","slide":10,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/lkji94be","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"chart","id":"ch/kz2hobml","slide":10,"name":"","chartType":"bar","bbox":[88,286,636,228]}
+{"kind":"notes","id":"nt/m2fxwn","slide":10,"text":"Folosiți acest slide pentru a arăta disciplină experimentală și pentru a evita supra-promisiunea.\n\n[Sources]\n- cercetare/experiment1/results/rezultate-experiment.csv\n- cercetare/experiment2/results/rezultate-experiment.csv\n- tmp/bacado-management-deck/source-notes.txt (calcule agregate)\n[/Sources]"}
+{"kind":"slide","id":"sl/0bl727","slide":11,"title":"COSTURI","textShapes":18}
+{"kind":"textbox","id":"sh/69kfupwb","slide":11,"text":"COSTURI","textPreview":"COSTURI","textChars":7,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/twbep4vm","slide":11,"text":"10 / ECONOMIE","textPreview":"10 / ECONOMIE","textChars":13,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/8v2xwze1","slide":11,"text":"Generarea offline este ieftină; costul real este dat de operare și calitate","textPreview":"Generarea offline este ieftină; costul real este dat de operare și calitate","textChars":75,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/j69wjudk","slide":11,"text":"Rapoartele OpenRouter din proiect măsoară consumul modelului pentru două opere complete.","textPreview":"Rapoartele OpenRouter din proiect măsoară consumul modelului pentru două opere complete.","textChars":88,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/y50fqpwz","slide":11,"bbox":[64,210,700,330]}
+{"kind":"textbox","id":"sh/l8bel4vq","slide":11,"text":"Cost AI măsurat / operă (cenți USD)","textPreview":"Cost AI măsurat / operă (cenți USD)","textChars":35,"textLines":1,"bbox":[90,236,430,30]}
+{"kind":"textbox","id":"sh/b29wfax8","slide":11,"text":"Sursa costului: usage.cost returnat de OpenRouter pentru fiecare apel.","textPreview":"Sursa costului: usage.cost returnat de OpenRouter pentru fiecare apel.","textChars":70,"textLines":1,"bbox":[90,500,620,22]}
+{"kind":"shape","id":"sh/a10vm5w3","slide":11,"bbox":[800,210,416,150]}
+{"kind":"textbox","id":"sh/8zup47u5","slide":11,"text":"$0,095","textPreview":"$0,095","textChars":6,"textLines":1,"bbox":[826,234,180,46]}
+{"kind":"textbox","id":"sh/9036dsbq","slide":11,"text":"media observată / operă","textPreview":"media observată / operă","textChars":23,"textLines":1,"bbox":[826,286,300,28]}
+{"kind":"textbox","id":"sh/mxc72xcz","slide":11,"text":"≈ $9,49 pentru 100 opere similare","textPreview":"≈ $9,49 pentru 100 opere similare","textChars":33,"textLines":1,"bbox":[826,322,330,24]}
+{"kind":"shape","id":"sh/7ylob2tk","slide":11,"bbox":[800,378,416,162]}
+{"kind":"textbox","id":"sh/kbap0nu9","slide":11,"text":"Ce NU este inclus","textPreview":"Ce NU este inclus","textChars":17,"textLines":1,"bbox":[826,402,330,28]}
+{"kind":"textbox","id":"sh/lc369sbu","slide":11,"text":"Hosting • dezvoltare • QA profesori • suport • monitorizare • conversații live ale elevilor","textPreview":"Hosting • dezvoltare • QA profesori • suport • monitorizare • conversații live ale elevilor","textChars":91,"textLines":1,"bbox":[826,446,342,72]}
+{"kind":"shape","id":"sh/y9s7ydc3","slide":11,"bbox":[64,570,1152,70]}
+{"kind":"textbox","id":"sh/za1o7ito","slide":11,"text":"Distribuție tipică observată","textPreview":"Distribuție tipică observată","textChars":28,"textLines":1,"bbox":[84,590,242,22]}
+{"kind":"textbox","id":"sh/47epcrud","slide":11,"text":"Înțelegere ≈ 42%","textPreview":"Înțelegere ≈ 42%","textChars":16,"textLines":1,"bbox":[360,590,190,22]}
+{"kind":"textbox","id":"sh/5snq5wby","slide":11,"text":"Testare ≈ 46%","textPreview":"Testare ≈ 46%","textChars":13,"textLines":1,"bbox":[584,590,170,22]}
+{"kind":"textbox","id":"sh/doj6pc32","slide":11,"text":"Eseu ≈ 12%","textPreview":"Eseu ≈ 12%","textChars":10,"textLines":1,"bbox":[786,590,150,22]}
+{"kind":"textbox","id":"sh/snapw7mh","slide":11,"text":"Cost live = tokeni intrare × tarif + tokeni ieșire × tarif","textPreview":"Cost live = tokeni intrare × tarif + tokeni ieșire × tarif","textChars":58,"textLines":1,"bbox":[946,584,242,36]}
+{"kind":"shape","id":"sh/rm1onmlw","slide":11,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/qls7uh4b","slide":11,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/5kj6lc36","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"chart","id":"ch/0nit0z6d","slide":11,"name":"","chartType":"bar","bbox":[86,284,630,206]}
+{"kind":"notes","id":"nt/0bl727","slide":11,"text":"Mesajul financiar: costul inferenței offline nu este bariera; bugetul pilotului trebuie să măsoare mai ales QA, operare și chat live.\n\n[Sources]\n- data/generated_works/moara_cu_noroc/cost-report.json\n- data/generated_works/enigma_otiliei/cost-report.json\n- tmp/bacado-management-deck/source-notes.txt (medie, extrapolare și procente)\n[/Sources]"}
+{"kind":"slide","id":"sl/qdkexc","slide":12,"title":"VALOARE","textShapes":18}
+{"kind":"textbox","id":"sh/61gfel8j","slide":12,"text":"VALOARE","textPreview":"VALOARE","textChars":7,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/tore907a","slide":12,"text":"11 / IMPACT","textPreview":"11 / IMPACT","textChars":11,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/snixgvqp","slide":12,"text":"Implementarea creează valoare pentru elev, profesor și organizație","textPreview":"Implementarea creează valoare pentru elev, profesor și organizație","textChars":66,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/jypw3qps","slide":12,"text":"Beneficiile sunt plauzibile și măsurabile într-un pilot; nu sunt încă prezentate ca impact demonstrat.","textPreview":"Beneficiile sunt plauzibile și măsurabile într-un pilot; nu sunt încă prezentate ca impact demonstrat.","textChars":102,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"shape","id":"sh/ixgfal8n","slide":12,"bbox":[64,210,1152,82]}
+{"kind":"shape","id":"sh/507e5g7y","slide":12,"bbox":[64,210,120,82]}
+{"kind":"textbox","id":"sh/4zyxcvqd","slide":12,"text":"Elev","textPreview":"Elev","textChars":4,"textLines":1,"bbox":[76,236,96,28]}
+{"kind":"textbox","id":"sh/3utgfapc","slide":12,"text":"Mai puțină dezorientare","textPreview":"Mai puțină dezorientare","textChars":23,"textLines":1,"bbox":[214,227,300,28]}
+{"kind":"textbox","id":"sh/2t0fm58r","slide":12,"text":"Traseu ghidat, feedback imediat, progres vizibil și trecere naturală spre redactare.","textPreview":"Traseu ghidat, feedback imediat, progres vizibil și trecere naturală spre redactare.","textChars":84,"textLines":1,"bbox":[520,225,650,48]}
+{"kind":"shape","id":"sh/s3ihsnyx","slide":12,"bbox":[64,312,1152,82]}
+{"kind":"shape","id":"sh/d4ry1sfi","slide":12,"bbox":[64,312,120,82]}
+{"kind":"textbox","id":"sh/q1gzqdg7","slide":12,"text":"Profesor","textPreview":"Profesor","textChars":8,"textLines":1,"bbox":[76,338,96,28]}
+{"kind":"textbox","id":"sh/r2pgzixc","slide":12,"text":"Conținut reutilizabil","textPreview":"Conținut reutilizabil","textChars":21,"textLines":1,"bbox":[214,329,300,28]}
+{"kind":"textbox","id":"sh/4zyhony1","slide":12,"text":"Eseul-model și selecția secvențelor devin reguli editoriale aplicate consecvent.","textPreview":"Eseul-model și selecția secvențelor devin reguli editoriale aplicate consecvent.","textChars":80,"textLines":1,"bbox":[520,327,650,48]}
+{"kind":"shape","id":"sh/507yx8fm","slide":12,"bbox":[64,414,1152,82]}
+{"kind":"shape","id":"sh/ixgzmdgv","slide":12,"bbox":[64,414,120,82]}
+{"kind":"textbox","id":"sh/3ypgvixg","slide":12,"text":"Business","textPreview":"Business","textChars":8,"textLines":1,"bbox":[76,440,96,28]}
+{"kind":"textbox","id":"sh/wvehk3yp","slide":12,"text":"Cost marginal redus","textPreview":"Cost marginal redus","textChars":19,"textLines":1,"bbox":[214,431,300,28]}
+{"kind":"textbox","id":"sh/hw7yt8fa","slide":12,"text":"O bază factuală produce mai multe formate și poate fi extinsă la noi opere.","textPreview":"O bază factuală produce mai multe formate și poate fi extinsă la noi opere.","textChars":75,"textLines":1,"bbox":[520,429,650,48]}
+{"kind":"shape","id":"sh/xgf61032","slide":12,"bbox":[64,516,1152,82]}
+{"kind":"shape","id":"sh/cf658vmh","slide":12,"bbox":[64,516,120,82]}
+{"kind":"textbox","id":"sh/bedozqlw","slide":12,"text":"Produs","textPreview":"Produs","textChars":6,"textLines":1,"bbox":[76,542,96,28]}
+{"kind":"textbox","id":"sh/ad4n6l4b","slide":12,"text":"Încredere și audit","textPreview":"Încredere și audit","textChars":18,"textLines":1,"bbox":[214,533,300,28]}
+{"kind":"textbox","id":"sh/pcv6x0nq","slide":12,"text":"Dovezile, hash-urile și rezultatele brute fac erorile investigabile.","textPreview":"Dovezile, hash-urile și rezultatele brute fac erorile investigabile.","textChars":68,"textLines":1,"bbox":[520,531,650,48]}
+{"kind":"shape","id":"sh/obm54vm5","slide":12,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/nqdovq50","slide":12,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/2p4n2l4f","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/qdkexc","slide":12,"text":"Aceste beneficii trebuie transformate în KPI de pilot: timp până la primul eseu, completare, revenire, cost/elev și acordul profesorilor.\n\n[Sources]\n- app.py\n- components/learning_path_ui.py\n- services/progress_service.py\n- scripts/README-creare-opera.md\n- data/generated_works/moara_cu_noroc/manifest.json\n[/Sources]"}
+{"kind":"slide","id":"sl/a78uiv","slide":13,"title":"RISCURI & CONTROALE","textShapes":18}
+{"kind":"textbox","id":"sh/a1orahcr","slide":13,"text":"RISCURI & CONTROALE","textPreview":"RISCURI & CONTROALE","textChars":19,"textLines":1,"bbox":[64,34,680,24]}
+{"kind":"textbox","id":"sh/xofa5wb2","slide":13,"text":"12 / GUVERNANȚĂ","textPreview":"12 / GUVERNANȚĂ","textChars":15,"textLines":1,"bbox":[1010,34,206,24]}
+{"kind":"textbox","id":"sh/wn69crux","slide":13,"text":"Riscurile sunt gestionabile dacă pilotul păstrează omul în buclă","textPreview":"Riscurile sunt gestionabile dacă pilotul păstrează omul în buclă","textChars":64,"textLines":1,"bbox":[64,72,1150,58]}
+{"kind":"textbox","id":"sh/jqhs7mt8","slide":13,"text":"Prioritatea nu este doar viteza de generare, ci corectitudinea și încrederea didactică.","textPreview":"Prioritatea nu este doar viteza de generare, ci corectitudinea și încrederea didactică.","textChars":87,"textLines":1,"bbox":[64,132,1100,42]}
+{"kind":"textbox","id":"sh/iporehcn","slide":13,"text":"RISC","textPreview":"RISC","textChars":4,"textLines":1,"bbox":[82,202,260,22]}
+{"kind":"textbox","id":"sh/5sza9wbe","slide":13,"text":"CONTROL PROPUS","textPreview":"CONTROL PROPUS","textChars":14,"textLines":1,"bbox":[442,202,620,22]}
+{"kind":"shape","id":"sh/krq9grut","slide":13,"bbox":[64,236,1152,60]}
+{"kind":"shape","id":"sh/7uhsb6tk","slide":13,"bbox":[78,250,12,32]}
+{"kind":"textbox","id":"sh/6t8ri1cz","slide":13,"text":"Eroare factuală","textPreview":"Eroare factuală","textChars":15,"textLines":1,"bbox":[108,253,286,28]}
+{"kind":"textbox","id":"sh/47uxsb6l","slide":13,"text":"Knowledge graph, evidențe, validatoare și QA de profesor","textPreview":"Knowledge graph, evidențe, validatoare și QA de profesor","textChars":56,"textLines":1,"bbox":[442,251,724,32]}
+{"kind":"shape","id":"sh/583e1gn6","slide":13,"bbox":[64,312,1152,60]}
+{"kind":"shape","id":"sh/i5cfq1ov","slide":13,"bbox":[78,326,12,32]}
+{"kind":"textbox","id":"sh/j6lwz65g","slide":13,"text":"Instabilitate provider","textPreview":"Instabilitate provider","textChars":22,"textLines":1,"bbox":[108,329,286,28]}
+{"kind":"textbox","id":"sh/svexwv6x","slide":13,"text":"Fallback controlat, timeout, reluare și rezultate salvate incremental","textPreview":"Fallback controlat, timeout, reluare și rezultate salvate incremental","textChars":69,"textLines":1,"bbox":[442,327,724,32]}
+{"kind":"shape","id":"sh/twne50ni","slide":13,"bbox":[64,388,1152,60]}
+{"kind":"shape","id":"sh/69cfulor","slide":13,"bbox":[78,402,12,32]}
+{"kind":"textbox","id":"sh/rulw3q5c","slide":13,"text":"Cost necontrolat","textPreview":"Cost necontrolat","textChars":16,"textLines":1,"bbox":[108,405,286,28]}
+{"kind":"textbox","id":"sh/0zex0vmt","slide":13,"text":"Telemetrie token/cost, limite de răspuns și bugete per flux","textPreview":"Telemetrie token/cost, limite de răspuns și bugete per flux","textChars":59,"textLines":1,"bbox":[442,403,724,32]}
+{"kind":"shape","id":"sh/10ne90ne","slide":13,"bbox":[64,464,1152,60]}
+{"kind":"shape","id":"sh/p4j6xwb6","slide":13,"bbox":[78,478,12,32]}
+{"kind":"textbox","id":"sh/o3q54ba1","slide":13,"text":"Evaluare necalibrată","textPreview":"Evaluare necalibrată","textChars":20,"textLines":1,"bbox":[108,481,286,28]}
+{"kind":"textbox","id":"sh/3ihov6tg","slide":13,"text":"Set etichetat de profesori; praguri semantice validate înainte de producție","textPreview":"Set etichetat de profesori; praguri semantice validate înainte de producție","textChars":75,"textLines":1,"bbox":[442,479,724,32]}
+{"kind":"shape","id":"sh/2h8n21sv","slide":13,"bbox":[64,540,1152,60]}
+{"kind":"shape","id":"sh/x8j61gbi","slide":13,"bbox":[78,554,12,32]}
+{"kind":"textbox","id":"sh/c7a58bax","slide":13,"text":"Date și secrete","textPreview":"Date și secrete","textChars":15,"textLines":1,"bbox":[108,557,286,28]}
+{"kind":"textbox","id":"sh/b61oz6tc","slide":13,"text":"Secret management, HTTPS, backup DB, politici de retenție și acces","textPreview":"Secret management, HTTPS, backup DB, politici de retenție și acces","textChars":66,"textLines":1,"bbox":[442,555,724,32]}
+{"kind":"shape","id":"sh/a5sn61sr","slide":13,"bbox":[64,682,1152,1.5]}
+{"kind":"textbox","id":"sh/tcfmpcbe","slide":13,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[64,690,220,18]}
+{"kind":"textbox","id":"sh/sb65wrat","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1160,690,56,18]}
+{"kind":"notes","id":"nt/a78uiv","slide":13,"text":"Nu ascundeți riscurile. Managementul trebuie să vadă atât controalele existente, cât și munca necesară înainte de producție.\n\n[Sources]\n- services/openrouter_provider.py\n- services/auth_service.py\n- cercetare/experiment2/README.md\n- cercetare/experiment3/README.md\n- cercetare-qwen/README.md\n[/Sources]"}
+{"kind":"slide","id":"sl/bp6puj","slide":14,"title":"PROPUNERE","textShapes":16}
+{"kind":"textbox","id":"sh/zul8jil0","slide":14,"text":"PROPUNERE","textPreview":"PROPUNERE","textChars":9,"textLines":1,"bbox":[64,44,260,22]}
+{"kind":"textbox","id":"sh/0fepcn2l","slide":14,"text":"Un pilot controlat poate transforma\nprototipul într-o decizie de investiție","textPreview":"Un pilot controlat poate transforma | prototipul într-o decizie de investiție","textChars":75,"textLines":2,"bbox":[64,88,760,112]}
+{"kind":"textbox","id":"sh/lgnqls36","slide":14,"text":"12 săptămâni • 3 etape • criterii de succes măsurabile","textPreview":"12 săptămâni • 3 etape • criterii de succes măsurabile","textChars":54,"textLines":1,"bbox":[66,214,680,28]}
+{"kind":"shape","id":"sh/qpc76dkj","slide":14,"bbox":[64,292,342,218]}
+{"kind":"textbox","id":"sh/bqlofilo","slide":14,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[88,316,62,32]}
+{"kind":"textbox","id":"sh/crup8n29","slide":14,"text":"Validare didactică","textPreview":"Validare didactică","textChars":18,"textLines":1,"bbox":[88,364,292,40]}
+{"kind":"textbox","id":"sh/ds3qh83u","slide":14,"text":"Profesori evaluează factualitatea, rubricile și calitatea feedbackului.","textPreview":"Profesori evaluează factualitatea, rubricile și calitatea feedbackului.","textChars":71,"textLines":1,"bbox":[88,416,292,70]}
+{"kind":"shape","id":"sh/alw7ixkn","slide":14,"bbox":[438,292,342,218]}
+{"kind":"textbox","id":"sh/vm58r2l8","slide":14,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[462,316,62,32]}
+{"kind":"textbox","id":"sh/rapwb6l0","slide":14,"text":"Pilot cu elevi","textPreview":"Pilot cu elevi","textChars":14,"textLines":1,"bbox":[462,364,292,40]}
+{"kind":"textbox","id":"sh/69wfi1kf","slide":14,"text":"Măsurăm activare, finalizare, revenire, timp/eseu și cost/elev.","textPreview":"Măsurăm activare, finalizare, revenire, timp/eseu și cost/elev.","textChars":63,"textLines":1,"bbox":[462,416,292,70]}
+{"kind":"shape","id":"sh/tc7edw36","slide":14,"bbox":[812,292,342,218]}
+{"kind":"textbox","id":"sh/sbyxkr2l","slide":14,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[836,316,62,32]}
+{"kind":"textbox","id":"sh/fypgf6lw","slide":14,"text":"Decizie de scalare","textPreview":"Decizie de scalare","textChars":18,"textLines":1,"bbox":[836,364,292,40]}
+{"kind":"textbox","id":"sh/exgfm1kr","slide":14,"text":"Întărim securitatea, operarea și planul de conținut pe baza datelor.","textPreview":"Întărim securitatea, operarea și planul de conținut pe baza datelor.","textChars":68,"textLines":1,"bbox":[836,416,292,70]}
+{"kind":"shape","id":"sh/107yhg32","slide":14,"bbox":[64,548,742,98]}
+{"kind":"textbox","id":"sh/gzyxob2h","slide":14,"text":"Decizia cerută","textPreview":"Decizia cerută","textChars":14,"textLines":1,"bbox":[90,570,176,24]}
+{"kind":"textbox","id":"sh/329gjql8","slide":14,"text":"Aprobarea pilotului și desemnarea unui owner didactic + unui owner tehnic.","textPreview":"Aprobarea pilotului și desemnarea unui owner didactic + unui owner tehnic.","textChars":74,"textLines":1,"bbox":[270,566,500,54]}
+{"kind":"shape","id":"sh/21gfalkn","slide":14,"bbox":[852,548,364,98]}
+{"kind":"textbox","id":"sh/zad8re9s","slide":14,"text":"BACADO","textPreview":"BACADO","textChars":6,"textLines":1,"bbox":[972,572,214,28]}
+{"kind":"textbox","id":"sh/kbm90jqx","slide":14,"text":"Învață structurat. Scrie cu încredere.","textPreview":"Învață structurat. Scrie cu încredere.","textChars":38,"textLines":1,"bbox":[972,606,214,22]}
+{"kind":"image","id":"im/l8zqpk3m","slide":14,"name":"","geometry":"roundRect","alt":"Sigla Bacado","bbox":[868,556,88,80]}
+{"kind":"notes","id":"nt/bp6puj","slide":14,"text":"Încheiați cu o cerere concretă: pilot, ownership și criterii de trecere la următoarea etapă.\n\n[Sources]\n- tmp/bacado-management-deck/source-notes.txt\n- assets/bacorado-logo.jpeg\n[/Sources]"}

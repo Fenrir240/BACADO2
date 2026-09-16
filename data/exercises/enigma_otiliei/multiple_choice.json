@@ -1,0 +1,1372 @@
+{
+  "version": 1,
+  "work_id": "enigma_otiliei",
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "exercise_type": "multiple_choice",
+  "source": {
+    "question_bank": "data/generated_works/enigma_otiliei/testare-rapida/questions.json",
+    "knowledge_graph": "data/generated_works/enigma_otiliei/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "SIMPLE_FACT_LOWHOP",
+    "CHARACTER_RELATION",
+    "NARRATIVE_ACTION",
+    "CAUSE_EFFECT"
+  ],
+  "exercise_count": 48,
+  "skipped_count": 0,
+  "skipped": [],
+  "exercises": [
+    {
+      "id": "MCQ-a2d2fe56fa7c8d7f",
+      "question": "În care capitol al romanului se desfășoară scena casei cu geamuri acoperite cu hârtie translucidă?",
+      "options": [
+        "Capitolul 2",
+        "Capitolul 4",
+        "Capitolul 3",
+        "Capitolul 1"
+      ],
+      "answer": "Capitolul 1",
+      "answer_node_ids": [
+        "CH_01"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T133255320706Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CH_01",
+        "EV_001"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-038fe3077f8c832d",
+      "question": "Care este legătura de rudenie dintre Costache Giurgiuveanu și Otilia Mărculescu, conform evenimentului din Capitolul 1?",
+      "options": [
+        "Costache Giurgiuveanu este tatăl vitreg al Otiliei Mărculescu.",
+        "Rivalitate explicită",
+        "Tată vitreg (relație parentală)",
+        "Tatăl vitreg"
+      ],
+      "answer": "Tatăl vitreg",
+      "answer_node_ids": [
+        "CHAR_COSTACHE",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T133255320706Z-b001::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_COSTACHE",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-f97833ae86736bdf",
+      "question": "Cine trimitea anual scrisori de sărbători „unchiului Costache” și „unchiului Iosif” pentru a întreba unul de celălalt?",
+      "options": [
+        "Crăpă ușa odăii și își vâră capul înăuntru ca o bilă.",
+        "Felix și Otilia.",
+        "Felix Sima.",
+        "Leonida Pascalopol"
+      ],
+      "answer": "Felix și Otilia.",
+      "answer_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T133255320706Z-b001::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA",
+        "EV_002"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-54d240c0a61e9622",
+      "question": "Ce interacțiune dintre Otilia și Costache a declanșat scena în care Felix află despre sosirea Olimpiei și a lui Stănică?",
+      "options": [
+        "Leonida Pascalopol",
+        "Evenimentul din Capitolul 16 (EV_121), în care Stănică și Olimpia discutau despre regulile familiei și sentimentul de vinovăție al lui Stănică, a cauzat direct evenimentul din Capitolul 17.",
+        "Interacțiunea dintre Otilia și Costache din capitolul 4 a cauzat direct momentul din capitolul 5 când Felix este informat despre sosirea Olimpiei și a lui Stănică.",
+        "Prezența lui Pascalopol și critica Auricăi îl determină pe Felix să se retragă emoțional, iar Otilia, simțind distanțarea, își îndreaptă afecțiunea către moșier, consolidând rivalitatea."
+      ],
+      "answer": "Interacțiunea dintre Otilia și Costache din capitolul 4 a cauzat direct momentul din capitolul 5 când Felix este informat despre sosirea Olimpiei și a lui Stănică.",
+      "answer_node_ids": [
+        "EV_025",
+        "EV_033",
+        "CHAR_OTILIA",
+        "CHAR_COSTACHE",
+        "CHAR_FELIX"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T133255320706Z-b001::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04",
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "EV_025",
+        "EV_033",
+        "CHAR_OTILIA",
+        "CHAR_COSTACHE",
+        "CHAR_FELIX",
+        "STATE_CH_04_OPEN"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-359123a508214758",
+      "question": "Care dintre participanții la discuția despre tușit este avocatul fără procese?",
+      "options": [
+        "Ana Sohatchi",
+        "Stănică Rațiu",
+        "Aglae Tulea",
+        "Aurel Rațiu"
+      ],
+      "answer": "Stănică Rațiu",
+      "answer_node_ids": [
+        "CHAR_STANICA"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T133255320706Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_STANICA",
+        "EV_054"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-40e6b24ba2b50ef4",
+      "question": "Ce relație afectivă leagă pe Felix Sima de Otilia Mărculescu în cadrul întâlnirii din Capitolul 2?",
+      "options": [
+        "Felix Sima o iubește pe Otilia Mărculescu.",
+        "Rivalitate explicită",
+        "Iubire reciprocă",
+        "Dragoste reciprocă"
+      ],
+      "answer": "Iubire reciprocă",
+      "answer_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T133255320706Z-b001::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-52a7d300c9645a70",
+      "question": "Ce observație face Leonida Pascalopol despre comportamentul lui Stănică Rațiu în timp ce conversau cu Felix și Otilia?",
+      "options": [
+        "Consideră că ceea ce face Stănică este foarte suspect.",
+        "Felix exprimă îngrijorarea că Otilia ar putea rămâne pe drumuri fără lux",
+        "Aglae sugerează ca Costache să observe atenția lui Felix față de Otilia",
+        "Crăpă ușa odăii și își vâră capul înăuntru ca o bilă."
+      ],
+      "answer": "Consideră că ceea ce face Stănică este foarte suspect.",
+      "answer_node_ids": [
+        "CHAR_PASCALOPOL"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T133255320706Z-b001::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_PASCALOPOL",
+        "EV_055",
+        "CHAR_STANICA"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-3164055c8fb2a5a7",
+      "question": "Care este consecința narativă imediată a descrierii arhitecturale a casei Giurgiuveanu-Tulea din primul capitol?",
+      "options": [
+        "Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.",
+        "Efectul imediat al descrierii este crearea contextului narativ necesar pentru desfășurarea acțiunii din restul capitolului, fără a genera schimbări de stare pe termen lung.",
+        "Cauza directă este comportamentul schimbător al Otiliei, care ignoră gingășiile lui Felix când intră Pascalopol, determinându-l pe tânăr să dezvolte un complex de inferioritate și fantasme generoase.",
+        "Evenimentul din Capitolul 16 (EV_121), în care Stănică și Olimpia discutau despre regulile familiei și sentimentul de vinovăție al lui Stănică, a cauzat direct evenimentul din Capitolul 17."
+      ],
+      "answer": "Efectul imediat al descrierii este crearea contextului narativ necesar pentru desfășurarea acțiunii din restul capitolului, fără a genera schimbări de stare pe termen lung.",
+      "answer_node_ids": [
+        "EV_001",
+        "STATE_CH_01_OPEN"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T133255320706Z-b001::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_001",
+        "STATE_CH_01_OPEN",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-501ecf1f99cdc506",
+      "question": "Ce sentiment îl cuprinde pe Felix când își analizează atitudinea față de cele două fete?",
+      "options": [
+        "Aglae Tulea",
+        "Profund vinovat",
+        "Stănică Rațiu",
+        "Leonida Pascalopol"
+      ],
+      "answer": "Profund vinovat",
+      "answer_node_ids": [
+        "CHAR_FELIX"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T133255320706Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_14"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "EV_107"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-3b28a33982321c53",
+      "question": "Cum se manifestă rivalitatea dintre Stănică Rațiu și Otilia Mărculescu în contextul evenimentului din Capitolul 5?",
+      "options": [
+        "Stănică Rațiu este rivalul Otiliei Mărculescu.",
+        "Rivalitate",
+        "Rivalitate explicită",
+        "Tatăl vitreg"
+      ],
+      "answer": "Rivalitate explicită",
+      "answer_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T133255320706Z-b001::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-350a3054297afaf7",
+      "question": "Ce acțiune desfășoară Costache Giurgiuveanu în Capitolul 14 în timp ce Felix studiază intens pentru examene?",
+      "options": [
+        "Felix și Otilia.",
+        "Aglae sugerează ca Costache să observe atenția lui Felix față de Otilia",
+        "Crăpă ușa odăii și își vâră capul înăuntru ca o bilă.",
+        "Se întoarce la masă cu Pascalopol, privește pe Felix degajat și se poartă ca și când nimic nu s-ar fi întâmplat."
+      ],
+      "answer": "Crăpă ușa odăii și își vâră capul înăuntru ca o bilă.",
+      "answer_node_ids": [
+        "CHAR_COSTACHE"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T133255320706Z-b001::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_14"
+      ],
+      "evidence_node_ids": [
+        "CHAR_COSTACHE",
+        "EV_108",
+        "CH_14"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-c48e426b5154edf7",
+      "question": "Ce succesiune de evenimente leagă descoperirea vecinătății cu familia Tulea de refuzul lui Felix de a vizita casa Aglaei din cauza stării lui Simion?",
+      "options": [
+        "Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.",
+        "Cauza directă este comportamentul schimbător al Otiliei, care ignoră gingășiile lui Felix când intră Pascalopol, determinându-l pe tânăr să dezvolte un complex de inferioritate și fantasme generoase.",
+        "Leonida Pascalopol",
+        "Prezența lui Pascalopol și critica Auricăi îl determină pe Felix să se retragă emoțional, iar Otilia, simțind distanțarea, își îndreaptă afecțiunea către moșier, consolidând rivalitatea."
+      ],
+      "answer": "Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.",
+      "answer_node_ids": [
+        "EV_009",
+        "EV_017",
+        "EV_025",
+        "CHAR_FELIX",
+        "CHAR_SIMION",
+        "CHAR_OTILIA",
+        "CHAR_MARINA"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T133255320706Z-b001::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_02",
+        "CH_03",
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "EV_009",
+        "EV_017",
+        "EV_025",
+        "CHAR_FELIX",
+        "CHAR_SIMION",
+        "CHAR_OTILIA",
+        "CHAR_MARINA"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "MCQ-2a5be40c14d131b1",
+      "question": "În ce capitol al romanului se face referire la corespondența dintre Felix și Costache?",
+      "options": [
+        "Întâlnirea dintre Felix și Georgeta (EV_105) contribuie la dezbaterea asupra averii lui Simion (EV_113), care la rândul său duce la propunerea internării acestuia (EV_121).",
+        "Capitolul 1",
+        "București",
+        "Aglae Tulea"
+      ],
+      "answer": "Capitolul 1",
+      "answer_node_ids": [
+        "EV_002",
+        "CH_01"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T133903276112Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_002",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-078cec768a7583c3",
+      "question": "Care este legătura de rudenie dintre Costache Giurgiuveanu și Otilia Mărculescu în familia Tulea?",
+      "options": [
+        "Tată vitreg (relație parentală)",
+        "Tatăl vitreg",
+        "Costache Giurgiuveanu este tatăl vitreg al Otiliei Mărculescu.",
+        "Tată vitreg"
+      ],
+      "answer": "Costache Giurgiuveanu este tatăl vitreg al Otiliei Mărculescu.",
+      "answer_node_ids": [
+        "CHAR_COSTACHE",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T133903276112Z-b002::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_COSTACHE",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-107095b152c44c1e",
+      "question": "Cine se recomandă cu o ceremonie formală tânărului Felix în prima parte a romanului?",
+      "options": [
+        "Leonida Pascalopol",
+        "Ana Sohatchi",
+        "Aurel Rațiu",
+        "Aglae Tulea"
+      ],
+      "answer": "Leonida Pascalopol",
+      "answer_node_ids": [
+        "CHAR_PASCALOPOL"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T133903276112Z-b002::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_PASCALOPOL",
+        "EV_003",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-23f690e51b4527ea",
+      "question": "Care este cauza directă care determină reacțiile și visele lui Felix din capitolul nouă, în care acesta își imaginează salvarea familiei Giurgiuveanu-Tulea?",
+      "options": [
+        "Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.",
+        "Cauza directă este comportamentul schimbător al Otiliei, care ignoră gingășiile lui Felix când intră Pascalopol, determinându-l pe tânăr să dezvolte un complex de inferioritate și fantasme generoase.",
+        "Efectul imediat al descrierii este crearea contextului narativ necesar pentru desfășurarea acțiunii din restul capitolului, fără a genera schimbări de stare pe termen lung.",
+        "Evenimentul din Capitolul 16 (EV_121), în care Stănică și Olimpia discutau despre regulile familiei și sentimentul de vinovăție al lui Stănică, a cauzat direct evenimentul din Capitolul 17."
+      ],
+      "answer": "Cauza directă este comportamentul schimbător al Otiliei, care ignoră gingășiile lui Felix când intră Pascalopol, determinându-l pe tânăr să dezvolte un complex de inferioritate și fantasme generoase.",
+      "answer_node_ids": [
+        "STATE_CH_08_OPEN",
+        "EV_057",
+        "EV_065",
+        "CHAR_FELIX",
+        "CHAR_OTILIA",
+        "CHAR_PASCALOPOL",
+        "CHAR_COSTACHE"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T133903276112Z-b002::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_08",
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "STATE_CH_08_OPEN",
+        "EV_057",
+        "EV_065",
+        "CHAR_FELIX",
+        "CHAR_OTILIA",
+        "CHAR_PASCALOPOL",
+        "CHAR_COSTACHE",
+        "CH_08",
+        "CH_09"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-5bc6fe52ac89d608",
+      "question": "Care personaj califică drept suspecte acțiunile avocatului Stănică Rațiu în această scenă?",
+      "options": [
+        "Prezența lui Pascalopol și critica Auricăi îl determină pe Felix să se retragă emoțional, iar Otilia, simțind distanțarea, își îndreaptă afecțiunea către moșier, consolidând rivalitatea.",
+        "Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.",
+        "Leonida Pascalopol",
+        "Interacțiunea dintre Otilia și Costache din capitolul 4 a cauzat direct momentul din capitolul 5 când Felix este informat despre sosirea Olimpiei și a lui Stănică."
+      ],
+      "answer": "Leonida Pascalopol",
+      "answer_node_ids": [
+        "EV_055",
+        "CHAR_PASCALOPOL"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T133903276112Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "EV_055",
+        "CHAR_PASCALOPOL"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-7843610b0ce33182",
+      "question": "Ce sentimente nutrește Felix Sima față de Otilia Mărculescu în contextul capitolului al doilea?",
+      "options": [
+        "Felix Sima o iubește pe Otilia Mărculescu.",
+        "Dragoste reciprocă",
+        "Dragoste / iubire",
+        "Iubire reciprocă"
+      ],
+      "answer": "Felix Sima o iubește pe Otilia Mărculescu.",
+      "answer_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T133903276112Z-b002::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-9e9ae09a8d64ab9c",
+      "question": "Ce sfat oferă Aglae lui Costache privind frecvența vizitelor lui Felix în casa sa?",
+      "options": [
+        "Leonida Pascalopol",
+        "Consideră că ceea ce face Stănică este foarte suspect.",
+        "Aglae sugerează ca Costache să observe atenția lui Felix față de Otilia",
+        "Crăpă ușa odăii și își vâră capul înăuntru ca o bilă."
+      ],
+      "answer": "Aglae sugerează ca Costache să observe atenția lui Felix față de Otilia",
+      "answer_node_ids": [
+        "CHAR_AGLAE",
+        "CHAR_COSTACHE"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T133903276112Z-b002::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_AGLAE",
+        "CHAR_COSTACHE",
+        "EV_056",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-0445f9b3be1c9621",
+      "question": "Ce consecință imediată produce corespondența copilărească dintre Felix, Otilia și Costache în primul capitol, stabilind tonul relațiilor viitoare?",
+      "options": [
+        "Consecința imediată este stabilirea contextului narativ necesar pentru dinamica familială, care va genera ulterior tensiuni afective și conflicte între personaje.",
+        "Interacțiunea creează contextul narativ imediat pentru desfășurarea momentului următor din același capitol.",
+        "Leonida Pascalopol își mușcă buza de sus, lovește zarurile și răspunde conciliant către Aglae Tulea.",
+        "Otilia continuă să-i coasă un nasture lui Felix fără să își schimbe stilul, apoi aleargă la moșier pentru calinerii."
+      ],
+      "answer": "Consecința imediată este stabilirea contextului narativ necesar pentru dinamica familială, care va genera ulterior tensiuni afective și conflicte între personaje.",
+      "answer_node_ids": [
+        "EV_002",
+        "CHAR_FELIX",
+        "CHAR_OTILIA",
+        "CHAR_COSTACHE",
+        "CH_01"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T133903276112Z-b002::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_002",
+        "CHAR_FELIX",
+        "CHAR_OTILIA",
+        "CHAR_COSTACHE",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-6220f1b047247343",
+      "question": "Ce activitate academică îl ține ocupat pe Felix înainte de apariția lui Costache?",
+      "options": [
+        "110",
+        "Acțiunea creează contextul narativ imediat pentru momentul următor din același capitol.",
+        "Lanțul începe cu primirea scrisorii de către Costache (EV_073), contribuie la apariția relației lui Felix cu Georgeta (EV_081), care la rândul său favorizează petrecerea Otiliei cu Pascalopol (EV_089).",
+        "Citirea unui curs"
+      ],
+      "answer": "Citirea unui curs",
+      "answer_node_ids": [
+        "EV_108"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T133903276112Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_14"
+      ],
+      "evidence_node_ids": [
+        "EV_108"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-122e4824528d3ce1",
+      "question": "În ce tip de conflict se află Stănică Rațiu cu Otilia Mărculescu în casa Tulea?",
+      "options": [
+        "Stănică Rațiu este rivalul Otiliei Mărculescu.",
+        "Rivalitate",
+        "Rivalitate / opoziție interesată",
+        "Rivalitate explicită"
+      ],
+      "answer": "Stănică Rațiu este rivalul Otiliei Mărculescu.",
+      "answer_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T133903276112Z-b002::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-131741c5138bb17e",
+      "question": "Ce discuție purtă Felix cu tutorele său despre viitorul Otiliei în al paisprezecelea capitol?",
+      "options": [
+        "Leonida Pascalopol",
+        "Felix exprimă îngrijorarea că Otilia ar putea rămâne pe drumuri fără lux",
+        "Consideră că ceea ce face Stănică este foarte suspect.",
+        "Felix Sima."
+      ],
+      "answer": "Felix exprimă îngrijorarea că Otilia ar putea rămâne pe drumuri fără lux",
+      "answer_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_COSTACHE"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T133903276112Z-b002::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_14"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_COSTACHE",
+        "EV_109",
+        "CH_14"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-5e14f99a6e931319",
+      "question": "Cum influențează prezența moșierului Pascalopol și avertizarea Auricăi asupra reputației Otiliei evoluția relației dintre cei doi tineri în capitolele șase până la opt?",
+      "options": [
+        "Prezența lui Pascalopol și critica Auricăi îl determină pe Felix să se retragă emoțional, iar Otilia, simțind distanțarea, își îndreaptă afecțiunea către moșier, consolidând rivalitatea.",
+        "Leonida Pascalopol",
+        "Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.",
+        "Interacțiunea dintre Otilia și Costache din capitolul 4 a cauzat direct momentul din capitolul 5 când Felix este informat despre sosirea Olimpiei și a lui Stănică."
+      ],
+      "answer": "Prezența lui Pascalopol și critica Auricăi îl determină pe Felix să se retragă emoțional, iar Otilia, simțind distanțarea, își îndreaptă afecțiunea către moșier, consolidând rivalitatea.",
+      "answer_node_ids": [
+        "EV_041",
+        "EV_049",
+        "EV_057",
+        "CHAR_PASCALOPOL",
+        "CHAR_AURICA",
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T133903276112Z-b002::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_06",
+        "CH_07",
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "EV_041",
+        "EV_049",
+        "EV_057",
+        "CHAR_PASCALOPOL",
+        "CHAR_AURICA",
+        "CHAR_FELIX",
+        "CHAR_OTILIA",
+        "CH_06",
+        "CH_07",
+        "CH_08"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "MCQ-ca1cbc0b0a39fbe1",
+      "question": "În ce capitol are loc întâlnirea dintre Felix, Otilia și Pascalopol?",
+      "options": [
+        "Capitolul 4",
+        "Capitolul 3",
+        "Capitolul 2",
+        "Capitolul 1"
+      ],
+      "answer": "Capitolul 1",
+      "answer_node_ids": [
+        "CH_01"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T134456134455Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CH_01",
+        "EV_003"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-dc631d111eb31139",
+      "question": "În capitolul în care Otilia aprinde țigara pentru adulți, ce legătură de rudenie are Costache Giurgiuveanu cu ea?",
+      "options": [
+        "Tatăl vitreg",
+        "Tată vitreg",
+        "Tată vitreg (relație parentală)",
+        "Costache Giurgiuveanu este tatăl vitreg al Otiliei Mărculescu."
+      ],
+      "answer": "Tată vitreg",
+      "answer_node_ids": [
+        "CHAR_COSTACHE",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T134456134455Z-b003::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_COSTACHE",
+        "CHAR_OTILIA",
+        "EV_006",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-b6243f7dd738edd1",
+      "question": "Cine își mușcă buza de sus și răspunde conciliant în timpul jocului de zaruri din primul capitol?",
+      "options": [
+        "Leonida Pascalopol își mușcă buza de sus, lovește zarurile și răspunde conciliant către Aglae Tulea.",
+        "Consecința imediată este stabilirea contextului narativ necesar pentru dinamica familială, care va genera ulterior tensiuni afective și conflicte între personaje.",
+        "Otilia continuă să-i coasă un nasture lui Felix fără să își schimbe stilul, apoi aleargă la moșier pentru calinerii.",
+        "Felix Sima."
+      ],
+      "answer": "Leonida Pascalopol își mușcă buza de sus, lovește zarurile și răspunde conciliant către Aglae Tulea.",
+      "answer_node_ids": [
+        "EV_004",
+        "CHAR_PASCALOPOL",
+        "CH_01"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T134456134455Z-b003::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_004",
+        "CHAR_PASCALOPOL",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-4c105bcac076d683",
+      "question": "Ce eveniment din capitolul anterior a contribuit la apariția reacției lui Olimpia față de situația Otiliei?",
+      "options": [
+        "110",
+        "Citirea unui curs",
+        "Acțiunea creează contextul narativ imediat pentru momentul următor din același capitol.",
+        "Evenimentul EV_089 (petrecerea Otiliei cu Pascalopol la Paris) a contribuit direct la această reacție."
+      ],
+      "answer": "Evenimentul EV_089 (petrecerea Otiliei cu Pascalopol la Paris) a contribuit direct la această reacție.",
+      "answer_node_ids": [
+        "EV_089",
+        "EV_097"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T134456134455Z-b003::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_12",
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_089",
+        "EV_097"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-a5679301139f0304",
+      "question": "Care dintre personaje discută cu Costache despre frecvența vizitelor lui Felix în casa Aglaei?",
+      "options": [
+        "Aurel Rațiu",
+        "Aglae Tulea",
+        "Ana Sohatchi",
+        "Aurica Tulea"
+      ],
+      "answer": "Aglae Tulea",
+      "answer_node_ids": [
+        "CHAR_AGLAE"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T134456134455Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_AGLAE",
+        "EV_056"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-e2f07701189a22ef",
+      "question": "În timpul conversației din salonul familiei, ce sentiment profund leagă pe Felix Sima de Otilia Mărculescu?",
+      "options": [
+        "Felix Sima o iubește pe Otilia Mărculescu.",
+        "Dragoste / iubire",
+        "Iubire reciprocă",
+        "Dragoste reciprocă"
+      ],
+      "answer": "Dragoste reciprocă",
+      "answer_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T134456134455Z-b003::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA",
+        "EV_016",
+        "CH_02"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-9475e19eacb92fae",
+      "question": "Ce face Otilia Mărculescu atunci când Pascalopol intră în cameră în timp ce îi cosea un nasture lui Felix?",
+      "options": [
+        "Interacțiunea creează contextul narativ imediat pentru desfășurarea momentului următor din același capitol.",
+        "Otilia continuă să-i coasă un nasture lui Felix fără să își schimbe stilul, apoi aleargă la moșier pentru calinerii.",
+        "Consecința imediată este stabilirea contextului narativ necesar pentru dinamica familială, care va genera ulterior tensiuni afective și conflicte între personaje.",
+        "Leonida Pascalopol își mușcă buza de sus, lovește zarurile și răspunde conciliant către Aglae Tulea."
+      ],
+      "answer": "Otilia continuă să-i coasă un nasture lui Felix fără să își schimbe stilul, apoi aleargă la moșier pentru calinerii.",
+      "answer_node_ids": [
+        "EV_057",
+        "CHAR_OTILIA",
+        "CH_08"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T134456134455Z-b003::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "EV_057",
+        "CHAR_OTILIA",
+        "CH_08"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-cdfb1610403f4ad2",
+      "question": "Care este consecința imediată a prezentării reciproce dintre Felix, Otilia și Pascalopol în primul capitol?",
+      "options": [
+        "Acțiunea creează contextul narativ imediat pentru momentul următor din același capitol.",
+        "110",
+        "Evenimentul EV_089 (petrecerea Otiliei cu Pascalopol la Paris) a contribuit direct la această reacție.",
+        "Lanțul începe cu primirea scrisorii de către Costache (EV_073), contribuie la apariția relației lui Felix cu Georgeta (EV_081), care la rândul său favorizează petrecerea Otiliei cu Pascalopol (EV_089)."
+      ],
+      "answer": "Acțiunea creează contextul narativ imediat pentru momentul următor din același capitol.",
+      "answer_node_ids": [
+        "EV_003"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T134456134455Z-b003::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_003"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-dfe4e437d67ad318",
+      "question": "În ce capitală are loc conversația dintre Felix și Costache privind grijile pentru Otilia?",
+      "options": [
+        "Facultatea de Medicină",
+        "Strada Antim",
+        "Casa lui Costache Giurgiuveanu",
+        "București"
+      ],
+      "answer": "București",
+      "answer_node_ids": [
+        "LOC_BUCURESTI"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T134456134455Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_14"
+      ],
+      "evidence_node_ids": [
+        "LOC_BUCURESTI",
+        "EV_109"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-c098d9680598af17",
+      "question": "În contextul întâlnirii medicale din capitolul șapte, ce tip de antagonism există între Stănică Rațiu și Otilia?",
+      "options": [
+        "Stănică Rațiu este rivalul Otiliei Mărculescu.",
+        "Rivalitate explicită",
+        "Rivalitate",
+        "Rivalitate / opoziție interesată"
+      ],
+      "answer": "Rivalitate",
+      "answer_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T134456134455Z-b003::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OTILIA",
+        "EV_053",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-bdfc8f405e46fff0",
+      "question": "Ce se întâmplă în Capitolul 14 legat de vizita Georgetei, a generalului și a lui Weissmann la București?",
+      "options": [
+        "În afară de Georgeta, Felix și generalul care râd, ceilalți îl privesc uimiți, iar Olimpia îl contemplă ca pe un monstru.",
+        "Aglae sugerează ca Costache să observe atenția lui Felix față de Otilia",
+        "Georgeta, generalul, Olimpia și Titi ajung pentru a discuta despre portretul lui Iorgu, iar Weissmann îl informează pe Felix despre dantură.",
+        "Felix Sima."
+      ],
+      "answer": "Georgeta, generalul, Olimpia și Titi ajung pentru a discuta despre portretul lui Iorgu, iar Weissmann îl informează pe Felix despre dantură.",
+      "answer_node_ids": [
+        "EV_110",
+        "CH_14",
+        "LOC_BUCURESTI"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T134456134455Z-b003::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_14"
+      ],
+      "evidence_node_ids": [
+        "EV_110",
+        "CH_14",
+        "LOC_BUCURESTI"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-09e546708ccd2b8d",
+      "question": "Ce succesiune cauzală de două etape leagă primirea scrisorii de Costache de petrecerea Otiliei cu Pascalopol, având ca nod central relația lui Felix cu Georgeta?",
+      "options": [
+        "Lanțul începe cu primirea scrisorii de către Costache (EV_073), contribuie la apariția relației lui Felix cu Georgeta (EV_081), care la rândul său favorizează petrecerea Otiliei cu Pascalopol (EV_089).",
+        "Acțiunea creează contextul narativ imediat pentru momentul următor din același capitol.",
+        "110",
+        "Citirea unui curs"
+      ],
+      "answer": "Lanțul începe cu primirea scrisorii de către Costache (EV_073), contribuie la apariția relației lui Felix cu Georgeta (EV_081), care la rândul său favorizează petrecerea Otiliei cu Pascalopol (EV_089).",
+      "answer_node_ids": [
+        "EV_073",
+        "EV_081",
+        "EV_089"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T134456134455Z-b003::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_10",
+        "CH_11",
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "EV_073",
+        "EV_081",
+        "EV_089"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "MCQ-e1eba6c981fca730",
+      "question": "În ce capitol al romanului se desfășoară scena cu Pascalopol, Aglae, Costache și Otilia la masa de joc?",
+      "options": [
+        "Capitolul 3",
+        "Capitolul 2",
+        "Capitolul 1",
+        "Capitolul 4"
+      ],
+      "answer": "Capitolul 1",
+      "answer_node_ids": [
+        "CH_01"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T135119780700Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CH_01",
+        "EV_004"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-3c6b91c293120323",
+      "question": "Care este legătura de rudenie care îl unește pe Costache Giurgiuveanu cu Otilia Mărculescu?",
+      "options": [
+        "Costache Giurgiuveanu este tatăl vitreg al Otiliei Mărculescu.",
+        "Tată vitreg",
+        "Tată vitreg (relație parentală)",
+        "Tatăl vitreg"
+      ],
+      "answer": "Tată vitreg (relație parentală)",
+      "answer_node_ids": [
+        "CHAR_COSTACHE",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T135119780700Z-b004::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_COSTACHE",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-972cfc3e7cdd27d4",
+      "question": "Cine este nemulțumit de familiaritatea Otiliei cu Pascalopol în Capitolul 1?",
+      "options": [
+        "În afară de Georgeta, Felix și generalul care râd, ceilalți îl privesc uimiți, iar Olimpia îl contemplă ca pe un monstru.",
+        "Leonida Pascalopol",
+        "Se întoarce la masă cu Pascalopol, privește pe Felix degajat și se poartă ca și când nimic nu s-ar fi întâmplat.",
+        "Felix Sima."
+      ],
+      "answer": "Felix Sima.",
+      "answer_node_ids": [
+        "CHAR_FELIX"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T135119780700Z-b004::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "EV_005",
+        "CHAR_OTILIA",
+        "CHAR_PASCALOPOL"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-f70b76a12911fbf5",
+      "question": "Care este cauza directă care a declanșat conversația dintre Felix și Otilia privind starea de sănătate a lui Simion în Capitolul 17?",
+      "options": [
+        "Evenimentul din Capitolul 16 (EV_121), în care Stănică și Olimpia discutau despre regulile familiei și sentimentul de vinovăție al lui Stănică, a cauzat direct evenimentul din Capitolul 17.",
+        "Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.",
+        "Interacțiunea dintre Otilia și Costache din capitolul 4 a cauzat direct momentul din capitolul 5 când Felix este informat despre sosirea Olimpiei și a lui Stănică.",
+        "Cauza directă este comportamentul schimbător al Otiliei, care ignoră gingășiile lui Felix când intră Pascalopol, determinându-l pe tânăr să dezvolte un complex de inferioritate și fantasme generoase."
+      ],
+      "answer": "Evenimentul din Capitolul 16 (EV_121), în care Stănică și Olimpia discutau despre regulile familiei și sentimentul de vinovăție al lui Stănică, a cauzat direct evenimentul din Capitolul 17.",
+      "answer_node_ids": [
+        "EV_121",
+        "EV_129",
+        "CH_16",
+        "CH_17",
+        "STATE_CH_16_OPEN",
+        "STATE_CH_17_OPEN"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T135119780700Z-b004::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_16",
+        "CH_17"
+      ],
+      "evidence_node_ids": [
+        "EV_121",
+        "EV_129",
+        "CH_16",
+        "CH_17",
+        "STATE_CH_16_OPEN",
+        "STATE_CH_17_OPEN"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-7526f59334c24f6a",
+      "question": "Care este participantul la acest eveniment din capitolul opt care acționează ca protector rafinat al Otiliei?",
+      "options": [
+        "Ana Sohatchi",
+        "Aglae Tulea",
+        "Leonida Pascalopol",
+        "Aurel Rațiu"
+      ],
+      "answer": "Leonida Pascalopol",
+      "answer_node_ids": [
+        "CHAR_PASCALOPOL"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T135119780700Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "CHAR_PASCALOPOL",
+        "EV_057"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-f8478e9db3edd72e",
+      "question": "Ce sentiment afectiv profund nutrește Felix Sima față de Otilia în roman?",
+      "options": [
+        "Felix Sima o iubește pe Otilia Mărculescu.",
+        "Iubire reciprocă",
+        "Dragoste / iubire",
+        "Dragoste reciprocă"
+      ],
+      "answer": "Dragoste / iubire",
+      "answer_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T135119780700Z-b004::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-75759d3c2f66de9c",
+      "question": "Ce face Costache Giurgiuveanu la masa din Capitolul 8 după ce verifică camera Otiliei?",
+      "options": [
+        "Crăpă ușa odăii și își vâră capul înăuntru ca o bilă.",
+        "În afară de Georgeta, Felix și generalul care râd, ceilalți îl privesc uimiți, iar Olimpia îl contemplă ca pe un monstru.",
+        "Se întoarce la masă cu Pascalopol, privește pe Felix degajat și se poartă ca și când nimic nu s-ar fi întâmplat.",
+        "Felix Sima."
+      ],
+      "answer": "Se întoarce la masă cu Pascalopol, privește pe Felix degajat și se poartă ca și când nimic nu s-ar fi întâmplat.",
+      "answer_node_ids": [
+        "CHAR_COSTACHE"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T135119780700Z-b004::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "CHAR_COSTACHE",
+        "EV_058",
+        "CHAR_PASCALOPOL",
+        "CHAR_FELIX"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-a90fe53ca2f48e79",
+      "question": "Care este efectul imediat al scenei cu jocul de zaruri și conversația dintre Aglae, Costache, Otilia și Pascalopol din Capitolul 1?",
+      "options": [
+        "Otilia continuă să-i coasă un nasture lui Felix fără să își schimbe stilul, apoi aleargă la moșier pentru calinerii.",
+        "Interacțiunea creează contextul narativ imediat pentru desfășurarea momentului următor din același capitol.",
+        "Consecința imediată este stabilirea contextului narativ necesar pentru dinamica familială, care va genera ulterior tensiuni afective și conflicte între personaje.",
+        "Acțiunea creează contextul narativ imediat pentru momentul următor din același capitol."
+      ],
+      "answer": "Interacțiunea creează contextul narativ imediat pentru desfășurarea momentului următor din același capitol.",
+      "answer_node_ids": [
+        "EV_004",
+        "CH_01",
+        "CHAR_OTILIA",
+        "CHAR_COSTACHE",
+        "CHAR_AGLAE",
+        "CHAR_PASCALOPOL"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T135119780700Z-b004::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_004",
+        "CH_01",
+        "CHAR_OTILIA",
+        "CHAR_COSTACHE",
+        "CHAR_AGLAE",
+        "CHAR_PASCALOPOL"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-9b1eff084570e2b2",
+      "question": "Care este ordinea globală a evenimentului în care Weissmann îl lămurește pe Felix despre prețul danturii?",
+      "options": [
+        "110",
+        "Acțiunea creează contextul narativ imediat pentru momentul următor din același capitol.",
+        "Citirea unui curs",
+        "Lanțul începe cu primirea scrisorii de către Costache (EV_073), contribuie la apariția relației lui Felix cu Georgeta (EV_081), care la rândul său favorizează petrecerea Otiliei cu Pascalopol (EV_089)."
+      ],
+      "answer": "110",
+      "answer_node_ids": [
+        "EV_110"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T135119780700Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_14"
+      ],
+      "evidence_node_ids": [
+        "EV_110"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-37307200976885c4",
+      "question": "În ce tip de rivalitate se află Stănică Rațiu față de Otilia?",
+      "options": [
+        "Stănică Rațiu este rivalul Otiliei Mărculescu.",
+        "Rivalitate explicită",
+        "Rivalitate / opoziție interesată",
+        "Rivalitate"
+      ],
+      "answer": "Rivalitate / opoziție interesată",
+      "answer_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OTILIA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T135119780700Z-b004::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OTILIA"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-512362d2575c0a85",
+      "question": "Ce reacții provoacă Weissmann printre participanți în Capitolul 14?",
+      "options": [
+        "Felix Sima.",
+        "În afară de Georgeta, Felix și generalul care râd, ceilalți îl privesc uimiți, iar Olimpia îl contemplă ca pe un monstru.",
+        "Crăpă ușa odăii și își vâră capul înăuntru ca o bilă.",
+        "Se întoarce la masă cu Pascalopol, privește pe Felix degajat și se poartă ca și când nimic nu s-ar fi întâmplat."
+      ],
+      "answer": "În afară de Georgeta, Felix și generalul care râd, ceilalți îl privesc uimiți, iar Olimpia îl contemplă ca pe un monstru.",
+      "answer_node_ids": [
+        "CHAR_WEISSMANN"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T135119780700Z-b004::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_14"
+      ],
+      "evidence_node_ids": [
+        "CHAR_WEISSMANN",
+        "EV_111",
+        "CHAR_FELIX",
+        "CHAR_GENERAL",
+        "CHAR_OLIMPIA"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "MCQ-ca7384ed0ddeb5cd",
+      "question": "Ce lanț cauzal de două etape leagă întâlnirea dintre Felix și Georgeta de propunerea de a-l interna pe Simion într-un ospiciu?",
+      "options": [
+        "Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.",
+        "Întâlnirea dintre Felix și Georgeta (EV_105) contribuie la dezbaterea asupra averii lui Simion (EV_113), care la rândul său duce la propunerea internării acestuia (EV_121).",
+        "Capitolul 1",
+        "Interacțiunea dintre Otilia și Costache din capitolul 4 a cauzat direct momentul din capitolul 5 când Felix este informat despre sosirea Olimpiei și a lui Stănică."
+      ],
+      "answer": "Întâlnirea dintre Felix și Georgeta (EV_105) contribuie la dezbaterea asupra averii lui Simion (EV_113), care la rândul său duce la propunerea internării acestuia (EV_121).",
+      "answer_node_ids": [
+        "EV_105",
+        "EV_113",
+        "EV_121",
+        "CH_14",
+        "CH_15",
+        "CH_16"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T135119780700Z-b004::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_14",
+        "CH_15",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "EV_105",
+        "EV_113",
+        "EV_121",
+        "CH_14",
+        "CH_15",
+        "CH_16"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    }
+  ]
+}

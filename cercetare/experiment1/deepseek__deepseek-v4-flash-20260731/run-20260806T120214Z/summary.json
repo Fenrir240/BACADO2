@@ -1,0 +1,790 @@
+{
+  "benchmark_id": "ION-EXP1-CH01-SUMMARY-V1",
+  "task": "chapter_summary_reconstruction",
+  "graph_version": "2.0",
+  "chapter_id": "CH_01",
+  "summaries": {
+    "simple": {
+      "register": "simple",
+      "summary_text": "La început, drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite. Apoi, în curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână. După aceea, așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului. În continuare, deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu. Mai târziu, Ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu. Apoi, Vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere. După aceea, Vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale. În continuare, afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare. Mai târziu, la cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George. Apoi, Ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.",
+      "word_count": 210,
+      "used_event_ids": [
+        "EV_001",
+        "EV_002",
+        "EV_003",
+        "EV_004",
+        "EV_005",
+        "EV_006",
+        "EV_007",
+        "EV_008",
+        "EV_009",
+        "EV_010"
+      ],
+      "omitted_event_ids": [],
+      "omissions": [],
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "text": "La început, drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite.",
+          "event_ids": [
+            "EV_001"
+          ],
+          "supporting_node_ids": [
+            "EV_001",
+            "LOC_001"
+          ],
+          "edge_ids": [
+            "EDGE_00128",
+            "EDGE_00124"
+          ],
+          "claims": [
+            {
+              "subject": "EV_001",
+              "predicate": "occurs_at",
+              "object": "LOC_001"
+            },
+            {
+              "subject": "EV_001",
+              "predicate": "instance_of",
+              "object": "CLASS_NARRATIVEEVENT"
+            }
+          ]
+        },
+        {
+          "sentence_index": 2,
+          "text": "Apoi, în curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână.",
+          "event_ids": [
+            "EV_002"
+          ],
+          "supporting_node_ids": [
+            "EV_002",
+            "LOC_002",
+            "CHAR_023"
+          ],
+          "edge_ids": [
+            "EDGE_00141",
+            "EDGE_00147"
+          ],
+          "claims": [
+            {
+              "subject": "EV_002",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_002",
+              "predicate": "has_participant",
+              "object": "CHAR_023"
+            }
+          ]
+        },
+        {
+          "sentence_index": 3,
+          "text": "După aceea, așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului.",
+          "event_ids": [
+            "EV_003"
+          ],
+          "supporting_node_ids": [
+            "EV_003",
+            "LOC_002",
+            "CHAR_008",
+            "CHAR_013",
+            "CHAR_022"
+          ],
+          "edge_ids": [
+            "EDGE_00159",
+            "EDGE_00165",
+            "EDGE_00168",
+            "EDGE_00170"
+          ],
+          "claims": [
+            {
+              "subject": "EV_003",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_003",
+              "predicate": "has_participant",
+              "object": "CHAR_008"
+            },
+            {
+              "subject": "EV_003",
+              "predicate": "has_participant",
+              "object": "CHAR_013"
+            },
+            {
+              "subject": "EV_003",
+              "predicate": "has_participant",
+              "object": "CHAR_022"
+            }
+          ]
+        },
+        {
+          "sentence_index": 4,
+          "text": "În continuare, deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu.",
+          "event_ids": [
+            "EV_004"
+          ],
+          "supporting_node_ids": [
+            "EV_004",
+            "CHAR_001",
+            "CHAR_002",
+            "CHAR_003",
+            "LOC_002"
+          ],
+          "edge_ids": [
+            "EDGE_00183",
+            "EDGE_00189",
+            "EDGE_00192",
+            "EDGE_00194"
+          ],
+          "claims": [
+            {
+              "subject": "EV_004",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_004",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_004",
+              "predicate": "has_participant",
+              "object": "CHAR_002"
+            },
+            {
+              "subject": "EV_004",
+              "predicate": "has_participant",
+              "object": "CHAR_003"
+            }
+          ]
+        },
+        {
+          "sentence_index": 5,
+          "text": "Mai târziu, Ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu.",
+          "event_ids": [
+            "EV_005"
+          ],
+          "supporting_node_ids": [
+            "EV_005",
+            "CHAR_001",
+            "CHAR_002",
+            "CHAR_005",
+            "LOC_002"
+          ],
+          "edge_ids": [
+            "EDGE_00206",
+            "EDGE_00212",
+            "EDGE_00215",
+            "EDGE_00217"
+          ],
+          "claims": [
+            {
+              "subject": "EV_005",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_005",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_005",
+              "predicate": "has_participant",
+              "object": "CHAR_002"
+            },
+            {
+              "subject": "EV_005",
+              "predicate": "has_participant",
+              "object": "CHAR_005"
+            }
+          ]
+        },
+        {
+          "sentence_index": 6,
+          "text": "Apoi, Vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere.",
+          "event_ids": [
+            "EV_006"
+          ],
+          "supporting_node_ids": [
+            "EV_006",
+            "CHAR_005",
+            "CHAR_001",
+            "LOC_002"
+          ],
+          "edge_ids": [
+            "EDGE_00230",
+            "EDGE_00236",
+            "EDGE_00239"
+          ],
+          "claims": [
+            {
+              "subject": "EV_006",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_006",
+              "predicate": "has_participant",
+              "object": "CHAR_005"
+            },
+            {
+              "subject": "EV_006",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            }
+          ]
+        },
+        {
+          "sentence_index": 7,
+          "text": "După aceea, Vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.",
+          "event_ids": [
+            "EV_007"
+          ],
+          "supporting_node_ids": [
+            "EV_007",
+            "CHAR_005",
+            "CHAR_004",
+            "CHAR_002",
+            "LOC_002"
+          ],
+          "edge_ids": [
+            "EDGE_00252",
+            "EDGE_00258",
+            "EDGE_00261",
+            "EDGE_00263"
+          ],
+          "claims": [
+            {
+              "subject": "EV_007",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_007",
+              "predicate": "has_participant",
+              "object": "CHAR_005"
+            },
+            {
+              "subject": "EV_007",
+              "predicate": "has_participant",
+              "object": "CHAR_004"
+            },
+            {
+              "subject": "EV_007",
+              "predicate": "has_participant",
+              "object": "CHAR_002"
+            }
+          ]
+        },
+        {
+          "sentence_index": 8,
+          "text": "În continuare, afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare.",
+          "event_ids": [
+            "EV_008"
+          ],
+          "supporting_node_ids": [
+            "EV_008",
+            "CHAR_001",
+            "CHAR_005",
+            "LOC_001"
+          ],
+          "edge_ids": [
+            "EDGE_00275",
+            "EDGE_00281",
+            "EDGE_00284"
+          ],
+          "claims": [
+            {
+              "subject": "EV_008",
+              "predicate": "occurs_at",
+              "object": "LOC_001"
+            },
+            {
+              "subject": "EV_008",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_008",
+              "predicate": "has_participant",
+              "object": "CHAR_005"
+            }
+          ]
+        },
+        {
+          "sentence_index": 9,
+          "text": "Mai târziu, la cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George.",
+          "event_ids": [
+            "EV_009"
+          ],
+          "supporting_node_ids": [
+            "EV_009",
+            "CHAR_001",
+            "CHAR_004",
+            "CHAR_017",
+            "LOC_003"
+          ],
+          "edge_ids": [
+            "EDGE_00296",
+            "EDGE_00302",
+            "EDGE_00305",
+            "EDGE_00307"
+          ],
+          "claims": [
+            {
+              "subject": "EV_009",
+              "predicate": "occurs_at",
+              "object": "LOC_003"
+            },
+            {
+              "subject": "EV_009",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_009",
+              "predicate": "has_participant",
+              "object": "CHAR_004"
+            },
+            {
+              "subject": "EV_009",
+              "predicate": "has_participant",
+              "object": "CHAR_017"
+            }
+          ]
+        },
+        {
+          "sentence_index": 10,
+          "text": "Apoi, Ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.",
+          "event_ids": [
+            "EV_010"
+          ],
+          "supporting_node_ids": [
+            "EV_010",
+            "CHAR_001",
+            "CHAR_004",
+            "LOC_003"
+          ],
+          "edge_ids": [
+            "EDGE_00319",
+            "EDGE_00325",
+            "EDGE_00328"
+          ],
+          "claims": [
+            {
+              "subject": "EV_010",
+              "predicate": "occurs_at",
+              "object": "LOC_003"
+            },
+            {
+              "subject": "EV_010",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_010",
+              "predicate": "has_participant",
+              "object": "CHAR_004"
+            }
+          ]
+        }
+      ]
+    },
+    "elevated": {
+      "register": "elevated",
+      "summary_text": "La începutul secvenței, drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite. Ulterior, în curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână. În continuarea firului narativ, așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului. Pe măsură ce acțiunea înaintează, deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu. În acest context, Ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu. Ulterior, Vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere. În continuarea firului narativ, Vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale. Pe măsură ce acțiunea înaintează, afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare. În acest context, la cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George. Ulterior, Ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.",
+      "word_count": 230,
+      "used_event_ids": [
+        "EV_001",
+        "EV_002",
+        "EV_003",
+        "EV_004",
+        "EV_005",
+        "EV_006",
+        "EV_007",
+        "EV_008",
+        "EV_009",
+        "EV_010"
+      ],
+      "omitted_event_ids": [],
+      "omissions": [],
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "text": "La începutul secvenței, drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite.",
+          "event_ids": [
+            "EV_001"
+          ],
+          "supporting_node_ids": [
+            "EV_001",
+            "LOC_001"
+          ],
+          "edge_ids": [
+            "EDGE_00128",
+            "EDGE_00124"
+          ],
+          "claims": [
+            {
+              "subject": "EV_001",
+              "predicate": "occurs_at",
+              "object": "LOC_001"
+            },
+            {
+              "subject": "EV_001",
+              "predicate": "instance_of",
+              "object": "CLASS_NARRATIVEEVENT"
+            }
+          ]
+        },
+        {
+          "sentence_index": 2,
+          "text": "Ulterior, în curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână.",
+          "event_ids": [
+            "EV_002"
+          ],
+          "supporting_node_ids": [
+            "EV_002",
+            "LOC_002",
+            "CHAR_023"
+          ],
+          "edge_ids": [
+            "EDGE_00141",
+            "EDGE_00147"
+          ],
+          "claims": [
+            {
+              "subject": "EV_002",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_002",
+              "predicate": "has_participant",
+              "object": "CHAR_023"
+            }
+          ]
+        },
+        {
+          "sentence_index": 3,
+          "text": "În continuarea firului narativ, așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului.",
+          "event_ids": [
+            "EV_003"
+          ],
+          "supporting_node_ids": [
+            "EV_003",
+            "LOC_002",
+            "CHAR_008",
+            "CHAR_013",
+            "CHAR_022"
+          ],
+          "edge_ids": [
+            "EDGE_00159",
+            "EDGE_00165",
+            "EDGE_00168",
+            "EDGE_00170"
+          ],
+          "claims": [
+            {
+              "subject": "EV_003",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_003",
+              "predicate": "has_participant",
+              "object": "CHAR_008"
+            },
+            {
+              "subject": "EV_003",
+              "predicate": "has_participant",
+              "object": "CHAR_013"
+            },
+            {
+              "subject": "EV_003",
+              "predicate": "has_participant",
+              "object": "CHAR_022"
+            }
+          ]
+        },
+        {
+          "sentence_index": 4,
+          "text": "Pe măsură ce acțiunea înaintează, deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu.",
+          "event_ids": [
+            "EV_004"
+          ],
+          "supporting_node_ids": [
+            "EV_004",
+            "CHAR_001",
+            "CHAR_002",
+            "CHAR_003",
+            "LOC_002"
+          ],
+          "edge_ids": [
+            "EDGE_00183",
+            "EDGE_00189",
+            "EDGE_00192",
+            "EDGE_00194"
+          ],
+          "claims": [
+            {
+              "subject": "EV_004",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_004",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_004",
+              "predicate": "has_participant",
+              "object": "CHAR_002"
+            },
+            {
+              "subject": "EV_004",
+              "predicate": "has_participant",
+              "object": "CHAR_003"
+            }
+          ]
+        },
+        {
+          "sentence_index": 5,
+          "text": "În acest context, Ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu.",
+          "event_ids": [
+            "EV_005"
+          ],
+          "supporting_node_ids": [
+            "EV_005",
+            "CHAR_001",
+            "CHAR_002",
+            "CHAR_005",
+            "LOC_002"
+          ],
+          "edge_ids": [
+            "EDGE_00206",
+            "EDGE_00212",
+            "EDGE_00215",
+            "EDGE_00217"
+          ],
+          "claims": [
+            {
+              "subject": "EV_005",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_005",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_005",
+              "predicate": "has_participant",
+              "object": "CHAR_002"
+            },
+            {
+              "subject": "EV_005",
+              "predicate": "has_participant",
+              "object": "CHAR_005"
+            }
+          ]
+        },
+        {
+          "sentence_index": 6,
+          "text": "Ulterior, Vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere.",
+          "event_ids": [
+            "EV_006"
+          ],
+          "supporting_node_ids": [
+            "EV_006",
+            "CHAR_005",
+            "CHAR_001",
+            "LOC_002"
+          ],
+          "edge_ids": [
+            "EDGE_00230",
+            "EDGE_00236",
+            "EDGE_00239"
+          ],
+          "claims": [
+            {
+              "subject": "EV_006",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_006",
+              "predicate": "has_participant",
+              "object": "CHAR_005"
+            },
+            {
+              "subject": "EV_006",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            }
+          ]
+        },
+        {
+          "sentence_index": 7,
+          "text": "În continuarea firului narativ, Vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.",
+          "event_ids": [
+            "EV_007"
+          ],
+          "supporting_node_ids": [
+            "EV_007",
+            "CHAR_005",
+            "CHAR_004",
+            "CHAR_002",
+            "LOC_002"
+          ],
+          "edge_ids": [
+            "EDGE_00252",
+            "EDGE_00258",
+            "EDGE_00261",
+            "EDGE_00263"
+          ],
+          "claims": [
+            {
+              "subject": "EV_007",
+              "predicate": "occurs_at",
+              "object": "LOC_002"
+            },
+            {
+              "subject": "EV_007",
+              "predicate": "has_participant",
+              "object": "CHAR_005"
+            },
+            {
+              "subject": "EV_007",
+              "predicate": "has_participant",
+              "object": "CHAR_004"
+            },
+            {
+              "subject": "EV_007",
+              "predicate": "has_participant",
+              "object": "CHAR_002"
+            }
+          ]
+        },
+        {
+          "sentence_index": 8,
+          "text": "Pe măsură ce acțiunea înaintează, afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare.",
+          "event_ids": [
+            "EV_008"
+          ],
+          "supporting_node_ids": [
+            "EV_008",
+            "CHAR_001",
+            "CHAR_005",
+            "LOC_001"
+          ],
+          "edge_ids": [
+            "EDGE_00275",
+            "EDGE_00281",
+            "EDGE_00284"
+          ],
+          "claims": [
+            {
+              "subject": "EV_008",
+              "predicate": "occurs_at",
+              "object": "LOC_001"
+            },
+            {
+              "subject": "EV_008",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_008",
+              "predicate": "has_participant",
+              "object": "CHAR_005"
+            }
+          ]
+        },
+        {
+          "sentence_index": 9,
+          "text": "În acest context, la cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George.",
+          "event_ids": [
+            "EV_009"
+          ],
+          "supporting_node_ids": [
+            "EV_009",
+            "CHAR_001",
+            "CHAR_004",
+            "CHAR_017",
+            "LOC_003"
+          ],
+          "edge_ids": [
+            "EDGE_00296",
+            "EDGE_00302",
+            "EDGE_00305",
+            "EDGE_00307"
+          ],
+          "claims": [
+            {
+              "subject": "EV_009",
+              "predicate": "occurs_at",
+              "object": "LOC_003"
+            },
+            {
+              "subject": "EV_009",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_009",
+              "predicate": "has_participant",
+              "object": "CHAR_004"
+            },
+            {
+              "subject": "EV_009",
+              "predicate": "has_participant",
+              "object": "CHAR_017"
+            }
+          ]
+        },
+        {
+          "sentence_index": 10,
+          "text": "Ulterior, Ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.",
+          "event_ids": [
+            "EV_010"
+          ],
+          "supporting_node_ids": [
+            "EV_010",
+            "CHAR_001",
+            "CHAR_004",
+            "LOC_003"
+          ],
+          "edge_ids": [
+            "EDGE_00319",
+            "EDGE_00325",
+            "EDGE_00328"
+          ],
+          "claims": [
+            {
+              "subject": "EV_010",
+              "predicate": "occurs_at",
+              "object": "LOC_003"
+            },
+            {
+              "subject": "EV_010",
+              "predicate": "has_participant",
+              "object": "CHAR_001"
+            },
+            {
+              "subject": "EV_010",
+              "predicate": "has_participant",
+              "object": "CHAR_004"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

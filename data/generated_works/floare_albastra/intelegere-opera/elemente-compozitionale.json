@@ -1,0 +1,81 @@
+{
+  "work_id": "floare_albastra",
+  "elements": [
+    {
+      "id": "title",
+      "title": "Titlul",
+      "focus": "Sintagma romantică polisemantică",
+      "branches": [
+        {
+          "heading": "Origine mitică",
+          "content": "Motiv de circulație universală la Novalis și Leopardi, simbolizând aspirația către ideal.",
+          "key_idea": "Motiv de circulație universală la Novalis și Leopardi, simbolizând aspirația către ideal.",
+          "explanation": "Motiv de circulație universală la Novalis și Leopardi, simbolizând aspirația către ideal."
+        },
+        {
+          "heading": "Valențe cromatice",
+          "content": "Albastrul evocă infinitul ceresc și marea, contrapunându-se delicateții florii terestre.",
+          "key_idea": "Albastrul evocă infinitul ceresc și marea, contrapunându-se delicateții florii terestre.",
+          "explanation": "Albastrul evocă infinitul ceresc și marea, contrapunându-se delicateții florii terestre."
+        },
+        {
+          "heading": "Funcție simbolică",
+          "content": "Reunește viața efemeră cu nostalgia absolutului spiritual neîmplinit.",
+          "key_idea": "Reunește viața efemeră cu nostalgia absolutului spiritual neîmplinit.",
+          "explanation": "Reunește viața efemeră cu nostalgia absolutului spiritual neîmplinit."
+        },
+        {
+          "heading": "Răsunare tematică",
+          "content": "Anunță nucleul de virtualități ce va cristaliza problematica geniului în Luceafărul.",
+          "key_idea": "Anunță nucleul de virtualități ce va cristaliza problematica geniului în Luceafărul.",
+          "explanation": "Anunță nucleul de virtualități ce va cristaliza problematica geniului în Luceafărul."
+        }
+      ],
+      "central_idea": "Sintagma romantică polisemantică",
+      "memory_formula": [
+        "Origine mitică",
+        "Valențe cromatice",
+        "Funcție simbolică"
+      ],
+      "essay_paragraph": "Ca element compozițional, titlul poeziei “Floare albastră“, reprezintă un motiv romantic de circulație universală, întâlnit și în operele lui Novalis și Leopardi, care își are punctul de plecare în mitul aspirației către idealul de fericire, de iubire pură. Este alcătuit din substantivul comun \"floare\", un simbol al vieții, gingășiei și delicateții, specifice idealului feminin, și adjectivul \"albastră\", un epitet cromatic ce simbolizează infinitul, depărtările mării și ale cerului. În creația eminesciană sintagma “floare albastră“ sugerează opoziția între lumea caldă, terestră, efemeră, creionată cu ajutorul ”florii” și lumea rece, a “marilor depărtări“, a cunoașterii absolute asociate culorii albastre, proiectând astfel sentimentul iubirii în eternitate."
+    },
+    {
+      "id": "semantic_figures",
+      "title": "Limbaj și figuri semantice",
+      "focus": "Instrumente ale expresivității lirice",
+      "branches": [
+        {
+          "heading": "Metafora cognitivă",
+          "content": "«râuri în soare» ilustrează dimensiunea amplă și luminoasă a cunoașterii pure.",
+          "key_idea": "«râuri în soare» ilustrează dimensiunea amplă și luminoasă a cunoașterii pure.",
+          "explanation": "«râuri în soare» ilustrează dimensiunea amplă și luminoasă a cunoașterii pure."
+        },
+        {
+          "heading": "Epitetele descriptive",
+          "content": "«balta cea senină» și «trestia cea lină» creează armonie de calm și securitate.",
+          "key_idea": "«balta cea senină» și «trestia cea lină» creează armonie de calm și securitate.",
+          "explanation": "«balta cea senină» și «trestia cea lină» creează armonie de calm și securitate."
+        },
+        {
+          "heading": "Comparația plastică",
+          "content": "«roșie ca mărul» face trimitere la puritatea vitală și cuplul adamic primordial.",
+          "key_idea": "«roșie ca mărul» face trimitere la puritatea vitală și cuplul adamic primordial.",
+          "explanation": "«roșie ca mărul» face trimitere la puritatea vitală și cuplul adamic primordial."
+        },
+        {
+          "heading": "Personificarea afectivă",
+          "content": "«izvoare plâng» conferă naturii vibrație sufletească, complice la starea îndrăgostiților.",
+          "key_idea": "«izvoare plâng» conferă naturii vibrație sufletească, complice la starea îndrăgostiților.",
+          "explanation": "«izvoare plâng» conferă naturii vibrație sufletească, complice la starea îndrăgostiților."
+        }
+      ],
+      "central_idea": "Instrumente ale expresivității lirice",
+      "memory_formula": [
+        "Metafora cognitivă",
+        "Epitetele descriptive",
+        "Comparația plastică"
+      ],
+      "essay_paragraph": "Un element de limbaj, semnificativ pentru textul poetic, este reprezentat de figurile semantice, utilizate în vederea îmbogățirii expresivității, amplificând totodată profunzimea trăirilor. Astfel, în poezie întâlnim metafora \"râuri în soare\" care ilustrează aspirația spre cunoaștere, epitete „trestia cea lină” și \"balta cea senină\" care sugerează liniște și siguranță, inversiunea „de-aur părul” prin care fata este descrisă ca o apariție de basm și comparația \"roșie ca mărul\", care face trimitere la mitul cuplului adamic. De asemenea, personificarea „izvoare plâng în vale” conferă naturii o funcție afectivă, reflectând starea sufletească a fetei iar repetiția exclamativă „Floare-albastră! floare-albastră!” exprimă dramatismul despărțirii și profunzimea suferinței."
+    }
+  ]
+}

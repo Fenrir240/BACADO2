@@ -1,0 +1,1626 @@
+{
+  "metadata": {
+    "work": "Floare albastră",
+    "author": "Mihai Eminescu",
+    "author_id": "AUTH_EMINESCU",
+    "work_id": "WORK_FLOARE_ALBASTRA",
+    "genre": "Liric (cu interferențe epico-dramatice)",
+    "species": "Poem filozofic / Eglogă (idilă cu dialog) / Meditație elegiacă",
+    "movement": "Romantism canonic",
+    "publication_year": 1873,
+    "publication_context": "Revista «Convorbiri literare», capodoperă a etapei de tinerețe, nucleu de virtualități al «Luceafărului» (1883)",
+    "version": "3.0.0-advanced",
+    "total_stanzas": 14,
+    "total_sequences": 4,
+    "philosophical_grounding": "Arthur Schopenhauer (voința de a trăi vs. geniul contemplativ), Novalis (romantismul de la Jena), Giacomo Leopardi",
+    "created_at": "2026-08-23T20:35:35.610685+00:00"
+  },
+  "sources": [
+    {
+      "source_type": "primary_text",
+      "path": "opere_pdf/floare-albastra.md"
+    },
+    {
+      "source_type": "model_essay",
+      "path": "modele_eseuri/floare_albastra.md"
+    }
+  ],
+  "ontology": {
+    "node_types": [
+      "Work",
+      "Author",
+      "LiteraryMovement",
+      "LiterarySpecies",
+      "LiteraryTrait",
+      "PoeticSequence",
+      "Stanza",
+      "PoeticPlane",
+      "PoeticVoice",
+      "PoeticAttitude",
+      "PoeticImage",
+      "FigureOfSpeech",
+      "PoeticMotif",
+      "PoeticSymbol",
+      "Theme",
+      "Conflict",
+      "CompositionElement",
+      "ProsodicStructure",
+      "PhilosophicalConcept",
+      "IntertextualRelation",
+      "GrammaticalStylistics",
+      "Chronotope",
+      "PhonoSymbolism",
+      "CriticalHermeneutics"
+    ],
+    "relationship_types": [
+      "authored_by",
+      "belongs_to_literary_movement",
+      "has_species",
+      "has_sequence",
+      "contains_stanza",
+      "situates_in_plane",
+      "expressed_by_voice",
+      "adopts_attitude",
+      "evokes_image",
+      "realized_through",
+      "embodies_motif",
+      "anchors_symbol",
+      "expresses_theme",
+      "manifests_trait",
+      "opposes",
+      "contrasts_with",
+      "mirrors_in_symmetry",
+      "corresponds_to",
+      "uses_prosodic_element",
+      "has_composition_element",
+      "grounded_in_philosophy",
+      "prefigures_work",
+      "exemplified_by_grammar",
+      "situates_in_chronotope",
+      "manifests_phonosymbolism",
+      "interpreted_by_critic"
+    ],
+    "assertion_types": [
+      "explicit_fact",
+      "literary_interpretation",
+      "symbolic_interpretation",
+      "prosodic_fact",
+      "philosophical_grounding",
+      "stylistic_fact",
+      "critical_consensus"
+    ]
+  },
+  "sequences": [
+    {
+      "id": "SEQ_01",
+      "number": 1,
+      "title": "Tabloul I — Monologul fetei și reproșul cunoașterii abstracte",
+      "stanzas": [
+        1,
+        2,
+        3
+      ],
+      "dominant_plane": "PLANE_COSMIC",
+      "dominant_voice": "VOICE_FEMININE",
+      "simple_verbalization": "Fata îi reproșează iubitului că se izolează în gânduri înalte, printre stele, nori, câmpii asire și piramide, uitând de dragostea pământească, și îl îndeamnă să nu caute fericirea în depărtări inaccesibile.",
+      "elevated_verbalization": "Secvența inițială configurează primul monolog al instanței feminine, care denunță tentația geniului de a evada în sferele cunoașterii absolute și ale cosmogoniei reci, avertizându-l asupra caracterului iluzoriu al fericirii abstracte prin antiteza dintre depărtările depersonalizante și căldura afectivă a existenței terestre."
+    },
+    {
+      "id": "SEQ_02",
+      "number": 2,
+      "title": "Tabloul II — Monologul interior al geniului și conștientizarea distanței",
+      "stanzas": [
+        4
+      ],
+      "dominant_plane": "PLANE_MEDITATIVE",
+      "dominant_voice": "VOICE_MASCULINE",
+      "simple_verbalization": "Tânărul meditativ ascultă vorbele drăgăstoase ale fetei, recunoaște în sinea lui că ea are dreptate, dar zâmbește ironic și tace, înțelegând că idealurile lor de viață sunt diferite.",
+      "elevated_verbalization": "Cea de-a doua secvență lirică introduce replica meditativă a instanței masculine; deși geniul recunoaște intuitiv adevărul fetei («Ah! ea spuse adevărul»), reacționează prin detașare ironică și tăcere contemplativă («Eu am râs, n-am zis nimica»), marcând incompatibilitatea structurală dintre absolutul cunoașterii și trăirea imediată."
+    },
+    {
+      "id": "SEQ_03",
+      "number": 3,
+      "title": "Tabloul III — Al doilea monolog al fetei și scenariul idilei în natură",
+      "stanzas": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dominant_plane": "PLANE_TERRESTRIAL",
+      "dominant_voice": "VOICE_FEMININE",
+      "simple_verbalization": "Fata îl cheamă pe iubit în mijlocul naturii ocrotitoare, la pădure, lângă baltă și izvoare, unde își imaginează un joc tandru al iubirii, cu destăinuiri, sărutări tăinuite sub pălărie, ivirea lunii și întoarcerea spre sat la căderea nopții.",
+      "elevated_verbalization": "Secvența a treia dezvoltă ritualul erotic pastoral proiectat într-o natură paradisiacă, cu funcție ocrotitoare și complice (codrul, izvoarele, balta, trestia, luna). Idila se desfășoară gradat prin gesturi de tandrețe rustică, joc oracular («pe-un fir de romaniță») și senzualitate ingenuă, culminând cu întoarcerea spre sat, unde pragul porții prefigurează limita fragilă a fericirii omenești."
+    },
+    {
+      "id": "SEQ_04",
+      "number": 4,
+      "title": "Tabloul IV — Meditația elegiacă finală și conștiința ireversibilității",
+      "stanzas": [
+        13,
+        14
+      ],
+      "dominant_plane": "PLANE_ELEGIAC",
+      "dominant_voice": "VOICE_MASCULINE",
+      "simple_verbalization": "Fata dispare, clipa de fericire se stinge, iar bărbatul rămâne singur sub lumina lunii, regretând cu tristețe pierderea iubirii ideale și a «florii albastre», conștient de suferința profundă din lume.",
+      "elevated_verbalization": "Secvența concluzivă deplasează discursul liric în registrul elegiei filozofice. Rememorarea iubirii apuse generează o profundă criză existențială, marcată de trecerea la timpul trecut («te-ai dus», «a murit»), de pauza meditativă a suspensiei și de exclamația patetică a motivului central («Floare-albastră! floare-albastră!...»), culminând cu aforismul resemnării universale: «Totuși este trist în lume!»."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "WORK_FLOARE_ALBASTRA",
+      "type": "Work",
+      "label": "Floare albastră",
+      "author": "Mihai Eminescu",
+      "year": 1873,
+      "species": "Poem filozofic / Eglogă / Elegie",
+      "importance": "primary"
+    },
+    {
+      "id": "AUTH_EMINESCU",
+      "type": "Author",
+      "label": "Mihai Eminescu",
+      "importance": "high",
+      "role": "Poetul național, ultimul mare romantic european"
+    },
+    {
+      "id": "MOV_ROMANTISM",
+      "type": "LiteraryMovement",
+      "label": "Romantismul canonic eminescian",
+      "description": "Curent literar fondat pe antiteză, primatul sensibilității, evadare în natură, amestecul speciilor și condiția geniului inadaptabil."
+    },
+    {
+      "id": "TRAIT_SPECIES_MIX",
+      "type": "LiteraryTrait",
+      "label": "Amestecul speciilor literare",
+      "description": "Îmbinarea idilei rustice (eglogă cu dialog) cu pastelul descriptiv cosmic/terestru și cu meditația filozofică elegiacă."
+    },
+    {
+      "id": "TRAIT_ANTITHESIS",
+      "type": "LiteraryTrait",
+      "label": "Antiteza ca principiu compozițional",
+      "description": "Opoziția structurală dintre absolutul cunoașterii (geniul) și efemeritatea trăirii imediate (omul comun), dintre cosmic și terestru, eternitate și moarte."
+    },
+    {
+      "id": "SEQ_01",
+      "type": "PoeticSequence",
+      "label": "Tabloul I (Strofele 1-3)",
+      "stanzas": [
+        1,
+        2,
+        3
+      ],
+      "focus": "Monologul fetei: avertismentul împotriva cunoașterii abstracte și a izolării cosmice."
+    },
+    {
+      "id": "SEQ_02",
+      "type": "PoeticSequence",
+      "label": "Tabloul II (Strofa 4)",
+      "stanzas": [
+        4
+      ],
+      "focus": "Monologul interior al geniului: recunoașterea adevărului, zâmbetul ironic și tăcerea contemplativă."
+    },
+    {
+      "id": "SEQ_03",
+      "type": "PoeticSequence",
+      "label": "Tabloul III (Strofele 5-12)",
+      "stanzas": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "focus": "Al doilea monolog al fetei: proiectul idilei în codru, jocul erotic și întoarcerea spre sat."
+    },
+    {
+      "id": "SEQ_04",
+      "type": "PoeticSequence",
+      "label": "Tabloul IV (Strofele 13-14)",
+      "stanzas": [
+        13,
+        14
+      ],
+      "focus": "Monologul final al geniului: rememorarea elegiacă a iubirii pierdute și tristețea cosmică a existenței."
+    },
+    {
+      "id": "ST_01",
+      "type": "Stanza",
+      "label": "Strofa 1",
+      "stanza_number": 1,
+      "rhyme": "a-b-a-b",
+      "quote": "Iar te-ai cufundat în stele / Și în nori și-n ceruri nalte? / De nu m-ai uita încalte, / Sufletul vieții mele."
+    },
+    {
+      "id": "ST_02",
+      "type": "Stanza",
+      "label": "Strofa 2",
+      "stanza_number": 2,
+      "rhyme": "a-b-a-b",
+      "quote": "În zadar râuri în soare / Grămădești-n a ta gândire / Și câmpiile asire / Și întunecata mare;"
+    },
+    {
+      "id": "ST_03",
+      "type": "Stanza",
+      "label": "Strofa 3",
+      "stanza_number": 3,
+      "rhyme": "a-b-a-b",
+      "quote": "Piramidele-nvechite / Urcă-n cer vârful lor mare - / Nu căta în depărtare / Fericirea ta, iubite!"
+    },
+    {
+      "id": "ST_04",
+      "type": "Stanza",
+      "label": "Strofa 4",
+      "stanza_number": 4,
+      "rhyme": "a-b-a-b",
+      "quote": "Astfel zise mititica, / Dulce netezindu-mi părul. / Ah! ea spuse adevărul; / Eu am râs, n-am zis nimica."
+    },
+    {
+      "id": "ST_05",
+      "type": "Stanza",
+      "label": "Strofa 5",
+      "stanza_number": 5,
+      "rhyme": "a-b-a-b",
+      "quote": "- Hai în codrul cu verdeață, / Und-izvoare plâng în vale, / Stânca stă să se prăvale / În prăpastia măreață."
+    },
+    {
+      "id": "ST_06",
+      "type": "Stanza",
+      "label": "Strofa 6",
+      "stanza_number": 6,
+      "rhyme": "a-b-a-b",
+      "quote": "Acolo-n ochi de pădure, / Lângă balta cea senină / Și sub trestia cea lină / Vom ședea în foi de mure."
+    },
+    {
+      "id": "ST_07",
+      "type": "Stanza",
+      "label": "Strofa 7",
+      "stanza_number": 7,
+      "rhyme": "a-b-a-b",
+      "quote": "Și mi-i spune-atunci povești / Și minciuni cu-a ta guriță, / Eu pe-un fir de romaniță / Voi cerca de mă iubești."
+    },
+    {
+      "id": "ST_08",
+      "type": "Stanza",
+      "label": "Strofa 8",
+      "stanza_number": 8,
+      "rhyme": "a-b-a-b",
+      "quote": "Și de-a soarelui căldură / Voi fi roșie ca mărul, / Mi-oi desface de-aur părul, / Să-ți astup cu dânsul gura."
+    },
+    {
+      "id": "ST_09",
+      "type": "Stanza",
+      "label": "Strofa 9",
+      "stanza_number": 9,
+      "rhyme": "a-b-a-b",
+      "quote": "De mi-i da o sărutare, / Nime-n lume n-a s-o știe, / Căci va fi sub pălărie - / Ș-apoi cine treabă are!"
+    },
+    {
+      "id": "ST_10",
+      "type": "Stanza",
+      "label": "Strofa 10",
+      "stanza_number": 10,
+      "rhyme": "a-b-a-b",
+      "quote": "Când prin crengi s-a fi ivit / Luna-n noaptea cea de vară, / Mi-i ținea de subsuoară, / Te-oi ținea de după gât."
+    },
+    {
+      "id": "ST_11",
+      "type": "Stanza",
+      "label": "Strofa 11",
+      "stanza_number": 11,
+      "rhyme": "a-b-a-b",
+      "quote": "Pe cărare-n bolți de frunze, / Apucând spre sat în vale, / Ne-om da sărutări pe cale, / Dulci ca florile ascunse."
+    },
+    {
+      "id": "ST_12",
+      "type": "Stanza",
+      "label": "Strofa 12",
+      "stanza_number": 12,
+      "rhyme": "a-b-a-b",
+      "quote": "Și sosind l-al porții prag, / Vom vorbi-n întunecime: / Grija noastră n-aib-o nime, / Cui ce-i pasă că-mi ești drag?"
+    },
+    {
+      "id": "ST_13",
+      "type": "Stanza",
+      "label": "Strofa 13",
+      "stanza_number": 13,
+      "rhyme": "a-b-a-b",
+      "quote": "Înc-o gură - și dispare... / Ca un stâlp eu stam în lună! / Ce frumoasă, ce nebună / E albastra-mi, dulce floare!"
+    },
+    {
+      "id": "ST_14",
+      "type": "Stanza",
+      "label": "Strofa 14",
+      "stanza_number": 14,
+      "rhyme": "a-b-a-b",
+      "quote": "Și te-ai dus, dulce minune, / Ș-a murit iubirea noastră - / Floare-albastră! floare-albastră!... / Totuși este trist în lume!"
+    },
+    {
+      "id": "PLANE_COSMIC",
+      "type": "PoeticPlane",
+      "label": "Planul cosmic / abstract",
+      "description": "Spațiul abstracțiunii pure, al nemărginirii, al cunoașterii cosmice și al istoriei universale."
+    },
+    {
+      "id": "PLANE_TERRESTRIAL",
+      "type": "PoeticPlane",
+      "label": "Planul terestru / uman",
+      "description": "Spațiul ocrotitor al naturii terestre, al trăirii concrete, al instinctului și al iubirii calde."
+    },
+    {
+      "id": "PLANE_MEDITATIVE",
+      "type": "PoeticPlane",
+      "label": "Planul reflexiv / interior",
+      "description": "Spațiul conștiinței eului liric masculin, marcat de luciditate, resemnare și detașare ironică."
+    },
+    {
+      "id": "PLANE_ELEGIAC",
+      "type": "PoeticPlane",
+      "label": "Planul elegiac / al rememorării",
+      "description": "Spațiul durerii existențiale, unde iubirea pierdută devine simbol al tristeții cosmice."
+    },
+    {
+      "id": "VOICE_FEMININE",
+      "type": "PoeticVoice",
+      "label": "Vocea feminină (fata / iubita)",
+      "role": "Ipostaza omului comun, cald, ancorat în viața concretă și în farmecul naturii."
+    },
+    {
+      "id": "VOICE_MASCULINE",
+      "type": "PoeticVoice",
+      "label": "Vocea masculină (omul de geniu)",
+      "role": "Ipostaza eului reflexiv, atras de infinitul cunoașterii și conștient de ireversibilitatea timpului."
+    },
+    {
+      "id": "ATT_CALL_FOR_LOVE",
+      "type": "PoeticAttitude",
+      "label": "Chemarea afectivă / Vitalismul iubirii",
+      "description": "Tandrețe, ingenuitate, spontaneitate și dorință de trăire plenară în prezent."
+    },
+    {
+      "id": "ATT_LUCID_IRONY",
+      "type": "PoeticAttitude",
+      "label": "Luciditatea ironică și tăcerea",
+      "description": "Amestec de superioritate intelectuală, resemnare și zâmbet amar."
+    },
+    {
+      "id": "ATT_ELEGIAC_REGRET",
+      "type": "PoeticAttitude",
+      "label": "Regretul elegiac și conștiința tristeții",
+      "description": "Durerea pierderii ireversibile, sfâșierea sufletească și meditația aforistică asupra destinului."
+    },
+    {
+      "id": "IMG_COSMIC_EXPEDITION",
+      "type": "PoeticImage",
+      "label": "Cufundarea în spațiul stelar și nori",
+      "sensory_type": "vizuala_cosmica",
+      "quote": "Iar te-ai cufundat în stele / Și în nori și-n ceruri nalte?",
+      "stanza": 1,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_SUN_RIVERS",
+      "type": "PoeticImage",
+      "label": "Râurile de lumină și gândire",
+      "sensory_type": "vizuala_abstracta",
+      "quote": "În zadar râuri în soare / Grămădești-n a ta gândire",
+      "stanza": 2,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_ASSYRIAN_PLAINS",
+      "type": "PoeticImage",
+      "label": "Câmpiile asire și marea întunecată",
+      "sensory_type": "vizuala_panoramica",
+      "quote": "Și câmpiile asire / Și întunecata mare;",
+      "stanza": 2,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_PYRAMIDS",
+      "type": "PoeticImage",
+      "label": "Vârfurile piramidelor învechite",
+      "sensory_type": "vizuala_verticala",
+      "quote": "Piramidele-nvechite / Urcă-n cer vârful lor mare",
+      "stanza": 3,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_TENDER_GESTURE",
+      "type": "PoeticImage",
+      "label": "Netezirea afectuoasă a părului",
+      "sensory_type": "tactila_afectiva",
+      "quote": "Dulce netezindu-mi părul",
+      "stanza": 4,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_GREEN_FOREST",
+      "type": "PoeticImage",
+      "label": "Codrul cu verdeață și stânca măreață",
+      "sensory_type": "vizuala_dinamica",
+      "quote": "Hai în codrul cu verdeață, / Und-izvoare plâng în vale, / Stânca stă să se prăvale",
+      "stanza": 5,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_CLEAR_POND",
+      "type": "PoeticImage",
+      "label": "Ochiul de pădure și balta senină",
+      "sensory_type": "vizuala_statica",
+      "quote": "Acolo-n ochi de pădure, / Lângă balta cea senină / Și sub trestia cea lină",
+      "stanza": 6,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_BERRY_LEAVES",
+      "type": "PoeticImage",
+      "label": "Odihna în foi de mure",
+      "sensory_type": "tactila_si_olfactiva",
+      "quote": "Vom ședea în foi de mure.",
+      "stanza": 6,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_ROMANITA_GAME",
+      "type": "PoeticImage",
+      "label": "Oracolul florii de romaniță",
+      "sensory_type": "motorie_si_vizuala",
+      "quote": "Eu pe-un fir de romaniță / Voi cerca de mă iubești.",
+      "stanza": 7,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_GOLDEN_HAIR",
+      "type": "PoeticImage",
+      "label": "Părul de aur desfăcut peste gura iubitului",
+      "sensory_type": "cromatica_si_tactila",
+      "quote": "Mi-oi desface de-aur părul, / Să-ți astup cu dânsul gura.",
+      "stanza": 8,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_SECRET_KISS",
+      "type": "PoeticImage",
+      "label": "Sărutul tăinuit sub pălărie",
+      "sensory_type": "vizuala_si_tactila",
+      "quote": "De mi-i da o sărutare, / Nime-n lume n-a s-o știe, / Căci va fi sub pălărie",
+      "stanza": 9,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_SUMMER_MOON",
+      "type": "PoeticImage",
+      "label": "Ivirea lunii prin crengi în noaptea de vară",
+      "sensory_type": "vizuala_cromatica",
+      "quote": "Când prin crengi s-a fi ivit / Luna-n noaptea cea de vară",
+      "stanza": 10,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_EMBRACE_WALK",
+      "type": "PoeticImage",
+      "label": "Îmbrățișarea tandră pe cărare",
+      "sensory_type": "motorie_si_tactila",
+      "quote": "Mi-i ținea de subsuoară, / Te-oi ținea de după gât.",
+      "stanza": 10,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_LEAF_ARCHES",
+      "type": "PoeticImage",
+      "label": "Cărarea sub bolți de frunze spre sat",
+      "sensory_type": "vizuala_spatiala",
+      "quote": "Pe cărare-n bolți de frunze, / Apucând spre sat în vale",
+      "stanza": 11,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_VILLAGE_GATE_THRESHOLD",
+      "type": "PoeticImage",
+      "label": "Oprirea la pragul porții în întuneric",
+      "sensory_type": "spatiala_si_simbolica",
+      "quote": "Și sosind l-al porții prag, / Vom vorbi-n întunecime",
+      "stanza": 12,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_STATUE_IN_MOONLIGHT",
+      "type": "PoeticImage",
+      "label": "Împietrirea solitară în lumina lunii",
+      "sensory_type": "vizuala_plastica",
+      "quote": "Ca un stâlp eu stam în lună!",
+      "stanza": 13,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_DISAPPEARANCE",
+      "type": "PoeticImage",
+      "label": "Dispariția bruscă a fetei",
+      "sensory_type": "dinamica_dramatica",
+      "quote": "Înc-o gură - și dispare...",
+      "stanza": 13,
+      "verified_primary": true
+    },
+    {
+      "id": "IMG_DYING_LOVE",
+      "type": "PoeticImage",
+      "label": "Moartea iubirii și plecarea minunii",
+      "sensory_type": "elegica_filozofica",
+      "quote": "Și te-ai dus, dulce minune, / Ș-a murit iubirea noastră",
+      "stanza": 14,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_SUN_RIVERS",
+      "type": "FigureOfSpeech",
+      "label": "Metafora râurilor în soare",
+      "figure_type": "metafora_cognitiva",
+      "quote": "râuri în soare",
+      "effect": "Simbolizează dimensiunea amplă, nesfârșită și luminoasă a cunoașterii pure.",
+      "stanza": 2,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_ASSYRIAN_PLAINS",
+      "type": "FigureOfSpeech",
+      "label": "Simbolul câmpiilor asire",
+      "figure_type": "simbol_istoric",
+      "quote": "câmpiile asire",
+      "effect": "Evoacă geneza civilizațiilor și fascinația istoriei vechi universale.",
+      "stanza": 2,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_DARK_SEA",
+      "type": "FigureOfSpeech",
+      "label": "Epitetul mării întunecate",
+      "figure_type": "epitet_cromatic",
+      "quote": "întunecata mare",
+      "effect": "Conotează misterul primordial, abisal al genezei cosmice.",
+      "stanza": 2,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_PYRAMIDS",
+      "type": "FigureOfSpeech",
+      "label": "Simbolul piramidelor învechite",
+      "figure_type": "simbol_al_nemuririi",
+      "quote": "Piramidele-nvechite",
+      "effect": "Reprezintă setea de eternitate a spiritului uman și efortul de depășire a timpului.",
+      "stanza": 3,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_SOUL_OF_LIFE",
+      "type": "FigureOfSpeech",
+      "label": "Metafora afectivă a sufletului vieții",
+      "figure_type": "metafora_afectiva",
+      "quote": "Sufletul vieții mele",
+      "effect": "Exprimă intensitatea iubirii feminine și dependența existențială față de ființa dragă.",
+      "stanza": 1,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_WEEPING_SPRINGS",
+      "type": "FigureOfSpeech",
+      "label": "Personificarea izvoarelor care plâng",
+      "figure_type": "personificare_afectiva",
+      "quote": "izvoare plâng în vale",
+      "effect": "Conferă naturii o vibrație sufletească ocrotitoare, complice la starea îndrăgostiților.",
+      "stanza": 5,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_FOREST_EYE",
+      "type": "FigureOfSpeech",
+      "label": "Metafora ochiului de pădure",
+      "figure_type": "metafora_spatiala",
+      "quote": "ochi de pădure",
+      "effect": "Sugerează un topos sacru, intim și protector în inima naturii.",
+      "stanza": 6,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_SMOOTH_REED",
+      "type": "FigureOfSpeech",
+      "label": "Epitetul trestiei line și al bălții senine",
+      "figure_type": "epitet_sinestezic",
+      "quote": "balta cea senină / trestia cea lină",
+      "effect": "Creează o armonie de calm, pace vegetală și securitate emoțională.",
+      "stanza": 6,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_RED_AS_APPLE",
+      "type": "FigureOfSpeech",
+      "label": "Comparația roșie ca mărul",
+      "figure_type": "comparatie_plastica",
+      "quote": "roșie ca mărul",
+      "effect": "Trimitere la puritatea vitală, sănătatea rustică și tentația cuplului adamic primordial.",
+      "stanza": 8,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_GOLDEN_HAIR",
+      "type": "FigureOfSpeech",
+      "label": "Inversiunea de-aur părul",
+      "figure_type": "inversiune_si_epitet",
+      "quote": "de-aur părul",
+      "effect": "Transformă fata într-o apariție solară, luminoasă și fermecătoare de basm.",
+      "stanza": 8,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_SWEET_AS_FLOWERS",
+      "type": "FigureOfSpeech",
+      "label": "Comparația sărutărilor dulci ca florile",
+      "figure_type": "comparatie_sinestezica",
+      "quote": "Dulci ca florile ascunse",
+      "effect": "Asociază voluptatea discretă a sărutului cu prospețimea și parfumul florilor de pădure.",
+      "stanza": 11,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_PILLAR_IN_MOON",
+      "type": "FigureOfSpeech",
+      "label": "Comparația împietririi ca un stâlp în lună",
+      "figure_type": "comparatie_sculpturala",
+      "quote": "Ca un stâlp eu stam în lună",
+      "effect": "Sugerează stupefacția, singurătatea tragică și solitudinea absolută a geniului părăsit.",
+      "stanza": 13,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_SWEET_WONDER",
+      "type": "FigureOfSpeech",
+      "label": "Oximoronul / Epitetul dulce minune",
+      "figure_type": "oximoron_si_metafora",
+      "quote": "dulce minune",
+      "effect": "Contopirea fascinației sublime cu durerea sfâșietoare a efemerității.",
+      "stanza": 14,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_BLUE_FLOWER_REP",
+      "type": "FigureOfSpeech",
+      "label": "Repetiția exclamativă a florii albastre",
+      "figure_type": "repetitie_exclamativa",
+      "quote": "Floare-albastră! floare-albastră!...",
+      "effect": "Strigăt tragic de invocare a idealului pierdut și conștientizare a suferinței umane.",
+      "stanza": 14,
+      "verified_primary": true
+    },
+    {
+      "id": "FIG_FINAL_APHORISM",
+      "type": "FigureOfSpeech",
+      "label": "Aforismul / Concluzia filozofică finală",
+      "figure_type": "maxima_filozofica",
+      "quote": "Totuși este trist în lume!",
+      "effect": "Sintetizează pesimismul romantic de tip schopenhauerian asupra condiției umane.",
+      "stanza": 14,
+      "verified_primary": true
+    },
+    {
+      "id": "MOTIF_BLUE_FLOWER",
+      "type": "PoeticMotif",
+      "label": "Motivul «Florii albastre»",
+      "description": "Motiv romantic de circulație universală (Novalis, Leopardi), simbolizând aspirația către absolut, puritatea iubirii și nostalgia idealului neatins."
+    },
+    {
+      "id": "MOTIF_FOREST",
+      "type": "PoeticMotif",
+      "label": "Motivul codrului ocrotitor",
+      "description": "Topos sacru al armoniei primordiale, martor și adăpost al iubirii inocente."
+    },
+    {
+      "id": "MOTIF_MOON",
+      "type": "PoeticMotif",
+      "label": "Motivul lunii",
+      "description": "Astru tutelar, simbol al dragostei feerice, al romantismului nocturn și al contemplării senine."
+    },
+    {
+      "id": "MOTIF_THRESHOLD",
+      "type": "PoeticMotif",
+      "label": "Motivul pragului porții",
+      "description": "Hotar spațial și simbolic între spațiul sacru al codrului și spațiul profan al satului, prefigurând separarea cuplului."
+    },
+    {
+      "id": "MOTIF_ROMANITA",
+      "type": "PoeticMotif",
+      "label": "Motivul florii de romaniță",
+      "description": "Element al jocului oracular popular de aflare a sentimentelor împărtășite."
+    },
+    {
+      "id": "MOTIF_STARS_AND_PYRAMIDS",
+      "type": "PoeticMotif",
+      "label": "Motivul stelelor și al piramidelor",
+      "description": "Semne ale verticalității spiritului, ale cunoașterii cosmice și ale setei de nemurire a geniului."
+    },
+    {
+      "id": "SYM_BLUE_FLOWER",
+      "type": "PoeticSymbol",
+      "label": "Simbolul polisemantic al Florii Albastre",
+      "description": "Reunește floarea (viață, delicatețe terestră, efemeritate) cu albastrul (infinitul, cerul, marea, absolutul spiritual)."
+    },
+    {
+      "id": "THEME_LOVE",
+      "type": "Theme",
+      "label": "Tema iubirii",
+      "description": "Sentiment total trăit între aspirația spre eternitate și imposibilitatea împlinirii durabile în plan terestru."
+    },
+    {
+      "id": "THEME_NATURE",
+      "type": "Theme",
+      "label": "Tema naturii",
+      "description": "Cadrul feeric, viu și empatic, generator de armonie și ocrotitor al trăirii curate."
+    },
+    {
+      "id": "THEME_GENIUS_CONDITION",
+      "type": "Theme",
+      "label": "Tema condiției omului de geniu",
+      "description": "Incompatibilitatea funciară dintre setea de absolut a geniului și orizontul limitat al fericirii omului comun."
+    },
+    {
+      "id": "THEME_TIME",
+      "type": "Theme",
+      "label": "Tema timpului ireversibil («fugit irreparabile tempus»)",
+      "description": "Natura trecătoare a clipei de extaz și imposibilitatea conservării fericirii contingente."
+    },
+    {
+      "id": "CONF_GENIUS_VS_COMMON",
+      "type": "Conflict",
+      "label": "Tensiunea ideatică Geniu vs. Om Comun",
+      "description": "Antiteza dintre spiritul creator dornic de nemurire și făptura ingenuă dornică de bucurii imediate."
+    },
+    {
+      "id": "COMP_TITLE",
+      "type": "CompositionElement",
+      "label": "Titlul poemului",
+      "description": "Motiv romantic de circulație universală; «floare» sugerează viața terestră, gingășia și efemerul, iar «albastră» evocă infinitul și aspirația spre absolut."
+    },
+    {
+      "id": "COMP_INCIPIT_FINAL",
+      "type": "CompositionElement",
+      "label": "Relația Incipit — Final",
+      "description": "Simetria compozițională realizată prin adresare directă: reproșul tandru din incipit («Iar te-ai cufundat în stele...») devine în final lamentație tragică a despărțirii («Și te-ai dus, dulce minune...»)."
+    },
+    {
+      "id": "COMP_ANTITHESIS",
+      "type": "CompositionElement",
+      "label": "Relațiile de opoziție și simetrie",
+      "description": "Structurarea poemului pe polarități: cosmic-terestru, eternitate-moarte, apolinic-dionisiac, bărbat-femeie, abstract-concret."
+    },
+    {
+      "id": "PROS_RHYTHM_METER",
+      "type": "ProsodicStructure",
+      "label": "Structura prozodică a poemului",
+      "measure": "7-8 silabe",
+      "rhyme": "Îmbrățișată (a-b-b-a)",
+      "rhythm": "Trohaic",
+      "musicality": "Muzicalitate fluidă, cu rezonanțe folclorice și incantații elegiace."
+    },
+    {
+      "id": "LEX_INCALTE",
+      "type": "LexicalNote",
+      "term": "încalte",
+      "definition": "Adverb popular și arhaic cu sensul «măcar», «cel puțin», «barem».",
+      "stanza": 1,
+      "source": "DEX/DRAM"
+    },
+    {
+      "id": "PHIL_SCHOPENHAUER_WILL",
+      "type": "PhilosophicalConcept",
+      "label": "Voința de a trăi (Schopenhauer)",
+      "description": "Conceptul «Wille zum Leben»: instinctul vital orb care guvernează specia și existența terestră, reprezentat de chemarea erotică a fetei."
+    },
+    {
+      "id": "PHIL_SCHOPENHAUER_GENIUS",
+      "type": "PhilosophicalConcept",
+      "label": "Geniul ca intelect pur contemplativ",
+      "description": "Geniul schopenhauerian capabil să se sustragă tiraniei voinței pentru a contempla Ideile eterne, dar condamnat la izolare și nefericire."
+    },
+    {
+      "id": "PHIL_NOVALIS_ROMANTICISM",
+      "type": "PhilosophicalConcept",
+      "label": "Mitul novalisian al Florii Albastre",
+      "description": "Provenit din «Heinrich von Ofterdingen» de Novalis, simbolizând la origine poezia absolută, iar la Eminescu fiind metamorfozat în simbol al iubirii pierdute."
+    },
+    {
+      "id": "PHIL_LEOPARDI_ELEGISM",
+      "type": "PhilosophicalConcept",
+      "label": "Poezia iluziei și regretului (Leopardi)",
+      "description": "Filiația cu elegismul lui Giacomo Leopardi privind caracterul trecător și dureros al iluziilor tinereții."
+    },
+    {
+      "id": "PHIL_APOLLINIAN_DIONYSIAN",
+      "type": "PhilosophicalConcept",
+      "label": "Tensiunea Apolinic — Dionisiac",
+      "description": "Apolinicul rațional, contemplativ și stelar al geniului în opoziție cu dionisiacul senzual, vitalist și teluric al fetei."
+    },
+    {
+      "id": "INTERTEXT_LUCEAFARUL",
+      "type": "IntertextualRelation",
+      "label": "Prefigurarea poemului «Luceafărul» (1883)",
+      "description": "«Floare albastră» (1873) este nucleul de virtualități pentru «Luceafărul»: fata prefigurează pe Cătălina, idila din codru prefigurează idila Cătălin-Cătălina, iar bărbatul meditativ anunță izolarea suverană a lui Hyperion («nemuritor și rece»)."
+    },
+    {
+      "id": "GRAM_PRESENT_COSMIC",
+      "type": "GrammaticalStylistics",
+      "label": "Prezentul și imperfectul cunoașterii cosmice",
+      "quote": "te-ai cufundat, grămădești, urcă",
+      "effect": "Fixează atemporalitatea rece a gândirii filozofice și a meditației abstracte din Tabloul I."
+    },
+    {
+      "id": "GRAM_FUTURE_POPULAR",
+      "type": "GrammaticalStylistics",
+      "label": "Viitorul popular/prezumtiv al proiecției onirice",
+      "quote": "vom ședea, mi-i spune, voi cerca, mi-oi desface, ne-om da, vom vorbi",
+      "effect": "Subliniază caracterul ipotetic și iluzoriu al scenariului erotic din Tabloul III — iubirea rămâne un proiect dorit, nu o realitate consumată."
+    },
+    {
+      "id": "GRAM_PAST_BREAK",
+      "type": "GrammaticalStylistics",
+      "label": "Perfectul compus al rupturii ireversibile",
+      "quote": "te-ai dus, a murit",
+      "effect": "Marchează trecerea bruscă în neant și instalarea doliului afectiv definitiv în Tabloul IV."
+    },
+    {
+      "id": "GRAM_PRESENT_GNOMIC",
+      "type": "GrammaticalStylistics",
+      "label": "Prezentul gnomic / sentențios final",
+      "quote": "este trist în lume",
+      "effect": "Generalizează experiența eșecului individual la nivelul întregii condiții umane universale."
+    },
+    {
+      "id": "GRAM_PRONOUNS_EVOLUTION",
+      "type": "GrammaticalStylistics",
+      "label": "Dinamica pronumelor și a persoanei",
+      "quote": "mele (T1) -> eu/n-am zis (T2) -> noi/ne-om da (T3) -> te-ai dus / iubirea noastră / albastra-mi floare (T4)",
+      "effect": "Reconstituie traiectoria cuplului: de la atracția inițială, la solitudinea masculină, apoi la iluzia fuziunii («noi») și la disoluția definitivă a legăturii."
+    },
+    {
+      "id": "CHRONOTOPE_LOCUS_AMOENUS",
+      "type": "Chronotope",
+      "label": "Toposul de «Locus Amoenus» (Codrul sacru)",
+      "quote": "codrul cu verdeață, ochi de pădure, balta cea senină, trestia cea lină",
+      "effect": "Spațiu paradisiac autonom, ocrotitor și securizant, complice al armoniei dintre om și cosmosul vegetal."
+    },
+    {
+      "id": "CHRONOTOPE_THRESHOLD",
+      "type": "Chronotope",
+      "label": "Cronotopul pragului (Spațiul liminal)",
+      "quote": "l-al porții prag",
+      "effect": "Simbolizează hotarul de trecere între timpul sacru al codrului și timpul profan al satului, unde vraja erotică se destramă inevitabil."
+    },
+    {
+      "id": "CHRONOTOPE_COSMIC_VOID",
+      "type": "Chronotope",
+      "label": "Cronotopul depărtărilor cosmice",
+      "quote": "ceruri nalte, câmpiile asire, întunecata mare, piramidele",
+      "effect": "Spațiu infinit, rece și deșertic, care anulează afectul uman în favoarea contemplației pure."
+    },
+    {
+      "id": "PHONO_OPEN_VOWELS",
+      "type": "PhonoSymbolism",
+      "label": "Fonosimbolismul vocalelor deschise (/a/, /e/)",
+      "quote": "Hai în codrul cu verdeață / Und-izvoare plâng în vale",
+      "effect": "Creează o tonalitate luminoasă, solară și primitoare, adecvată vitalismului și spontaneității feminine."
+    },
+    {
+      "id": "PHONO_DARK_VOWELS",
+      "type": "PhonoSymbolism",
+      "label": "Fonosimbolismul vocalelor închise (/u/, /o/)",
+      "quote": "cufundat, nori, întunecata, murit, lume",
+      "effect": "Generează rezonanțe grave, abisale și sumbre, reflectând greutatea meditației și tristețea pierderii."
+    },
+    {
+      "id": "CRIT_TOTUSI_DEBATE",
+      "type": "CriticalHermeneutics",
+      "label": "Hermeneutica adverbului «Totuși» (Disputa critică)",
+      "quote": "Totuși este trist în lume!",
+      "effect": "Adverbul concesiv «Totuși» (subliniat de G. Călinescu, Perpessicius, Zoe Dumitrescu-Bușulenga) demonstrează că tristețea nu anulează valoarea sublimă a iubirii trăite, ci o înscrie într-o resemnare superioară, senină, ferită de deznădejdea nihilistă."
+    },
+    {
+      "id": "CRIT_CALINESCU_EVAL",
+      "type": "CriticalHermeneutics",
+      "label": "Perspectiva critică a lui G. Călinescu",
+      "quote": "«Floare albastră este un nucleu de virtualități...»",
+      "effect": "Consacră poezia drept capodoperă a lirismului măștilor, unde eul împrumută cele două ipostaze ale eternului și efemerului."
+    }
+  ],
+  "edges": [
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "AUTH_EMINESCU",
+      "relation": "authored_by",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "MOV_ROMANTISM",
+      "relation": "belongs_to_literary_movement",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "MOV_ROMANTISM",
+      "target": "TRAIT_SPECIES_MIX",
+      "relation": "has_characteristic",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "MOV_ROMANTISM",
+      "target": "TRAIT_ANTITHESIS",
+      "relation": "has_characteristic",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "SEQ_01",
+      "relation": "has_sequence",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "SEQ_02",
+      "relation": "has_sequence",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "SEQ_03",
+      "relation": "has_sequence",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "SEQ_04",
+      "relation": "has_sequence",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_01",
+      "target": "ST_01",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_01",
+      "target": "ST_02",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_01",
+      "target": "ST_03",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_02",
+      "target": "ST_04",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ST_05",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ST_06",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ST_07",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ST_08",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ST_09",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ST_10",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ST_11",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ST_12",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_04",
+      "target": "ST_13",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_04",
+      "target": "ST_14",
+      "relation": "contains_stanza",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_01",
+      "target": "PLANE_COSMIC",
+      "relation": "situates_in_plane",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_01",
+      "target": "VOICE_FEMININE",
+      "relation": "expressed_by_voice",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_01",
+      "target": "ATT_CALL_FOR_LOVE",
+      "relation": "adopts_attitude",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_02",
+      "target": "PLANE_MEDITATIVE",
+      "relation": "situates_in_plane",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_02",
+      "target": "VOICE_MASCULINE",
+      "relation": "expressed_by_voice",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_02",
+      "target": "ATT_LUCID_IRONY",
+      "relation": "adopts_attitude",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "PLANE_TERRESTRIAL",
+      "relation": "situates_in_plane",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "VOICE_FEMININE",
+      "relation": "expressed_by_voice",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "ATT_CALL_FOR_LOVE",
+      "relation": "adopts_attitude",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_04",
+      "target": "PLANE_ELEGIAC",
+      "relation": "situates_in_plane",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_04",
+      "target": "VOICE_MASCULINE",
+      "relation": "expressed_by_voice",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SEQ_04",
+      "target": "ATT_ELEGIAC_REGRET",
+      "relation": "adopts_attitude",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "PLANE_COSMIC",
+      "target": "PLANE_TERRESTRIAL",
+      "relation": "opposes",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "VOICE_MASCULINE",
+      "target": "VOICE_FEMININE",
+      "relation": "contrasts_with",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "CONF_GENIUS_VS_COMMON",
+      "target": "TRAIT_ANTITHESIS",
+      "relation": "manifests_trait",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "ST_01",
+      "target": "IMG_COSMIC_EXPEDITION",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_02",
+      "target": "IMG_SUN_RIVERS",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_02",
+      "target": "IMG_ASSYRIAN_PLAINS",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_03",
+      "target": "IMG_PYRAMIDS",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_04",
+      "target": "IMG_TENDER_GESTURE",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_05",
+      "target": "IMG_GREEN_FOREST",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_06",
+      "target": "IMG_CLEAR_POND",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_06",
+      "target": "IMG_BERRY_LEAVES",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_07",
+      "target": "IMG_ROMANITA_GAME",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_08",
+      "target": "IMG_GOLDEN_HAIR",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_09",
+      "target": "IMG_SECRET_KISS",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_10",
+      "target": "IMG_SUMMER_MOON",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_10",
+      "target": "IMG_EMBRACE_WALK",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_11",
+      "target": "IMG_LEAF_ARCHES",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_12",
+      "target": "IMG_VILLAGE_GATE_THRESHOLD",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_13",
+      "target": "IMG_STATUE_IN_MOONLIGHT",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_13",
+      "target": "IMG_DISAPPEARANCE",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_14",
+      "target": "IMG_DYING_LOVE",
+      "relation": "evokes_image",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "IMG_SUN_RIVERS",
+      "target": "FIG_SUN_RIVERS",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_ASSYRIAN_PLAINS",
+      "target": "FIG_ASSYRIAN_PLAINS",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_ASSYRIAN_PLAINS",
+      "target": "FIG_DARK_SEA",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_PYRAMIDS",
+      "target": "FIG_PYRAMIDS",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_COSMIC_EXPEDITION",
+      "target": "FIG_SOUL_OF_LIFE",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_GREEN_FOREST",
+      "target": "FIG_WEEPING_SPRINGS",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_CLEAR_POND",
+      "target": "FIG_FOREST_EYE",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_CLEAR_POND",
+      "target": "FIG_SMOOTH_REED",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_GOLDEN_HAIR",
+      "target": "FIG_RED_AS_APPLE",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_GOLDEN_HAIR",
+      "target": "FIG_GOLDEN_HAIR",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_LEAF_ARCHES",
+      "target": "FIG_SWEET_AS_FLOWERS",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_STATUE_IN_MOONLIGHT",
+      "target": "FIG_PILLAR_IN_MOON",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_DYING_LOVE",
+      "target": "FIG_SWEET_WONDER",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_DYING_LOVE",
+      "target": "FIG_BLUE_FLOWER_REP",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_DYING_LOVE",
+      "target": "FIG_FINAL_APHORISM",
+      "relation": "realized_through",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_GREEN_FOREST",
+      "target": "MOTIF_FOREST",
+      "relation": "embodies_motif",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_SUMMER_MOON",
+      "target": "MOTIF_MOON",
+      "relation": "embodies_motif",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_VILLAGE_GATE_THRESHOLD",
+      "target": "MOTIF_THRESHOLD",
+      "relation": "embodies_motif",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_ROMANITA_GAME",
+      "target": "MOTIF_ROMANITA",
+      "relation": "embodies_motif",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_PYRAMIDS",
+      "target": "MOTIF_STARS_AND_PYRAMIDS",
+      "relation": "embodies_motif",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "MOTIF_BLUE_FLOWER",
+      "target": "SYM_BLUE_FLOWER",
+      "relation": "anchors_symbol",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "MOTIF_BLUE_FLOWER",
+      "relation": "embodies_motif",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_13",
+      "target": "MOTIF_BLUE_FLOWER",
+      "relation": "embodies_motif",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "ST_14",
+      "target": "MOTIF_BLUE_FLOWER",
+      "relation": "embodies_motif",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "SYM_BLUE_FLOWER",
+      "target": "THEME_LOVE",
+      "relation": "expresses_theme",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "MOTIF_FOREST",
+      "target": "THEME_NATURE",
+      "relation": "expresses_theme",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "CONF_GENIUS_VS_COMMON",
+      "target": "THEME_GENIUS_CONDITION",
+      "relation": "expresses_theme",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "FIG_FINAL_APHORISM",
+      "target": "THEME_TIME",
+      "relation": "expresses_theme",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "COMP_TITLE",
+      "relation": "has_composition_element",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "COMP_INCIPIT_FINAL",
+      "relation": "has_composition_element",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "COMP_ANTITHESIS",
+      "relation": "has_composition_element",
+      "assertion_type": "explicit_fact"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "PROS_RHYTHM_METER",
+      "relation": "uses_prosodic_element",
+      "assertion_type": "prosodic_fact"
+    },
+    {
+      "source": "ST_01",
+      "target": "COMP_INCIPIT_FINAL",
+      "relation": "mirrors_in_symmetry",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "ST_14",
+      "target": "COMP_INCIPIT_FINAL",
+      "relation": "mirrors_in_symmetry",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "FIG_SUN_RIVERS",
+      "target": "TRAIT_ANTITHESIS",
+      "relation": "manifests_trait",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "FIG_WEEPING_SPRINGS",
+      "target": "TRAIT_SPECIES_MIX",
+      "relation": "manifests_trait",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "FIG_PILLAR_IN_MOON",
+      "target": "TRAIT_SPECIES_MIX",
+      "relation": "manifests_trait",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "FIG_SWEET_WONDER",
+      "target": "TRAIT_ANTITHESIS",
+      "relation": "manifests_trait",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "THEME_GENIUS_CONDITION",
+      "target": "PHIL_SCHOPENHAUER_GENIUS",
+      "relation": "grounded_in_philosophy",
+      "assertion_type": "philosophical_grounding"
+    },
+    {
+      "source": "VOICE_FEMININE",
+      "target": "PHIL_SCHOPENHAUER_WILL",
+      "relation": "grounded_in_philosophy",
+      "assertion_type": "philosophical_grounding"
+    },
+    {
+      "source": "MOTIF_BLUE_FLOWER",
+      "target": "PHIL_NOVALIS_ROMANTICISM",
+      "relation": "grounded_in_philosophy",
+      "assertion_type": "philosophical_grounding"
+    },
+    {
+      "source": "SEQ_04",
+      "target": "PHIL_LEOPARDI_ELEGISM",
+      "relation": "grounded_in_philosophy",
+      "assertion_type": "philosophical_grounding"
+    },
+    {
+      "source": "CONF_GENIUS_VS_COMMON",
+      "target": "PHIL_APOLLINIAN_DIONYSIAN",
+      "relation": "grounded_in_philosophy",
+      "assertion_type": "philosophical_grounding"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "INTERTEXT_LUCEAFARUL",
+      "relation": "prefigures_work",
+      "assertion_type": "critical_consensus"
+    },
+    {
+      "source": "CONF_GENIUS_VS_COMMON",
+      "target": "INTERTEXT_LUCEAFARUL",
+      "relation": "prefigures_work",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "FIG_PILLAR_IN_MOON",
+      "target": "INTERTEXT_LUCEAFARUL",
+      "relation": "prefigures_work",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_01",
+      "target": "GRAM_PRESENT_COSMIC",
+      "relation": "exemplified_by_grammar",
+      "assertion_type": "stylistic_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "GRAM_FUTURE_POPULAR",
+      "relation": "exemplified_by_grammar",
+      "assertion_type": "stylistic_fact"
+    },
+    {
+      "source": "SEQ_04",
+      "target": "GRAM_PAST_BREAK",
+      "relation": "exemplified_by_grammar",
+      "assertion_type": "stylistic_fact"
+    },
+    {
+      "source": "FIG_FINAL_APHORISM",
+      "target": "GRAM_PRESENT_GNOMIC",
+      "relation": "exemplified_by_grammar",
+      "assertion_type": "stylistic_fact"
+    },
+    {
+      "source": "COMP_INCIPIT_FINAL",
+      "target": "GRAM_PRONOUNS_EVOLUTION",
+      "relation": "exemplified_by_grammar",
+      "assertion_type": "stylistic_fact"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "CHRONOTOPE_LOCUS_AMOENUS",
+      "relation": "situates_in_chronotope",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "IMG_VILLAGE_GATE_THRESHOLD",
+      "target": "CHRONOTOPE_THRESHOLD",
+      "relation": "situates_in_chronotope",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_01",
+      "target": "CHRONOTOPE_COSMIC_VOID",
+      "relation": "situates_in_chronotope",
+      "assertion_type": "literary_interpretation"
+    },
+    {
+      "source": "SEQ_03",
+      "target": "PHONO_OPEN_VOWELS",
+      "relation": "manifests_phonosymbolism",
+      "assertion_type": "stylistic_fact"
+    },
+    {
+      "source": "SEQ_04",
+      "target": "PHONO_DARK_VOWELS",
+      "relation": "manifests_phonosymbolism",
+      "assertion_type": "stylistic_fact"
+    },
+    {
+      "source": "PROS_RHYTHM_METER",
+      "target": "PHONO_OPEN_VOWELS",
+      "relation": "manifests_phonosymbolism",
+      "assertion_type": "prosodic_fact"
+    },
+    {
+      "source": "FIG_FINAL_APHORISM",
+      "target": "CRIT_TOTUSI_DEBATE",
+      "relation": "interpreted_by_critic",
+      "assertion_type": "critical_consensus"
+    },
+    {
+      "source": "WORK_FLOARE_ALBASTRA",
+      "target": "CRIT_CALINESCU_EVAL",
+      "relation": "interpreted_by_critic",
+      "assertion_type": "critical_consensus"
+    }
+  ]
+}

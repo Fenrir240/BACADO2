@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "reasoning_effort": "medium",
+    "attempts": 1,
+    "retry_on_invalid": false,
+    "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\knowledge-graph.json",
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\qwen-literary-current-runs\\run-20260822T132420Z",
+    "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\enigma_otiliei.md",
+    "usage": {
+      "prompt_tokens": 61832,
+      "completion_tokens": 5749,
+      "total_tokens": 67581,
+      "cost": 0.0084828,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0084828,
+        "upstream_inference_prompt_cost": 0.0061832,
+        "upstream_inference_completions_cost": 0.0022996
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 4156,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "literary_current": {
+    "movement": {
+      "id": "realism_balzacian",
+      "name": "Realism balzacian",
+      "definition": "Curent literar apărut la mijlocul secolului al XIX-lea, caracterizat prin observarea obiectivă a realității sociale, verosimilitatea întâmplărilor, determinismul social și conturarea unor tipologii umane reprezentative pentru mediul burghez.",
+      "work_classification": "Romanul «Enigma Otiliei» se încadrează în realismul balzacian prin construcția sa obiectivă, citadină și prin modul în care autorul surprinde mecanismele sociale ale epocii interbelice, folosind tehnici narative specifice lui Balzac.",
+      "historical_context": "Perioada interbelică din România, marcată de modernizarea orașelor, consolidarea clasei de mijloc și influența puternică a culturii occidentale, în special a literaturii franceze."
+    },
+    "traits": [
+      {
+        "id": "cronotop_precis",
+        "title": "Verosimilitatea indusă de cronotopul precis",
+        "explanation": "În realism, spațiul și timpul sunt ancorate în date concrete și verificabile, creând iluzia autenticității și permițând cititorului să plaseze acțiunea într-un cadru istoric și geografic recognoscibil. Această tehnică transformă romanul într-o imagine documentară a societății.",
+        "evidence_from_work": [
+          "Menționarea explicită a datei și orei în incipit: „într-o seară de la începutul lui iulie, 1909, cu puțin înainte de orele zece”",
+          "Indicii temporali recurenți la începutul capitolelor: „a doua zi...”, „în ziua următoare...”, „pe la începutul lunii august...”",
+          "Toponime reale și spații bucureștene precum Calea Victoriei, strada Antim sau Câmpia Bărăganului"
+        ],
+        "essay_use": "Pentru a argumenta încadrarea în realism, elevul va evidenția cum detaliile spațiotemporale precise funcționează ca un suport al verosimilității, transformând Bucureștiul interbelic într-un laborator al observației sociale.",
+        "model_essay_excerpt": "O primă trăsătură care face posibilă încadrarea romanului scris de Călinescu în realism este verosimilitatea evenimentelor petrecute în operă, indusă prin cronotopul precis. Incipitul cărții menționează prin indici spațiali și temporali fără echivoc când și unde se derulează acțiunea: „într-o seară de la începutul lui iulie, 1909, cu puțin înainte de orele zece”, „pe strada Antim, în București”. Axa temporală este subliniată aproape obsesiv, căci multe dintre cele douăzeci de capitole care compun romanul încep cu indici de această natură: „a doua zi...”, „în ziua următoare...”, „pe la începutul lunii august...”. În ceea ce privește locul de desfășurare a evenimentelor, verosimilitatea este accentuată de menționarea unor toponime (București, Paris, Buenos Aires) și spații din București (Calea Victoriei, strada Antim) sau din apropierea Bucureștiului (Câmpia Bărăganului, unde Pascalopol are o moșie)."
+      },
+      {
+        "id": "tipologii_balzaciene",
+        "title": "Realizarea tipologiilor umane balzaciene",
+        "explanation": "Realismul balzacian pune accent pe conturarea unor personaje-tip, care sintetizează trăsături morale, sociale sau profesionale dominante. Acestea nu sunt doar indivizi izolați, ci produse ale mediului și ale condițiilor economice ale vremii, ilustrând mecanisme universale ale societății burgheze.",
+        "evidence_from_work": [
+          "Moș Costache Giurgiuveanu – tipul avarului, dominat de lăcomie, dar salvat parțial de afecțiunea paternă pentru Otilia („fe-fetița mea”)",
+          "Stănică Rațiu – tipul parvenitului, care urmărește ascensiunea socială și bogăția fără scrupule",
+          "Simion Tulea și Aurica – arhetipurile senilului, respectiv ale fetei bătrâne, ilustrând degradarea fizică și psihică"
+        ],
+        "essay_use": "Elevul va formula ideea că galeria de personaje din roman operează pe principiul tipizării balzaciene, fiecare figură principală reprezentând o categorie socială sau morală specifică societății bucureștene, oferind o panoramă complexă a mediului interbelic.",
+        "model_essay_excerpt": "O altă trăsătură a acestui curent literar, prezentă în opera studiată, constă în realizarea unor tipologii umane, dintre care se detașează cele specifice scriiturii balzaciene: avarul și parvenitul. Primul tip uman e contextualizat prin figura lui moș Costache Giurgiuveanu, dar și prin sora acestuia, al cărei comportament poate fi asociat mai clar lăcomiei dublate de răutate („baba absolută”). Vorbind despre bătrânul Giurgiuveanu, N. Manolescu afirmă că metoda lui Călinescu în conturarea acestui personaj este de un „balzacianism fără Balzac”, în sensul în care tutorele celor doi orfani nu este complet dezumanizat. Pe el îl salvează dragostea față de Otilia, pe care o numește „fe-fetița mea”. Parvenitul este reprezentat de Stănică Rațiu, personajul care urmărește fără scrupule doar ascensiunea sa socială. De asemenea, cartea surprinde și alte tipuri umane: al intelectualului în formare (Felix), al fetei bătrâne (Aurica) și al senilului (Simion Tulea)."
+      }
+    ],
+    "bac_synthesis": "Pentru Bacalaureat, reține că realismul balzacian se dovedește prin două axe principale: ancorarea narativă în realitatea concretă (cronotop precis și verosimilitate) și conturarea unui univers uman tipizat (avarul, parvenitul, intelectualul etc.). La examen, folosește aceste trăsături pentru a demonstra cum George Călinescu construiește o imagine obiectivă a societății interbelice, transformând «Enigma Otiliei» într-un roman-document al epocii sale."
+  },
+  "validation": {
+    "valid": true,
+    "trait_count": 2,
+    "expected_trait_count": 2,
+    "traits_from_model_essay_verified": true
+  }
+}

@@ -1,0 +1,56 @@
+# Rezumat factual — Capitolul VII - Vasile
+
+Ești un verbalizator factual. Transformă numai evenimentele verificate din `GRAPH_PACKET`
+într-un rezumat pentru Bacalaureat. Nu folosi memoria proprie despre roman și nu completa goluri.
+
+## Reguli obligatorii
+
+1. Folosește exclusiv `verified_events`, în ordinea `order`.
+2. Acoperă toate și numai ID-urile din `chapter.verified_event_sequence`.
+3. Nu folosi `excluded_events`; ele sunt păstrate doar pentru audit.
+4. Fiecare propoziție trebuie să aibă unul sau cel mult două `event_ids`.
+5. Pentru fiecare propoziție returnează numai `event_ids`; citatele rămân în packet și sunt
+   asociate local de validator. Nu copia citatele în răspuns.
+6. `fact` este reformularea canonică, iar `provenance.evidence_quote` este dovada primară.
+   Păstrează numai detaliile compatibile cu ambele și preferă formularea mai prudentă dacă
+   citatul susține doar o parte din `fact`.
+7. Nu adăuga cauze, intenții, consecințe, intensificări sau precizări temporale absente
+   din `fact` și din citatul-sursă. Sunt interzise în special cuvinte precum
+   „instantaneu”, „definitiv”, „complet”, „exclusiv” și „singura soluție” dacă nu apar în dovezi.
+8. Nu transforma interpretările simbolice în fapte. Rezumatul conține numai acțiuni și stări narative.
+9. Scrie concis, orientativ 80-220 de cuvinte, în 2-4 paragrafe. Acoperirea factuală are
+   prioritate față de lungime; nu adăuga informații pentru a atinge o limită minimă.
+10. `sentence_text` trebuie să reproducă exact propoziția corespunzătoare din `summary`.
+11. Dacă datele verificate sunt insuficiente, păstrează rezumatul mai scurt și explică în
+    `validation_notes`; nu inventa nimic.
+
+Returnează exclusiv JSON valid:
+
+```json
+{
+  "task": "chapter_summary",
+  "chapter_id": "CH_07",
+  "chapter_title": "Capitolul VII - Vasile",
+  "status": "generated",
+  "summary": "Rezumatul factual.",
+  "sentence_evidence": [
+    {
+      "sentence_index": 1,
+      "sentence_text": "Propoziția exactă din summary.",
+      "event_ids": ["EV_..."]
+    }
+  ],
+  "coverage": {
+    "covered_event_ids": ["EV_..."],
+    "excluded_event_ids": [],
+    "event_count_expected": 8,
+    "event_count_covered": 8
+  },
+  "style": {"language": "ro", "word_count": 0, "paragraph_count": 0},
+  "validation_notes": []
+}
+```
+
+## GRAPH_PACKET
+
+{"metadata":{"packet_id":"ION-GRAPH2-SUMMARY-07","task":"chapter_summary","source_graph":"cercetare/graf2/knowledge-graph.json","source_graph_version":"5.1","source_graph_sha256":"d5e72342a6eaf448cc20cf49c0160d5ed79890b5491cea2b890785ab8d9c3bb1","language":"ro","compact":true,"chapter_id":"CH_07","chapter_title":"Capitolul VII - Vasile","source_event_count":8,"verified_event_count":8,"excluded_event_count":0},"usage_rules":{"canonical_scope":"Numai verified_events pot apărea în rezumat.","provenance_rule":"Validatorul asociază local event_ids cu evidence_quote; modelul nu recopiază citatele.","source_support_rule":"O propoziție păstrează numai detaliile compatibile cu fact și evidence_quote.","exclusion_rule":"excluded_events nu se verbalizează.","interpretation_rule":"Rezumatul factual nu folosește teme, simboluri sau motivații deduse."},"chapter":{"id":"CH_07","ordinal":7,"title":"Capitolul VII - Vasile","part_id":"PART_02","source_event_sequence":["EV_064","EV_065","EV_066","EV_067","EV_068","EV_069","EV_070","EV_071"],"verified_event_sequence":["EV_064","EV_065","EV_066","EV_067","EV_068","EV_069","EV_070","EV_071"],"excluded_event_sequence":[]},"verified_events":[{"id":"EV_064","order":1,"importance":"major","assertion_type":"explicit_fact","fact":"După nuntă, Vasile Baciu refuză să treacă pământurile promise pe numele lui Ion.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_07","pdf_page":294,"evidence_quote":"Fiindcă mai avea răgaz o săptămână două, se gândi să isprăvească mai întâiu cu socrul său, să facă hârtiile de întabulare pe numele lui, cum se învoiseră... Ii spuse şi Anei că Sâmbătă seara vor merge împreună la Vasile Baciu ca să iea înţelegere pentru Duminecă. Femeia aproba mai dinainte tot ce zicea el. Nu pricepea dânsa planurile lui şi nici nu căuta să le priceapă. Era mulţumită că poate trăi lângă omul iubit şi numai nălucirea îmbrăţişării cu Florica, la nuntă, o rodea în fundul inimii, fără însă a îndrăzni să-şi mărturisească temerea.","support_score":0.4444}},{"id":"EV_065","order":2,"importance":"medium","assertion_type":"explicit_fact","fact":"Trimisă de Ion să-și înduplece tatăl, Ana încearcă să-i vorbească lui Vasile Baciu, dar acesta o lovește și o alungă.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_07","pdf_page":307,"evidence_quote":"306 Citeşte alte cărţi din literatura română şi universală pe Biblioteca PDF Baciu se holbă la ea o clipă, ca un taur care vede roşu, se aruncă şi-i închise gura cu o droaie de pumni, urlând: - V-aţi pus acu amândoi să mă jefuiţi şi să mă lăsaţi cerşetor?... Apoi stai că am eu leac de pielea ta, rapandulo, stai!... Până ce se învârti dânsul să apuce biciul s -o croiască, Ana o luă la sănătoasa fără să fi avut vreme să ţipe ori să plângă de durere, deşi obrazul stâng i se roşise, iar din nas îi curgea un fir de sânge. De -abia când se apropie de-acasă îşi mai veni în fire şi se întrebă: «Ce-a mai fost şi asta?... Avai de mine!...» Ion o aştepta în ogradă, cu inima arsă de nerăbdare. O zări de departe venind cu paşi iuţi şi ştergându - şi mereu nasul cu mânecile cămăşii. - M-a bătut, Ionică, nici nu m -a lăsat să -i spun nimic!","support_score":0.1}},{"id":"EV_066","order":3,"importance":"medium","assertion_type":"explicit_fact","fact":"Când Ana se întoarce însângerată de la tatăl ei, Ion o învinuiește că s-ar fi înțeles cu Vasile și o lovește la rândul lui.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_07","pdf_page":308,"evidence_quote":"307 Citeşte alte cărţi din literatura română şi universală pe Biblioteca PDF Atunci, cu o poftă neînfrânată, ridică mâna şi o lovi greu peste obrazul drept, şi apoi cu dosul palmei, repede, peste obrazul stâng. Durerea stoarse din pieptul femeii un ţipăt atât de ascuţit că Ion auzi cum zăngănesc geamurile casei. O mai trăzni însă şi peste ochii ce -l priveau cu spaimă, dar care chiar spăimântaţi îşi păstraseră o licărire de bunătate... Ana căzu pe prispă, ameţită şi legănându -şi corpul din mijloc în sus ca să-şi aline suferinţa.","support_score":0.0}},{"id":"EV_067","order":4,"importance":"medium","assertion_type":"explicit_fact","fact":"După dubla violență, Ana vede prăpastia vieții sale și se gândește la moarte, dar mișcarea copilului o face să aleagă încă o dată viața.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_07","pdf_page":320,"evidence_quote":"319 Citeşte alte cărţi din literatura română şi universală pe Biblioteca PDF În noaptea aceea îşi dădu seama întâia oară Ana de prăpastia în care -şi zvârcoleşte ea viaţa. Şi atunci gândul morţii i se coborî în suflet ca o scăpare fericită. Îl alintă atât de stăruitor că, în cele din urmă, se minună cât de blândă şi ademenitoare i se înfăţişează, ca un liman unde nu mai sunt nici dureri şi nici nădejdi... Deodată însă simţi o zvâcnire în pântece, trezind -o din aiurare.","support_score":0.125}},{"id":"EV_068","order":5,"importance":"medium","assertion_type":"explicit_fact","fact":"Belciug îi spune lui Ion că bătaia nu aduce dreptate și îl îndeamnă să consulte un avocat.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_07","pdf_page":322,"evidence_quote":"Numai un avocat te -ar putea lumina bine... Dar cu răul şi cu bătăile nu se împacă oamenii niciodată, asta -i de când lumea. Dumnezeu a lăsat judecătorilor împărţirea dreptăţii pământeşti...","support_score":0.25}},{"id":"EV_069","order":6,"importance":"major","assertion_type":"explicit_fact","fact":"După sfatul preotului, Ion pleacă hotărât să lase legea să decidă conflictul cu Vasile Baciu.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_07","pdf_page":323,"evidence_quote":"Eu n-am nici o putere... Ion plecă mulţumit. Bine -a zis popa: legea să hotărască...","support_score":0.1818}},{"id":"EV_070","order":7,"importance":"medium","assertion_type":"explicit_fact","fact":"Ion o conduce pe Ana până la poartă și o trimite înapoi la tatăl ei.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_07","pdf_page":323,"evidence_quote":"Pe urmă o duse de mână până la poartă şi închise poarta după ea... Ana se mai uită înapoi, dar el nu mai întoarse capul.","support_score":0.5}},{"id":"EV_071","order":8,"importance":"major","assertion_type":"explicit_fact","fact":"Alungată de Ion, Ana pleacă plângând și spune că numai ea nu are niciun rost în lume.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_07","pdf_page":323,"evidence_quote":"toţi au dreptate - şopti femeia podidită de plâns. Numai eu n-am nici un rost în lume...","support_score":0.375}}],"excluded_events":[],"validation":{"passed":true,"checks":{"partition_is_exact":true,"verified_sequence_exact":true,"excluded_sequence_exact":true,"all_verified_have_primary_quotes":true,"no_boundary_context":true,"no_graph_noise":true},"verified_event_count":8,"excluded_event_count":0}}

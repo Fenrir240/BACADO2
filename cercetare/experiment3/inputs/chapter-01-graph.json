@@ -1,0 +1,5025 @@
+{
+  "metadata": {
+    "title": "Knowledge graph narativ autosuficient - Ion",
+    "work": "Ion",
+    "author": "Liviu Rebreanu",
+    "language": "ro",
+    "version": "2.0",
+    "generated_at": "2026-08-05T09:22:46.491Z",
+    "canonical_format": "JSON",
+    "minimum_nodes": 300,
+    "minimum_edges": 900,
+    "packet_type": "chapter_subgraph",
+    "chapter_id": "CH_01",
+    "source_graph_sha256": "19e81d5c346fb9dbd11d025ee52a857284152d98a8c6421e5a3731ca8f82e1c3",
+    "extraction_rule": "Toate nodurile asociate CH_01 și endpointurile nenarative ale muchiilor incidente; evenimentele din alte capitole sunt excluse."
+  },
+  "sources": [
+    {
+      "id": "SRC_PDF",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "author": "Liviu Rebreanu",
+      "path": "C:/Users/raluc/.codex/worktrees/653f/BacApp2/data/sources/ion/ion.pdf",
+      "confidence": 1
+    },
+    {
+      "id": "SRC_SUMMARY",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "path": "C:/Users/raluc/.codex/worktrees/653f/BacApp2/data/sources/ion/rezumat.md",
+      "confidence": 0.97
+    },
+    {
+      "id": "SRC_ESSAY",
+      "source_type": "model_essay",
+      "title": "Eseu-model - Ion",
+      "path": "C:/Users/raluc/.codex/worktrees/653f/BacApp2/data/sources/ion/eseu_model.md",
+      "confidence": 0.95
+    },
+    {
+      "id": "SRC_PREVIOUS_GRAPH",
+      "source_type": "previous_graph",
+      "title": "Knowledge graph narativ Ion - 201 entități",
+      "path": "C:/Users/raluc/.codex/visualizations/2026/07/30/019fb325-cf30-7611-a160-6f50462415f4/ion-complete-narrative-knowledge-graph.html",
+      "confidence": 0.95
+    },
+    {
+      "id": "REF_PDF_CH_01",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul I - Începutul",
+      "pdf_page_start": 3,
+      "pdf_page_end": 42,
+      "evidence": "Intervalul asociat capitolului Capitolul I - Începutul.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_01",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul I - Începutul",
+      "evidence": "Secțiunea dedicată capitolului Capitolul I - Începutul.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_02",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul II - Zvârcolirea",
+      "pdf_page_start": 43,
+      "pdf_page_end": 80,
+      "evidence": "Intervalul asociat capitolului Capitolul II - Zvârcolirea.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_02",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul II - Zvârcolirea",
+      "evidence": "Secțiunea dedicată capitolului Capitolul II - Zvârcolirea.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_03",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul III - Iubirea",
+      "pdf_page_start": 81,
+      "pdf_page_end": 122,
+      "evidence": "Intervalul asociat capitolului Capitolul III - Iubirea.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_03",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul III - Iubirea",
+      "evidence": "Secțiunea dedicată capitolului Capitolul III - Iubirea.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_04",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul IV - Noaptea",
+      "pdf_page_start": 123,
+      "pdf_page_end": 181,
+      "evidence": "Intervalul asociat capitolului Capitolul IV - Noaptea.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_04",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul IV - Noaptea",
+      "evidence": "Secțiunea dedicată capitolului Capitolul IV - Noaptea.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_05",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul V - Rușinea",
+      "pdf_page_start": 182,
+      "pdf_page_end": 223,
+      "evidence": "Intervalul asociat capitolului Capitolul V - Rușinea.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_05",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul V - Rușinea",
+      "evidence": "Secțiunea dedicată capitolului Capitolul V - Rușinea.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_06",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul VI - Nunta",
+      "pdf_page_start": 224,
+      "pdf_page_end": 284,
+      "evidence": "Intervalul asociat capitolului Capitolul VI - Nunta.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_06",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul VI - Nunta",
+      "evidence": "Secțiunea dedicată capitolului Capitolul VI - Nunta.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_07",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul VII - Vasile",
+      "pdf_page_start": 285,
+      "pdf_page_end": 322,
+      "evidence": "Intervalul asociat capitolului Capitolul VII - Vasile.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_07",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul VII - Vasile",
+      "evidence": "Secțiunea dedicată capitolului Capitolul VII - Vasile.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_08",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul VIII - Copilul",
+      "pdf_page_start": 323,
+      "pdf_page_end": 364,
+      "evidence": "Intervalul asociat capitolului Capitolul VIII - Copilul.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_08",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul VIII - Copilul",
+      "evidence": "Secțiunea dedicată capitolului Capitolul VIII - Copilul.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_09",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul IX - Sărutarea",
+      "pdf_page_start": 365,
+      "pdf_page_end": 408,
+      "evidence": "Intervalul asociat capitolului Capitolul IX - Sărutarea.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_09",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul IX - Sărutarea",
+      "evidence": "Secțiunea dedicată capitolului Capitolul IX - Sărutarea.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_10",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul X - Ștreangul",
+      "pdf_page_start": 409,
+      "pdf_page_end": 431,
+      "evidence": "Intervalul asociat capitolului Capitolul X - Ștreangul.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_10",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul X - Ștreangul",
+      "evidence": "Secțiunea dedicată capitolului Capitolul X - Ștreangul.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_11",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul XI - Blestemul",
+      "pdf_page_start": 432,
+      "pdf_page_end": 478,
+      "evidence": "Intervalul asociat capitolului Capitolul XI - Blestemul.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_11",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul XI - Blestemul",
+      "evidence": "Secțiunea dedicată capitolului Capitolul XI - Blestemul.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_12",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul XII - George",
+      "pdf_page_start": 479,
+      "pdf_page_end": 515,
+      "evidence": "Intervalul asociat capitolului Capitolul XII - George.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_12",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul XII - George",
+      "evidence": "Secțiunea dedicată capitolului Capitolul XII - George.",
+      "confidence": 0.97
+    },
+    {
+      "id": "REF_PDF_CH_13",
+      "source_type": "primary_text",
+      "title": "Ion - text integral",
+      "chapter": "Capitolul XIII - Sfârșitul",
+      "pdf_page_start": 516,
+      "pdf_page_end": 547,
+      "evidence": "Intervalul asociat capitolului Capitolul XIII - Sfârșitul.",
+      "confidence": 0.98
+    },
+    {
+      "id": "REF_SUM_CH_13",
+      "source_type": "summary",
+      "title": "Rezumat pe capitole - Ion",
+      "chapter": "Capitolul XIII - Sfârșitul",
+      "evidence": "Secțiunea dedicată capitolului Capitolul XIII - Sfârșitul.",
+      "confidence": 0.97
+    }
+  ],
+  "ontology": {
+    "node_types": [
+      "Work",
+      "Author",
+      "Part",
+      "Chapter",
+      "NarrativeEvent",
+      "NarrativeSubevent",
+      "Character",
+      "CharacterState",
+      "NarrativeState",
+      "Decision",
+      "Motivation",
+      "Action",
+      "Consequence",
+      "Location",
+      "TimeContext",
+      "Object",
+      "Family",
+      "Institution",
+      "SocialGroup",
+      "Relationship",
+      "Conflict",
+      "Theme",
+      "Motif",
+      "Symbol",
+      "Value",
+      "Emotion",
+      "SocialStatus",
+      "NarrativePerspective",
+      "LiteraryTechnique",
+      "Evidence",
+      "SourceFragment",
+      "SourceDocument",
+      "OntologyClass"
+    ],
+    "relationship_types": [
+      "instance_of",
+      "subclass_of",
+      "created_by",
+      "part_of",
+      "has_part",
+      "has_chapter",
+      "chapter_of",
+      "occurs_in_chapter",
+      "occurs_at",
+      "occurs_before",
+      "occurs_after",
+      "immediately_precedes",
+      "immediately_follows",
+      "causes",
+      "contributes_to",
+      "enables",
+      "prevents",
+      "motivates",
+      "results_in",
+      "foreshadows",
+      "resolves",
+      "intensifies",
+      "contrasts_with",
+      "parallels",
+      "has_participant",
+      "participates_in",
+      "initiates",
+      "experiences",
+      "observes",
+      "discovers",
+      "communicates_to",
+      "hides_from",
+      "helps",
+      "opposes",
+      "manipulates",
+      "harms",
+      "protects",
+      "loves",
+      "desires",
+      "is_married_to",
+      "is_parent_of",
+      "is_child_of",
+      "is_rival_of",
+      "has_motivation",
+      "has_consequence",
+      "has_state_before",
+      "has_state_after",
+      "changes_state_of",
+      "gains",
+      "loses",
+      "believes",
+      "fears",
+      "decides",
+      "abandons_goal",
+      "adopts_goal",
+      "expresses_theme",
+      "expresses_motif",
+      "symbolizes",
+      "supported_by",
+      "derived_from_source",
+      "has_simple_verbalization",
+      "has_elevated_verbalization",
+      "has_opening_state",
+      "has_closing_state",
+      "documents",
+      "mentions",
+      "has_evidence"
+    ],
+    "assertion_types": [
+      "explicit_fact",
+      "explicit_motivation",
+      "inferred_motivation",
+      "literary_interpretation",
+      "symbolic_interpretation",
+      "uncertain"
+    ]
+  },
+  "nodes": [
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PREVIOUS_GRAPH"
+      ],
+      "attributes": {},
+      "id": "CLASS_CHAPTER",
+      "type": "OntologyClass",
+      "label": "Chapter",
+      "description": "Clasa ontologică Chapter."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PREVIOUS_GRAPH"
+      ],
+      "attributes": {},
+      "id": "CLASS_NARRATIVEEVENT",
+      "type": "OntologyClass",
+      "label": "NarrativeEvent",
+      "description": "Clasa ontologică NarrativeEvent."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PREVIOUS_GRAPH"
+      ],
+      "attributes": {},
+      "id": "CLASS_NARRATIVESTATE",
+      "type": "OntologyClass",
+      "label": "NarrativeState",
+      "description": "Clasa ontologică NarrativeState."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PREVIOUS_GRAPH"
+      ],
+      "attributes": {},
+      "id": "CLASS_MOTIVATION",
+      "type": "OntologyClass",
+      "label": "Motivation",
+      "description": "Clasa ontologică Motivation."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PREVIOUS_GRAPH"
+      ],
+      "attributes": {},
+      "id": "CLASS_CONSEQUENCE",
+      "type": "OntologyClass",
+      "label": "Consequence",
+      "description": "Clasa ontologică Consequence."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PREVIOUS_GRAPH"
+      ],
+      "attributes": {},
+      "id": "CLASS_EVIDENCE",
+      "type": "OntologyClass",
+      "label": "Evidence",
+      "description": "Clasa ontologică Evidence."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PREVIOUS_GRAPH"
+      ],
+      "attributes": {},
+      "id": "CLASS_SOURCEFRAGMENT",
+      "type": "OntologyClass",
+      "label": "SourceFragment",
+      "description": "Clasa ontologică SourceFragment."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "major",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "WORK_ION",
+      "type": "Work",
+      "label": "Ion",
+      "description": "Roman realist-obiectiv și social de Liviu Rebreanu, organizat în două părți și treisprezece capitole."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "major",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "PART_01",
+      "type": "Part",
+      "label": "Glasul pământului",
+      "description": "Partea 1 a romanului Ion."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "major",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_001",
+      "type": "Character",
+      "label": "Ion al Glanetașului",
+      "description": "Țăran sărac, energic și ambițios, dominat de dorința de pământ și de atracția pentru Florica."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "major",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_002",
+      "type": "Character",
+      "label": "Ana",
+      "description": "Fiica lui Vasile Baciu, vulnerabilă și lipsită de sprijin, folosită de Ion pentru obținerea averii."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_003",
+      "type": "Character",
+      "label": "Florica",
+      "description": "Fată săracă iubită de Ion, devenită ulterior soția lui George Bulbuc."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_004",
+      "type": "Character",
+      "label": "George Bulbuc",
+      "description": "Flăcău înstărit, rivalul social și erotic al lui Ion, apoi soțul Floricăi."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_005",
+      "type": "Character",
+      "label": "Vasile Baciu",
+      "description": "Tatăl autoritar al Anei și proprietarul pământurilor urmărite de Ion."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_008",
+      "type": "Character",
+      "label": "Zaharia Herdelea",
+      "description": "Învățătorul satului, prins între familie, autorități și nevoia de prestigiu."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_013",
+      "type": "Character",
+      "label": "Preotul Belciug",
+      "description": "Autoritate religioasă energică, implicată în conflictele satului și în destinul averii lui Ion."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_017",
+      "type": "Character",
+      "label": "Avrum",
+      "description": "Cârciumarul satului, asociat cu spațiul confruntărilor publice."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_022",
+      "type": "Character",
+      "label": "Toma Bulbuc",
+      "description": "Tatăl lui George și reprezentant al țăranilor înstăriți."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "CHAR_023",
+      "type": "Character",
+      "label": "Todosia",
+      "description": "Văduva în curtea căreia se desfășoară hora satului."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "LOC_001",
+      "type": "Location",
+      "label": "Pripas",
+      "description": "Satul principal și centrul comunității rurale."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "LOC_002",
+      "type": "Location",
+      "label": "Curtea Todosiei",
+      "description": "Spațiul horei duminicale și al expozițiunii sociale."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "SRC_PDF",
+        "SRC_SUMMARY"
+      ],
+      "attributes": {},
+      "id": "LOC_003",
+      "type": "Location",
+      "label": "Cârciuma lui Avrum",
+      "description": "Loc al confruntărilor și al vieții publice masculine."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "symbolic_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_001",
+      "type": "Symbol",
+      "label": "obsesia pământului",
+      "description": "Pământul devine pentru Ion criteriul suprem al demnității și puterii."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_002",
+      "type": "Theme",
+      "label": "iubire versus avere",
+      "description": "Opoziția dintre Florica și pământurile obținute prin Ana."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "symbolic_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_003",
+      "type": "Value",
+      "label": "ierarhie socială",
+      "description": "Ordinea comunității este stabilită prin avere, funcție și prestigiu."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_004",
+      "type": "Conflict",
+      "label": "conflict social",
+      "description": "Lupta pentru depășirea condiției de sărac și pentru acces la proprietate."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_005",
+      "type": "Conflict",
+      "label": "conflict interior",
+      "description": "Oscilația lui Ion între glasul pământului și glasul iubirii."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_006",
+      "type": "Conflict",
+      "label": "conflict erotic",
+      "description": "Rivalitatea produsă de relațiile Ion-Ana-Florica-George."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_008",
+      "type": "Theme",
+      "label": "dezumanizare",
+      "description": "Transformarea oamenilor în mijloace pentru atingerea unui scop material."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_011",
+      "type": "Theme",
+      "label": "continuitatea comunității",
+      "description": "Viața colectivă continuă după dispariția individului."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "symbolic_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_012",
+      "type": "Value",
+      "label": "statut prin avere",
+      "description": "Pământul și zestrea determină respectul și puterea de negociere."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_014",
+      "type": "Theme",
+      "label": "intelectual rural vulnerabil",
+      "description": "Tipologia familiei Herdelea, prestigioasă cultural, dar dependentă social."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "symbolic_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_015",
+      "type": "Value",
+      "label": "rușine comunitară",
+      "description": "Presiunea colectivă produsă de sarcina Anei în afara căsătoriei."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_016",
+      "type": "Conflict",
+      "label": "violență patriarhală",
+      "description": "Violența exercitată asupra Anei de tată și de soț."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [],
+      "importance": "supporting",
+      "confidence": 0.95,
+      "assertion_type": "symbolic_interpretation",
+      "source_refs": [
+        "SRC_SUMMARY",
+        "SRC_ESSAY"
+      ],
+      "attributes": {},
+      "id": "CONCEPT_018",
+      "type": "Motif",
+      "label": "structură circulară",
+      "description": "Revenirea horei și continuitatea satului leagă finalul de început."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "ordinal": 1,
+        "part": "PART_01",
+        "pdf_range": {
+          "pdf_page_start": 3,
+          "pdf_page_end": 42
+        }
+      },
+      "id": "CH_01",
+      "type": "Chapter",
+      "label": "Capitolul I - Începutul",
+      "description": "Romanul introduce satul Pripas într-o duminică și concentrează în scena horei ierarhiile, dorințele și conflictele care vor organiza acțiunea."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "position": "opening"
+      },
+      "id": "STATE_CH_01_OPEN",
+      "type": "NarrativeState",
+      "label": "Starea inițială - Capitolul I - Începutul",
+      "description": "Comunitatea se adună la hora duminicală, iar Ion este cunoscut ca flăcău sărac și harnic."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "position": "closing"
+      },
+      "id": "STATE_CH_01_CLOSE",
+      "type": "NarrativeState",
+      "label": "Starea finală - Capitolul I - Începutul",
+      "description": "Ion îl învinge pe George și își consolidează prestigiul fizic, dar conflictul social și erotic este deschis."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {},
+      "id": "EVIDENCE_CH_01",
+      "type": "Evidence",
+      "label": "Dovezi pentru Capitolul I - Începutul",
+      "description": "Referințe către textul integral și rezumatul capitolului 1."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "supporting",
+      "confidence": 1,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "pdf_page_start": 3,
+        "pdf_page_end": 42
+      },
+      "id": "FRAGMENT_CH_01",
+      "type": "SourceFragment",
+      "label": "Fragment-sursă Capitolul I - Începutul",
+      "description": "Unitate de proveniență pentru evenimentele din Capitolul I - Începutul."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_001",
+        "chapter_id": "CH_01",
+        "chapter_order": 1,
+        "global_order": 1,
+        "title": "Drumul intră în Pripas",
+        "canonical_description": "Drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite.",
+        "participants": [],
+        "location": "LOC_001",
+        "time_context": "Secvența 1 din Capitolul I - Începutul",
+        "preconditions": [
+          "începutul observației sociale"
+        ],
+        "causes": [
+          "MOT_001"
+        ],
+        "action": "Drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite.",
+        "immediate_effects": [
+          "satul devine cadrul autonom al acțiunii"
+        ],
+        "long_term_effects": [
+          "CON_001"
+        ],
+        "state_transitions": [
+          "satul devine cadrul autonom al acțiunii"
+        ],
+        "motivations": [
+          "MOT_001"
+        ],
+        "conflicts": [],
+        "themes": [
+          "CONCEPT_011",
+          "CONCEPT_018"
+        ],
+        "importance": "major",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "La început, drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite.",
+        "elevated_narration": "La începutul secvenței, drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite.",
+        "simple_transition": "La început,",
+        "elevated_transition": "La începutul secvenței,"
+      },
+      "id": "EV_001",
+      "type": "NarrativeEvent",
+      "label": "Drumul intră în Pripas",
+      "description": "Drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_001"
+      },
+      "id": "MOT_001",
+      "type": "Motivation",
+      "label": "Cauză - Drumul intră în Pripas",
+      "description": "începutul observației sociale"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_001"
+      },
+      "id": "CON_001",
+      "type": "Consequence",
+      "label": "Consecință - Drumul intră în Pripas",
+      "description": "satul devine cadrul autonom al acțiunii"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_002",
+        "chapter_id": "CH_01",
+        "chapter_order": 2,
+        "global_order": 2,
+        "title": "Satul se adună la horă",
+        "canonical_description": "În curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână.",
+        "participants": [
+          "CHAR_023"
+        ],
+        "location": "LOC_002",
+        "time_context": "Secvența 2 din Capitolul I - Începutul",
+        "preconditions": [
+          "ritualul duminical"
+        ],
+        "causes": [
+          "MOT_002"
+        ],
+        "action": "În curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână.",
+        "immediate_effects": [
+          "comunitatea este prezentată colectiv"
+        ],
+        "long_term_effects": [
+          "CON_002"
+        ],
+        "state_transitions": [
+          "comunitatea este prezentată colectiv"
+        ],
+        "motivations": [
+          "MOT_002"
+        ],
+        "conflicts": [],
+        "themes": [
+          "CONCEPT_011"
+        ],
+        "importance": "medium",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "Apoi, în curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână.",
+        "elevated_narration": "Ulterior, în curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână.",
+        "simple_transition": "Apoi,",
+        "elevated_transition": "Ulterior,"
+      },
+      "id": "EV_002",
+      "type": "NarrativeEvent",
+      "label": "Satul se adună la horă",
+      "description": "În curtea Todosiei, jocul duminical adună țăranii și eliberează energiile acumulate peste săptămână."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_002"
+      },
+      "id": "MOT_002",
+      "type": "Motivation",
+      "label": "Cauză - Satul se adună la horă",
+      "description": "ritualul duminical"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_002"
+      },
+      "id": "CON_002",
+      "type": "Consequence",
+      "label": "Consecință - Satul se adună la horă",
+      "description": "comunitatea este prezentată colectiv"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_003",
+        "chapter_id": "CH_01",
+        "chapter_order": 3,
+        "global_order": 3,
+        "title": "Ierarhiile devin vizibile",
+        "canonical_description": "Așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului.",
+        "participants": [
+          "CHAR_008",
+          "CHAR_013",
+          "CHAR_022"
+        ],
+        "location": "LOC_002",
+        "time_context": "Secvența 3 din Capitolul I - Începutul",
+        "preconditions": [
+          "adunarea întregului sat"
+        ],
+        "causes": [
+          "MOT_003"
+        ],
+        "action": "Așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului.",
+        "immediate_effects": [
+          "poziția fiecărui grup devine vizibilă"
+        ],
+        "long_term_effects": [
+          "CON_003"
+        ],
+        "state_transitions": [
+          "poziția fiecărui grup devine vizibilă"
+        ],
+        "motivations": [
+          "MOT_003"
+        ],
+        "conflicts": [],
+        "themes": [
+          "CONCEPT_003",
+          "CONCEPT_012",
+          "CONCEPT_014"
+        ],
+        "importance": "medium",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "După aceea, așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului.",
+        "elevated_narration": "În continuarea firului narativ, așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului.",
+        "simple_transition": "După aceea,",
+        "elevated_transition": "În continuarea firului narativ,"
+      },
+      "id": "EV_003",
+      "type": "NarrativeEvent",
+      "label": "Ierarhiile devin vizibile",
+      "description": "Așezarea participanților la horă separă săracii, bogații și intelectualitatea și arată ordinea socială a satului."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_003"
+      },
+      "id": "MOT_003",
+      "type": "Motivation",
+      "label": "Cauză - Ierarhiile devin vizibile",
+      "description": "adunarea întregului sat"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_003"
+      },
+      "id": "CON_003",
+      "type": "Consequence",
+      "label": "Consecință - Ierarhiile devin vizibile",
+      "description": "poziția fiecărui grup devine vizibilă"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_004",
+        "chapter_id": "CH_01",
+        "chapter_order": 4,
+        "global_order": 4,
+        "title": "Ion o alege pe Ana la joc",
+        "canonical_description": "Deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu.",
+        "participants": [
+          "CHAR_001",
+          "CHAR_002",
+          "CHAR_003"
+        ],
+        "location": "LOC_002",
+        "time_context": "Secvența 4 din Capitolul I - Începutul",
+        "preconditions": [
+          "sărăcia lui Ion și zestrea Anei"
+        ],
+        "causes": [
+          "MOT_004"
+        ],
+        "action": "Deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu.",
+        "immediate_effects": [
+          "alegerea afectivă este subordonată averii"
+        ],
+        "long_term_effects": [
+          "CON_004"
+        ],
+        "state_transitions": [
+          "alegerea afectivă este subordonată averii"
+        ],
+        "motivations": [
+          "MOT_004"
+        ],
+        "conflicts": [
+          "CONCEPT_005"
+        ],
+        "themes": [
+          "CONCEPT_002",
+          "CONCEPT_005"
+        ],
+        "importance": "medium",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "În continuare, deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu.",
+        "elevated_narration": "Pe măsură ce acțiunea înaintează, deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu.",
+        "simple_transition": "În continuare,",
+        "elevated_transition": "Pe măsură ce acțiunea înaintează,"
+      },
+      "id": "EV_004",
+      "type": "NarrativeEvent",
+      "label": "Ion o alege pe Ana la joc",
+      "description": "Deși o iubește pe Florica, Ion o ignoră ostentativ și dansează cu Ana, fiica bogată a lui Vasile Baciu."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_004"
+      },
+      "id": "MOT_004",
+      "type": "Motivation",
+      "label": "Cauză - Ion o alege pe Ana la joc",
+      "description": "sărăcia lui Ion și zestrea Anei"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_004"
+      },
+      "id": "CON_004",
+      "type": "Consequence",
+      "label": "Consecință - Ion o alege pe Ana la joc",
+      "description": "alegerea afectivă este subordonată averii"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_005",
+        "chapter_id": "CH_01",
+        "chapter_order": 5,
+        "global_order": 5,
+        "title": "Planul pământurilor se conturează",
+        "canonical_description": "Ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu.",
+        "participants": [
+          "CHAR_001",
+          "CHAR_002",
+          "CHAR_005"
+        ],
+        "location": "LOC_002",
+        "time_context": "Secvența 5 din Capitolul I - Începutul",
+        "preconditions": [
+          "dorința de proprietate"
+        ],
+        "causes": [
+          "MOT_005"
+        ],
+        "action": "Ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu.",
+        "immediate_effects": [
+          "Ana devine mijlocul unui plan material"
+        ],
+        "long_term_effects": [
+          "CON_005"
+        ],
+        "state_transitions": [
+          "Ana devine mijlocul unui plan material"
+        ],
+        "motivations": [
+          "MOT_005"
+        ],
+        "conflicts": [],
+        "themes": [
+          "CONCEPT_001",
+          "CONCEPT_012",
+          "CONCEPT_008"
+        ],
+        "importance": "major",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "Mai târziu, ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu.",
+        "elevated_narration": "În acest context, ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu.",
+        "simple_transition": "Mai târziu,",
+        "elevated_transition": "În acest context,"
+      },
+      "id": "EV_005",
+      "type": "NarrativeEvent",
+      "label": "Planul pământurilor se conturează",
+      "description": "Ion urmărește căsătoria cu Ana pentru a ajunge la pământurile lui Vasile Baciu."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_005"
+      },
+      "id": "MOT_005",
+      "type": "Motivation",
+      "label": "Cauză - Planul pământurilor se conturează",
+      "description": "dorința de proprietate"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_005"
+      },
+      "id": "CON_005",
+      "type": "Consequence",
+      "label": "Consecință - Planul pământurilor se conturează",
+      "description": "Ana devine mijlocul unui plan material"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_006",
+        "chapter_id": "CH_01",
+        "chapter_order": 6,
+        "global_order": 6,
+        "title": "Vasile îl insultă pe Ion",
+        "canonical_description": "Vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere.",
+        "participants": [
+          "CHAR_005",
+          "CHAR_001"
+        ],
+        "location": "LOC_002",
+        "time_context": "Secvența 6 din Capitolul I - Începutul",
+        "preconditions": [
+          "apropierea lui Ion de Ana"
+        ],
+        "causes": [
+          "MOT_006"
+        ],
+        "action": "Vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere.",
+        "immediate_effects": [
+          "Ion trăiește o umilință publică"
+        ],
+        "long_term_effects": [
+          "CON_006"
+        ],
+        "state_transitions": [
+          "Ion trăiește o umilință publică"
+        ],
+        "motivations": [
+          "MOT_006"
+        ],
+        "conflicts": [
+          "CONCEPT_004"
+        ],
+        "themes": [
+          "CONCEPT_003",
+          "CONCEPT_004",
+          "CONCEPT_015"
+        ],
+        "importance": "medium",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "Apoi, vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere.",
+        "elevated_narration": "Ulterior, vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere.",
+        "simple_transition": "Apoi,",
+        "elevated_transition": "Ulterior,"
+      },
+      "id": "EV_006",
+      "type": "NarrativeEvent",
+      "label": "Vasile îl insultă pe Ion",
+      "description": "Vasile Baciu, beat, îl numește public pe Ion sărăntoc și refuză să îl accepte ca ginere."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_006"
+      },
+      "id": "MOT_006",
+      "type": "Motivation",
+      "label": "Cauză - Vasile îl insultă pe Ion",
+      "description": "apropierea lui Ion de Ana"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_006"
+      },
+      "id": "CON_006",
+      "type": "Consequence",
+      "label": "Consecință - Vasile îl insultă pe Ion",
+      "description": "Ion trăiește o umilință publică"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_007",
+        "chapter_id": "CH_01",
+        "chapter_order": 7,
+        "global_order": 7,
+        "title": "George este preferat ca ginere",
+        "canonical_description": "Vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.",
+        "participants": [
+          "CHAR_005",
+          "CHAR_004",
+          "CHAR_002"
+        ],
+        "location": "LOC_002",
+        "time_context": "Secvența 7 din Capitolul I - Începutul",
+        "preconditions": [
+          "ierarhia bazată pe avere"
+        ],
+        "causes": [
+          "MOT_007"
+        ],
+        "action": "Vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.",
+        "immediate_effects": [
+          "rivalitatea dintre Ion și George se accentuează"
+        ],
+        "long_term_effects": [
+          "CON_007"
+        ],
+        "state_transitions": [
+          "rivalitatea dintre Ion și George se accentuează"
+        ],
+        "motivations": [
+          "MOT_007"
+        ],
+        "conflicts": [
+          "CONCEPT_006"
+        ],
+        "themes": [
+          "CONCEPT_012",
+          "CONCEPT_006"
+        ],
+        "importance": "medium",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "După aceea, vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.",
+        "elevated_narration": "În continuarea firului narativ, vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.",
+        "simple_transition": "După aceea,",
+        "elevated_transition": "În continuarea firului narativ,"
+      },
+      "id": "EV_007",
+      "type": "NarrativeEvent",
+      "label": "George este preferat ca ginere",
+      "description": "Vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_007"
+      },
+      "id": "MOT_007",
+      "type": "Motivation",
+      "label": "Cauză - George este preferat ca ginere",
+      "description": "ierarhia bazată pe avere"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_007"
+      },
+      "id": "CON_007",
+      "type": "Consequence",
+      "label": "Consecință - George este preferat ca ginere",
+      "description": "rivalitatea dintre Ion și George se accentuează"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_008",
+        "chapter_id": "CH_01",
+        "chapter_order": 8,
+        "global_order": 8,
+        "title": "Ion dorește revanșă",
+        "canonical_description": "Afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare.",
+        "participants": [
+          "CHAR_001",
+          "CHAR_005"
+        ],
+        "location": "LOC_001",
+        "time_context": "Secvența 8 din Capitolul I - Începutul",
+        "preconditions": [
+          "insulta publică"
+        ],
+        "causes": [
+          "MOT_008"
+        ],
+        "action": "Afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare.",
+        "immediate_effects": [
+          "Ion caută o ocazie de a-și afirma superioritatea"
+        ],
+        "long_term_effects": [
+          "CON_008"
+        ],
+        "state_transitions": [
+          "Ion caută o ocazie de a-și afirma superioritatea"
+        ],
+        "motivations": [
+          "MOT_008"
+        ],
+        "conflicts": [
+          "CONCEPT_004"
+        ],
+        "themes": [
+          "CONCEPT_004",
+          "CONCEPT_001"
+        ],
+        "importance": "medium",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "În continuare, afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare.",
+        "elevated_narration": "Pe măsură ce acțiunea înaintează, afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare.",
+        "simple_transition": "În continuare,",
+        "elevated_transition": "Pe măsură ce acțiunea înaintează,"
+      },
+      "id": "EV_008",
+      "type": "NarrativeEvent",
+      "label": "Ion dorește revanșă",
+      "description": "Afrontul lui Vasile transformă dorința de pământ într-o nevoie de răzbunare și validare."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_008"
+      },
+      "id": "MOT_008",
+      "type": "Motivation",
+      "label": "Cauză - Ion dorește revanșă",
+      "description": "insulta publică"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_008"
+      },
+      "id": "CON_008",
+      "type": "Consequence",
+      "label": "Consecință - Ion dorește revanșă",
+      "description": "Ion caută o ocazie de a-și afirma superioritatea"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_009",
+        "chapter_id": "CH_01",
+        "chapter_order": 9,
+        "global_order": 9,
+        "title": "Disputa se mută la cârciumă",
+        "canonical_description": "La cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George.",
+        "participants": [
+          "CHAR_001",
+          "CHAR_004",
+          "CHAR_017"
+        ],
+        "location": "LOC_003",
+        "time_context": "Secvența 9 din Capitolul I - Începutul",
+        "preconditions": [
+          "rivalitatea de la horă"
+        ],
+        "causes": [
+          "MOT_009"
+        ],
+        "action": "La cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George.",
+        "immediate_effects": [
+          "conflictul verbal devine fizic"
+        ],
+        "long_term_effects": [
+          "CON_009"
+        ],
+        "state_transitions": [
+          "conflictul verbal devine fizic"
+        ],
+        "motivations": [
+          "MOT_009"
+        ],
+        "conflicts": [
+          "CONCEPT_006",
+          "CONCEPT_004"
+        ],
+        "themes": [
+          "CONCEPT_006",
+          "CONCEPT_004"
+        ],
+        "importance": "medium",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "Mai târziu, la cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George.",
+        "elevated_narration": "În acest context, la cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George.",
+        "simple_transition": "Mai târziu,",
+        "elevated_transition": "În acest context,"
+      },
+      "id": "EV_009",
+      "type": "NarrativeEvent",
+      "label": "Disputa se mută la cârciumă",
+      "description": "La cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_009"
+      },
+      "id": "MOT_009",
+      "type": "Motivation",
+      "label": "Cauză - Disputa se mută la cârciumă",
+      "description": "rivalitatea de la horă"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "medium",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_009"
+      },
+      "id": "CON_009",
+      "type": "Consequence",
+      "label": "Consecință - Disputa se mută la cârciumă",
+      "description": "conflictul verbal devine fizic"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.98,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "event_id": "EV_010",
+        "chapter_id": "CH_01",
+        "chapter_order": 10,
+        "global_order": 10,
+        "title": "Ion îl lovește pe George",
+        "canonical_description": "Ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.",
+        "participants": [
+          "CHAR_001",
+          "CHAR_004"
+        ],
+        "location": "LOC_003",
+        "time_context": "Secvența 10 din Capitolul I - Începutul",
+        "preconditions": [
+          "disputa pentru lăutari și revanșa împotriva lui Vasile"
+        ],
+        "causes": [
+          "MOT_010"
+        ],
+        "action": "Ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.",
+        "immediate_effects": [
+          "Ion câștigă respect, iar rivalitatea rămâne activă"
+        ],
+        "long_term_effects": [
+          "CON_010"
+        ],
+        "state_transitions": [
+          "Ion câștigă respect, iar rivalitatea rămâne activă"
+        ],
+        "motivations": [
+          "MOT_010"
+        ],
+        "conflicts": [
+          "CONCEPT_016"
+        ],
+        "themes": [
+          "CONCEPT_016",
+          "CONCEPT_012"
+        ],
+        "importance": "major",
+        "source_refs": [
+          "REF_PDF_CH_01",
+          "REF_SUM_CH_01"
+        ],
+        "confidence": 0.98,
+        "simple_narration": "Apoi, ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.",
+        "elevated_narration": "Ulterior, ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.",
+        "simple_transition": "Apoi,",
+        "elevated_transition": "Ulterior,"
+      },
+      "id": "EV_010",
+      "type": "NarrativeEvent",
+      "label": "Ion îl lovește pe George",
+      "description": "Ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor."
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.92,
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "supports_event": "EV_010"
+      },
+      "id": "MOT_010",
+      "type": "Motivation",
+      "label": "Cauză - Ion îl lovește pe George",
+      "description": "disputa pentru lăutari și revanșa împotriva lui Vasile"
+    },
+    {
+      "aliases": [],
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "importance": "major",
+      "confidence": 0.95,
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ],
+      "attributes": {
+        "result_of": "EV_010"
+      },
+      "id": "CON_010",
+      "type": "Consequence",
+      "label": "Consecință - Ion îl lovește pe George",
+      "description": "Ion câștigă respect, iar rivalitatea rămâne activă"
+    }
+  ],
+  "edges": [
+    {
+      "id": "EDGE_00111",
+      "source": "WORK_ION",
+      "predicate": "has_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "order": 1
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00112",
+      "source": "CH_01",
+      "predicate": "chapter_of",
+      "target": "WORK_ION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00113",
+      "source": "CH_01",
+      "predicate": "part_of",
+      "target": "PART_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00114",
+      "source": "CH_01",
+      "predicate": "instance_of",
+      "target": "CLASS_CHAPTER",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00115",
+      "source": "CH_01",
+      "predicate": "has_opening_state",
+      "target": "STATE_CH_01_OPEN",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00116",
+      "source": "CH_01",
+      "predicate": "has_closing_state",
+      "target": "STATE_CH_01_CLOSE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00117",
+      "source": "STATE_CH_01_OPEN",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVESTATE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00118",
+      "source": "STATE_CH_01_CLOSE",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVESTATE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00119",
+      "source": "CH_01",
+      "predicate": "has_evidence",
+      "target": "EVIDENCE_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00120",
+      "source": "EVIDENCE_CH_01",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00121",
+      "source": "FRAGMENT_CH_01",
+      "predicate": "derived_from_source",
+      "target": "CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00122",
+      "source": "EVIDENCE_CH_01",
+      "predicate": "instance_of",
+      "target": "CLASS_EVIDENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00123",
+      "source": "FRAGMENT_CH_01",
+      "predicate": "instance_of",
+      "target": "CLASS_SOURCEFRAGMENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00124",
+      "source": "EV_001",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00125",
+      "source": "MOT_001",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00126",
+      "source": "CON_001",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00127",
+      "source": "EV_001",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 1,
+        "global_order": 1
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00128",
+      "source": "EV_001",
+      "predicate": "occurs_at",
+      "target": "LOC_001",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00129",
+      "source": "EV_001",
+      "predicate": "has_motivation",
+      "target": "MOT_001",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00130",
+      "source": "MOT_001",
+      "predicate": "motivates",
+      "target": "EV_001",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00131",
+      "source": "EV_001",
+      "predicate": "has_consequence",
+      "target": "CON_001",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00132",
+      "source": "EV_001",
+      "predicate": "results_in",
+      "target": "CON_001",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00133",
+      "source": "EV_001",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00134",
+      "source": "EV_001",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_011",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00135",
+      "source": "EV_001",
+      "predicate": "expresses_motif",
+      "target": "CONCEPT_018",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00136",
+      "source": "STATE_CH_01_OPEN",
+      "predicate": "enables",
+      "target": "EV_001",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00137",
+      "source": "EV_002",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00138",
+      "source": "MOT_002",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00139",
+      "source": "CON_002",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00140",
+      "source": "EV_002",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 2,
+        "global_order": 2
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00141",
+      "source": "EV_002",
+      "predicate": "occurs_at",
+      "target": "LOC_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00142",
+      "source": "EV_002",
+      "predicate": "has_motivation",
+      "target": "MOT_002",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00143",
+      "source": "MOT_002",
+      "predicate": "motivates",
+      "target": "EV_002",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00144",
+      "source": "EV_002",
+      "predicate": "has_consequence",
+      "target": "CON_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00145",
+      "source": "EV_002",
+      "predicate": "results_in",
+      "target": "CON_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00146",
+      "source": "EV_002",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00147",
+      "source": "EV_002",
+      "predicate": "has_participant",
+      "target": "CHAR_023",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00148",
+      "source": "CHAR_023",
+      "predicate": "participates_in",
+      "target": "EV_002",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00149",
+      "source": "EV_002",
+      "predicate": "changes_state_of",
+      "target": "CHAR_023",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00150",
+      "source": "EV_002",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_011",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00151",
+      "source": "EV_001",
+      "predicate": "immediately_precedes",
+      "target": "EV_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00152",
+      "source": "EV_002",
+      "predicate": "immediately_follows",
+      "target": "EV_001",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00153",
+      "source": "CON_001",
+      "predicate": "contributes_to",
+      "target": "EV_002",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00154",
+      "source": "EV_001",
+      "predicate": "occurs_before",
+      "target": "EV_002",
+      "qualifiers": {
+        "global_order": 2
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00155",
+      "source": "EV_003",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00156",
+      "source": "MOT_003",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00157",
+      "source": "CON_003",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00158",
+      "source": "EV_003",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 3,
+        "global_order": 3
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00159",
+      "source": "EV_003",
+      "predicate": "occurs_at",
+      "target": "LOC_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00160",
+      "source": "EV_003",
+      "predicate": "has_motivation",
+      "target": "MOT_003",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00161",
+      "source": "MOT_003",
+      "predicate": "motivates",
+      "target": "EV_003",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00162",
+      "source": "EV_003",
+      "predicate": "has_consequence",
+      "target": "CON_003",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00163",
+      "source": "EV_003",
+      "predicate": "results_in",
+      "target": "CON_003",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00164",
+      "source": "EV_003",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00165",
+      "source": "EV_003",
+      "predicate": "has_participant",
+      "target": "CHAR_008",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00166",
+      "source": "CHAR_008",
+      "predicate": "participates_in",
+      "target": "EV_003",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00167",
+      "source": "EV_003",
+      "predicate": "changes_state_of",
+      "target": "CHAR_008",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00168",
+      "source": "EV_003",
+      "predicate": "has_participant",
+      "target": "CHAR_013",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00169",
+      "source": "CHAR_013",
+      "predicate": "participates_in",
+      "target": "EV_003",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00170",
+      "source": "EV_003",
+      "predicate": "has_participant",
+      "target": "CHAR_022",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00171",
+      "source": "CHAR_022",
+      "predicate": "participates_in",
+      "target": "EV_003",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00172",
+      "source": "EV_003",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_003",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00173",
+      "source": "EV_003",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_012",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00174",
+      "source": "EV_003",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_014",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00175",
+      "source": "EV_002",
+      "predicate": "immediately_precedes",
+      "target": "EV_003",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00176",
+      "source": "EV_003",
+      "predicate": "immediately_follows",
+      "target": "EV_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00177",
+      "source": "CON_002",
+      "predicate": "contributes_to",
+      "target": "EV_003",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00178",
+      "source": "EV_002",
+      "predicate": "occurs_before",
+      "target": "EV_003",
+      "qualifiers": {
+        "global_order": 3
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00179",
+      "source": "EV_004",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00180",
+      "source": "MOT_004",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00181",
+      "source": "CON_004",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00182",
+      "source": "EV_004",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 4,
+        "global_order": 4
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00183",
+      "source": "EV_004",
+      "predicate": "occurs_at",
+      "target": "LOC_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00184",
+      "source": "EV_004",
+      "predicate": "has_motivation",
+      "target": "MOT_004",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00185",
+      "source": "MOT_004",
+      "predicate": "motivates",
+      "target": "EV_004",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00186",
+      "source": "EV_004",
+      "predicate": "has_consequence",
+      "target": "CON_004",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00187",
+      "source": "EV_004",
+      "predicate": "results_in",
+      "target": "CON_004",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00188",
+      "source": "EV_004",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00189",
+      "source": "EV_004",
+      "predicate": "has_participant",
+      "target": "CHAR_001",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00190",
+      "source": "CHAR_001",
+      "predicate": "participates_in",
+      "target": "EV_004",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00191",
+      "source": "EV_004",
+      "predicate": "changes_state_of",
+      "target": "CHAR_001",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00192",
+      "source": "EV_004",
+      "predicate": "has_participant",
+      "target": "CHAR_002",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00193",
+      "source": "CHAR_002",
+      "predicate": "participates_in",
+      "target": "EV_004",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00194",
+      "source": "EV_004",
+      "predicate": "has_participant",
+      "target": "CHAR_003",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00195",
+      "source": "CHAR_003",
+      "predicate": "participates_in",
+      "target": "EV_004",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00196",
+      "source": "EV_004",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_002",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00197",
+      "source": "EV_004",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_005",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00198",
+      "source": "EV_003",
+      "predicate": "immediately_precedes",
+      "target": "EV_004",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00199",
+      "source": "EV_004",
+      "predicate": "immediately_follows",
+      "target": "EV_003",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00200",
+      "source": "CON_003",
+      "predicate": "contributes_to",
+      "target": "EV_004",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00201",
+      "source": "EV_003",
+      "predicate": "occurs_before",
+      "target": "EV_004",
+      "qualifiers": {
+        "global_order": 4
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00202",
+      "source": "EV_005",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00203",
+      "source": "MOT_005",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00204",
+      "source": "CON_005",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00205",
+      "source": "EV_005",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 5,
+        "global_order": 5
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00206",
+      "source": "EV_005",
+      "predicate": "occurs_at",
+      "target": "LOC_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00207",
+      "source": "EV_005",
+      "predicate": "has_motivation",
+      "target": "MOT_005",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00208",
+      "source": "MOT_005",
+      "predicate": "motivates",
+      "target": "EV_005",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00209",
+      "source": "EV_005",
+      "predicate": "has_consequence",
+      "target": "CON_005",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00210",
+      "source": "EV_005",
+      "predicate": "results_in",
+      "target": "CON_005",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00211",
+      "source": "EV_005",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00212",
+      "source": "EV_005",
+      "predicate": "has_participant",
+      "target": "CHAR_001",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00213",
+      "source": "CHAR_001",
+      "predicate": "participates_in",
+      "target": "EV_005",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00214",
+      "source": "EV_005",
+      "predicate": "changes_state_of",
+      "target": "CHAR_001",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00215",
+      "source": "EV_005",
+      "predicate": "has_participant",
+      "target": "CHAR_002",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00216",
+      "source": "CHAR_002",
+      "predicate": "participates_in",
+      "target": "EV_005",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00217",
+      "source": "EV_005",
+      "predicate": "has_participant",
+      "target": "CHAR_005",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00218",
+      "source": "CHAR_005",
+      "predicate": "participates_in",
+      "target": "EV_005",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00219",
+      "source": "EV_005",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_001",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00220",
+      "source": "EV_005",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_012",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00221",
+      "source": "EV_005",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_008",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00222",
+      "source": "EV_004",
+      "predicate": "immediately_precedes",
+      "target": "EV_005",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00223",
+      "source": "EV_005",
+      "predicate": "immediately_follows",
+      "target": "EV_004",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00224",
+      "source": "CON_004",
+      "predicate": "contributes_to",
+      "target": "EV_005",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00225",
+      "source": "EV_004",
+      "predicate": "occurs_before",
+      "target": "EV_005",
+      "qualifiers": {
+        "global_order": 5
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00226",
+      "source": "EV_006",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00227",
+      "source": "MOT_006",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00228",
+      "source": "CON_006",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00229",
+      "source": "EV_006",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 6,
+        "global_order": 6
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00230",
+      "source": "EV_006",
+      "predicate": "occurs_at",
+      "target": "LOC_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00231",
+      "source": "EV_006",
+      "predicate": "has_motivation",
+      "target": "MOT_006",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00232",
+      "source": "MOT_006",
+      "predicate": "motivates",
+      "target": "EV_006",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00233",
+      "source": "EV_006",
+      "predicate": "has_consequence",
+      "target": "CON_006",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00234",
+      "source": "EV_006",
+      "predicate": "results_in",
+      "target": "CON_006",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00235",
+      "source": "EV_006",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00236",
+      "source": "EV_006",
+      "predicate": "has_participant",
+      "target": "CHAR_005",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00237",
+      "source": "CHAR_005",
+      "predicate": "participates_in",
+      "target": "EV_006",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00238",
+      "source": "EV_006",
+      "predicate": "changes_state_of",
+      "target": "CHAR_005",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00239",
+      "source": "EV_006",
+      "predicate": "has_participant",
+      "target": "CHAR_001",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00240",
+      "source": "CHAR_001",
+      "predicate": "participates_in",
+      "target": "EV_006",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00241",
+      "source": "EV_006",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_003",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00242",
+      "source": "EV_006",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_004",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00243",
+      "source": "EV_006",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_015",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00244",
+      "source": "EV_005",
+      "predicate": "immediately_precedes",
+      "target": "EV_006",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00245",
+      "source": "EV_006",
+      "predicate": "immediately_follows",
+      "target": "EV_005",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00246",
+      "source": "CON_005",
+      "predicate": "contributes_to",
+      "target": "EV_006",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00247",
+      "source": "EV_005",
+      "predicate": "occurs_before",
+      "target": "EV_006",
+      "qualifiers": {
+        "global_order": 6
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00248",
+      "source": "EV_007",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00249",
+      "source": "MOT_007",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00250",
+      "source": "CON_007",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00251",
+      "source": "EV_007",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 7,
+        "global_order": 7
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00252",
+      "source": "EV_007",
+      "predicate": "occurs_at",
+      "target": "LOC_002",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00253",
+      "source": "EV_007",
+      "predicate": "has_motivation",
+      "target": "MOT_007",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00254",
+      "source": "MOT_007",
+      "predicate": "motivates",
+      "target": "EV_007",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00255",
+      "source": "EV_007",
+      "predicate": "has_consequence",
+      "target": "CON_007",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00256",
+      "source": "EV_007",
+      "predicate": "results_in",
+      "target": "CON_007",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00257",
+      "source": "EV_007",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00258",
+      "source": "EV_007",
+      "predicate": "has_participant",
+      "target": "CHAR_005",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00259",
+      "source": "CHAR_005",
+      "predicate": "participates_in",
+      "target": "EV_007",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00260",
+      "source": "EV_007",
+      "predicate": "changes_state_of",
+      "target": "CHAR_005",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00261",
+      "source": "EV_007",
+      "predicate": "has_participant",
+      "target": "CHAR_004",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00262",
+      "source": "CHAR_004",
+      "predicate": "participates_in",
+      "target": "EV_007",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00263",
+      "source": "EV_007",
+      "predicate": "has_participant",
+      "target": "CHAR_002",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00264",
+      "source": "CHAR_002",
+      "predicate": "participates_in",
+      "target": "EV_007",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00265",
+      "source": "EV_007",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_012",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00266",
+      "source": "EV_007",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_006",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00267",
+      "source": "EV_006",
+      "predicate": "immediately_precedes",
+      "target": "EV_007",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00268",
+      "source": "EV_007",
+      "predicate": "immediately_follows",
+      "target": "EV_006",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00269",
+      "source": "CON_006",
+      "predicate": "contributes_to",
+      "target": "EV_007",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00270",
+      "source": "EV_006",
+      "predicate": "occurs_before",
+      "target": "EV_007",
+      "qualifiers": {
+        "global_order": 7
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00271",
+      "source": "EV_008",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00272",
+      "source": "MOT_008",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00273",
+      "source": "CON_008",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00274",
+      "source": "EV_008",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 8,
+        "global_order": 8
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00275",
+      "source": "EV_008",
+      "predicate": "occurs_at",
+      "target": "LOC_001",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00276",
+      "source": "EV_008",
+      "predicate": "has_motivation",
+      "target": "MOT_008",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00277",
+      "source": "MOT_008",
+      "predicate": "motivates",
+      "target": "EV_008",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00278",
+      "source": "EV_008",
+      "predicate": "has_consequence",
+      "target": "CON_008",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00279",
+      "source": "EV_008",
+      "predicate": "results_in",
+      "target": "CON_008",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00280",
+      "source": "EV_008",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00281",
+      "source": "EV_008",
+      "predicate": "has_participant",
+      "target": "CHAR_001",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00282",
+      "source": "CHAR_001",
+      "predicate": "participates_in",
+      "target": "EV_008",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00283",
+      "source": "EV_008",
+      "predicate": "changes_state_of",
+      "target": "CHAR_001",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00284",
+      "source": "EV_008",
+      "predicate": "has_participant",
+      "target": "CHAR_005",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00285",
+      "source": "CHAR_005",
+      "predicate": "participates_in",
+      "target": "EV_008",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00286",
+      "source": "EV_008",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_004",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00287",
+      "source": "EV_008",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_001",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00288",
+      "source": "EV_007",
+      "predicate": "immediately_precedes",
+      "target": "EV_008",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00289",
+      "source": "EV_008",
+      "predicate": "immediately_follows",
+      "target": "EV_007",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00290",
+      "source": "CON_007",
+      "predicate": "contributes_to",
+      "target": "EV_008",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00291",
+      "source": "EV_007",
+      "predicate": "occurs_before",
+      "target": "EV_008",
+      "qualifiers": {
+        "global_order": 8
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00292",
+      "source": "EV_009",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00293",
+      "source": "MOT_009",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00294",
+      "source": "CON_009",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00295",
+      "source": "EV_009",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 9,
+        "global_order": 9
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00296",
+      "source": "EV_009",
+      "predicate": "occurs_at",
+      "target": "LOC_003",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00297",
+      "source": "EV_009",
+      "predicate": "has_motivation",
+      "target": "MOT_009",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00298",
+      "source": "MOT_009",
+      "predicate": "motivates",
+      "target": "EV_009",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00299",
+      "source": "EV_009",
+      "predicate": "has_consequence",
+      "target": "CON_009",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00300",
+      "source": "EV_009",
+      "predicate": "results_in",
+      "target": "CON_009",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00301",
+      "source": "EV_009",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00302",
+      "source": "EV_009",
+      "predicate": "has_participant",
+      "target": "CHAR_001",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00303",
+      "source": "CHAR_001",
+      "predicate": "participates_in",
+      "target": "EV_009",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00304",
+      "source": "EV_009",
+      "predicate": "changes_state_of",
+      "target": "CHAR_001",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00305",
+      "source": "EV_009",
+      "predicate": "has_participant",
+      "target": "CHAR_004",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00306",
+      "source": "CHAR_004",
+      "predicate": "participates_in",
+      "target": "EV_009",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00307",
+      "source": "EV_009",
+      "predicate": "has_participant",
+      "target": "CHAR_017",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00308",
+      "source": "CHAR_017",
+      "predicate": "participates_in",
+      "target": "EV_009",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00309",
+      "source": "EV_009",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_006",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00310",
+      "source": "EV_009",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_004",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00311",
+      "source": "EV_008",
+      "predicate": "immediately_precedes",
+      "target": "EV_009",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00312",
+      "source": "EV_009",
+      "predicate": "immediately_follows",
+      "target": "EV_008",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00313",
+      "source": "CON_008",
+      "predicate": "contributes_to",
+      "target": "EV_009",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00314",
+      "source": "EV_008",
+      "predicate": "occurs_before",
+      "target": "EV_009",
+      "qualifiers": {
+        "global_order": 9
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00315",
+      "source": "EV_010",
+      "predicate": "instance_of",
+      "target": "CLASS_NARRATIVEEVENT",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00316",
+      "source": "MOT_010",
+      "predicate": "instance_of",
+      "target": "CLASS_MOTIVATION",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00317",
+      "source": "CON_010",
+      "predicate": "instance_of",
+      "target": "CLASS_CONSEQUENCE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00318",
+      "source": "EV_010",
+      "predicate": "occurs_in_chapter",
+      "target": "CH_01",
+      "qualifiers": {
+        "chapter_order": 10,
+        "global_order": 10
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00319",
+      "source": "EV_010",
+      "predicate": "occurs_at",
+      "target": "LOC_003",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00320",
+      "source": "EV_010",
+      "predicate": "has_motivation",
+      "target": "MOT_010",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00321",
+      "source": "MOT_010",
+      "predicate": "motivates",
+      "target": "EV_010",
+      "qualifiers": {},
+      "assertion_type": "inferred_motivation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00322",
+      "source": "EV_010",
+      "predicate": "has_consequence",
+      "target": "CON_010",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00323",
+      "source": "EV_010",
+      "predicate": "results_in",
+      "target": "CON_010",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00324",
+      "source": "EV_010",
+      "predicate": "supported_by",
+      "target": "FRAGMENT_CH_01",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00325",
+      "source": "EV_010",
+      "predicate": "has_participant",
+      "target": "CHAR_001",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00326",
+      "source": "CHAR_001",
+      "predicate": "participates_in",
+      "target": "EV_010",
+      "qualifiers": {
+        "role": "principal"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00327",
+      "source": "EV_010",
+      "predicate": "changes_state_of",
+      "target": "CHAR_001",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00328",
+      "source": "EV_010",
+      "predicate": "has_participant",
+      "target": "CHAR_004",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00329",
+      "source": "CHAR_004",
+      "predicate": "participates_in",
+      "target": "EV_010",
+      "qualifiers": {
+        "role": "secondary"
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00330",
+      "source": "EV_010",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_016",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00331",
+      "source": "EV_010",
+      "predicate": "expresses_theme",
+      "target": "CONCEPT_012",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_SUM_CH_01",
+        "SRC_ESSAY"
+      ]
+    },
+    {
+      "id": "EDGE_00332",
+      "source": "EV_010",
+      "predicate": "results_in",
+      "target": "STATE_CH_01_CLOSE",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00333",
+      "source": "EV_009",
+      "predicate": "immediately_precedes",
+      "target": "EV_010",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00334",
+      "source": "EV_010",
+      "predicate": "immediately_follows",
+      "target": "EV_009",
+      "qualifiers": {},
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00335",
+      "source": "CON_009",
+      "predicate": "contributes_to",
+      "target": "EV_010",
+      "qualifiers": {},
+      "assertion_type": "literary_interpretation",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    },
+    {
+      "id": "EDGE_00336",
+      "source": "EV_009",
+      "predicate": "occurs_before",
+      "target": "EV_010",
+      "qualifiers": {
+        "global_order": 10
+      },
+      "assertion_type": "explicit_fact",
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "CH_01",
+      "ordinal": 1,
+      "title": "Capitolul I - Începutul",
+      "part_id": "PART_01",
+      "opening_state": "STATE_CH_01_OPEN",
+      "closing_state": "STATE_CH_01_CLOSE",
+      "event_sequence": [
+        "EV_001",
+        "EV_002",
+        "EV_003",
+        "EV_004",
+        "EV_005",
+        "EV_006",
+        "EV_007",
+        "EV_008",
+        "EV_009",
+        "EV_010"
+      ],
+      "source_refs": [
+        "REF_PDF_CH_01",
+        "REF_SUM_CH_01"
+      ]
+    }
+  ],
+  "reconstruction_profiles": {
+    "simple": {
+      "event_importance": [
+        "major",
+        "medium"
+      ],
+      "narration_field": "simple_narration",
+      "transition_field": "simple_transition"
+    },
+    "elevated": {
+      "event_importance": [
+        "major",
+        "medium"
+      ],
+      "narration_field": "elevated_narration",
+      "transition_field": "elevated_transition"
+    }
+  },
+  "validation": {
+    "node_count": 70,
+    "edge_count": 226,
+    "chapter_count": 1,
+    "event_count": 10,
+    "missing_edge_endpoints": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "benchmark_id": "ION-EXP2-CH01-SUMMARY-V1",
+  "task": "chapter_summary_reconstruction",
+  "graph_version": "2.0",
+  "chapter_id": "CH_01",
+  "language": "ro",
+  "required_registers": ["simple", "elevated"],
+  "simple_word_range": [180, 300],
+  "elevated_word_range": [220, 350],
+  "style_profile_id": "ION-EXP2-CH01-STYLE-V1",
+  "style_constraints": {
+    "discourse_connectors": {
+      "metric": "discourse_connector_ratio",
+      "max": 0.035,
+      "weight": 0.3,
+      "instruction": "Folosește cel mult aproximativ 3,5 conectori discursivi la 100 de cuvinte."
+    },
+    "filler_phrases": {
+      "metric": "filler_word_ratio",
+      "max": 0.006,
+      "weight": 0.25,
+      "instruction": "Expresiile de umplutură pot ocupa cel mult 0,6% din cuvinte."
+    },
+    "average_sentence_length": {
+      "metric": "average_sentence_length",
+      "min": 14.0,
+      "max": 22.0,
+      "weight": 0.15,
+      "instruction": "Păstrează media între 14 și 22 de cuvinte pe propoziție."
+    },
+    "character_visibility": {
+      "metric": "character_name_token_ratio",
+      "min": 0.06,
+      "max": 0.16,
+      "weight": 0.15,
+      "instruction": "Între aproximativ 6% și 16% din cuvinte să fie nume de personaje existente în graf; folosește pronumele natural și nu repeta mecanic numele."
+    },
+    "connector_repetition": {
+      "metric": "most_repeated_connector_per_200_words",
+      "max": 2.5,
+      "weight": 0.1,
+      "instruction": "Nu repeta același conector de mai mult de aproximativ două ori la 200 de cuvinte."
+    },
+    "connector_sentence_starts": {
+      "metric": "connector_sentence_start_ratio",
+      "max": 0.35,
+      "weight": 0.05,
+      "instruction": "Cel mult 35% dintre propoziții pot începe cu un conector explicit."
+    }
+  },
+  "style_evaluation": {
+    "max_penalty_per_register": 10.0,
+    "calculation": "max_penalty * (1 - weighted_profile_compliance)",
+    "prepositions_are_monitored_but_not_constrained": true,
+    "conjunctions_are_monitored_but_not_constrained": true
+  }
+}

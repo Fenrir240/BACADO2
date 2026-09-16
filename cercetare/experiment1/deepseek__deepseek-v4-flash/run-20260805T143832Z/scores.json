@@ -1,0 +1,26 @@
+{
+  "overall_score": 0.0,
+  "weights": {
+    "question_generation": 0.5,
+    "chapter_1_summary": 0.5
+  },
+  "question_generation": {
+    "task": "question_generation",
+    "score": 0.0,
+    "question_average": 0.0,
+    "set_coverage_score": 0.0,
+    "questions": [],
+    "errors": [
+      "Output JSON invalid: [Errno 13] Permission denied: '.'"
+    ]
+  },
+  "chapter_1_summary": {
+    "task": "chapter_summary_reconstruction",
+    "chapter_id": "CH_01",
+    "score": 0.0,
+    "registers": {},
+    "errors": [
+      "Output JSON invalid: [Errno 13] Permission denied: '.'"
+    ]
+  }
+}

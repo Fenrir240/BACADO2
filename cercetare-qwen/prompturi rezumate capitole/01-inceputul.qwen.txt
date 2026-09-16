@@ -1,0 +1,56 @@
+# Rezumat factual — Capitolul I - Începutul
+
+Ești un verbalizator factual. Transformă numai evenimentele verificate din `GRAPH_PACKET`
+într-un rezumat pentru Bacalaureat. Nu folosi memoria proprie despre roman și nu completa goluri.
+
+## Reguli obligatorii
+
+1. Folosește exclusiv `verified_events`, în ordinea `order`.
+2. Acoperă toate și numai ID-urile din `chapter.verified_event_sequence`.
+3. Nu folosi `excluded_events`; ele sunt păstrate doar pentru audit.
+4. Fiecare propoziție trebuie să aibă unul sau cel mult două `event_ids`.
+5. Pentru fiecare propoziție returnează numai `event_ids`; citatele rămân în packet și sunt
+   asociate local de validator. Nu copia citatele în răspuns.
+6. `fact` este reformularea canonică, iar `provenance.evidence_quote` este dovada primară.
+   Păstrează numai detaliile compatibile cu ambele și preferă formularea mai prudentă dacă
+   citatul susține doar o parte din `fact`.
+7. Nu adăuga cauze, intenții, consecințe, intensificări sau precizări temporale absente
+   din `fact` și din citatul-sursă. Sunt interzise în special cuvinte precum
+   „instantaneu”, „definitiv”, „complet”, „exclusiv” și „singura soluție” dacă nu apar în dovezi.
+8. Nu transforma interpretările simbolice în fapte. Rezumatul conține numai acțiuni și stări narative.
+9. Scrie concis, orientativ 80-220 de cuvinte, în 2-4 paragrafe. Acoperirea factuală are
+   prioritate față de lungime; nu adăuga informații pentru a atinge o limită minimă.
+10. `sentence_text` trebuie să reproducă exact propoziția corespunzătoare din `summary`.
+11. Dacă datele verificate sunt insuficiente, păstrează rezumatul mai scurt și explică în
+    `validation_notes`; nu inventa nimic.
+
+Returnează exclusiv JSON valid:
+
+```json
+{
+  "task": "chapter_summary",
+  "chapter_id": "CH_01",
+  "chapter_title": "Capitolul I - Începutul",
+  "status": "generated",
+  "summary": "Rezumatul factual.",
+  "sentence_evidence": [
+    {
+      "sentence_index": 1,
+      "sentence_text": "Propoziția exactă din summary.",
+      "event_ids": ["EV_..."]
+    }
+  ],
+  "coverage": {
+    "covered_event_ids": ["EV_..."],
+    "excluded_event_ids": [],
+    "event_count_expected": 10,
+    "event_count_covered": 10
+  },
+  "style": {"language": "ro", "word_count": 0, "paragraph_count": 0},
+  "validation_notes": []
+}
+```
+
+## GRAPH_PACKET
+
+{"metadata":{"packet_id":"ION-GRAPH2-SUMMARY-01","task":"chapter_summary","source_graph":"cercetare/graf2/knowledge-graph.json","source_graph_version":"5.1","source_graph_sha256":"d5e72342a6eaf448cc20cf49c0160d5ed79890b5491cea2b890785ab8d9c3bb1","language":"ro","compact":true,"chapter_id":"CH_01","chapter_title":"Capitolul I - Începutul","source_event_count":10,"verified_event_count":10,"excluded_event_count":0},"usage_rules":{"canonical_scope":"Numai verified_events pot apărea în rezumat.","provenance_rule":"Validatorul asociază local event_ids cu evidence_quote; modelul nu recopiază citatele.","source_support_rule":"O propoziție păstrează numai detaliile compatibile cu fact și evidence_quote.","exclusion_rule":"excluded_events nu se verbalizează.","interpretation_rule":"Rezumatul factual nu folosește teme, simboluri sau motivații deduse."},"chapter":{"id":"CH_01","ordinal":1,"title":"Capitolul I - Începutul","part_id":"PART_01","source_event_sequence":["EV_001","EV_002","EV_003","EV_004","EV_005","EV_008","EV_007","EV_006","EV_009","EV_010"],"verified_event_sequence":["EV_001","EV_002","EV_003","EV_004","EV_005","EV_008","EV_007","EV_006","EV_009","EV_010"],"excluded_event_sequence":[]},"verified_events":[{"id":"EV_001","order":1,"importance":"major","assertion_type":"explicit_fact","fact":"Drumul introduce treptat satul Pripas, casele și semnele unei comunități aparent liniștite.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":3,"evidence_quote":"2 Citeşte alte cărţi din literatura română şi universală pe Biblioteca PDF GLASUL PĂMÂNTULUI CAPITOLUL I: ÎNCEPUTUL 1 Din şoseaua ce vine de la Cârlibaba, întovărăşind Someşul ba în dreapta, ba în stânga până la Cluj şi chiar mai departe, se desprinde un drum alb, mai sus de Armadia, trece râul peste podul bătrân de lemn, acoperit cu şindrilă mucegăită, spintecă satul Jidoviţa şi aleargă spre Bistriţa, unde se pierde în cealaltă şosea naţională care coboară din Bucovina prin trecătoarea Bâr-găului. Lăsând Jidoviţa, drumul urcă întâi anevoe până ce -şi face loc printre dealurile strâmtorate, pe urmă însă înaintează vesel, neted, mai ascunzându-se printre fagii tineri ai Pădurii Domneşti, mai poposind puţin la Cişmeaua Mortului, unde picură veşnic apă de izvor răcoritoare, apoi coteşte brusc pe subt Râpele Dracului, ca să dea buzna în Pripasul pitit într-o scrântitură de coline.","support_score":0.3}},{"id":"EV_002","order":2,"importance":"medium","assertion_type":"explicit_fact","fact":"Duminica, hora din curtea Todosiei adună tinerii, lăutarii, femeile, copiii, bărbații și fruntașii satului.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":8,"evidence_quote":"Bărbaţii se ţin mai pe departe, pe lângă casă, pe la poartă, grupuri -grupuri, vorbind de treburile obşteşti, aruncând rareori câte-o privire spre tineretul dimprejurul lăutarilor. Primarul, cu mustăţi albe răsucite tinereşte, cu nişte ochi albaştri mari şi blajini, caută să -şi păstreze demnitatea apăsând vorbele şi însoţindu -le cu gesturi energice, în mijlocul unui pâlc de bătrâni fruntaşi.","support_score":0.25}},{"id":"EV_003","order":3,"importance":"medium","assertion_type":"explicit_fact","fact":"La horă, tinerii joacă lângă lăutari, bărbații stau în grupuri mai departe, iar fruntașii și intelectualii ocupă poziții distincte.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":8,"evidence_quote":"Bărbaţii se ţin mai pe departe, pe lângă casă, pe la poartă, grupuri -grupuri, vorbind de treburile obşteşti, aruncând rareori câte-o privire spre tineretul dimprejurul lăutarilor. Primarul, cu mustăţi albe răsucite tinereşte, cu nişte ochi albaştri mari şi blajini, caută să -şi păstreze demnitatea apăsând vorbele şi însoţindu -le cu gesturi energice, în mijlocul unui pâlc de bătrâni fruntaşi.","support_score":0.4286}},{"id":"EV_004","order":4,"importance":"medium","assertion_type":"explicit_fact","fact":"Ion joacă alături de Ana, o ține de brâu și o cheamă să-l urmeze în livada din spatele șurii.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":13,"evidence_quote":"- Să vii, Anuţo... ştii tu unde! zice Ion domol. Ana nu răspunde, privirea ei însă luceşte de bucurie.","support_score":0.0}},{"id":"EV_005","order":5,"importance":"major","assertion_type":"explicit_fact","fact":"Ion știe că încă o iubește pe Florica, dar cântărește faptul că ea este săracă, în timp ce Ana are pământuri, case și vite.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":17,"evidence_quote":"Iubise pe Florica şi, de câte ori o vedea sau îşi amintea de ea, simţea că tot o mai iubeşte. Purta în suflet râsul ei cald, buzele ei pline şi umede, obrajii ei fragezi ca piersica, ochii ei albaştri ca cerul de primăvară. Dar Florica era mai săracă decât dânsul, iar Ana avea locuri şi case şi vite multe.. . Î i asculta glasul plângător şi -l cuprindea mila, în acelaşi timp însă se gândea la Florica.","support_score":0.5455}},{"id":"EV_008","order":6,"importance":"medium","assertion_type":"explicit_fact","fact":"Împotrivirea lui Vasile Baciu îl întărâtă pe Ion și îl face să stăruie în apropierea de Ana.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":17,"evidence_quote":"Ştia dânsul că Vasile Baciu e într -o ureche şi că de -o apucă hăis, apoi hăis o ţine să ştie de bine că dă cu carul prin toate şanţurile. Dar tocmai aceasta îl întărâta şi pe el. Nu-i fusese dragă Ana şi nici acuma nu -şi dădea seama bine^dacă i -e dragă.","support_score":0.4286}},{"id":"EV_007","order":7,"importance":"medium","assertion_type":"explicit_fact","fact":"Vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":25,"evidence_quote":"Ăsta -i ginerele meu care mi -i drag! Cu dânsul ai să -mi cununi d-ta fata, măcar de-aş şti că are să crape inima dintr-însa!... - Bine, bade Vasile, lasă că... - făcu George ruşinat, râzând silit.","support_score":0.2}},{"id":"EV_006","order":8,"importance":"medium","assertion_type":"explicit_fact","fact":"Vasile Baciu îl numește pe Ion «golan» și «tâlhar» în fața oamenilor și încearcă să-l alunge de lângă Ana.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":26,"evidence_quote":"Până să ajungă însă la fată, Vasile zări pe Ion sosind tot de după şură, şi numaidecât uită pe Ana şi se întoarse ameninţător spre flăcău. Văzându -l cum vine drept la el, Ion avu o tresărire uşoară, dar îşi urmă calea, liniştit, ca şi când n-ar înţelege nimic, cu o privire nepăsătoare către Baciu. - Ce ţi-am spus eu ţie, golane, ai?","support_score":0.3}},{"id":"EV_009","order":9,"importance":"medium","assertion_type":"explicit_fact","fact":"La cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":39,"evidence_quote":"Lăutarii, vrând să plece, căci erau tocmai din Lupşa şi aveau de mers vreo două ceasuri, se sculară cerând plata de la George, care parcă aşteptase clipa aceasta ca să se răzbune.","support_score":0.3333}},{"id":"EV_010","order":10,"importance":"major","assertion_type":"explicit_fact","fact":"Ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_01","pdf_page":41,"evidence_quote":"Ion era mulţumit acuma, şi răcorit, şi nu se mai sichisea de nimic. Stătea sprijinit în par, ciobăneşte, privind triumfător şi ameninţător, dacă cumva ar mai îndrăzni cineva să-l supere. Smucind la lătunoi, Ilie îşi stampară mânia şi apoi, împreună cu alţi flăcăi, luară pe braţe pe George şi - l duseră acasă, înjurând care de care mai năpraznic .","support_score":0.3333}}],"excluded_events":[],"validation":{"passed":true,"checks":{"partition_is_exact":true,"verified_sequence_exact":true,"excluded_sequence_exact":true,"all_verified_have_primary_quotes":true,"no_boundary_context":true,"no_graph_noise":true},"verified_event_count":10,"excluded_event_count":0}}

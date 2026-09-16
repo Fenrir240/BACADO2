@@ -1,0 +1,124 @@
+{
+  "exercises": [
+    {
+      "id": "MATCH_01",
+      "title": "Figură de stil – Citat exact (Dificultate: ușoară)",
+      "instructions": "Asociază figura de stil din coloana stângă cu citatul exact corespunzător din poem.",
+      "source_refs": [
+        "TRAIT_SPECIES_MIX",
+        "COMP_TITLE"
+      ],
+      "pairs": [
+        {
+          "left": "Metafora cognitivă",
+          "right": "«râuri în soare»",
+          "source_refs": [
+            "ST_02"
+          ]
+        },
+        {
+          "left": "Epitetul descriptiv",
+          "right": "«balta cea senină»",
+          "source_refs": [
+            "ST_06"
+          ]
+        },
+        {
+          "left": "Comparația plastică",
+          "right": "«roșie ca mărul»",
+          "source_refs": [
+            "ST_08"
+          ]
+        },
+        {
+          "left": "Personificarea afectivă",
+          "right": "«izvoare plâng»",
+          "source_refs": [
+            "ST_05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MATCH_02",
+      "title": "Voce/Secvență – Rol textual (Dificultate: medie)",
+      "instructions": "Corelează secvența și vocea lirică indicată cu funcția sa textuală în structura poemului.",
+      "source_refs": [
+        "SEQ_01",
+        "SEQ_02",
+        "SEQ_03",
+        "SEQ_04"
+      ],
+      "pairs": [
+        {
+          "left": "Strofele 1–3 (Vocea feminină)",
+          "right": "Denunță tentația geniului de a evada în sferele cunoașterii absolute.",
+          "source_refs": [
+            "ST_01"
+          ]
+        },
+        {
+          "left": "Strofa 4 (Vocea masculină)",
+          "right": "Marchează incompatibilitatea structurală dintre absolutul cunoașterii și trăirea imediată.",
+          "source_refs": [
+            "ST_04"
+          ]
+        },
+        {
+          "left": "Strofele 5–12 (Vocea feminină)",
+          "right": "Proiectează ritualul erotic pastoral într-o natură paradisiacă și complice.",
+          "source_refs": [
+            "ST_05"
+          ]
+        },
+        {
+          "left": "Strofele 13–14 (Vocea masculină)",
+          "right": "Deplasează discursul în registrul elegiei filozofice și al resemnării universale.",
+          "source_refs": [
+            "ST_13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MATCH_03",
+      "title": "Temă/Concept – Explicație argumentată (Dificultate: analitică)",
+      "instructions": "Asociază conceptul sau tema literară cu explicația argumentată care îi descrie valențele în opera eminesciană.",
+      "source_refs": [
+        "THEME_GENIUS_CONDITION",
+        "THEME_TIME",
+        "COMP_TITLE"
+      ],
+      "pairs": [
+        {
+          "left": "Tema „Iubirea”",
+          "right": "Imposibilitatea împlinirii durabile între idealul cosmic și trăirea terestră.",
+          "source_refs": [
+            "ST_01"
+          ]
+        },
+        {
+          "left": "Tema „Condiția omului de geniu”",
+          "right": "Incompatibilitatea funciară dintre setea de absolut și orizontul limitat al fericirii comune.",
+          "source_refs": [
+            "ST_04"
+          ]
+        },
+        {
+          "left": "Tema „Timpul ireversibil”",
+          "right": "Natura trecătoare a clipei de extaz și imposibilitatea conservării fericirii contingente.",
+          "source_refs": [
+            "ST_14"
+          ]
+        },
+        {
+          "left": "Motivația „Titlul oximoronic”",
+          "right": "Reunește viața efemeră cu nostalgia absolutului spiritual neîmplinit.",
+          "source_refs": [
+            "ST_14"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,886 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "reasoning_effort": "medium",
+    "attempts_per_chapter": 1,
+    "retry_on_invalid": false,
+    "api_calls": 10,
+    "reused_chapter_count": 7,
+    "reused_chapters": [
+      {
+        "chapter_id": "CH_01",
+        "reused": true,
+        "source_chapter_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\01-capitolul_1",
+        "source_response": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\01-capitolul_1\\response.openrouter.json",
+        "new_api_call": false
+      },
+      {
+        "chapter_id": "CH_02",
+        "reused": true,
+        "source_chapter_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\02-capitolul_2",
+        "source_response": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\02-capitolul_2\\response.openrouter.json",
+        "new_api_call": false
+      },
+      {
+        "chapter_id": "CH_03",
+        "reused": true,
+        "source_chapter_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\03-capitolul_3",
+        "source_response": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\03-capitolul_3\\response.openrouter.json",
+        "new_api_call": false
+      },
+      {
+        "chapter_id": "CH_04",
+        "reused": true,
+        "source_chapter_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\04-capitolul_4",
+        "source_response": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\04-capitolul_4\\response.openrouter.json",
+        "new_api_call": false
+      },
+      {
+        "chapter_id": "CH_05",
+        "reused": true,
+        "source_chapter_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\05-capitolul_5",
+        "source_response": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\05-capitolul_5\\response.openrouter.json",
+        "new_api_call": false
+      },
+      {
+        "chapter_id": "CH_06",
+        "reused": true,
+        "source_chapter_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\06-capitolul_6",
+        "source_response": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\06-capitolul_6\\response.openrouter.json",
+        "new_api_call": false
+      },
+      {
+        "chapter_id": "CH_07",
+        "reused": true,
+        "source_chapter_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\07-capitolul_7",
+        "source_response": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T163122317763Z\\07-capitolul_7\\response.openrouter.json",
+        "new_api_call": false
+      }
+    ],
+    "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\knowledge-graph.json",
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-summary-runs\\run-20260822T164253452842Z",
+    "usage": [
+      {
+        "prompt_tokens": 1536,
+        "completion_tokens": 5636,
+        "total_tokens": 7172,
+        "cost": 0.00077876,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00077876,
+          "upstream_inference_prompt_cost": 4.608e-05,
+          "upstream_inference_completions_cost": 0.00073268
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 5157,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 2553,
+        "completion_tokens": 5332,
+        "total_tokens": 7885,
+        "cost": 0.00076975,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00076975,
+          "upstream_inference_prompt_cost": 7.659e-05,
+          "upstream_inference_completions_cost": 0.00069316
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4642,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 2031,
+        "completion_tokens": 5297,
+        "total_tokens": 7328,
+        "cost": 0.00074954,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00074954,
+          "upstream_inference_prompt_cost": 6.093e-05,
+          "upstream_inference_completions_cost": 0.00068861
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4612,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 2861,
+        "completion_tokens": 6413,
+        "total_tokens": 9274,
+        "cost": 0.00091952,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00091952,
+          "upstream_inference_prompt_cost": 8.583e-05,
+          "upstream_inference_completions_cost": 0.00083369
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 5547,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1585,
+        "completion_tokens": 4231,
+        "total_tokens": 5816,
+        "cost": 0.00059758,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00059758,
+          "upstream_inference_prompt_cost": 4.755e-05,
+          "upstream_inference_completions_cost": 0.00055003
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 3662,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1783,
+        "completion_tokens": 4620,
+        "total_tokens": 6403,
+        "cost": 0.00065409,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00065409,
+          "upstream_inference_prompt_cost": 5.349e-05,
+          "upstream_inference_completions_cost": 0.0006006
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 3988,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 2111,
+        "completion_tokens": 5439,
+        "total_tokens": 7550,
+        "cost": 0.0007704,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0007704,
+          "upstream_inference_prompt_cost": 6.333e-05,
+          "upstream_inference_completions_cost": 0.00070707
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4716,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1943,
+        "completion_tokens": 5092,
+        "total_tokens": 7035,
+        "cost": 0.00072025,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00072025,
+          "upstream_inference_prompt_cost": 5.829e-05,
+          "upstream_inference_completions_cost": 0.00066196
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4468,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1585,
+        "completion_tokens": 6502,
+        "total_tokens": 8087,
+        "cost": 0.00089281,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00089281,
+          "upstream_inference_prompt_cost": 4.755e-05,
+          "upstream_inference_completions_cost": 0.00084526
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 5932,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      },
+      {
+        "prompt_tokens": 1402,
+        "completion_tokens": 4678,
+        "total_tokens": 6080,
+        "cost": 0.0006502,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0006502,
+          "upstream_inference_prompt_cost": 4.206e-05,
+          "upstream_inference_completions_cost": 0.00060814
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4135,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "CH_01",
+      "ordinal": 1,
+      "title": "Capitolul 1",
+      "event_ids": [
+        "EV_001",
+        "EV_002",
+        "EV_003",
+        "EV_004",
+        "EV_005",
+        "EV_006",
+        "EV_007",
+        "EV_008",
+        "EV_009",
+        "EV_010"
+      ],
+      "summary": "În prima parte a capitolului, bătrâna le recomandă fiului și ginerei să fie mulțumiți cu sărăcia lor, subliniind că liniștea aduce fericirea, nu bogăția. Deși îi lasă să decidă după cum le trage inima, își exprimă îngrijorarea că, în căutarea unui noroc nou, ar putea pierde fericirea existentă și se teme de amărăciunea viitoare. Recunoaște că îi este greu să părăsească coliba unde și-a crescut copiii și se teme de singurătate, motiv pentru care o consideră pe Ana prea tânără și blândă pentru a prelua cârciuma.\n\nPropunerea lui Ghiță este să rămână acasă, să continue să cearcepească cizmele și să stea la soare privind familia, lăsând-o pe mama să-i privească pe ei doi. Bătrâna reiterează că doar își împărtășește gândurile, dar promite că dacă ei aleg să meargă la moară, va merge cu ei din toată inima, sprijinindu-le pasul ca o mamă. Ghiță hotărăște să nu mai amâne lucrurile și pleacă să vorbească cu arândașul, anunțând apoi că cârciuma de la Moara cu noroc devine proprietatea lor. Bătrâna încheie momentul binecuvântând decizia, rugându-se ca Dumnezeu să le dăruiască gânduri bune în tot ceasul.",
+      "covered_event_ids": [
+        "EV_001",
+        "EV_002",
+        "EV_003",
+        "EV_004",
+        "EV_005",
+        "EV_006",
+        "EV_007",
+        "EV_008",
+        "EV_009",
+        "EV_010"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_02",
+      "ordinal": 2,
+      "title": "Capitolul 2",
+      "event_ids": [
+        "EV_011",
+        "EV_012",
+        "EV_013",
+        "EV_014",
+        "EV_015",
+        "EV_016",
+        "EV_017",
+        "EV_018",
+        "EV_019",
+        "EV_020"
+      ],
+      "summary": "Drumul prezintă o porțiune bună de o oră și jumătate, urmată de un pripor greu de parcurs, unde călătorii opresc pentru a adăpa animalele înainte de a intra în locuri mai rele. De pe culmea dealului, moara este văzută de drumeți ca un semn de siguranță, care anunță scăparea din zonele periculoase sau oferă un punct de întâlnire pentru a nu continua singuri. Din cauza opririi constante a tuturor călătorilor, se formează treptat o bătătură, iar clădirea își schimbă destinația, încetând activitatea de măcinat și transformându-se în cârciumă și adăpost pentru cei obosiți sau prinși de noapte. Arândașul zidește ulterior cârciuma la distanță de râuleț, lăsând vechea moară abandonată, cu lopețele rupte și acoperișul degradat.\n\nÎn fața vechii construcții rămân cinci cruci, două de piatră și trei din stejar, împodobite cu țircălam și icoane, care semnalează caracterul binecuvântat al locului, asociat cu bucuriile găsite sau primejdiile evitate. Situația se îmbunătățește odată cu sosirea noului cârciumar, a soției tinere și a soacrei bătrâne, care îl primesc pe drumeț ca pe un prieten așteptat. Localul devine cunoscut sub numele lui Ghiță, drumeții experimentați preferând să facă popas aici, în locul numelui anterior. De marți seară până sâmbătă, cârciuma este mereu aglomerată, clienții luând câte ceva și plătit cinstit. Sâmbătă seara, după ce locul se golește, Ghiță, Ana și bătrâna numără banii, schițând priviri reciproce și privind copiii, în timp ce soacra se simte întreținută de hărnicia ginerei și de sporul considerat un dar divin. Pregătirile pentru duminică încep sâmbătă după-amiază, când slujitorul rânește grajdul și curtea, iar bătrâna și Ana aranjează cârciuma.",
+      "covered_event_ids": [
+        "EV_011",
+        "EV_012",
+        "EV_013",
+        "EV_014",
+        "EV_015",
+        "EV_016",
+        "EV_017",
+        "EV_018",
+        "EV_019",
+        "EV_020"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_03",
+      "ordinal": 3,
+      "title": "Capitolul 3",
+      "event_ids": [
+        "EV_021",
+        "EV_022",
+        "EV_023",
+        "EV_024",
+        "EV_025",
+        "EV_026",
+        "EV_027",
+        "EV_028",
+        "EV_029",
+        "EV_030"
+      ],
+      "summary": "Capitolul 3 prezintă rolul sămădăului, un om cu stare care răspunde de pierderile din turmele păstorilor săraci, fiind singurul capabil să acopere pagubele. Deși locurile de lângă Moara cu noroc sunt considerate periculoase, sămădăii evită să discute despre ele, invocând grija pentru turmele încredințate și refuzând implicarea în afaceri personale. În acest context, Ghiță observă sosirea unor bărbați care par necunoscuți și neîncrezători, iar el se retrage discret pentru a evita întrebările soției sale. Curând, apare Lică Sămădăul, care oprește calul în fața cârciumii, aruncă priviri către Ana și la o bătrână de pe cerdac, apoi întreabă unde este cârciumarul. Vorbind grăbit, Lică determină bătrâna să-l caute pe Ghiță, în timp ce Ana privește uimită pe călăreț.\n\nBătrâna îl identifică pe Ghiță ca ginere, afirmând că le merge bine, iar acesta răspunde chibzuit, menționând că sunt la drum și trece multă lume. Rămânând singuri, Lică îi spune lui Ghiță că bătrâna ar fi putut să-și țină gura, subliniind totodată autoritatea sa: nu doar că ar putea plăti orice pierdere anuală, ci nimeni nu îndrăznește să fure de la el, temându-se de consecințe.",
+      "covered_event_ids": [
+        "EV_021",
+        "EV_022",
+        "EV_023",
+        "EV_024",
+        "EV_025",
+        "EV_026",
+        "EV_027",
+        "EV_028",
+        "EV_029",
+        "EV_030"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_04",
+      "ordinal": 4,
+      "title": "Capitolul 4",
+      "event_ids": [
+        "EV_031",
+        "EV_032",
+        "EV_033",
+        "EV_034",
+        "EV_035",
+        "EV_036",
+        "EV_037",
+        "EV_038",
+        "EV_039",
+        "EV_040"
+      ],
+      "summary": "În ziua următoare, cârciumarul constată că oamenii sunt mulți și de multe feluri, privind când la nevastă, când la soacră-sa. De aici înainte, cei trei nu-și mai aduc aminte de trecători, iar lucrurile se petrec tot ca mai nainte. Ana nu-i poate suferi pe câini și se supără când bătrâna spune că sunt buni la casă pentru liniștea somnului.\n\nGhiță simte că, dacă nu primește, se trage în degete cu Lică, dar față de oameni nu poate accepta. Băietanul iese, iar Ghiță întreabă oamenii cât vor mânca ai lui Lică. Pe măsură ce turmele plecau, el prindea poftă să își oprească cei cinci grăsuni. Pentru prima dată, ar fi voit să nu aibă nevastă și copii ca să zică „Prea puțin îmi pasă!”, gândindu-se la câștigul cu Lică și văzând banii grămadă, gata să își pună capul în primejdie.\n\nSeara, își bate sluga, pe ungurul, fără să știe de ce, iar când Ana îl mustră, îi aruncă „Ei!”. Duminică, după ce bătrâna pleacă la biserică, își răsuflă veninul asupra lui Laie și se face mai vesel. Ana strigă speriată, fuge după câine, îl aduce la locul unde fusese și începe să-l roage pe Ghiță cu stăruință să își pună iar băiatul călare pe el.",
+      "covered_event_ids": [
+        "EV_031",
+        "EV_032",
+        "EV_033",
+        "EV_034",
+        "EV_035",
+        "EV_036",
+        "EV_037",
+        "EV_038",
+        "EV_039",
+        "EV_040"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_05",
+      "ordinal": 5,
+      "title": "Capitolul 5",
+      "event_ids": [
+        "EV_041",
+        "EV_042",
+        "EV_043",
+        "EV_044",
+        "EV_045",
+        "EV_046",
+        "EV_047",
+        "EV_048",
+        "EV_049",
+        "EV_050"
+      ],
+      "summary": "Ghiţă stă întins pe pământ, sprijinit pe coate, cu privirea pierdută în depărtare. Lică sosi la cârciumă, îl deşteptă pe Laie care dormea sub cerdac şi îl trimise după stăpânul său. Se transmite mesajul că vor veni mai târziu, fiindcă a sosit Lică Sămădăul cu alţi doi oameni şi trebuie să mai stea cu dânşii, iar părintele şi Laie să aştepte. Lică răspunde netezind un câine, în timp ce priveşte cum Ana se apropie despre arini, purtând un copil în braţe şi condus pe celălalt de mână.\n\nCârciumarul îi declară lui Lică că nu crede că îl poate ţine de frică. Lică precizează că nu are intenţia de a-l prăda, ci doreşte să ia cu împrumut, promiţând să plătească cinstit cu camătă, inclusiv cu cametele cametelor, atunci când îi va veni la socoteală. Ghiţă acceptă dar îi cere să fie cuminte şi să mai lase o parte din bani în saltar, ca nevasta şi soacra să nu simtă lipsa, indicându-i locul unde se află banii şi cheile. Simţind că Ghiţă devine mai autoritar, Lică priveşte îngrijorat spre uşă şi întreabă iute ce vrea de la el. Ghiţă îşi pierduse bunul cumpăt, iar tocmai pentru aceasta se simţea în strâmtoare faţă de Lică, pe care nimic nu putea să-l scoată din sărite.\n\nLică îi porunceşte apoi lui Răuţ, care stătea în prag, să lege sluga şi să aducă nevasta împreună cu copiii în casă.",
+      "covered_event_ids": [
+        "EV_041",
+        "EV_042",
+        "EV_043",
+        "EV_044",
+        "EV_045",
+        "EV_046",
+        "EV_047",
+        "EV_048",
+        "EV_049",
+        "EV_050"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_06",
+      "ordinal": 6,
+      "title": "Capitolul 6",
+      "event_ids": [
+        "EV_051",
+        "EV_052",
+        "EV_053",
+        "EV_054",
+        "EV_055",
+        "EV_056",
+        "EV_057",
+        "EV_058",
+        "EV_059",
+        "EV_060"
+      ],
+      "summary": "Ana păstrează tăcerea după un incident anterior, observându-l furiș pe Lică și convingându-se că este un om rău și primejdios. Îl întreabă într-una din zile după plecarea lui Lică, avertizându-l că pericolul lui se citește din ochi, din rânjet și mai ales din modul în care își roade mustața cu dinții. Deși Ghiță remarcase deja semnele porcilor aparținând lui Lică, acesta a ales să tacă deoarece Lică venea și pleca fără să fie întrebat nimic. După o lungă luptă interioară, Ghiță acceptă în cele din urmă porcii pentru a nu strica relațiile cu Lică, dar nu îi spune Anei, temându-se că ea va stărui să nu-i primească.\n\nÎntr-o zi de luni, la moară erau cinci care și șapte oameni sub cerdac, când sosi Lică împreună cu Buză-Ruptă, Săilă Boarul și Răuț. Cârciumarul își petrecea ziua în această odaie, cu nevasta și copiii, deoarece dormea în altă parte, iar ferestrele spre drum îi permiteau să vadă cu o privire cârciuma, drumul și locul din fața ei. Fiindcă țiganii cântau, oamenii se îngrămădiseră la ușa localului, iar Ana, bătrâna și copiii ascultau, dată fiind raritatea apariției a trei țigani simultan. Lică simți poftă să joace, apucă pe Buză-Ruptă, ieși afară și începu să frământe pământul, părul răsucit în plete lungi zbura în vânt. Oamenii de la ușă zâmbiră pe sub mustață, Ana tresări și se ridică roșită ca bujorul, iar bătrâna privi la o parte, făcându-se că nu înțelege vorbele lui Lică.",
+      "covered_event_ids": [
+        "EV_051",
+        "EV_052",
+        "EV_053",
+        "EV_054",
+        "EV_055",
+        "EV_056",
+        "EV_057",
+        "EV_058",
+        "EV_059",
+        "EV_060"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_07",
+      "ordinal": 7,
+      "title": "Capitolul 7",
+      "event_ids": [
+        "EV_061",
+        "EV_062",
+        "EV_063",
+        "EV_064",
+        "EV_065",
+        "EV_066",
+        "EV_067",
+        "EV_068",
+        "EV_069",
+        "EV_070"
+      ],
+      "summary": "Spre seară, Săilă Boarul pleacă spre Ineu împreună cu Buză-Ruptă, Răuţ pornește către pădurea de la Fundureni după ce schimbă semne tainice cu Sămădăul, iar Lică rămâne la cârciumă, observând că vremea se schimbă și hotărând să petreacă noaptea acolo. În acest context, Ghiţă simte nevoia unui suflet în care să își caute sprijinirea, considerându-l pe Pintea singurul om cu care ar putea vorbi pe față și dorindu-i prezența alături, în timp ce Ana dormea liniștită lângă el. Stăpânit de gândul că nu va da nici cât e negru sub unghie îndărăt și fiind pregătit să riște totul pentru a se pune împotriva lui Lică, Ghiţă renunță inițial la ideea de a pleca noaptea la Ineu, convingându-se că trebuie să aibă mai multă încredere în nevasta sa decât într-un străin. Însă, pe când toți dormeau și Ghiţă ațipise, câinii au început să latre neastâmpărați pe vale în sus, trezind-o pe Ana din somn.\n\nDeși ar fi plecat să se încredințeze dacă Ana ar fi știut, Ghiţă își ia hotărârea să aștepte plecarea lui Lică, apoi să meargă la Ineu după Pintea. În timp ce își făcea socoteala cu drumeții și grăbea pașii, pe când aceștia erau gata de plecare, sosi la cârciumă chiar Pintea, însoțit de doi jandarmi, lăudându-se râzând că știe toate potecile și apucăturile fostilor săi tovarăși.",
+      "covered_event_ids": [
+        "EV_061",
+        "EV_062",
+        "EV_063",
+        "EV_064",
+        "EV_065",
+        "EV_066",
+        "EV_067",
+        "EV_068",
+        "EV_069",
+        "EV_070"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_08",
+      "ordinal": 8,
+      "title": "Capitolul 8",
+      "event_ids": [
+        "EV_071",
+        "EV_072",
+        "EV_073",
+        "EV_074",
+        "EV_075",
+        "EV_076",
+        "EV_077",
+        "EV_078",
+        "EV_079",
+        "EV_080"
+      ],
+      "summary": "Ghiță nu mai are îndoieli că cei doi bărbați au fost Săilă și Buză-Ruptă, plecați spre Ineu, dar nu poate vorbi despre aceasta. Când îi spune Anei că trebuie să plece cu Pintea și slugile la Ineu, fata rămâne cu inima încleștată, dar se mai liniștește gândindu-se că Pintea este omul lui Ghiță, înțelegând pentru ce s-a străduit să se pună bine cu el. Bătrâna stete pe gânduri și grăiește întristată că nu știe și nici nu caută să își dea seama.\n\nDeoarece Ghiță nu este acasă, Ana și bătrâna ies să primească pe cei veniți. Din trăsură se ivi o doamnă de douăzeci și opt de ani, înaltă, cu obrajii plini, ochii mari albaştri şi părul auriu, îmbrăcată în negru, mână cu un copil slab şi bolnăvicios. Ana răspunde afirmativ, spunând că pământurile sunt bune în toate părţile. Pe când Ana îi povestea bătrânei cele aflate despre drumeaţa frumoasă, vizitiul se întoarse de la grajd şi se puse pe laiţă.\n\nFeciorul trase iar cu ochiul, drept semn că va şti să o pună la cale, apoi ei rămaseră tăcuţi faţă-n faţă, privind ţintă unul la altul, fiecare stând pe gânduri fără a cuteza să se dea pe faţă. Vizitiul grăi cu îndoială că Sămădăul fură şi ea vinde.",
+      "covered_event_ids": [
+        "EV_071",
+        "EV_072",
+        "EV_073",
+        "EV_074",
+        "EV_075",
+        "EV_076",
+        "EV_077",
+        "EV_078",
+        "EV_079",
+        "EV_080"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_09",
+      "ordinal": 9,
+      "title": "Capitolul 9",
+      "event_ids": [
+        "EV_081",
+        "EV_082",
+        "EV_083",
+        "EV_084",
+        "EV_085",
+        "EV_086",
+        "EV_087",
+        "EV_088",
+        "EV_089",
+        "EV_090"
+      ],
+      "summary": "În fața judecătorului, sub jurământ, Ghiță nu mai poate tăgădui legăturile cu Lică și se confruntă cu un dublu pericol: dacă Lică este dovedit vinovat, Ghiță va fi tras la răspundere pentru asocierea cu un făcător de rele, iar dacă Lică scapă, trebuie să se teamă de răzbunarea acestuia. Comisarul află din mărturiile lui Marți că Ghiță deține o verigă cu semnele turmelor lui Lică, a primit porci de la acesta și că în ziua precedentă Lică stătuse la cârciumă cu Răuț, Buză-Ruptă, Săilă Boarul și Ghiță, discutând secret despre arândaș. După ce comisarul îl întreabă aspru pe Ghiță despre petrecerea de la cârciumă, acesta răspunde hotărât, aruncând o privire semnificativă spre Pintea, ceea ce îi stârnește nemulțumirea funcționarului. Confuz, Ghiță nu înțelege direcția anchetei, în timp ce Pintea și comisarul încearcă să pună cap la cap declarațiile celor doi cercetați.\n\nConvingându-se din spusele lui Marți că jafurile au avut loc seara, iar Răuț venise apoi să-l avizeze pe Lică, comisarul crede că Ghiță minte intenționat și îl întreabă aspru dacă omul care a sosit cu femeia nu era chiar Răuț, ci un alt individ prezent în timpul atacului. Plecând de la instanță, Ghiță conduce caii, Pintea stă lângă el, iar Laie și Uța sunt așezate în fundul căruței. În drum, Ghiță își amintește cum Pintea, fost temnițar și prieten al lui Lică, i-a insuflat o suspiciune generalizată, determinându-l să se depărteze de Ana și să-i acorde mai multă încredere decât soției sale. Pintea, conștient de această situație, face un ocol și revine la Ghiță, care rămâne încremenit pe drum împreună cu Laie, în timp ce Uța tremură în căruță. Spre amurg, Ana observă căruța coborând repejică dealul spre Ineu, cu atâtă viteză încât pare gata să se sfărâme.",
+      "covered_event_ids": [
+        "EV_081",
+        "EV_082",
+        "EV_083",
+        "EV_084",
+        "EV_085",
+        "EV_086",
+        "EV_087",
+        "EV_088",
+        "EV_089",
+        "EV_090"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_10",
+      "ordinal": 10,
+      "title": "Capitolul 10",
+      "event_ids": [
+        "EV_091",
+        "EV_092",
+        "EV_093",
+        "EV_094",
+        "EV_095",
+        "EV_096",
+        "EV_097",
+        "EV_098",
+        "EV_099",
+        "EV_100"
+      ],
+      "summary": "Mânia lui Pintea este îndreptată exclusiv asupra lui Lică, pe care îl consideră singurul vinovat pentru cele petrecute. Rămas singur în miezul nopții și căzând peste un trup mort, căpitanul crede că intervine Necuratul și își dorește să fugă imediat. În timp ce Ghiţă se întoarce spre Laie, Pintea descarcă pușca în cădere, moment în care toți rămân nemișcați o clipă. Oamenii se aruncă în șei, își trage câte o cârpă vânătă peste față și pornesc hotărât la deal, jandarmul rămas la trăsură pleacă spre pădure, iar Hanțl fuge către partea pădurii unde s-a tras.\n\nHanțl este mort și nu mai poate da niciun fel de informații, iar jandarmii care îi caută pe Săilă și pe Buză-Ruptă nu îi găsesc nicăieri, dar au aflat la casă. Nimeni nu se îndoiește că oamenii care l-au rănit pe Hanțl sunt chiar cei cu fețele acoperite care l-au atacat pe arândaș, adică Buză-Ruptă și Săilă, care plecaseră atunci seara la Ineu. Pe când se explică cum s-au desfășurat evenimentele, sosesc jandarmii care anunță că Lică trebuie să fie chiar în Ineu, unde venise încă marți dimineața pentru a aștepta plata unei turme vândute la târgul de la Zărand, după ce îi întâlnise pe cei doi hoți.\n\nLică le aruncă o privire și grăiește încet că va începe să creadă în hărnicia lor și să se teamă de ei doar când își va vedea ceafa. Este vorba despre vestitul sămădău Lică, care trecea acum urmărit de un jandarm pe ulițele Ineului, unde lumea era cuprinsă de spaimă după atacul din noaptea precedentă, el știind că este privit din toate părțile. La sosirea la cazarmă, tot Ineul știa că Pintea l-a prins pe Lică și a fost pe punctul de a-l împușca în mijlocul uliței, fiind însoțit de vreo cincizeci de oameni doritori să afle detalii despre cele întâmplate.",
+      "covered_event_ids": [
+        "EV_091",
+        "EV_092",
+        "EV_093",
+        "EV_094",
+        "EV_095",
+        "EV_096",
+        "EV_097",
+        "EV_098",
+        "EV_099",
+        "EV_100"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_11",
+      "ordinal": 11,
+      "title": "Capitolul 11",
+      "event_ids": [
+        "EV_101",
+        "EV_102",
+        "EV_103",
+        "EV_104",
+        "EV_105",
+        "EV_106",
+        "EV_107",
+        "EV_108",
+        "EV_109",
+        "EV_110"
+      ],
+      "summary": "La Oradea-Mare, unde au fost aduși pentru judecată, Buză-Ruptă și Săilă se aflau împreună cu ceilalți bănuiți, în timp ce Lică fusese ascultat anterior de judecător și lăsat să își reia slujba. În contextul incertitudinii, bătrâna își exprima îngrijorarea pentru viitor, iar Ana, tânără, nu îndrăznea să se gândească la el, având ochii plini de lacrimi. În fața instanței, Lică a negat inițial că ar fi vorbit la Moara cu noroc despre arândaș și slujnică sau că Săilă plecase spre Ineu cu Buză-Ruptă, răspunzând scurt că nu își mai amintește când i se citiseră declarațiile altora. Interogat dacă bănuiește o înțelegere între birtașul Pintea și cei doi țărani, Lică a respins ipoteza, susținând că argintăria furată fusese ascunsă de un vrăjmaș al lui Pintea la casa lui Buză-Ruptă.\n\nMărturiile lui Răuț, Acrișor și a altor bănuiți au întărit parțial versiunea lui Lică și cea a lui Marți, ducând la convingerea judecătorilor că Buză-Ruptă și Săilă sunt vinovați, iar Lică și Ghiță suspectați de complicitate. Spre surprinderea celor prezenți, Pintea a preluat din cuvânt în cuvânt apărarea lui Lică, negând vinovăția celor doi țărani și sugerând că cuțitul lui Săilă fusese plantat intenționat în Hanțl, iar Răuț venise singur la moară. Văzându-l râzând pe Lică, Pintea și-a pierdut cumpătul, vorbea aprins și deveni subiect de râs. Ulterior, Buză-Ruptă a tăgăduit drumul spre Ineu, afirmând că petrecuse până marți la amiază cu Răuț și Săilă la turme, înainte de a merge la Salonta cu Săilă, în timp ce s-a stabilit că Răuț pornise spre Fundureni.\n\nRăuț a demonstrat prin patru martori că se afla luni noaptea la Moara cu noroc și marți prânzul la Șicula, infirmând minciuna lui Buză-Ruptă și dovedind încercarea acestuia de a-l năpăstui. Din declarațiile lui Buză-Ruptă și Săilă rezultă exclusiv faptul că îi poartă ură lui Lică, asemenea lui Pintea, ceea ce exclude orice înțelegere între ei în savârșirea faptelor. Apărătorul lui Lică a valorificat aceste elemente, explicând judecătorilor că Lică le-a venit în ajutor doar pentru a nu părea că se răzbună pe vremurile grele, deși era conștient că doar ei puteau lăsa biciul pe trupul iubitei sale stăpâne.",
+      "covered_event_ids": [
+        "EV_101",
+        "EV_102",
+        "EV_103",
+        "EV_104",
+        "EV_105",
+        "EV_106",
+        "EV_107",
+        "EV_108",
+        "EV_109",
+        "EV_110"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_12",
+      "ordinal": 12,
+      "title": "Capitolul 12",
+      "event_ids": [
+        "EV_111",
+        "EV_112",
+        "EV_113",
+        "EV_114",
+        "EV_115",
+        "EV_116",
+        "EV_117",
+        "EV_118",
+        "EV_119",
+        "EV_120"
+      ],
+      "summary": "Ana îi amintește lui Ghiță că a avut un tată om de frunte și neamuri de treabă, dar acum își vede bărbatul înaintea judecătorilor. Ea îl asigură că oamenii buni care îl cunosc știu cine este și se mustră pentru gândurile rele pe care le-ar fi avut despre el. Deși nu mai poate opri copiii să-l numească ticălos, bătrâna recunoaște că trebuie să faci multe lucruri de dragul lumii, deoarece a te strica cu ea este o mare nenorocire. Într-adevăr, Ghiță trece printr-o schimbare interioară și își formează treptat hotărârea fermă de a mai sta la Moara cu noroc până primăvara, după care își va aduna averea, își va lua nevasta și copiii și se va muta departe, în fundul Banatului sau în Ţară, unde nimeni nu-l va cunoaște.\n\nDupă o discuție îndelungată, Lică își desfăcu șerparul plin de bani și îl deșertă pe masă. El crezuse că Ghiță se va cutremura la auzul cuvintelor sale, dar rămase rușinat când Lică îi râse în față și declară că s-a împrumutat ca hoțul și trebuie să plătească tot ca hoțul. Lică îi explică apoi că proștii credeau că își pune credința în oameni slab legați și că aceștia l-ar păgubi mergând cu Răuț după porci din turma sa, însă acum niciunul nu va mai lua nimic. Îi spune lui Ghiță că este un om cinstit pe care l-a făcut vinovat, astfel încât poate merge mai departe și îl poate duce la furci, dar răspunde domol că nu va face asta acum, deoarece nu i se potrivește și are nevoie de un om ca el.",
+      "covered_event_ids": [
+        "EV_111",
+        "EV_112",
+        "EV_113",
+        "EV_114",
+        "EV_115",
+        "EV_116",
+        "EV_117",
+        "EV_118",
+        "EV_119",
+        "EV_120"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_13",
+      "ordinal": 13,
+      "title": "Capitolul 13",
+      "event_ids": [
+        "EV_121",
+        "EV_122",
+        "EV_123",
+        "EV_124",
+        "EV_125",
+        "EV_126",
+        "EV_127",
+        "EV_128",
+        "EV_129",
+        "EV_130"
+      ],
+      "summary": "Lică îi spune lui Ghiță că este un om cu multă ură și minte, propunându-i să devină tovarăși pentru a râde chiar și de diavol. Ghiță nu răspunde, dar după ce Lică se depărtează, își ridică ambele mâini asupra lui, cuprins de gândul că Lică se credea mai rău decât el. Banii primiți stau pe masă, iar Ghiță rămâne singur, cu ușa închisă, cercetând fiecare bancnotă cu încordare pentru a găsi vreun semn. A treia zi este sâmbătă, ziua de numărare a banilor, când toți trebuiau să fie de față conform unui obicei bun din vremurile trecute, la care Ghiță nu s-ar fi putut lepăda niciodată.\n\nUn gând rău i se instalează în minte Anei, nepermițându-i să-și revină și inspirându-i o teamă neexplicată, mai ales noaptea, când capul îi începea să-i ardă. Ea pune hârtiile una peste alta, se întoarce cu capul ridicat spre soțul ei și îl deșteaptă din somn. Ghiță tresare, cuprins de spaima ucigașului prins asupra faptei. Ana răspunde mai domoală, punând hârtiile în fața luminii și întrebându-l dacă vede împunsătura.\n\nPeste puțin, Ghiță călărește în treapăt mare pe drumul de țară spre Ineu, iar la miezul nopții este așteptat într-o odăie retrasă a cazarmii de către Pintea, care se dusese cu banii la arăndaș. Pintea îi explică faptul că banii împunși cu acul sunt de la bancă, unde hârtiile se țin în teancuri de câte o sută trase pe o sârmă subțire, știindu-se că domnișoara luase acești bani înainte de a pleca din Ineu; argintul provine de la arăndaș, care avea mai ales hârtii mari semnalate la un colț cu o slovă.",
+      "covered_event_ids": [
+        "EV_121",
+        "EV_122",
+        "EV_123",
+        "EV_124",
+        "EV_125",
+        "EV_126",
+        "EV_127",
+        "EV_128",
+        "EV_129",
+        "EV_130"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_14",
+      "ordinal": 14,
+      "title": "Capitolul 14",
+      "event_ids": [
+        "EV_131",
+        "EV_132",
+        "EV_133",
+        "EV_134",
+        "EV_135",
+        "EV_136",
+        "EV_137",
+        "EV_138",
+        "EV_139",
+        "EV_140"
+      ],
+      "summary": "În zori de zi, Ghiță dormea și visa că-l prinde pe Lică, văzându-l pe Pintea scoțând galbenii cu zimții piliți din șerparul acestuia. Când se întorcea la cârciumă, îl găsea pe Lică tăind crestături pe o codirișe, în timp ce Ana stătea în dosul lui, privind peste umăr și rezemându-se de masă. El îi dăduse lui Pintea cele paisprezece bucăți de hârtie, dar nu-i spusese că jumătate din bani sunt ai săi, insistând ca jandarmul să schimbe banii deplini pentru ca Lică să nu simtă nimic. Nu râdea la glume și se făcea că nu le pricepe, ferindu-se să-i vadă pe Lică și Ana împreună, deoarece îi era greu și îi dura inima simțind cum Ana scapătă din ce în ce în gândul său.\n\nBătrâna umbla cu gândul să petreacă Paștele cu toții la una dintre fiicele ei din Ineu, întristându-se mereu când Ghiță zicea \"Dacă se poate\". Văzând mânia lui Pintea, luase hotărârea să își trimită nevasta și copiii de sărbători la Ineu și să plece singur, neștiut de nimeni, să caute un loc ascuns unde să trăiască pierdut în lume și nesupărat, deoarece Lică nu putea să-l vândă, iar Pintea nu știa nimic. Marți seara trecu pe la cârciumă Lică Sămădăul, căruia Ghiță îi trimisese vorbă că avea ceva de spus, dar ea nu știa nici când venise, nici când plecase. Bătrâna grăi și se duse, iar Ghiță și Ana rămaseră cu Marți și cu Uța la Moara cu noroc, care parcă stătea pustie și întunecată în urma ei.\n\nSosind duminică, de Paști, spre prânz, Lică ajungea călare împreună cu Răuț și cu Păun, simțindu-se cam scos din sărite când nu îl găsea pe Ghiță singur, precum fusese vorba. După acestea, ieși prin birt, îi pișcă de pulpă pe Uța, care țipă, și se duse la Ana, care stătea înaintea cerdacului, pusă pe gânduri asupra celor ce se vor fi petrecând în casă.",
+      "covered_event_ids": [
+        "EV_131",
+        "EV_132",
+        "EV_133",
+        "EV_134",
+        "EV_135",
+        "EV_136",
+        "EV_137",
+        "EV_138",
+        "EV_139",
+        "EV_140"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_15",
+      "ordinal": 15,
+      "title": "Capitolul 15",
+      "event_ids": [
+        "EV_141",
+        "EV_142",
+        "EV_143",
+        "EV_144",
+        "EV_145",
+        "EV_146",
+        "EV_147",
+        "EV_148",
+        "EV_149",
+        "EV_150"
+      ],
+      "summary": "Ana îl zăreşte pe Ghiţă călărind spre Fundureni, rămâne răcită în tot trupul şi se întoarce. Lică îi spune că ea este un om comparativ cu Ghiţă, care nu este decât o femeie îmbrăcată în haine bărbăteşti, ba chiar mai rău. Sămădăul priveşte cu mulţumire obrajii ei aprinşi, ochii plini de văpaie sălbatică, buzele desfăcute şi trupul ei înalt, mlădios şi fraged. El şade la masă cu paharul înaintea sa, vorbind cu Ana, dar este neastâmpărat şi ascultă mereu câinii ce lătrau în depărtare ca şi cum s-ar apropia un necunoscut. Adaugă că lumea îl socoteşte om rău la fire pentru că ştie să se stăpânească în toate împrejurările şi nici acum nu îşi va pierde cumpătul. Ana îşi opreşte răsuflarea, simţindu-se ca şi cum ar fi dată cu ruşine afară din casă, în mijlocul drumului, unde toţi trecătorii îşi întorc faţa de la dânsa.\n\nPloaia începe să cadă în stropi mari, tunetele răsună puternic în vale, fulgerele sfâşie noaptea, iar Lică gonea cu frâul slobod printre şiroaie, tunete şi fulgere. Uşa bisericii se zgâlţâie, răsunând în golul ei, dar durează până când sămădăul izbutise să intre. El duce calul spre altar, îl leagă de strana din dreapta şi intră să caute o haină preoţească sau o acoperitoare pentru sine şi pentru dobitocul care tremura de frig. În timp ce aşteaptă, vedea pe Ana, pe Ghiţă şi pe Pintea, precum şi pe oamenii din sat, una peste alta, iar de câte ori calul îşi bătea copitele în piatră, îl trecea un tremur de îngrijare, conştient că multe făcuse în viaţă, dar cele sfinte încă nu le atinsese.",
+      "covered_event_ids": [
+        "EV_141",
+        "EV_142",
+        "EV_143",
+        "EV_144",
+        "EV_145",
+        "EV_146",
+        "EV_147",
+        "EV_148",
+        "EV_149",
+        "EV_150"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_16",
+      "ordinal": 16,
+      "title": "Capitolul 16",
+      "event_ids": [
+        "EV_151",
+        "EV_152",
+        "EV_153",
+        "EV_154",
+        "EV_155",
+        "EV_156",
+        "EV_157",
+        "EV_158",
+        "EV_159",
+        "EV_160"
+      ],
+      "summary": "Capitolul 16 se deschide cu o meditație asupra destinului, descris ca o putere tainică ce lucrează prin oameni, le luminează mințile și dispune de șirul întâmplărilor prin care trece fiecare individ. În timp ce Lică îl întreabă pe preot dacă l-a observat trecând pe Răuț, Ghiță îl caută în pripă pe Marți pentru a-i da de lucru, dar nu are răbdarea să-l mai caute. Pe culmea dealului, Pintea sosise deja împreună cu Marți și alți doi jandarmi; temându-se ca Lică să nu îi zărească și să fugă din cârciumă, ei descăleacă și decid să aștepte întunericul pentru a se apropia pe nesimțite. Deși Pintea mărturisește că îl urăște pe Lică, refuză să își arunce soția drept momeală în capcană, hotărând ca oamenii să ocolească satul pe direcții opuse pentru a vedea dacă banditul s-a oprit acolo.\n\nTensiunea crește când Ana se cutremură în tot trupul, dă un pas înapoi și rostește înecată: „Nu vreau să mor, Ghiță!”. El începe să plângă, o strânge la sân și îi sărută fruntea, explicând totodată că s-a dus după Pintea tocmai pentru a-i prinde aici pe Lică, împreună cu șerparul plin de galbeni luați de la. Scena se încheie brutal: când ușa cade sfărâmată din țâțâni și Răuț se ivi în prag alături de Lică, Ana este întinsă la pământ cu pieptul plin de sânge cald, iar Ghiță o ține sub genunchi și apasă cuțitul tot mai adânc spre inima ei.",
+      "covered_event_ids": [
+        "EV_151",
+        "EV_152",
+        "EV_153",
+        "EV_154",
+        "EV_155",
+        "EV_156",
+        "EV_157",
+        "EV_158",
+        "EV_159",
+        "EV_160"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "CH_17",
+      "ordinal": 17,
+      "title": "Capitolul 17",
+      "event_ids": [
+        "EV_161",
+        "EV_162",
+        "EV_163",
+        "EV_164",
+        "EV_165",
+        "EV_166",
+        "EV_167",
+        "EV_168",
+        "EV_169",
+        "EV_170"
+      ],
+      "summary": "Ghiţă plecase călare la Ineu, iar calul său trebuia să fie adus de la Moara cu noroc, un animal odihnit din grajd, pentru a sosi la timp în ciuda ocolului. În vremea aceasta Răuţ se depărtase spre Ineu, Pârvu o luase spre Şicula, iar Pintea, văzând focul la Moara cu noroc, îi lăsă pe săteni să creadă că a trăsnit din cer, şi aducându-şi aminte de vorbele lui Ghiţă, se întoarse drept pe zarea de lumină ca să sosească, dacă mai era cu putinţă, la vreme. Când ajunse la murgul lui Lică, calul îi sări speriat în lături. Fulgerul nu-i fu trimis din cer, dar Lică se văzu trecând prin zarea focului pe care îl pusese la Moara cu noroc, pentru ca să arunce vina păcatului său asupra lui Dumnezeu, făcând lumea să creadă că a trăsnit.\n\nPintea strigă tare, încât răsună toată valea, dar astă dată Lică nu mai putea să fugă şi, dacă fugea, tot prins era, prins de mâna lui Pintea, prins cu toate dovezile. Pintea îl găsi cu capul sfărâmat la tulpina stejarului şi rămase neclintit şi cuprins de fior în loc. Dar asta nu are s-o afle nimeni în lume. Grăind aceste, el îl apucă pe mort de un picior şi îl trase după sine până la un râuleţ, apoi împinse trupul cu piciorul în valuri.\n\nBătrâna şedea cu copiii pe-o piatră de lângă cele cinci cruci şi plângea cu lacrimi alinătoare. Simţeam eu că nu are să iasă bine; dar aşa le-a fost dat!...",
+      "covered_event_ids": [
+        "EV_161",
+        "EV_162",
+        "EV_163",
+        "EV_164",
+        "EV_165",
+        "EV_166",
+        "EV_167",
+        "EV_168",
+        "EV_169",
+        "EV_170"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    }
+  ],
+  "validation": {
+    "valid_chapters": 17,
+    "chapter_count": 17,
+    "diagnostic_only": true
+  }
+}

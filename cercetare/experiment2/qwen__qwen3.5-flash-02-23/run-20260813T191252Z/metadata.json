@@ -1,0 +1,163 @@
+{
+  "experiment": "Experimentul 2",
+  "run_id": "run-20260813T191252Z",
+  "timestamp_utc": "2026-08-13T19:12:52.368766+00:00",
+  "requested_model": "qwen/qwen3.5-flash-02-23",
+  "model_name": "Qwen: Qwen3.5-Flash",
+  "context_length": 1000000,
+  "graph_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\graf1\\knowledge-graph.json",
+  "graph_sha256": "19e81d5c346fb9dbd11d025ee52a857284152d98a8c6421e5a3731ca8f82e1c3",
+  "chapter_packet_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\experiment2\\inputs\\chapter-01-graph.json",
+  "chapter_packet_sha256": "815ff4923f766b1ef9909997f18a2c768fdbe9f4d4e0834b88d40a218b4788d4",
+  "question_prompt_template_sha256": "fee63198ddddc045d18a6a41d4c55f8ad9a88ca4d865a80052cee5f2a70fb41f",
+  "summary_prompt_template_sha256": "f640928fd21f14ccf17d3d03d65c3f298d640a04e1afb199a4965c9ba5c7d725",
+  "evaluator_sha256": "f02117f6a83614d85a15303cfd3cb3f5e3b5e9c30e9ec71847025be4daab507e",
+  "api_key_saved": false,
+  "task_settings": {
+    "questions": {
+      "reasoning_effort": "none"
+    },
+    "summary": {
+      "reasoning_effort": "none"
+    }
+  },
+  "tasks": {
+    "questions": {
+      "task": "questions",
+      "json_syntax_valid": true,
+      "json_valid": true,
+      "validation_error": null,
+      "duration_seconds": 59.911,
+      "prompt_sha256": "ddca6c244f8c3b85e61c3b671be43280dc237f5391bd7667852e492a12c09813",
+      "prompt_characters": 900220,
+      "estimated_prompt_tokens": 360088,
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 60000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "none",
+          "exclude": true
+        }
+      },
+      "returned_model": "qwen/qwen3.5-flash-02-23",
+      "model_verification": "accepted_exact_or_canonical_model_id",
+      "provider": "Alibaba",
+      "generation_id": "gen-1786649959-EFFgO1HUN0hX1QUrVlYU",
+      "usage": {
+        "prompt_tokens": 286471,
+        "completion_tokens": 3101,
+        "total_tokens": 289572,
+        "cost": 0.019426875,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.019426875,
+          "upstream_inference_prompt_cost": 0.018620615,
+          "upstream_inference_completions_cost": 0.00080626
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "summary": {
+      "task": "summary",
+      "json_syntax_valid": true,
+      "json_valid": true,
+      "validation_error": null,
+      "duration_seconds": 33.446,
+      "prompt_sha256": "789552da387d12507e065f419159853ba0a46340cdd68cc7077d82ab905d9059",
+      "prompt_characters": 94921,
+      "estimated_prompt_tokens": 37969,
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 60000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "none",
+          "exclude": true
+        }
+      },
+      "returned_model": "qwen/qwen3.5-flash-02-23",
+      "model_verification": "accepted_exact_or_canonical_model_id",
+      "provider": "Alibaba",
+      "generation_id": "gen-1786650018-hNtmwyLZFMYgcButWzHR",
+      "usage": {
+        "prompt_tokens": 29650,
+        "completion_tokens": 6265,
+        "total_tokens": 35915,
+        "cost": 0.00355615,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00355615,
+          "upstream_inference_prompt_cost": 0.00192725,
+          "upstream_inference_completions_cost": 0.0016289
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  "semantic_similarity_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "semantic_similarity_config_sha256": "52f837c50a9743f7c8cfd40bf195514238258fcbb4ac85e8571ed8a96e57a1eb",
+  "summary_manifest_sha256": "41a8d8c63dc41535d76596059d5e95886cae7f526247b0d22df1385884efbb4c",
+  "reference_style_profile_sha256": "df971e2a4b114981f9b2507cc9351b376cffbb92727defc5b739c6c8d1554636",
+  "base_runner_sha256": "5d56e2545612524307c3d1d3cc24b26f79b448e72a7c6254660037315c337fd2",
+  "resume_history": [
+    {
+      "resumed_at": "2026-08-13T19:18:16.845471+00:00",
+      "retried_tasks": [],
+      "skipped_valid_tasks": [],
+      "finalized_invalid_tasks": [
+        "questions",
+        "summary"
+      ],
+      "archived_attempts": {}
+    },
+    {
+      "resumed_at": "2026-08-13T19:39:23.045214+00:00",
+      "retried_tasks": [
+        "questions",
+        "summary"
+      ],
+      "skipped_valid_tasks": [
+        "questions",
+        "summary"
+      ],
+      "finalized_invalid_tasks": [],
+      "archived_attempts": {
+        "questions": "previous-attempts\\questions-retry-20260813T193923Z",
+        "summary": "previous-attempts\\summary-retry-20260813T194022Z"
+      }
+    }
+  ]
+}

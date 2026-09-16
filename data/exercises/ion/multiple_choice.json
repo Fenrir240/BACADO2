@@ -1,0 +1,1315 @@
+{
+  "version": 1,
+  "work_id": "ion",
+  "exercise_type": "multiple_choice",
+  "source": {
+    "question_bank": "cercetare-qwen/toate-intrebarile.json",
+    "knowledge_graph": "cercetare/graf2/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.5-flash-02-23",
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "SIMPLE_FACT_LOWHOP",
+    "CHARACTER_RELATION",
+    "NARRATIVE_ACTION",
+    "CAUSE_EFFECT"
+  ],
+  "exercise_count": 48,
+  "exercises": [
+    {
+      "id": "MCQ-0af227fd9dc31a76",
+      "question": "Care este titlul celui de-al treilea capitol al romanului Ion?",
+      "options": [
+        "Capitolul IV - Noaptea",
+        "Capitolul I - Începutul",
+        "Capitolul II - Zvârcolirea",
+        "Capitolul III - Iubirea"
+      ],
+      "answer": "Capitolul III - Iubirea",
+      "answer_node_ids": [
+        "CH_03"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260818T204220Z::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "CH_03"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-8cfa76537694ab4a",
+      "question": "Cine este soțul Floricăi, rivalul lui Ion în lupta pentru pământ și iubire?",
+      "options": [
+        "Florica",
+        "Ana",
+        "Ion al Glanetașului",
+        "George Bulbuc"
+      ],
+      "answer": "George Bulbuc",
+      "answer_node_ids": [
+        "CHAR_004"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260818T204220Z::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "CHAR_004",
+        "CHAR_001",
+        "CHAR_003"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-372f44e381ca28fb",
+      "question": "Cine îl lovește pe George Bulbuc cu un par în timpul confruntării de la cârciumă?",
+      "options": [
+        "Ana își pune capăt vieții prin spânzurare.",
+        "Ion îl lovește pe George cu un par.",
+        "Ion este obligat să găsească o nouă strategie pentru a obține pământurile.",
+        "Ion îi spune că tot pământul este acum al lui."
+      ],
+      "answer": "Ion îl lovește pe George cu un par.",
+      "answer_node_ids": [
+        "EV_010",
+        "CHAR_001",
+        "CHAR_004"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260818T204220Z::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_010",
+        "CHAR_001",
+        "CHAR_004",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-6576030f3576f5a4",
+      "question": "Ce motivație directă l-a determinat pe Ion să o aleagă pe Ana la joc, în ciuda faptului că o iubea pe Florica?",
+      "options": [
+        "Sărăcia lui Ion și zestrea Anei.",
+        "Dorința de a recupera pământ pierdut de familie.",
+        "Redactarea și expedierea jalbei împotriva autorităților locale.",
+        "Ion trăiește o umilință publică."
+      ],
+      "answer": "Sărăcia lui Ion și zestrea Anei.",
+      "answer_node_ids": [
+        "EV_004"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260818T204220Z::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_004",
+        "CHAR_001",
+        "CHAR_002",
+        "CHAR_003"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-afd2b8ae106dd261",
+      "question": "Cine este participantul principal la evenimentul în care Ana se spânzură?",
+      "options": [
+        "Ion al Glanetașului",
+        "George Bulbuc",
+        "Florica",
+        "Ana"
+      ],
+      "answer": "Ana",
+      "answer_node_ids": [
+        "CHAR_002"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260818T204220Z::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_10"
+      ],
+      "evidence_node_ids": [
+        "CHAR_002",
+        "EV_095"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-4b8209cf011f782e",
+      "question": "Care este relația de sânge dintre Ana și Vasile Baciu, care o forțează pe ea să se căsătorească cu Ion?",
+      "options": [
+        "Ion și Ana sunt soți, iar nunta lor se desfășoară în Capitolul VI.",
+        "Vasile Baciu este tatăl Anei.",
+        "Ion al Glanetașului este căsătorit cu Ana.",
+        "Sunt căsătoriți."
+      ],
+      "answer": "Vasile Baciu este tatăl Anei.",
+      "answer_node_ids": [
+        "CHAR_005",
+        "CHAR_002"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260818T204220Z::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_005",
+        "CHAR_002"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-b68d72fcf2d9c980",
+      "question": "Ce acțiune fizică realizează Ion în curtea lui George pentru a ajunge la Florica?",
+      "options": [
+        "Ana se spânzură.",
+        "Ion pătrunde noaptea în curte.",
+        "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă.",
+        "Ion îl lovește pe George Bulbuc cu un par."
+      ],
+      "answer": "Ion pătrunde noaptea în curte.",
+      "answer_node_ids": [
+        "EV_111",
+        "CHAR_001",
+        "LOC_011"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260818T204220Z::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_111",
+        "CHAR_001",
+        "LOC_011",
+        "CH_13"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-91445f92f926740b",
+      "question": "Care a fost consecința imediată a refuzului lui Vasile Baciu de a accepta căsătoria cu Ion?",
+      "options": [
+        "Sărăcia lui Ion și zestrea Anei.",
+        "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+        "Dorința de a recupera pământ pierdut de familie.",
+        "Ion trăiește o umilință publică."
+      ],
+      "answer": "Ion trăiește o umilință publică.",
+      "answer_node_ids": [
+        "EV_006"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260818T204220Z::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_006",
+        "CHAR_005",
+        "CHAR_001"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-2dde7b74eb9571ea",
+      "question": "Ce acțiune specifică descrie evenimentul în care George îl lovește pe Ion cu sapa?",
+      "options": [
+        "Ion trăiește o umilință publică.",
+        "Dorința de a recupera pământ pierdut de familie.",
+        "George aplică mai multe lovituri, iar rănile îi provoacă moartea lui Ion.",
+        "Sărăcia lui Ion și zestrea Anei."
+      ],
+      "answer": "George aplică mai multe lovituri, iar rănile îi provoacă moartea lui Ion.",
+      "answer_node_ids": [
+        "EV_113"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260818T204220Z::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_113"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-4e5c5139a3e7b47a",
+      "question": "De ce îl consideră Ion pe George Bulbuc un inamic direct în romanul Ion?",
+      "options": [
+        "Cei doi sunt rivali declarați, situație care se accentuează după avertismentul lui Savista.",
+        "Pentru că sunt rivali în lupta pentru pământuri și pentru iubirea Floricăi.",
+        "Sunt rivali.",
+        "Ion al Glanetașului este rivalul lui George Bulbuc."
+      ],
+      "answer": "Pentru că sunt rivali în lupta pentru pământuri și pentru iubirea Floricăi.",
+      "answer_node_ids": [
+        "CHAR_001",
+        "CHAR_004"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260818T204220Z::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_004"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-34b7abcdfcbbd84b",
+      "question": "Ce eveniment se produce în grajdul familiei Baciu în Capitolul X?",
+      "options": [
+        "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă.",
+        "Este cununată cu George Pintea la Armadia și pleacă împreună",
+        "Ion pătrunde noaptea în curte.",
+        "Ana se spânzură."
+      ],
+      "answer": "Ana se spânzură.",
+      "answer_node_ids": [
+        "EV_095",
+        "CHAR_002",
+        "LOC_012"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260818T204220Z::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_10"
+      ],
+      "evidence_node_ids": [
+        "EV_095",
+        "CHAR_002",
+        "LOC_012",
+        "CH_10"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-9f44ed4487768b07",
+      "question": "Cum a condus sfatul imprudent al lui Titu la planul de compromitere a Anei și ce efect a avut acest lanț asupra relației dintre cei doi?",
+      "options": [
+        "Redactarea și expedierea jalbei împotriva autorităților locale.",
+        "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+        "Ion trăiește o umilință publică.",
+        "Titu sugerează constrângerea, ceea ce îl face pe Ion să conceapă planul de a o lăsa însărcinată pe Ana pentru a forța căsătoria; ca urmare, iubirea Anei este transformată într-un instrument."
+      ],
+      "answer": "Titu sugerează constrângerea, ceea ce îl face pe Ion să conceapă planul de a o lăsa însărcinată pe Ana pentru a forța căsătoria; ca urmare, iubirea Anei este transformată într-un instrument.",
+      "answer_node_ids": [
+        "EV_036",
+        "EV_037",
+        "EV_040"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260818T204220Z::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "EV_036",
+        "EV_037",
+        "EV_040",
+        "CHAR_010",
+        "CHAR_001",
+        "CHAR_002"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "MCQ-f19c5f46935eb4fd",
+      "question": "În ce loc se petrece evenimentul în care Ion aude glasul pământului?",
+      "options": [
+        "Pripas",
+        "Hotarul și câmpul",
+        "Curtea Todosiei",
+        "Cârciuma lui Avrum"
+      ],
+      "answer": "Hotarul și câmpul",
+      "answer_node_ids": [
+        "LOC_004"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260820T212156Z::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "LOC_004",
+        "EV_012"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-ec4d731b90dc3f3c",
+      "question": "Care este relația matrimonială dintre Ion al Glanetașului și Ana?",
+      "options": [
+        "Ion și Ana sunt soți, iar nunta lor se desfășoară în Capitolul VI.",
+        "Ion al Glanetașului este căsătorit cu Ana.",
+        "Vasile Baciu este tatăl Anei.",
+        "Sunt căsătoriți."
+      ],
+      "answer": "Ion al Glanetașului este căsătorit cu Ana.",
+      "answer_node_ids": [
+        "CHAR_001",
+        "CHAR_002"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260820T212156Z::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_002"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-40a55e9b8863e18e",
+      "question": "Cine realizează acțiunea de a bănui că învățătorul Herdelea îi subminează autoritatea în sat?",
+      "options": [
+        "Preotul Belciug",
+        "Ana",
+        "Florica",
+        "Ion al Glanetașului"
+      ],
+      "answer": "Preotul Belciug",
+      "answer_node_ids": [
+        "CHAR_013"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260820T212156Z::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "CHAR_013",
+        "EV_022",
+        "CH_02"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-d261304b2e7a3009",
+      "question": "Ce motivație directă l-a determinat pe Ion să mute hotarul și să taie o brazdă din pământul lui Simion Lungu?",
+      "options": [
+        "Sărăcia lui Ion și zestrea Anei.",
+        "Ion trăiește o umilință publică.",
+        "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+        "Dorința de a recupera pământ pierdut de familie."
+      ],
+      "answer": "Dorința de a recupera pământ pierdut de familie.",
+      "answer_node_ids": [
+        "EV_026"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260820T212156Z::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "EV_026"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-4d12e2ad8e9fd420",
+      "question": "Cine este celălalt participant la condamnarea alături de Ion în Capitolul VIII?",
+      "options": [
+        "Ion al Glanetașului",
+        "Florica",
+        "Ana",
+        "Zaharia Herdelea"
+      ],
+      "answer": "Zaharia Herdelea",
+      "answer_node_ids": [
+        "CHAR_008"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260820T212156Z::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "CHAR_008",
+        "EV_080"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-b427694ff1e3c911",
+      "question": "Cine o iubește pe Ion în timpul evenimentului din Capitolul I?",
+      "options": [
+        "Ana îl iubește pe Ion.",
+        "Sunt căsătoriți.",
+        "George Bulbuc",
+        "Ana îl iubește pe Ion, deși el cântărește între ea și Florica."
+      ],
+      "answer": "Ana îl iubește pe Ion.",
+      "answer_node_ids": [
+        "CHAR_002",
+        "CHAR_001"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260820T212156Z::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_002",
+        "CHAR_001"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-2505bc1855eb7bb4",
+      "question": "Ce face Laura într-un context precis al nunții din Armadia?",
+      "options": [
+        "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă.",
+        "Sărăcia lui Ion și zestrea Anei.",
+        "Laura este cununată cu George Pintea și pleacă împreună după nuntă.",
+        "Dorința de a recupera pământ pierdut de familie."
+      ],
+      "answer": "Laura este cununată cu George Pintea și pleacă împreună după nuntă.",
+      "answer_node_ids": [
+        "EV_062"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260820T212156Z::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "EV_062",
+        "LOC_010",
+        "CH_06"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-6bdc3ec9f0690b8a",
+      "question": "Care este consecința finală asupra perspectivei narative atunci când familia Herdelea părăsește satul Pripas?",
+      "options": [
+        "Titu sugerează constrângerea, ceea ce îl face pe Ion să conceapă planul de a o lăsa însărcinată pe Ana pentru a forța căsătoria; ca urmare, iubirea Anei este transformată într-un instrument.",
+        "Redactarea și expedierea jalbei împotriva autorităților locale.",
+        "Ion este obligat să găsească o nouă strategie pentru a obține pământurile.",
+        "Perspectiva narativă părăsește satul."
+      ],
+      "answer": "Perspectiva narativă părăsește satul.",
+      "answer_node_ids": [
+        "EV_124",
+        "STATE_CH_13_CLOSE"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260820T212156Z::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_124",
+        "STATE_CH_13_CLOSE"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-cbb361e55ed35802",
+      "question": "Unde are loc transcrierea averii lui Ion pe numele bisericii?",
+      "options": [
+        "Curtea Todosiei",
+        "Pripas",
+        "Cârciuma lui Avrum",
+        "Armadia"
+      ],
+      "answer": "Armadia",
+      "answer_node_ids": [
+        "LOC_010"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260820T212156Z::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "LOC_010",
+        "EV_117"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-bfcb6c308ec4dea4",
+      "question": "Ce tip de rivalitate există între Ion al Glanetașului și George Bulbuc?",
+      "options": [
+        "Pentru că sunt rivali în lupta pentru pământuri și pentru iubirea Floricăi.",
+        "Sunt rivali.",
+        "Ion al Glanetașului este rivalul lui George Bulbuc.",
+        "Cei doi sunt rivali declarați, situație care se accentuează după avertismentul lui Savista."
+      ],
+      "answer": "Ion al Glanetașului este rivalul lui George Bulbuc.",
+      "answer_node_ids": [
+        "CHAR_001",
+        "CHAR_004"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260820T212156Z::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_004"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-49c49ef8b928178c",
+      "question": "Ce eveniment se produce în Casa și curtea lui George în Capitolul XIII?",
+      "options": [
+        "Ion trăiește o umilință publică.",
+        "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă.",
+        "Laura este cununată cu George Pintea și pleacă împreună după nuntă.",
+        "Dorința de a recupera pământ pierdut de familie."
+      ],
+      "answer": "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă.",
+      "answer_node_ids": [
+        "EV_113"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260820T212156Z::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_113",
+        "LOC_011",
+        "CH_13"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-2fea5b8252d1f8e6",
+      "question": "Cum duce sfatul lui Titu la confirmarea sarcinii Anei de către moașa Firoana?",
+      "options": [
+        "Sfatul lui Titu îl motivează pe Ion să pună la punct un plan de constrângere (EV_037), care cauzează apariția sarcinii confirmate public (EV_045).",
+        "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+        "Ion trăiește o umilință publică.",
+        "Dorința de a recupera pământ pierdut de familie."
+      ],
+      "answer": "Sfatul lui Titu îl motivează pe Ion să pună la punct un plan de constrângere (EV_037), care cauzează apariția sarcinii confirmate public (EV_045).",
+      "answer_node_ids": [
+        "EV_036",
+        "EV_037",
+        "EV_045"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260820T212156Z::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_03",
+        "CH_04",
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "EV_036",
+        "EV_037",
+        "EV_045"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "MCQ-98d20733cce8fd36",
+      "question": "Care este locul exact în care Ion simte chemarea pământului?",
+      "options": [
+        "Hotarul și câmpul",
+        "Curtea Todosiei",
+        "Cârciuma lui Avrum",
+        "Pripas"
+      ],
+      "answer": "Hotarul și câmpul",
+      "answer_node_ids": [
+        "LOC_004"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260820T214438Z::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "LOC_004",
+        "EV_012"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-eb0359afce8f029e",
+      "question": "Prin ce eveniment oficial s-au unit Ion și Ana în căsnicie?",
+      "options": [
+        "Ion și Ana sunt soți, iar nunta lor se desfășoară în Capitolul VI.",
+        "Ana îl iubește pe Ion, deși el cântărește între ea și Florica.",
+        "Vasile Baciu este tatăl Anei.",
+        "Ion al Glanetașului este căsătorit cu Ana."
+      ],
+      "answer": "Ion și Ana sunt soți, iar nunta lor se desfășoară în Capitolul VI.",
+      "answer_node_ids": [
+        "CHAR_001",
+        "CHAR_002"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260820T214438Z::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_002",
+        "EV_058"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-b96e6d4028645719",
+      "question": "Cine bănuiește că învățătorul Herdelea îi subminează autoritatea în sat?",
+      "options": [
+        "Florica",
+        "Ana",
+        "Preotul Belciug",
+        "Ion al Glanetașului"
+      ],
+      "answer": "Preotul Belciug",
+      "answer_node_ids": [
+        "CHAR_013"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260820T214438Z::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "CHAR_013",
+        "EV_022"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-b2368b618d85c573",
+      "question": "Ce l-a determinat pe Ion să se bată cu Simion Lungu în timpul arăturii?",
+      "options": [
+        "Redactarea și expedierea jalbei împotriva autorităților locale.",
+        "Sfatul de constrângere oferit de Titu activează planul lui Ion, care duce la descoperirea și confirmarea medicală a sarcinii Anei.",
+        "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+        "Mutarea intenționată a hotarului de către Ion, care a tăiat o brazdă din pământul lui Simion, a provocat confruntarea violentă."
+      ],
+      "answer": "Mutarea intenționată a hotarului de către Ion, care a tăiat o brazdă din pământul lui Simion, a provocat confruntarea violentă.",
+      "answer_node_ids": [
+        "EV_026",
+        "EV_027",
+        "CHAR_001",
+        "CHAR_016",
+        "CH_03"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260820T214438Z::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "EV_026",
+        "EV_027",
+        "CHAR_001",
+        "CHAR_016",
+        "CH_03"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-ebcedab0f1939f4d",
+      "question": "Care este numele învățătorului condamnat alături de Ion la tribunal?",
+      "options": [
+        "Ana",
+        "Ion al Glanetașului",
+        "Zaharia Herdelea",
+        "Florica"
+      ],
+      "answer": "Zaharia Herdelea",
+      "answer_node_ids": [
+        "CHAR_008"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260820T214438Z::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "CHAR_008",
+        "EV_080"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-ceaa1ade4ea980a4",
+      "question": "Ce sentiment manifestă Ana față de Ion în timpul cumpănii sale din primul capitol?",
+      "options": [
+        "Sunt căsătoriți.",
+        "Ana îl iubește pe Ion, deși el cântărește între ea și Florica.",
+        "Îl iubește.",
+        "Ana îl iubește pe Ion."
+      ],
+      "answer": "Ana îl iubește pe Ion, deși el cântărește între ea și Florica.",
+      "answer_node_ids": [
+        "CHAR_001",
+        "CHAR_002"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260820T214438Z::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_002",
+        "EV_005"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-59d24f1886d6c628",
+      "question": "Ce realizează Laura Herdelea în timpul ceremoniei de nuntă din Capitolul VI?",
+      "options": [
+        "Preotul Belciug",
+        "Ana îl iubește pe Ion.",
+        "Este cununată cu George Pintea la Armadia și pleacă împreună",
+        "Sunt căsătoriți."
+      ],
+      "answer": "Este cununată cu George Pintea la Armadia și pleacă împreună",
+      "answer_node_ids": [
+        "CHAR_011"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260820T214438Z::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_011",
+        "EV_062"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-936b72efba064ded",
+      "question": "Care este consecința imediată a ieșirii definitive a drumului din Pripas și a plecării familiei Herdelea?",
+      "options": [
+        "Ion este obligat să găsească o nouă strategie pentru a obține pământurile.",
+        "Evenimentul declanșează starea finală a romanului, în care perspectiva narativă părăsește satul și comunitatea revine la continuitatea sa colectivă.",
+        "Titu sugerează constrângerea, ceea ce îl face pe Ion să conceapă planul de a o lăsa însărcinată pe Ana pentru a forța căsătoria; ca urmare, iubirea Anei este transformată într-un instrument.",
+        "Redactarea și expedierea jalbei împotriva autorităților locale."
+      ],
+      "answer": "Evenimentul declanșează starea finală a romanului, în care perspectiva narativă părăsește satul și comunitatea revine la continuitatea sa colectivă.",
+      "answer_node_ids": [
+        "EV_124",
+        "STATE_CH_13_CLOSE",
+        "CHAR_008",
+        "CHAR_009",
+        "CHAR_012",
+        "CH_13"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260820T214438Z::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_124",
+        "STATE_CH_13_CLOSE",
+        "CHAR_008",
+        "CHAR_009",
+        "CHAR_012",
+        "CH_13"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-2210b5fe3dd7687b",
+      "question": "În ce localitate are loc transcrierea averii lui Ion pe numele bisericii?",
+      "options": [
+        "Cârciuma lui Avrum",
+        "Pripas",
+        "Curtea Todosiei",
+        "Armadia"
+      ],
+      "answer": "Armadia",
+      "answer_node_ids": [
+        "LOC_010"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260820T214438Z::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "LOC_010",
+        "EV_117"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-0abe70a73ca0fa7e",
+      "question": "Cum se definește conflictul dintre Ion și George Bulbuc în al doilea volum?",
+      "options": [
+        "Ion al Glanetașului este rivalul lui George Bulbuc.",
+        "Cei doi sunt rivali declarați, situație care se accentuează după avertismentul lui Savista.",
+        "Sunt rivali.",
+        "Pentru că sunt rivali în lupta pentru pământuri și pentru iubirea Floricăi."
+      ],
+      "answer": "Cei doi sunt rivali declarați, situație care se accentuează după avertismentul lui Savista.",
+      "answer_node_ids": [
+        "CHAR_001",
+        "CHAR_004"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260820T214438Z::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_004",
+        "EV_108"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-6c0b26756d897c2a",
+      "question": "Ce eveniment se petrece în Casa lui George în Capitolul XIII?",
+      "options": [
+        "Laura este cununată cu George Pintea și pleacă împreună după nuntă.",
+        "Ion trăiește o umilință publică.",
+        "Dorința de a recupera pământ pierdut de familie.",
+        "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă"
+      ],
+      "answer": "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă",
+      "answer_node_ids": [
+        "EV_113"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260820T214438Z::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_113",
+        "LOC_011"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-6dbccc176a194e75",
+      "question": "Cum contribuie sfatul lui Titu Herdelea la confirmarea oficială a sarcinii Anei de către moașa Firoana?",
+      "options": [
+        "Mutarea intenționată a hotarului de către Ion, care a tăiat o brazdă din pământul lui Simion, a provocat confruntarea violentă.",
+        "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+        "Ion trăiește o umilință publică.",
+        "Sfatul de constrângere oferit de Titu activează planul lui Ion, care duce la descoperirea și confirmarea medicală a sarcinii Anei."
+      ],
+      "answer": "Sfatul de constrângere oferit de Titu activează planul lui Ion, care duce la descoperirea și confirmarea medicală a sarcinii Anei.",
+      "answer_node_ids": [
+        "EV_036",
+        "EV_037",
+        "EV_045",
+        "CHAR_010",
+        "CHAR_001",
+        "CHAR_021",
+        "CH_03",
+        "CH_04",
+        "CH_05"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260820T214438Z::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_03",
+        "CH_04",
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "EV_036",
+        "EV_037",
+        "EV_045",
+        "CHAR_010",
+        "CHAR_001",
+        "CHAR_021",
+        "CH_03",
+        "CH_04",
+        "CH_05"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "MCQ-955b92494a7d1ed4",
+      "question": "În care capitol se desfășoară evenimentul în care Vasile Baciu încearcă să apropie fiica sa de George Bulbuc?",
+      "options": [
+        "Ana",
+        "Capitulul IV - Noaptea",
+        "George aplică mai multe lovituri, iar rănile îi provoacă moartea lui Ion.",
+        "Capitolul III - Iubirea"
+      ],
+      "answer": "Capitulul IV - Noaptea",
+      "answer_node_ids": [
+        "CH_04"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260821T114436Z::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "CH_04",
+        "EV_034"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-0a244ce3828a8267",
+      "question": "Care este legătura conjugală dintre Ion și Ana în timpul evenimentelor din Capitolul IX?",
+      "options": [
+        "Vasile Baciu este tatăl Anei.",
+        "Ion al Glanetașului este căsătorit cu Ana.",
+        "Sunt căsătoriți.",
+        "Ana îl iubește pe Ion."
+      ],
+      "answer": "Sunt căsătoriți.",
+      "answer_node_ids": [
+        "CHAR_001",
+        "CHAR_002"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260821T114436Z::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_002"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-3409922f8440617f",
+      "question": "Cine îl lovește pe George Bulbuc cu un par la cârciuma lui Avrum?",
+      "options": [
+        "Ion îl lovește pe George Bulbuc cu un par.",
+        "Ion este obligat să găsească o nouă strategie pentru a obține pământurile.",
+        "Ion îi spune că tot pământul este acum al lui.",
+        "Ana își pune capăt vieții prin spânzurare."
+      ],
+      "answer": "Ion îl lovește pe George Bulbuc cu un par.",
+      "answer_node_ids": [
+        "EV_010",
+        "CHAR_001"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260821T114436Z::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_010",
+        "CHAR_001",
+        "LOC_003",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-924be9a85cbec72a",
+      "question": "Ce eveniment cauzal a determinat direct transformarea mândriei învățătorului Herdelea în teamă în timpul anchetei?",
+      "options": [
+        "Redactarea și expedierea jalbei împotriva autorităților locale.",
+        "Sărăcia lui Ion și zestrea Anei.",
+        "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+        "Titu sugerează constrângerea, ceea ce îl face pe Ion să conceapă planul de a o lăsa însărcinată pe Ana pentru a forța căsătoria; ca urmare, iubirea Anei este transformată într-un instrument."
+      ],
+      "answer": "Redactarea și expedierea jalbei împotriva autorităților locale.",
+      "answer_node_ids": [
+        "EV_054",
+        "EV_055"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260821T114436Z::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04",
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "EV_054",
+        "EV_055"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-106e9db9315f2c98",
+      "question": "Care este personajul care hotărăște să cedeze averea pentru a încheia conflictul cu Ion al Glanetașului?",
+      "options": [
+        "Vasile Baciu",
+        "Ana",
+        "Ion al Glanetașului",
+        "Florica"
+      ],
+      "answer": "Vasile Baciu",
+      "answer_node_ids": [
+        "CHAR_005"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260821T114436Z::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "CHAR_005",
+        "EV_082"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-3c4bd6fb637dffea",
+      "question": "Ce sentiment nutrește Ana față de Ion în contextul suferinței sale descrise în Capitolul VII?",
+      "options": [
+        "Sunt căsătoriți.",
+        "Ana îl iubește pe Ion, deși el cântărește între ea și Florica.",
+        "Ana îl iubește pe Ion.",
+        "Îl iubește."
+      ],
+      "answer": "Îl iubește.",
+      "answer_node_ids": [
+        "CHAR_002",
+        "CHAR_001"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260821T114436Z::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_002",
+        "CHAR_001"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-069bf1a57ef5793b",
+      "question": "Ce îi comunică Ion lui Titu Herdelea în hotarul satului după obținerea pământurilor?",
+      "options": [
+        "Ion îi spune că tot pământul este acum al lui.",
+        "Ion este obligat să găsească o nouă strategie pentru a obține pământurile.",
+        "Ana își pune capăt vieții prin spânzurare.",
+        "Ion îl lovește pe George Bulbuc cu un par."
+      ],
+      "answer": "Ion îi spune că tot pământul este acum al lui.",
+      "answer_node_ids": [
+        "EV_087",
+        "CHAR_001"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260821T114436Z::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "EV_087",
+        "CHAR_001",
+        "CHAR_010",
+        "LOC_004",
+        "CH_09"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-f186205473048a76",
+      "question": "Care este consecința directă a eforturilor lui Vasile Baciu de a întări apropierea dintre Ana și George Bulbuc?",
+      "options": [
+        "Ion este obligat să găsească o nouă strategie pentru a obține pământurile.",
+        "Ana își pune capăt vieții prin spânzurare.",
+        "Ion îi spune că tot pământul este acum al lui.",
+        "Ion îl lovește pe George Bulbuc cu un par."
+      ],
+      "answer": "Ion este obligat să găsească o nouă strategie pentru a obține pământurile.",
+      "answer_node_ids": [
+        "EV_034",
+        "CHAR_005"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260821T114436Z::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "EV_034",
+        "CHAR_005"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-9b25f6c33b389141",
+      "question": "În ce sat principal are loc evenimentul morții copilului lui Ion?",
+      "options": [
+        "Cârciuma lui Avrum",
+        "Pripas",
+        "Hotarul și câmpul",
+        "Curtea Todosiei"
+      ],
+      "answer": "Pripas",
+      "answer_node_ids": [
+        "LOC_001"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260821T114436Z::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_11"
+      ],
+      "evidence_node_ids": [
+        "LOC_001",
+        "EV_099"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-598e50a3de131c99",
+      "question": "Ce tip de conflict social și erotic leagă pe Ion de George Bulbuc în prima parte a romanului?",
+      "options": [
+        "Sunt rivali.",
+        "Ion al Glanetașului este rivalul lui George Bulbuc.",
+        "Cei doi sunt rivali declarați, situație care se accentuează după avertismentul lui Savista.",
+        "Pentru că sunt rivali în lupta pentru pământuri și pentru iubirea Floricăi."
+      ],
+      "answer": "Sunt rivali.",
+      "answer_node_ids": [
+        "CHAR_001",
+        "CHAR_004"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260821T114436Z::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_004"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-9abd49fc5c563de8",
+      "question": "Ce eveniment tragic are loc în grajdul casei Baciu în Capitolul X?",
+      "options": [
+        "Ion îi spune că tot pământul este acum al lui.",
+        "Ion este obligat să găsească o nouă strategie pentru a obține pământurile.",
+        "Ion îl lovește pe George cu un par.",
+        "Ana își pune capăt vieții prin spânzurare."
+      ],
+      "answer": "Ana își pune capăt vieții prin spânzurare.",
+      "answer_node_ids": [
+        "EV_095",
+        "CHAR_002"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260821T114436Z::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_10"
+      ],
+      "evidence_node_ids": [
+        "EV_095",
+        "CHAR_002",
+        "LOC_012",
+        "CH_10"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "MCQ-24e789e4229d9382",
+      "question": "Cum se leagă decizia lui Vasile Baciu de cedarea averii de obținerea efectivă a pământurilor de către Ion?",
+      "options": [
+        "Titu sugerează constrângerea, ceea ce îl face pe Ion să conceapă planul de a o lăsa însărcinată pe Ana pentru a forța căsătoria; ca urmare, iubirea Anei este transformată într-un instrument.",
+        "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+        "Redactarea și expedierea jalbei împotriva autorităților locale.",
+        "Ion trăiește o umilință publică."
+      ],
+      "answer": "Hotărârea lui Vasile îl determină să meargă la notar, iar actul notarial transferă legal toate pământurile lui Ion.",
+      "answer_node_ids": [
+        "EV_082",
+        "EV_083",
+        "EV_084"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260821T114436Z::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "EV_082",
+        "EV_083",
+        "EV_084"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    }
+  ]
+}

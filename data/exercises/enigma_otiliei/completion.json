@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "work_id": "enigma_otiliei",
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "exercise_type": "completion",
+  "source": {
+    "question_bank": "data/generated_works/enigma_otiliei/testare-rapida/questions.json",
+    "knowledge_graph": "data/generated_works/enigma_otiliei/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "SIMPLE_FACT_LOWHOP",
+    "CHARACTER_RELATION",
+    "NARRATIVE_ACTION"
+  ],
+  "exercise_count": 12,
+  "skipped_count": 0,
+  "skipped": [],
+  "exercises": [
+    {
+      "id": "CLOZE-ef9b5820f0e8cfd4",
+      "text": "1. La întrebarea „În care capitol al romanului se desfășoară scena casei cu geamuri acoperite cu hârtie translucidă?”, răspunsul corect este ____.\n2. La întrebarea „Care este legătura de rudenie dintre Costache Giurgiuveanu și Otilia Mărculescu, conform evenimentului din Capitolul 1?”, răspunsul corect este ____.\n3. Felix și ____.",
+      "answers": [
+        "Capitolul 1",
+        "Tatăl vitreg",
+        "Otilia"
+      ],
+      "prompts": [
+        "În care capitol al romanului se desfășoară scena casei cu geamuri acoperite cu hârtie translucidă",
+        "Care este legătura de rudenie dintre Costache Giurgiuveanu și Otilia Mărculescu, conform evenimentului din Capitolul 1",
+        "Cine trimitea anual scrisori de sărbători „unchiului Costache” și „unchiului Iosif” pentru a întreba unul de celălalt"
+      ],
+      "source_question_ids": [
+        "run-20260822T133255320706Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260822T133255320706Z-b001::CHARACTER_RELATION::REL_01",
+        "run-20260822T133255320706Z-b001::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-b1cd7f2c46d583bb",
+      "text": "1. La întrebarea „Care dintre participanții la discuția despre tușit este avocatul fără procese?”, răspunsul corect este ____.\n2. La întrebarea „Ce relație afectivă leagă pe Felix Sima de Otilia Mărculescu în cadrul întâlnirii din Capitolul 2?”, răspunsul corect este ____.\n3. Consideră că ceea ce face ____ este foarte suspect.",
+      "answers": [
+        "Stănică Rațiu",
+        "Iubire reciprocă",
+        "Stănică"
+      ],
+      "prompts": [
+        "Care dintre participanții la discuția despre tușit este avocatul fără procese",
+        "Ce relație afectivă leagă pe Felix Sima de Otilia Mărculescu în cadrul întâlnirii din Capitolul 2",
+        "Ce observație face Leonida Pascalopol despre comportamentul lui Stănică Rațiu în timp ce conversau cu Felix și Otilia"
+      ],
+      "source_question_ids": [
+        "run-20260822T133255320706Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260822T133255320706Z-b001::CHARACTER_RELATION::REL_02",
+        "run-20260822T133255320706Z-b001::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-65c5f544e9d1a7e0",
+      "text": "1. La întrebarea „Ce sentiment îl cuprinde pe Felix când își analizează atitudinea față de cele două fete?”, răspunsul corect este ____.\n2. La întrebarea „Cum se manifestă rivalitatea dintre Stănică Rațiu și Otilia Mărculescu în contextul evenimentului din Capitolul 5?”, răspunsul corect este ____.\n3. La întrebarea „Ce acțiune desfășoară Costache Giurgiuveanu în Capitolul 14 în timp ce Felix studiază intens pentru examene?”, răspunsul corect este ____.",
+      "answers": [
+        "Profund vinovat",
+        "Rivalitate explicită",
+        "Crăpă ușa odăii și își vâră capul înăuntru ca o bilă."
+      ],
+      "prompts": [
+        "Ce sentiment îl cuprinde pe Felix când își analizează atitudinea față de cele două fete",
+        "Cum se manifestă rivalitatea dintre Stănică Rațiu și Otilia Mărculescu în contextul evenimentului din Capitolul 5",
+        "Ce acțiune desfășoară Costache Giurgiuveanu în Capitolul 14 în timp ce Felix studiază intens pentru examene"
+      ],
+      "source_question_ids": [
+        "run-20260822T133255320706Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260822T133255320706Z-b001::CHARACTER_RELATION::REL_03",
+        "run-20260822T133255320706Z-b001::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-ede9aced69d6e993",
+      "text": "1. La întrebarea „În ce capitol al romanului se face referire la corespondența dintre Felix și Costache?”, răspunsul corect este ____.\n2. ____ este tatăl vitreg al Otiliei Mărculescu.\n3. La întrebarea „Cine se recomandă cu o ceremonie formală tânărului Felix în prima parte a romanului?”, răspunsul corect este ____.",
+      "answers": [
+        "Capitolul 1",
+        "Costache Giurgiuveanu",
+        "Leonida Pascalopol"
+      ],
+      "prompts": [
+        "În ce capitol al romanului se face referire la corespondența dintre Felix și Costache",
+        "Care este legătura de rudenie dintre Costache Giurgiuveanu și Otilia Mărculescu în familia Tulea",
+        "Cine se recomandă cu o ceremonie formală tânărului Felix în prima parte a romanului"
+      ],
+      "source_question_ids": [
+        "run-20260822T133903276112Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260822T133903276112Z-b002::CHARACTER_RELATION::REL_01",
+        "run-20260822T133903276112Z-b002::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-2ad35d50c16cfe9b",
+      "text": "1. La întrebarea „Care personaj califică drept suspecte acțiunile avocatului Stănică Rațiu în această scenă?”, răspunsul corect este ____.\n2. Felix Sima o iubește pe ____.\n3. Aglae sugerează ca ____ să observe atenția lui Felix față de Otilia",
+      "answers": [
+        "Leonida Pascalopol",
+        "Otilia Mărculescu",
+        "Costache"
+      ],
+      "prompts": [
+        "Care personaj califică drept suspecte acțiunile avocatului Stănică Rațiu în această scenă",
+        "Ce sentimente nutrește Felix Sima față de Otilia Mărculescu în contextul capitolului al doilea",
+        "Ce sfat oferă Aglae lui Costache privind frecvența vizitelor lui Felix în casa sa"
+      ],
+      "source_question_ids": [
+        "run-20260822T133903276112Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260822T133903276112Z-b002::CHARACTER_RELATION::REL_02",
+        "run-20260822T133903276112Z-b002::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-5645522407816e06",
+      "text": "1. La întrebarea „Ce activitate academică îl ține ocupat pe Felix înainte de apariția lui Costache?”, răspunsul corect este ____.\n2. ____ este rivalul Otiliei Mărculescu.\n3. Felix exprimă îngrijorarea că ____ ar putea rămâne pe drumuri fără lux",
+      "answers": [
+        "Citirea unui curs",
+        "Stănică Rațiu",
+        "Otilia"
+      ],
+      "prompts": [
+        "Ce activitate academică îl ține ocupat pe Felix înainte de apariția lui Costache",
+        "În ce tip de conflict se află Stănică Rațiu cu Otilia Mărculescu în casa Tulea",
+        "Ce discuție purtă Felix cu tutorele său despre viitorul Otiliei în al paisprezecelea capitol"
+      ],
+      "source_question_ids": [
+        "run-20260822T133903276112Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260822T133903276112Z-b002::CHARACTER_RELATION::REL_03",
+        "run-20260822T133903276112Z-b002::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-46f51b5b52d5048b",
+      "text": "1. La întrebarea „În ce capitol are loc întâlnirea dintre Felix, Otilia și Pascalopol?”, răspunsul corect este ____.\n2. La întrebarea „În capitolul în care Otilia aprinde țigara pentru adulți, ce legătură de rudenie are Costache Giurgiuveanu cu ea?”, răspunsul corect este ____.\n3. ____ își mușcă buza de sus, lovește zarurile și răspunde conciliant către Aglae Tulea.",
+      "answers": [
+        "Capitolul 1",
+        "Tată vitreg",
+        "Leonida Pascalopol"
+      ],
+      "prompts": [
+        "În ce capitol are loc întâlnirea dintre Felix, Otilia și Pascalopol",
+        "În capitolul în care Otilia aprinde țigara pentru adulți, ce legătură de rudenie are Costache Giurgiuveanu cu ea",
+        "Cine își mușcă buza de sus și răspunde conciliant în timpul jocului de zaruri din primul capitol"
+      ],
+      "source_question_ids": [
+        "run-20260822T134456134455Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260822T134456134455Z-b003::CHARACTER_RELATION::REL_01",
+        "run-20260822T134456134455Z-b003::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-f92fc0dc5abd8520",
+      "text": "1. La întrebarea „Care dintre personaje discută cu Costache despre frecvența vizitelor lui Felix în casa Aglaei?”, răspunsul corect este ____.\n2. La întrebarea „În timpul conversației din salonul familiei, ce sentiment profund leagă pe Felix Sima de Otilia Mărculescu?”, răspunsul corect este ____.\n3. ____ continuă să-i coasă un nasture lui Felix fără să își schimbe stilul, apoi aleargă la moșier pentru calinerii.",
+      "answers": [
+        "Aglae Tulea",
+        "Dragoste reciprocă",
+        "Otilia"
+      ],
+      "prompts": [
+        "Care dintre personaje discută cu Costache despre frecvența vizitelor lui Felix în casa Aglaei",
+        "În timpul conversației din salonul familiei, ce sentiment profund leagă pe Felix Sima de Otilia Mărculescu",
+        "Ce face Otilia Mărculescu atunci când Pascalopol intră în cameră în timp ce îi cosea un nasture lui Felix"
+      ],
+      "source_question_ids": [
+        "run-20260822T134456134455Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260822T134456134455Z-b003::CHARACTER_RELATION::REL_02",
+        "run-20260822T134456134455Z-b003::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-3b7cb8fa80085297",
+      "text": "1. La întrebarea „În ce capitală are loc conversația dintre Felix și Costache privind grijile pentru Otilia?”, răspunsul corect este ____.\n2. La întrebarea „În contextul întâlnirii medicale din capitolul șapte, ce tip de antagonism există între Stănică Rațiu și Otilia?”, răspunsul corect este ____.\n3. Georgeta, ____, Olimpia și Titi ajung pentru a discuta despre portretul lui Iorgu, iar Weissmann îl informează pe Felix despre dantură.",
+      "answers": [
+        "București",
+        "Rivalitate",
+        "generalul"
+      ],
+      "prompts": [
+        "În ce capitală are loc conversația dintre Felix și Costache privind grijile pentru Otilia",
+        "În contextul întâlnirii medicale din capitolul șapte, ce tip de antagonism există între Stănică Rațiu și Otilia",
+        "Ce se întâmplă în Capitolul 14 legat de vizita Georgetei, a generalului și a lui Weissmann la București"
+      ],
+      "source_question_ids": [
+        "run-20260822T134456134455Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260822T134456134455Z-b003::CHARACTER_RELATION::REL_03",
+        "run-20260822T134456134455Z-b003::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-d4d974a0515d6de7",
+      "text": "1. La întrebarea „În ce capitol al romanului se desfășoară scena cu Pascalopol, Aglae, Costache și Otilia la masa de joc?”, răspunsul corect este ____.\n2. La întrebarea „Care este legătura de rudenie care îl unește pe Costache Giurgiuveanu cu Otilia Mărculescu?”, răspunsul corect este ____.\n3. La întrebarea „Cine este nemulțumit de familiaritatea Otiliei cu Pascalopol în Capitolul 1?”, răspunsul corect este ____.",
+      "answers": [
+        "Capitolul 1",
+        "Tată vitreg (relație parentală)",
+        "Felix Sima"
+      ],
+      "prompts": [
+        "În ce capitol al romanului se desfășoară scena cu Pascalopol, Aglae, Costache și Otilia la masa de joc",
+        "Care este legătura de rudenie care îl unește pe Costache Giurgiuveanu cu Otilia Mărculescu",
+        "Cine este nemulțumit de familiaritatea Otiliei cu Pascalopol în Capitolul 1"
+      ],
+      "source_question_ids": [
+        "run-20260822T135119780700Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260822T135119780700Z-b004::CHARACTER_RELATION::REL_01",
+        "run-20260822T135119780700Z-b004::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-e06c3ff4f877576e",
+      "text": "1. La întrebarea „Care este participantul la acest eveniment din capitolul opt care acționează ca protector rafinat al Otiliei?”, răspunsul corect este ____.\n2. La întrebarea „Ce sentiment afectiv profund nutrește Felix Sima față de Otilia în roman?”, răspunsul corect este ____.\n3. Se întoarce la masă cu ____, privește pe Felix degajat și se poartă ca și când nimic nu s-ar fi întâmplat.",
+      "answers": [
+        "Leonida Pascalopol",
+        "Dragoste / iubire",
+        "Pascalopol"
+      ],
+      "prompts": [
+        "Care este participantul la acest eveniment din capitolul opt care acționează ca protector rafinat al Otiliei",
+        "Ce sentiment afectiv profund nutrește Felix Sima față de Otilia în roman",
+        "Ce face Costache Giurgiuveanu la masa din Capitolul 8 după ce verifică camera Otiliei"
+      ],
+      "source_question_ids": [
+        "run-20260822T135119780700Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260822T135119780700Z-b004::CHARACTER_RELATION::REL_02",
+        "run-20260822T135119780700Z-b004::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-c935f54e8d361924",
+      "text": "1. La întrebarea „Care este ordinea globală a evenimentului în care Weissmann îl lămurește pe Felix despre prețul danturii?”, răspunsul corect este ____.\n2. La întrebarea „În ce tip de rivalitate se află Stănică Rațiu față de Otilia?”, răspunsul corect este ____.\n3. În afară de Georgeta, Felix și ____ care râd, ceilalți îl privesc uimiți, iar Olimpia îl contemplă ca pe un monstru.",
+      "answers": [
+        "110",
+        "Rivalitate / opoziție interesată",
+        "generalul"
+      ],
+      "prompts": [
+        "Care este ordinea globală a evenimentului în care Weissmann îl lămurește pe Felix despre prețul danturii",
+        "În ce tip de rivalitate se află Stănică Rațiu față de Otilia",
+        "Ce reacții provoacă Weissmann printre participanți în Capitolul 14"
+      ],
+      "source_question_ids": [
+        "run-20260822T135119780700Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260822T135119780700Z-b004::CHARACTER_RELATION::REL_03",
+        "run-20260822T135119780700Z-b004::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    }
+  ]
+}

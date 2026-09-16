@@ -1,0 +1,30 @@
+{
+  "experiment": "Experimentul 1",
+  "run_id": "run-20260805T143832Z",
+  "timestamp_utc": "2026-08-05T14:38:32.870498+00:00",
+  "requested_model": "deepseek/deepseek-v4-flash",
+  "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+  "context_length": 1048576,
+  "graph_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\graf1\\knowledge-graph.json",
+  "graph_sha256": "19e81d5c346fb9dbd11d025ee52a857284152d98a8c6421e5a3731ca8f82e1c3",
+  "chapter_packet_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\experiment1\\inputs\\chapter-01-graph.json",
+  "chapter_packet_sha256": "815ff4923f766b1ef9909997f18a2c768fdbe9f4d4e0834b88d40a218b4788d4",
+  "question_prompt_template_sha256": "5cdab879c1a1e68086dfecadf66a679e51e1185db453e12550a8d55cd6f527c6",
+  "summary_prompt_template_sha256": "703413e77ffe188ccd6b366e09e0583fb87d580324f60304eb7874f496407e44",
+  "evaluator_sha256": "2dcb9da3ed4df5e014db3c8cf86bb6075ed52018cadc266e74cb449acdb387b8",
+  "api_key_saved": false,
+  "tasks": {
+    "questions": {
+      "json_valid": false,
+      "task": "questions",
+      "error_type": "ValueError",
+      "message": "Răspunsul OpenRouter nu conține choices."
+    },
+    "summary": {
+      "json_valid": false,
+      "task": "summary",
+      "error_type": "RuntimeError",
+      "message": "OpenRouter HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"deepseek/deepseek-v4-flash is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"DigitalOcean\",\"is_byok\":false,\"limit_source\":\"upstream_provider_shared_pool\",\"remedy_hint\":\"Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing\"}},\"user_id\":\"org_3HOxRiTX7Q4sWxrepTeWRDvBnNr\"}"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "metric_name": "RQUGE-Ro-KG",
+  "status": "experimental_unvalidated",
+  "paper": "10.18653/v1/2023.findings-acl.428",
+  "qa": {
+    "base_model": "google/mt5-small",
+    "max_input_length": 512,
+    "max_answer_length": 128,
+    "input_format": "întrebare: {question} context: {context}"
+  },
+  "span_scorer": {
+    "base_model": "FacebookAI/xlm-roberta-base",
+    "max_input_length": 512,
+    "minimum_score": 1.0,
+    "maximum_score": 5.0,
+    "input_format": "{question} <q> {gold_answer} <r> {predicted_answer} <c> {context}"
+  },
+  "translation_baseline": {
+    "model": "Helsinki-NLP/opus-mt-roa-en",
+    "role": "baseline_only"
+  },
+  "lightweight_pilot": {
+    "qa_model": "google-t5/t5-small",
+    "span_model": "distilbert/distilbert-base-multilingual-cased",
+    "status": "smaller_but_requires_separate_romanian_validation"
+  },
+  "validation": {
+    "primary_correlation": "spearman",
+    "secondary_correlations": ["pearson", "kendall"],
+    "human_score_range": [1, 5],
+    "minimum_annotators": 3
+  }
+}

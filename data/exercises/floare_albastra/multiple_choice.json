@@ -1,0 +1,184 @@
+{
+  "exercises": [
+    {
+      "id": "MC_01",
+      "question": "Conform textului, cum reacționează eul liric masculin la afirmațiile fetei din strofa a patra?",
+      "options": [
+        "Îi răspunde imediat cu o declarație de dragoste profundă",
+        "Râde și tăcește, conștientizând distanța dintre cele două perspective",
+        "O contrazice argumentând superioritatea cunoașterii abstracte",
+        "Îi propune să plece împreună spre piramidele învechite"
+      ],
+      "answer": "Râde și tăcește, conștientizând distanța dintre cele două perspective",
+      "explanation": "Textul indică explicit „Eu am râs, n-am zis nimica”, marcând o pauză meditativă și recunoașterea tacită a adevărului spus de fată, fără a intra în conflict verbal direct.",
+      "difficulty": "easy",
+      "learning_objective": "OBJ_01",
+      "source_refs": [
+        "ST_04",
+        "EV_03"
+      ]
+    },
+    {
+      "id": "MC_02",
+      "question": "Ce propune fata pentru petrecerea timpului liber, conform primelor versuri ale monologului ei din strofele 5-6?",
+      "options": [
+        "Să urce pe vârfurile piramidelor pentru a privi marea",
+        "Să se retragă într-un codru cu verdeață, lângă o baltă senină și sub trestii",
+        "Să caute fericirea în depărtări cosmice și ceruri nalte",
+        "Să asculte povești despre izvoarele care plâng în vale"
+      ],
+      "answer": "Să se retragă într-un codru cu verdeață, lângă o baltă senină și sub trestii",
+      "explanation": "Fata invită la o idilă pastorală concretă, sugerând locuri specifice precum „codrul cu verdeață”, „balta cea senină” și „trestia cea lină”, opuse evadării în abstract.",
+      "difficulty": "easy",
+      "learning_objective": "OBJ_01",
+      "source_refs": [
+        "ST_05",
+        "ST_06"
+      ]
+    },
+    {
+      "id": "MC_03",
+      "question": "Care este funcția principală a celui de-al doilea tablou (strofa 4) în structura poemului?",
+      "options": [
+        "Introduce scenariul erotic pastoral în natură",
+        "Marchează incompatibilitatea structurală dintre absolutul cunoașterii și trăirea imediată",
+        "Deplasează discursul în registrul elegiei filozofice și al resemnării universale",
+        "Denunță tentația geniului de a evada în sferele cunoașterii absolute"
+      ],
+      "answer": "Marchează incompatibilitatea structurală dintre absolutul cunoașterii și trăirea imediată",
+      "explanation": "Strofa 4 acționează ca punct de cotitură, evidențiind tăcerea eului masculin și conștientizarea diferenței fundamentale dintre aspirația cosmică și dorința terestră a iubitului.",
+      "difficulty": "medium",
+      "learning_objective": "OBJ_01",
+      "source_refs": [
+        "ST_04",
+        "TRAIT_ANTITHESIS"
+      ]
+    },
+    {
+      "id": "MC_04",
+      "question": "Cum se configurează relația dintre vocile lirice feminine și masculine în cadrul poemului?",
+      "options": [
+        "Vocea feminină reprezintă ipostaza geniului izolat, iar cea masculină pe cea a omului comun",
+        "Ambele voci împărtășesc aceeași viziune asupra fericirii contingente și a naturii",
+        "Vocea feminină sugerează ancorarea în concret și viața imediată, iar cea masculină atragerea spre infinitul cunoașterii",
+        "Dialogul este exclusiv interior, lipsit de replici directe adresate interlocutorului"
+      ],
+      "answer": "Vocea feminină sugerează ancorarea în concret și viața imediată, iar cea masculină atragerea spre infinitul cunoașterii",
+      "explanation": "Fișa pedagogică definește vocea feminină ca ipostaza omului comun, cald și ancorat în realitate, în timp ce vocea masculină corespunde eului reflexiv, atras de absolut, creând o antiteză vocală și tematică.",
+      "difficulty": "medium",
+      "learning_objective": "OBJ_06",
+      "source_refs": [
+        "LYRICAL_SITUATION.voices",
+        "TRAIT_ANTITHESIS"
+      ]
+    },
+    {
+      "id": "MC_05",
+      "question": "Ce valențe simbolice transmite titlul oximoric „Floare albastră”?",
+      "options": [
+        "Sugerează doar gingășia efemeră a vieții terestre, fără nicio conotație cosmică",
+        "Reunește delicatețea ființei pământești cu nostalgia și aspirația către absolutul spiritual",
+        "Evocă exclusiv motivul mitic al iubirii neîmplinite în literatura clasică greacă",
+        "Indică o preferință estetică pentru tonurile reci și melancolice în descrierea naturii"
+      ],
+      "answer": "Reunește delicatețea ființei pământești cu nostalgia și aspirația către absolutul spiritual",
+      "explanation": "Titlul îmbină „floare” (viață terestră, efemer) cu „albastră” (infinit, ceresc), constituind un oximor romantic care sintetizează tensiunea dintre concret și ideal.",
+      "difficulty": "medium",
+      "learning_objective": "OBJ_05",
+      "source_refs": [
+        "COMP_TITLE",
+        "ST_14"
+      ]
+    },
+    {
+      "id": "MC_06",
+      "question": "Ce efect expresiv are personificarea afectivă din versul „Und-izvoare plâng în vale”?",
+      "options": [
+        "Creează o atmosferă de dezolare și moarte, aliniindu-se tonului final al poemului",
+        "Conferă naturii o vibrație sufletească, făcând-o complice la starea îndrăgostiților",
+        "Subliniază caracterul ostil și amenințător al peisajului natural",
+        "Transformă elementele naturale în simboluri ale cunoașterii abstracte și științifice"
+      ],
+      "answer": "Conferă naturii o vibrație sufletească, făcând-o complice la starea îndrăgostiților",
+      "explanation": "Personificarea transformă izvoarele în martori sensibili ai idilei, armonizând peisajul cu emoțiile calde și intime proiectate de fata în monologul său pastoral.",
+      "difficulty": "easy",
+      "learning_objective": "OBJ_03",
+      "source_refs": [
+        "FIG_WEEPING_SPRINGS",
+        "ST_05"
+      ]
+    },
+    {
+      "id": "MC_07",
+      "question": "Care sunt trăsăturile prosodice dominante ale poemului „Floare albastră”?",
+      "options": [
+        "Catrene cu rimă încrucișată, ritm iambic și versuri de 10 silabe",
+        "Catrene cu rimă îmbrățișată, ritm trohaic și versuri de 7-8 silabe",
+        "Octavine cu rimă împerecheată, ritm anapestic și versuri libere",
+        "Sonete cu rimă încrucișată, ritm dactilic și versuri alexandrine"
+      ],
+      "answer": "Catrene cu rimă îmbrățișată, ritm trohaic și versuri de 7-8 silabe",
+      "explanation": "Structura metrică respectă tiparul clasic eminescian al baladei/idile: catrene cu rimă îmbrățișată (a-b-b-a), măsură variabilă între 7 și 8 silabe și un ritm trohaic care conferă fluiditate și musicalitate discursului.",
+      "difficulty": "easy",
+      "learning_objective": "OBJ_01",
+      "source_refs": [
+        "PROSODY"
+      ]
+    },
+    {
+      "id": "MC_08",
+      "question": "În ce categorie literară și curent se încadrează poemul, conform analizei critice?",
+      "options": [
+        "Realism critic, prin descrierea detaliată a mediului rural și a dialogului popular",
+        "Romantism canonic, prin amestecul speciilor (eglogă, pastel, meditație elegiacă) și primatul sensibilității",
+        "Neoclasicism, prin respectarea riguroasă a regulilor compoziției și a echilibrului rațional",
+        "Simbolism târziu, prin utilizarea codurilor cromatice abstracte și a sugestiei pure"
+      ],
+      "answer": "Romantism canonic, prin amestecul speciilor (eglogă, pastel, meditație elegiacă) și primatul sensibilității",
+      "explanation": "Opera aparține romantismului eminescian, fiind definită prin contopirea genurilor (dialog pastoral, descriere pitorească și reflecție elegiacă) și prin accentul pus pe antiteză și evadarea în natură.",
+      "difficulty": "medium",
+      "learning_objective": "OBJ_01",
+      "source_refs": [
+        "LITERARY_CONTEXT",
+        "GENRE_AND_SPECIES"
+      ]
+    },
+    {
+      "id": "MC_09",
+      "question": "Cum funcționează antiteza ca principiu compozițional în configurarea nucleului ideatic al poemului?",
+      "options": [
+        "Opune rigiditatea structurii clasice fluidității limbajului modern",
+        "Contrastează absolutul cunoașterii și setea de infinit cu efemeritatea trăirii imediate și concrete",
+        "Evidențiază superioritatea artei poetice față de experiența sentimentală comună",
+        "Subliniază conflictul social dintre condiția geniului și cea a maselor ignorante"
+      ],
+      "answer": "Contrastează absolutul cunoașterii și setea de infinit cu efemeritatea trăirii imediate și concrete",
+      "explanation": "Antiteza structurează opoziția fundamentală dintre eul masculin (atras de cosmos și cunoaștere) și cel feminin (ancorat în clipele terestre), reflectând incompatibilitatea dintre geniu și omul comun.",
+      "difficulty": "analytical",
+      "learning_objective": "OBJ_02",
+      "source_refs": [
+        "TRAIT_ANTITHESIS",
+        "THEME_GENIUS_CONDITION"
+      ]
+    },
+    {
+      "id": "MC_10",
+      "question": "Ce semnificație are adverbul „Totuși” în contextul finalului poemului?",
+      "options": [
+        "Exprima o resemnare nihilistă totală, anulează valoarea iubirii trăite și confirmă vidul existențial",
+        "Subliniază o concesivitate senină, înscriind pierderea într-o resemnare superioară care nu știrbește frumusețea momentului",
+        "Marchează o revoltă activă împotriva destinului și o dorință de a recupera timpul pierdut",
+        "Indică trecerea bruscă de la registru elegiac la unul satiric și ironic"
+      ],
+      "answer": "Subliniază o concesivitate senină, înscriind pierderea într-o resemnare superioară care nu știrbește frumusețea momentului",
+      "explanation": "Spre deosebire de o interpretare nihilistă, „Totuși” introduce o acceptare matură a ireversibilității timpului, recunoscând tristețea universală („este trist în lume”) fără a nega valoarea iubirii efemere trăite.",
+      "difficulty": "analytical",
+      "learning_objective": "OBJ_04",
+      "source_refs": [
+        "COMMON_MISCONCEPTIONS",
+        "THEMES_AND_IDEAS.time",
+        "EV_10"
+      ]
+    }
+  ]
+}

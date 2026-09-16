@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "pipeline": "opera-completa",
+  "status": "ready",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "input": {
+    "knowledge_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\grafuri\\moara-cu-noroc\\knowledge-graph.json",
+    "knowledge_graph_sha256": "d2586e170fe78ded909d4a18019574bb090dac483acefe0c31e6e225112698bf",
+    "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\moara_cu_noroc.md",
+    "model_essay_sha256": "e915d898830844c6ff23c9a201935a4bebe16932f37cfc2fcb86154c137d5a40"
+  },
+  "canonical_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\knowledge-graph.json",
+  "model": "qwen/qwen3.7-flash",
+  "reasoning_effort": "medium",
+  "quick_testing_batches": 4,
+  "planned_questions": 96,
+  "qwen_calls": 55,
+  "executed_qwen_calls": 0,
+  "retry_on_invalid": false,
+  "force": false,
+  "registered_in_app": true,
+  "steps": [
+    {
+      "id": "intelegere-opera",
+      "status": "skipped_already_ready",
+      "manifest": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\manifest.json"
+    },
+    {
+      "id": "testare-rapida",
+      "status": "skipped_already_ready",
+      "manifest": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\testare-rapida\\manifest.json"
+    },
+    {
+      "id": "construieste-eseu",
+      "status": "skipped_already_ready",
+      "manifest": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\construieste-eseu\\manifest.json"
+    },
+    {
+      "id": "register-work",
+      "status": "complete",
+      "registry": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\works.json",
+      "changed": true
+    }
+  ],
+  "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\pipeline-total\\runs\\run-20260822T201408953504Z",
+  "cost_report": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\cost-report.json",
+  "registry_entry": {
+    "id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici",
+    "type": "nuvelă psihologică",
+    "icon": "📘",
+    "category": "my"
+  },
+  "canonical_graph_sha256": "d2586e170fe78ded909d4a18019574bb090dac483acefe0c31e6e225112698bf",
+  "source_graph_modified": false,
+  "costs": {
+    "currency": "USD",
+    "latest_run": {
+      "api_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0
+    },
+    "work_lifetime": {
+      "api_calls": 55,
+      "prompt_tokens": 631604,
+      "completion_tokens": 381382,
+      "reasoning_tokens": 312474,
+      "total_tokens": 1012986,
+      "cost_usd": 0.09236378
+    },
+    "report": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\cost-report.json"
+  }
+}

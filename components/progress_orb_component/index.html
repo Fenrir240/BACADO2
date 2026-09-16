@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <style>
+    :root { color-scheme: light; font-family: Inter, "Segoe UI", sans-serif; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: transparent; }
+    #root { position: relative; width: 100%; height: 100%; }
+    .orb {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      width: 82px;
+      height: 82px;
+      display: grid;
+      place-content: center;
+      gap: 2px;
+      border: 2px solid #d7eee6;
+      border-radius: 50%;
+      color: #fff;
+      background: #16875f;
+      box-shadow: 0 8px 22px rgba(22, 135, 95, 0.28);
+      cursor: grab;
+      user-select: none;
+      touch-action: none;
+      transition: background 220ms ease, transform 180ms ease, box-shadow 220ms ease;
+    }
+    .orb:active { cursor: grabbing; transform: scale(0.96); }
+    .orb span { font-size: 11px; font-weight: 800; }
+    .orb strong { font-size: 16px; letter-spacing: 0; }
+    .orb.has-new { animation: progressPulse 1.15s ease-in-out infinite; background: #2767c7; }
+    .orb:focus-visible { outline: 3px solid rgba(39, 103, 199, 0.28); outline-offset: 3px; }
+    .panel {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      width: 258px;
+      padding: 16px;
+      border: 1px solid #b9d9d2;
+      border-radius: 16px 16px 4px 16px;
+      color: #153249;
+      background: rgba(255, 255, 255, 0.98);
+      box-shadow: 0 16px 36px rgba(20, 67, 75, 0.2);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px) scale(0.98);
+      transition: opacity 170ms ease, transform 170ms ease;
+    }
+    #root[data-horizontal="right"] .orb { left: 0; right: auto; }
+    #root[data-horizontal="right"] .panel { left: auto; right: 0; }
+    #root[data-vertical="down"] .orb { top: 0; bottom: auto; }
+    #root[data-vertical="down"] .panel { top: auto; bottom: 0; }
+    #root[data-vertical="down"] .panel { transform: translateY(-8px) scale(0.98); }
+    .panel.open { opacity: 1; pointer-events: auto; transform: translateY(0) scale(1); }
+    #root[data-vertical="down"] .panel.open { transform: translateY(0) scale(1); }
+    .panel__top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .panel__top span { color: #607789; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; }
+    .panel__top strong { color: #0f656a; font-size: 24px; }
+    .track { height: 8px; margin: 13px 0 9px; overflow: hidden; border-radius: 999px; background: #e4efec; }
+    .track > span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #16875f, #2767c7); transition: width 420ms ease; }
+    .step { margin: 0; color: #607789; font-size: 13px; line-height: 1.35; }
+    .breakdown { display: grid; gap: 6px; margin-top: 12px; padding-top: 10px; border-top: 1px solid #e3efec; }
+    .breakdown__item { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #607789; font-size: 12px; font-weight: 750; }
+    .breakdown__item strong { color: #153249; font-size: 13px; }
+    .breakdown__dot { width: 8px; height: 8px; flex: 0 0 auto; border-radius: 50%; background: #2767c7; }
+    .breakdown__dot--test { background: #16875f; }
+    .breakdown__label { display: flex; align-items: center; gap: 7px; }
+    .hint { margin: 11px 0 0; color: #8a9ca9; font-size: 11px; }
+    @keyframes progressPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(39, 103, 199, 0.42), 0 8px 22px rgba(39, 103, 199, 0.3); }
+      50% { box-shadow: 0 0 0 11px rgba(39, 103, 199, 0), 0 10px 26px rgba(39, 103, 199, 0.35); }
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <section id="panel" class="panel" aria-live="polite">
+      <div class="panel__top"><span>Progres total</span><strong id="score">0%</strong></div>
+      <div class="track"><span id="fill"></span></div>
+      <p id="step" class="step"></p>
+      <div class="breakdown" aria-label="Defalcare progres">
+        <div class="breakdown__item">
+          <span class="breakdown__label"><i class="breakdown__dot"></i>AI Profesor</span>
+          <strong id="conversation-score">0 p</strong>
+        </div>
+        <div class="breakdown__item">
+          <span class="breakdown__label"><i class="breakdown__dot breakdown__dot--test"></i>Testare rapida</span>
+          <strong id="quick-test-score">0 p</strong>
+        </div>
+      </div>
+      <p class="hint">Apasă cercul pentru a închide. Trage-l pentru a-l muta.</p>
+    </section>
+    <button id="orb" class="orb" type="button" aria-label="Deschide progresul">
+      <span>Progres</span><strong id="orb-score">0%</strong>
+    </button>
+  </div>
+  <script>
+    const root = document.getElementById("root");
+    const orb = document.getElementById("orb");
+    const panel = document.getElementById("panel");
+    const score = document.getElementById("score");
+    const orbScore = document.getElementById("orb-score");
+    const fill = document.getElementById("fill");
+    const step = document.getElementById("step");
+    const conversationScore = document.getElementById("conversation-score");
+    const quickTestScore = document.getElementById("quick-test-score");
+    let args = {};
+    let expanded = false;
+    let dragged = false;
+    let dragStart = null;
+    let expansionDirection = { horizontal: "left", vertical: "up" };
+
+    function send(type, data) {
+      window.parent.postMessage({ isStreamlitMessage: true, type, ...data }, "*");
+    }
+
+    function setValue(value) {
+      send("streamlit:setComponentValue", { value, dataType: "json" });
+    }
+
+    function frameHost() {
+      try { return window.frameElement; } catch (_) { return null; }
+    }
+
+    function openStorageKey() {
+      return `bac_progress_orb_open:${args.work_id || "work"}`;
+    }
+
+    function positionStorageKey() {
+      return `bac_progress_orb_position:${args.work_id || "work"}`;
+    }
+
+    function readOpenState() {
+      try { return window.sessionStorage.getItem(openStorageKey()) === "true"; } catch (_) { return false; }
+    }
+
+    function storeOpenState() {
+      try { window.sessionStorage.setItem(openStorageKey(), String(expanded)); } catch (_) {}
+    }
+
+    function readStoredPosition() {
+      try {
+        const position = JSON.parse(window.sessionStorage.getItem(positionStorageKey()) || "null");
+        if (Number.isFinite(Number(position?.x)) && Number.isFinite(Number(position?.y))) {
+          return { x: Number(position.x), y: Number(position.y) };
+        }
+      } catch (_) {}
+      return null;
+    }
+
+    function storePosition(position) {
+      try { window.sessionStorage.setItem(positionStorageKey(), JSON.stringify(position)); } catch (_) {}
+    }
+
+    function isPosition(value) {
+      return Number.isFinite(Number(value?.x)) && Number.isFinite(Number(value?.y));
+    }
+
+    function chooseExpansionDirection(position, bounds, orbWidth, orbHeight) {
+      const spaceLeft = Number(position.x);
+      const spaceRight = Math.max(0, bounds.width - Number(position.x) - orbWidth);
+      const spaceAbove = Number(position.y);
+      const spaceBelow = Math.max(0, bounds.height - Number(position.y) - orbHeight);
+
+      return {
+        horizontal: spaceRight > spaceLeft ? "right" : "left",
+        vertical: spaceBelow > spaceAbove ? "down" : "up",
+      };
+    }
+
+    function applyExpansionDirection() {
+      root.dataset.horizontal = expansionDirection.horizontal;
+      root.dataset.vertical = expansionDirection.vertical;
+    }
+
+    function orbOffsets(width, height, orbWidth, orbHeight) {
+      return {
+        x: expansionDirection.horizontal === "left" ? width - orbWidth : 0,
+        y: expansionDirection.vertical === "up" ? height - orbHeight : 0,
+      };
+    }
+
+    function setFrameSize() {
+      const host = frameHost();
+      const width = expanded ? 340 : 86;
+      const height = expanded ? 250 : 86;
+      send("streamlit:setFrameHeight", { height });
+      if (!host) return;
+
+      host.style.setProperty("position", "fixed", "important");
+      host.style.setProperty("z-index", "2147483000", "important");
+      host.style.setProperty("width", `${width}px`, "important");
+      host.style.setProperty("height", `${height}px`, "important");
+      host.style.setProperty("border", "0", "important");
+      host.style.setProperty("background", "transparent", "important");
+      host.style.setProperty("overflow", "visible", "important");
+
+      const orbRect = orb.getBoundingClientRect();
+      const orbWidth = orbRect.width || 86;
+      const orbHeight = orbRect.height || 86;
+      // Keep the exact drop point locally while Streamlit processes the server-side save.
+      const position = readStoredPosition() || args.position;
+      const bounds = viewportBounds();
+      const anchor = isPosition(position)
+        ? { x: Number(position.x), y: Number(position.y) }
+        : { x: (bounds.width - orbWidth) / 2, y: (bounds.height - orbHeight) / 2 };
+
+      if (expanded) {
+        expansionDirection = chooseExpansionDirection(anchor, bounds, orbWidth, orbHeight);
+      }
+      applyExpansionDirection();
+
+      const offsets = orbOffsets(width, height, orbWidth, orbHeight);
+      const edgeGap = 12;
+      const minLeft = Math.min(edgeGap, Math.max(0, bounds.width - width));
+      const minTop = Math.min(edgeGap, Math.max(0, bounds.height - height));
+      const maxLeft = Math.max(minLeft, bounds.width - width - edgeGap);
+      const maxTop = Math.max(minTop, bounds.height - height - edgeGap);
+      const requestedLeft = anchor.x - offsets.x;
+      const requestedTop = anchor.y - offsets.y;
+      const left = Math.min(maxLeft, Math.max(minLeft, requestedLeft));
+      const top = Math.min(maxTop, Math.max(minTop, requestedTop));
+      host.style.setProperty("left", `${left}px`, "important");
+      host.style.setProperty("top", `${top}px`, "important");
+      host.style.removeProperty("bottom");
+    }
+
+    function updateView() {
+      const value = Math.max(0, Math.min(100, Number(args.score || 0)));
+      const hasNewProgress = value > Number(args.acknowledged_score || 0);
+      const formatPoints = (points) => {
+        const rounded = Math.round(Number(points || 0) * 10) / 10;
+        return Number.isInteger(rounded)
+          ? String(rounded)
+          : rounded.toFixed(1).replace(".", ",");
+      };
+      score.textContent = `${formatPoints(value)}%`;
+      orbScore.textContent = `${formatPoints(value)}%`;
+      fill.style.width = `${value}%`;
+      step.textContent = args.current_step || "Începe cu o secțiune";
+      conversationScore.textContent = `${formatPoints(Math.max(0, Number(args.conversation_score || 0)))} p`;
+      quickTestScore.textContent = `${formatPoints(Math.max(0, Number(args.quick_test_score || 0)))} p`;
+      panel.classList.toggle("open", expanded);
+      orb.classList.toggle("has-new", hasNewProgress);
+      orb.setAttribute("aria-expanded", String(expanded));
+      setFrameSize();
+    }
+
+    function emitPosition() {
+      const host = frameHost();
+      if (!host) return;
+      const hostRect = host.getBoundingClientRect();
+      const orbRect = orb.getBoundingClientRect();
+      const offsets = orbOffsets(hostRect.width, hostRect.height, orbRect.width, orbRect.height);
+      const position = {
+        x: Math.round(hostRect.left + offsets.x),
+        y: Math.round(hostRect.top + offsets.y),
+      };
+      storePosition(position);
+      setValue({
+        event_id: `position:${Date.now()}`,
+        type: "position",
+        // The circle is anchored to the bottom-right of the frame, even while the panel is open.
+        position,
+      });
+    }
+
+    function viewportBounds() {
+      try {
+        const viewport = window.parent.document.documentElement;
+        return {
+          width: viewport.clientWidth || window.parent.innerWidth,
+          height: viewport.clientHeight || window.parent.innerHeight,
+        };
+      } catch (_) {
+        return { width: window.innerWidth, height: window.innerHeight };
+      }
+    }
+
+    orb.addEventListener("pointerdown", (event) => {
+      dragged = false;
+      const host = frameHost();
+      if (!host) return;
+      dragStart = {
+        screenX: event.screenX,
+        screenY: event.screenY,
+        left: host.getBoundingClientRect().left,
+        top: host.getBoundingClientRect().top,
+      };
+      orb.setPointerCapture(event.pointerId);
+    });
+
+    orb.addEventListener("pointermove", (event) => {
+      if (!dragStart) return;
+      const dx = event.screenX - dragStart.screenX;
+      const dy = event.screenY - dragStart.screenY;
+      if (Math.abs(dx) + Math.abs(dy) < 4) return;
+      dragged = true;
+      const host = frameHost();
+      if (!host) return;
+      const bounds = viewportBounds();
+      const hostRect = host.getBoundingClientRect();
+      const edgeGap = 12;
+      const minLeft = Math.min(edgeGap, Math.max(0, bounds.width - hostRect.width));
+      const minTop = Math.min(edgeGap, Math.max(0, bounds.height - hostRect.height));
+      const maxLeft = Math.max(minLeft, bounds.width - hostRect.width - edgeGap);
+      const maxTop = Math.max(minTop, bounds.height - hostRect.height - edgeGap);
+      const left = Math.min(maxLeft, Math.max(minLeft, dragStart.left + dx));
+      const top = Math.min(maxTop, Math.max(minTop, dragStart.top + dy));
+      host.style.setProperty("left", `${left}px`, "important");
+      host.style.setProperty("top", `${top}px`, "important");
+      host.style.removeProperty("bottom");
+    });
+
+    orb.addEventListener("pointerup", (event) => {
+      if (orb.hasPointerCapture(event.pointerId)) orb.releasePointerCapture(event.pointerId);
+      if (dragged) emitPosition();
+      dragStart = null;
+    });
+
+    orb.addEventListener("click", () => {
+      if (dragged) return;
+      expanded = !expanded;
+      storeOpenState();
+      updateView();
+      if (expanded && Number(args.score || 0) > Number(args.acknowledged_score || 0)) {
+        setValue({ event_id: `ack:${Date.now()}`, type: "acknowledge" });
+      }
+    });
+
+    window.addEventListener("message", (event) => {
+      if (event.data?.type !== "streamlit:render") return;
+      args = event.data.args || {};
+      expanded = readOpenState();
+      updateView();
+    });
+
+    send("streamlit:componentReady", { apiVersion: 1 });
+  </script>
+</body>
+</html>

@@ -1,0 +1,461 @@
+{
+  "benchmark_id": "ION-EXP2-QUESTIONS-V1",
+  "task": "question_generation",
+  "graph_version": "2.0",
+  "questions": [
+    {
+      "question_id": "Q_001",
+      "slot_id": "SLOT_01",
+      "blueprint_id": "FACT_1HOP",
+      "status": "generated",
+      "question_text": "Cine este autorul romanului Ion?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Liviu Rebreanu",
+        "node_ids": [
+          "AUTHOR_REBREANU"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "WORK_ION"
+        ],
+        "predicates": [
+          "created_by"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "AUTHOR_REBREANU"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "WORK_ION",
+          "AUTHOR_REBREANU"
+        ],
+        "edge_ids": [
+          "EDGE_00034"
+        ],
+        "path_node_ids": [
+          "WORK_ION",
+          "AUTHOR_REBREANU"
+        ]
+      },
+      "scope": {
+        "chapter_ids": []
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 0
+      }
+    },
+    {
+      "question_id": "Q_002",
+      "slot_id": "SLOT_02",
+      "blueprint_id": "RELATION_1HOP",
+      "status": "generated",
+      "question_text": "Care este relația dintre personajul Ion al Glanetașului și Florica?",
+      "answer": {
+        "answer_type": "relation",
+        "text": "loves",
+        "node_ids": [
+          "CHAR_001",
+          "CHAR_003"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_001"
+        ],
+        "predicates": [
+          "loves"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CHAR_003"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_001",
+          "CHAR_003"
+        ],
+        "edge_ids": [
+          "EDGE_00099"
+        ],
+        "path_node_ids": [
+          "CHAR_001",
+          "CHAR_003"
+        ]
+      },
+      "scope": {
+        "chapter_ids": []
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 0
+      }
+    },
+    {
+      "question_id": "Q_003",
+      "slot_id": "SLOT_03",
+      "blueprint_id": "TEMPORAL_ORDER",
+      "status": "generated",
+      "question_text": "În ce ordine cronologică au loc evenimentele: Ion o alege pe Ana la joc, Vasile îl insultă pe Ion și Ion îl lovește pe George?",
+      "answer": {
+        "answer_type": "ordered_list",
+        "text": "Ion o alege pe Ana la joc, Vasile îl insultă pe Ion, Ion îl lovește pe George",
+        "node_ids": [
+          "EV_004",
+          "EV_006",
+          "EV_010"
+        ],
+        "ordered_node_ids": [
+          "EV_004",
+          "EV_006",
+          "EV_010"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_004"
+        ],
+        "predicates": [
+          "immediately_precedes",
+          "immediately_precedes"
+        ],
+        "intermediate_node_ids": [
+          "EV_006"
+        ],
+        "expected_result_ids": [
+          "EV_004",
+          "EV_006",
+          "EV_010"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_004",
+          "EV_006",
+          "EV_010"
+        ],
+        "edge_ids": [
+          "EDGE_00198",
+          "EDGE_00244",
+          "EDGE_00333"
+        ],
+        "path_node_ids": [
+          "EV_004",
+          "EV_006",
+          "EV_010"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 2,
+        "required_nodes": 3,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_004",
+      "slot_id": "SLOT_04",
+      "blueprint_id": "DIRECT_CAUSE",
+      "status": "generated",
+      "question_text": "Ce motivație directă stă la baza evenimentului în care Ion decide să o lase însărcinată pe Ana?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "sfatul lui Titu",
+        "node_ids": [
+          "MOT_037"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_037"
+        ],
+        "predicates": [
+          "has_motivation"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "MOT_037"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_037",
+          "MOT_037"
+        ],
+        "edge_ids": [
+          "EDGE_00937"
+        ],
+        "path_node_ids": [
+          "EV_037",
+          "MOT_037"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_04"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_005",
+      "slot_id": "SLOT_05",
+      "blueprint_id": "DIRECT_EFFECT",
+      "status": "generated",
+      "question_text": "Care este consecința directă a evenimentului în care Ion mută hotarul tăind brazda lui Simion Lungu?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "obsesia produce încălcarea proprietății altuia",
+        "node_ids": [
+          "CON_026"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_026"
+        ],
+        "predicates": [
+          "has_consequence"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CON_026"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_026",
+          "CON_026"
+        ],
+        "edge_ids": [
+          "EDGE_00690"
+        ],
+        "path_node_ids": [
+          "EV_026",
+          "CON_026"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_03"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_006",
+      "slot_id": "SLOT_06",
+      "blueprint_id": "MULTIHOP_CAUSAL",
+      "status": "generated",
+      "question_text": "Urmați lanțul cauzal de la sfatul lui Titu până la moartea Anei: cum duce sfatul la planul compromiterii și apoi la sinucidere?",
+      "answer": {
+        "answer_type": "ordered_list",
+        "text": "sfatul lui Titu -> Ion concepe compromiterea Anei -> Ana se spânzură",
+        "node_ids": [
+          "MOT_037",
+          "EV_037",
+          "EV_095"
+        ],
+        "ordered_node_ids": [
+          "MOT_037",
+          "EV_037",
+          "EV_095"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "MOT_037"
+        ],
+        "predicates": [
+          "motivates",
+          "causes"
+        ],
+        "intermediate_node_ids": [
+          "EV_037"
+        ],
+        "expected_result_ids": [
+          "MOT_037",
+          "EV_037",
+          "EV_095"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "MOT_037",
+          "EV_037",
+          "EV_095"
+        ],
+        "edge_ids": [
+          "EDGE_00938",
+          "EDGE_02889"
+        ],
+        "path_node_ids": [
+          "MOT_037",
+          "EV_037",
+          "EV_095"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_04",
+          "CH_10"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 2,
+        "required_nodes": 3,
+        "chapters_involved": 2
+      }
+    },
+    {
+      "question_id": "Q_007",
+      "slot_id": "SLOT_07",
+      "blueprint_id": "STATE_TRANSITION",
+      "status": "generated",
+      "question_text": "Cum se schimbă starea lui Ion între momentul în care își contemplă pământurile și cel în care este ucis de George?",
+      "answer": {
+        "answer_type": "state_change",
+        "text": "De la triumful posesiei (EV_080) la moarte (EV_113)",
+        "node_ids": [
+          "EV_080",
+          "EV_113"
+        ],
+        "ordered_node_ids": [
+          "EV_080",
+          "EV_113"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_080"
+        ],
+        "predicates": [
+          "occurs_before",
+          "results_in"
+        ],
+        "intermediate_node_ids": [
+          "EV_113"
+        ],
+        "expected_result_ids": [
+          "EV_080",
+          "EV_113"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_080",
+          "EV_113"
+        ],
+        "edge_ids": [
+          "EDGE_02125",
+          "EDGE_02685"
+        ],
+        "path_node_ids": [
+          "EV_080",
+          "EV_113"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_09",
+          "CH_13"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 2,
+        "required_nodes": 2,
+        "chapters_involved": 2
+      }
+    },
+    {
+      "question_id": "Q_008",
+      "slot_id": "SLOT_08",
+      "blueprint_id": "CROSS_CHAPTER_COMPARE",
+      "status": "generated",
+      "question_text": "Comparați reacția lui Ion față de pământ în Capitolul II (când cosește fâneața) cu cea din Capitolul IX (când sărută pământul).",
+      "answer": {
+        "answer_type": "comparison",
+        "text": "În Cap. II, pământul este sursa identității și puterii; în Cap. IX, pământul devine o iubită și obiectul unei obsesii erotice.",
+        "node_ids": [
+          "EV_011",
+          "EV_082"
+        ],
+        "ordered_node_ids": [
+          "EV_011",
+          "EV_082"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_011",
+          "EV_082"
+        ],
+        "predicates": [
+          "expresses_theme",
+          "expresses_theme"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "EV_011",
+          "EV_082"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_011",
+          "EV_082"
+        ],
+        "edge_ids": [
+          "EDGE_00363",
+          "EDGE_01969"
+        ],
+        "path_node_ids": [
+          "EV_011",
+          "EV_082"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_02",
+          "CH_09"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 2
+      }
+    }
+  ]
+}

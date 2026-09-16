@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "ion",
+    "title": "Ion",
+    "author": "Liviu Rebreanu"
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "reasoning_effort": "medium",
+    "attempts_per_element": 1,
+    "retry_on_invalid": false,
+    "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\cercetare\\graf2\\knowledge-graph.json",
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\ion\\intelegere-opera\\qwen-composition-runs\\run-20260821T151817Z"
+  },
+  "elements": [
+    {
+      "id": "incipit_final",
+      "title": "Relația incipit–final",
+      "central_idea": "Simetria structurală și tematică dintre incipit și final subliniază victoria continuității comunității rurale asupra destinului individual.",
+      "branches": [
+        {
+          "heading": "Incipitul",
+          "key_idea": "Stabilirea cadrului rural și declanșarea conflictelor fundamentale ale romanului.",
+          "explanation": "Romanul deschide prin descrierea drumului care introduce satul Pripas, urmată de hora duminicală care expune ierarhiile sociale și dorințele personajelor. În această fază, protagonistul este prezentat ca un tânăr harnic, dar sărac, aflat în căutarea pământului și confruntat cu opoziția familiei Anei. Aceste elemente configurează motorul acțiunii și stabilesc tonul realist al narativului.",
+          "evidence_node_ids": [
+            "CH_01",
+            "EV_001",
+            "EV_002",
+            "EV_005"
+          ]
+        },
+        {
+          "heading": "Finalul",
+          "key_idea": "Integrarea destinului tragic al eroului în ritmul etern al vieții colective.",
+          "explanation": "După moartea lui Ion sub nucul de la poarta casei ucigașului, averea sa este transferată bisericii, iar autoritățile preiau controlul asupra comunității. Viața satului revine la normalitate, iar tinerii continuă să joace horă, demonstrând că existența individuală este efemeră în fața perpetuității grupului. Structura închide cercul narativ, transformând tragedia personală într-un moment de echilibru social.",
+          "evidence_node_ids": [
+            "CH_13",
+            "EV_114",
+            "EV_117",
+            "EV_124"
+          ]
+        },
+        {
+          "heading": "Corespondențe și contraste",
+          "key_idea": "Repetiția motivelor circulare și opoziția dintre vitalitatea inițială și sfârșitul tragic.",
+          "explanation": "Începutul și sfârșitul sunt legate printr-o structură circulară, drumul care intra în sat devenind cel care iese din el, iar hora duminicală fiind reluată de tineri după tragedie. În contrast, gestul de forță al lui Ion la cârciumă, când îl învinge pe rival, se opune târârii sale slabe spre moarte, evidențiind prăbușirea ambiției materiale. Această simetrie întărește ideea că pământul și comunitatea supraviețuiesc oricărui individ.",
+          "evidence_node_ids": [
+            "CONCEPT_018",
+            "EV_001",
+            "EV_124",
+            "EV_002",
+            "EV_121"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Utilizarea simetriei pentru a demonstra viziunea obiectivă și deterministă a autorului.",
+          "explanation": "În eseu, poți argumenta că legătura dintre cele două capete ale romanului nu este doar o tehnică narativă, ci reflectă concepția realistă despre condiția umană. Comparând scena horei cu reluarea jocului tinerilor, vei sublinia cum destinul individual este relativizat de durata istorică a satului. Această abordare îți va permite să integrezi coerent teme precum obsesia pământului și continuitatea colectivă în analiza operei.",
+          "evidence_node_ids": [
+            "CONCEPT_011",
+            "CONCEPT_020",
+            "STATE_CH_01_OPEN",
+            "STATE_CH_13_CLOSE"
+          ]
+        }
+      ],
+      "essay_paragraph": "Relația dintre incipit și finalul romanului Ion funcționează ca un cadru circular care subliniază victoria continuității comunității rurale asupra destinului individual. La început, drumul introduce treptat satul Pripas, iar hora duminicală expune ierarhiile sociale și conflictele erotice ce vor ghida acțiunea. Protagonistul apare ca un tânăr ambițios, dominat de obsesia pământului, în timp ce comunitatea pare statică, dar plină de tensiuni latente. Spre deosebire de vitalitatea inițială, finalul prezintă moartea eroului sub nucul de la poartă și absorbția averii sale de către biserică. Totuși, viața satului nu se oprește, ci revine la ritmul ei natural, tinerii reluând jocul în curtea Todosiei. Această simetrie structurală demonstrează că existența individuală este efemeră, în timp ce grupul și tradițiile supraviețuiesc. Prin repetarea motivului horei și a imaginii drumului, autorul consolidează viziunea realistă asupra condiției umane, unde lupta pentru proprietate se stinge, dar continuitatea colectivă rămâne neschimbată.",
+      "memory_formula": [
+        "Structură circulară",
+        "Continuitate comunitară",
+        "Destin individual efemer"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "conflict",
+      "title": "Conflictul",
+      "central_idea": "Obsesia pământului funcționează ca motorul acțiunii și determinantul destinului protagonistului.",
+      "branches": [
+        {
+          "heading": "Conflictul central",
+          "key_idea": "Dorința de posesie materială dictează comportamentul și definește ierarhiile sociale.",
+          "explanation": "Ion este dominat de obsesia pământului, care îi devine criteriul suprem al demnității și puterii. Această aspirație îl determină să trateze căsătoria ca pe un contract strategic, transformând relațiile umane în simple mijloace de afirmare. Conflictele generate de această motivație structurează întreaga narațiune și ghidează evoluția personajelor.",
+          "evidence_node_ids": [
+            "CONCEPT_001",
+            "CONCEPT_004",
+            "CHAR_001"
+          ]
+        },
+        {
+          "heading": "Forme și planuri ale conflictului",
+          "key_idea": "Tensiunile se împletesc pe plan interior, social și erotic, creând o rețea complexă de opoziții.",
+          "explanation": "Protagonistul oscilează constant între chemarea pământului și atracția pentru Florica, trăind un conflict interior profund. Pe plan social, lupta pentru depășirea condiției de sărac se lovește de rigiditatea ierarhiei comunitare și de autoritatea religioasă. Rivalitatea erotică cu George Bulbuc amplifică aceste tensiuni, transformând fiecare interacțiune într-o confruntare pentru statut.",
+          "evidence_node_ids": [
+            "CONCEPT_005",
+            "CONCEPT_006",
+            "CONCEPT_003"
+          ]
+        },
+        {
+          "heading": "Evoluție și consecințe",
+          "key_idea": "Escaladarea luptelor produce un lanț tragic de victimizări și dezumanizări ireversibile.",
+          "explanation": "Amenințarea pierderii proprietății generează violență patriarhală și izolare, iar Ana devine victima colaterală a calculului lui Ion. Refuzul lui Vasile Baciu de a transfera actele și presiunea judecății intensifică suferința Anei, culminând cu sinuciderea ei. Moartea copilului și răzbunarea lui George închid cercul distrugerii, demonstrând că posesia materială nu poate compensa pierderea umană.",
+          "evidence_node_ids": [
+            "CONCEPT_007",
+            "CONCEPT_008",
+            "CONCEPT_009"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Analiza conflictului relevă mecanismele realiste și mesajul moral despre continuitatea comunității.",
+          "explanation": "Pentru eseu, subliniați cum fiecare formă de conflict contribuie la construcția unui personaj obiectiv și la critica societății rurale. Integrați exemple concrete din evenimente pentru a arăta cum tensiunile interne și sociale se împletesc, ducând la o concluzie despre persistența vieții colective în fața destinului individual. Această abordare demonstrează înțelegerea structurii și a profunzimii operei.",
+          "evidence_node_ids": [
+            "CONCEPT_011",
+            "CONCEPT_020",
+            "WORK_ION"
+          ]
+        }
+      ],
+      "essay_paragraph": "În romanul Ion al lui Liviu Rebreanu, conflictul constituie motorul principal al acțiunii și instrumentul fundamental prin care se construiește sensul operei. Protagonistul este dominat de obsesia pământului, care îi dictează fiecare alegere și transformă relațiile umane în simple mijloace de afirmare socială. Tensiunile se manifestă pe multiple planuri: un conflict interior profund, generat de oscilația dintre dorința de avere și atracția erotică pentru Florica, se suprapune peste lupta pentru depășirea condiției de sărac și peste rivalitatea cu George Bulbuc. Aceste forțe antagonice produc un lanț tragic de consecințe, în care Ana devine victima unei dezumanizări progresive, culminând cu sinuciderea ei. Prin acest mecanism realist, autorul demonstrează că posesia materială nu aduce împlinire, ci doar distrugere interioară. În final, moartea individului este relativizată de continuitatea vieții satului, sugerând că valorile colective și legile naturii persistă dincolo de ambițiile efemere ale omului.",
+      "memory_formula": [
+        "Pământul = identitate și putere",
+        "Iubire versus avere = conflict interior",
+        "Lanț tragic = victimizare plus continuitate comunitară"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "title",
+      "title": "Titlul",
+      "central_idea": "Titlul personalizează structura realistă, transformând numele eroului în motorul obsesiei pentru pământ și al dezumanizării morale.",
+      "branches": [
+        {
+          "heading": "Sens și tip de titlu",
+          "key_idea": "Nume propriu care identifică direct protagonistul romanului realist.",
+          "explanation": "Prin alegerea numelui Ion, autorul subliniază caracterul obiectiv și documentar al operei, concentrând narativul asupra destinului unui singur individ. Acest titlu simplu marchează intrarea într-o lume rurală unde identitatea este definită strict de statutul social și de relația cu pământul.",
+          "evidence_node_ids": [
+            "WORK_ION",
+            "CHAR_001"
+          ]
+        },
+        {
+          "heading": "Legătura cu opera",
+          "key_idea": "Numele centralizează acțiunea în jurul dorinței de proprietate și al conflictelor sociale generate de aceasta.",
+          "explanation": "Personajul titular este modelat de obsesia pământului, care îi dictează alegerile și îl transformă într-un instrument al propriei ambiții. Traseul său ilustrează lupta pentru depășirea condiției de sărac și sacrificiul iubirii în favoarea averii, determinând întregul lanț tragic al romanului.",
+          "evidence_node_ids": [
+            "CHAR_001",
+            "CONCEPT_001",
+            "CONCEPT_004",
+            "CONCEPT_009"
+          ]
+        },
+        {
+          "heading": "Semnificație literară",
+          "key_idea": "Titlul funcționează ca o etichetă simbolică a dezumanizării și a continuității comunitare.",
+          "explanation": "Prin focalizarea exclusivă pe numele eroului, textul relevă modul în care obsesia materială anulează umanitatea personajului, reducându-l la o forță motrice a conflictului. În același timp, titlul sugerează relativizarea destinului individual în fața ritmului neîntrerupt al vieții satului.",
+          "evidence_node_ids": [
+            "CONCEPT_008",
+            "CONCEPT_011",
+            "CONCEPT_020"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Elementul poate fi integrat ca punct de plecare pentru analiza structurii realiste și a mesajului moral al operei.",
+          "explanation": "Elevul poate începe eseul prin a evidenția cum titlul anunță o construcție narativă centrată pe psihologia eroului și pe mecanismele sociale. Această abordare permite demonstrarea modului în care numele protagonistului devine vehiculul principal prin care se transmit temele despre putere, rușine și consecințele alegerilor greșite.",
+          "evidence_node_ids": [
+            "WORK_ION",
+            "CONCEPT_001",
+            "CONCEPT_015"
+          ]
+        }
+      ],
+      "essay_paragraph": "Titlul romanului Ion constituie un indicator esențial al structurii realiste a operei lui Liviu Rebreanu, anunțând focalizarea narativă asupra destinului unui singur individ. Prin simpla sa prezență, numele protagonistului devine vehiculul principal prin care se explorează obsesia pământului și mecanismele unei ierarhii sociale dictate de avere. Romanul demonstrează cum această dorință de proprietate transformă eroul într-un agent al dezumanizării, sacrificând iubirea autentică și provocând un lanț tragic de consecințe pentru toate personajele implicate. Astfel, titlul nu marchează doar identitatea celui dintâi, ci subliniază relativizarea destinului individual în fața continuității comunității rurale. Analiza acestui element permite elevului să structureze eseul în jurul tensiunii dintre aspirația socială și integritatea morală, evidențiind mesajul profund al textului despre prețul plătit pentru succesul material și despre reziliența colectivității în fața dramei personale. Această perspectivă consolidează argumentarea academică și facilitează integrarea dovezilor textuale.",
+      "memory_formula": [
+        "Nume = protagonist obsedat",
+        "Pământ > iubire",
+        "Destin individual < comunitate"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "element_id": "incipit_final",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 5000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 21759,
+        "completion_tokens": 7598,
+        "total_tokens": 29357,
+        "cost": 0.00164051,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00164051,
+          "upstream_inference_prompt_cost": 0.00065277,
+          "upstream_inference_completions_cost": 0.00098774
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 6282,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "element_id": "conflict",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 5000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 36544,
+        "completion_tokens": 6350,
+        "total_tokens": 42894,
+        "cost": 0.0061944,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0061944,
+          "upstream_inference_prompt_cost": 0.0036544,
+          "upstream_inference_completions_cost": 0.00254
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 5151,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "element_id": "title",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 5000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 25783,
+        "completion_tokens": 5689,
+        "total_tokens": 31472,
+        "cost": 0.00151306,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00151306,
+          "upstream_inference_prompt_cost": 0.00077349,
+          "upstream_inference_completions_cost": 0.00073957
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4583,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

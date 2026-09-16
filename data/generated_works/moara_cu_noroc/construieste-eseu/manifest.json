@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "pipeline": "construieste-eseu",
+  "status": "ready",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "artifact": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\construieste-eseu\\eseu.json",
+  "source": {
+    "knowledge_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\grafuri\\moara-cu-noroc\\knowledge-graph.json",
+    "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\construieste-eseu\\eseu-model.md",
+    "model_essay_sha256": "50da830b75b7f9daa5f4718b92e9885122c1a3a642942e3bf51de29649ccc09f",
+    "input_model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\moara_cu_noroc.md"
+  },
+  "strict_trait_policy": {
+    "mode": "model_essay_only",
+    "expected_count": 2,
+    "reject_unlisted_traits": true,
+    "accepted_trait_ids": [
+      "trasatura_1",
+      "trasatura_2"
+    ],
+    "accepted_trait_titles": [
+      "Verosimilitatea evenimentelor petrecute în operă",
+      "Interesul pentru psihologia personajelor"
+    ],
+    "rule": "Sunt corecte exclusiv trăsăturile dezvoltate explicit în eseul-model; orice altă trăsătură este evaluată ca incorectă."
+  },
+  "generation": {
+    "model": "offline-result",
+    "reasoning_effort": "none",
+    "attempts": 0,
+    "retry_on_invalid": false,
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\construieste-eseu\\runs\\run-20260822T201325Z",
+    "reused_from": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\construieste-eseu\\runs\\run-20260822T200657Z\\result.json"
+  },
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "trait_count": 2,
+    "sequence_count": 2,
+    "source_excerpts_verified": true,
+    "trait_titles_verified": true,
+    "trait_model_fragments_verified": true,
+    "local_source_repairs": []
+  }
+}

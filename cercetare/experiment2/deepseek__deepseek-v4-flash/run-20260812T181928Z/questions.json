@@ -1,0 +1,487 @@
+{
+  "benchmark_id": "ION-EXP2-QUESTIONS-V1",
+  "task": "question_generation",
+  "graph_version": "2.0",
+  "questions": [
+    {
+      "question_id": "Q_001",
+      "slot_id": "SLOT_01",
+      "blueprint_id": "FACT_1HOP",
+      "status": "generated",
+      "question_text": "Cine este tatăl Anei?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Vasile Baciu",
+        "node_ids": [
+          "CHAR_005"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_002"
+        ],
+        "predicates": [
+          "is_child_of"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CHAR_005"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_002",
+          "CHAR_005"
+        ],
+        "edge_ids": [
+          "EDGE_00108"
+        ],
+        "path_node_ids": [
+          "CHAR_002",
+          "CHAR_005"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_002",
+      "slot_id": "SLOT_02",
+      "blueprint_id": "RELATION_1HOP",
+      "status": "generated",
+      "question_text": "Cu cine este căsătorit Ion?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Ana",
+        "node_ids": [
+          "CHAR_002"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_001"
+        ],
+        "predicates": [
+          "is_married_to"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CHAR_002"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_001",
+          "CHAR_002"
+        ],
+        "edge_ids": [
+          "EDGE_00103"
+        ],
+        "path_node_ids": [
+          "CHAR_001",
+          "CHAR_002"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_06"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_003",
+      "slot_id": "SLOT_03",
+      "blueprint_id": "TEMPORAL_ORDER",
+      "status": "generated",
+      "question_text": "Care este ordinea evenimentelor: Ion o alege pe Ana la joc, planul pământurilor se conturează, Vasile îl insultă pe Ion?",
+      "answer": {
+        "answer_type": "ordered_list",
+        "text": "1. Ion o alege pe Ana la joc, 2. Planul pământurilor se conturează, 3. Vasile îl insultă pe Ion.",
+        "node_ids": [],
+        "ordered_node_ids": [
+          "EV_004",
+          "EV_005",
+          "EV_006"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_004"
+        ],
+        "predicates": [
+          "occurs_before",
+          "occurs_before"
+        ],
+        "intermediate_node_ids": [
+          "EV_005"
+        ],
+        "expected_result_ids": [
+          "EV_006"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_004",
+          "EV_005",
+          "EV_006"
+        ],
+        "edge_ids": [
+          "EDGE_00225",
+          "EDGE_00247"
+        ],
+        "path_node_ids": [
+          "EV_004",
+          "EV_005",
+          "EV_006"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 2,
+        "required_nodes": 3,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_004",
+      "slot_id": "SLOT_04",
+      "blueprint_id": "DIRECT_CAUSE",
+      "status": "generated",
+      "question_text": "Care este motivația directă pentru care Ion mută hotarul?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Dorința de a recupera pământ pierdut de familie.",
+        "node_ids": [
+          "MOT_026"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_026"
+        ],
+        "predicates": [
+          "has_motivation"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "MOT_026"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_026",
+          "MOT_026"
+        ],
+        "edge_ids": [
+          "EDGE_00688"
+        ],
+        "path_node_ids": [
+          "EV_026",
+          "MOT_026"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_03"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_005",
+      "slot_id": "SLOT_05",
+      "blueprint_id": "DIRECT_EFFECT",
+      "status": "generated",
+      "question_text": "Care este consecința directă a faptului că Ion o alege pe Ana la joc?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Alegerea afectivă este subordonată averii.",
+        "node_ids": [
+          "CON_004"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_004"
+        ],
+        "predicates": [
+          "results_in"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CON_004"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_004",
+          "CON_004"
+        ],
+        "edge_ids": [
+          "EDGE_00187"
+        ],
+        "path_node_ids": [
+          "EV_004",
+          "CON_004"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_006",
+      "slot_id": "SLOT_06",
+      "blueprint_id": "MULTIHOP_CAUSAL",
+      "status": "generated",
+      "question_text": "Ce lanț cauzal duce de la observația Savistei la surprinderea lui Ion de către George?",
+      "answer": {
+        "answer_type": "causal_chain",
+        "text": "Savista observă legătura, apoi îl avertizează pe George, ceea ce îl face pe George să pregătească capcana, iar apoi George îl surprinde pe Ion.",
+        "node_ids": [],
+        "ordered_node_ids": [
+          "EV_107",
+          "EV_108",
+          "EV_110",
+          "EV_112"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_107"
+        ],
+        "predicates": [
+          "has_consequence",
+          "contributes_to",
+          "causes",
+          "enables"
+        ],
+        "intermediate_node_ids": [
+          "CON_107",
+          "EV_108",
+          "EV_110"
+        ],
+        "expected_result_ids": [
+          "EV_112"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_107",
+          "CON_107",
+          "EV_108",
+          "EV_110",
+          "EV_112"
+        ],
+        "edge_ids": [
+          "EDGE_02527",
+          "EDGE_02565",
+          "EDGE_02893",
+          "EDGE_02894"
+        ],
+        "path_node_ids": [
+          "EV_107",
+          "CON_107",
+          "EV_108",
+          "EV_110",
+          "EV_112"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_12",
+          "CH_13"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 4,
+        "required_nodes": 5,
+        "chapters_involved": 2
+      }
+    },
+    {
+      "question_id": "Q_007",
+      "slot_id": "SLOT_07",
+      "blueprint_id": "STATE_TRANSITION",
+      "status": "generated",
+      "question_text": "Cum se schimbă starea Anei de la începutul la sfârșitul capitolului Zece?",
+      "answer": {
+        "answer_type": "state_transition",
+        "text": "Ana trece de la o stare de boală și izolare la sinucidere, încheindu-și viața în grajd.",
+        "node_ids": [
+          "STATE_CH_10_OPEN",
+          "STATE_CH_10_CLOSE"
+        ],
+        "ordered_node_ids": [
+          "STATE_CH_10_OPEN",
+          "EV_090",
+          "EV_091",
+          "EV_092",
+          "EV_093",
+          "EV_094",
+          "EV_095",
+          "STATE_CH_10_CLOSE"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "STATE_CH_10_OPEN"
+        ],
+        "predicates": [
+          "enables",
+          "immediately_precedes",
+          "immediately_precedes",
+          "immediately_precedes",
+          "immediately_precedes",
+          "immediately_precedes",
+          "results_in"
+        ],
+        "intermediate_node_ids": [
+          "EV_090",
+          "EV_091",
+          "EV_092",
+          "EV_093",
+          "EV_094",
+          "EV_095"
+        ],
+        "expected_result_ids": [
+          "STATE_CH_10_CLOSE"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "STATE_CH_10_OPEN",
+          "EV_090",
+          "EV_091",
+          "EV_092",
+          "EV_093",
+          "EV_094",
+          "EV_095",
+          "STATE_CH_10_CLOSE"
+        ],
+        "edge_ids": [
+          "EDGE_02158",
+          "EDGE_02177",
+          "EDGE_02200",
+          "EDGE_02219",
+          "EDGE_02238",
+          "EDGE_02257",
+          "EDGE_02279"
+        ],
+        "path_node_ids": [
+          "STATE_CH_10_OPEN",
+          "EV_090",
+          "EV_091",
+          "EV_092",
+          "EV_093",
+          "EV_094",
+          "EV_095",
+          "STATE_CH_10_CLOSE"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_10"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 7,
+        "required_nodes": 8,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_008",
+      "slot_id": "SLOT_08",
+      "blueprint_id": "CROSS_CHAPTER_COMPARE",
+      "status": "generated",
+      "question_text": "În ce locație se desfășoară hora atât în capitolul I, cât și în capitolul XIII?",
+      "answer": {
+        "answer_type": "location",
+        "text": "În curtea Todosiei.",
+        "node_ids": [
+          "LOC_002"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_002"
+        ],
+        "predicates": [
+          "occurs_at"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "LOC_002"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_002",
+          "EV_121",
+          "LOC_002"
+        ],
+        "edge_ids": [
+          "EDGE_00141",
+          "EDGE_02843"
+        ],
+        "path_node_ids": [
+          "EV_002",
+          "LOC_002"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01",
+          "CH_13"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 1,
+        "required_nodes": 3,
+        "chapters_involved": 2
+      }
+    }
+  ]
+}

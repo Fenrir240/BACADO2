@@ -1,0 +1,271 @@
+{
+  "benchmark_id": "ION-EXP2-QUESTIONS-V1",
+  "task": "question_generation",
+  "graph_version": "2.0",
+  "questions": [
+    {
+      "question_id": "Q_001",
+      "slot_id": "SLOT_01",
+      "blueprint_id": "FACT_1HOP",
+      "status": "generated",
+      "question_text": "Ce consecință are faptul că Ion mută hotarul?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Obsesia produce încălcarea proprietății altuia.",
+        "node_ids": ["CON_026"],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": ["EV_026"],
+        "predicates": ["has_consequence"],
+        "intermediate_node_ids": [],
+        "expected_result_ids": ["CON_026"]
+      },
+      "evidence": {
+        "node_ids": ["EV_026", "CON_026"],
+        "edge_ids": ["EDGE_00690"],
+        "path_node_ids": ["EV_026", "CON_026"]
+      },
+      "scope": {
+        "chapter_ids": ["CH_03"]
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_002",
+      "slot_id": "SLOT_02",
+      "blueprint_id": "RELATION_1HOP",
+      "status": "generated",
+      "question_text": "Ce relație există între Ion și Florica?",
+      "answer": {
+        "answer_type": "relation",
+        "text": "Ion o iubește pe Florica.",
+        "node_ids": ["CHAR_003"],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": ["CHAR_001"],
+        "predicates": ["loves"],
+        "intermediate_node_ids": [],
+        "expected_result_ids": ["CHAR_003"]
+      },
+      "evidence": {
+        "node_ids": ["CHAR_001", "CHAR_003"],
+        "edge_ids": ["EDGE_00099"],
+        "path_node_ids": ["CHAR_001", "CHAR_003"]
+      },
+      "scope": {
+        "chapter_ids": []
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 0
+      }
+    },
+    {
+      "question_id": "Q_003",
+      "slot_id": "SLOT_03",
+      "blueprint_id": "TEMPORAL_ORDER",
+      "status": "generated",
+      "question_text": "În ce ordine se petrec evenimentele: Ion o alege pe Ana la joc, planul pământurilor se conturează și Vasile îl insultă pe Ion?",
+      "answer": {
+        "answer_type": "ordered_events",
+        "text": "Ion o alege pe Ana la joc, planul pământurilor se conturează, Vasile îl insultă pe Ion.",
+        "node_ids": ["EV_004", "EV_005", "EV_006"],
+        "ordered_node_ids": ["EV_004", "EV_005", "EV_006"]
+      },
+      "query_plan": {
+        "start_node_ids": ["EV_004"],
+        "predicates": ["immediately_precedes", "immediately_precedes"],
+        "intermediate_node_ids": ["EV_005"],
+        "expected_result_ids": ["EV_004", "EV_005", "EV_006"]
+      },
+      "evidence": {
+        "node_ids": ["EV_004", "EV_005", "EV_006"],
+        "edge_ids": ["EDGE_00222", "EDGE_00244"],
+        "path_node_ids": ["EV_004", "EV_005", "EV_006"]
+      },
+      "scope": {
+        "chapter_ids": ["CH_01"]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 2,
+        "required_nodes": 3,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_004",
+      "slot_id": "SLOT_04",
+      "blueprint_id": "DIRECT_CAUSE",
+      "status": "generated",
+      "question_text": "Care este motivația directă pentru care Ion îl lovește pe George?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Disputa pentru lăutari și revanșa împotriva lui Vasile.",
+        "node_ids": ["MOT_010"],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": ["EV_010"],
+        "predicates": ["has_motivation"],
+        "intermediate_node_ids": [],
+        "expected_result_ids": ["MOT_010"]
+      },
+      "evidence": {
+        "node_ids": ["EV_010", "MOT_010"],
+        "edge_ids": ["EDGE_00320"],
+        "path_node_ids": ["EV_010", "MOT_010"]
+      },
+      "scope": {
+        "chapter_ids": ["CH_01"]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_005",
+      "slot_id": "SLOT_05",
+      "blueprint_id": "DIRECT_EFFECT",
+      "status": "generated",
+      "question_text": "Care este consecința directă a bătăii de la cârciumă dintre Ion și George?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Ion câștigă respect, iar rivalitatea rămâne activă.",
+        "node_ids": ["CON_010"],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": ["EV_010"],
+        "predicates": ["has_consequence"],
+        "intermediate_node_ids": [],
+        "expected_result_ids": ["CON_010"]
+      },
+      "evidence": {
+        "node_ids": ["EV_010", "CON_010"],
+        "edge_ids": ["EDGE_00322"],
+        "path_node_ids": ["EV_010", "CON_010"]
+      },
+      "scope": {
+        "chapter_ids": ["CH_01"]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_006",
+      "slot_id": "SLOT_06",
+      "blueprint_id": "MULTIHOP_CAUSAL",
+      "status": "generated",
+      "question_text": "Ce lanț cauzal leagă compromiterea Anei de amânarea transferului pământurilor?",
+      "answer": {
+        "answer_type": "ordered_events",
+        "text": "Ion concepe compromiterea Anei, ceea ce îl face pe Vasile să accepte căsătoria; acceptarea căsătoriei contribuie la refuzul transferului pământurilor, iar refuzul are ca efect continuarea luptei pentru avere.",
+        "node_ids": ["EV_037", "EV_056", "CON_056", "EV_057", "CON_057"],
+        "ordered_node_ids": ["EV_037", "EV_056", "CON_056", "EV_057", "CON_057"]
+      },
+      "query_plan": {
+        "start_node_ids": ["EV_037"],
+        "predicates": ["causes", "has_consequence", "contributes_to", "has_consequence"],
+        "intermediate_node_ids": ["EV_056", "CON_056", "EV_057"],
+        "expected_result_ids": ["EV_037", "EV_056", "CON_056", "EV_057", "CON_057"]
+      },
+      "evidence": {
+        "node_ids": ["EV_037", "EV_056", "CON_056", "EV_057", "CON_057"],
+        "edge_ids": ["EDGE_02889", "EDGE_01373", "EDGE_01406", "EDGE_01394"],
+        "path_node_ids": ["EV_037", "EV_056", "CON_056", "EV_057", "CON_057"]
+      },
+      "scope": {
+        "chapter_ids": ["CH_04", "CH_06"]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 4,
+        "required_nodes": 5,
+        "chapters_involved": 2
+      }
+    },
+    {
+      "question_id": "Q_007",
+      "slot_id": "SLOT_07",
+      "blueprint_id": "STATE_TRANSITION",
+      "status": "generated",
+      "question_text": "Cum se schimbă starea lui Ion în capitolul al VII-lea?",
+      "answer": {
+        "answer_type": "state_transition",
+        "text": "Inițial, Ion este căsătorit cu Ana, dar Vasile deține pământurile; după întocmirea actelor, Ion devine proprietar și respectat.",
+        "node_ids": ["CHAR_001"],
+        "ordered_node_ids": ["CHAR_001"]
+      },
+      "query_plan": {
+        "start_node_ids": ["EV_069"],
+        "predicates": ["changes_state_of"],
+        "intermediate_node_ids": [],
+        "expected_result_ids": ["CHAR_001"]
+      },
+      "evidence": {
+        "node_ids": ["STATE_CH_07_OPEN", "EV_069", "STATE_CH_07_CLOSE", "CHAR_001"],
+        "edge_ids": ["EDGE_01677", "EDGE_01546", "EDGE_01547"],
+        "path_node_ids": ["EV_069", "CHAR_001"]
+      },
+      "scope": {
+        "chapter_ids": ["CH_07"]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 4,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_008",
+      "slot_id": "SLOT_08",
+      "blueprint_id": "CROSS_CHAPTER_COMPARE",
+      "status": "generated",
+      "question_text": "Ce relație există între evenimentul de deschidere și cel de închidere al romanului?",
+      "answer": {
+        "answer_type": "comparison",
+        "text": "Evenimentul 'Drumul intră în Pripas' din capitolul I este paralel cu evenimentul 'Viața satului continuă' din capitolul XIII.",
+        "node_ids": ["EV_001", "EV_122"],
+        "ordered_node_ids": ["EV_001", "EV_122"]
+      },
+      "query_plan": {
+        "start_node_ids": ["EV_001"],
+        "predicates": ["parallels"],
+        "intermediate_node_ids": [],
+        "expected_result_ids": ["EV_001", "EV_122"]
+      },
+      "evidence": {
+        "node_ids": ["EV_001", "EV_122", "CH_01", "CH_13"],
+        "edge_ids": ["EDGE_02897", "EDGE_00127", "EDGE_02866"],
+        "path_node_ids": ["EV_001", "EV_122"]
+      },
+      "scope": {
+        "chapter_ids": ["CH_01", "CH_13"]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 1,
+        "required_nodes": 4,
+        "chapters_involved": 2
+      }
+    }
+  ]
+}

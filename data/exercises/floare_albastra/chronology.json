@@ -1,0 +1,116 @@
+{
+  "exercises": [
+    {
+      "id": "CHRONO_01",
+      "title": "Ordinea tablourilor din structura poemului",
+      "instructions": "Ordonează cronologic etapele structurale ale poemului, corespunzătoare celor patru tablouri definite în analiză.",
+      "items": [
+        {
+          "position": 1,
+          "event": "Tabloul I: Reproșul adresat evadării în sferele cunoașterii absolute (ST_01, ST_02, ST_03)",
+          "source_refs": [
+            "ST_01",
+            "ST_02",
+            "ST_03"
+          ]
+        },
+        {
+          "position": 2,
+          "event": "Tabloul II: Conștientizarea incompatibilității dintre absolutul spiritual și trăirea imediată (ST_04)",
+          "source_refs": [
+            "ST_04"
+          ]
+        },
+        {
+          "position": 3,
+          "event": "Tabloul III: Proiectarea scenariului pastoral și a ritualului erotic în natură (ST_05, ST_06, ST_12)",
+          "source_refs": [
+            "ST_05",
+            "ST_06",
+            "ST_12"
+          ]
+        },
+        {
+          "position": 4,
+          "event": "Tabloul IV: Meditația elegiacă asupra despărțirii și constatarea tristeții universale (ST_13, ST_14)",
+          "source_refs": [
+            "ST_13",
+            "ST_14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CHRONO_02",
+      "title": "Evoluția discursului și alternanța vocilor lirice",
+      "instructions": "Reconstituie succesiunea intervențiilor vocilor lirice și rolul lor funcțional în derularea poemului.",
+      "items": [
+        {
+          "position": 1,
+          "event": "Inițierea dialogului de către vocea feminină, care semnalează absența cosmică (ST_01)",
+          "source_refs": [
+            "ST_01"
+          ]
+        },
+        {
+          "position": 2,
+          "event": "Intervenția voicii masculine, marcată de tăcere și acceptarea verității enunțate (ST_04)",
+          "source_refs": [
+            "ST_04"
+          ]
+        },
+        {
+          "position": 3,
+          "event": "Reluarea inițiativei de către vocea feminină, care descrie detaliile intimității rustice (ST_06)",
+          "source_refs": [
+            "ST_06"
+          ]
+        },
+        {
+          "position": 4,
+          "event": "Preluarea finalului de către vocea masculină, care surprinde pietrificarea și dispariția iubitului (ST_13)",
+          "source_refs": [
+            "ST_13"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CHRONO_03",
+      "title": "Dezvoltarea ideii poetice despre condiția geniului și efemeritate",
+      "instructions": "Ordonează pașii logici ai dezvoltării nucleului tematic ce conturează incompatibilitatea dintre setea de absolut și fericirea comună.",
+      "items": [
+        {
+          "position": 1,
+          "event": "Evidențierea antitezei dintre infinitul cunoașterii și limitele trăirii concrete (ST_01, ST_03)",
+          "source_refs": [
+            "ST_01",
+            "ST_03"
+          ]
+        },
+        {
+          "position": 2,
+          "event": "Acceptarea tacită a diferenței de viziune și a distanței structurale (ST_04)",
+          "source_refs": [
+            "ST_04"
+          ]
+        },
+        {
+          "position": 3,
+          "event": "Tentativa de reconciliere prin imersiunea în codrul pastoral și jocurile populare (ST_05, ST_07)",
+          "source_refs": [
+            "ST_05",
+            "ST_07"
+          ]
+        },
+        {
+          "position": 4,
+          "event": "Constatarea ireversibilității momentului și generalizarea tristeții ca stare universală (ST_14)",
+          "source_refs": [
+            "ST_14"
+          ]
+        }
+      ]
+    }
+  ]
+}

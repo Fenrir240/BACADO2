@@ -1,0 +1,259 @@
+{
+  "work_id": "floare_albastra",
+  "title": "Floare albastră",
+  "author": "Mihai Eminescu",
+  "cards": [
+    {
+      "id": "FC_01",
+      "front": "În ce revistă și anul publicării operei „Floare albastră”, precum și perioada eminesciană corespunzătoare?",
+      "back": "Publicată în 1873 în revista „Convorbiri literare”, aparține Epocii Marilor Clasici, perioadă a tinereții poetului care prefigurează creațiile ulterioare.",
+      "category": "context",
+      "difficulty": "easy",
+      "source_refs": [
+        "WORK_FLOARE_ALBASTRA"
+      ]
+    },
+    {
+      "id": "FC_02",
+      "front": "Ce specii literare se îmbină în acest poem, conform clasificării oferite?",
+      "back": "Poemul este un exemplu de amestec al speciilor literare, îmbinând egloga, pastelul și meditația elegiacă.",
+      "category": "context",
+      "difficulty": "medium",
+      "source_refs": [
+        "TRAIT_SPECIES_MIX"
+      ]
+    },
+    {
+      "id": "FC_03",
+      "front": "Care este semnificația contextuală a operei în evoluția creației eminesciene?",
+      "back": "Reprezintă perioada tinereții poetului, marcând o fază de experimentare stilistică și tematică ce va cristaliza ulterior marile creații filozofice.",
+      "category": "context",
+      "difficulty": "medium",
+      "source_refs": [
+        "historical_context"
+      ]
+    },
+    {
+      "id": "FC_04",
+      "front": "Cum definește fișa pedagogică romantismul canonic eminescian?",
+      "back": "Un curent fondat pe antiteză, primatul sensibilității și evadarea în natură.",
+      "category": "curent",
+      "difficulty": "easy",
+      "source_refs": [
+        "definition"
+      ]
+    },
+    {
+      "id": "FC_05",
+      "front": "Ce rol joacă antiteza în structura ideatică a poemului?",
+      "back": "Funcționează ca principiu compozițional, structurând conflictul dintre absolutul cunoașterii (geniul) și efemeritatea trăirii imediate (omul comun).",
+      "category": "curent",
+      "difficulty": "hard",
+      "source_refs": [
+        "TRAIT_ANTITHESIS"
+      ]
+    },
+    {
+      "id": "FC_06",
+      "front": "Cum susține îmbinarea genurilor caracterul romantic al operei?",
+      "back": "Contopirea idilei rustice cu pastelul descriptiv și meditația elegiacă demonstrează libertatea romantică față de rigiditatea clasicistă a genurilor.",
+      "category": "curent",
+      "difficulty": "medium",
+      "source_refs": [
+        "TRAIT_SPECIES_MIX"
+      ]
+    },
+    {
+      "id": "FC_07",
+      "front": "Care este ideea poetică asociată temei iubirii în acest text?",
+      "back": "În interpretarea eseului-model, evidențiază imposibilitatea împlinirii durabile între idealul cosmic și trăirea terestră concretă.",
+      "category": "teme",
+      "difficulty": "medium",
+      "source_refs": [
+        "ST_01"
+      ]
+    },
+    {
+      "id": "FC_08",
+      "front": "Ce reflectă tema condiției omului de geniu asupra incompatibilității sale?",
+      "back": "În interpretarea eseului-model, subliniază incompatibilitatea funciară dintre setea de absolut și orizontul limitat al fericirii comune.",
+      "category": "teme",
+      "difficulty": "hard",
+      "source_refs": [
+        "ST_04"
+      ]
+    },
+    {
+      "id": "FC_09",
+      "front": "Cum este conceput timpul în registrul tematic al poemului?",
+      "back": "În interpretarea eseului-model, este prezentat ca factor al trecătorii clipei de extaz și al imposibilității conservării fericirii contingente, culminând cu conștiința pierderii.",
+      "category": "teme",
+      "difficulty": "medium",
+      "source_refs": [
+        "ST_14"
+      ]
+    },
+    {
+      "id": "FC_10",
+      "front": "Pe ce patru secvențe majore (tablouri) este organizată compoziția poemului?",
+      "back": "1) Monologul fetei și reproșul cunoașterii abstracte; 2) Monologul interior al geniului și distanța; 3) Al doilea monolog al fetei și scenariul idilei; 4) Meditația elegiacă finală și ireversibilitatea.",
+      "category": "structura",
+      "difficulty": "hard",
+      "source_refs": [
+        "SEQ_01",
+        "SEQ_02",
+        "SEQ_03",
+        "SEQ_04"
+      ]
+    },
+    {
+      "id": "FC_11",
+      "front": "Ce relație simetrică se stabilește între incipit și finalul poemului?",
+      "back": "Adresarea tandră din incipit („Iar te-ai cufundat în stele...”) devine lamentație tragică a despărțirii în final („Și te-ai dus, dulce minune...”)",
+      "category": "structura",
+      "difficulty": "medium",
+      "source_refs": [
+        "ST_01",
+        "ST_14"
+      ]
+    },
+    {
+      "id": "FC_12",
+      "front": "Enumerați principalele opoziții structurale ale poemului.",
+      "back": "Cosmic-terestru, eternitate-moarte, abstract-concret, bărbat-femeie, apolinic-dionisiac.",
+      "category": "structura",
+      "difficulty": "easy",
+      "source_refs": [
+        "oppositions"
+      ]
+    },
+    {
+      "id": "FC_13",
+      "front": "Ce ipostază reprezintă vocea feminină și care sunt markerii ei lingvistici?",
+      "back": "Reprezintă ipostaza omului comun, cald și ancorat în viața concretă. Markerii includ forme populare/arhaice: „încalte”, „mititica”, „mi-i spune”, „cine treabă are”.",
+      "category": "voci",
+      "difficulty": "medium",
+      "source_refs": [
+        "VOICE_FEMININE"
+      ]
+    },
+    {
+      "id": "FC_14",
+      "front": "Cum este configurată vocea masculină și ce trăsături are?",
+      "back": "Corespunde eului reflexiv, atras de infinitul cunoașterii. Markerii specifici sunt: „n-am zis nimica”, „eu stam”, „albastra-mi floare”.",
+      "category": "voci",
+      "difficulty": "medium",
+      "source_refs": [
+        "VOICE_MASCULINE"
+      ]
+    },
+    {
+      "id": "FC_15",
+      "front": "Ce tip de situație lirică domină textul și cum se realizează adresarea?",
+      "back": "Poezie dramatică/dialogică cu accente eglogale și elegiace, prin adresare directă și inversă, alternând monologul interior cu replicile către iubit/iubită.",
+      "category": "voci",
+      "difficulty": "easy",
+      "source_refs": [
+        "addressing",
+        "lyrical_type"
+      ]
+    },
+    {
+      "id": "FC_16",
+      "front": "Care este semnificația titlului «Floare albastră»?",
+      "back": "Sintagma romantică polisemantică",
+      "category": "limbaj",
+      "difficulty": "hard",
+      "source_refs": [
+        "COMP_TITLE"
+      ]
+    },
+    {
+      "id": "FC_17",
+      "front": "Identificați două figuri de stil relevante pentru planul spațial al poemului.",
+      "back": "Metafora cognitivă („râuri în soare”) ilustrează cunoașterea pură, iar epitetele descriptive („balta cea senină”, „trestia cea lină”) creează armonie pastorală.",
+      "category": "limbaj",
+      "difficulty": "medium",
+      "source_refs": [
+        "FIG_SUN_RIVERS",
+        "FIG_WEEPING_SPRINGS"
+      ]
+    },
+    {
+      "id": "FC_18",
+      "front": "Ce semnificație au termenii „încalte” și „de-aur” în contextul poetic?",
+      "back": "„Încalte” înseamnă «măcar», «cel puțin»; Adverb popular și arhaic cu sensul «măcar», «cel puțin», «barem».",
+      "category": "limbaj",
+      "difficulty": "medium",
+      "source_refs": [
+        "key_vocabulary"
+      ]
+    },
+    {
+      "id": "FC_19",
+      "front": "Din ce tip de strofe este alcătuită poezia?",
+      "back": "Catrene",
+      "category": "prozodie",
+      "difficulty": "easy",
+      "source_refs": [
+        "PROS_RHYTHM_METER"
+      ],
+      "characters": []
+    },
+    {
+      "id": "FC_20",
+      "front": "Care este schema rimei?",
+      "back": "Îmbrățișată (a-b-b-a)",
+      "category": "prozodie",
+      "difficulty": "easy",
+      "source_refs": [
+        "PROS_RHYTHM_METER"
+      ],
+      "characters": []
+    },
+    {
+      "id": "FC_21",
+      "front": "Care sunt ritmul și măsura versurilor?",
+      "back": "Ritm trohaic, cu măsura de 7-8 silabe.",
+      "category": "prozodie",
+      "difficulty": "medium",
+      "source_refs": [
+        "PROS_RHYTHM_METER"
+      ],
+      "characters": []
+    },
+    {
+      "id": "FC_22",
+      "front": "Ce idee susține citatul «Iar te-ai cufundat în stele / Și în nori și-n ceruri nalte?»?",
+      "back": "Monologul inițial feminin",
+      "category": "citate",
+      "difficulty": "medium",
+      "source_refs": [
+        "EV_02"
+      ],
+      "characters": []
+    },
+    {
+      "id": "FC_23",
+      "front": "Ce idee susține citatul «Ah! ea spuse adevărul; / Eu am râs, n-am zis nimica.»?",
+      "back": "Reacția masculină meditativă",
+      "category": "citate",
+      "difficulty": "medium",
+      "source_refs": [
+        "EV_03"
+      ],
+      "characters": []
+    },
+    {
+      "id": "FC_24",
+      "front": "Ce idee susține citatul «Hai în codrul cu verdeață, / Und-izvoare plâng în vale»?",
+      "back": "Chemarea în natura ocrotitoare",
+      "category": "citate",
+      "difficulty": "medium",
+      "source_refs": [
+        "EV_04"
+      ],
+      "characters": []
+    }
+  ]
+}

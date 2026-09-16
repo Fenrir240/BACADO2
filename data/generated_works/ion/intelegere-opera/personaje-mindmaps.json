@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "ion",
+    "title": "Ion",
+    "author": "Liviu Rebreanu"
+  },
+  "source": {
+    "kind": "knowledge_graph",
+    "generator": "scripts/build_character_mindmaps.py",
+    "deterministic": true,
+    "uses_ai": false
+  },
+  "characters": {
+    "CHAR_001": {
+      "id": "CHAR_001",
+      "name": "Ion al Glanetașului",
+      "tree_label": "I. Glanetașului",
+      "short_role": "Țăran sărac, energic și ambițios, dominat de dorința de pământ și de atracția pentru Flor…",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Țăran sărac, energic și ambițios, dominat de dorința de pământ și de atracția pentru Florica.",
+      "village_role": "Țăran sărac, energic și ambițios, dominat de dorința de pământ și de atracția pentru Florica.",
+      "human_type": "Personaj principal, documentat în 88 evenimente narative."
+    },
+    "CHAR_002": {
+      "id": "CHAR_002",
+      "name": "Ana",
+      "tree_label": "Ana",
+      "short_role": "Fiica lui Vasile Baciu, vulnerabilă și lipsită de sprijin, folosită de Ion pentru obținer…",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Fiica lui Vasile Baciu, vulnerabilă și lipsită de sprijin, folosită de Ion pentru obținerea averii.",
+      "village_role": "Fiica lui Vasile Baciu, vulnerabilă și lipsită de sprijin, folosită de Ion pentru obținerea averii.",
+      "human_type": "Personaj principal, documentat în 45 evenimente narative."
+    },
+    "CHAR_005": {
+      "id": "CHAR_005",
+      "name": "Vasile Baciu",
+      "tree_label": "Vasile Baciu",
+      "short_role": "Tatăl autoritar al Anei și proprietarul pământurilor urmărite de Ion",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Tatăl autoritar al Anei și proprietarul pământurilor urmărite de Ion.",
+      "village_role": "Tatăl autoritar al Anei și proprietarul pământurilor urmărite de Ion.",
+      "human_type": "Personaj secundar, documentat în 28 evenimente narative."
+    },
+    "CHAR_004": {
+      "id": "CHAR_004",
+      "name": "George Bulbuc",
+      "tree_label": "George Bulbuc",
+      "short_role": "Flăcău înstărit, rivalul social și erotic al lui Ion, apoi soțul Floricăi",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Flăcău înstărit, rivalul social și erotic al lui Ion, apoi soțul Floricăi.",
+      "village_role": "Flăcău înstărit, rivalul social și erotic al lui Ion, apoi soțul Floricăi.",
+      "human_type": "Personaj secundar, documentat în 18 evenimente narative."
+    },
+    "CHAR_003": {
+      "id": "CHAR_003",
+      "name": "Florica",
+      "tree_label": "Florica",
+      "short_role": "Fată săracă iubită de Ion, devenită ulterior soția lui George Bulbuc",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Fată săracă iubită de Ion, devenită ulterior soția lui George Bulbuc.",
+      "village_role": "Fată săracă iubită de Ion, devenită ulterior soția lui George Bulbuc.",
+      "human_type": "Personaj secundar, documentat în 18 evenimente narative."
+    },
+    "CHAR_008": {
+      "id": "CHAR_008",
+      "name": "Zaharia Herdelea",
+      "tree_label": "Z. Herdelea",
+      "short_role": "Învățătorul satului, prins între familie, autorități și nevoia de prestigiu",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Învățătorul satului, prins între familie, autorități și nevoia de prestigiu.",
+      "village_role": "Învățătorul satului, prins între familie, autorități și nevoia de prestigiu.",
+      "human_type": "Personaj secundar, documentat în 16 evenimente narative."
+    },
+    "CHAR_013": {
+      "id": "CHAR_013",
+      "name": "Preotul Belciug",
+      "tree_label": "P. Belciug",
+      "short_role": "Autoritate religioasă energică, implicată în conflictele satului și în destinul averii lu…",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Autoritate religioasă energică, implicată în conflictele satului și în destinul averii lui Ion.",
+      "village_role": "Autoritate religioasă energică, implicată în conflictele satului și în destinul averii lui Ion.",
+      "human_type": "Personaj secundar, documentat în 14 evenimente narative."
+    },
+    "CHAR_011": {
+      "id": "CHAR_011",
+      "name": "Laura Herdelea",
+      "tree_label": "L. Herdelea",
+      "short_role": "Fiica învățătorului, prinsă între iubirea pentru Aurel și căsătoria avantajoasă cu Pintea",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Fiica învățătorului, prinsă între iubirea pentru Aurel și căsătoria avantajoasă cu Pintea.",
+      "village_role": "Fiica învățătorului, prinsă între iubirea pentru Aurel și căsătoria avantajoasă cu Pintea.",
+      "human_type": "Personaj secundar, documentat în 9 evenimente narative."
+    },
+    "CHAR_010": {
+      "id": "CHAR_010",
+      "name": "Titu Herdelea",
+      "tree_label": "Titu Herdelea",
+      "short_role": "Tânăr intelectual și poet aspirant, autorul sfatului care influențează planul lui Ion",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Tânăr intelectual și poet aspirant, autorul sfatului care influențează planul lui Ion.",
+      "village_role": "Tânăr intelectual și poet aspirant, autorul sfatului care influențează planul lui Ion.",
+      "human_type": "Personaj secundar, documentat în 8 evenimente narative."
+    },
+    "CHAR_009": {
+      "id": "CHAR_009",
+      "name": "Maria Herdelea",
+      "tree_label": "M. Herdelea",
+      "short_role": "Soția învățătorului și centrul practic al familiei Herdelea",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Soția învățătorului și centrul practic al familiei Herdelea.",
+      "village_role": "Soția învățătorului și centrul practic al familiei Herdelea.",
+      "human_type": "Personaj secundar, documentat în 6 evenimente narative."
+    },
+    "CHAR_014": {
+      "id": "CHAR_014",
+      "name": "Petrișor",
+      "tree_label": "Petrișor",
+      "short_role": "Fiul Anei și al lui Ion, văzut de Ion și ca garanție a moștenirii",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Fiul Anei și al lui Ion, văzut de Ion și ca garanție a moștenirii.",
+      "village_role": "Fiul Anei și al lui Ion, văzut de Ion și ca garanție a moștenirii.",
+      "human_type": "Personaj secundar, documentat în 7 evenimente narative."
+    },
+    "CHAR_018": {
+      "id": "CHAR_018",
+      "name": "George Pintea",
+      "tree_label": "George Pintea",
+      "short_role": "Teologul care o cere și o ia de soție pe Laura fără zestre",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Teologul care o cere și o ia de soție pe Laura fără zestre.",
+      "village_role": "Teologul care o cere și o ia de soție pe Laura fără zestre.",
+      "human_type": "Personaj secundar, documentat în 5 evenimente narative."
+    },
+    "CHAR_016": {
+      "id": "CHAR_016",
+      "name": "Simion Lungu",
+      "tree_label": "Simion Lungu",
+      "short_role": "Vecinul prejudiciat când Ion mută hotarul și îi taie o brazdă",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Vecinul prejudiciat când Ion mută hotarul și îi taie o brazdă.",
+      "village_role": "Vecinul prejudiciat când Ion mută hotarul și îi taie o brazdă.",
+      "human_type": "Personaj secundar, documentat în 5 evenimente narative."
+    },
+    "CHAR_015": {
+      "id": "CHAR_015",
+      "name": "Savista",
+      "tree_label": "Savista",
+      "short_role": "Martor marginal care observă apropierea lui Ion de Florica și îl avertizează pe George",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Martor marginal care observă apropierea lui Ion de Florica și îl avertizează pe George.",
+      "village_role": "Martor marginal care observă apropierea lui Ion de Florica și îl avertizează pe George.",
+      "human_type": "Personaj secundar, documentat în 4 evenimente narative."
+    },
+    "CHAR_007": {
+      "id": "CHAR_007",
+      "name": "Zenobia",
+      "tree_label": "Zenobia",
+      "short_role": "Mama lui Ion și membră a familiei sărace Glanetașu",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Mama lui Ion și membră a familiei sărace Glanetașu.",
+      "village_role": "Mama lui Ion și membră a familiei sărace Glanetașu.",
+      "human_type": "Personaj secundar, documentat în 3 evenimente narative."
+    },
+    "CHAR_022": {
+      "id": "CHAR_022",
+      "name": "Toma Bulbuc",
+      "tree_label": "Toma Bulbuc",
+      "short_role": "Tatăl lui George și reprezentant al țăranilor înstăriți",
+      "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+      "traits": "Tatăl lui George și reprezentant al țăranilor înstăriți.",
+      "village_role": "Tatăl lui George și reprezentant al țăranilor înstăriți.",
+      "human_type": "Personaj secundar, documentat în 3 evenimente narative."
+    }
+  },
+  "groups": [
+    {
+      "title": "Personaje principale",
+      "caption": "Au cea mai mare importanță în desfășurarea operei.",
+      "characters": [
+        {
+          "id": "CHAR_001",
+          "name": "Ion al Glanetașului",
+          "tree_label": "I. Glanetașului",
+          "short_role": "Țăran sărac, energic și ambițios, dominat de dorința de pământ și de atracția pentru Flor…",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Țăran sărac, energic și ambițios, dominat de dorința de pământ și de atracția pentru Florica.",
+          "village_role": "Țăran sărac, energic și ambițios, dominat de dorința de pământ și de atracția pentru Florica.",
+          "human_type": "Personaj principal, documentat în 88 evenimente narative."
+        },
+        {
+          "id": "CHAR_002",
+          "name": "Ana",
+          "tree_label": "Ana",
+          "short_role": "Fiica lui Vasile Baciu, vulnerabilă și lipsită de sprijin, folosită de Ion pentru obținer…",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Fiica lui Vasile Baciu, vulnerabilă și lipsită de sprijin, folosită de Ion pentru obținerea averii.",
+          "village_role": "Fiica lui Vasile Baciu, vulnerabilă și lipsită de sprijin, folosită de Ion pentru obținerea averii.",
+          "human_type": "Personaj principal, documentat în 45 evenimente narative."
+        }
+      ]
+    },
+    {
+      "title": "Familie și legături apropiate",
+      "caption": "Sunt legate direct de personajele principale prin familie, iubire sau căsătorie.",
+      "characters": [
+        {
+          "id": "CHAR_005",
+          "name": "Vasile Baciu",
+          "tree_label": "Vasile Baciu",
+          "short_role": "Tatăl autoritar al Anei și proprietarul pământurilor urmărite de Ion",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Tatăl autoritar al Anei și proprietarul pământurilor urmărite de Ion.",
+          "village_role": "Tatăl autoritar al Anei și proprietarul pământurilor urmărite de Ion.",
+          "human_type": "Personaj secundar, documentat în 28 evenimente narative."
+        },
+        {
+          "id": "CHAR_003",
+          "name": "Florica",
+          "tree_label": "Florica",
+          "short_role": "Fată săracă iubită de Ion, devenită ulterior soția lui George Bulbuc",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Fată săracă iubită de Ion, devenită ulterior soția lui George Bulbuc.",
+          "village_role": "Fată săracă iubită de Ion, devenită ulterior soția lui George Bulbuc.",
+          "human_type": "Personaj secundar, documentat în 18 evenimente narative."
+        },
+        {
+          "id": "CHAR_014",
+          "name": "Petrișor",
+          "tree_label": "Petrișor",
+          "short_role": "Fiul Anei și al lui Ion, văzut de Ion și ca garanție a moștenirii",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Fiul Anei și al lui Ion, văzut de Ion și ca garanție a moștenirii.",
+          "village_role": "Fiul Anei și al lui Ion, văzut de Ion și ca garanție a moștenirii.",
+          "human_type": "Personaj secundar, documentat în 7 evenimente narative."
+        },
+        {
+          "id": "CHAR_007",
+          "name": "Zenobia",
+          "tree_label": "Zenobia",
+          "short_role": "Mama lui Ion și membră a familiei sărace Glanetașu",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Mama lui Ion și membră a familiei sărace Glanetașu.",
+          "village_role": "Mama lui Ion și membră a familiei sărace Glanetașu.",
+          "human_type": "Personaj secundar, documentat în 3 evenimente narative."
+        }
+      ]
+    },
+    {
+      "title": "Rivali și conflicte 1",
+      "caption": "Participă la opoziții sau la momente tensionate ale acțiunii.",
+      "characters": [
+        {
+          "id": "CHAR_004",
+          "name": "George Bulbuc",
+          "tree_label": "George Bulbuc",
+          "short_role": "Flăcău înstărit, rivalul social și erotic al lui Ion, apoi soțul Floricăi",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Flăcău înstărit, rivalul social și erotic al lui Ion, apoi soțul Floricăi.",
+          "village_role": "Flăcău înstărit, rivalul social și erotic al lui Ion, apoi soțul Floricăi.",
+          "human_type": "Personaj secundar, documentat în 18 evenimente narative."
+        },
+        {
+          "id": "CHAR_008",
+          "name": "Zaharia Herdelea",
+          "tree_label": "Z. Herdelea",
+          "short_role": "Învățătorul satului, prins între familie, autorități și nevoia de prestigiu",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Învățătorul satului, prins între familie, autorități și nevoia de prestigiu.",
+          "village_role": "Învățătorul satului, prins între familie, autorități și nevoia de prestigiu.",
+          "human_type": "Personaj secundar, documentat în 16 evenimente narative."
+        },
+        {
+          "id": "CHAR_013",
+          "name": "Preotul Belciug",
+          "tree_label": "P. Belciug",
+          "short_role": "Autoritate religioasă energică, implicată în conflictele satului și în destinul averii lu…",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Autoritate religioasă energică, implicată în conflictele satului și în destinul averii lui Ion.",
+          "village_role": "Autoritate religioasă energică, implicată în conflictele satului și în destinul averii lui Ion.",
+          "human_type": "Personaj secundar, documentat în 14 evenimente narative."
+        },
+        {
+          "id": "CHAR_010",
+          "name": "Titu Herdelea",
+          "tree_label": "Titu Herdelea",
+          "short_role": "Tânăr intelectual și poet aspirant, autorul sfatului care influențează planul lui Ion",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Tânăr intelectual și poet aspirant, autorul sfatului care influențează planul lui Ion.",
+          "village_role": "Tânăr intelectual și poet aspirant, autorul sfatului care influențează planul lui Ion.",
+          "human_type": "Personaj secundar, documentat în 8 evenimente narative."
+        }
+      ]
+    },
+    {
+      "title": "Rivali și conflicte 2",
+      "caption": "Participă la opoziții sau la momente tensionate ale acțiunii.",
+      "characters": [
+        {
+          "id": "CHAR_016",
+          "name": "Simion Lungu",
+          "tree_label": "Simion Lungu",
+          "short_role": "Vecinul prejudiciat când Ion mută hotarul și îi taie o brazdă",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Vecinul prejudiciat când Ion mută hotarul și îi taie o brazdă.",
+          "village_role": "Vecinul prejudiciat când Ion mută hotarul și îi taie o brazdă.",
+          "human_type": "Personaj secundar, documentat în 5 evenimente narative."
+        },
+        {
+          "id": "CHAR_015",
+          "name": "Savista",
+          "tree_label": "Savista",
+          "short_role": "Martor marginal care observă apropierea lui Ion de Florica și îl avertizează pe George",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Martor marginal care observă apropierea lui Ion de Florica și îl avertizează pe George.",
+          "village_role": "Martor marginal care observă apropierea lui Ion de Florica și îl avertizează pe George.",
+          "human_type": "Personaj secundar, documentat în 4 evenimente narative."
+        }
+      ]
+    },
+    {
+      "title": "Personaje secundare",
+      "caption": "Completează lumea operei și susțin firele narative importante.",
+      "characters": [
+        {
+          "id": "CHAR_011",
+          "name": "Laura Herdelea",
+          "tree_label": "L. Herdelea",
+          "short_role": "Fiica învățătorului, prinsă între iubirea pentru Aurel și căsătoria avantajoasă cu Pintea",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Fiica învățătorului, prinsă între iubirea pentru Aurel și căsătoria avantajoasă cu Pintea.",
+          "village_role": "Fiica învățătorului, prinsă între iubirea pentru Aurel și căsătoria avantajoasă cu Pintea.",
+          "human_type": "Personaj secundar, documentat în 9 evenimente narative."
+        },
+        {
+          "id": "CHAR_009",
+          "name": "Maria Herdelea",
+          "tree_label": "M. Herdelea",
+          "short_role": "Soția învățătorului și centrul practic al familiei Herdelea",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Soția învățătorului și centrul practic al familiei Herdelea.",
+          "village_role": "Soția învățătorului și centrul practic al familiei Herdelea.",
+          "human_type": "Personaj secundar, documentat în 6 evenimente narative."
+        },
+        {
+          "id": "CHAR_018",
+          "name": "George Pintea",
+          "tree_label": "George Pintea",
+          "short_role": "Teologul care o cere și o ia de soție pe Laura fără zestre",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Teologul care o cere și o ia de soție pe Laura fără zestre.",
+          "village_role": "Teologul care o cere și o ia de soție pe Laura fără zestre.",
+          "human_type": "Personaj secundar, documentat în 5 evenimente narative."
+        },
+        {
+          "id": "CHAR_022",
+          "name": "Toma Bulbuc",
+          "tree_label": "Toma Bulbuc",
+          "short_role": "Tatăl lui George și reprezentant al țăranilor înstăriți",
+          "physical": "Knowledge graph-ul nu oferă un portret fizic explicit pentru acest personaj.",
+          "traits": "Tatăl lui George și reprezentant al țăranilor înstăriți.",
+          "village_role": "Tatăl lui George și reprezentant al țăranilor înstăriți.",
+          "human_type": "Personaj secundar, documentat în 3 evenimente narative."
+        }
+      ]
+    }
+  ],
+  "tree_layout": {
+    "width": 980,
+    "height": 540,
+    "root": {
+      "label": "Ion",
+      "x": 490.0,
+      "y": 46
+    },
+    "groups": [
+      {
+        "label": "Principale",
+        "x": 138.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_001",
+          "CHAR_002"
+        ]
+      },
+      {
+        "label": "Familie / apropiați",
+        "x": 314.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_005",
+          "CHAR_003",
+          "CHAR_014",
+          "CHAR_007"
+        ]
+      },
+      {
+        "label": "Rivali / conflicte 1",
+        "x": 490.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_004",
+          "CHAR_008",
+          "CHAR_013",
+          "CHAR_010"
+        ]
+      },
+      {
+        "label": "Rivali / conflicte 2",
+        "x": 666.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_016",
+          "CHAR_015"
+        ]
+      },
+      {
+        "label": "Secundare",
+        "x": 842.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_011",
+          "CHAR_009",
+          "CHAR_018",
+          "CHAR_022"
+        ]
+      }
+    ],
+    "characters": {
+      "CHAR_001": {
+        "x": 98.0,
+        "y": 270
+      },
+      "CHAR_002": {
+        "x": 178.0,
+        "y": 270
+      },
+      "CHAR_005": {
+        "x": 270.0,
+        "y": 270
+      },
+      "CHAR_003": {
+        "x": 358.0,
+        "y": 270
+      },
+      "CHAR_014": {
+        "x": 270.0,
+        "y": 375
+      },
+      "CHAR_007": {
+        "x": 358.0,
+        "y": 375
+      },
+      "CHAR_004": {
+        "x": 446.0,
+        "y": 270
+      },
+      "CHAR_008": {
+        "x": 534.0,
+        "y": 270
+      },
+      "CHAR_013": {
+        "x": 446.0,
+        "y": 375
+      },
+      "CHAR_010": {
+        "x": 534.0,
+        "y": 375
+      },
+      "CHAR_016": {
+        "x": 626.0,
+        "y": 270
+      },
+      "CHAR_015": {
+        "x": 706.0,
+        "y": 270
+      },
+      "CHAR_011": {
+        "x": 798.0,
+        "y": 270
+      },
+      "CHAR_009": {
+        "x": 886.0,
+        "y": 270
+      },
+      "CHAR_018": {
+        "x": 798.0,
+        "y": 375
+      },
+      "CHAR_022": {
+        "x": 886.0,
+        "y": 375
+      }
+    }
+  },
+  "relation_graph": {
+    "central_node_id": "CHAR_001",
+    "legend": [
+      {
+        "group": "central",
+        "label": "personaje principale"
+      },
+      {
+        "group": "victim",
+        "label": "familie / apropiați"
+      },
+      {
+        "group": "rich",
+        "label": "rivali / conflicte"
+      },
+      {
+        "group": "intellectual",
+        "label": "personaje secundare"
+      }
+    ],
+    "nodes": {
+      "CHAR_001": {
+        "label": "I. Glanetașului",
+        "x": 490,
+        "y": 280,
+        "group": "central"
+      },
+      "CHAR_002": {
+        "label": "Ana",
+        "x": 490.0,
+        "y": 60.0,
+        "group": "central"
+      },
+      "CHAR_005": {
+        "label": "Vasile Baciu",
+        "x": 685.0,
+        "y": 89.47,
+        "group": "victim"
+      },
+      "CHAR_004": {
+        "label": "George Bulbuc",
+        "x": 827.75,
+        "y": 170.0,
+        "group": "rich"
+      },
+      "CHAR_003": {
+        "label": "Florica",
+        "x": 880.0,
+        "y": 280.0,
+        "group": "victim"
+      },
+      "CHAR_008": {
+        "label": "Z. Herdelea",
+        "x": 827.75,
+        "y": 390.0,
+        "group": "rich"
+      },
+      "CHAR_013": {
+        "label": "P. Belciug",
+        "x": 685.0,
+        "y": 470.53,
+        "group": "rich"
+      },
+      "CHAR_011": {
+        "label": "L. Herdelea",
+        "x": 490.0,
+        "y": 500.0,
+        "group": "intellectual"
+      },
+      "CHAR_010": {
+        "label": "Titu Herdelea",
+        "x": 295.0,
+        "y": 470.53,
+        "group": "rich"
+      },
+      "CHAR_009": {
+        "label": "M. Herdelea",
+        "x": 152.25,
+        "y": 390.0,
+        "group": "intellectual"
+      },
+      "CHAR_014": {
+        "label": "Petrișor",
+        "x": 100.0,
+        "y": 280.0,
+        "group": "victim"
+      },
+      "CHAR_018": {
+        "label": "George Pintea",
+        "x": 152.25,
+        "y": 170.0,
+        "group": "intellectual"
+      },
+      "CHAR_016": {
+        "label": "Simion Lungu",
+        "x": 295.0,
+        "y": 89.47,
+        "group": "rich"
+      }
+    },
+    "edges": [
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_003",
+        "predicate": "loves",
+        "title": "Ion al Glanetașului – Florica",
+        "text": "Ion al Glanetașului iubește Florica. Momente comune din graf: Ion știe că încă o iubește pe Florica, dar cântărește faptul că ea este săracă, în timp ce Ana are pământuri, case și vite. Florica apare la fâneață și îi reproșează lui Ion că umblă după Ana."
+      },
+      {
+        "source": "CHAR_002",
+        "target": "CHAR_001",
+        "predicate": "loves",
+        "title": "Ana – Ion al Glanetașului",
+        "text": "Ana iubește Ion al Glanetașului. Momente comune din graf: Ion joacă alături de Ana, o ține de brâu și o cheamă să-l urmeze în livada din spatele șurii. Ion știe că încă o iubește pe Florica, dar cântărește faptul că ea este săracă, în timp ce Ana are pământuri, case și vite."
+      },
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_004",
+        "predicate": "is_rival_of",
+        "title": "Ion al Glanetașului – George Bulbuc",
+        "text": "Ion al Glanetașului este rival(ă) cu George Bulbuc. Momente comune din graf: Mai târziu, la cârciuma lui Avrum, plata lăutarilor devine pretextul confruntării dintre Ion și George. Apoi, ion îl bate pe George cu un par și își dovedește forța în fața flăcăilor."
+      },
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_002",
+        "predicate": "is_married_to",
+        "title": "Ion al Glanetașului – Ana",
+        "text": "Ion al Glanetașului este căsătorit(ă) cu Ana. Momente comune din graf: Ion joacă alături de Ana, o ține de brâu și o cheamă să-l urmeze în livada din spatele șurii. Ion știe că încă o iubește pe Florica, dar cântărește faptul că ea este săracă, în timp ce Ana are pământuri, case și vite."
+      },
+      {
+        "source": "CHAR_003",
+        "target": "CHAR_004",
+        "predicate": "is_married_to",
+        "title": "Florica – George Bulbuc",
+        "text": "Florica este căsătorit(ă) cu George Bulbuc. Momente comune din graf: Florica se căsătorește cu George Bulbuc, iar nunta lor reunește comunitatea. La nunta Floricăi, Ion nu-și desprinde privirea de mireasă, iar George simte primejdia."
+      },
+      {
+        "source": "CHAR_011",
+        "target": "CHAR_018",
+        "predicate": "is_married_to",
+        "title": "Laura Herdelea – George Pintea",
+        "text": "Laura Herdelea este căsătorit(ă) cu George Pintea. Momente comune din graf: În continuare, teologul George Pintea trimite scrisori pasionate și acceptă explicit o soție fără zestre. Mai târziu, familia Herdelea îl consideră pe Pintea un om serios și o partidă potrivită."
+      },
+      {
+        "source": "CHAR_008",
+        "target": "CHAR_009",
+        "predicate": "is_married_to",
+        "title": "Zaharia Herdelea – Maria Herdelea",
+        "text": "Zaharia Herdelea este căsătorit(ă) cu Maria Herdelea. Momente comune din graf: Mai târziu, învățătorul și familia sa îl consideră pe Ion o victimă a celor bogați. În casa Herdelea, Zaharia și Maria, împreună cu Titu, Laura și Ghighi, discută întâmplările din Pripas."
+      },
+      {
+        "source": "CHAR_005",
+        "target": "CHAR_002",
+        "predicate": "is_parent_of",
+        "title": "Vasile Baciu – Ana",
+        "text": "Vasile Baciu este părintele lui/ei Ana. Momente comune din graf: După aceea, vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale. Împotrivirea lui Vasile Baciu îl întărâtă pe Ion și îl face să stăruie în apropierea de Ana."
+      },
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_014",
+        "predicate": "is_parent_of",
+        "title": "Ion al Glanetașului – Petrișor",
+        "text": "Ion al Glanetașului este părintele lui/ei Petrișor. Momente comune din graf: Ana naște pe câmp un băiat, în timpul muncilor agricole. La început, la scurt timp după moartea Anei, copilul începe să sufere de o boală gravă."
+      },
+      {
+        "source": "CHAR_002",
+        "target": "CHAR_014",
+        "predicate": "is_parent_of",
+        "title": "Ana – Petrișor",
+        "text": "Ana este părintele lui/ei Petrișor. Momente comune din graf: După dubla violență, Ana vede prăpastia vieții sale și se gândește la moarte, dar mișcarea copilului o face să aleagă încă o dată viața. Ana naște pe câmp un băiat, în timpul muncilor agricole."
+      },
+      {
+        "source": "CHAR_008",
+        "target": "CHAR_010",
+        "predicate": "is_parent_of",
+        "title": "Zaharia Herdelea – Titu Herdelea",
+        "text": "Zaharia Herdelea este părintele lui/ei Titu Herdelea. Momente comune din graf: În casa Herdelea, Zaharia și Maria, împreună cu Titu, Laura și Ghighi, discută întâmplările din Pripas. Dezamăgit de conflictul electoral și de compromisurile tatălui său, Titu își găsește un post de subnotar în Lușca."
+      },
+      {
+        "source": "CHAR_009",
+        "target": "CHAR_010",
+        "predicate": "is_parent_of",
+        "title": "Maria Herdelea – Titu Herdelea",
+        "text": "Maria Herdelea este părintele lui/ei Titu Herdelea. Momente comune din graf: În casa Herdelea, Zaharia și Maria, împreună cu Titu, Laura și Ghighi, discută întâmplările din Pripas."
+      },
+      {
+        "source": "CHAR_008",
+        "target": "CHAR_011",
+        "predicate": "is_parent_of",
+        "title": "Zaharia Herdelea – Laura Herdelea",
+        "text": "Zaharia Herdelea este părintele lui/ei Laura Herdelea. Momente comune din graf: În casa Herdelea, Zaharia și Maria, împreună cu Titu, Laura și Ghighi, discută întâmplările din Pripas. Mai târziu, familia Herdelea îl consideră pe Pintea un om serios și o partidă potrivită."
+      },
+      {
+        "source": "CHAR_009",
+        "target": "CHAR_011",
+        "predicate": "is_parent_of",
+        "title": "Maria Herdelea – Laura Herdelea",
+        "text": "Maria Herdelea este părintele lui/ei Laura Herdelea. Momente comune din graf: În casa Herdelea, Zaharia și Maria, împreună cu Titu, Laura și Ghighi, discută întâmplările din Pripas. Mai târziu, familia Herdelea îl consideră pe Pintea un om serios și o partidă potrivită."
+      },
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_005",
+        "predicate": "co_occurs_with",
+        "title": "Ion al Glanetașului – Vasile Baciu",
+        "text": "Ion al Glanetașului interacționează în acțiune cu Vasile Baciu. Momente comune din graf: Vasile Baciu îl numește pe Ion «golan» și «tâlhar» în fața oamenilor și încearcă să-l alunge de lângă Ana. Împotrivirea lui Vasile Baciu îl întărâtă pe Ion și îl face să stăruie în apropierea de Ana."
+      },
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_013",
+        "predicate": "co_occurs_with",
+        "title": "Ion al Glanetașului – Preotul Belciug",
+        "text": "Ion al Glanetașului interacționează în acțiune cu Preotul Belciug. Momente comune din graf: La început, preotul îl mustră public pe Ion pentru violențele de la horă și cârciumă. Dojana publică a lui Belciug îl umple pe Ion de rușine și de necaz în fața satului."
+      },
+      {
+        "source": "CHAR_002",
+        "target": "CHAR_003",
+        "predicate": "co_occurs_with",
+        "title": "Ana – Florica",
+        "text": "Ana interacționează în acțiune cu Florica. Momente comune din graf: Ion știe că încă o iubește pe Florica, dar cântărește faptul că ea este săracă, în timp ce Ana are pământuri, case și vite. În continuare, ana și pământurile ei reprezintă glasul pământului, iar Florica reprezintă glasul iubirii."
+      },
+      {
+        "source": "CHAR_002",
+        "target": "CHAR_004",
+        "predicate": "co_occurs_with",
+        "title": "Ana – George Bulbuc",
+        "text": "Ana interacționează în acțiune cu George Bulbuc. Momente comune din graf: După aceea, vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale. La început, vasile Baciu încearcă să întărească apropierea dintre fiica sa și George Bulbuc."
+      },
+      {
+        "source": "CHAR_008",
+        "target": "CHAR_013",
+        "predicate": "co_occurs_with",
+        "title": "Zaharia Herdelea – Preotul Belciug",
+        "text": "Zaharia Herdelea interacționează în acțiune cu Preotul Belciug. Momente comune din graf: La horă, tinerii joacă lângă lăutari, bărbații stau în grupuri mai departe, iar fruntașii și intelectualii ocupă poziții distincte. Preotul Belciug bănuiește că învățătorul Herdelea îi subminează autoritatea în sat."
+      },
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_008",
+        "predicate": "co_occurs_with",
+        "title": "Ion al Glanetașului – Zaharia Herdelea",
+        "text": "Ion al Glanetașului interacționează în acțiune cu Zaharia Herdelea. Momente comune din graf: Mai târziu, învățătorul și familia sa îl consideră pe Ion o victimă a celor bogați. În continuare, învățătorul îl ajută pe Ion să trimită o plângere împotriva judecătorului și a preotului."
+      },
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_016",
+        "predicate": "co_occurs_with",
+        "title": "Ion al Glanetașului – Simion Lungu",
+        "text": "Ion al Glanetașului interacționează în acțiune cu Simion Lungu. Momente comune din graf: În continuare, în timp ce ară, Ion taie intenționat o brazdă din pământul lui Simion Lungu. Mai târziu, descoperirea brazdei furate provoacă o confruntare violentă pe arătură."
+      },
+      {
+        "source": "CHAR_001",
+        "target": "CHAR_010",
+        "predicate": "co_occurs_with",
+        "title": "Ion al Glanetașului – Titu Herdelea",
+        "text": "Ion al Glanetașului interacționează în acțiune cu Titu Herdelea. Momente comune din graf: Apoi, blocarea căsătoriei îl face pe Ion să discute cu Titu despre opoziția lui Vasile. După aceea, titu spune că, dacă Vasile nu o dă de bunăvoie pe Ana, trebuie silit."
+      }
+    ]
+  }
+}

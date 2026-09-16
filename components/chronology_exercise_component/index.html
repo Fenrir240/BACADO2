@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --ink: #153249;
+      --muted: #607789;
+      --line: #d7e7e3;
+      --teal: #137c80;
+      --green: #16875f;
+      --red: #bd3b4b;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: transparent; color: var(--ink); font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .shell {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: linear-gradient(135deg, #fbfefd, #f5f9ff);
+    }
+    .hint { margin: 0 0 10px; color: var(--muted); font-size: 12px; line-height: 1.35; }
+    .list { display: grid; gap: 8px; }
+    .item {
+      display: grid;
+      grid-template-columns: 28px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      min-height: 52px;
+      padding: 9px 11px;
+      border: 1px solid #c9ded8;
+      border-radius: 10px;
+      background: rgba(255,255,255,.98);
+      box-shadow: 0 3px 9px rgba(30,82,79,.07);
+      cursor: grab;
+      touch-action: none;
+      transition: transform 140ms ease, border-color 140ms ease, background 140ms ease, opacity 140ms ease;
+    }
+    .item:hover { border-color: #72aaa3; background: #f3fbf8; transform: translateY(-1px); }
+    .item:active { cursor: grabbing; }
+    .item.dragging { opacity: .45; }
+    .item.drag-over { border-color: var(--teal); box-shadow: 0 0 0 2px rgba(19,124,128,.15); }
+    .item.correct { border-color: #77c9a5; background: #edfbf3; }
+    .item.wrong { border-color: #e7a5ae; background: #fff4f5; }
+    .handle {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 32px;
+      border-radius: 7px;
+      color: #fff;
+      background: var(--teal);
+      font-size: 16px;
+      font-weight: 900;
+      user-select: none;
+    }
+    .label { min-width: 0; overflow-wrap: anywhere; font-size: 12px; font-weight: 700; line-height: 1.35; }
+    .empty { padding: 30px 12px; color: var(--muted); text-align: center; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <p class="hint">Ține apăsat pe un eveniment și trage-l înaintea sau după celelalte.</p>
+    <div id="list" class="list"></div>
+  </main>
+  <script>
+    const list = document.getElementById("list");
+    const shell = document.querySelector(".shell");
+    let args = {};
+    let itemsById = new Map();
+    let order = [];
+    let activeNode = null;
+    let activePointerId = null;
+    let orderBeforeDrag = "";
+    let lastFrameHeight = 0;
+
+    const send = (type, data) => window.parent.postMessage({ isStreamlitMessage: true, type, ...data }, "*");
+    const ready = () => send("streamlit:componentReady", { apiVersion: 1 });
+    const setValue = (value) => send("streamlit:setComponentValue", { value, dataType: "json" });
+    const escapeHtml = (value) => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+    const setHeight = () => requestAnimationFrame(() => {
+      const contentHeight = Math.ceil(shell.getBoundingClientRect().height) + 2;
+      const nextHeight = Math.max(120, contentHeight);
+      if (Math.abs(nextHeight - lastFrameHeight) < 1) return;
+      lastFrameHeight = nextHeight;
+      send("streamlit:setFrameHeight", { height: nextHeight });
+    });
+
+    function emitOrder() {
+      setValue({
+        type: "order_changed",
+        event_id: `${Date.now()}_${Math.random().toString(36).slice(2)}`,
+        order: [...order],
+      });
+    }
+
+    function syncOrderFromDom() {
+      order = [...list.querySelectorAll(".item")].map(node => node.dataset.id);
+    }
+
+    function finishPointerSort(event) {
+      if (!activeNode || event.pointerId !== activePointerId) return;
+      try { activeNode.releasePointerCapture(activePointerId); } catch (_) {}
+      activeNode.classList.remove("dragging");
+      list.querySelectorAll(".item").forEach(item => item.classList.remove("drag-over"));
+      syncOrderFromDom();
+      const changed = JSON.stringify(order) !== orderBeforeDrag;
+      activeNode = null;
+      activePointerId = null;
+      orderBeforeDrag = "";
+      if (changed) emitOrder();
+      setHeight();
+    }
+
+    function bindPointerSort() {
+      list.querySelectorAll(".item").forEach(node => {
+        node.addEventListener("pointerdown", event => {
+          if (event.button !== 0 && event.pointerType === "mouse") return;
+          event.preventDefault();
+          activeNode = node;
+          activePointerId = event.pointerId;
+          orderBeforeDrag = JSON.stringify(order);
+          node.classList.add("dragging");
+          node.setPointerCapture(event.pointerId);
+        });
+        node.addEventListener("pointermove", event => {
+          if (!activeNode || event.pointerId !== activePointerId) return;
+          event.preventDefault();
+          const candidates = [...list.querySelectorAll(".item")]
+            .filter(item => item !== activeNode);
+          candidates.forEach(item => item.classList.remove("drag-over"));
+          const insertBefore = candidates.find(item => {
+            const box = item.getBoundingClientRect();
+            return event.clientY < box.top + box.height / 2;
+          });
+          if (insertBefore) {
+            insertBefore.classList.add("drag-over");
+            list.insertBefore(activeNode, insertBefore);
+          } else {
+            list.appendChild(activeNode);
+          }
+        });
+        node.addEventListener("pointerup", finishPointerSort);
+        node.addEventListener("pointercancel", finishPointerSort);
+      });
+    }
+
+    function render(nextArgs) {
+      args = nextArgs || {};
+      const items = Array.isArray(args.items) ? args.items : [];
+      itemsById = new Map(items.map(item => [String(item.id), item]));
+      const requested = Array.isArray(args.order) ? args.order.map(String) : [];
+      order = requested.length === items.length && requested.every(id => itemsById.has(id))
+        ? requested
+        : items.map(item => String(item.id));
+      const feedback = args.feedback || {};
+      if (!order.length) {
+        list.innerHTML = '<div class="empty">Nu există evenimente pentru ordonare.</div>';
+        setHeight();
+        return;
+      }
+      list.innerHTML = order.map(id => {
+        const item = itemsById.get(id);
+        const status = feedback[id] === true ? "correct" : feedback[id] === false ? "wrong" : "";
+        return `<article class="item ${status}" data-id="${escapeHtml(id)}"><span class="handle">↕</span><span class="label">${escapeHtml(item.label)}</span></article>`;
+      }).join("");
+      bindPointerSort();
+      setHeight();
+    }
+
+    window.addEventListener("message", event => {
+      if (event.data.type === "streamlit:render") render(event.data.args || {});
+    });
+    new ResizeObserver(setHeight).observe(shell);
+    document.fonts?.ready?.then(setHeight);
+    ready();
+  </script>
+</body>
+</html>

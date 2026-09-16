@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AdvancedPoeticKnowledgeGraph",
+  "description": "Schema de validare a Knowledge Graph-ului liric avansat pentru BacApp2",
+  "type": "object",
+  "required": [
+    "metadata",
+    "ontology",
+    "sequences",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "work",
+        "author",
+        "genre",
+        "species",
+        "movement",
+        "version"
+      ],
+      "properties": {
+        "work": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "genre": {
+          "type": "string"
+        },
+        "species": {
+          "type": "string"
+        },
+        "movement": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "total_stanzas": {
+          "type": "integer"
+        },
+        "total_sequences": {
+          "type": "integer"
+        }
+      }
+    },
+    "ontology": {
+      "type": "object",
+      "required": [
+        "node_types",
+        "relationship_types",
+        "assertion_types"
+      ]
+    },
+    "sequences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "number",
+          "title",
+          "stanzas",
+          "simple_verbalization",
+          "elevated_verbalization"
+        ]
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "label"
+        ]
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "target",
+          "relation",
+          "assertion_type"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "reasoning_effort": "medium",
+    "attempts_per_element": 1,
+    "retry_on_invalid": false,
+    "api_calls": 3,
+    "reused_element_count": 0,
+    "reused_element_ids": [],
+    "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\knowledge-graph.json",
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\qwen-composition-runs\\run-20260822T133113Z"
+  },
+  "elements": [
+    {
+      "id": "incipit_final",
+      "title": "Relația incipit–final",
+      "central_idea": "Simetria structurală care leagă sosirea de plecare, revelând maturizarea eroului și destrămarea mediului familial.",
+      "branches": [
+        {
+          "heading": "Incipitul",
+          "key_idea": "Sosirea tânărului orfan într-un mediu familial complex și tensionat.",
+          "explanation": "Romanul se deschide prin descrierea casei de pe strada Antim, un spațiu care reflectă atmosfera burgheză și rigiditatea mediului bucureștean. Felix ajunge aici ca un adolescent nesigur, iar primele interacțiuni cu familia Giurgiuveanu-Tulea stabilesc din start tensiunile afective și sociale. Replica „Aici nu stă nimeni!” rostită de moș Costache marchează intrarea protagonistului într-o lume dominată de avariție și convenții.",
+          "evidence_node_ids": [
+            "EV_001",
+            "EV_002",
+            "EV_008",
+            "STATE_CH_01_OPEN"
+          ]
+        },
+        {
+          "heading": "Finalul",
+          "key_idea": "Plecarea definitivă a lui Felix, urmată de destrămarea clanului și căsătoria Otiliei cu Pascalopol.",
+          "explanation": "În ultimul capitol, Felix își amintește momentul sosirii sale, iar replica inițială rezonează acum ca o confirmare a izolării sale emoționale. Deznodământul este marcat de furtul banilor ascunși de Stănică, de moartea lui Costache și de despărțirea ireversibilă de Otilia, care îl acceptă pe Pascalopol. Această încheiere subliniază maturizarea eroului, care părăsește mediul toxic pentru a deveni un medic independent.",
+          "evidence_node_ids": [
+            "EV_160",
+            "EV_158",
+            "EV_155",
+            "STATE_CH_20_CLOSE"
+          ]
+        },
+        {
+          "heading": "Corespondențe și contraste",
+          "key_idea": "Simetria structurală construită pe repetiția replicii cheie și contrastul dintre inocența inițială și deziluzia finală.",
+          "explanation": "Autorul creează o arhitectură circulară prin reluarea scenei cu clopoțelul și a replicii „Aici nu stă nimeni!” la început și la sfârșit, sugerând că, deși spațiul rămâne același, realitatea umană s-a transformat radical. Contrastul dintre tinerețea plină de speranțe a lui Felix și cinismul familiei Tulea evidențiază victoria realismului balzacian asupra iluziilor romantice. Această structură închisă consolidează unitatea operei și accentuează tema formării unui individ prin suferință.",
+          "evidence_node_ids": [
+            "TECH_INCIPIT_FINAL",
+            "STATE_CH_01_OPEN",
+            "STATE_CH_20_CLOSE",
+            "THEME_FORMATION"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Utilizarea simetriei incipit-final ca argument central pentru demonstrarea coeziunii narative și a evoluției personajelor.",
+          "explanation": "În eseu, această structură poate fi invocată pentru a demonstra cum Călinescu organizează acțiunea în jurul unei simetrii deliberate, care subliniază trecerea de la naivitate la experiență. Elevul trebuie să coreleze repetiția motivului portarei cu transformarea lui Felix și cu destrămarea echilibrului familial. Astfel, analiza devine un instrument puternic pentru a evidenția caracterul obiectiv și realist al romanului, precum și mesajul său despre maturizare.",
+          "evidence_node_ids": [
+            "TECH_INCIPIT_FINAL",
+            "THEME_FORMATION",
+            "WORK_ENIGMA_OTILIEI"
+          ]
+        }
+      ],
+      "essay_paragraph": "Relația dintre incipit și final constituie coloana vertebrală a construcției narative din Enigma Otiliei, oferind cititorului o imagine clară asupra evoluției protagonistului și a destinului familiei Giurgiuveanu-Tulea. Romanul se deschide cu sosirea lui Felix pe strada Antim și cu replica dură a lui Costache, „Aici nu stă nimeni”, care marchează intrarea într-un univers dominat de avariție și convenții sociale rigide. La polul opus, încheierea reproduce aceeași scenă a clopoțelului și a replicii, dar acum ea simbolizează izolare emoțională și ruptura definitivă de un trecut iluzoriu. Prin această simetrie circulară, autorul subliniază trecerea eroului de la adolescența nesigură la maturitatea unui medic consacrât, în timp ce clanul Tulea se destramă sub greutatea intereselor materiale. Structura închisă a operei demonstrează coeziunea artistică a romanului, transformând un simplu cadru spațial într-un mecanism literar care validează realismul balzacian și relevă importanța experienței în conturarea identității individuale.",
+      "memory_formula": [
+        "Venire = plecare prin simetrie",
+        "„Aici nu stă nimeni” = punct de reper structural",
+        "Inocență inițială → maturitate finală"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "conflict",
+      "title": "Conflictul",
+      "central_idea": "Conflictul succesoral și cel amoros structurează narativul, revelând natura umană și mecanismele sociale.",
+      "branches": [
+        {
+          "heading": "Conflictul central",
+          "key_idea": "Lupta pentru moștenire și tensiunea afectivă structurază narativul romanului.",
+          "explanation": "Romanul se construiește pe două axe majore: conflictul succesoral, generat de dorința Aglaei și a lui Stănică de a controla averea lui Costache, și conflictul amoros dintre Felix, Otilia și Leonida Pascalopol. Aceste forțe se intersectează în casa de pe strada Antim, transformând spațiul domestic într-un teren al rivalității și al ascunderii adevărurilor.",
+          "evidence_node_ids": [
+            "CONFLICT_SUCCESSION",
+            "CONFLICT_LOVE",
+            "WORK_ENIGMA_OTILIEI"
+          ]
+        },
+        {
+          "heading": "Forme și planuri ale conflictului",
+          "key_idea": "Tensiunile se manifestă simultan pe plan social, familial și psihologic.",
+          "explanation": "Pe plan social, mediul burghez dezvăluie mecanisme de parvenire și ipocrizie, iar pe cel familial, autoritatea Aglaei și avariția lui Costache paralizează relațiile. Planul interior este dominat de dilema Otiliei, care oscilează între dorința de libertate afectivă și nevoia de siguranță, precum și de gelozia subtilă a lui Felix față de maturitatea lui Pascalopol.",
+          "evidence_node_ids": [
+            "CONFLICT_INNER",
+            "THEME_SOCIAL",
+            "THEME_LOVE",
+            "CHAR_AGLAE",
+            "CHAR_COSTACHE"
+          ]
+        },
+        {
+          "heading": "Evoluție și consecințe",
+          "key_idea": "Rivalitățile se intensifică progresiv, culminând cu revelația enimei și destrămarea iluziilor.",
+          "explanation": "Pe măsură ce acțiunea avansează, conflictele se împletesc, iar gesturile personajelor devin tot mai decisive, ducând la descoperirea banilor ascunși și la trădări. Consecințele sunt devastatoare: familia Tulea se degradează moral, Otilia își pierde inocența și identitatea, iar Felix înțelege că iubirea nu poate fi stăpânită prin posesie sau control.",
+          "evidence_node_ids": [
+            "EV_061",
+            "EV_059",
+            "MOTIF_MONEY",
+            "THEME_FORMATION"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Conflictul funcționează ca motor al construcției sensului și al caracterizării realiste.",
+          "explanation": "În eseu, trebuie să evidențiați cum lupta pentru moștenire și cea afectivă nu sunt doar subiecte paralele, ci se condiționează reciproc, revelând natura umană și mecanismele sociale. Analiza tensiunilor permite demonstrarea obiectivității naratorului și a tehnicilor balaciene de portretizare, arătând cum criza personală reflectă o epocă în tranziție.",
+          "evidence_node_ids": [
+            "TECH_CHARACTER",
+            "WORK_ENIGMA_OTILIEI",
+            "THEME_SOCIAL"
+          ]
+        }
+      ],
+      "essay_paragraph": "În Enigma Otiliei, conflictul constituie structura portanta a romanului, articulându-se pe două axe principale: lupta pentru moștenirea lui Costache și rivalitatea amorosă dintre Felix, Otilia și Pascalopol. Aceste tensiuni nu rămân izolate, ci se intersectează constant, transformând casa de pe strada Antim într-un microcosmos al societății burgheze interbelice. Pe măsură ce acțiunea progresează, avariția, parvenirea și gelozia subminează echilibrul familial, ducând la degradarea morală a clanului Tulea și la pierderea inocenței fetei. Prin prisma acestor confruntări, George Călinescu demonstrează că destinul individual este modelat de presiunile economice și sociale, iar formarea lui Felix trece prin acceptarea limitelor iubirii și ale realității. Astfel, conflictul nu este doar un procedeu narativ, ci instrumentul principal prin care opera dezvăluie enigma umană și complexitatea relațiilor contemporane.",
+      "memory_formula": [
+        "Moștenirea declanșează rivalitatea familială",
+        "Iubirea testează maturitatea sufletească",
+        "Conflictul dezvăluie adevărul uman"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "title",
+      "title": "Titlul",
+      "central_idea": "Titlul funcționează ca o cheie interpretativă care transformă un portret realist într-o explorare a destinului uman.",
+      "branches": [
+        {
+          "heading": "Sens și tip de titlu",
+          "key_idea": "Titlul funcționează ca o cheie interpretativă care subliniază complexitatea psihologică a personajului central.",
+          "explanation": "Prin mutarea accentului asupra misterului interior al fetei, autorul indică faptul că opera nu mai este doar o cronică familială. Acest titlu de tip descriptiv-simbolic invită cititorul să descifreze trăsăturile contradictorii ale Otiliei, care îmbină inocența adolescentină cu o maturitate afectivă precoce. Astfel, numele operei devine un indicator clar al structurii narative centrate pe evoluția interioară a protagonistei.",
+          "evidence_node_ids": [
+            "TECH_TITLE",
+            "CHAR_OTILIA"
+          ]
+        },
+        {
+          "heading": "Legătura cu opera",
+          "key_idea": "Nucleul titlului se împletește organic cu conflictul succesoral și cu dinamica relațiilor dintre personaje.",
+          "explanation": "Misterul sugerat de titlu este alimentat de tensiunile generate de lupta pentru averea lui Costache, care pune în mișcare clanurile Tulea și pe Felix Sima. Otilia devine punctul de convergență al acestor rivalități, iar incertitudinea privind sentimentele ei reflectă haosul moral al mediului burghez. Prin urmare, titlul rezonează direct cu structura romanului, unde ascensiunea și căderea personajelor sunt condiționate de această enigmă afectivă și socială.",
+          "evidence_node_ids": [
+            "THEME_INHERITANCE",
+            "CONFLICT_LOVE",
+            "CHAR_FELIX"
+          ]
+        },
+        {
+          "heading": "Semnificație literară",
+          "key_idea": "Opera utilizează titlul pentru a transforma un portret realist într-o explorare a destinului uman.",
+          "explanation": "În tradiția realismului balzacian, detaliile concrete servesc conturării unui univers veridic, însă aici ele devin instrumente de investigare a sufletului. Enigma nu rezidă doar în caracterul Otiliei, ci în imposibilitatea de a controla cursul vieții, marcată de iluzii și deziluzii. Această dimensiune filosofică ridică textul deasupra simplului cronici social, oferind o lectură universală despre fragilitatea alegerrilor și inevitabilitatea transformărilor.",
+          "evidence_node_ids": [
+            "WORK_ENIGMA_OTILIEI",
+            "THEME_LOVE",
+            "TECH_CHARACTER"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Analiza titlului oferă punctul de plecare ideal pentru a structura eseul pe direcția formării și a conflictului interior.",
+          "explanation": "Elevul poate începe prin a evidenția cum titlul anunță tema devenirii, urmărind parcursul lui Felix de la observator la participant activ. Apoi, dezvoltarea trebuie să lege misterul feminin de lupta pentru identitate și statut în societatea bucureșteană. În final, concluzia va sublinia că titlul rămâne valabil tocmai pentru că propune o lectură deschisă, adaptabilă oricărui aspect al mesajului călinescian despre condiția umană.",
+          "evidence_node_ids": [
+            "THEME_FORMATION",
+            "THEME_SOCIAL",
+            "CONFLICT_INNER"
+          ]
+        }
+      ],
+      "essay_paragraph": "Titlul „Enigma Otiliei” constituie cheia de boltă a întregii construcții artistice, marcând trecerea de la o simplă cronică familială la o profundă analiză psihologică. Prin această alegere, George Călinescu orientează atenția cititorului către misterul interior al fetei, care îmbină inocența adolescentină cu o maturitate afectivă precoce. Enigma nu rezidă doar în caracterul protagonistei, ci în imposibilitatea de a controla cursul vieții, marcată de iluzii și deziluzii. Astfel, titlul rezonează direct cu conflictul succesoral și cu dinamica relațiilor dintre personaje, transformând casa de pe strada Antim într-un laborator al destinului uman. În eseu, această componentă permite o structurare logică, pornind de la analiza portretului Otiliei și continuând cu explorarea temei formării intelectuale a lui Felix. Concluzia va sublinia că misterul anunțat de titlu rămâne valabil tocmai pentru că propune o lectură deschisă, adaptabilă oricărui aspect al mesajului operei despre condiția umană.",
+      "memory_formula": [
+        "Titlul = Cheie interpretativă",
+        "Otilia = Centru al enigmei afective",
+        "Romanul = Laborator al destinului"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "element_id": "incipit_final",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 12000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 26567,
+        "completion_tokens": 5992,
+        "total_tokens": 32559,
+        "cost": 0.00157597,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00157597,
+          "upstream_inference_prompt_cost": 0.00079701,
+          "upstream_inference_completions_cost": 0.00077896
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4647,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "element_id": "conflict",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 12000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 64201,
+        "completion_tokens": 4576,
+        "total_tokens": 68777,
+        "cost": 0.0082505,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0082505,
+          "upstream_inference_prompt_cost": 0.0064201,
+          "upstream_inference_completions_cost": 0.0018304
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 3397,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "element_id": "title",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 12000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 46056,
+        "completion_tokens": 5519,
+        "total_tokens": 51575,
+        "cost": 0.0068132,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0068132,
+          "upstream_inference_prompt_cost": 0.0046056,
+          "upstream_inference_completions_cost": 0.0022076
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4256,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

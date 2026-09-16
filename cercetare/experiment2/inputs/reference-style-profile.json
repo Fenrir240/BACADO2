@@ -1,0 +1,14 @@
+{
+  "style_profile_id": "ION-EXP2-CH01-STYLE-V1",
+  "source": "Fragment-etalon furnizat de cercetător; textul nu este trimis agenților.",
+  "word_count": 212,
+  "sentence_count": 12,
+  "average_sentence_length": 17.667,
+  "discourse_connector_count": 5,
+  "discourse_connector_ratio": 0.023585,
+  "filler_phrase_count": 0,
+  "filler_word_ratio": 0.0,
+  "graph_character_name_token_count": 24,
+  "graph_character_name_token_ratio": 0.113208,
+  "note": "Personajele sunt recunoscute exclusiv din nodurile Character ale knowledge graph-ului; numele persoanelor absente din graf nu intră în indicatorul reproductibil."
+}

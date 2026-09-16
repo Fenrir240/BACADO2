@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --ink: #153249;
+      --muted: #607789;
+      --line: #d7e7e3;
+      --teal: #137c80;
+      --teal-soft: #e8f5f1;
+      --blue: #2767c7;
+      --green: #16875f;
+      --red: #bd3b4b;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: transparent; font-family: Inter, "Segoe UI", Arial, sans-serif; }
+
+    .shell {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: linear-gradient(135deg, #fbfefd, #f6fbfa 52%, #f5f9ff);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .8);
+    }
+
+    .instruction {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      min-height: 38px;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .instruction span {
+      display: inline-grid;
+      place-items: center;
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      color: #fff;
+      background: var(--teal);
+      font-size: 11px;
+    }
+
+    #stage {
+      position: relative;
+      min-height: 302px;
+      padding: 15px 14px 14px;
+    }
+
+    #wires {
+      position: absolute;
+      z-index: 1;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+      pointer-events: none;
+    }
+
+    .columns {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: clamp(38px, 10vw, 82px);
+    }
+
+    .column-title {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .stack { display: grid; gap: 9px; }
+
+    .node {
+      position: relative;
+      display: flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 8px 28px 8px 11px;
+      border: 1px solid #c9ded8;
+      border-radius: 8px;
+      color: #24445a;
+      background: rgba(255, 255, 255, .96);
+      box-shadow: 0 3px 8px rgba(30, 82, 79, .055);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.35;
+      user-select: none;
+      transition: transform 150ms ease, border-color 150ms ease, background 150ms ease, box-shadow 150ms ease;
+    }
+
+    .node span {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .node.left { cursor: grab; touch-action: none; }
+    .node.left:hover, .node.left.dragging {
+      z-index: 4;
+      border-color: #72aaa3;
+      background: #f3fbf8;
+      box-shadow: 0 6px 14px rgba(19, 124, 128, .15);
+      transform: translateX(3px);
+    }
+    .node.left:active { cursor: grabbing; }
+    .node.right { padding-left: 28px; border-color: #ccdced; }
+    .node.right.target { border-color: #5798cf; background: #f1f7fe; transform: translateX(-3px); }
+
+    .port {
+      position: absolute;
+      top: 50%;
+      width: 13px;
+      height: 13px;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      background: var(--teal);
+      box-shadow: 0 0 0 1px #68aaa0, 0 2px 5px rgba(19, 124, 128, .3);
+      transform: translateY(-50%);
+    }
+    .left .port { right: -7px; }
+    .right .port { left: -7px; background: var(--blue); box-shadow: 0 0 0 1px #78a2d8, 0 2px 5px rgba(39, 103, 199, .27); }
+
+    .node.connected { border-color: #78b8ad; background: #f0faf7; }
+    .node.correct { border-color: #77c9a5; background: #edfbf3; }
+    .node.wrong { border-color: #e7a5ae; background: #fff4f5; }
+
+    .wire { fill: none; stroke: var(--teal); stroke-width: 3; stroke-linecap: round; filter: drop-shadow(0 2px 2px rgba(19,124,128,.2)); }
+    .wire.correct { stroke: var(--green); }
+    .wire.wrong { stroke: var(--red); }
+    .wire.temporary { stroke: #5798cf; stroke-width: 2.5; stroke-dasharray: 6 5; opacity: .82; }
+
+    .empty { padding: 60px 20px; color: var(--muted); text-align: center; font-size: 12px; }
+    @media (max-width: 440px) { .columns { gap: 32px; } .node { padding-right: 22px; font-size: 11px; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="instruction"><span>↗</span> Trage de la un enunț spre răspunsul potrivit. Dublu-click pe un enunț pentru a șterge linia.</div>
+    <div id="stage">
+      <svg id="wires"></svg>
+      <div id="content"></div>
+    </div>
+  </div>
+
+  <script>
+    const stage = document.getElementById("stage");
+    const wires = document.getElementById("wires");
+    const content = document.getElementById("content");
+    const shell = document.querySelector(".shell");
+    let args = {};
+    let connections = {};
+    let draggingLeft = null;
+    let draggingPointerId = null;
+    let pointer = null;
+    let lastFrameHeight = 0;
+
+    const send = (type, data) => window.parent.postMessage({ isStreamlitMessage: true, type, ...data }, "*");
+    const ready = () => send("streamlit:componentReady", { apiVersion: 1 });
+    const setHeight = () => requestAnimationFrame(() => {
+      const contentHeight = Math.ceil(shell.getBoundingClientRect().height) + 2;
+      const nextHeight = Math.max(360, contentHeight);
+      if (Math.abs(nextHeight - lastFrameHeight) < 1) return;
+      lastFrameHeight = nextHeight;
+      send("streamlit:setFrameHeight", { height: nextHeight });
+    });
+    const setValue = (value) => send("streamlit:setComponentValue", { value, dataType: "json" });
+    const escapeHtml = (value) => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+
+    function pathBetween(fromNode, toNode) {
+      const stageBox = stage.getBoundingClientRect();
+      const from = fromNode.querySelector(".port").getBoundingClientRect();
+      const to = toNode.querySelector(".port").getBoundingClientRect();
+      const x1 = from.left + from.width / 2 - stageBox.left;
+      const y1 = from.top + from.height / 2 - stageBox.top;
+      const x2 = to.left + to.width / 2 - stageBox.left;
+      const y2 = to.top + to.height / 2 - stageBox.top;
+      const bend = Math.max(38, Math.abs(x2 - x1) * .42);
+      return `M ${x1} ${y1} C ${x1 + bend} ${y1}, ${x2 - bend} ${y2}, ${x2} ${y2}`;
+    }
+
+    function temporaryPath(fromNode, point) {
+      const stageBox = stage.getBoundingClientRect();
+      const port = fromNode.querySelector(".port").getBoundingClientRect();
+      const x1 = port.left + port.width / 2 - stageBox.left;
+      const y1 = port.top + port.height / 2 - stageBox.top;
+      const x2 = point.x - stageBox.left;
+      const y2 = point.y - stageBox.top;
+      const bend = Math.max(38, Math.abs(x2 - x1) * .42);
+      return `M ${x1} ${y1} C ${x1 + bend} ${y1}, ${x2 - bend} ${y2}, ${x2} ${y2}`;
+    }
+
+    function drawWires() {
+      const stageBox = stage.getBoundingClientRect();
+      wires.setAttribute("viewBox", `0 0 ${stageBox.width} ${stageBox.height}`);
+      let markup = "";
+      const feedback = args.feedback || {};
+      Object.entries(connections).forEach(([leftId, rightId]) => {
+        const left = document.querySelector(`.node.left[data-id="${CSS.escape(leftId)}"]`);
+        const right = document.querySelector(`.node.right[data-id="${CSS.escape(rightId)}"]`);
+        if (!left || !right) return;
+        const status = feedback[leftId] === true ? "correct" : feedback[leftId] === false ? "wrong" : "";
+        markup += `<path class="wire ${status}" d="${pathBetween(left, right)}" />`;
+      });
+      if (draggingLeft && pointer) markup += `<path class="wire temporary" d="${temporaryPath(draggingLeft, pointer)}" />`;
+      wires.innerHTML = markup;
+    }
+
+    function updateNodeState() {
+      const feedback = args.feedback || {};
+      document.querySelectorAll(".node").forEach(node => node.classList.remove("connected", "correct", "wrong"));
+      Object.entries(connections).forEach(([leftId, rightId]) => {
+        const status = feedback[leftId] === true ? "correct" : feedback[leftId] === false ? "wrong" : "";
+        document.querySelector(`.node.left[data-id="${CSS.escape(leftId)}"]`)?.classList.add("connected", status);
+        document.querySelector(`.node.right[data-id="${CSS.escape(rightId)}"]`)?.classList.add("connected", status);
+      });
+    }
+
+    function emitChange() {
+      setValue({ type: "connections_changed", event_id: `${Date.now()}_${Math.random().toString(36).slice(2)}`, connections });
+    }
+
+    function finishDrag(event, cancelled = false) {
+      if (!draggingLeft || event.pointerId !== draggingPointerId) return;
+      const target = cancelled
+        ? null
+        : document.elementsFromPoint(event.clientX, event.clientY)
+            .map(element => element.closest?.(".node.right"))
+            .find(Boolean);
+      const leftId = draggingLeft.dataset.id;
+      if (target) {
+        const rightId = target.dataset.id;
+        Object.keys(connections).forEach(key => { if (connections[key] === rightId) delete connections[key]; });
+        connections[leftId] = rightId;
+        emitChange();
+      }
+      document.querySelectorAll(".node").forEach(node => node.classList.remove("dragging", "target"));
+      try { draggingLeft.releasePointerCapture(draggingPointerId); } catch (_) {}
+      draggingLeft = null;
+      draggingPointerId = null;
+      pointer = null;
+      updateNodeState();
+      drawWires();
+    }
+
+    function bindInteractions() {
+      document.querySelectorAll(".node.left").forEach(node => {
+        node.addEventListener("pointerdown", event => {
+          if (event.button !== 0 && event.pointerType === "mouse") return;
+          event.preventDefault();
+          window.focus();
+          draggingLeft = node;
+          draggingPointerId = event.pointerId;
+          pointer = { x: event.clientX, y: event.clientY };
+          node.classList.add("dragging");
+          node.setPointerCapture(event.pointerId);
+          drawWires();
+        });
+        node.addEventListener("dblclick", () => {
+          delete connections[node.dataset.id];
+          updateNodeState();
+          drawWires();
+          emitChange();
+        });
+      });
+    }
+
+    window.addEventListener("pointermove", event => {
+      if (!draggingLeft || event.pointerId !== draggingPointerId) return;
+      pointer = { x: event.clientX, y: event.clientY };
+      document.querySelectorAll(".node.right").forEach(node => {
+        const box = node.getBoundingClientRect();
+        node.classList.toggle("target", event.clientX >= box.left && event.clientX <= box.right && event.clientY >= box.top && event.clientY <= box.bottom);
+      });
+      drawWires();
+    });
+    window.addEventListener("pointerup", event => finishDrag(event, false));
+    window.addEventListener("pointercancel", event => finishDrag(event, true));
+    window.addEventListener("resize", drawWires);
+
+    function render(nextArgs) {
+      args = nextArgs || {};
+      connections = { ...(args.connections || {}) };
+      const leftItems = Array.isArray(args.left_items) ? args.left_items : [];
+      const rightItems = Array.isArray(args.right_items) ? args.right_items : [];
+      if (!leftItems.length || !rightItems.length) {
+        content.innerHTML = '<div class="empty">Nu există suficiente elemente pentru asociere.</div>';
+        setHeight();
+        return;
+      }
+      content.innerHTML = `
+        <div class="columns">
+          <section><p class="column-title">Enunțuri</p><div class="stack">${leftItems.map(item => `<div class="node left" data-id="${escapeHtml(item.id)}"><span>${escapeHtml(item.label)}</span><i class="port"></i></div>`).join("")}</div></section>
+          <section><p class="column-title">Răspunsuri</p><div class="stack">${rightItems.map(item => `<div class="node right" data-id="${escapeHtml(item.id)}"><i class="port"></i><span>${escapeHtml(item.label)}</span></div>`).join("")}</div></section>
+        </div>`;
+      bindInteractions();
+      updateNodeState();
+      requestAnimationFrame(drawWires);
+      setHeight();
+    }
+
+    window.addEventListener("message", event => {
+      if (event.data.type === "streamlit:render") render(event.data.args || {});
+    });
+    new ResizeObserver(setHeight).observe(shell);
+    document.fonts?.ready?.then(setHeight);
+    ready();
+  </script>
+</body>
+</html>

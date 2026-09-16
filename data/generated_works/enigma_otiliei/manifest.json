@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "pipeline": "opera-completa",
+  "status": "ready",
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "input": {
+    "knowledge_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\grafuri\\enigma-otiliei-knowledge-graph.json",
+    "knowledge_graph_sha256": "4cc73cd4a6a9c5454a6f62db21a305520c64b3ed5c3f852ecdce3b451219ac43",
+    "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\enigma_otiliei.md",
+    "model_essay_sha256": "3898c84e015cdb47fa716e8bb11d07414f42e4790905f71cac980a61ba10e409"
+  },
+  "canonical_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\knowledge-graph.json",
+  "model": "qwen/qwen3.7-flash",
+  "reasoning_effort": "medium",
+  "quick_testing_batches": 4,
+  "planned_questions": 96,
+  "qwen_calls": 58,
+  "executed_qwen_calls": 0,
+  "retry_on_invalid": false,
+  "force": false,
+  "registered_in_app": true,
+  "steps": [
+    {
+      "id": "intelegere-opera",
+      "status": "skipped_already_ready",
+      "manifest": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\manifest.json"
+    },
+    {
+      "id": "testare-rapida",
+      "status": "skipped_already_ready",
+      "manifest": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\testare-rapida\\manifest.json"
+    },
+    {
+      "id": "construieste-eseu",
+      "status": "complete",
+      "manifest": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\construieste-eseu\\eseu.json",
+      "executed_qwen_calls": 0
+    },
+    {
+      "id": "register-work",
+      "status": "complete",
+      "registry": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\works.json",
+      "changed": false
+    }
+  ],
+  "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\pipeline-total\\runs\\run-20260822T141420573235Z",
+  "cost_report": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\cost-report.json",
+  "registry_entry": {
+    "id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu",
+    "type": "roman",
+    "icon": "🏛️",
+    "category": "other"
+  },
+  "canonical_graph_sha256": "4cc73cd4a6a9c5454a6f62db21a305520c64b3ed5c3f852ecdce3b451219ac43",
+  "source_graph_modified": false,
+  "costs": {
+    "currency": "USD",
+    "latest_run": {
+      "api_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0
+    },
+    "work_lifetime": {
+      "api_calls": 61,
+      "prompt_tokens": 703651,
+      "completion_tokens": 399007,
+      "reasoning_tokens": 325256,
+      "total_tokens": 1102658,
+      "cost_usd": 0.09741796
+    },
+    "report": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\cost-report.json"
+  }
+}

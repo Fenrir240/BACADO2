@@ -1,0 +1,4 @@
+config.local.env
+rulari/
+__pycache__/
+*.pyc

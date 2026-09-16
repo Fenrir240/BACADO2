@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "report_type": "complete_work_openrouter_cost",
+  "currency": "USD",
+  "cost_source": "OpenRouter usage.cost returned for each API call",
+  "updated_at_utc": "2026-08-24T15:26:37.841598+00:00",
+  "work": {
+    "work_id": "floare_albastra",
+    "title": "Floare albastră",
+    "author": "Mihai Eminescu"
+  },
+  "latest_total_run": {
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\floare_albastra\\pipeline-total\\runs\\run-20260824T152637703159Z",
+    "by_section": {
+      "intelegere-opera": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      },
+      "testare-rapida": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      },
+      "construieste-eseu": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      }
+    },
+    "total": {
+      "api_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0
+    }
+  },
+  "lifetime": {
+    "by_section": {
+      "intelegere-opera": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      },
+      "testare-rapida": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      },
+      "construieste-eseu": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      }
+    },
+    "total": {
+      "api_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0
+    }
+  }
+}

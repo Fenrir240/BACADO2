@@ -1,0 +1,1315 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #153249;
+      --muted: #607789;
+      --line: #dce8e5;
+      --panel: #ffffff;
+      --soft: #f7faf9;
+      --accent: #137c80;
+      --accent-blue: #2767c7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: transparent;
+      color: var(--ink);
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .shell {
+      height: 500px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 0 8px 22px rgba(27, 73, 72, 0.08);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      animation: readerOpen 440ms cubic-bezier(0.18, 0.9, 0.3, 1.16) both;
+    }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 48px;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(8px);
+      flex: 0 0 auto;
+      overflow-x: auto;
+    }
+
+    .tool-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 32px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 6px 8px;
+      background: transparent;
+      color: #31566a;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 13px;
+      transform: translateY(0) scale(1);
+      transition: transform 170ms cubic-bezier(0.2, 0.85, 0.35, 1.25), background 150ms ease, border-color 150ms ease, color 150ms ease, box-shadow 150ms ease;
+    }
+
+    .tool-button:hover {
+      transform: translateY(-2px);
+      background: #eef7f4;
+      border-color: #cbe2dd;
+      color: #0f656a;
+    }
+
+    .tool-button.active {
+      background: #e8f5f1;
+      border-color: #88bdb4;
+      color: #0f656a;
+      box-shadow: 0 0 0 3px rgba(19, 124, 128, 0.11);
+      animation: toolPop 260ms cubic-bezier(0.2, 0.9, 0.35, 1.3);
+    }
+
+    .tool-button:active {
+      transform: translateY(1px) scale(0.97);
+      transition-duration: 70ms;
+    }
+
+    .tool-icon {
+      width: 18px;
+      height: 18px;
+      display: inline-block;
+    }
+
+    .divider {
+      width: 1px;
+      height: 24px;
+      background: var(--line);
+      margin: 0 4px;
+    }
+
+    .swatch {
+      width: 18px;
+      height: 18px;
+      border: 2px solid transparent;
+      border-radius: 999px;
+      cursor: pointer;
+      padding: 0;
+      box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.08);
+      transform: scale(1);
+      transition: transform 170ms cubic-bezier(0.2, 0.85, 0.35, 1.3), box-shadow 150ms ease, border-color 150ms ease;
+    }
+
+    .swatch:hover {
+      transform: translateY(-2px) scale(1.18);
+      box-shadow: 0 4px 10px rgba(27, 73, 72, 0.15);
+    }
+
+    .swatch.active {
+      border-color: #153249;
+      box-shadow: 0 0 0 3px rgba(19, 124, 128, 0.15);
+      animation: swatchSelect 300ms cubic-bezier(0.2, 0.9, 0.35, 1.35);
+    }
+
+    .workspace {
+      display: block;
+      padding: 22px 26px 28px;
+      overflow-y: auto;
+      flex: 1 1 auto;
+      min-height: 0;
+      background: #ffffff;
+    }
+
+    .document {
+      max-width: 820px;
+      margin: 0 auto;
+      line-height: 1.8;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      outline: none;
+      white-space: pre-wrap;
+    }
+
+    .doc-title {
+      margin: 0 0 4px;
+      text-align: center;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+      font-weight: 800;
+      animation: titleDrop 480ms 120ms cubic-bezier(0.18, 0.9, 0.3, 1.2) both;
+    }
+
+    .doc-meta {
+      margin: 0 0 22px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+    }
+
+    .text-layer {
+      user-select: text;
+      animation: textReveal 440ms 150ms ease-out both;
+    }
+
+    .editable-text {
+      width: 100%;
+      min-height: 350px;
+      resize: vertical;
+      border: 1px solid #b9d2cd;
+      border-radius: 10px;
+      padding: 18px 20px;
+      background: #fbfdfc;
+      color: var(--ink);
+      font: inherit;
+      line-height: inherit;
+      white-space: pre-wrap;
+      outline: none;
+      transition: border-color 150ms ease, box-shadow 150ms ease, background 150ms ease;
+    }
+
+    .editable-text:focus {
+      border-color: var(--accent);
+      background: #ffffff;
+      box-shadow: 0 0 0 3px rgba(19, 124, 128, 0.12);
+    }
+
+    .tool-button.save-text {
+      border-color: #84c8b1;
+      background: #e9f8f1;
+      color: #08745b;
+    }
+
+    .annotated {
+      position: relative;
+      border-radius: 3px;
+      cursor: context-menu;
+      padding: 1px 0;
+      animation: markerSet 260ms cubic-bezier(0.2, 0.9, 0.35, 1.2);
+    }
+
+    .annotated.has-note {
+      cursor: help;
+    }
+
+    .annotated.has-note::after {
+      content: "";
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      margin-left: 3px;
+      border-radius: 999px;
+      background: #f59e0b;
+      vertical-align: super;
+      box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.22);
+      animation: notePing 420ms cubic-bezier(0.2, 0.9, 0.35, 1.35);
+    }
+
+    .note-tooltip {
+      position: fixed;
+      z-index: 30;
+      display: none;
+      max-width: 280px;
+      border: 1px solid rgba(245, 158, 11, 0.34);
+      border-radius: 8px;
+      background: #fef3c7;
+      color: #713f12;
+      box-shadow: 0 18px 36px rgba(15, 23, 42, 0.18);
+      padding: 10px 12px;
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.45;
+      pointer-events: none;
+      transform-origin: left bottom;
+      animation: floatingPop 190ms cubic-bezier(0.2, 0.9, 0.35, 1.2);
+    }
+
+    .note-tooltip strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #422006;
+    }
+
+    .context-menu {
+      position: fixed;
+      z-index: 20;
+      min-width: 220px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      background: #ffffff;
+      box-shadow: 0 18px 36px rgba(15, 23, 42, 0.18);
+      padding: 6px;
+      display: none;
+      transform-origin: left top;
+      animation: floatingPop 190ms cubic-bezier(0.2, 0.9, 0.35, 1.2);
+    }
+
+    .context-menu button {
+      display: block;
+      width: 100%;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: #0f172a;
+      text-align: left;
+      padding: 9px 10px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: transform 150ms ease, background 150ms ease, color 150ms ease;
+    }
+
+    .context-menu button:hover {
+      transform: translateX(3px);
+      background: #eef7f4;
+      color: #0f656a;
+    }
+
+    .comment-popover {
+      position: fixed;
+      z-index: 28;
+      display: none;
+      width: min(340px, calc(100vw - 24px));
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      background: #ffffff;
+      box-shadow: 0 18px 36px rgba(15, 23, 42, 0.18);
+      padding: 10px;
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      transform-origin: center top;
+      animation: floatingPop 210ms cubic-bezier(0.2, 0.9, 0.35, 1.2);
+    }
+
+    .comment-popover label {
+      display: block;
+      margin-bottom: 6px;
+      color: #334155;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .comment-popover textarea {
+      width: 100%;
+      min-height: 88px;
+      resize: vertical;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 8px;
+      color: #0f172a;
+      font: inherit;
+      line-height: 1.4;
+    }
+
+    .comment-actions {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+      margin-top: 8px;
+    }
+
+    .comment-actions button {
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 7px 10px;
+      background: #ffffff;
+      color: #334155;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 700;
+      transform: translateY(0);
+      transition: transform 150ms cubic-bezier(0.2, 0.85, 0.35, 1.2), box-shadow 150ms ease, background 150ms ease;
+    }
+
+    .comment-actions button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 9px rgba(27, 73, 72, 0.12);
+    }
+
+    .comment-actions button:active {
+      transform: translateY(1px) scale(0.98);
+    }
+
+    .comment-actions button.primary {
+      border-color: #137c80;
+      background: #137c80;
+      color: #ffffff;
+    }
+
+    .toast {
+      position: fixed;
+      right: 14px;
+      bottom: 14px;
+      z-index: 25;
+      max-width: 280px;
+      border-radius: 8px;
+      background: #153249;
+      color: white;
+      padding: 10px 12px;
+      font-size: 13px;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px);
+      transition: opacity 140ms ease, transform 140ms ease;
+    }
+
+    .toast.visible {
+      opacity: 1;
+      transform: translateY(0);
+      animation: toastBounce 260ms cubic-bezier(0.2, 0.9, 0.35, 1.25);
+    }
+
+    @keyframes readerOpen {
+      0% { opacity: 0; transform: translateY(9px) scale(0.985); }
+      72% { opacity: 1; transform: translateY(-2px) scale(1.004); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes toolPop {
+      0% { transform: scale(0.94); }
+      68% { transform: scale(1.045); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes swatchSelect {
+      0% { transform: scale(0.8); }
+      58% { transform: scale(1.3); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes titleDrop {
+      0% { opacity: 0; transform: translateY(-9px) scale(0.96); }
+      70% { opacity: 1; transform: translateY(2px) scale(1.02); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes textReveal {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes markerSet {
+      0% { filter: saturate(0.8); }
+      55% { filter: saturate(1.25); }
+      100% { filter: saturate(1); }
+    }
+
+    @keyframes notePing {
+      0% { transform: scale(0); }
+      62% { transform: scale(1.45); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes floatingPop {
+      0% { opacity: 0; transform: translateY(5px) scale(0.96); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes toastBounce {
+      0% { transform: translateY(10px) scale(0.96); }
+      70% { transform: translateY(-2px) scale(1.02); }
+      100% { transform: translateY(0) scale(1); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-delay: 0ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .toolbar {
+        flex-wrap: wrap;
+      }
+
+      .workspace {
+        padding: 18px;
+      }
+
+      .document {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <div id="context-menu" class="context-menu" role="menu">
+    <button id="ask-ai" type="button">✨ Întreabă AI profesorul</button>
+    <button id="remove-one" type="button">Șterge marcajul</button>
+    <button id="remove-all" type="button">Șterge toate marcajele de aici</button>
+  </div>
+  <div id="comment-popover" class="comment-popover">
+    <label for="comment-input">Comentariu</label>
+    <textarea id="comment-input" placeholder="Scrie comentariul pentru fragmentul selectat..."></textarea>
+    <div class="comment-actions">
+      <button id="cancel-comment" type="button">Renunță</button>
+      <button id="save-comment" class="primary" type="button">Salvează</button>
+    </div>
+  </div>
+  <div id="note-tooltip" class="note-tooltip"></div>
+  <div id="toast" class="toast"></div>
+
+  <script>
+    const root = document.getElementById("root");
+    const menu = document.getElementById("context-menu");
+    const commentPopover = document.getElementById("comment-popover");
+    const commentInput = document.getElementById("comment-input");
+    const noteTooltip = document.getElementById("note-tooltip");
+    const toast = document.getElementById("toast");
+    const colors = ["#fde68a", "#93c5fd", "#86efac", "#fda4af", "#c4b5fd", "#a78bfa"];
+
+    let args = {};
+    let annotations = [];
+    let selectedColor = colors[0];
+    let activeTool = null;
+    let lastSelection = null;
+    let lastSelectionAt = 0;
+    let pendingCommentSelection = null;
+    let contextAnnotationIds = [];
+    let pendingSyncAnnotations = null;
+    let pendingSyncText = null;
+    let editingMode = false;
+    let draftText = "";
+    let workspaceScrollTop = 0;
+    let activeScrollStorageKey = "";
+
+    function send(type, data) {
+      window.parent.postMessage({ isStreamlitMessage: true, type, ...data }, "*");
+    }
+
+    function ready() {
+      send("streamlit:componentReady", { apiVersion: 1 });
+    }
+
+    function setFrameHeight() {
+      send("streamlit:setFrameHeight", { height: 520 });
+    }
+
+    function setValue(value) {
+      send("streamlit:setComponentValue", {
+        value,
+        dataType: "json",
+      });
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function makeWorkspaceScrollKey(targetArgs = args) {
+      const workId = String(targetArgs.work_id || "work");
+      const sequenceId = String(targetArgs.sequence_id || "sequence");
+      return `scene_reader_scroll:${workId}:${sequenceId}`;
+    }
+
+    function readStoredWorkspaceScroll(storageKey) {
+      try {
+        const value = Number(window.sessionStorage.getItem(storageKey));
+        return Number.isFinite(value) && value > 0 ? value : 0;
+      } catch (error) {
+        return 0;
+      }
+    }
+
+    function storeWorkspaceScroll() {
+      if (!activeScrollStorageKey) {
+        return;
+      }
+
+      try {
+        window.sessionStorage.setItem(activeScrollStorageKey, String(workspaceScrollTop));
+      } catch (error) {
+        // Scroll restoration still works in memory if storage is unavailable.
+      }
+    }
+
+    function captureWorkspaceScroll() {
+      const workspace = root.querySelector(".workspace");
+      if (workspace) {
+        workspaceScrollTop = workspace.scrollTop;
+        storeWorkspaceScroll();
+      }
+
+      return workspaceScrollTop;
+    }
+
+    function prepareWorkspaceScroll(nextArgs) {
+      captureWorkspaceScroll();
+
+      const nextStorageKey = makeWorkspaceScrollKey(nextArgs);
+      if (nextStorageKey !== activeScrollStorageKey) {
+        activeScrollStorageKey = nextStorageKey;
+        workspaceScrollTop = readStoredWorkspaceScroll(activeScrollStorageKey);
+      }
+    }
+
+    function restoreWorkspaceScroll() {
+      const applyScroll = () => {
+        const workspace = root.querySelector(".workspace");
+        if (!workspace) {
+          return;
+        }
+
+        const maxScrollTop = Math.max(0, workspace.scrollHeight - workspace.clientHeight);
+        workspace.scrollTop = Math.min(workspaceScrollTop, maxScrollTop);
+      };
+
+      applyScroll();
+      window.requestAnimationFrame(() => {
+        applyScroll();
+        window.requestAnimationFrame(applyScroll);
+      });
+    }
+
+    function render(nextArgs) {
+      const safeNextArgs = nextArgs || {};
+      prepareWorkspaceScroll(safeNextArgs);
+      args = safeNextArgs;
+      const incomingText = String(args.text || "");
+      if (pendingSyncText !== null && incomingText !== pendingSyncText) {
+        args = { ...args, text: pendingSyncText };
+      } else if (pendingSyncText !== null) {
+        pendingSyncText = null;
+      }
+      const incomingAnnotations = sanitizeAnnotations(args.annotations || []);
+
+      if (
+        pendingSyncAnnotations
+        && annotationsSignature(incomingAnnotations) !== annotationsSignature(pendingSyncAnnotations)
+      ) {
+        annotations = cloneAnnotations(pendingSyncAnnotations);
+        args = {
+          ...args,
+          annotations,
+        };
+      } else {
+        annotations = incomingAnnotations;
+        pendingSyncAnnotations = null;
+      }
+
+      root.innerHTML = `
+        <section class="shell">
+          <div class="toolbar" aria-label="Instrumente adnotare">
+            <button id="underline-tool" class="tool-button ${activeTool === "underline" ? "active" : ""}" type="button" title="Activează sublinierea, apoi selectează textul">
+              <span class="tool-icon">${pencilIcon()}</span>
+              <span>Subliniază</span>
+            </button>
+            <div class="divider"></div>
+            <button id="highlight-tool" class="tool-button ${activeTool === "highlight" ? "active" : ""}" type="button" title="Activează evidențierea, apoi selectează textul">
+              <span class="tool-icon">${markerIcon()}</span>
+              <span>Evidențiază</span>
+            </button>
+            ${colors.map((color, index) => `
+              <button
+                class="swatch ${color === selectedColor ? "active" : ""}"
+                type="button"
+                title="Alege culoarea"
+                data-color="${color}"
+                style="background:${color}"
+              ></button>
+            `).join("")}
+            <div class="divider"></div>
+            <button id="comment-tool" class="tool-button" type="button" title="Adaugă notiță pe textul selectat">
+              <span class="tool-icon">${commentIcon()}</span>
+              <span>Comentariu</span>
+            </button>
+            <button id="quote-tool" class="tool-button" type="button" title="Marchează fragment de citat">
+              <span class="tool-icon">${quoteIcon()}</span>
+              <span>Citat</span>
+            </button>
+            ${args.editable ? `
+              <div class="divider"></div>
+              <button id="edit-text-tool" class="tool-button ${editingMode ? "active" : ""}" type="button">
+                <span>${editingMode ? "Renunță" : "Editează textul"}</span>
+              </button>
+              ${editingMode ? `
+                <button id="save-text-tool" class="tool-button save-text" type="button">
+                  <span>Salvează textul</span>
+                </button>
+              ` : ""}
+            ` : ""}
+          </div>
+          <div class="workspace">
+            <article class="document">
+              <h3 class="doc-title">${escapeHtml(args.title || "")}</h3>
+              <p class="doc-meta">${escapeHtml(args.chapter || "")}<br>${escapeHtml(args.source || "")}</p>
+              ${editingMode && args.editable
+                ? `<textarea id="editable-text" class="editable-text" aria-label="Eseu complet editabil" placeholder="Scrie sau lipește aici eseul...">${escapeHtml(draftText)}</textarea>`
+                : `<div id="text-layer" class="text-layer">${renderAnnotatedText(args.text || "", annotations)}</div>`}
+            </article>
+          </div>
+        </section>
+      `;
+
+      bindHandlers();
+      restoreWorkspaceScroll();
+      setTimeout(setFrameHeight, 0);
+    }
+
+    function sanitizeAnnotations(items) {
+      return items
+        .filter((item) => item && Number.isInteger(item.start) && Number.isInteger(item.end) && item.end > item.start)
+        .map((item) => ({
+          id: String(item.id || makeId()),
+          type: ["highlight", "underline", "note"].includes(item.type) ? item.type : "highlight",
+          color: String(item.color || colors[0]),
+          start: item.start,
+          end: item.end,
+          text: String(item.text || ""),
+          note: String(item.note || ""),
+          purpose: item.purpose === "quote" ? "quote" : "",
+          createdAt: Number(item.createdAt || Date.now()),
+        }));
+    }
+
+    function cloneAnnotations(items) {
+      return items.map((item) => ({ ...item }));
+    }
+
+    function annotationsSignature(items) {
+      return items
+        .map((item) => [
+          item.id,
+          item.type,
+          item.color,
+          item.start,
+          item.end,
+          item.note,
+          item.purpose,
+        ].join(":"))
+        .sort()
+        .join("|");
+    }
+
+    function renderAnnotatedText(text, items) {
+      const boundaries = new Set([0, text.length]);
+      for (const item of items) {
+        boundaries.add(Math.max(0, Math.min(text.length, item.start)));
+        boundaries.add(Math.max(0, Math.min(text.length, item.end)));
+      }
+
+      const sorted = [...boundaries].sort((a, b) => a - b);
+      let html = "";
+
+      for (let index = 0; index < sorted.length - 1; index += 1) {
+        const start = sorted[index];
+        const end = sorted[index + 1];
+        const chunk = text.slice(start, end);
+        if (!chunk) {
+          continue;
+        }
+
+        const active = items.filter((item) => item.start < end && item.end > start);
+        if (!active.length) {
+          html += escapeHtml(chunk);
+          continue;
+        }
+
+        const highlight = [...active].reverse().find((item) => item.type === "highlight" || item.type === "note");
+        const underline = [...active].reverse().find((item) => item.type === "underline");
+        const notes = active.filter((item) => item.type === "note" && item.note.trim());
+        const styles = [];
+        const classes = ["annotated"];
+        const noteAttribute = notes.length
+          ? ` data-note="${escapeHtml(notes.map((item) => item.note.trim()).join("\\n\\n"))}"`
+          : "";
+
+        if (highlight) {
+          styles.push(`background:${highlight.color}`);
+        }
+
+        if (underline) {
+          styles.push(`text-decoration-line: underline`);
+          styles.push(`text-decoration-thickness: 3px`);
+          styles.push(`text-decoration-color:${underline.color}`);
+          styles.push(`text-underline-offset: 4px`);
+        }
+
+        if (active.some((item) => item.type === "note")) {
+          classes.push("has-note");
+          styles.push("box-shadow: inset 0 -2px 0 #f59e0b");
+        }
+
+        html += `<span class="${classes.join(" ")}" data-annotation-ids="${active.map((item) => item.id).join(",")}"${noteAttribute} style="${styles.join(";")}">${escapeHtml(chunk)}</span>`;
+      }
+
+      return html;
+    }
+
+    function adjustAnnotationsAfterTextEdit(oldText, newText, items) {
+      if (oldText === newText) {
+        return cloneAnnotations(items);
+      }
+
+      let prefix = 0;
+      const commonLimit = Math.min(oldText.length, newText.length);
+      while (prefix < commonLimit && oldText[prefix] === newText[prefix]) {
+        prefix += 1;
+      }
+
+      let suffix = 0;
+      const oldRemaining = oldText.length - prefix;
+      const newRemaining = newText.length - prefix;
+      while (
+        suffix < oldRemaining
+        && suffix < newRemaining
+        && oldText[oldText.length - suffix - 1] === newText[newText.length - suffix - 1]
+      ) {
+        suffix += 1;
+      }
+
+      const oldChangeEnd = oldText.length - suffix;
+      const delta = newText.length - oldText.length;
+      return items.flatMap((item) => {
+        if (item.end <= prefix) {
+          return [{ ...item }];
+        }
+        if (item.start >= oldChangeEnd) {
+          const start = item.start + delta;
+          const end = item.end + delta;
+          return [{ ...item, start, end, text: newText.slice(start, end) }];
+        }
+        return [];
+      });
+    }
+
+    function saveEditedText() {
+      const editor = document.getElementById("editable-text");
+      if (!editor) {
+        return;
+      }
+
+      const oldText = String(args.text || "");
+      const newText = editor.value.trim();
+      annotations = adjustAnnotationsAfterTextEdit(oldText, newText, annotations);
+      pendingSyncAnnotations = cloneAnnotations(annotations);
+      pendingSyncText = newText;
+      args = { ...args, text: newText, annotations };
+      editingMode = false;
+      draftText = "";
+      setValue({
+        event_id: `text:${Date.now()}:${Math.random().toString(16).slice(2)}`,
+        type: "text_changed",
+        text: newText,
+        annotations: cloneAnnotations(annotations),
+      });
+      render(args);
+      showToast("Textul eseului a fost salvat.");
+    }
+
+    function bindHandlers() {
+      document.querySelectorAll(".swatch").forEach((button) => {
+        button.addEventListener("click", () => {
+          if (editingMode) {
+            return;
+          }
+          selectedColor = button.dataset.color;
+          document.querySelectorAll(".swatch").forEach((item) => item.classList.remove("active"));
+          button.classList.add("active");
+          updateToolButtons();
+          showToast("Culoarea a fost selectată.");
+        });
+      });
+
+      document.getElementById("underline-tool").addEventListener("click", () => {
+        if (editingMode) {
+          return;
+        }
+        setActiveTool(activeTool === "underline" ? null : "underline");
+      });
+
+      document.getElementById("highlight-tool").addEventListener("click", () => {
+        if (editingMode) {
+          return;
+        }
+        setActiveTool(activeTool === "highlight" ? null : "highlight");
+      });
+
+      document.getElementById("comment-tool").addEventListener("click", () => {
+        if (editingMode) {
+          return;
+        }
+        activeTool = null;
+        updateToolButtons();
+        const selection = getSavedSelection();
+        if (!selection) {
+          showToast("Selectează mai întâi un fragment.");
+          return;
+        }
+
+        openCommentPopover(selection);
+      });
+
+      document.getElementById("quote-tool").addEventListener("click", () => {
+        if (editingMode) {
+          return;
+        }
+        selectedColor = "#8b5cf6";
+        setActiveTool("quote");
+        updateToolButtons();
+      });
+
+      const textLayer = document.getElementById("text-layer");
+      if (editingMode) {
+        const editor = document.getElementById("editable-text");
+        if (editor) {
+          editor.addEventListener("input", () => {
+            draftText = editor.value;
+          });
+          editor.focus();
+          editor.setSelectionRange(editor.value.length, editor.value.length);
+        }
+      } else {
+        bindTextLayerHandlers(textLayer);
+      }
+
+      const editButton = document.getElementById("edit-text-tool");
+      if (editButton) {
+        editButton.addEventListener("click", () => {
+          if (editingMode) {
+            editingMode = false;
+            draftText = "";
+          } else {
+            editingMode = true;
+            draftText = String(args.text || "");
+            activeTool = null;
+          }
+          render(args);
+        });
+      }
+      document.getElementById("save-text-tool")?.addEventListener("click", saveEditedText);
+
+      const workspace = root.querySelector(".workspace");
+      workspace?.addEventListener("scroll", captureWorkspaceScroll, { passive: true });
+
+      document.getElementById("ask-ai").onclick = askAi;
+      document.getElementById("remove-one").onclick = removeOneAnnotation;
+      document.getElementById("remove-all").onclick = removeAllContextAnnotations;
+      menu.onclick = (event) => {
+        event.stopPropagation();
+      };
+      commentPopover.onclick = (event) => {
+        event.stopPropagation();
+      };
+      document.getElementById("save-comment").onclick = saveCommentFromPopover;
+      document.getElementById("cancel-comment").onclick = closeCommentPopover;
+      document.onclick = closeFloatingUi;
+    }
+
+    function bindTextLayerHandlers(textLayer) {
+      if (!textLayer) {
+        return;
+      }
+
+      textLayer.onmousedown = null;
+      textLayer.onmouseup = null;
+      textLayer.onkeyup = null;
+      textLayer.oncontextmenu = null;
+
+      textLayer.onmousedown = () => {
+        lastSelection = null;
+        lastSelectionAt = 0;
+      };
+      textLayer.onmouseup = handleTextSelection;
+      textLayer.onkeyup = handleTextSelection;
+      textLayer.oncontextmenu = openContextMenu;
+
+      textLayer.querySelectorAll("[data-note]").forEach((element) => {
+        element.addEventListener("mouseenter", showNoteTooltip);
+        element.addEventListener("mousemove", moveNoteTooltip);
+        element.addEventListener("mouseleave", hideNoteTooltip);
+      });
+    }
+
+    function handleTextSelection() {
+      const selection = getSelectionOffsets();
+      if (selection) {
+        lastSelection = selection;
+        lastSelectionAt = Date.now();
+
+        if (activeTool === "highlight") {
+          addAnnotation(selection, "highlight", selectedColor);
+          return;
+        }
+
+        if (activeTool === "underline") {
+          addAnnotation(selection, "underline", selectedColor);
+          return;
+        }
+
+        if (activeTool === "quote") {
+          addAnnotation(selection, "underline", "#8b5cf6", "", "quote");
+          return;
+        }
+      }
+    }
+
+    function saveCurrentSelection() {
+      const selection = getSelectionOffsets();
+      if (selection) {
+        lastSelection = selection;
+        lastSelectionAt = Date.now();
+      }
+    }
+
+    function setActiveTool(tool) {
+      activeTool = tool;
+      updateToolButtons();
+
+      if (tool === "highlight") {
+        showToast("Selectează textul pe care vrei să îl evidențiezi.");
+      } else if (tool === "underline") {
+        showToast("Selectează textul pe care vrei să îl subliniezi.");
+      } else if (tool === "quote") {
+        showToast("Selectează fragmentul pe care vrei să îl folosești drept citat în eseu.");
+      } else {
+        showToast("Instrument dezactivat.");
+      }
+    }
+
+    function updateToolButtons() {
+      document.getElementById("underline-tool")?.classList.toggle("active", activeTool === "underline");
+      document.getElementById("highlight-tool")?.classList.toggle("active", activeTool === "highlight");
+      document.getElementById("quote-tool")?.classList.toggle("active", activeTool === "quote");
+
+      document.querySelectorAll(".swatch").forEach((item) => {
+        item.classList.toggle("active", item.dataset.color === selectedColor);
+      });
+    }
+
+    function getSavedSelection() {
+      saveCurrentSelection();
+
+      if (lastSelection && Date.now() - lastSelectionAt > 30000) {
+        lastSelection = null;
+        lastSelectionAt = 0;
+      }
+
+      return lastSelection;
+    }
+
+    function getSelectionOffsets() {
+      const textLayer = document.getElementById("text-layer");
+      const selection = window.getSelection();
+      if (!selection || selection.rangeCount === 0 || selection.isCollapsed) {
+        return null;
+      }
+
+      const range = selection.getRangeAt(0);
+      if (!textLayer.contains(range.commonAncestorContainer)) {
+        return null;
+      }
+
+      const before = range.cloneRange();
+      before.selectNodeContents(textLayer);
+      before.setEnd(range.startContainer, range.startOffset);
+      const start = before.toString().length;
+      const selectedText = range.toString();
+      const end = start + selectedText.length;
+
+      if (!selectedText.trim() || end <= start) {
+        return null;
+      }
+
+      return { start, end, text: selectedText };
+    }
+
+    function applyAnnotation(type, color, note = "") {
+      const selection = getSavedSelection();
+      if (!selection) {
+        showToast("Selectează mai întâi un fragment.");
+        return;
+      }
+
+      addAnnotation(selection, type, color, note);
+    }
+
+    function addAnnotation(selection, type, color, note = "", purpose = "") {
+      const scrollTopBeforeAnnotation = captureWorkspaceScroll();
+
+      annotations.push({
+        id: makeId(),
+        type,
+        color,
+        start: selection.start,
+        end: selection.end,
+        text: selection.text,
+        note,
+        purpose,
+        createdAt: Date.now(),
+      });
+
+      window.getSelection()?.removeAllRanges();
+      lastSelection = null;
+      lastSelectionAt = 0;
+      redrawTextLayer(scrollTopBeforeAnnotation);
+      persistAnnotations();
+    }
+
+    function openCommentPopover(selection) {
+      pendingCommentSelection = selection;
+      commentInput.value = "";
+      commentPopover.style.display = "block";
+
+      const nativeSelection = window.getSelection();
+      let rect = null;
+      if (nativeSelection && nativeSelection.rangeCount > 0 && !nativeSelection.isCollapsed) {
+        rect = nativeSelection.getRangeAt(0).getBoundingClientRect();
+      }
+
+      const leftBase = rect ? rect.left : window.innerWidth / 2 - 170;
+      const topBase = rect ? rect.bottom + 10 : 80;
+      const left = Math.min(leftBase, window.innerWidth - 352);
+      const top = Math.min(topBase, window.innerHeight - 180);
+
+      commentPopover.style.left = `${Math.max(8, left)}px`;
+      commentPopover.style.top = `${Math.max(8, top)}px`;
+      commentInput.focus();
+    }
+
+    function saveCommentFromPopover() {
+      const note = commentInput.value.trim();
+
+      if (!note) {
+        showToast("Scrie comentariul înainte să îl salvezi.");
+        return;
+      }
+
+      if (!pendingCommentSelection) {
+        showToast("Selectează din nou fragmentul pentru comentariu.");
+        closeCommentPopover();
+        return;
+      }
+
+      addAnnotation(pendingCommentSelection, "note", "#fef3c7", note);
+      closeCommentPopover();
+    }
+
+    function closeCommentPopover() {
+      commentPopover.style.display = "none";
+      commentInput.value = "";
+      pendingCommentSelection = null;
+    }
+
+    function openContextMenu(event) {
+      const target = event.target.closest("[data-annotation-ids]");
+      if (!target) {
+        return;
+      }
+
+      event.preventDefault();
+      window.getSelection()?.removeAllRanges();
+      lastSelection = null;
+      lastSelectionAt = 0;
+      contextAnnotationIds = target.dataset.annotationIds.split(",").filter(Boolean);
+
+      menu.style.display = "block";
+      const menuWidth = 230;
+      const menuHeight = 120;
+      const left = Math.min(event.clientX, window.innerWidth - menuWidth - 8);
+      const top = Math.min(event.clientY, window.innerHeight - menuHeight - 8);
+      menu.style.left = `${Math.max(8, left)}px`;
+      menu.style.top = `${Math.max(8, top)}px`;
+    }
+
+    function showNoteTooltip(event) {
+      const note = event.currentTarget.dataset.note || "";
+      if (!note.trim()) {
+        return;
+      }
+
+      noteTooltip.innerHTML = `<strong>Comentariu</strong><div>${escapeHtml(note).replaceAll("\\n", "<br>")}</div>`;
+      noteTooltip.style.display = "block";
+      moveNoteTooltip(event);
+    }
+
+    function moveNoteTooltip(event) {
+      if (noteTooltip.style.display !== "block") {
+        return;
+      }
+
+      const width = 280;
+      const height = Math.min(noteTooltip.offsetHeight || 90, 220);
+      const left = Math.min(event.clientX + 14, window.innerWidth - width - 8);
+      const top = Math.min(event.clientY + 16, window.innerHeight - height - 8);
+
+      noteTooltip.style.left = `${Math.max(8, left)}px`;
+      noteTooltip.style.top = `${Math.max(8, top)}px`;
+    }
+
+    function hideNoteTooltip() {
+      noteTooltip.style.display = "none";
+    }
+
+    function closeContextMenu(event) {
+      if (event && menu.contains(event.target)) {
+        return;
+      }
+
+      menu.style.display = "none";
+    }
+
+    function closeFloatingUi(event) {
+      closeContextMenu(event);
+
+      if (
+        commentPopover.style.display === "block"
+        && event
+        && !commentPopover.contains(event.target)
+        && !event.target.closest("#comment-tool")
+      ) {
+        closeCommentPopover();
+      }
+    }
+
+    function askAi() {
+      const annotation = annotations.find((item) => contextAnnotationIds.includes(item.id));
+      if (!annotation) {
+        closeContextMenu();
+        return;
+      }
+
+      setValue({
+        type: "ask_ai",
+        event_id: makeId(),
+        sequence_id: args.sequence_id,
+        annotation,
+        selected_text: annotation.text,
+      });
+      showToast("Întrebarea a fost trimisă către AI Profesor.");
+      closeContextMenu();
+    }
+
+    function removeOneAnnotation() {
+      if (!contextAnnotationIds.length) {
+        closeContextMenu();
+        return;
+      }
+
+      annotations = annotations.filter((item) => item.id !== contextAnnotationIds[0]);
+      redrawTextLayer();
+      persistAnnotations();
+      closeContextMenu();
+    }
+
+    function removeAllContextAnnotations() {
+      if (!contextAnnotationIds.length) {
+        closeContextMenu();
+        return;
+      }
+
+      annotations = annotations.filter((item) => !contextAnnotationIds.includes(item.id));
+      redrawTextLayer();
+      persistAnnotations();
+      closeContextMenu();
+    }
+
+    function persistAnnotations() {
+      pendingSyncAnnotations = cloneAnnotations(annotations);
+      args = {
+        ...args,
+        annotations,
+      };
+
+      setValue({
+        type: "annotations_changed",
+        event_id: makeId(),
+        sequence_id: args.sequence_id,
+        annotations,
+      });
+    }
+
+    function redrawTextLayer(preferredScrollTop = null) {
+      if (Number.isFinite(preferredScrollTop)) {
+        workspaceScrollTop = Math.max(0, preferredScrollTop);
+        storeWorkspaceScroll();
+      } else {
+        captureWorkspaceScroll();
+      }
+
+      args = {
+        ...args,
+        annotations,
+      };
+
+      const textLayer = document.getElementById("text-layer");
+      if (!textLayer) {
+        return;
+      }
+
+      textLayer.innerHTML = renderAnnotatedText(args.text || "", annotations);
+      bindTextLayerHandlers(textLayer);
+      restoreWorkspaceScroll();
+      setTimeout(setFrameHeight, 0);
+    }
+
+    function makeId() {
+      return `${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 10)}`;
+    }
+
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add("visible");
+      window.clearTimeout(showToast.timeoutId);
+      showToast.timeoutId = window.setTimeout(() => {
+        toast.classList.remove("visible");
+      }, 2200);
+    }
+
+    function pencilIcon() {
+      return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>`;
+    }
+
+    function commentIcon() {
+      return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></svg>`;
+    }
+
+    function quoteIcon() {
+      return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21c3 0 7-1 7-8V5H3v8h4c0 4-2 6-4 8Z"/><path d="M14 21c3 0 7-1 7-8V5h-7v8h4c0 4-2 6-4 8Z"/></svg>`;
+    }
+
+    function markerIcon() {
+      return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 11 6 6"/><path d="m5 19 4-1 9-9a2.1 2.1 0 0 0-3-3l-9 9-1 4Z"/><path d="M19 21H5"/></svg>`;
+    }
+
+    window.addEventListener("message", (event) => {
+      if (event.data.type !== "streamlit:render") {
+        return;
+      }
+
+      render(event.data.args || {});
+    });
+
+    ready();
+  </script>
+</body>
+</html>

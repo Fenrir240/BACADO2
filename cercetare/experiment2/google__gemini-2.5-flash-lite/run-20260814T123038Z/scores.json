@@ -1,0 +1,608 @@
+{
+  "overall_score": 76.673,
+  "weights": {
+    "question_generation": 0.5,
+    "chapter_1_summary": 0.5
+  },
+  "question_generation": {
+    "task": "question_generation",
+    "benchmark_id": "ION-EXP2-QUESTIONS-V1",
+    "graph_version": "2.0",
+    "score": 67.949,
+    "question_average": 64.858,
+    "set_coverage_score": 95.775,
+    "set_coverage_breakdown": {
+      "blueprint_coverage": 40.0,
+      "chapter_diversity": 20.0,
+      "entity_diversity": 14.525,
+      "relation_diversity": 11.25,
+      "unique_answers_and_paths": 10.0
+    },
+    "expected_question_count": 8,
+    "received_question_count": 8,
+    "questions": [
+      {
+        "question_id": "Q_001",
+        "slot_id": "SLOT_01",
+        "blueprint_id": "FACT_1HOP",
+        "question_text": "Cine este autorul romanului \"Ion\"?",
+        "score": 96.25,
+        "breakdown": {
+          "schema": 5.0,
+          "blueprint": 11.25,
+          "references": 15.0,
+          "derivability": 25.0,
+          "uniqueness": 10.0,
+          "minimality": 10.0,
+          "difficulty": 10.0,
+          "formal_rules": 5.0,
+          "non_duplication": 5.0
+        },
+        "diagnostics": [],
+        "computed": {
+          "query_results": [
+            "AUTHOR_REBREANU"
+          ],
+          "difficulty_level": 1,
+          "required_hops": 1,
+          "chapters_involved": 0,
+          "shortest_path_hops": 1
+        },
+        "duplicate_similarity": 0.479254,
+        "nearest_question_id": "Q_002"
+      },
+      {
+        "question_id": "Q_002",
+        "slot_id": "SLOT_02",
+        "blueprint_id": "RELATION_1HOP",
+        "question_text": "Care este relația dintre Ion și George Bulbuc?",
+        "score": 56.111,
+        "breakdown": {
+          "schema": 5.0,
+          "blueprint": 15.0,
+          "references": 15.0,
+          "derivability": 11.111,
+          "uniqueness": 0.0,
+          "minimality": 0.0,
+          "difficulty": 0.0,
+          "formal_rules": 5.0,
+          "non_duplication": 5.0
+        },
+        "diagnostics": [
+          "Rezultate query_plan=['CHAR_004'], raspuns declarat=['CHAR_001', 'CHAR_004'], expected_result_ids=['CHAR_004'].",
+          "Traseu declarat=1 hop-uri; traseu minim=0.",
+          "Dificultate recalculata: nivel=3, hop-uri=1, capitole=7; nivel tinta=1."
+        ],
+        "computed": {
+          "query_results": [
+            "CHAR_004"
+          ],
+          "difficulty_level": 3,
+          "required_hops": 1,
+          "chapters_involved": 7,
+          "shortest_path_hops": 0
+        },
+        "duplicate_similarity": 0.546442,
+        "nearest_question_id": "Q_003"
+      },
+      {
+        "question_id": "Q_003",
+        "slot_id": "SLOT_03",
+        "blueprint_id": "TEMPORAL_ORDER",
+        "question_text": "Care este ordinea evenimentelor: Ion cosește fâneața, Ana vine pe câmp, George îl surprinde pe Ion?",
+        "score": 31.5,
+        "breakdown": {
+          "schema": 5.0,
+          "blueprint": 5.0,
+          "references": 7.5,
+          "derivability": 0.0,
+          "uniqueness": 0.0,
+          "minimality": 0.0,
+          "difficulty": 5.0,
+          "formal_rules": 4.0,
+          "non_duplication": 5.0
+        },
+        "diagnostics": [
+          "Rezultate query_plan=[], raspuns declarat=['EV_011', 'EV_015', 'EV_112'], expected_result_ids=['EV_011', 'EV_015', 'EV_112'].",
+          "Traseu declarat=0 hop-uri; traseu minim=None.",
+          "Dificultate recalculata: nivel=3, hop-uri=0, capitole=3; nivel tinta=2.",
+          "Regula formala incalcata: answer_not_copied"
+        ],
+        "computed": {
+          "query_results": [],
+          "difficulty_level": 3,
+          "required_hops": 0,
+          "chapters_involved": 3,
+          "shortest_path_hops": null
+        },
+        "duplicate_similarity": 0.633265,
+        "nearest_question_id": "Q_004"
+      },
+      {
+        "question_id": "Q_004",
+        "slot_id": "SLOT_04",
+        "blueprint_id": "DIRECT_CAUSE",
+        "question_text": "Ce l-a motivat pe Ion să mute hotarul?",
+        "score": 100.0,
+        "breakdown": {
+          "schema": 5.0,
+          "blueprint": 15.0,
+          "references": 15.0,
+          "derivability": 25.0,
+          "uniqueness": 10.0,
+          "minimality": 10.0,
+          "difficulty": 10.0,
+          "formal_rules": 5.0,
+          "non_duplication": 5.0
+        },
+        "diagnostics": [],
+        "computed": {
+          "query_results": [
+            "MOT_026"
+          ],
+          "difficulty_level": 2,
+          "required_hops": 1,
+          "chapters_involved": 1,
+          "shortest_path_hops": 1
+        },
+        "duplicate_similarity": 0.633265,
+        "nearest_question_id": "Q_003"
+      },
+      {
+        "question_id": "Q_005",
+        "slot_id": "SLOT_05",
+        "blueprint_id": "DIRECT_EFFECT",
+        "question_text": "Ce consecință a avut confirmarea sarcinii de către Firoana?",
+        "score": 100.0,
+        "breakdown": {
+          "schema": 5.0,
+          "blueprint": 15.0,
+          "references": 15.0,
+          "derivability": 25.0,
+          "uniqueness": 10.0,
+          "minimality": 10.0,
+          "difficulty": 10.0,
+          "formal_rules": 5.0,
+          "non_duplication": 5.0
+        },
+        "diagnostics": [],
+        "computed": {
+          "query_results": [
+            "CON_045"
+          ],
+          "difficulty_level": 2,
+          "required_hops": 1,
+          "chapters_involved": 1,
+          "shortest_path_hops": 1
+        },
+        "duplicate_similarity": 0.357708,
+        "nearest_question_id": "Q_007"
+      },
+      {
+        "question_id": "Q_006",
+        "slot_id": "SLOT_06",
+        "blueprint_id": "MULTIHOP_CAUSAL",
+        "question_text": "Care este lanțul cauzal de la refuzul lui Vasile de a transfera pământurile până la moartea lui Ion?",
+        "score": 50.0,
+        "breakdown": {
+          "schema": 5.0,
+          "blueprint": 12.0,
+          "references": 15.0,
+          "derivability": 0.0,
+          "uniqueness": 0.0,
+          "minimality": 0.0,
+          "difficulty": 8.0,
+          "formal_rules": 5.0,
+          "non_duplication": 5.0
+        },
+        "diagnostics": [
+          "Rezultate query_plan=[], raspuns declarat=['CON_113', 'EV_057', 'EV_060', 'EV_086', 'EV_105', 'EV_112', 'EV_113'], expected_result_ids=['CON_113'].",
+          "Traseu declarat=6 hop-uri; traseu minim=0.",
+          "Dificultate recalculata: nivel=3, hop-uri=7, capitole=4; nivel tinta=3."
+        ],
+        "computed": {
+          "query_results": [],
+          "difficulty_level": 3,
+          "required_hops": 7,
+          "chapters_involved": 4,
+          "shortest_path_hops": 0
+        },
+        "duplicate_similarity": 0.65472,
+        "nearest_question_id": "Q_008"
+      },
+      {
+        "question_id": "Q_007",
+        "slot_id": "SLOT_07",
+        "blueprint_id": "STATE_TRANSITION",
+        "question_text": "Ce stare a suferit Ana după ce Ion a început să o agreseze fizic?",
+        "score": 47.5,
+        "breakdown": {
+          "schema": 5.0,
+          "blueprint": 7.5,
+          "references": 15.0,
+          "derivability": 0.0,
+          "uniqueness": 0.0,
+          "minimality": 0.0,
+          "difficulty": 10.0,
+          "formal_rules": 5.0,
+          "non_duplication": 5.0
+        },
+        "diagnostics": [
+          "Rezultate query_plan=['CON_065'], raspuns declarat=['CON_066'], expected_result_ids=['CON_066'].",
+          "Traseu declarat=1 hop-uri; traseu minim=None."
+        ],
+        "computed": {
+          "query_results": [
+            "CON_065"
+          ],
+          "difficulty_level": 2,
+          "required_hops": 1,
+          "chapters_involved": 1,
+          "shortest_path_hops": null
+        },
+        "duplicate_similarity": 0.567611,
+        "nearest_question_id": "Q_003"
+      },
+      {
+        "question_id": "Q_008",
+        "slot_id": "SLOT_08",
+        "blueprint_id": "CROSS_CHAPTER_COMPARE",
+        "question_text": "Cum diferă reacția lui Ion la obținerea pământurilor în Capitolul IX față de reacția sa la nașterea lui Petrișor în Capitolul VIII?",
+        "score": 37.5,
+        "breakdown": {
+          "schema": 5.0,
+          "blueprint": 5.0,
+          "references": 7.5,
+          "derivability": 0.0,
+          "uniqueness": 0.0,
+          "minimality": 0.0,
+          "difficulty": 10.0,
+          "formal_rules": 5.0,
+          "non_duplication": 5.0
+        },
+        "diagnostics": [
+          "Rezultate query_plan=[], raspuns declarat=['EV_075', 'EV_080', 'EV_081', 'EV_082'], expected_result_ids=['EV_075', 'EV_080', 'EV_081', 'EV_082'].",
+          "Traseu declarat=0 hop-uri; traseu minim=None."
+        ],
+        "computed": {
+          "query_results": [],
+          "difficulty_level": 3,
+          "required_hops": 0,
+          "chapters_involved": 2,
+          "shortest_path_hops": null
+        },
+        "duplicate_similarity": 0.65472,
+        "nearest_question_id": "Q_006"
+      }
+    ],
+    "errors": [],
+    "semantic_duplication": {
+      "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "sentence_transformers_version": "5.7.0",
+      "duplicate_threshold": 0.82,
+      "review_threshold": 0.74,
+      "threshold_status": "provisional_until_domain_calibration",
+      "pairs_at_or_above_review_threshold": []
+    }
+  },
+  "chapter_1_summary": {
+    "task": "chapter_summary_reconstruction",
+    "benchmark_id": "ION-EXP2-CH01-SUMMARY-V1",
+    "graph_version": "2.0",
+    "chapter_id": "CH_01",
+    "score": 85.398,
+    "raw_register_average": 85.398,
+    "cross_register_event_consistency": 1.0,
+    "cross_register_penalty": 0.0,
+    "registers": {
+      "simple": {
+        "register": "simple",
+        "score": 85.255,
+        "breakdown": {
+          "event_coverage": 30.0,
+          "claim_support": 25.0,
+          "event_order": 20.0,
+          "causal_retention": 0.312,
+          "evidence_discipline": 5.0,
+          "concision": 4.765,
+          "register": 5.0,
+          "style_profile_penalty": -4.822
+        },
+        "metrics": {
+          "event_coverage": 1.0,
+          "valid_claim_ratio": 1.0,
+          "event_order_accuracy": 1.0,
+          "causal_recall": 0.031,
+          "evidence_sentence_ratio": 1.0,
+          "actual_word_count": 159,
+          "average_sentence_length": 15.9,
+          "type_token_ratio": 0.686,
+          "trigram_repetition": 0.006
+        },
+        "used_event_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003",
+          "EV_004",
+          "EV_005",
+          "EV_006",
+          "EV_007",
+          "EV_008",
+          "EV_009",
+          "EV_010"
+        ],
+        "diagnostics": [
+          "Relatii cauzale declarate: 1 din 32 asteptate.",
+          "word_count declarat=219, recalculat=159.",
+          "Profil stilistic în afara marjei: discourse_connectors, filler_phrases, connector_repetition, connector_sentence_starts."
+        ],
+        "pre_style_score": 90.077,
+        "style_profile": {
+          "word_count": 159,
+          "sentence_count": 10,
+          "average_sentence_length": 15.9,
+          "sentence_lengths": [
+            14,
+            14,
+            17,
+            21,
+            15,
+            17,
+            15,
+            15,
+            15,
+            16
+          ],
+          "discourse_connector_count": 8,
+          "discourse_connector_ratio": 0.050314,
+          "discourse_connectors": {
+            "apoi": 3,
+            "desi": 1,
+            "dupa aceea": 2,
+            "mai tarziu": 2
+          },
+          "connector_sentence_start_count": 7,
+          "connector_sentence_start_ratio": 0.7,
+          "most_repeated_connector_count": 3,
+          "most_repeated_connector_per_200_words": 3.773585,
+          "filler_phrase_count": 2,
+          "filler_word_count": 4,
+          "filler_word_ratio": 0.025157,
+          "filler_phrases": {
+            "in continuare": 2
+          },
+          "conjunction_count": 10,
+          "conjunction_ratio": 0.062893,
+          "preposition_count": 24,
+          "preposition_ratio": 0.150943,
+          "character_name_token_count": 21,
+          "character_name_token_ratio": 0.132075,
+          "mentioned_character_ids": [
+            "CHAR_001",
+            "CHAR_002",
+            "CHAR_003",
+            "CHAR_004",
+            "CHAR_005",
+            "CHAR_017"
+          ]
+        },
+        "style_evaluation": {
+          "compliance": 0.517794,
+          "all_rules_passed": false,
+          "rules": {
+            "discourse_connectors": {
+              "metric": "discourse_connector_ratio",
+              "value": 0.050314,
+              "minimum": null,
+              "maximum": 0.035,
+              "weight": 0.3,
+              "passed": false,
+              "score": 0.562457
+            },
+            "filler_phrases": {
+              "metric": "filler_word_ratio",
+              "value": 0.025157,
+              "minimum": null,
+              "maximum": 0.006,
+              "weight": 0.25,
+              "passed": false,
+              "score": 0.0
+            },
+            "average_sentence_length": {
+              "metric": "average_sentence_length",
+              "value": 15.9,
+              "minimum": 14.0,
+              "maximum": 22.0,
+              "weight": 0.15,
+              "passed": true,
+              "score": 1.0
+            },
+            "character_visibility": {
+              "metric": "character_name_token_ratio",
+              "value": 0.132075,
+              "minimum": 0.06,
+              "maximum": 0.16,
+              "weight": 0.15,
+              "passed": true,
+              "score": 1.0
+            },
+            "connector_repetition": {
+              "metric": "most_repeated_connector_per_200_words",
+              "value": 3.773585,
+              "minimum": null,
+              "maximum": 2.5,
+              "weight": 0.1,
+              "passed": false,
+              "score": 0.490566
+            },
+            "connector_sentence_starts": {
+              "metric": "connector_sentence_start_ratio",
+              "value": 0.7,
+              "minimum": null,
+              "maximum": 0.35,
+              "weight": 0.05,
+              "passed": false,
+              "score": 0.0
+            }
+          }
+        }
+      },
+      "elevated": {
+        "register": "elevated",
+        "score": 85.542,
+        "breakdown": {
+          "event_coverage": 30.0,
+          "claim_support": 25.0,
+          "event_order": 20.0,
+          "causal_retention": 0.312,
+          "evidence_discipline": 5.0,
+          "concision": 4.425,
+          "register": 3.7,
+          "style_profile_penalty": -2.895
+        },
+        "metrics": {
+          "event_coverage": 1.0,
+          "valid_claim_ratio": 1.0,
+          "event_order_accuracy": 1.0,
+          "causal_recall": 0.031,
+          "evidence_sentence_ratio": 1.0,
+          "actual_word_count": 172,
+          "average_sentence_length": 17.2,
+          "type_token_ratio": 0.663,
+          "trigram_repetition": 0.041
+        },
+        "used_event_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003",
+          "EV_004",
+          "EV_005",
+          "EV_006",
+          "EV_007",
+          "EV_008",
+          "EV_009",
+          "EV_010"
+        ],
+        "diagnostics": [
+          "Relatii cauzale declarate: 1 din 32 asteptate.",
+          "word_count declarat=259, recalculat=172.",
+          "Profil stilistic în afara marjei: filler_phrases, connector_repetition."
+        ],
+        "pre_style_score": 88.437,
+        "style_profile": {
+          "word_count": 172,
+          "sentence_count": 10,
+          "average_sentence_length": 17.2,
+          "sentence_lengths": [
+            15,
+            14,
+            19,
+            24,
+            16,
+            17,
+            17,
+            18,
+            16,
+            16
+          ],
+          "discourse_connector_count": 4,
+          "discourse_connector_ratio": 0.023256,
+          "discourse_connectors": {
+            "desi": 1,
+            "ulterior": 3
+          },
+          "connector_sentence_start_count": 3,
+          "connector_sentence_start_ratio": 0.3,
+          "most_repeated_connector_count": 3,
+          "most_repeated_connector_per_200_words": 3.488372,
+          "filler_phrase_count": 2,
+          "filler_word_count": 6,
+          "filler_word_ratio": 0.034884,
+          "filler_phrases": {
+            "in acest context": 2
+          },
+          "conjunction_count": 10,
+          "conjunction_ratio": 0.05814,
+          "preposition_count": 26,
+          "preposition_ratio": 0.151163,
+          "character_name_token_count": 21,
+          "character_name_token_ratio": 0.122093,
+          "mentioned_character_ids": [
+            "CHAR_001",
+            "CHAR_002",
+            "CHAR_003",
+            "CHAR_004",
+            "CHAR_005",
+            "CHAR_017"
+          ]
+        },
+        "style_evaluation": {
+          "compliance": 0.710465,
+          "all_rules_passed": false,
+          "rules": {
+            "discourse_connectors": {
+              "metric": "discourse_connector_ratio",
+              "value": 0.023256,
+              "minimum": null,
+              "maximum": 0.035,
+              "weight": 0.3,
+              "passed": true,
+              "score": 1.0
+            },
+            "filler_phrases": {
+              "metric": "filler_word_ratio",
+              "value": 0.034884,
+              "minimum": null,
+              "maximum": 0.006,
+              "weight": 0.25,
+              "passed": false,
+              "score": 0.0
+            },
+            "average_sentence_length": {
+              "metric": "average_sentence_length",
+              "value": 17.2,
+              "minimum": 14.0,
+              "maximum": 22.0,
+              "weight": 0.15,
+              "passed": true,
+              "score": 1.0
+            },
+            "character_visibility": {
+              "metric": "character_name_token_ratio",
+              "value": 0.122093,
+              "minimum": 0.06,
+              "maximum": 0.16,
+              "weight": 0.15,
+              "passed": true,
+              "score": 1.0
+            },
+            "connector_repetition": {
+              "metric": "most_repeated_connector_per_200_words",
+              "value": 3.488372,
+              "minimum": null,
+              "maximum": 2.5,
+              "weight": 0.1,
+              "passed": false,
+              "score": 0.604651
+            },
+            "connector_sentence_starts": {
+              "metric": "connector_sentence_start_ratio",
+              "value": 0.3,
+              "minimum": null,
+              "maximum": 0.35,
+              "weight": 0.05,
+              "passed": true,
+              "score": 1.0
+            }
+          }
+        }
+      }
+    },
+    "errors": [],
+    "style_profile_id": "ION-EXP2-CH01-STYLE-V1",
+    "style_penalty_policy": {
+      "max_penalty_per_register": 10.0,
+      "calculation": "max_penalty * (1 - weighted_profile_compliance)"
+    }
+  }
+}

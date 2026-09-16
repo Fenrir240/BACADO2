@@ -1,0 +1,740 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "source": {
+    "kind": "knowledge_graph",
+    "generator": "scripts/build_character_mindmaps.py",
+    "deterministic": true,
+    "uses_ai": false
+  },
+  "characters": {
+    "CHAR_FELIX": {
+      "id": "CHAR_FELIX",
+      "name": "Felix Sima",
+      "tree_label": "Felix Sima",
+      "short_role": "Tânăr orfan venit la București pentru studii medicale; martor și participant central la l…",
+      "physical": "Tânăr de aproximativ optsprezece ani, cu figură juvenilă, prelungă și trăsături fine.",
+      "traits": "ambițios, lucid, sensibil, perseverent și gelos",
+      "village_role": "Tânăr orfan venit la București pentru studii medicale; martor și participant central la lumea familiei Giurgiuveanu-Tulea.",
+      "human_type": "intelectualul în formare"
+    },
+    "CHAR_OTILIA": {
+      "id": "CHAR_OTILIA",
+      "name": "Otilia Mărculescu",
+      "tree_label": "O. Mărculescu",
+      "short_role": "Fiica vitregă neadoptată legal a lui Costache și centrul afectiv enigmatic al romanului",
+      "physical": "Tânără frumoasă, delicată, cu gesturi grațioase și o prezență plină de vitalitate.",
+      "traits": "spontană, afectuoasă, inteligentă, independentă, schimbătoare și capabilă de sacrificiu",
+      "village_role": "Fiica vitregă neadoptată legal a lui Costache și centrul afectiv enigmatic al romanului.",
+      "human_type": "feminitatea enigmatică"
+    },
+    "CHAR_COSTACHE": {
+      "id": "CHAR_COSTACHE",
+      "name": "Costache Giurgiuveanu",
+      "tree_label": "C. Giurgiuveanu",
+      "short_role": "Tutorele lui Felix și tatăl vitreg al Otiliei; iubirea pentru fată este paralizată de ava…",
+      "physical": "Bătrân mic, cu cap aproape chel, buze groase și mișcări prudente.",
+      "traits": "avar, temător, suspicios, bâlbâit, afectuos față de Otilia, incapabil de decizie",
+      "village_role": "Tutorele lui Felix și tatăl vitreg al Otiliei; iubirea pentru fată este paralizată de avariție și teamă.",
+      "human_type": "avarul umanizat"
+    },
+    "CHAR_PASCALOPOL": {
+      "id": "CHAR_PASCALOPOL",
+      "name": "Leonida Pascalopol",
+      "tree_label": "L. Pascalopol",
+      "short_role": "Moșier rafinat, protector al Otiliei și rival matur al lui Felix",
+      "physical": "Bărbat matur, elegant, cu maniere ceremonioase și înfățișare distinsă.",
+      "traits": "cultivat, generos, elegant, răbdător, lucid și patern",
+      "village_role": "Moșier rafinat, protector al Otiliei și rival matur al lui Felix.",
+      "human_type": "aristocratul rafinat și protector"
+    },
+    "CHAR_STANICA": {
+      "id": "CHAR_STANICA",
+      "name": "Stănică Rațiu",
+      "tree_label": "Stănică Rațiu",
+      "short_role": "Avocat fără procese, ginere al Aglaei și agentul principal al parvenirii și al furtului m…",
+      "physical": "Bărbat roșu la față, cu păr mare și creț, mustață mică și vestimentație ostentativă.",
+      "traits": "volubil, demagog, oportunist, lipsit de scrupule, energic și adaptabil",
+      "village_role": "Avocat fără procese, ginere al Aglaei și agentul principal al parvenirii și al furtului moștenirii.",
+      "human_type": "parvenitul"
+    },
+    "CHAR_AGLAE": {
+      "id": "CHAR_AGLAE",
+      "name": "Aglae Tulea",
+      "tree_label": "Aglae Tulea",
+      "short_role": "Sora lui Costache și conducătoarea autoritară a clanului Tulea, obsedată de moștenire",
+      "physical": "Femeie matură cu privire ascuțită și fizionomie severă.",
+      "traits": "autoritară, răutăcioasă, posesivă, lucidă și lipsită de empatie",
+      "village_role": "Sora lui Costache și conducătoarea autoritară a clanului Tulea, obsedată de moștenire.",
+      "human_type": "baba absolută / autoritatea familială rapace"
+    },
+    "CHAR_TITI": {
+      "id": "CHAR_TITI",
+      "name": "Titi Tulea",
+      "tree_label": "Titi Tulea",
+      "short_role": "Fiul Aglaei și al lui Simion, imatur și incapabil de autonomie",
+      "physical": "Tânăr masiv, cu trăsături greoaie și sprâncene îmbinate.",
+      "traits": "infantil, leneș, imitativ, docil și lipsit de inițiativă",
+      "village_role": "Fiul Aglaei și al lui Simion, imatur și incapabil de autonomie.",
+      "human_type": "debilul mintal"
+    },
+    "CHAR_AURICA": {
+      "id": "CHAR_AURICA",
+      "name": "Aurica Tulea",
+      "tree_label": "Aurica Tulea",
+      "short_role": "Fiica nemăritată a Aglaei, dominată de obsesia căsătoriei",
+      "physical": "Femeie palidă, cu fața prelungă și bărbie ascuțită.",
+      "traits": "invidioasă, frustrată, insistentă, malițioasă și preocupată de aparențe",
+      "village_role": "Fiica nemăritată a Aglaei, dominată de obsesia căsătoriei.",
+      "human_type": "fata bătrână"
+    },
+    "CHAR_OLIMPIA": {
+      "id": "CHAR_OLIMPIA",
+      "name": "Olimpia Rațiu",
+      "tree_label": "Olimpia Rațiu",
+      "short_role": "Fiica cea mare a Aglaei și partenera lui Stănică, preocupată de zestre și stabilitate",
+      "physical": "Femeie planturoasă, asemănătoare fizic cu Simion și Titi.",
+      "traits": "placidă, interesată material, comodă și resemnată",
+      "village_role": "Fiica cea mare a Aglaei și partenera lui Stănică, preocupată de zestre și stabilitate.",
+      "human_type": "soția burgheză pasivă"
+    },
+    "CHAR_SIMION": {
+      "id": "CHAR_SIMION",
+      "name": "Simion Tulea",
+      "tree_label": "Simion Tulea",
+      "short_role": "Soțul Aglaei, marginalizat în familie și degradat treptat de boala psihică",
+      "physical": "Bătrân cu gesturi bizare, preocupat de broderii și pictură.",
+      "traits": "docil, artistic, ipohondru, confuz și înstrăinat",
+      "village_role": "Soțul Aglaei, marginalizat în familie și degradat treptat de boala psihică.",
+      "human_type": "senilul / alienatul"
+    },
+    "CHAR_GEORGETA": {
+      "id": "CHAR_GEORGETA",
+      "name": "Georgeta",
+      "tree_label": "Georgeta",
+      "short_role": "Curtezană cultivată prin care Felix cunoaște o experiență sentimentală și erotică diferit…",
+      "physical": "Femeie frumoasă, elegantă și atent îngrijită.",
+      "traits": "inteligentă, tandră, pragmatică, senzuală și generoasă",
+      "village_role": "Curtezană cultivată prin care Felix cunoaște o experiență sentimentală și erotică diferită de iubirea pentru Otilia.",
+      "human_type": "curtezana"
+    },
+    "CHAR_MARINA": {
+      "id": "CHAR_MARINA",
+      "name": "Marina",
+      "tree_label": "Marina",
+      "short_role": "Servitoarea care circulă între case și transmite vești, expunând mecanismele cotidiene al…",
+      "physical": "Femeie matură, robustă, îmbrăcată modest, cu un ochi afectat.",
+      "traits": "directă, arțăgoasă, indiscretă și practică",
+      "village_role": "Servitoarea care circulă între case și transmite vești, expunând mecanismele cotidiene ale familiei.",
+      "human_type": "servitoarea-martor"
+    },
+    "CHAR_GENERAL": {
+      "id": "CHAR_GENERAL",
+      "name": "Generalul",
+      "tree_label": "Generalul",
+      "short_role": "Protectorul Georgetei și reprezentant al lumii mondene tolerate social",
+      "physical": "Bărbat în vârstă, cu ținută și autoritate militară.",
+      "traits": "bonom, posesiv, convențional și indulgent",
+      "village_role": "Protectorul Georgetei și reprezentant al lumii mondene tolerate social.",
+      "human_type": "protectorul monden"
+    },
+    "CHAR_WEISSMANN": {
+      "id": "CHAR_WEISSMANN",
+      "name": "Weissmann",
+      "tree_label": "Weissmann",
+      "short_role": "Colegul și prietenul lui Felix, contrapunct intelectual și ideologic",
+      "physical": "Tânăr student la medicină, energic și comunicativ.",
+      "traits": "inteligent, ironic, sociabil, cultivat și analitic",
+      "village_role": "Colegul și prietenul lui Felix, contrapunct intelectual și ideologic.",
+      "human_type": "intelectualul lucid"
+    },
+    "CHAR_DOCTOR": {
+      "id": "CHAR_DOCTOR",
+      "name": "Doctorul Vasiliad",
+      "tree_label": "D. Vasiliad",
+      "short_role": "Medicul chemat în crizele lui Simion și Costache",
+      "physical": "Medic bucureștean matur.",
+      "traits": "profesionist, rezervat și lucid",
+      "village_role": "Medicul chemat în crizele lui Simion și Costache.",
+      "human_type": "medicul-martor"
+    },
+    "CHAR_ANA": {
+      "id": "CHAR_ANA",
+      "name": "Ana Sohatchi",
+      "tree_label": "Ana Sohatchi",
+      "short_role": "Soția efemeră a lui Titi, a cărei căsnicie dovedește imaturitatea acestuia și controlul A…",
+      "physical": "Tânără de condiție modestă.",
+      "traits": "pragmatică, independentă și incompatibilă cu familia Tulea",
+      "village_role": "Soția efemeră a lui Titi, a cărei căsnicie dovedește imaturitatea acestuia și controlul Aglaei.",
+      "human_type": "soția incompatibilă"
+    }
+  },
+  "groups": [
+    {
+      "title": "Personaje principale 1",
+      "caption": "Au cea mai mare importanță în desfășurarea operei.",
+      "characters": [
+        {
+          "id": "CHAR_FELIX",
+          "name": "Felix Sima",
+          "tree_label": "Felix Sima",
+          "short_role": "Tânăr orfan venit la București pentru studii medicale; martor și participant central la l…",
+          "physical": "Tânăr de aproximativ optsprezece ani, cu figură juvenilă, prelungă și trăsături fine.",
+          "traits": "ambițios, lucid, sensibil, perseverent și gelos",
+          "village_role": "Tânăr orfan venit la București pentru studii medicale; martor și participant central la lumea familiei Giurgiuveanu-Tulea.",
+          "human_type": "intelectualul în formare"
+        },
+        {
+          "id": "CHAR_OTILIA",
+          "name": "Otilia Mărculescu",
+          "tree_label": "O. Mărculescu",
+          "short_role": "Fiica vitregă neadoptată legal a lui Costache și centrul afectiv enigmatic al romanului",
+          "physical": "Tânără frumoasă, delicată, cu gesturi grațioase și o prezență plină de vitalitate.",
+          "traits": "spontană, afectuoasă, inteligentă, independentă, schimbătoare și capabilă de sacrificiu",
+          "village_role": "Fiica vitregă neadoptată legal a lui Costache și centrul afectiv enigmatic al romanului.",
+          "human_type": "feminitatea enigmatică"
+        },
+        {
+          "id": "CHAR_COSTACHE",
+          "name": "Costache Giurgiuveanu",
+          "tree_label": "C. Giurgiuveanu",
+          "short_role": "Tutorele lui Felix și tatăl vitreg al Otiliei; iubirea pentru fată este paralizată de ava…",
+          "physical": "Bătrân mic, cu cap aproape chel, buze groase și mișcări prudente.",
+          "traits": "avar, temător, suspicios, bâlbâit, afectuos față de Otilia, incapabil de decizie",
+          "village_role": "Tutorele lui Felix și tatăl vitreg al Otiliei; iubirea pentru fată este paralizată de avariție și teamă.",
+          "human_type": "avarul umanizat"
+        },
+        {
+          "id": "CHAR_PASCALOPOL",
+          "name": "Leonida Pascalopol",
+          "tree_label": "L. Pascalopol",
+          "short_role": "Moșier rafinat, protector al Otiliei și rival matur al lui Felix",
+          "physical": "Bărbat matur, elegant, cu maniere ceremonioase și înfățișare distinsă.",
+          "traits": "cultivat, generos, elegant, răbdător, lucid și patern",
+          "village_role": "Moșier rafinat, protector al Otiliei și rival matur al lui Felix.",
+          "human_type": "aristocratul rafinat și protector"
+        }
+      ]
+    },
+    {
+      "title": "Personaje principale 2",
+      "caption": "Au cea mai mare importanță în desfășurarea operei.",
+      "characters": [
+        {
+          "id": "CHAR_STANICA",
+          "name": "Stănică Rațiu",
+          "tree_label": "Stănică Rațiu",
+          "short_role": "Avocat fără procese, ginere al Aglaei și agentul principal al parvenirii și al furtului m…",
+          "physical": "Bărbat roșu la față, cu păr mare și creț, mustață mică și vestimentație ostentativă.",
+          "traits": "volubil, demagog, oportunist, lipsit de scrupule, energic și adaptabil",
+          "village_role": "Avocat fără procese, ginere al Aglaei și agentul principal al parvenirii și al furtului moștenirii.",
+          "human_type": "parvenitul"
+        },
+        {
+          "id": "CHAR_AGLAE",
+          "name": "Aglae Tulea",
+          "tree_label": "Aglae Tulea",
+          "short_role": "Sora lui Costache și conducătoarea autoritară a clanului Tulea, obsedată de moștenire",
+          "physical": "Femeie matură cu privire ascuțită și fizionomie severă.",
+          "traits": "autoritară, răutăcioasă, posesivă, lucidă și lipsită de empatie",
+          "village_role": "Sora lui Costache și conducătoarea autoritară a clanului Tulea, obsedată de moștenire.",
+          "human_type": "baba absolută / autoritatea familială rapace"
+        }
+      ]
+    },
+    {
+      "title": "Familie și legături apropiate",
+      "caption": "Sunt legate direct de personajele principale prin familie, iubire sau căsătorie.",
+      "characters": [
+        {
+          "id": "CHAR_TITI",
+          "name": "Titi Tulea",
+          "tree_label": "Titi Tulea",
+          "short_role": "Fiul Aglaei și al lui Simion, imatur și incapabil de autonomie",
+          "physical": "Tânăr masiv, cu trăsături greoaie și sprâncene îmbinate.",
+          "traits": "infantil, leneș, imitativ, docil și lipsit de inițiativă",
+          "village_role": "Fiul Aglaei și al lui Simion, imatur și incapabil de autonomie.",
+          "human_type": "debilul mintal"
+        },
+        {
+          "id": "CHAR_AURICA",
+          "name": "Aurica Tulea",
+          "tree_label": "Aurica Tulea",
+          "short_role": "Fiica nemăritată a Aglaei, dominată de obsesia căsătoriei",
+          "physical": "Femeie palidă, cu fața prelungă și bărbie ascuțită.",
+          "traits": "invidioasă, frustrată, insistentă, malițioasă și preocupată de aparențe",
+          "village_role": "Fiica nemăritată a Aglaei, dominată de obsesia căsătoriei.",
+          "human_type": "fata bătrână"
+        },
+        {
+          "id": "CHAR_OLIMPIA",
+          "name": "Olimpia Rațiu",
+          "tree_label": "Olimpia Rațiu",
+          "short_role": "Fiica cea mare a Aglaei și partenera lui Stănică, preocupată de zestre și stabilitate",
+          "physical": "Femeie planturoasă, asemănătoare fizic cu Simion și Titi.",
+          "traits": "placidă, interesată material, comodă și resemnată",
+          "village_role": "Fiica cea mare a Aglaei și partenera lui Stănică, preocupată de zestre și stabilitate.",
+          "human_type": "soția burgheză pasivă"
+        },
+        {
+          "id": "CHAR_SIMION",
+          "name": "Simion Tulea",
+          "tree_label": "Simion Tulea",
+          "short_role": "Soțul Aglaei, marginalizat în familie și degradat treptat de boala psihică",
+          "physical": "Bătrân cu gesturi bizare, preocupat de broderii și pictură.",
+          "traits": "docil, artistic, ipohondru, confuz și înstrăinat",
+          "village_role": "Soțul Aglaei, marginalizat în familie și degradat treptat de boala psihică.",
+          "human_type": "senilul / alienatul"
+        }
+      ]
+    },
+    {
+      "title": "Rivali și conflicte 1",
+      "caption": "Participă la opoziții sau la momente tensionate ale acțiunii.",
+      "characters": [
+        {
+          "id": "CHAR_GEORGETA",
+          "name": "Georgeta",
+          "tree_label": "Georgeta",
+          "short_role": "Curtezană cultivată prin care Felix cunoaște o experiență sentimentală și erotică diferit…",
+          "physical": "Femeie frumoasă, elegantă și atent îngrijită.",
+          "traits": "inteligentă, tandră, pragmatică, senzuală și generoasă",
+          "village_role": "Curtezană cultivată prin care Felix cunoaște o experiență sentimentală și erotică diferită de iubirea pentru Otilia.",
+          "human_type": "curtezana"
+        },
+        {
+          "id": "CHAR_MARINA",
+          "name": "Marina",
+          "tree_label": "Marina",
+          "short_role": "Servitoarea care circulă între case și transmite vești, expunând mecanismele cotidiene al…",
+          "physical": "Femeie matură, robustă, îmbrăcată modest, cu un ochi afectat.",
+          "traits": "directă, arțăgoasă, indiscretă și practică",
+          "village_role": "Servitoarea care circulă între case și transmite vești, expunând mecanismele cotidiene ale familiei.",
+          "human_type": "servitoarea-martor"
+        },
+        {
+          "id": "CHAR_GENERAL",
+          "name": "Generalul",
+          "tree_label": "Generalul",
+          "short_role": "Protectorul Georgetei și reprezentant al lumii mondene tolerate social",
+          "physical": "Bărbat în vârstă, cu ținută și autoritate militară.",
+          "traits": "bonom, posesiv, convențional și indulgent",
+          "village_role": "Protectorul Georgetei și reprezentant al lumii mondene tolerate social.",
+          "human_type": "protectorul monden"
+        },
+        {
+          "id": "CHAR_WEISSMANN",
+          "name": "Weissmann",
+          "tree_label": "Weissmann",
+          "short_role": "Colegul și prietenul lui Felix, contrapunct intelectual și ideologic",
+          "physical": "Tânăr student la medicină, energic și comunicativ.",
+          "traits": "inteligent, ironic, sociabil, cultivat și analitic",
+          "village_role": "Colegul și prietenul lui Felix, contrapunct intelectual și ideologic.",
+          "human_type": "intelectualul lucid"
+        }
+      ]
+    },
+    {
+      "title": "Rivali și conflicte 2",
+      "caption": "Participă la opoziții sau la momente tensionate ale acțiunii.",
+      "characters": [
+        {
+          "id": "CHAR_DOCTOR",
+          "name": "Doctorul Vasiliad",
+          "tree_label": "D. Vasiliad",
+          "short_role": "Medicul chemat în crizele lui Simion și Costache",
+          "physical": "Medic bucureștean matur.",
+          "traits": "profesionist, rezervat și lucid",
+          "village_role": "Medicul chemat în crizele lui Simion și Costache.",
+          "human_type": "medicul-martor"
+        }
+      ]
+    },
+    {
+      "title": "Personaje secundare",
+      "caption": "Completează lumea operei și susțin firele narative importante.",
+      "characters": [
+        {
+          "id": "CHAR_ANA",
+          "name": "Ana Sohatchi",
+          "tree_label": "Ana Sohatchi",
+          "short_role": "Soția efemeră a lui Titi, a cărei căsnicie dovedește imaturitatea acestuia și controlul A…",
+          "physical": "Tânără de condiție modestă.",
+          "traits": "pragmatică, independentă și incompatibilă cu familia Tulea",
+          "village_role": "Soția efemeră a lui Titi, a cărei căsnicie dovedește imaturitatea acestuia și controlul Aglaei.",
+          "human_type": "soția incompatibilă"
+        }
+      ]
+    }
+  ],
+  "tree_layout": {
+    "width": 980,
+    "height": 540,
+    "root": {
+      "label": "Enigma Otiliei",
+      "x": 490.0,
+      "y": 46
+    },
+    "groups": [
+      {
+        "label": "Principale 1",
+        "x": 123.33,
+        "y": 145,
+        "character_ids": [
+          "CHAR_FELIX",
+          "CHAR_OTILIA",
+          "CHAR_COSTACHE",
+          "CHAR_PASCALOPOL"
+        ]
+      },
+      {
+        "label": "Principale 2",
+        "x": 270.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_STANICA",
+          "CHAR_AGLAE"
+        ]
+      },
+      {
+        "label": "Familie / apropiați",
+        "x": 416.67,
+        "y": 145,
+        "character_ids": [
+          "CHAR_TITI",
+          "CHAR_AURICA",
+          "CHAR_OLIMPIA",
+          "CHAR_SIMION"
+        ]
+      },
+      {
+        "label": "Rivali / conflicte 1",
+        "x": 563.33,
+        "y": 145,
+        "character_ids": [
+          "CHAR_GEORGETA",
+          "CHAR_MARINA",
+          "CHAR_GENERAL",
+          "CHAR_WEISSMANN"
+        ]
+      },
+      {
+        "label": "Rivali / conflicte 2",
+        "x": 710.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_DOCTOR"
+        ]
+      },
+      {
+        "label": "Secundare",
+        "x": 856.67,
+        "y": 145,
+        "character_ids": [
+          "CHAR_ANA"
+        ]
+      }
+    ],
+    "characters": {
+      "CHAR_FELIX": {
+        "x": 86.67,
+        "y": 270
+      },
+      "CHAR_OTILIA": {
+        "x": 160.0,
+        "y": 270
+      },
+      "CHAR_COSTACHE": {
+        "x": 86.67,
+        "y": 375
+      },
+      "CHAR_PASCALOPOL": {
+        "x": 160.0,
+        "y": 375
+      },
+      "CHAR_STANICA": {
+        "x": 236.27,
+        "y": 270
+      },
+      "CHAR_AGLAE": {
+        "x": 303.73,
+        "y": 270
+      },
+      "CHAR_TITI": {
+        "x": 380.0,
+        "y": 270
+      },
+      "CHAR_AURICA": {
+        "x": 453.33,
+        "y": 270
+      },
+      "CHAR_OLIMPIA": {
+        "x": 380.0,
+        "y": 375
+      },
+      "CHAR_SIMION": {
+        "x": 453.33,
+        "y": 375
+      },
+      "CHAR_GEORGETA": {
+        "x": 526.67,
+        "y": 270
+      },
+      "CHAR_MARINA": {
+        "x": 600.0,
+        "y": 270
+      },
+      "CHAR_GENERAL": {
+        "x": 526.67,
+        "y": 375
+      },
+      "CHAR_WEISSMANN": {
+        "x": 600.0,
+        "y": 375
+      },
+      "CHAR_DOCTOR": {
+        "x": 710.0,
+        "y": 270
+      },
+      "CHAR_ANA": {
+        "x": 856.67,
+        "y": 270
+      }
+    }
+  },
+  "relation_graph": {
+    "central_node_id": "CHAR_FELIX",
+    "legend": [
+      {
+        "group": "central",
+        "label": "personaje principale"
+      },
+      {
+        "group": "victim",
+        "label": "familie / apropiați"
+      }
+    ],
+    "nodes": {
+      "CHAR_FELIX": {
+        "label": "Felix Sima",
+        "x": 490,
+        "y": 280,
+        "group": "central"
+      },
+      "CHAR_OTILIA": {
+        "label": "O. Mărculescu",
+        "x": 490.0,
+        "y": 60.0,
+        "group": "central"
+      },
+      "CHAR_COSTACHE": {
+        "label": "C. Giurgiuveanu",
+        "x": 740.69,
+        "y": 111.47,
+        "group": "central"
+      },
+      "CHAR_PASCALOPOL": {
+        "label": "L. Pascalopol",
+        "x": 874.08,
+        "y": 241.8,
+        "group": "central"
+      },
+      "CHAR_STANICA": {
+        "label": "Stănică Rațiu",
+        "x": 827.75,
+        "y": 390.0,
+        "group": "central"
+      },
+      "CHAR_AGLAE": {
+        "label": "Aglae Tulea",
+        "x": 623.39,
+        "y": 486.73,
+        "group": "central"
+      },
+      "CHAR_TITI": {
+        "label": "Titi Tulea",
+        "x": 356.61,
+        "y": 486.73,
+        "group": "victim"
+      },
+      "CHAR_AURICA": {
+        "label": "Aurica Tulea",
+        "x": 152.25,
+        "y": 390.0,
+        "group": "victim"
+      },
+      "CHAR_OLIMPIA": {
+        "label": "Olimpia Rațiu",
+        "x": 105.92,
+        "y": 241.8,
+        "group": "victim"
+      },
+      "CHAR_SIMION": {
+        "label": "Simion Tulea",
+        "x": 239.31,
+        "y": 111.47,
+        "group": "victim"
+      }
+    },
+    "edges": [
+      {
+        "source": "CHAR_FELIX",
+        "target": "CHAR_OTILIA",
+        "predicate": "loves",
+        "title": "Felix Sima – Otilia Mărculescu",
+        "text": "Felix Sima iubește Otilia Mărculescu. Momente comune din graf: Felix nu văzuse pe Costache Giurgiuveanu decât cu mulți ani în urmă, ca copil, și tot atunci o cunoscuse și pe Otilia, care era o simplă fetiță. Dar în fiecare an scria la sărbătorile consacrate și în alte câteva împrejurări „unchiului Costache“, întrebând ce mai face „verișoara Otilia“, iar Otilia scria „unchiului Iosif“, întrebând ce mai face „vărul Felix“. Pascalopol, se recomandă el cu o ceremonie care trăda creșterea lui aleasă, reținând ceva mai mult mâna tânărului într-a sa, spre a-l examina. Îl privi fără excesivă cordialitate, chiar cu oarecare umbră de ironie îndepărtată, însă cu o politețe grabnică, respectuoasă: — Va să zică dumneata ești Felix de care ne-a vorbit atâta domnișoara Otilia!"
+      },
+      {
+        "source": "CHAR_OTILIA",
+        "target": "CHAR_FELIX",
+        "predicate": "loves",
+        "title": "Otilia Mărculescu – Felix Sima",
+        "text": "Otilia Mărculescu iubește Felix Sima. Momente comune din graf: Felix nu văzuse pe Costache Giurgiuveanu decât cu mulți ani în urmă, ca copil, și tot atunci o cunoscuse și pe Otilia, care era o simplă fetiță. Dar în fiecare an scria la sărbătorile consacrate și în alte câteva împrejurări „unchiului Costache“, întrebând ce mai face „verișoara Otilia“, iar Otilia scria „unchiului Iosif“, întrebând ce mai face „vărul Felix“. Pascalopol, se recomandă el cu o ceremonie care trăda creșterea lui aleasă, reținând ceva mai mult mâna tânărului într-a sa, spre a-l examina. Îl privi fără excesivă cordialitate, chiar cu oarecare umbră de ironie îndepărtată, însă cu o politețe grabnică, respectuoasă: — Va să zică dumneata ești Felix de care ne-a vorbit atâta domnișoara Otilia!"
+      },
+      {
+        "source": "CHAR_PASCALOPOL",
+        "target": "CHAR_OTILIA",
+        "predicate": "loves",
+        "title": "Leonida Pascalopol – Otilia Mărculescu",
+        "text": "Leonida Pascalopol iubește Otilia Mărculescu. Momente comune din graf: Pascalopol, se recomandă el cu o ceremonie care trăda creșterea lui aleasă, reținând ceva mai mult mâna tânărului într-a sa, spre a-l examina. Îl privi fără excesivă cordialitate, chiar cu oarecare umbră de ironie îndepărtată, însă cu o politețe grabnică, respectuoasă: — Va să zică dumneata ești Felix de care ne-a vorbit atâta domnișoara Otilia! Pascalopol își mușcă puțin buza de sus, cam schimbat la față, dar, lovind zarurile, răspunse conciliant: — Așa ești dumneata, cocoană Aglae, malițioasă. Otilia sărise acum de pe scaunul lui moș Costache pe acela al lui Pascalopol, pendulându-și și aici piciorul."
+      },
+      {
+        "source": "CHAR_COSTACHE",
+        "target": "CHAR_OTILIA",
+        "predicate": "is_parent_of",
+        "title": "Costache Giurgiuveanu – Otilia Mărculescu",
+        "text": "Costache Giurgiuveanu este părintele lui/ei Otilia Mărculescu. Momente comune din graf: Felix nu văzuse pe Costache Giurgiuveanu decât cu mulți ani în urmă, ca copil, și tot atunci o cunoscuse și pe Otilia, care era o simplă fetiță. Dar în fiecare an scria la sărbătorile consacrate și în alte câteva împrejurări „unchiului Costache“, întrebând ce mai face „verișoara Otilia“, iar Otilia scria „unchiului Iosif“, întrebând ce mai face „vărul Felix“. Pascalopol își mușcă puțin buza de sus, cam schimbat la față, dar, lovind zarurile, răspunse conciliant: — Așa ești dumneata, cocoană Aglae, malițioasă. Otilia sărise acum de pe scaunul lui moș Costache pe acela al lui Pascalopol, pendulându-și și aici piciorul."
+      },
+      {
+        "source": "CHAR_AGLAE",
+        "target": "CHAR_SIMION",
+        "predicate": "is_married_to",
+        "title": "Aglae Tulea – Simion Tulea",
+        "text": "Aglae Tulea este căsătorit(ă) cu Simion Tulea. Momente comune din graf: Înțelese acum că tanti Aglae, cu Simion al ei și cu Aurica locuiau alături. Felix mai dădu câteva ocoluri odăii, ascultând exercițiile Otiliei, care le intona și vocal acum, cu un glas subțirel și Titi e băiatul lui Simion, pe care l-ai văzut aseară brodând, și al tantei Aglae. Ai să-l cunoști."
+      },
+      {
+        "source": "CHAR_AGLAE",
+        "target": "CHAR_AURICA",
+        "predicate": "is_parent_of",
+        "title": "Aglae Tulea – Aurica Tulea",
+        "text": "Aglae Tulea este părintele lui/ei Aurica Tulea. Momente comune din graf: Înțelese acum că tanti Aglae, cu Simion al ei și cu Aurica locuiau alături. Felix mai dădu câteva ocoluri odăii, ascultând exercițiile Otiliei, care le intona și vocal acum, cu un glas subțirel și Fu chemată, la cererea lui Pascalopol, și Aglae, care sosi pe o portiță dindărătul casei, însoțită de Aurica și de Simion, cu broboada pe el și cu ghergheful în mână. La lumina unei lămpi atârnate de grinda chioșcului, începu o cină improvizată, la care fu invitat și Felix și la care se ilustrară prin lăcomie moș Costache, Aglae și Simion."
+      },
+      {
+        "source": "CHAR_AGLAE",
+        "target": "CHAR_TITI",
+        "predicate": "is_parent_of",
+        "title": "Aglae Tulea – Titi Tulea",
+        "text": "Aglae Tulea este părintele lui/ei Titi Tulea. Momente comune din graf: Titi e băiatul lui Simion, pe care l-ai văzut aseară brodând, și al tantei Aglae. Ai să-l cunoști. Felix își aminti vorbele ironice ale Otiliei și începu să se încredințeze că ele porneau nu din răutate, ci dintr-o lungă experiență. Fiindcă Titi povestea tot soiul de mărunțișuri din viața zilnică sau cea școlară, fără să acuze vreo intenție la studiu, Felix îi mărturisi că era însărcinat de Aglae să-i dea concursul."
+      },
+      {
+        "source": "CHAR_AGLAE",
+        "target": "CHAR_OLIMPIA",
+        "predicate": "is_parent_of",
+        "title": "Aglae Tulea – Olimpia Rațiu",
+        "text": "Aglae Tulea este părintele lui/ei Olimpia Rațiu. Momente comune din graf: Pe la începutul lunii august, după-amiază, Marina aduse de alături vestea că a venit Olimpia cu Stănică. Otilia informă pe Felix: — Asta este cealaltă fată a tantei Aglae, și Stănică e bărbatu-său... Poate o să vrea domnul Pascalopol, zise Aglae, să încerce să-ți găsească ceva, cum are dumnealui relații... Simion, Aurica, Olimpia și Stănică întoarseră automat capul spre Pascalopol, ca și cum din partea lui venea o propunere precisă."
+      },
+      {
+        "source": "CHAR_OLIMPIA",
+        "target": "CHAR_STANICA",
+        "predicate": "is_married_to",
+        "title": "Olimpia Rațiu – Stănică Rațiu",
+        "text": "Olimpia Rațiu este căsătorit(ă) cu Stănică Rațiu. Momente comune din graf: Pe la începutul lunii august, după-amiază, Marina aduse de alături vestea că a venit Olimpia cu Stănică. Otilia informă pe Felix: — Asta este cealaltă fată a tantei Aglae, și Stănică e bărbatu-său... Poate o să vrea domnul Pascalopol, zise Aglae, să încerce să-ți găsească ceva, cum are dumnealui relații... Simion, Aurica, Olimpia și Stănică întoarseră automat capul spre Pascalopol, ca și cum din partea lui venea o propunere precisă."
+      },
+      {
+        "source": "CHAR_AGLAE",
+        "target": "CHAR_OTILIA",
+        "predicate": "is_rival_of",
+        "title": "Aglae Tulea – Otilia Mărculescu",
+        "text": "Aglae Tulea este rival(ă) cu Otilia Mărculescu. Momente comune din graf: Pascalopol își mușcă puțin buza de sus, cam schimbat la față, dar, lovind zarurile, răspunse conciliant: — Așa ești dumneata, cocoană Aglae, malițioasă. Otilia sărise acum de pe scaunul lui moș Costache pe acela al lui Pascalopol, pendulându-și și aici piciorul. Otilia trase un chibrit pe grătarul unei chibritelnițe și îi aprinse țigara. Aglae vru și ea una, însă numai de la Pascalopol, care i-o oferi cu obișnuita grabă; Costache se mulțumi cu un noduros fabricat propriu."
+      },
+      {
+        "source": "CHAR_OTILIA",
+        "target": "CHAR_STANICA",
+        "predicate": "is_rival_of",
+        "title": "Otilia Mărculescu – Stănică Rațiu",
+        "text": "Otilia Mărculescu este rival(ă) cu Stănică Rațiu. Momente comune din graf: Pe la începutul lunii august, după-amiază, Marina aduse de alături vestea că a venit Olimpia cu Stănică. Otilia informă pe Felix: — Asta este cealaltă fată a tantei Aglae, și Stănică e bărbatu-său... Aceste purtări schimbară într-atât opinia lui Simion despre Stănică, încât când Otilia și Felix porneau la moșia lui Pascalopol, toată lumea în casa Tulea vorbea de cununia Olimpiei ca de un eveniment iminent."
+      },
+      {
+        "source": "CHAR_FELIX",
+        "target": "CHAR_PASCALOPOL",
+        "predicate": "is_rival_of",
+        "title": "Felix Sima – Leonida Pascalopol",
+        "text": "Felix Sima este rival(ă) cu Leonida Pascalopol. Momente comune din graf: Pascalopol, se recomandă el cu o ceremonie care trăda creșterea lui aleasă, reținând ceva mai mult mâna tânărului într-a sa, spre a-l examina. Îl privi fără excesivă cordialitate, chiar cu oarecare umbră de ironie îndepărtată, însă cu o politețe grabnică, respectuoasă: — Va să zică dumneata ești Felix de care ne-a vorbit atâta domnișoara Otilia! Însă Otilia nu făcea nici un gest care să pară îndrăzneț, nu scotea nici o vorbă nechibzuită. Totuși, pe Felix, familiaritatea ei, oricât de copilărească, cu Pascalopol îl nemulțumi."
+      },
+      {
+        "source": "CHAR_COSTACHE",
+        "target": "CHAR_FELIX",
+        "predicate": "co_occurs_with",
+        "title": "Costache Giurgiuveanu – Felix Sima",
+        "text": "Costache Giurgiuveanu interacționează în acțiune cu Felix Sima. Momente comune din graf: Felix nu văzuse pe Costache Giurgiuveanu decât cu mulți ani în urmă, ca copil, și tot atunci o cunoscuse și pe Otilia, care era o simplă fetiță. Dar în fiecare an scria la sărbătorile consacrate și în alte câteva împrejurări „unchiului Costache“, întrebând ce mai face „verișoara Otilia“, iar Otilia scria „unchiului Iosif“, întrebând ce mai face „vărul Felix“. Felix se roși la față și vârî repede mâna în buzunar. Avea vreo optzeci-o sută de lei, cât îi mai rămăsese după cumpărarea biletului de tren și care în fond îi fuseseră dați de moș Costache, conform unui aranjament, prin secretariatul internatului, ca bani pentru mici cheltuieli."
+      },
+      {
+        "source": "CHAR_FELIX",
+        "target": "CHAR_STANICA",
+        "predicate": "co_occurs_with",
+        "title": "Felix Sima – Stănică Rațiu",
+        "text": "Felix Sima interacționează în acțiune cu Stănică Rațiu. Momente comune din graf: Pe la începutul lunii august, după-amiază, Marina aduse de alături vestea că a venit Olimpia cu Stănică. Otilia informă pe Felix: — Asta este cealaltă fată a tantei Aglae, și Stănică e bărbatu-său... Aceste purtări schimbară într-atât opinia lui Simion despre Stănică, încât când Otilia și Felix porneau la moșia lui Pascalopol, toată lumea în casa Tulea vorbea de cununia Olimpiei ca de un eveniment iminent."
+      },
+      {
+        "source": "CHAR_AGLAE",
+        "target": "CHAR_FELIX",
+        "predicate": "co_occurs_with",
+        "title": "Aglae Tulea – Felix Sima",
+        "text": "Aglae Tulea interacționează în acțiune cu Felix Sima. Momente comune din graf: Tonul cu care fu pronunțat cuvântul „orfan“ și chiar cuvântul însuși pe care nu-l mai folosise nimeni, în legătură cu el, jigniră profund pe Felix. Vai, ce spui, tanti Aglae, dar Felix nu cade pe capul nimănui, reproșă Otilia. Înțelese acum că tanti Aglae, cu Simion al ei și cu Aurica locuiau alături. Felix mai dădu câteva ocoluri odăii, ascultând exercițiile Otiliei, care le intona și vocal acum, cu un glas subțirel și"
+      },
+      {
+        "source": "CHAR_COSTACHE",
+        "target": "CHAR_PASCALOPOL",
+        "predicate": "co_occurs_with",
+        "title": "Costache Giurgiuveanu – Leonida Pascalopol",
+        "text": "Costache Giurgiuveanu interacționează în acțiune cu Leonida Pascalopol. Momente comune din graf: Pascalopol își mușcă puțin buza de sus, cam schimbat la față, dar, lovind zarurile, răspunse conciliant: — Așa ești dumneata, cocoană Aglae, malițioasă. Otilia sărise acum de pe scaunul lui moș Costache pe acela al lui Pascalopol, pendulându-și și aici piciorul. Otilia trase un chibrit pe grătarul unei chibritelnițe și îi aprinse țigara. Aglae vru și ea una, însă numai de la Pascalopol, care i-o oferi cu obișnuita grabă; Costache se mulțumi cu un noduros fabricat propriu."
+      },
+      {
+        "source": "CHAR_AGLAE",
+        "target": "CHAR_COSTACHE",
+        "predicate": "co_occurs_with",
+        "title": "Aglae Tulea – Costache Giurgiuveanu",
+        "text": "Aglae Tulea interacționează în acțiune cu Costache Giurgiuveanu. Momente comune din graf: Pascalopol își mușcă puțin buza de sus, cam schimbat la față, dar, lovind zarurile, răspunse conciliant: — Așa ești dumneata, cocoană Aglae, malițioasă. Otilia sărise acum de pe scaunul lui moș Costache pe acela al lui Pascalopol, pendulându-și și aici piciorul. Otilia trase un chibrit pe grătarul unei chibritelnițe și îi aprinse țigara. Aglae vru și ea una, însă numai de la Pascalopol, care i-o oferi cu obișnuita grabă; Costache se mulțumi cu un noduros fabricat propriu."
+      },
+      {
+        "source": "CHAR_COSTACHE",
+        "target": "CHAR_STANICA",
+        "predicate": "co_occurs_with",
+        "title": "Costache Giurgiuveanu – Stănică Rațiu",
+        "text": "Costache Giurgiuveanu interacționează în acțiune cu Stănică Rațiu. Momente comune din graf: Moș Costache, te rog eu (Stănică făcu din mâini semnul rugăminții), am văzut că tușești, ai să-mi mulțumești. Vasiliad se ridicase, îndreptându-se spre Costache, care implora pe ceilalți din ochi să-l salveze, în vreme ce Stănică, spre a-i zădărnici rezistența, îi și trăsese haina. Moș Costache se duse supărat în odaia lui, să-și dreagă îmbrăcămintea, iar Otilia veni cu informația că Stănică și doctorul trecuse, prin stradă, în curtea Aglaei. Ceea ce face Stănică mi se pare foarte suspect, spuse Pascalopol către Felix și Otilia."
+      },
+      {
+        "source": "CHAR_AURICA",
+        "target": "CHAR_FELIX",
+        "predicate": "co_occurs_with",
+        "title": "Aurica Tulea – Felix Sima",
+        "text": "Aurica Tulea interacționează în acțiune cu Felix Sima. Momente comune din graf: Înțelese acum că tanti Aglae, cu Simion al ei și cu Aurica locuiau alături. Felix mai dădu câteva ocoluri odăii, ascultând exercițiile Otiliei, care le intona și vocal acum, cu un glas subțirel și Fu chemată, la cererea lui Pascalopol, și Aglae, care sosi pe o portiță dindărătul casei, însoțită de Aurica și de Simion, cu broboada pe el și cu ghergheful în mână. La lumina unei lămpi atârnate de grinda chioșcului, începu o cină improvizată, la care fu invitat și Felix și la care se ilustrară prin lăcomie moș Costache, Aglae și Simion."
+      },
+      {
+        "source": "CHAR_FELIX",
+        "target": "CHAR_TITI",
+        "predicate": "co_occurs_with",
+        "title": "Felix Sima – Titi Tulea",
+        "text": "Felix Sima interacționează în acțiune cu Titi Tulea. Momente comune din graf: Felix fu purtat apoi prin fața tablourilor, care, precum i se spuse, erau opera lui Simion și a lui Titi. Simion avea numai câteva și începu să le arate cu degetul către Felix, căutându-i cu insistență aprobarea pe față. Aurica lămuri lui Titi scopul venirii lui Felix: — Titi, domnul Felix s-a oferit să-ți ajute să te prepari pentru corigență. Titi aprobă supus din cap, fără să arate nici o repulsie de a primi îndrumări de la cineva mai tânăr decât el, însă când Felix se arătă gata să înceapă prepararea, îl rugă să amâne pentru după-amiază ședința, acum nesimțindu-se bine dispus."
+      },
+      {
+        "source": "CHAR_AURICA",
+        "target": "CHAR_TITI",
+        "predicate": "co_occurs_with",
+        "title": "Aurica Tulea – Titi Tulea",
+        "text": "Aurica Tulea interacționează în acțiune cu Titi Tulea. Momente comune din graf: Aurica lămuri lui Titi scopul venirii lui Felix: — Titi, domnul Felix s-a oferit să-ți ajute să te prepari pentru corigență. Titi aprobă supus din cap, fără să arate nici o repulsie de a primi îndrumări de la cineva mai tânăr decât el, însă când Felix se arătă gata să înceapă prepararea, îl rugă să amâne pentru după-amiază ședința, acum nesimțindu-se bine dispus. Familiaritatea Otiliei cu el, satisfacția lui nu făceau parte din sentimentele nesuspectabile. Felix urî și pe Pascalopol și, deși stima lui pentru Otilia creștea pe măsura conviețuirii lui cu ea în aceeași casă, vorbele Aurichii îi răsunau în urechi: „se spun multe lucruri grozave...“ — Felix, încercă Otilia să deplaseze convorbirea, ce-ai făcut cu Titi?"
+      },
+      {
+        "source": "CHAR_PASCALOPOL",
+        "target": "CHAR_STANICA",
+        "predicate": "co_occurs_with",
+        "title": "Leonida Pascalopol – Stănică Rațiu",
+        "text": "Leonida Pascalopol interacționează în acțiune cu Stănică Rațiu. Momente comune din graf: Poate o să vrea domnul Pascalopol, zise Aglae, să încerce să-ți găsească ceva, cum are dumnealui relații... Simion, Aurica, Olimpia și Stănică întoarseră automat capul spre Pascalopol, ca și cum din partea lui venea o propunere precisă. Aceste purtări schimbară într-atât opinia lui Simion despre Stănică, încât când Otilia și Felix porneau la moșia lui Pascalopol, toată lumea în casa Tulea vorbea de cununia Olimpiei ca de un eveniment iminent."
+      }
+    ]
+  }
+}

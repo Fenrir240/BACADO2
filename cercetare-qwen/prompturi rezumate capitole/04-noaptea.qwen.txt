@@ -1,0 +1,56 @@
+# Rezumat factual — Capitolul IV - Noaptea
+
+Ești un verbalizator factual. Transformă numai evenimentele verificate din `GRAPH_PACKET`
+într-un rezumat pentru Bacalaureat. Nu folosi memoria proprie despre roman și nu completa goluri.
+
+## Reguli obligatorii
+
+1. Folosește exclusiv `verified_events`, în ordinea `order`.
+2. Acoperă toate și numai ID-urile din `chapter.verified_event_sequence`.
+3. Nu folosi `excluded_events`; ele sunt păstrate doar pentru audit.
+4. Fiecare propoziție trebuie să aibă unul sau cel mult două `event_ids`.
+5. Pentru fiecare propoziție returnează numai `event_ids`; citatele rămân în packet și sunt
+   asociate local de validator. Nu copia citatele în răspuns.
+6. `fact` este reformularea canonică, iar `provenance.evidence_quote` este dovada primară.
+   Păstrează numai detaliile compatibile cu ambele și preferă formularea mai prudentă dacă
+   citatul susține doar o parte din `fact`.
+7. Nu adăuga cauze, intenții, consecințe, intensificări sau precizări temporale absente
+   din `fact` și din citatul-sursă. Sunt interzise în special cuvinte precum
+   „instantaneu”, „definitiv”, „complet”, „exclusiv” și „singura soluție” dacă nu apar în dovezi.
+8. Nu transforma interpretările simbolice în fapte. Rezumatul conține numai acțiuni și stări narative.
+9. Scrie concis, orientativ 80-220 de cuvinte, în 2-4 paragrafe. Acoperirea factuală are
+   prioritate față de lungime; nu adăuga informații pentru a atinge o limită minimă.
+10. `sentence_text` trebuie să reproducă exact propoziția corespunzătoare din `summary`.
+11. Dacă datele verificate sunt insuficiente, păstrează rezumatul mai scurt și explică în
+    `validation_notes`; nu inventa nimic.
+
+Returnează exclusiv JSON valid:
+
+```json
+{
+  "task": "chapter_summary",
+  "chapter_id": "CH_04",
+  "chapter_title": "Capitolul IV - Noaptea",
+  "status": "generated",
+  "summary": "Rezumatul factual.",
+  "sentence_evidence": [
+    {
+      "sentence_index": 1,
+      "sentence_text": "Propoziția exactă din summary.",
+      "event_ids": ["EV_..."]
+    }
+  ],
+  "coverage": {
+    "covered_event_ids": ["EV_..."],
+    "excluded_event_ids": [],
+    "event_count_expected": 9,
+    "event_count_covered": 9
+  },
+  "style": {"language": "ro", "word_count": 0, "paragraph_count": 0},
+  "validation_notes": []
+}
+```
+
+## GRAPH_PACKET
+
+{"metadata":{"packet_id":"ION-GRAPH2-SUMMARY-04","task":"chapter_summary","source_graph":"cercetare/graf2/knowledge-graph.json","source_graph_version":"5.1","source_graph_sha256":"d5e72342a6eaf448cc20cf49c0160d5ed79890b5491cea2b890785ab8d9c3bb1","language":"ro","compact":true,"chapter_id":"CH_04","chapter_title":"Capitolul IV - Noaptea","source_event_count":9,"verified_event_count":9,"excluded_event_count":0},"usage_rules":{"canonical_scope":"Numai verified_events pot apărea în rezumat.","provenance_rule":"Validatorul asociază local event_ids cu evidence_quote; modelul nu recopiază citatele.","source_support_rule":"O propoziție păstrează numai detaliile compatibile cu fact și evidence_quote.","exclusion_rule":"excluded_events nu se verbalizează.","interpretation_rule":"Rezumatul factual nu folosește teme, simboluri sau motivații deduse."},"chapter":{"id":"CH_04","ordinal":4,"title":"Capitolul IV - Noaptea","part_id":"PART_01","source_event_sequence":["EV_034","EV_053","EV_054","EV_038","EV_039","EV_040","EV_037","EV_041","EV_042"],"verified_event_sequence":["EV_034","EV_053","EV_054","EV_038","EV_039","EV_040","EV_037","EV_041","EV_042"],"excluded_event_sequence":[]},"verified_events":[{"id":"EV_034","order":1,"importance":"major","assertion_type":"explicit_fact","fact":"Vasile Baciu încearcă să întărească apropierea dintre fiica sa și George Bulbuc.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":123,"evidence_quote":"Şi mai află că Laura este doritoare de -a te vedea în casa noastră cât mai grabnic...» CAPITOLUL IV: NOAPTEA 1 De când a văzut că Ion se înstrăinează de Ana din ce în ce mai rău, George Bulbuc a început într - adevăr să meargă mai în fiecare seară pe la Vasile Baciu.","support_score":0.4444}},{"id":"EV_053","order":2,"importance":"medium","assertion_type":"explicit_fact","fact":"Judecătorul îl condamnă pe Ion la două săptămâni de închisoare.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":136,"evidence_quote":"Când încetă preotul, judecătorul se sculă iar şi numaidecât se răsti la Ion: - Va să zică tu eşti spaima satului, câine ticălos!... Bine. Foarte bine. Te dezvăţăm noi de nebunii, fii pe pace!... Ai să vii să stai două săptămâni la răcoare, ca să -ţi treacă pofta de bătăi!...","support_score":0.6}},{"id":"EV_054","order":3,"importance":"medium","assertion_type":"explicit_fact","fact":"Învățătorul îl ajută pe Ion să trimită o plângere împotriva judecătorului și a preotului.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":164,"evidence_quote":"Se aşeză şi făcu o jalbă amănunţită şi simţită, în care judecătorul şi preotul se întovărăşau spre a năpăstui pe un biet ţăran nevinovat. Când o citi pe româneşte lui Ion, toţi se înduioşară. Laura o transcrise îndată cu oarecare emoţie. Herdelea avu grija s -o pună tot pe ea să scrie şi adresa pe plicul mare: ministrului de justiţie...","support_score":0.2857}},{"id":"EV_038","order":4,"importance":"medium","assertion_type":"explicit_fact","fact":"Ion insistă să se întâlnească pe ascuns cu Ana la casa lui Vasile.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":176,"evidence_quote":"9 Din clipa când a pus jalba la poştă în Armadia, Ion s -a simţit iar liniştit, parcă ar fi scăpat de toate grijile. Se ducea seara pe la Ana şi pândea neîncetat prilejul când să -şi izbândească planul care -i fierbea în minte şi-i umplea sufletul de nădejdi bune. Ştia bine că George nu încetează de -a merge pe la Vasile Baciu.","support_score":0.2}},{"id":"EV_039","order":5,"importance":"medium","assertion_type":"explicit_fact","fact":"Ana îl roagă pe Ion să intre în casă, profitând de somnul adânc al lui Vasile Baciu.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":178,"evidence_quote":"Într-un târziu uşa tinzii se deschise scârţâind şi Ana se ascunse repede în sumanul lui, zicându-i îndată rugătoare şi alintătoare: - Astă seară trebuie să vii în casă, Ionică!... Nu te las până nu vii... Tata doarme dus. A venit beat din Jidoviţa şi acu sforăie de se hurducă pereţii!... Ion îi cuprinse mijlocul şi-i mângâie sânii peste cămaşa lungă.","support_score":0.125}},{"id":"EV_040","order":6,"importance":"medium","assertion_type":"explicit_fact","fact":"În timp ce Vasile Baciu doarme în aceeași încăpere, Ion și Ana întrețin relații sexuale pe cuptor.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":180,"evidence_quote":"Ion se coborî de pe cuptor când cântau cocoşii a doua oară şi Ana îl însoţi până la poartă.","support_score":0.1}},{"id":"EV_037","order":7,"importance":"medium","assertion_type":"explicit_fact","fact":"Când Ana spune că se teme să nu fi rămas însărcinată, Ion își ascunde cu greu bucuria.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":181,"evidence_quote":"180 Citeşte alte cărţi din literatura română şi universală pe Biblioteca PDF - Tare mă tem să nu fi rămas grea! murmură fata cu dinţii dârdâind şi glasul ei domol se împrăştie în tăcerea nopţii ca un strigăt puternic. Flăcăul trebui să-şi muşte buzele ca să nu izbucnească de bucurie.","support_score":0.25}},{"id":"EV_041","order":8,"importance":"medium","assertion_type":"explicit_fact","fact":"Ascuns afară pentru a spiona, George îl vede pe Ion ieșind din casa Anei.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":181,"evidence_quote":"murmură fata fugind îngrozită în casă. Vraniţa se închise în urma ei troznind ca o descărcare de armă ucigătoare... George, ascuns acolo de când s -a întunecat, văzuse pe Ion intrând şi -l aşteptase până a ieşit. Cuvintele Anei, le -a auzit limpede parcă i le -ar fi spus chiar lui.","support_score":0.5}},{"id":"EV_042","order":9,"importance":"major","assertion_type":"explicit_fact","fact":"După ce îl vede pe Ion ieșind și aude temerea Anei că ar putea fi însărcinată, George pleacă dezgustat.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_04","pdf_page":181,"evidence_quote":"George, ascuns acolo de când s -a întunecat, văzuse pe Ion intrând şi -l aşteptase până a ieşit. Cuvintele Anei, le -a auzit limpede parcă i le -ar fi spus chiar lui. Carnea îi tremura de scârbă, iar în sufletul lui se frământa un gol care -l durea.","support_score":0.1818}}],"excluded_events":[],"validation":{"passed":true,"checks":{"partition_is_exact":true,"verified_sequence_exact":true,"excluded_sequence_exact":true,"all_verified_have_primary_quotes":true,"no_boundary_context":true,"no_graph_noise":true},"verified_event_count":9,"excluded_event_count":0}}

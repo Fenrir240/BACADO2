@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "reasoning_effort": "medium",
+    "attempts": 1,
+    "retry_on_invalid": false,
+    "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\knowledge-graph.json",
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-literary-current-runs\\run-20260822T171541Z",
+    "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\moara_cu_noroc.md",
+    "usage": {
+      "prompt_tokens": 60989,
+      "completion_tokens": 4235,
+      "total_tokens": 65224,
+      "cost": 0.0077929,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0077929,
+        "upstream_inference_prompt_cost": 0.0060989,
+        "upstream_inference_completions_cost": 0.001694
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2701,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "literary_current": {
+    "movement": {
+      "id": "realism",
+      "name": "Realism",
+      "definition": "Curent literar apărut la mijlocul secolului al XIX-lea, care promovează observarea obiectivă a realității sociale și psihologice, verosimilitatea narativă și reprezentarea tipurilor umane determinate de mediu.",
+      "work_classification": "Nuvela «Moara cu noroc» se încadrează în realism prin ancorarea precisă în spațiu și timp, prin analiza minuțioasă a mecanismelor psihologice ale personajelor și prin revelarea destinului individual sub presiunea lăcomiei și a contextului social.",
+      "historical_context": "Se dezvoltă în a doua jumătate a secolului al XIX-lea, în paralel cu afirmarea statului național modern și cu progresul științific, promovând o viziune obiectivă asupra lumii și respingând idealismul romantic."
+    },
+    "traits": [
+      {
+        "id": "verosimilitate_cronotop",
+        "title": "Verosimilitatea evenimentelor susținută de cronotopul precis",
+        "explanation": "În realism, plauzibilitatea narativă este garantată de localizarea exactă a acțiunii în spațiu și timp. Autorul utilizează toponime reale și indicatori temporali specifici pentru a crea o atmosferă de autenticitate incontestabilă, integrând personajele într-un cadru istoric și geografic verificabil, specific creațiilor de tip realist.",
+        "evidence_from_work": [
+          "Menționarea explicită a toponimelor reale: Ineu, Arad, Salonta, Pesta, care ancorează acțiunea într-o rețea comercială și administrativă concretă.",
+          "Delimitarea temporală precisă: desfășurarea acțiunii între Sfântul Gheorghe și Paștele din anul următor, oferind un cadru ciclic și verificabil.",
+          "Redarea detaliată a rutelor comerciale, a piețelor și a interacțiunilor sociale specifice zonei, care conferă credibilitate întâmplărilor relatate."
+        ],
+        "essay_use": "Pentru a argumenta încadrarea în realism, formulați ideea că Slavici construiește o lume credibilă prin cronotopul precis. Menționați topografulia reală (Ineu, Arad, Pesta) și intervalul temporal (Sf. Gheorghe-Paște), explicând cum acești indici amplifică impresia de verosimil și delimitează clar evenimentele, conform principiilor esteticii realiste.",
+        "model_essay_excerpt": "O primă trăsătură care face posibilă încadrarea nuvelei în realism este verosimilitatea evenimentelor petrecute în operă, susținută de cronotopul precis. Astfel, din punct de vedere al indicilor spațiali se observă menționarea unor toponime, precum: Ineu, Arad, Salonta, Pesta. În ceea ce privește indicii temporali, aceștia indică faptul că acțiunea se desfășoară în perioada de timp dintre două sărbători religioase: Sf. Gheorghe și Paștele din anul următor. Prin acești indici, a căror existență incontestabilă amplifică impresia de verosimil, evenimentele sunt clar localizate și delimitate, așa cum se întâmplă în creațiile de tip realist."
+      },
+      {
+        "id": "psihologie_personaje",
+        "title": "Interesul pentru psihologia personajelor",
+        "explanation": "Realismul depășește simpla descriere exterioară pentru a explora complexitatea sufletului uman. Personajele nu mai sunt tipuri fixe, ci ființe complexe, marcate de conflicte interioare, dileme morale și evoluție psihologică. Autorul folosește tehnici narative avansate pentru a surprinde frământările sufletești și procesele de gândire ale eroului.",
+        "evidence_from_work": [
+          "Analiza profundă a conflictului interior al lui Ghiță, prins între dorința de înavuțire și valorile morale/familiale.",
+          "Utilizarea monologului interior pentru a revela direct ezitări, frică și justificări ale protagonistului.",
+          "Aplicarea stilului indirect liber și a detaliilor sugestive de gestică și mimică (paloare, tremur, tăceri) care externalizează tensiunea psihică și degradarea morală."
+        ],
+        "essay_use": "Introduceți această trăsătură subliniind că realismul slavician pune accent pe complexitatea psihologică. Argumentați că personajele trăiesc drame existențiale complexe, iar autorul redă conflictul interior al lui Ghiță prin monolog interior, stil indirect liber și detalii fizice sugestive, demonstrând astfel interesul realist pentru profilarea psihologică fină.",
+        "model_essay_excerpt": "O altă trăsătură a realismului, care se regăsește în această nuvelă este reprezentată de interesul pentru psihologia personajelor. Ioan Slavici este primul prozator care arată că sufletul oamenilor care populează mediul rural și mic-urban nu este deloc simplu, nici liniar, ci dimpotrivă, personajele trăiesc drame ale existenței, sunt complexe. Astfel, sunt analizate în profunzime frământările sufletești ale lui Ghiță, un om prins între dorința de înavuțire și pierderea valorilor morale. Conflictul interior al personajului este redat cu ajutorul monologului interior, al stilului indirect liber, precum și prin detalii sugestive de gestică și mimică."
+      }
+    ],
+    "bac_synthesis": "Pentru Bacalaureat, rețineți că «Moara cu noroc» este un model de nuvelă realistă. La examen, argumentați întotdeauna încadrarea curentului prin două elemente concrete: cronotopul precis (toponime reale, interval temporal definit) care garantează verosimilitatea, și analiza psihologică profundă (monolog interior, stil indirect liber, detaliile fizice care reflectă stări interioare) care dezvăluie degradarea morală a lui Ghiță. Aceste trăsături vă vor permite să construiți un eseu coerent, structurat pe relația dintre formă și fond, și să obțineți note mari la probele scrise."
+  },
+  "validation": {
+    "valid": true,
+    "trait_count": 2,
+    "expected_trait_count": 2,
+    "traits_from_model_essay_verified": true
+  }
+}

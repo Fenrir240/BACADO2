@@ -1,0 +1,111 @@
+# Ontologia knowledge graph-ului Ion
+
+## Tipuri de noduri
+
+- `Work`: clasă disponibilă în modelul narativ.
+- `Author`: clasă disponibilă în modelul narativ.
+- `Part`: clasă disponibilă în modelul narativ.
+- `Chapter`: clasă disponibilă în modelul narativ.
+- `NarrativeEvent`: clasă disponibilă în modelul narativ.
+- `NarrativeSubevent`: clasă disponibilă în modelul narativ.
+- `Character`: clasă disponibilă în modelul narativ.
+- `CharacterState`: clasă disponibilă în modelul narativ.
+- `NarrativeState`: clasă disponibilă în modelul narativ.
+- `Decision`: clasă disponibilă în modelul narativ.
+- `Motivation`: clasă disponibilă în modelul narativ.
+- `Action`: clasă disponibilă în modelul narativ.
+- `Consequence`: clasă disponibilă în modelul narativ.
+- `Location`: clasă disponibilă în modelul narativ.
+- `TimeContext`: clasă disponibilă în modelul narativ.
+- `Object`: clasă disponibilă în modelul narativ.
+- `Family`: clasă disponibilă în modelul narativ.
+- `Institution`: clasă disponibilă în modelul narativ.
+- `SocialGroup`: clasă disponibilă în modelul narativ.
+- `Relationship`: clasă disponibilă în modelul narativ.
+- `Conflict`: clasă disponibilă în modelul narativ.
+- `Theme`: clasă disponibilă în modelul narativ.
+- `Motif`: clasă disponibilă în modelul narativ.
+- `Symbol`: clasă disponibilă în modelul narativ.
+- `Value`: clasă disponibilă în modelul narativ.
+- `Emotion`: clasă disponibilă în modelul narativ.
+- `SocialStatus`: clasă disponibilă în modelul narativ.
+- `NarrativePerspective`: clasă disponibilă în modelul narativ.
+- `LiteraryTechnique`: clasă disponibilă în modelul narativ.
+- `Evidence`: clasă disponibilă în modelul narativ.
+- `SourceFragment`: clasă disponibilă în modelul narativ.
+- `SourceDocument`: clasă disponibilă în modelul narativ.
+- `OntologyClass`: clasă disponibilă în modelul narativ.
+
+## Relații controlate
+
+- `instance_of`
+- `subclass_of`
+- `created_by`
+- `part_of`
+- `has_part`
+- `has_chapter`
+- `chapter_of`
+- `occurs_in_chapter`
+- `occurs_at`
+- `occurs_before`
+- `occurs_after`
+- `immediately_precedes`
+- `immediately_follows`
+- `causes`
+- `contributes_to`
+- `enables`
+- `prevents`
+- `motivates`
+- `results_in`
+- `foreshadows`
+- `resolves`
+- `intensifies`
+- `contrasts_with`
+- `parallels`
+- `has_participant`
+- `participates_in`
+- `initiates`
+- `experiences`
+- `observes`
+- `discovers`
+- `communicates_to`
+- `hides_from`
+- `helps`
+- `opposes`
+- `manipulates`
+- `harms`
+- `protects`
+- `loves`
+- `desires`
+- `is_married_to`
+- `is_parent_of`
+- `is_child_of`
+- `is_rival_of`
+- `has_motivation`
+- `has_consequence`
+- `has_state_before`
+- `has_state_after`
+- `changes_state_of`
+- `gains`
+- `loses`
+- `believes`
+- `fears`
+- `decides`
+- `abandons_goal`
+- `adopts_goal`
+- `expresses_theme`
+- `expresses_motif`
+- `symbolizes`
+- `supported_by`
+- `derived_from_source`
+- `has_simple_verbalization`
+- `has_elevated_verbalization`
+- `has_opening_state`
+- `has_closing_state`
+- `documents`
+- `mentions`
+- `has_evidence`
+
+## Reguli de extensie
+
+Identificatorii sunt stabili, fiecare eveniment aparține unui capitol și are ordine locală și globală, iar fiecare relație indică două noduri existente. Faptele explicite sunt separate de interpretări și motivații deduse.

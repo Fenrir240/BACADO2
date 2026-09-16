@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bacapp.local/schemas/moara-cu-noroc-knowledge-graph.schema.json",
+  "title": "Knowledge graph - Moara cu noroc",
+  "type": "object",
+  "required": [
+    "metadata",
+    "sources",
+    "ontology",
+    "nodes",
+    "edges",
+    "chapters",
+    "reconstruction_profiles",
+    "validation"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "work",
+        "work_id",
+        "author",
+        "version"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_type",
+          "title",
+          "path"
+        ]
+      }
+    },
+    "ontology": {
+      "type": "object",
+      "required": [
+        "node_types",
+        "relationship_types",
+        "assertion_types"
+      ]
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 200,
+      "maxItems": 300,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "label",
+          "description",
+          "chapter_ids",
+          "importance",
+          "confidence",
+          "assertion_type",
+          "source_refs",
+          "attributes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "Action",
+              "Author",
+              "Chapter",
+              "Character",
+              "CharacterState",
+              "CompositionElement",
+              "Conflict",
+              "Consequence",
+              "Decision",
+              "Emotion",
+              "Evidence",
+              "Family",
+              "Institution",
+              "LiteraryMovement",
+              "LiteraryTechnique",
+              "LiteraryTrait",
+              "Location",
+              "Motif",
+              "Motivation",
+              "NarrativeEvent",
+              "NarrativePerspective",
+              "NarrativeState",
+              "NarrativeSubevent",
+              "Object",
+              "Part",
+              "Relationship",
+              "SocialGroup",
+              "SocialStatus",
+              "SourceFragment",
+              "Symbol",
+              "Theme",
+              "TimeContext",
+              "Value",
+              "Work"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "chapter_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "importance": {
+            "enum": [
+              "major",
+              "medium",
+              "supporting",
+              "minor"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "assertion_type": {
+            "enum": [
+              "explicit_fact",
+              "explicit_motivation",
+              "inferred_motivation",
+              "literary_interpretation",
+              "symbolic_interpretation",
+              "uncertain"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "attributes": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "edges": {
+      "type": "array",
+      "minItems": 300,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source",
+          "predicate",
+          "target",
+          "assertion_type",
+          "source_refs",
+          "qualifiers"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "predicate": {
+            "enum": [
+              "authored_by",
+              "belongs_to_literary_movement",
+              "causes",
+              "changes_state_of",
+              "chapter_of",
+              "communicates_to",
+              "contains",
+              "contrasts_with",
+              "contributes_to",
+              "derived_from_source",
+              "desires",
+              "discovers",
+              "enables",
+              "experiences",
+              "expresses_motif",
+              "expresses_theme",
+              "foreshadows",
+              "harms",
+              "has_chapter",
+              "has_characteristic",
+              "has_closing_state",
+              "has_composition_element",
+              "has_concept",
+              "has_consequence",
+              "has_elevated_verbalization",
+              "has_motivation",
+              "has_opening_state",
+              "has_part",
+              "has_participant",
+              "has_setting",
+              "has_simple_verbalization",
+              "helps",
+              "hides_from",
+              "illustrated_by",
+              "illustrates",
+              "immediately_follows",
+              "immediately_precedes",
+              "initiates",
+              "instance_of",
+              "intensifies",
+              "involves",
+              "is_child_of",
+              "is_married_to",
+              "is_parent_of",
+              "is_rival_of",
+              "is_sibling_of",
+              "loves",
+              "manipulates",
+              "motivates",
+              "observes",
+              "occurs_after",
+              "occurs_at",
+              "occurs_before",
+              "occurs_in_chapter",
+              "opposes",
+              "parallels",
+              "part_of",
+              "participates_in",
+              "prepares",
+              "prevents",
+              "protects",
+              "resolves",
+              "results_in",
+              "subclass_of",
+              "supported_by",
+              "symbolizes"
+            ]
+          },
+          "target": {
+            "type": "string",
+            "minLength": 1
+          },
+          "assertion_type": {
+            "enum": [
+              "explicit_fact",
+              "explicit_motivation",
+              "inferred_motivation",
+              "literary_interpretation",
+              "symbolic_interpretation",
+              "uncertain"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "qualifiers": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "minItems": 17,
+      "maxItems": 17
+    },
+    "reconstruction_profiles": {
+      "type": "array",
+      "minItems": 4
+    },
+    "validation": {
+      "type": "object",
+      "required": [
+        "valid",
+        "node_count",
+        "edge_count",
+        "chapter_count"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

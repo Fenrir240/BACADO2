@@ -1,0 +1,634 @@
+{
+  "benchmark_id": "ION-EXP1-QUESTIONS-V1",
+  "task": "question_generation",
+  "graph_version": "2.0",
+  "questions": [
+    {
+      "question_id": "Q_001",
+      "slot_id": "SLOT_01",
+      "blueprint_id": "FACT_1HOP",
+      "status": "generated",
+      "question_text": "Cine este autorul romanului Ion?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Liviu Rebreanu",
+        "node_ids": [
+          "AUTHOR_REBREANU"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "WORK_ION"
+        ],
+        "predicates": [
+          "created_by"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "AUTHOR_REBREANU"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "WORK_ION",
+          "AUTHOR_REBREANU"
+        ],
+        "edge_ids": [
+          "EDGE_00034"
+        ],
+        "path_node_ids": [
+          "WORK_ION",
+          "AUTHOR_REBREANU"
+        ]
+      },
+      "scope": {
+        "chapter_ids": []
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 0
+      }
+    },
+    {
+      "question_id": "Q_002",
+      "slot_id": "SLOT_02",
+      "blueprint_id": "RELATION_1HOP",
+      "status": "generated",
+      "question_text": "Care este relația maritală dintre Ion și Ana?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Ion este căsătorit cu Ana.",
+        "node_ids": [
+          "CHAR_001",
+          "CHAR_002"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_001"
+        ],
+        "predicates": [
+          "is_married_to"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CHAR_002"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_001",
+          "CHAR_002"
+        ],
+        "edge_ids": [
+          "EDGE_00103"
+        ],
+        "path_node_ids": [
+          "CHAR_001",
+          "CHAR_002"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_003",
+      "slot_id": "SLOT_03",
+      "blueprint_id": "TEMPORAL_ORDER",
+      "status": "generated",
+      "question_text": "Care este ordinea cronologică a evenimentelor: Drumul intră în Pripas, Satul se adună la horă și Ierarhiile devin vizibile?",
+      "answer": {
+        "answer_type": "ordered_entity",
+        "text": "Drumul intră în Pripas, Satul se adună la horă, Ierarhiile devin vizibile.",
+        "node_ids": [],
+        "ordered_node_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CH_01"
+        ],
+        "predicates": [
+          "has_event_sequence"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CH_01",
+          "EV_001",
+          "EV_002",
+          "EV_003"
+        ],
+        "edge_ids": [
+          "EDGE_00111",
+          "EDGE_00151",
+          "EDGE_00154",
+          "EDGE_00155",
+          "EDGE_00156",
+          "EDGE_00157",
+          "EDGE_00158"
+        ],
+        "path_node_ids": [
+          "CH_01",
+          "EV_001",
+          "EV_002",
+          "EV_003"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 2,
+        "required_nodes": 4,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_004",
+      "slot_id": "SLOT_04",
+      "blueprint_id": "DIRECT_CAUSE",
+      "status": "generated",
+      "question_text": "Ce l-a motivat pe Ion să aleagă pe Ana la joc, deși o iubea pe Florica?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Sărăcia lui Ion și zestrea Anei.",
+        "node_ids": [
+          "MOT_004"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_004"
+        ],
+        "predicates": [
+          "has_motivation"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "MOT_004"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_004",
+          "MOT_004"
+        ],
+        "edge_ids": [
+          "EDGE_00184"
+        ],
+        "path_node_ids": [
+          "EV_004",
+          "MOT_004"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_005",
+      "slot_id": "SLOT_05",
+      "blueprint_id": "DIRECT_EFFECT",
+      "status": "generated",
+      "question_text": "Ce consecință a avut alegerea Anei de către Ion la joc?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Alegerea afectivă este subordonată averii.",
+        "node_ids": [
+          "CON_004"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_004"
+        ],
+        "predicates": [
+          "has_consequence"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CON_004"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_004",
+          "CON_004"
+        ],
+        "edge_ids": [
+          "EDGE_00186"
+        ],
+        "path_node_ids": [
+          "EV_004",
+          "CON_004"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_006",
+      "slot_id": "SLOT_06",
+      "blueprint_id": "MULTIHOP_CAUSAL",
+      "status": "generated",
+      "question_text": "Ce lanț cauzal duce la condamnarea lui Ion la închisoare?",
+      "answer": {
+        "answer_type": "chain",
+        "text": "Ion mută hotarul, ceea ce îl determină pe Simion Lungu să formuleze plângerea, iar acest lucru duce la condamnarea lui Ion.",
+        "node_ids": [
+          "EV_026",
+          "EV_051",
+          "EV_053"
+        ],
+        "ordered_node_ids": [
+          "EV_026",
+          "EV_051",
+          "EV_053"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_026"
+        ],
+        "predicates": [
+          "causes"
+        ],
+        "intermediate_node_ids": [
+          "EV_051"
+        ],
+        "expected_result_ids": [
+          "EV_026",
+          "EV_051",
+          "EV_053"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_026",
+          "MOT_026",
+          "CON_026",
+          "EV_051",
+          "MOT_051",
+          "CON_051",
+          "EV_053",
+          "MOT_053",
+          "CON_053"
+        ],
+        "edge_ids": [
+          "EDGE_00683",
+          "EDGE_00684",
+          "EDGE_00685",
+          "EDGE_00704",
+          "EDGE_00705",
+          "EDGE_00706",
+          "EDGE_00713",
+          "EDGE_00721",
+          "EDGE_00722",
+          "EDGE_00723",
+          "EDGE_00724",
+          "EDGE_00725",
+          "EDGE_00726",
+          "EDGE_00727",
+          "EDGE_00728",
+          "EDGE_00729",
+          "EDGE_00730",
+          "EDGE_00731",
+          "EDGE_00732",
+          "EDGE_00733",
+          "EDGE_00734",
+          "EDGE_00735",
+          "EDGE_00736",
+          "EDGE_00737",
+          "EDGE_00738",
+          "EDGE_00739",
+          "EDGE_00740",
+          "EDGE_00741",
+          "EDGE_00742",
+          "EDGE_00743",
+          "EDGE_00744",
+          "EDGE_00745",
+          "EDGE_00746",
+          "EDGE_00747",
+          "EDGE_00748",
+          "EDGE_00749",
+          "EDGE_00750",
+          "EDGE_00751",
+          "EDGE_00752",
+          "EDGE_00753",
+          "EDGE_00754",
+          "EDGE_00755",
+          "EDGE_00756",
+          "EDGE_00757",
+          "EDGE_00758",
+          "EDGE_00759",
+          "EDGE_00760",
+          "EDGE_00761",
+          "EDGE_00762",
+          "EDGE_00763",
+          "EDGE_00764",
+          "EDGE_00765",
+          "EDGE_00766",
+          "EDGE_00767",
+          "EDGE_00768",
+          "EDGE_00769",
+          "EDGE_00770",
+          "EDGE_00771",
+          "EDGE_00772",
+          "EDGE_00773",
+          "EDGE_00774",
+          "EDGE_00775",
+          "EDGE_00776",
+          "EDGE_00777",
+          "EDGE_00778",
+          "EDGE_00779",
+          "EDGE_00780",
+          "EDGE_00781",
+          "EDGE_00782",
+          "EDGE_00783",
+          "EDGE_00784",
+          "EDGE_00785",
+          "EDGE_00786",
+          "EDGE_00787",
+          "EDGE_00788",
+          "EDGE_00789",
+          "EDGE_00790",
+          "EDGE_00791",
+          "EDGE_00792",
+          "EDGE_00793",
+          "EDGE_00794",
+          "EDGE_00795",
+          "EDGE_00796",
+          "EDGE_00797",
+          "EDGE_00798",
+          "EDGE_00799",
+          "EDGE_00800",
+          "EDGE_00801",
+          "EDGE_00802",
+          "EDGE_00803",
+          "EDGE_00804",
+          "EDGE_00805",
+          "EDGE_00806",
+          "EDGE_00807",
+          "EDGE_00808",
+          "EDGE_00809",
+          "EDGE_00810",
+          "EDGE_00811",
+          "EDGE_00811",
+          "EDGE_00812",
+          "EDGE_00813",
+          "EDGE_00814",
+          "EDGE_00815",
+          "EDGE_00816",
+          "EDGE_00817",
+          "EDGE_00818",
+          "EDGE_00819",
+          "EDGE_00820",
+          "EDGE_00821",
+          "EDGE_00822",
+          "EDGE_00823",
+          "EDGE_00824",
+          "EDGE_00825",
+          "EDGE_00826",
+          "EDGE_00827",
+          "EDGE_00828",
+          "EDGE_00829",
+          "EDGE_00830",
+          "EDGE_00831",
+          "EDGE_00832",
+          "EDGE_00833",
+          "EDGE_00834",
+          "EDGE_00835",
+          "EDGE_00836",
+          "EDGE_00837",
+          "EDGE_00838",
+          "EDGE_00839",
+          "EDGE_00840",
+          "EDGE_00841",
+          "EDGE_00842",
+          "EDGE_00843",
+          "EDGE_00844",
+          "EDGE_00845",
+          "EDGE_00846",
+          "EDGE_00847",
+          "EDGE_00848",
+          "EDGE_00849",
+          "EDGE_00850",
+          "EDGE_00851",
+          "EDGE_00852",
+          "EDGE_00853",
+          "EDGE_00854"
+        ],
+        "path_node_ids": [
+          "EV_026",
+          "EV_051",
+          "EV_053"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_03",
+          "CH_05"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 2,
+        "required_nodes": 3,
+        "chapters_involved": 2
+      }
+    },
+    {
+      "question_id": "Q_007",
+      "slot_id": "SLOT_07",
+      "blueprint_id": "STATE_TRANSITION",
+      "status": "generated",
+      "question_text": "Ce stare a lui Ion este descrisă înainte de a deveni proprietar și care este starea sa după?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Starea inițială este cea de țăran sărac, iar starea finală este cea de proprietar mândru.",
+        "node_ids": [
+          "STATE_CH_02_OPEN",
+          "STATE_CH_07_CLOSE"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_001"
+        ],
+        "predicates": [
+          "has_state_before",
+          "has_state_after"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "STATE_CH_02_OPEN",
+          "STATE_CH_07_CLOSE"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_001",
+          "STATE_CH_02_OPEN",
+          "STATE_CH_07_CLOSE"
+        ],
+        "edge_ids": [
+          "EDGE_00341",
+          "EDGE_01549"
+        ],
+        "path_node_ids": [
+          "CHAR_001",
+          "STATE_CH_02_OPEN",
+          "CHAR_001",
+          "STATE_CH_07_CLOSE"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_02",
+          "CH_07"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 2,
+        "required_nodes": 3,
+        "chapters_involved": 2
+      }
+    },
+    {
+      "question_id": "Q_008",
+      "slot_id": "SLOT_08",
+      "blueprint_id": "CROSS_CHAPTER_COMPARE",
+      "status": "generated",
+      "question_text": "Cum diferă motivația lui Ion pentru pământ în Capitolul I față de Capitolul IX?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "În Capitolul I, motivația este legată de dorința de a ieși din sărăcie și de a câștiga respect social, în timp ce în Capitolul IX, după obținerea pământului, motivația devine una de posesie erotică și de consolidare a identității.",
+        "node_ids": [
+          "EV_005",
+          "EV_080",
+          "EV_081",
+          "EV_082"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_001"
+        ],
+        "predicates": [
+          "has_motivation",
+          "occurs_in_chapter"
+        ],
+        "intermediate_node_ids": [
+          "EV_005",
+          "EV_080",
+          "EV_081",
+          "EV_082"
+        ],
+        "expected_result_ids": [
+          "EV_005",
+          "EV_080",
+          "EV_081",
+          "EV_082"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_001",
+          "EV_005",
+          "MOT_005",
+          "EV_080",
+          "MOT_080",
+          "EV_081",
+          "MOT_081",
+          "EV_082",
+          "MOT_082"
+        ],
+        "edge_ids": [
+          "EDGE_00202",
+          "EDGE_00207",
+          "EDGE_00211",
+          "EDGE_01920",
+          "EDGE_01925",
+          "EDGE_01929",
+          "EDGE_01937",
+          "EDGE_01942",
+          "EDGE_01946",
+          "EDGE_01956",
+          "EDGE_01961",
+          "EDGE_01965"
+        ],
+        "path_node_ids": [
+          "CHAR_001",
+          "EV_005",
+          "MOT_005",
+          "EV_080",
+          "MOT_080",
+          "EV_081",
+          "MOT_081",
+          "EV_082",
+          "MOT_082"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01",
+          "CH_09"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 2,
+        "required_nodes": 5,
+        "chapters_involved": 2
+      }
+    }
+  ]
+}

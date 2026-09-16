@@ -1,0 +1,149 @@
+{
+  "experiment": "Experimentul 2",
+  "run_id": "run-20260813T181251Z",
+  "timestamp_utc": "2026-08-13T18:12:51.488145+00:00",
+  "requested_model": "nvidia/nemotron-3.5-lightning",
+  "model_name": "NVIDIA: Nemotron 3.5 Lightning",
+  "context_length": 1048576,
+  "graph_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\graf1\\knowledge-graph.json",
+  "graph_sha256": "19e81d5c346fb9dbd11d025ee52a857284152d98a8c6421e5a3731ca8f82e1c3",
+  "chapter_packet_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\experiment2\\inputs\\chapter-01-graph.json",
+  "chapter_packet_sha256": "815ff4923f766b1ef9909997f18a2c768fdbe9f4d4e0834b88d40a218b4788d4",
+  "question_prompt_template_sha256": "fee63198ddddc045d18a6a41d4c55f8ad9a88ca4d865a80052cee5f2a70fb41f",
+  "summary_prompt_template_sha256": "f640928fd21f14ccf17d3d03d65c3f298d640a04e1afb199a4965c9ba5c7d725",
+  "evaluator_sha256": "f02117f6a83614d85a15303cfd3cb3f5e3b5e9c30e9ec71847025be4daab507e",
+  "api_key_saved": false,
+  "task_settings": {
+    "questions": {
+      "reasoning_effort": "high"
+    },
+    "summary": {
+      "reasoning_effort": "high"
+    }
+  },
+  "tasks": {
+    "questions": {
+      "json_valid": false,
+      "task": "questions",
+      "error_type": "RuntimeError",
+      "message": "OpenRouter HTTP 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\\"error\\\":{\\\"message\\\":\\\"This model's maximum context length is 262144 tokens. However, you requested 27000 output tokens and your prompt contains at least 235145 input tokens, for a total of at least 262145 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=235145)\\\",\\\"type\\\":\\\"invalid_request_error\\\",\\\"param\\\":\\\"messages\\\",\\\"code\\\":\\\"context_length_exceeded\\\"}}\",\"provider_name\":\"Venice\",\"is_byok\":false,\"provider_error_code\":\"context_length_exceeded\",\"retry_after_seconds\":29,\"retry_after_seconds_raw\":28.873,\"headers\":{\"Retry-After\":\"29\"}}},\"user_id\":\"org_3HOxRiTX7Q4sWxrepTeWRDvBnNr\"}"
+    },
+    "summary": {
+      "task": "summary",
+      "json_valid": true,
+      "duration_seconds": 16.121,
+      "prompt_sha256": "789552da387d12507e065f419159853ba0a46340cdd68cc7077d82ab905d9059",
+      "prompt_characters": 94921,
+      "estimated_prompt_tokens": 37969,
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 60000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "high",
+          "exclude": true
+        }
+      },
+      "returned_model": "nvidia/nemotron-3.5-lightning",
+      "model_verification": "accepted_exact_or_canonical_model_id",
+      "provider": "CoreWeave",
+      "generation_id": "gen-1786644768-yADrpriEJkZtmK4mydOL",
+      "usage": {
+        "prompt_tokens": 33107,
+        "completion_tokens": 3887,
+        "total_tokens": 36994,
+        "cost": 0.00428245,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00428245,
+          "upstream_inference_prompt_cost": 0.0033107,
+          "upstream_inference_completions_cost": 0.00097175
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  "semantic_similarity_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "semantic_similarity_config_sha256": "52f837c50a9743f7c8cfd40bf195514238258fcbb4ac85e8571ed8a96e57a1eb",
+  "summary_manifest_sha256": "41a8d8c63dc41535d76596059d5e95886cae7f526247b0d22df1385884efbb4c",
+  "reference_style_profile_sha256": "df971e2a4b114981f9b2507cc9351b376cffbb92727defc5b739c6c8d1554636",
+  "base_runner_sha256": "3e34d03a39c78609755035ac850ac4dcd1e54a6f2fbf664d86e64c55d72718b0",
+  "resume_history": [
+    {
+      "resumed_at": "2026-08-13T18:18:30.884879+00:00",
+      "retried_tasks": [
+        "questions"
+      ],
+      "skipped_valid_tasks": [
+        "summary"
+      ],
+      "archived_attempts": {
+        "questions": "previous-attempts\\questions-retry-20260813T181830Z"
+      }
+    },
+    {
+      "resumed_at": "2026-08-13T18:20:35.525264+00:00",
+      "retried_tasks": [
+        "questions"
+      ],
+      "skipped_valid_tasks": [
+        "summary"
+      ],
+      "archived_attempts": {
+        "questions": "previous-attempts\\questions-retry-20260813T182035Z"
+      }
+    },
+    {
+      "resumed_at": "2026-08-13T18:22:16.616768+00:00",
+      "retried_tasks": [
+        "questions"
+      ],
+      "skipped_valid_tasks": [
+        "summary"
+      ],
+      "archived_attempts": {
+        "questions": "previous-attempts\\questions-retry-20260813T182216Z"
+      }
+    },
+    {
+      "resumed_at": "2026-08-13T18:29:15.594340+00:00",
+      "retried_tasks": [
+        "questions"
+      ],
+      "skipped_valid_tasks": [
+        "summary"
+      ],
+      "archived_attempts": {
+        "questions": "previous-attempts\\questions-retry-20260813T182915Z"
+      }
+    },
+    {
+      "resumed_at": "2026-08-13T18:31:35.587072+00:00",
+      "retried_tasks": [
+        "questions"
+      ],
+      "skipped_valid_tasks": [
+        "summary"
+      ],
+      "archived_attempts": {
+        "questions": "previous-attempts\\questions-retry-20260813T183135Z"
+      }
+    }
+  ]
+}

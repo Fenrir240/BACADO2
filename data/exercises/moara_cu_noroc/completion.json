@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "work_id": "moara_cu_noroc",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "exercise_type": "completion",
+  "source": {
+    "question_bank": "data/generated_works/moara_cu_noroc/testare-rapida/questions.json",
+    "knowledge_graph": "data/generated_works/moara_cu_noroc/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "SIMPLE_FACT_LOWHOP",
+    "CHARACTER_RELATION",
+    "NARRATIVE_ACTION"
+  ],
+  "exercise_count": 12,
+  "skipped_count": 0,
+  "skipped": [],
+  "exercises": [
+    {
+      "id": "CLOZE-eceaf610b9e541c7",
+      "text": "1. La întrebarea „În ce loc se desfășoară evenimentul central din primul capitol al operei?”, răspunsul corect este ____.\n2. La întrebarea „Care este relația matrimonială dintre Ghiță și Ana în timpul discuției lor despre viitorul familiei?”, răspunsul corect este ____.\n3. La întrebarea „Cine simte spaimă la gândul părăsirii colibei în primul capitol?”, răspunsul corect este ____.",
+      "answers": [
+        "Moara cu noroc",
+        "Sunt soț și soție.",
+        "Ana"
+      ],
+      "prompts": [
+        "În ce loc se desfășoară evenimentul central din primul capitol al operei",
+        "Care este relația matrimonială dintre Ghiță și Ana în timpul discuției lor despre viitorul familiei",
+        "Cine simte spaimă la gândul părăsirii colibei în primul capitol"
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_01",
+        "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-127bb8ce4e81aa91",
+      "text": "1. La întrebarea „Care este numele soției cârciumarului care participă la acest eveniment din capitolul șase?”, răspunsul corect este ____.\n2. La întrebarea „Ce relație afectivă leagă pe Ghiță de Ana în timpul scenei de numărare a banilor?”, răspunsul corect este ____.\n3. La întrebarea „Ce fac Ana, Bătrâna și copiii când țiganii cântau în al șaselea capitol?”, răspunsul corect este ____.",
+      "answers": [
+        "Ana",
+        "Se iubesc.",
+        "Ascultă muzica țiganilor la ușa cârciumii."
+      ],
+      "prompts": [
+        "Care este numele soției cârciumarului care participă la acest eveniment din capitolul șase",
+        "Ce relație afectivă leagă pe Ghiță de Ana în timpul scenei de numărare a banilor",
+        "Ce fac Ana, Bătrâna și copiii când țiganii cântau în al șaselea capitol"
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_02",
+        "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-247683ceab9269ad",
+      "text": "1. La întrebarea „Ce transformare suferă Ghiță, conform descrierii din evenimentul final al nuvelei?”, răspunsul corect este ____.\n2. La întrebarea „Ce relație de rivalitate leagă pe Ghiță de Lică Sămădăul în momentul sosirii lui la moară?”, răspunsul corect este ____.\n3. La întrebarea „Ce intenție își formează Ghiță în al doisprezecelea capitol la Moara cu noroc?”, răspunsul corect este ____.",
+      "answers": [
+        "Un fel de prefacere",
+        "Sunt rivali.",
+        "Să stea până la primăvară, să își adune averea și să plece departe cu familia."
+      ],
+      "prompts": [
+        "Ce transformare suferă Ghiță, conform descrierii din evenimentul final al nuvelei",
+        "Ce relație de rivalitate leagă pe Ghiță de Lică Sămădăul în momentul sosirii lui la moară",
+        "Ce intenție își formează Ghiță în al doisprezecelea capitol la Moara cu noroc"
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_03",
+        "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-ccbe3567ed795171",
+      "text": "1. La întrebarea „În ce capitol al nuvelei are loc evenimentul în care Ana își exprimă teama de a rămâne singură?”, răspunsul corect este ____.\n2. La întrebarea „Care este legătura matrimonială dintre Ghiță și Ana în cadrul capitolului al treilea?”, răspunsul corect este ____.\n3. ____ propune să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana.",
+      "answers": [
+        "Capitolul 1",
+        "Sunt soț și soție.",
+        "Ghiță"
+      ],
+      "prompts": [
+        "În ce capitol al nuvelei are loc evenimentul în care Ana își exprimă teama de a rămâne singură",
+        "Care este legătura matrimonială dintre Ghiță și Ana în cadrul capitolului al treilea",
+        "Cine sugerează să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana"
+      ],
+      "source_question_ids": [
+        "run-20260822T195104194604Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_01",
+        "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-aa7639229ec2ae70",
+      "text": "1. La întrebarea „Care este persoana în vârstă care ascultă cântecul țiganilor alături de Ana și de copii?”, răspunsul corect este ____.\n2. ____ o iubește pe Ana.\n3. Lică îl apucă pe ____, iese din cârciumă și începe să frământe pământul.",
+      "answers": [
+        "Bătrâna",
+        "Ghiță",
+        "Buză-Ruptă"
+      ],
+      "prompts": [
+        "Care este persoana în vârstă care ascultă cântecul țiganilor alături de Ana și de copii",
+        "Ce sentiment afectiv manifestă Ghiță față de Ana în timpul evenimentelor din capitolul patru",
+        "Ce acțiune întreprinde Lică alături de Buză-Ruptă în interiorul hanului de la răscruce când îi vine pofta de joc"
+      ],
+      "source_question_ids": [
+        "run-20260822T195104194604Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_02",
+        "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-8484481dc70132dc",
+      "text": "1. La întrebarea „În ce regiune geografică dorește Ghiță să se stabilească împreună cu familia după ce își va strânge averea?”, răspunsul corect este ____.\n2. La întrebarea „Ce tip de rivalitate există între Ghiță și Lică în contextul capitolului cinci?”, răspunsul corect este ____.\n3. ____ refuză să-l ducă, declarând că nu i se potrivește acum și are nevoie de un om ca cel întrebat.",
+      "answers": [
+        "În fundul Banatului ori în Ţară",
+        "Sunt rivali direcți.",
+        "Lică"
+      ],
+      "prompts": [
+        "În ce regiune geografică dorește Ghiță să se stabilească împreună cu familia după ce își va strânge averea",
+        "Ce tip de rivalitate există între Ghiță și Lică în contextul capitolului cinci",
+        "Ce răspuns oferă Lică în capitolul 12 atunci când i se propune să transporte pe cineva la moara cu noroc"
+      ],
+      "source_question_ids": [
+        "run-20260822T195104194604Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_03",
+        "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-0352639883560b51",
+      "text": "1. La întrebarea „În ce locație se desfășoară conversația dintre Ana și Ghiță?”, răspunsul corect este ____.\n2. La întrebarea „Care este legătura matrimonială dintre Ghiță și Ana în momentul în care ea îl roagă cu stăruință să își pună băiatul călare pe el?”, răspunsul corect este ____.\n3. La întrebarea „Cine rostește cuvintele „În ceas bun să fie zis” la începutul poveștii?”, răspunsul corect este ____.",
+      "answers": [
+        "Biserica de la Fundureni",
+        "Soți",
+        "Bătrâna"
+      ],
+      "prompts": [
+        "În ce locație se desfășoară conversația dintre Ana și Ghiță",
+        "Care este legătura matrimonială dintre Ghiță și Ana în momentul în care ea îl roagă cu stăruință să își pună băiatul călare pe el",
+        "Cine rostește cuvintele „În ceas bun să fie zis” la începutul poveștii"
+      ],
+      "source_question_ids": [
+        "run-20260822T195623375580Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_01",
+        "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-c5e1148f981ee22a",
+      "text": "1. La întrebarea „Cine îl însoțește pe Lică când acesta iese să joace la moară?”, răspunsul corect este ____.\n2. La întrebarea „Ce relație afectivă leagă inițial pe Ghiță de Ana, chiar dacă în scena din Capitolul 7 el caută sprijinul lui Pintea?”, răspunsul corect este ____.\n3. La întrebarea „Ce face Ana când Lică rostește vorbe indirecte în timpul vizitei la han?”, răspunsul corect este ____.",
+      "answers": [
+        "Buză-Ruptă",
+        "Iubire conjugală și devotament",
+        "Tresare și se ridică roșită ca bujorul."
+      ],
+      "prompts": [
+        "Cine îl însoțește pe Lică când acesta iese să joace la moară",
+        "Ce relație afectivă leagă inițial pe Ghiță de Ana, chiar dacă în scena din Capitolul 7 el caută sprijinul lui Pintea",
+        "Ce face Ana când Lică rostește vorbe indirecte în timpul vizitei la han"
+      ],
+      "source_question_ids": [
+        "run-20260822T195623375580Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_02",
+        "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-cab3f7c221e207b6",
+      "text": "1. La întrebarea „Ce afirmă Lică în momentul în care refuză o propunere?”, răspunsul corect este ____.\n2. La întrebarea „În ce constă rivalitatea dintre Ghiță și Lică în contextul discuției tensionate din Capitolul 3?”, răspunsul corect este ____.\n3. La întrebarea „Ce propoziție rostește Ghiță în timpul discuției din Capitolul 13 al nuvelei?”, răspunsul corect este ____.",
+      "answers": [
+        "Am trebuinţă de un om ca tine.",
+        "Opoziție și conflict de interese",
+        "„Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”"
+      ],
+      "prompts": [
+        "Ce afirmă Lică în momentul în care refuză o propunere",
+        "În ce constă rivalitatea dintre Ghiță și Lică în contextul discuției tensionate din Capitolul 3",
+        "Ce propoziție rostește Ghiță în timpul discuției din Capitolul 13 al nuvelei"
+      ],
+      "source_question_ids": [
+        "run-20260822T195623375580Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_03",
+        "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-2c94612a2ce25d19",
+      "text": "1. La întrebarea „În ce capitol al nuvelei are loc scena în care Bătrâna rostește cuvântul de bine?”, răspunsul corect este ____.\n2. La întrebarea „Ce legătură matrimonială îl unește pe Ghiță cu Ana în contextul capitolului șapte?”, răspunsul corect este ____.\n3. Ghiță, Ana și ____",
+      "answers": [
+        "Capitolul 1",
+        "Soție și soț (sunt căsătoriți)",
+        "Bătrâna"
+      ],
+      "prompts": [
+        "În ce capitol al nuvelei are loc scena în care Bătrâna rostește cuvântul de bine",
+        "Ce legătură matrimonială îl unește pe Ghiță cu Ana în contextul capitolului șapte",
+        "Cine primește drumeții ca pe niște prieteni așteptați în hanul Moara cu noroc"
+      ],
+      "source_question_ids": [
+        "run-20260822T200132842616Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_01",
+        "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-d37a6f9f0fd77639",
+      "text": "1. La întrebarea „Cine participă împreună cu Lică și Bătrâna în momentul în care Ana tresare roșită?”, răspunsul corect este ____.\n2. La întrebarea „Ce sentiment afectiv leagă pe Ghiță de Ana atunci când acesta anunță plecarea la Ineu?”, răspunsul corect este ____.\n3. La întrebarea „Ce face Lică la drumeți în pădurea de la Fundureni în timpul schimbării vremii?”, răspunsul corect este ____.",
+      "answers": [
+        "Ana",
+        "Iubire / dragoste",
+        "Se oprește la drumeți și vorbește privind înspre apus."
+      ],
+      "prompts": [
+        "Cine participă împreună cu Lică și Bătrâna în momentul în care Ana tresare roșită",
+        "Ce sentiment afectiv leagă pe Ghiță de Ana atunci când acesta anunță plecarea la Ineu",
+        "Ce face Lică la drumeți în pădurea de la Fundureni în timpul schimbării vremii"
+      ],
+      "source_question_ids": [
+        "run-20260822T200132842616Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_02",
+        "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-2f6775458860e869",
+      "text": "1. La întrebarea „Unde se desfășoară dialogul în care Ghiță este numit om cu multă ură în suflet?”, răspunsul corect este ____.\n2. La întrebarea „Ce relație de rivalitate se stabilește între Ghiță și Lică în contextul capitolului patru?”, răspunsul corect este ____.\n3. ____ își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”",
+      "answers": [
+        "Moara cu noroc",
+        "Rivalitate / opoziție",
+        "Ghiță"
+      ],
+      "prompts": [
+        "Unde se desfășoară dialogul în care Ghiță este numit om cu multă ură în suflet",
+        "Ce relație de rivalitate se stabilește între Ghiță și Lică în contextul capitolului patru",
+        "Ce conflict izbucnește între Ghiță și Lică în hanul Moara cu noroc în Capitolul 13"
+      ],
+      "source_question_ids": [
+        "run-20260822T200132842616Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_03",
+        "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    }
+  ]
+}

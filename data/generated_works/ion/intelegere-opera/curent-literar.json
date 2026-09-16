@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "ion",
+    "title": "Ion",
+    "author": "Liviu Rebreanu"
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "reasoning_effort": "medium",
+    "attempts": 1,
+    "retry_on_invalid": false,
+    "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\cercetare\\graf2\\knowledge-graph.json",
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\ion\\intelegere-opera\\qwen-literary-current-runs\\run-20260821T162740Z",
+    "usage": {
+      "prompt_tokens": 31270,
+      "completion_tokens": 7027,
+      "total_tokens": 38297,
+      "cost": 0.00185161,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00185161,
+        "upstream_inference_prompt_cost": 0.0009381,
+        "upstream_inference_completions_cost": 0.00091351
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 4785,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "literary_current": {
+    "movement": {
+      "id": "realism-obiectiv-social",
+      "name": "Realism obiectiv și social",
+      "definition": "Curent literar care pune accent pe redarea fidelă și imparțială a realității sociale, pe analiza mecanismelor care guvernează comportamentul uman (condiționările economice, mediul, structurile ierarhice) și pe o naratiune la persoana a III-a, distanțată emoțional, dar profund analitică.",
+      "work_classification": "Opera „Ion” se încadrează în acest curent datorită titlării sale explicite ca roman „realist-obiectiv și social”, a focalizării asupra unei comunități țărănești transilvănene reale, a portretizării impersonale a personajelor conduse de interese materiale și a structurii narative care prioritizează faptele și consecințele lor logice asupra trăirilor subiective.",
+      "historical_context": "Perioada finală a sec. XIX – începutul sec. XX în spațiul românesc, marcată de consolidarea statului modern, tensiunile sociale legate de proprietatea funciară și de dorința intelectualității de a documenta și reformează realitatea națională."
+    },
+    "traits": [
+      {
+        "id": "obiectivitate_narativa",
+        "title": "Obiectivitatea narativă și portretarea sociologică",
+        "explanation": "Naratorul omniscient relatează evenimentele fără a interveni cu comentarii morale sau sentimentale, prezentând comunitatea ca un întreg organizat după reguli clare de statut și conduită.",
+        "evidence_from_work": [
+          "Descrierea satului Pripas și a vieții colective",
+          "Prezentarea Curții Todosiei ca spațiu al expozițiunii sociale și al ierarhiei",
+          "Relatarea imparțială a procedurilor judiciare de la Judecătorie și Tribunalul din Bistrița"
+        ],
+        "essay_use": "În eseu, această trăsătură poate fi formulată astfel: Naratorul realist al operei adoptă o poziție de observator imparțial, conturând o imagine sociologică precisă a comunității rurale, unde valorile sunt stabilite de statutul material și de respectul public."
+      },
+      {
+        "id": "determinism_material",
+        "title": "Determinismul material și obsesia posesiei",
+        "explanation": "Comportamentul personajelor este dictat de nevoia de afirmare prin posesiunea pământului, care devine criteriul suprem al demnității și puterii, anulând alte valori morale sau afective.",
+        "evidence_from_work": [
+          "Tema centrală a obsesiei pământului, definită ca criteriu suprem al demnității",
+          "Statutul social și puterea de negociere determinate de avere și zestre",
+          "Lupta pentru controlul moștenirii și transmiterea pământurilor"
+        ],
+        "essay_use": "Eseul poate evidenția faptul că opera ilustrează determinismul material, în care pământul funcționează ca un motor al acțiunii, transformând aspirația de mobilitate socială într-o obsesie care dictează alegerile protagonistului."
+      },
+      {
+        "id": "conflict_social",
+        "title": "Conflictul social ca motor al acțiunii",
+        "explanation": "Acțiunea este propulsată de lupta pentru depășirea condiției de sărac și de accesul la proprietate, iar relațiile umane sunt tensionate de rivalități generate de statut și avere.",
+        "evidence_from_work": [
+          "Conflictul social generat de dorința de depășire a condiției de sărac",
+          "Rivalitatea erotică și socială produsă de relațiile Ion-Ana-Florica-George",
+          "Confruntările legate de cârciumă, hotar și disputele juridice"
+        ],
+        "essay_use": "În dezvoltarea eseului, elevul poate argumenta că romanul structurează acțiunea pe baza conflictului social, demonstrând cum competiția pentru resurse și prestigiu generează tensiuni constante între personaje și instituții."
+      },
+      {
+        "id": "psihologie_conditionata",
+        "title": "Psihologia personajelor condiționată de mediu",
+        "explanation": "Trăsăturile sufletești și dilemele interne nu sunt abstracte, ci rezultă din presiunea mediului rural, a normelor comunitare și a constrângerilor economice.",
+        "evidence_from_work": [
+          "Oscilația lui Ion între glasul pământului și glasul iubirii",
+          "Presiunea colectivă produsă de rușinea comunitară legată de sarcina în afara căsătoriei",
+          "Tipologia familiei Herdelea, prestigioasă cultural, dar dependentă social"
+        ],
+        "essay_use": "Această dimensiune poate fi integrată în eseu prin ideea că psihologia personajelor este strâns legată de contextul sociologic, conflictele interioare fiind expresia directă a constrângerilor impuse de mediul rural și de așteptările colective."
+      },
+      {
+        "id": "dezumanizare",
+        "title": "Dezumanizarea și instrumentalizarea omului",
+        "explanation": "În căutarea unui scop material, personajele tind să trateze ceilalți ca mijloace, reducând relațiile umane la tranzacții și generând procese de alienare și suferință.",
+        "evidence_from_work": [
+          "Transformarea oamenilor în mijloace pentru atingerea unui scop material",
+          "Procesul prin care Ana este manipulată, agresată, abandonată și izolată",
+          "Violența exercitată asupra Anei de tată și de soț"
+        ],
+        "essay_use": "În eseu, această trăsătură permite formularea unei critici asupra degradării relațiilor umane: romanul surprinde mecanismul dezumanizării, în care valoarea afectivă este sacrificată în favoarea calculului material, cu consecințe tragice."
+      },
+      {
+        "id": "lant_tragic_destin",
+        "title": "Lanțul tragic și relativizarea destinului individual",
+        "explanation": "Destinele personale sunt supuse unor legi implacabile care duc spre pierdere și moarte, iar importanța individului este diminuată în fața continuității neîntrerupte a comunității.",
+        "evidence_from_work": [
+          "Succesiunea pierderilor care îi cuprinde pe Ana, Petrișor și Ion",
+          "Traiectoria protagonistului relativizată de durata comunității",
+          "Revenirea horei și continuitatea satului care leagă finalul de început"
+        ],
+        "essay_use": "Eseul poate concluziona că opera transmite o viziune tragică asupra condiției umane, în care destinul individual este absorbit de ciclurile comunitare, iar finalul sugerează că viața colectivă persistă indiferent de sacrificiile individuale."
+      },
+      {
+        "id": "autenticitate_detaliu",
+        "title": "Autenticitatea detaliului și documentarea realității rurale",
+        "explanation": "Romanul se bazează pe o reprezentare riguroasă a spațiului, a muncii agricole, a instituțiilor locale și a obiceiurilor, punând accent pe corporalitate, mediu și condiționări materiale concrete.",
+        "evidence_from_work": [
+          "Accentul pus pe corporalitate, mediu, violență și condiționări materiale",
+          "Spațiile precise ale acțiunii: hotarul, câmpul, grajdul, casa Glanetașu",
+          "Documentarea procedurilor legale și a vieții publice masculine la cârciumă"
+        ],
+        "essay_use": "Această trăsătură poate fi utilizată în eseu pentru a demonstra caracterul documentar al operei, care construiește verosimilitatea printr-un ansamblu de detalii concrete, topografice și instituționale specifice realității rurale transilvănene."
+      }
+    ],
+    "bac_synthesis": "Pentru Bacalaureat, reține că „Ion” este romanul emblematic al realismului obiectiv și social. În eseu, structurează răspunsul pe trei axe principale: 1) Contextul și încadrarea curentului (redarea fidelă a realității rurale, naratorul imparțial); 2) Mecanismele deterministe (pământul ca valoare supremă, conflictul social, dezumanizarea relațiilor); 3) Structura și mesajul operei (lanțul tragic, destinul individual subordonat continuității comunității, structura circulară). Folosește dovezi concrete din text (spații precum Pripas, Curtea Todosiei, hotarul; instituții precum Judecătoria, Tribunalul; personaje precum Ion, Ana, familia Herdelea) pentru a susține fiecare afirmație. Evită generalizările și leagă întotdeauna interpretarea de elementele concrete ale graficului narativ: ierarhia socială bazată pe avere, rușinea comunitară, violența patriarhală și obsesia posesiei. Această abordare îți va asigura coerența, rigoarea academică și punctajul maxim la proba de competența literară."
+  },
+  "validation": {
+    "valid": true,
+    "trait_count": 7
+  }
+}

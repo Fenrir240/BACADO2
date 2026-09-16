@@ -1,0 +1,254 @@
+TOATE ÎNTREBĂRILE QWEN — ARHIVĂ CUMULATIVĂ PE CATEGORII
+
+Total întrebări păstrate: 96
+Rulări incluse: 4
+
+Fișier reconstruit automat din rezultatele salvate; o reluare nu dublează aceeași categorie din aceeași rulare.
+
+
+1. SIMPLE_FACT_LOWHOP — 12 întrebări
+====================================
+
+Lot legacy | run-20260818T204220Z | qwen/qwen3.5-flash-02-23 | validare trecută
+------------------------------------------------------------------------
+1. Care este titlul celui de-al treilea capitol al romanului Ion?
+2. Cine este participantul principal la evenimentul în care Ana se spânzură?
+3. Ce acțiune specifică descrie evenimentul în care George îl lovește pe Ion cu sapa?
+
+
+Lot legacy | run-20260820T212156Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+4. În ce loc se petrece evenimentul în care Ion aude glasul pământului?
+5. Cine este celălalt participant la condamnarea alături de Ion în Capitolul VIII?
+6. Unde are loc transcrierea averii lui Ion pe numele bisericii?
+
+
+Lot legacy | run-20260820T214438Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+7. Care este locul exact în care Ion simte chemarea pământului?
+8. Care este numele învățătorului condamnat alături de Ion la tribunal?
+9. În ce localitate are loc transcrierea averii lui Ion pe numele bisericii?
+
+
+Lot 2 | run-20260821T114436Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+10. În care capitol se desfășoară evenimentul în care Vasile Baciu încearcă să apropie fiica sa de George Bulbuc?
+11. Care este personajul care hotărăște să cedeze averea pentru a încheia conflictul cu Ion al Glanetașului?
+12. În ce sat principal are loc evenimentul morții copilului lui Ion?
+
+
+2. CHARACTER_RELATION — 12 întrebări
+====================================
+
+Lot legacy | run-20260818T204220Z | qwen/qwen3.5-flash-02-23 | validare trecută
+------------------------------------------------------------------------
+1. Cine este soțul Floricăi, rivalul lui Ion în lupta pentru pământ și iubire?
+2. Care este relația de sânge dintre Ana și Vasile Baciu, care o forțează pe ea să se căsătorească cu Ion?
+3. De ce îl consideră Ion pe George Bulbuc un inamic direct în romanul Ion?
+
+
+Lot legacy | run-20260820T212156Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+4. Care este relația matrimonială dintre Ion al Glanetașului și Ana?
+5. Cine o iubește pe Ion în timpul evenimentului din Capitolul I?
+6. Ce tip de rivalitate există între Ion al Glanetașului și George Bulbuc?
+
+
+Lot legacy | run-20260820T214438Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+7. Prin ce eveniment oficial s-au unit Ion și Ana în căsnicie?
+8. Ce sentiment manifestă Ana față de Ion în timpul cumpănii sale din primul capitol?
+9. Cum se definește conflictul dintre Ion și George Bulbuc în al doilea volum?
+
+
+Lot 2 | run-20260821T114436Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+10. Care este legătura conjugală dintre Ion și Ana în timpul evenimentelor din Capitolul IX?
+11. Ce sentiment nutrește Ana față de Ion în contextul suferinței sale descrise în Capitolul VII?
+12. Ce tip de conflict social și erotic leagă pe Ion de George Bulbuc în prima parte a romanului?
+
+
+3. NARRATIVE_ACTION — 12 întrebări
+==================================
+
+Lot legacy | run-20260818T204220Z | qwen/qwen3.5-flash-02-23 | validare trecută
+------------------------------------------------------------------------
+1. Cine îl lovește pe George Bulbuc cu un par în timpul confruntării de la cârciumă?
+2. Ce acțiune fizică realizează Ion în curtea lui George pentru a ajunge la Florica?
+3. Ce eveniment se produce în grajdul familiei Baciu în Capitolul X?
+
+
+Lot legacy | run-20260820T212156Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+4. Cine realizează acțiunea de a bănui că învățătorul Herdelea îi subminează autoritatea în sat?
+5. Ce face Laura într-un context precis al nunții din Armadia?
+6. Ce eveniment se produce în Casa și curtea lui George în Capitolul XIII?
+
+
+Lot legacy | run-20260820T214438Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+7. Cine bănuiește că învățătorul Herdelea îi subminează autoritatea în sat?
+8. Ce realizează Laura Herdelea în timpul ceremoniei de nuntă din Capitolul VI?
+9. Ce eveniment se petrece în Casa lui George în Capitolul XIII?
+
+
+Lot 2 | run-20260821T114436Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+10. Cine îl lovește pe George Bulbuc cu un par la cârciuma lui Avrum?
+11. Ce îi comunică Ion lui Titu Herdelea în hotarul satului după obținerea pământurilor?
+12. Ce eveniment tragic are loc în grajdul casei Baciu în Capitolul X?
+
+
+4. TEMPORAL_ORDER — 12 întrebări
+================================
+
+Lot legacy | run-20260818T204220Z | qwen/qwen3.5-flash-02-23 | validare trecută
+------------------------------------------------------------------------
+1. În ce ordine se desfășoară următoarele evenimente din Capitolul I: Ion o alege pe Ana la joc, Vasile îl insultă pe Ion și George este preferat ca ginere?
+2. Care este succesiunea corectă a acestor momente care traversează capitolele II și III: Ion oscilează între micime și putere, Belciug îl condamnă în biserică și Ion declară că o va lua pe Ana?
+3. Ordonați cronologic aceste evenimente din finalul romanului: Petrișor moare, Vasile cere pământurile înapoi și Ion intră în disperare?
+
+
+Lot legacy | run-20260820T212156Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+4. Care este ordinea cronologică a evenimentelor: Ion o privește stăruitor pe Florica, Ana observă dorința lui Ion, Savista o avertizează pe Ana și Florica se căsătorește cu George?
+5. În ce ordine apar următoarele momente narative: Vasile cere înapoi pământurile, Ion îl vizitează des pe George, Savista observă legătura și Ion reia legătura cu Florica pe câmp?
+6. Stabiliți succesiunea corectă a evenimentelor: George își recunoaște fapta, Ion moare sub nuc, Ion își revine după lovituri, Ion se târăște spre poartă, Ion își înțelege starea și George îl lovește pe Ion?
+
+
+Lot legacy | run-20260820T214438Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+7. În ce ordine cronologică au loc următoarele evenimente: Savista o avertizează pe Ana, Ion o privește stăruitor pe Florica, Florica se căsătorește cu George și Ana observă dorința lui Ion?
+8. Care este succesiunea corectă a acestor momente: Savista observă legătura, Ion îl vizitează des pe George, Vasile cere înapoi pământurile și Ion reia legătura cu Florica pe câmp?
+9. Așezați în ordinea cronologică corectă evenimentele care descriu finalul tragic: George își recunoaște fapta, Ion moare sub nuc, Ion se târăște spre poartă, Ion își înțelege starea, Ion își revine după lovituri și George îl lovește pe Ion?
+
+
+Lot 2 | run-20260821T114436Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+10. În ce ordine apar aceste evenimente legate de conflictul patrimonial: Ion se poartă calculat cu Ana, Vasile și Ion merg la notar, Contractul îi dă lui Ion toate pământurile, Vasile hotărăște să cedeze averea?
+11. În ce ordine apar aceste evenimente legate de descoperirea și consecințele sarcinii Anei: George surprinde plecarea lui Ion, Zvonurile despre Ana se răspândesc, George pleacă dezgustat după ce îi surprinde, Ana trăiește în teroare?
+12. În ce ordine apar aceste evenimente legate de conflictul matrimonial: Ion hotărăște să recurgă la lege, Titu decide să plece din Pripas, Ion o alungă pe Ana, Titu pleacă la Lușca, Ana se simte fără rost, Ana rămâne la Vasile Baciu?
+
+
+5. CAUSE_EFFECT — 12 întrebări
+==============================
+
+Lot legacy | run-20260818T204220Z | qwen/qwen3.5-flash-02-23 | validare diagnostică netrecută
+------------------------------------------------------------------------
+1. Ce motivație directă l-a determinat pe Ion să o aleagă pe Ana la joc, în ciuda faptului că o iubea pe Florica?
+2. Care a fost consecința imediată a refuzului lui Vasile Baciu de a accepta căsătoria cu Ion?
+3. Cum a condus sfatul imprudent al lui Titu la planul de compromitere a Anei și ce efect a avut acest lanț asupra relației dintre cei doi?
+
+
+Lot legacy | run-20260820T212156Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+4. Ce motivație directă l-a determinat pe Ion să mute hotarul și să taie o brazdă din pământul lui Simion Lungu?
+5. Care este consecința finală asupra perspectivei narative atunci când familia Herdelea părăsește satul Pripas?
+6. Cum duce sfatul lui Titu la confirmarea sarcinii Anei de către moașa Firoana?
+
+
+Lot legacy | run-20260820T214438Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+7. Ce l-a determinat pe Ion să se bată cu Simion Lungu în timpul arăturii?
+8. Care este consecința imediată a ieșirii definitive a drumului din Pripas și a plecării familiei Herdelea?
+9. Cum contribuie sfatul lui Titu Herdelea la confirmarea oficială a sarcinii Anei de către moașa Firoana?
+
+
+Lot 2 | run-20260821T114436Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+10. Ce eveniment cauzal a determinat direct transformarea mândriei învățătorului Herdelea în teamă în timpul anchetei?
+11. Care este consecința directă a eforturilor lui Vasile Baciu de a întări apropierea dintre Ana și George Bulbuc?
+12. Cum se leagă decizia lui Vasile Baciu de cedarea averii de obținerea efectivă a pământurilor de către Ion?
+
+
+6. CHARACTER_EVOLUTION — 12 întrebări
+=====================================
+
+Lot legacy | run-20260818T204220Z | qwen/qwen3.5-flash-02-23 | validare diagnostică netrecută
+------------------------------------------------------------------------
+1. Cum evoluează statutul social și material al lui Ion de la sărăcie umilitoare la proprietar respectat, prin obținerea pământurilor?
+2. Cum se transformă relația afectivă a Anei de la speranța iubirii la izolarea totală și sinucidere?
+3. Ce evoluție suferă Titu Herdelea de la visător idealist la intelectual dezamăgit care părăsește satul?
+
+
+Lot legacy | run-20260820T212156Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+4. Cum evoluează situația materială a lui Ion al Glanetașului, de la dilema inițială dintre iubire și avere până la acceptarea învoielii succesoral?
+5. Cum se transformă relația afectivă a lui Ion cu Ana, de la declarația publică din Jidovița până la nunta forțată?
+6. Ce degradare suferă Ana în relația cu familia sa, de la insultele aduse soțului de tatăl ei până la violența fizică directă?
+
+
+Lot legacy | run-20260820T214438Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+7. Cum se transformă statutul material și relațional al lui Ion de la dilema inițială din Capitolul I până la învoiala succesorală din Capitolul XII?
+8. Cum evoluează relația afectivă și poziția Anei de la declarația publică din Jidovița până la intervenția preotului Belciug?
+9. Cum se degradează și își schimbă obiectivul Vasile Baciu de la insulta publică față de Ion până la acceptarea învoielii succesoral?
+
+
+Lot 2 | run-20260821T114436Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+10. Cum evoluează statutul material și identitatea lui Ion al Glanetașului, de la prima conștiință a posesiei în fața hotarului, până la procesul pentru pământuri și teama de a le pierde după nașterea copilului?
+11. Cum se transformă relația afectivă și poziția socială a Anei, de la intimitatea forțată cu Ion, prin obligarea căsătoriei sub presiunea rușinii, până la confirmarea nefericirii în timpul nunții?
+12. Cum își modifică Vasile Baciu autoritatea și obiectivul familial, de la preferarea lui George ca ginere, prin eșecul planurilor împotriva lui Ion, până la cedarea totală a averii sub amenințarea judecății?
+
+
+7. LITERARY_INTERPRETATION — 12 întrebări
+=========================================
+
+Lot legacy | run-20260818T204220Z | qwen/qwen3.5-flash-02-23 | validare diagnostică netrecută
+------------------------------------------------------------------------
+1. Cum demonstrează evoluția lui Ion de la dorința de pământ până la moartea sa că obsesia materială a condus la dezumanizare?
+2. Ce evenimente din capitolele I și II arată cum conflictul interior al lui Ion oscilează între iubire și avere?
+3. Cum contrastează gestul lui Ion de a săruta pământul cu moartea sa pentru a sublinia tema destinului individual relativizat de comunitate?
+
+
+Lot legacy | run-20260820T212156Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+4. Cum se manifestă tema moștenirii și proprietății prin refuzul lui Vasile de a transfera pământurile, chiar după căsătoria cu Ana?
+5. În ce mod conflictul social pentru accesul la proprietate este exprimat prin refuzul lui Vasile de a ceda pământurile înainte de nuntă?
+6. Cum funcționează motivul structurii circulare prin paralela dintre intrarea drumului în Pripas și ieșirea sa din sat?
+
+
+Lot legacy | run-20260820T214438Z | qwen/qwen3.7-flash | validare trecută
+------------------------------------------------------------------------
+7. Cum se manifestă tema moștenirii și proprietății prin refuzul lui Vasile Baciu și transcrierea averii la biserică?
+8. Prin ce evenimente se structurează conflictul social legat de accesul la proprietate și statutul comunității?
+9. Cum funcționează structura circulară ca motiv literar în deschiderea și închiderea romanului?
+
+
+Lot 2 | run-20260821T114436Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+10. Prin ce evenimente din capitolele IV, VIII și XIII se conturează lanțul tragic al pierderilor succesive care afectează personajele principale?
+11. Cum sunt ilustrate etapele victimizării Anei prin evenimente distribuite în capitolele IV, VII și X?
+12. În ce mod procedeele naturaliste subliniază condiționările materiale și fizice ale destinului personajelor în capitolele X și XI?
+
+
+8. CROSS_CHAPTER_COMPARE — 12 întrebări
+=======================================
+
+Lot legacy | run-20260818T204220Z | qwen/qwen3.5-flash-02-23 | validare diagnostică netrecută
+------------------------------------------------------------------------
+1. Cum evoluează motivația lui Ion în alegerea soției, de la dorința de pământ în Capitolul I până la obsesia posesiei în Capitolul IX?
+2. Cum se manifestă violența patriarhală asupra Anei între momentul compromiterii în Capitolul IV și sinuciderea din Capitolul X?
+3. Ce paralelism simbolic există între gestul lui Ion de a săruta pământul în Capitolul IX și moartea sa prin prăbușire pe pământ în Capitolul XIII?
+
+
+Lot legacy | run-20260820T212156Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+4. Cum se transformă obsesia pământului a lui Ion, de la o dilema interioară în capitolul I la o frică materialistă în fața morții Anei?
+5. Cum evoluează conflictul interior al lui Ion, de la o opoziție simbolică la horă până la conștientizarea suferinței fizice iminente?
+6. Cum contrastează tema dezumanizării în momentul alegerii Anei cu cea din momentul uciderii, privind statutul uman al personajelor?
+
+
+Lot legacy | run-20260820T214438Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+7. Cum se transformă prioritățile lui Ion de la o dilemă între iubire și avere în Capitolul I la o luptă disperată pentru supraviețuire în Capitolul XIII?
+8. Cum evoluează tensiunea dintre dorința personală și constrângerile sociale ale lui Ion de la alegerea de la horă până la momentul conștientizării morții iminente?
+9. Cum se manifestă tema dezumanizării și a pierderii umanității în fața intereselor materiale de la cumpănirea inițială a lui Ion până la criza finală legată de moștenire?
+
+
+Lot 2 | run-20260821T114436Z | qwen/qwen3.7-flash | validare diagnostică netrecută
+------------------------------------------------------------------------
+10. Cum se schimbă rolul lui Ion dintr-un rival fizic triumfător în capitolul I într-o figură integrată instituțional la moarte în capitolul XIII?
+11. În ce mod diferă natura conflictului social dintre confruntarea fizică de la cârciumă în capitolul I și cedarea pământurilor sub presiune judecătorească în capitolul IX?
+12. Cum contrastează simbolica posesiei active prin cositul fâneței în capitolul II cu pierderea garanției moștenirii prin înmormântarea copilului în capitolul XI?

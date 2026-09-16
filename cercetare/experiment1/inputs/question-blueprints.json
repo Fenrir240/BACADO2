@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "blueprints": [
+    {
+      "id": "FACT_1HOP",
+      "required_hops": 1,
+      "answer_cardinality": 1,
+      "description": "Un fapt unic obținut prin traversarea unei singure relații."
+    },
+    {
+      "id": "RELATION_1HOP",
+      "required_hops": 1,
+      "answer_cardinality": 1,
+      "description": "Relația semantică directă dintre două entități."
+    },
+    {
+      "id": "TEMPORAL_ORDER",
+      "minimum_events": 3,
+      "description": "Ordonarea a minimum trei evenimente folosind ordinea narativă explicită."
+    },
+    {
+      "id": "DIRECT_CAUSE",
+      "allowed_predicates": ["has_motivation", "motivates", "causes"],
+      "description": "Cauza sau motivația directă a unui eveniment."
+    },
+    {
+      "id": "DIRECT_EFFECT",
+      "allowed_predicates": ["has_consequence", "results_in"],
+      "description": "Efectul sau consecința directă a unui eveniment."
+    },
+    {
+      "id": "MULTIHOP_CAUSAL",
+      "minimum_hops": 4,
+      "minimum_narrative_nodes": 3,
+      "minimum_causal_edges": 2,
+      "description": "Un lanț cauzal continuu de minimum patru muchii."
+    },
+    {
+      "id": "STATE_TRANSITION",
+      "minimum_hops": 2,
+      "description": "Stare inițială, transformare și stare finală pentru aceeași entitate."
+    },
+    {
+      "id": "CROSS_CHAPTER_COMPARE",
+      "minimum_chapters": 2,
+      "minimum_paths": 2,
+      "description": "Comparație verificabilă între informații provenite din minimum două capitole."
+    }
+  ]
+}

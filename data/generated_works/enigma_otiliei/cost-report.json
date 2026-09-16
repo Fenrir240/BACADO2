@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "report_type": "complete_work_openrouter_cost",
+  "currency": "USD",
+  "cost_source": "OpenRouter usage.cost returned for each API call",
+  "updated_at_utc": "2026-08-22T14:14:20.680174+00:00",
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "latest_total_run": {
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\pipeline-total\\runs\\run-20260822T141420573235Z",
+    "by_section": {
+      "intelegere-opera": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      },
+      "testare-rapida": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      },
+      "construieste-eseu": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      }
+    },
+    "total": {
+      "api_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0
+    }
+  },
+  "lifetime": {
+    "by_section": {
+      "intelegere-opera": {
+        "api_calls": 26,
+        "prompt_tokens": 287510,
+        "completion_tokens": 130494,
+        "reasoning_tokens": 113222,
+        "total_tokens": 418004,
+        "cost_usd": 0.04191363
+      },
+      "testare-rapida": {
+        "api_calls": 34,
+        "prompt_tokens": 331910,
+        "completion_tokens": 260301,
+        "reasoning_tokens": 205505,
+        "total_tokens": 592211,
+        "cost_usd": 0.04379643
+      },
+      "construieste-eseu": {
+        "api_calls": 1,
+        "prompt_tokens": 84231,
+        "completion_tokens": 8212,
+        "reasoning_tokens": 6529,
+        "total_tokens": 92443,
+        "cost_usd": 0.0117079
+      }
+    },
+    "total": {
+      "api_calls": 61,
+      "prompt_tokens": 703651,
+      "completion_tokens": 399007,
+      "reasoning_tokens": 325256,
+      "total_tokens": 1102658,
+      "cost_usd": 0.09741796
+    }
+  }
+}

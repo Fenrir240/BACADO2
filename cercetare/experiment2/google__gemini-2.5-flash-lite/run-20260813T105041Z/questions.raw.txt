@@ -1,0 +1,503 @@
+{
+  "benchmark_id": "ION-EXP2-QUESTIONS-V1",
+  "task": "question_generation",
+  "graph_version": "2.0",
+  "questions": [
+    {
+      "question_id": "Q_001",
+      "slot_id": "SLOT_01",
+      "blueprint_id": "FACT_1HOP",
+      "status": "generated",
+      "question_text": "Cine este autorul romanului \"Ion\"?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Liviu Rebreanu",
+        "node_ids": [
+          "AUTHOR_REBREANU"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "WORK_ION"
+        ],
+        "predicates": [
+          "created_by"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "AUTHOR_REBREANU"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "WORK_ION",
+          "AUTHOR_REBREANU"
+        ],
+        "edge_ids": [
+          "EDGE_00034"
+        ],
+        "path_node_ids": [
+          "WORK_ION",
+          "AUTHOR_REBREANU"
+        ]
+      },
+      "scope": {
+        "chapter_ids": []
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 0
+      }
+    },
+    {
+      "question_id": "Q_002",
+      "slot_id": "SLOT_02",
+      "blueprint_id": "RELATION_1HOP",
+      "status": "generated",
+      "question_text": "Care este relația dintre Ion și Ana?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Ion este căsătorit cu Ana.",
+        "node_ids": [
+          "CHAR_002"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_001"
+        ],
+        "predicates": [
+          "is_married_to"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CHAR_002"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_001",
+          "CHAR_002"
+        ],
+        "edge_ids": [
+          "EDGE_00103"
+        ],
+        "path_node_ids": [
+          "CHAR_001",
+          "CHAR_002"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01",
+          "CH_06",
+          "CH_07"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 3
+      }
+    },
+    {
+      "question_id": "Q_003",
+      "slot_id": "SLOT_03",
+      "blueprint_id": "TEMPORAL_ORDER",
+      "status": "generated",
+      "question_text": "Care este ordinea cronologică a evenimentelor: Drumul intră în Pripas, Satul se adună la horă și Ierarhiile devin vizibile?",
+      "answer": {
+        "answer_type": "ordered_entity",
+        "text": "Drumul intră în Pripas, Satul se adună la horă, Ierarhiile devin vizibile.",
+        "node_ids": [],
+        "ordered_node_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003"
+        ],
+        "predicates": [
+          "occurs_before"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003",
+          "CH_01"
+        ],
+        "edge_ids": [
+          "EDGE_00154",
+          "EDGE_00151"
+        ],
+        "path_node_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 2,
+        "required_nodes": 3,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_004",
+      "slot_id": "SLOT_04",
+      "blueprint_id": "DIRECT_CAUSE",
+      "status": "generated",
+      "question_text": "Ce l-a motivat pe Ion să cosească fâneața?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Revenirea la muncă.",
+        "node_ids": [
+          "MOT_011"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "MOT_011"
+        ],
+        "predicates": [
+          "motivates"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "EV_011"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "MOT_011",
+          "EV_011"
+        ],
+        "edge_ids": [
+          "EDGE_00356"
+        ],
+        "path_node_ids": [
+          "MOT_011",
+          "EV_011"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_02"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_005",
+      "slot_id": "SLOT_05",
+      "blueprint_id": "DIRECT_EFFECT",
+      "status": "generated",
+      "question_text": "Care a fost consecința faptului că Ion a cosit fâneața?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Relația fizică dintre Ion și pământ s-a intensificat.",
+        "node_ids": [
+          "CON_011"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_011"
+        ],
+        "predicates": [
+          "results_in"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CON_011"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_011",
+          "CON_011"
+        ],
+        "edge_ids": [
+          "EDGE_00358"
+        ],
+        "path_node_ids": [
+          "EV_011",
+          "CON_011"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_02"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_006",
+      "slot_id": "SLOT_06",
+      "blueprint_id": "MULTIHOP_CAUSAL",
+      "status": "generated",
+      "question_text": "Cum a dus sfatul lui Titu la acceptarea căsătoriei de către Vasile Baciu?",
+      "answer": {
+        "answer_type": "text",
+        "text": "Sfatul lui Titu a dus la planul lui Ion de a o compromite pe Ana, ceea ce l-a determinat pe George să renunțe la ea, forțând astfel mâna lui Vasile să accepte căsătoria.",
+        "node_ids": [],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_035"
+        ],
+        "predicates": [
+          "causes",
+          "causes",
+          "causes",
+          "results_in",
+          "causes",
+          "results_in",
+          "causes",
+          "results_in",
+          "causes"
+        ],
+        "intermediate_node_ids": [
+          "EV_036",
+          "EV_037",
+          "EV_040",
+          "CON_040",
+          "EV_041",
+          "CON_041",
+          "EV_042",
+          "CON_042"
+        ],
+        "expected_result_ids": [
+          "EV_056"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_035",
+          "EV_036",
+          "EV_037",
+          "EV_040",
+          "CON_040",
+          "EV_041",
+          "CON_041",
+          "EV_042",
+          "CON_042",
+          "EV_056"
+        ],
+        "edge_ids": [
+          "EDGE_00911",
+          "EDGE_00917",
+          "EDGE_00932",
+          "EDGE_00937",
+          "EDGE_00952",
+          "EDGE_00956",
+          "EDGE_00963",
+          "EDGE_00976",
+          "EDGE_01004",
+          "EDGE_01020",
+          "EDGE_01027",
+          "EDGE_01042",
+          "EDGE_01049",
+          "EDGE_01366"
+        ],
+        "path_node_ids": [
+          "EV_035",
+          "MOT_036",
+          "EV_036",
+          "MOT_037",
+          "EV_037",
+          "MOT_040",
+          "EV_040",
+          "CON_040",
+          "EV_041",
+          "CON_041",
+          "EV_042",
+          "CON_042",
+          "EV_056"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_04",
+          "CH_05",
+          "CH_06"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 9,
+        "required_nodes": 13,
+        "chapters_involved": 3
+      }
+    },
+    {
+      "question_id": "Q_007",
+      "slot_id": "SLOT_07",
+      "blueprint_id": "STATE_TRANSITION",
+      "status": "generated",
+      "question_text": "Care a fost starea lui Ion înainte și după evenimentele din Capitolul I, unde a luptat cu George?",
+      "answer": {
+        "answer_type": "text",
+        "text": "Inițial, Ion era cunoscut ca flăcău sărac și harnic, iar la final și-a consolidat prestigiul fizic, dar conflictul social și erotic a rămas deschis.",
+        "node_ids": [
+          "CHAR_001",
+          "STATE_CH_01_OPEN",
+          "STATE_CH_01_CLOSE"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_001"
+        ],
+        "predicates": [
+          "has_state_before",
+          "causes",
+          "has_state_after"
+        ],
+        "intermediate_node_ids": [
+          "STATE_CH_01_OPEN",
+          "EV_010",
+          "STATE_CH_01_CLOSE"
+        ],
+        "expected_result_ids": [
+          "CHAR_001"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_001",
+          "STATE_CH_01_OPEN",
+          "EV_010",
+          "STATE_CH_01_CLOSE"
+        ],
+        "edge_ids": [
+          "EDGE_00115",
+          "EDGE_00332",
+          "EDGE_00116"
+        ],
+        "path_node_ids": [
+          "CHAR_001",
+          "STATE_CH_01_OPEN",
+          "EV_010",
+          "STATE_CH_01_CLOSE"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 2,
+        "required_nodes": 4,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_008",
+      "slot_id": "SLOT_08",
+      "blueprint_id": "CROSS_CHAPTER_COMPARE",
+      "status": "generated",
+      "question_text": "Cum diferă obsesia lui Ion pentru pământ în Capitolul I față de Capitolul II?",
+      "answer": {
+        "answer_type": "text",
+        "text": "În Capitolul I, obsesia se manifestă ca un plan strategic de obținere a averii prin căsătorie, în timp ce în Capitolul II, ea devine o atracție fizică și aproape mistică față de pământul însuși.",
+        "node_ids": [],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CH_01",
+          "CH_02"
+        ],
+        "predicates": [
+          "has_part",
+          "has_part"
+        ],
+        "intermediate_node_ids": [
+          "EV_005",
+          "EV_011",
+          "EV_012"
+        ],
+        "expected_result_ids": [
+          "CH_01",
+          "CH_02"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CH_01",
+          "CH_02",
+          "EV_005",
+          "EV_011",
+          "EV_012"
+        ],
+        "edge_ids": [
+          "EDGE_00037",
+          "EDGE_00337",
+          "EDGE_00202",
+          "EDGE_00350"
+        ],
+        "path_node_ids": [
+          "CH_01",
+          "EV_005",
+          "CH_02",
+          "EV_011",
+          "EV_012"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01",
+          "CH_02"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 2,
+        "required_nodes": 5,
+        "chapters_involved": 2
+      }
+    }
+  ]
+}

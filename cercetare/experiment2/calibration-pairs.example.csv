@@ -1,0 +1,11 @@
+pair_id,sentence_a,sentence_b,same_meaning
+1,De ce îl lovește Ion pe George?,Care este motivul pentru care Ion îl atacă pe George?,1
+2,De ce îl lovește Ion pe George?,Ce se întâmplă după ce Ion îl lovește pe George?,0
+3,Pe cine iubește Ion cu adevărat?,Care este fata iubită cu adevărat de Ion?,1
+4,Pe cine iubește Ion cu adevărat?,Cu cine dansează Ion la horă?,0
+5,Cine îl insultă public pe Ion?,De către cine este insultat public Ion?,1
+6,Cine îl insultă public pe Ion?,Pe cine lovește Ion la cârciumă?,0
+7,Ce urmărește Ion prin căsătoria cu Ana?,Care este scopul căsătoriei lui Ion cu Ana?,1
+8,Ce urmărește Ion prin căsătoria cu Ana?,De ce Vasile Baciu îl preferă pe George?,0
+9,Ce câștigă Ion după ce îl lovește pe George?,Ce obține Ion în urma lovirii lui George?,1
+10,Ce câștigă Ion după ce îl lovește pe George?,Cu ce obiect îl lovește Ion pe George?,0

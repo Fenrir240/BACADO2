@@ -1,0 +1,5 @@
+{
+  "task": "summary",
+  "error_type": "ValueError",
+  "message": "Modelul nu declară suport pentru reasoning effort 'low'; valorile declarate sunt: ['xhigh', 'high']."
+}

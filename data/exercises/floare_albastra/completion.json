@@ -1,0 +1,56 @@
+{
+  "exercises": [
+    {
+      "id": "COMPL_01",
+      "title": "Nivel ușor: Identificare lexicală în incipitul cosmic",
+      "text": "Iar te-ai cufundat în ____ / Și în nori și-n ceruri ____? / De nu m-ai uita ____, / Sufletul vieții mele.",
+      "answers": [
+        "stele",
+        "nalte",
+        "încalte"
+      ],
+      "source_refs": [
+        "ST_01"
+      ]
+    },
+    {
+      "id": "COMPL_02",
+      "title": "Nivel mediu: Recunoaștere a vocabularului pastoral",
+      "text": "- Hai în codrul cu ____, / Und-izvoare ____ în vale, / Stânca stă să se ____ / În prăpastia măreață.",
+      "answers": [
+        "verdeață",
+        "plâng",
+        "prăvale"
+      ],
+      "source_refs": [
+        "ST_05"
+      ]
+    },
+    {
+      "id": "COMPL_03",
+      "title": "Nivel analitic: Interpretarea reacției eului liric",
+      "text": "Înc-o gură - și ____ / Ca un ____ eu stam în lună! / Ce frumoasă, ce nebună / E ____, dulce floare!",
+      "answers": [
+        "dispare...",
+        "stâlp",
+        "albastra-mi"
+      ],
+      "source_refs": [
+        "ST_13"
+      ]
+    },
+    {
+      "id": "COMPL_04",
+      "title": "Nivel aplicativ: Contextualizarea ritualului popular",
+      "text": "De mi-i da o ____, / Nime-n lume n-a s-o ____, / Căci va fi sub pălărie - / Ș-apoi cine ____ are!",
+      "answers": [
+        "sărutare",
+        "știe",
+        "treabă"
+      ],
+      "source_refs": [
+        "ST_09"
+      ]
+    }
+  ]
+}

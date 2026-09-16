@@ -1,0 +1,17 @@
+{
+  "benchmark_id": "ION-EXP1-QUESTIONS-V1",
+  "task": "question_generation",
+  "graph_version": "2.0",
+  "language": "ro",
+  "expected_question_count": 8,
+  "slots": [
+    {"slot_id": "SLOT_01", "blueprint_id": "FACT_1HOP", "difficulty": {"level": 1}},
+    {"slot_id": "SLOT_02", "blueprint_id": "RELATION_1HOP", "difficulty": {"level": 1}},
+    {"slot_id": "SLOT_03", "blueprint_id": "TEMPORAL_ORDER", "difficulty": {"level": 2}},
+    {"slot_id": "SLOT_04", "blueprint_id": "DIRECT_CAUSE", "difficulty": {"level": 2}},
+    {"slot_id": "SLOT_05", "blueprint_id": "DIRECT_EFFECT", "difficulty": {"level": 2}},
+    {"slot_id": "SLOT_06", "blueprint_id": "MULTIHOP_CAUSAL", "difficulty": {"level": 3}},
+    {"slot_id": "SLOT_07", "blueprint_id": "STATE_TRANSITION", "difficulty": {"level": 2}},
+    {"slot_id": "SLOT_08", "blueprint_id": "CROSS_CHAPTER_COMPARE", "difficulty": {"level": 3}}
+  ]
+}

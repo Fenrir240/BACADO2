@@ -1,0 +1,3 @@
+{"id":"rating-exemplu-1","question":"Cine este tatăl Anei?","context":"Vasile Baciu este tatăl Anei.","gold_answer":"Vasile Baciu","predicted_answer":"Vasile Baciu","score":5.0,"annotator_id":"exemplu-a"}
+{"id":"rating-exemplu-2","question":"Cine este tatăl Anei?","context":"Vasile Baciu este tatăl Anei.","gold_answer":"Vasile Baciu","predicted_answer":"George Bulbuc","score":1.0,"annotator_id":"exemplu-a"}
+

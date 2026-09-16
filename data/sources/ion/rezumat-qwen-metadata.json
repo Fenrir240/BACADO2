@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "work_id": "ion",
+  "generator": "qwen/qwen3.7-flash",
+  "source_run": "cercetare-qwen/rulari/qwen__qwen3.7-flash/run-20260820T230358Z",
+  "selection_policy": "first_attempt_regardless_of_validation",
+  "attempt": 1,
+  "chapter_count": 13,
+  "validated_chapter_count": 9,
+  "invalid_chapter_count": 4,
+  "invalid_chapter_ids": ["CH_02", "CH_08", "CH_09", "CH_11"]
+}

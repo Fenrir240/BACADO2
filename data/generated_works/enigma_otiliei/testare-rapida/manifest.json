@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "pipeline": "testare-rapida",
+  "status": "complete",
+  "generated_at_utc": "2026-08-22T14:08:01.111501+00:00",
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "input": {
+    "knowledge_graph": "data/generated_works/enigma_otiliei/knowledge-graph.json"
+  },
+  "project": {
+    "directory": "data/generated_works/enigma_otiliei/testare-rapida",
+    "questions_json": "data/generated_works/enigma_otiliei/testare-rapida/questions.json",
+    "questions_text": "data/generated_works/enigma_otiliei/testare-rapida/questions-by-category.txt",
+    "selection_history": "data/generated_works/enigma_otiliei/testare-rapida/selection-history.json"
+  },
+  "ui_artifacts": {
+    "flashcards": "data/flashcards/enigma_otiliei.json",
+    "multiple_choice": "data/exercises/enigma_otiliei/multiple_choice.json",
+    "chronology": "data/exercises/enigma_otiliei/chronology.json",
+    "completion": "data/exercises/enigma_otiliei/completion.json",
+    "matching": "data/exercises/enigma_otiliei/matching.json"
+  },
+  "counts": {
+    "flashcards": 87,
+    "multiple_choice": 48,
+    "chronology": 21,
+    "completion": 12,
+    "matching_sets": 9,
+    "matching_pairs": 45
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ion-knowledge-graph.schema.json",
+  "title": "Schema knowledge graph narativ Ion",
+  "type": "object",
+  "required": [
+    "metadata",
+    "sources",
+    "ontology",
+    "nodes",
+    "edges",
+    "chapters",
+    "reconstruction_profiles",
+    "validation"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_type",
+          "title"
+        ]
+      }
+    },
+    "ontology": {
+      "type": "object"
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 300,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "label",
+          "description",
+          "importance",
+          "confidence",
+          "assertion_type",
+          "source_refs",
+          "attributes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "Work",
+              "Author",
+              "Part",
+              "Chapter",
+              "NarrativeEvent",
+              "NarrativeSubevent",
+              "Character",
+              "CharacterState",
+              "NarrativeState",
+              "Decision",
+              "Motivation",
+              "Action",
+              "Consequence",
+              "Location",
+              "TimeContext",
+              "Object",
+              "Family",
+              "Institution",
+              "SocialGroup",
+              "Relationship",
+              "Conflict",
+              "Theme",
+              "Motif",
+              "Symbol",
+              "Value",
+              "Emotion",
+              "SocialStatus",
+              "NarrativePerspective",
+              "LiteraryTechnique",
+              "Evidence",
+              "SourceFragment",
+              "SourceDocument",
+              "OntologyClass"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "importance": {
+            "enum": [
+              "major",
+              "medium",
+              "supporting"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "assertion_type": {
+            "enum": [
+              "explicit_fact",
+              "explicit_motivation",
+              "inferred_motivation",
+              "literary_interpretation",
+              "symbolic_interpretation",
+              "uncertain"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "attributes": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "minItems": 900,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source",
+          "predicate",
+          "target",
+          "qualifiers",
+          "assertion_type",
+          "source_refs"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "predicate": {
+            "enum": [
+              "instance_of",
+              "subclass_of",
+              "created_by",
+              "part_of",
+              "has_part",
+              "has_chapter",
+              "chapter_of",
+              "occurs_in_chapter",
+              "occurs_at",
+              "occurs_before",
+              "occurs_after",
+              "immediately_precedes",
+              "immediately_follows",
+              "causes",
+              "contributes_to",
+              "enables",
+              "prevents",
+              "motivates",
+              "results_in",
+              "foreshadows",
+              "resolves",
+              "intensifies",
+              "contrasts_with",
+              "parallels",
+              "has_participant",
+              "participates_in",
+              "initiates",
+              "experiences",
+              "observes",
+              "discovers",
+              "communicates_to",
+              "hides_from",
+              "helps",
+              "opposes",
+              "manipulates",
+              "harms",
+              "protects",
+              "loves",
+              "desires",
+              "is_married_to",
+              "is_parent_of",
+              "is_child_of",
+              "is_rival_of",
+              "has_motivation",
+              "has_consequence",
+              "has_state_before",
+              "has_state_after",
+              "changes_state_of",
+              "gains",
+              "loses",
+              "believes",
+              "fears",
+              "decides",
+              "abandons_goal",
+              "adopts_goal",
+              "expresses_theme",
+              "expresses_motif",
+              "symbolizes",
+              "supported_by",
+              "derived_from_source",
+              "has_simple_verbalization",
+              "has_elevated_verbalization",
+              "has_opening_state",
+              "has_closing_state",
+              "documents",
+              "mentions",
+              "has_evidence"
+            ]
+          },
+          "target": {
+            "type": "string"
+          },
+          "qualifiers": {
+            "type": "object"
+          },
+          "assertion_type": {
+            "enum": [
+              "explicit_fact",
+              "explicit_motivation",
+              "inferred_motivation",
+              "literary_interpretation",
+              "symbolic_interpretation",
+              "uncertain"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "minItems": 13
+    },
+    "reconstruction_profiles": {
+      "type": "object"
+    },
+    "validation": {
+      "type": "object"
+    }
+  }
+}

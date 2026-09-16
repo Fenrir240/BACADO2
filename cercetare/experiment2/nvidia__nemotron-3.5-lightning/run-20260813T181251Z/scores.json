@@ -1,0 +1,338 @@
+{
+  "overall_score": 40.599,
+  "weights": {
+    "question_generation": 0.5,
+    "chapter_1_summary": 0.5
+  },
+  "question_generation": {
+    "task": "question_generation",
+    "score": 0.0,
+    "question_average": 0.0,
+    "set_coverage_score": 0.0,
+    "questions": [],
+    "errors": [
+      "Output JSON invalid: [Errno 13] Permission denied: '.'"
+    ]
+  },
+  "chapter_1_summary": {
+    "task": "chapter_summary_reconstruction",
+    "benchmark_id": "ION-EXP2-CH01-SUMMARY-V1",
+    "graph_version": "2.0",
+    "chapter_id": "CH_01",
+    "score": 81.198,
+    "raw_register_average": 81.198,
+    "cross_register_event_consistency": 1.0,
+    "cross_register_penalty": 0.0,
+    "registers": {
+      "simple": {
+        "register": "simple",
+        "score": 81.368,
+        "breakdown": {
+          "event_coverage": 30.0,
+          "claim_support": 21.875,
+          "event_order": 20.0,
+          "causal_retention": 0.0,
+          "evidence_discipline": 4.111,
+          "concision": 4.612,
+          "register": 5.0,
+          "style_profile_penalty": -4.23
+        },
+        "metrics": {
+          "event_coverage": 1.0,
+          "valid_claim_ratio": 0.875,
+          "event_order_accuracy": 1.0,
+          "causal_recall": 0.0,
+          "evidence_sentence_ratio": 0.778,
+          "actual_word_count": 144,
+          "average_sentence_length": 16.0,
+          "type_token_ratio": 0.708,
+          "trigram_repetition": 0.007
+        },
+        "used_event_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003",
+          "EV_004",
+          "EV_005",
+          "EV_006",
+          "EV_007",
+          "EV_008",
+          "EV_009",
+          "EV_010"
+        ],
+        "diagnostics": [
+          "Afirmatii invalide: 2 din 16.",
+          "Relatii cauzale declarate: 0 din 32 asteptate.",
+          "Propozitii cu dovezi integral valide: 7 din 9.",
+          "word_count declarat=287, recalculat=144.",
+          "Profil stilistic în afara marjei: discourse_connectors, filler_phrases, connector_repetition, connector_sentence_starts."
+        ],
+        "pre_style_score": 85.598,
+        "style_profile": {
+          "word_count": 144,
+          "sentence_count": 9,
+          "average_sentence_length": 16.0,
+          "sentence_lengths": [
+            14,
+            14,
+            17,
+            21,
+            15,
+            17,
+            15,
+            15,
+            16
+          ],
+          "discourse_connector_count": 7,
+          "discourse_connector_ratio": 0.048611,
+          "discourse_connectors": {
+            "apoi": 1,
+            "desi": 1,
+            "dupa aceea": 1,
+            "mai tarziu": 2,
+            "ulterior": 2
+          },
+          "connector_sentence_start_count": 6,
+          "connector_sentence_start_ratio": 0.666667,
+          "most_repeated_connector_count": 2,
+          "most_repeated_connector_per_200_words": 2.777778,
+          "filler_phrase_count": 2,
+          "filler_word_count": 4,
+          "filler_word_ratio": 0.027778,
+          "filler_phrases": {
+            "in continuare": 2
+          },
+          "conjunction_count": 9,
+          "conjunction_ratio": 0.0625,
+          "preposition_count": 22,
+          "preposition_ratio": 0.152778,
+          "character_name_token_count": 18,
+          "character_name_token_ratio": 0.125,
+          "mentioned_character_ids": [
+            "CHAR_001",
+            "CHAR_002",
+            "CHAR_003",
+            "CHAR_005",
+            "CHAR_017"
+          ]
+        },
+        "style_evaluation": {
+          "compliance": 0.576985,
+          "all_rules_passed": false,
+          "rules": {
+            "discourse_connectors": {
+              "metric": "discourse_connector_ratio",
+              "value": 0.048611,
+              "minimum": null,
+              "maximum": 0.035,
+              "weight": 0.3,
+              "passed": false,
+              "score": 0.611114
+            },
+            "filler_phrases": {
+              "metric": "filler_word_ratio",
+              "value": 0.027778,
+              "minimum": null,
+              "maximum": 0.006,
+              "weight": 0.25,
+              "passed": false,
+              "score": 0.0
+            },
+            "average_sentence_length": {
+              "metric": "average_sentence_length",
+              "value": 16.0,
+              "minimum": 14.0,
+              "maximum": 22.0,
+              "weight": 0.15,
+              "passed": true,
+              "score": 1.0
+            },
+            "character_visibility": {
+              "metric": "character_name_token_ratio",
+              "value": 0.125,
+              "minimum": 0.06,
+              "maximum": 0.16,
+              "weight": 0.15,
+              "passed": true,
+              "score": 1.0
+            },
+            "connector_repetition": {
+              "metric": "most_repeated_connector_per_200_words",
+              "value": 2.777778,
+              "minimum": null,
+              "maximum": 2.5,
+              "weight": 0.1,
+              "passed": false,
+              "score": 0.888889
+            },
+            "connector_sentence_starts": {
+              "metric": "connector_sentence_start_ratio",
+              "value": 0.666667,
+              "minimum": null,
+              "maximum": 0.35,
+              "weight": 0.05,
+              "passed": false,
+              "score": 0.095237
+            }
+          }
+        }
+      },
+      "elevated": {
+        "register": "elevated",
+        "score": 81.029,
+        "breakdown": {
+          "event_coverage": 30.0,
+          "claim_support": 21.875,
+          "event_order": 20.0,
+          "causal_retention": 0.0,
+          "evidence_discipline": 4.111,
+          "concision": 4.313,
+          "register": 3.778,
+          "style_profile_penalty": -3.048
+        },
+        "metrics": {
+          "event_coverage": 1.0,
+          "valid_claim_ratio": 0.875,
+          "event_order_accuracy": 1.0,
+          "causal_recall": 0.0,
+          "evidence_sentence_ratio": 0.778,
+          "actual_word_count": 155,
+          "average_sentence_length": 17.222,
+          "type_token_ratio": 0.684,
+          "trigram_repetition": 0.032
+        },
+        "used_event_ids": [
+          "EV_001",
+          "EV_002",
+          "EV_003",
+          "EV_004",
+          "EV_005",
+          "EV_006",
+          "EV_007",
+          "EV_008",
+          "EV_009",
+          "EV_010"
+        ],
+        "diagnostics": [
+          "Afirmatii invalide: 2 din 16.",
+          "Relatii cauzale declarate: 0 din 32 asteptate.",
+          "Propozitii cu dovezi integral valide: 7 din 9.",
+          "word_count declarat=324, recalculat=155.",
+          "Profil stilistic în afara marjei: filler_phrases, connector_repetition."
+        ],
+        "pre_style_score": 84.077,
+        "style_profile": {
+          "word_count": 155,
+          "sentence_count": 9,
+          "average_sentence_length": 17.222,
+          "sentence_lengths": [
+            15,
+            14,
+            19,
+            24,
+            16,
+            17,
+            18,
+            16,
+            16
+          ],
+          "discourse_connector_count": 4,
+          "discourse_connector_ratio": 0.025806,
+          "discourse_connectors": {
+            "desi": 1,
+            "ulterior": 3
+          },
+          "connector_sentence_start_count": 3,
+          "connector_sentence_start_ratio": 0.333333,
+          "most_repeated_connector_count": 3,
+          "most_repeated_connector_per_200_words": 3.870968,
+          "filler_phrase_count": 2,
+          "filler_word_count": 6,
+          "filler_word_ratio": 0.03871,
+          "filler_phrases": {
+            "in acest context": 2
+          },
+          "conjunction_count": 9,
+          "conjunction_ratio": 0.058065,
+          "preposition_count": 24,
+          "preposition_ratio": 0.154839,
+          "character_name_token_count": 18,
+          "character_name_token_ratio": 0.116129,
+          "mentioned_character_ids": [
+            "CHAR_001",
+            "CHAR_002",
+            "CHAR_003",
+            "CHAR_005",
+            "CHAR_017"
+          ]
+        },
+        "style_evaluation": {
+          "compliance": 0.695161,
+          "all_rules_passed": false,
+          "rules": {
+            "discourse_connectors": {
+              "metric": "discourse_connector_ratio",
+              "value": 0.025806,
+              "minimum": null,
+              "maximum": 0.035,
+              "weight": 0.3,
+              "passed": true,
+              "score": 1.0
+            },
+            "filler_phrases": {
+              "metric": "filler_word_ratio",
+              "value": 0.03871,
+              "minimum": null,
+              "maximum": 0.006,
+              "weight": 0.25,
+              "passed": false,
+              "score": 0.0
+            },
+            "average_sentence_length": {
+              "metric": "average_sentence_length",
+              "value": 17.222,
+              "minimum": 14.0,
+              "maximum": 22.0,
+              "weight": 0.15,
+              "passed": true,
+              "score": 1.0
+            },
+            "character_visibility": {
+              "metric": "character_name_token_ratio",
+              "value": 0.116129,
+              "minimum": 0.06,
+              "maximum": 0.16,
+              "weight": 0.15,
+              "passed": true,
+              "score": 1.0
+            },
+            "connector_repetition": {
+              "metric": "most_repeated_connector_per_200_words",
+              "value": 3.870968,
+              "minimum": null,
+              "maximum": 2.5,
+              "weight": 0.1,
+              "passed": false,
+              "score": 0.451613
+            },
+            "connector_sentence_starts": {
+              "metric": "connector_sentence_start_ratio",
+              "value": 0.333333,
+              "minimum": null,
+              "maximum": 0.35,
+              "weight": 0.05,
+              "passed": true,
+              "score": 1.0
+            }
+          }
+        }
+      }
+    },
+    "errors": [],
+    "style_profile_id": "ION-EXP2-CH01-STYLE-V1",
+    "style_penalty_policy": {
+      "max_penalty_per_register": 10.0,
+      "calculation": "max_penalty * (1 - weighted_profile_compliance)"
+    }
+  }
+}

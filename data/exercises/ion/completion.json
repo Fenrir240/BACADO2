@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "work_id": "ion",
+  "exercise_type": "completion",
+  "source": {
+    "question_bank": "cercetare-qwen/toate-intrebarile.json",
+    "knowledge_graph": "cercetare/graf2/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.5-flash-02-23",
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "SIMPLE_FACT_LOWHOP",
+    "CHARACTER_RELATION",
+    "NARRATIVE_ACTION"
+  ],
+  "exercise_count": 12,
+  "exercises": [
+    {
+      "id": "CLOZE-e0c499853da8e927",
+      "text": "1. La întrebarea „Care este titlul celui de-al treilea capitol al romanului Ion?”, răspunsul corect este ____.\n2. La întrebarea „Cine este soțul Floricăi, rivalul lui Ion în lupta pentru pământ și iubire?”, răspunsul corect este ____.\n3. Ion îl lovește pe ____ cu un par.",
+      "answers": [
+        "Capitolul III - Iubirea",
+        "George Bulbuc",
+        "George"
+      ],
+      "prompts": [
+        "Care este titlul celui de-al treilea capitol al romanului Ion",
+        "Cine este soțul Floricăi, rivalul lui Ion în lupta pentru pământ și iubire",
+        "Cine îl lovește pe George Bulbuc cu un par în timpul confruntării de la cârciumă"
+      ],
+      "source_question_ids": [
+        "run-20260818T204220Z::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260818T204220Z::CHARACTER_RELATION::REL_01",
+        "run-20260818T204220Z::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-8e839dedea779a47",
+      "text": "1. La întrebarea „Cine este participantul principal la evenimentul în care Ana se spânzură?”, răspunsul corect este ____.\n2. ____ este tatăl Anei.\n3. ____ pătrunde noaptea în curte.",
+      "answers": [
+        "Ana",
+        "Vasile Baciu",
+        "Ion"
+      ],
+      "prompts": [
+        "Cine este participantul principal la evenimentul în care Ana se spânzură",
+        "Care este relația de sânge dintre Ana și Vasile Baciu, care o forțează pe ea să se căsătorească cu Ion",
+        "Ce acțiune fizică realizează Ion în curtea lui George pentru a ajunge la Florica"
+      ],
+      "source_question_ids": [
+        "run-20260818T204220Z::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260818T204220Z::CHARACTER_RELATION::REL_02",
+        "run-20260818T204220Z::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-c8538c87294cc569",
+      "text": "1. ____ aplică mai multe lovituri, iar rănile îi provoacă moartea lui Ion.\n2. La întrebarea „De ce îl consideră Ion pe George Bulbuc un inamic direct în romanul Ion?”, răspunsul corect este ____.\n3. ____ se spânzură.",
+      "answers": [
+        "George",
+        "Pentru că sunt rivali în lupta pentru pământuri și pentru iubirea Floricăi.",
+        "Ana"
+      ],
+      "prompts": [
+        "Ce acțiune specifică descrie evenimentul în care George îl lovește pe Ion cu sapa",
+        "De ce îl consideră Ion pe George Bulbuc un inamic direct în romanul Ion",
+        "Ce eveniment se produce în grajdul familiei Baciu în Capitolul X"
+      ],
+      "source_question_ids": [
+        "run-20260818T204220Z::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260818T204220Z::CHARACTER_RELATION::REL_03",
+        "run-20260818T204220Z::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-7497d7f4f557ec4b",
+      "text": "1. La întrebarea „În ce loc se petrece evenimentul în care Ion aude glasul pământului?”, răspunsul corect este ____.\n2. ____ este căsătorit cu Ana.\n3. La întrebarea „Cine realizează acțiunea de a bănui că învățătorul Herdelea îi subminează autoritatea în sat?”, răspunsul corect este ____.",
+      "answers": [
+        "Hotarul și câmpul",
+        "Ion al Glanetașului",
+        "Preotul Belciug"
+      ],
+      "prompts": [
+        "În ce loc se petrece evenimentul în care Ion aude glasul pământului",
+        "Care este relația matrimonială dintre Ion al Glanetașului și Ana",
+        "Cine realizează acțiunea de a bănui că învățătorul Herdelea îi subminează autoritatea în sat"
+      ],
+      "source_question_ids": [
+        "run-20260820T212156Z::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260820T212156Z::CHARACTER_RELATION::REL_01",
+        "run-20260820T212156Z::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-0ccaec98be202bf4",
+      "text": "1. La întrebarea „Cine este celălalt participant la condamnarea alături de Ion în Capitolul VIII?”, răspunsul corect este ____.\n2. ____ îl iubește pe Ion.\n3. Laura este cununată cu ____ și pleacă împreună după nuntă.",
+      "answers": [
+        "Zaharia Herdelea",
+        "Ana",
+        "George Pintea"
+      ],
+      "prompts": [
+        "Cine este celălalt participant la condamnarea alături de Ion în Capitolul VIII",
+        "Cine o iubește pe Ion în timpul evenimentului din Capitolul I",
+        "Ce face Laura într-un context precis al nunții din Armadia"
+      ],
+      "source_question_ids": [
+        "run-20260820T212156Z::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260820T212156Z::CHARACTER_RELATION::REL_02",
+        "run-20260820T212156Z::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-3788294d1537922f",
+      "text": "1. La întrebarea „Unde are loc transcrierea averii lui Ion pe numele bisericii?”, răspunsul corect este ____.\n2. ____ este rivalul lui George Bulbuc.\n3. ____ se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă.",
+      "answers": [
+        "Armadia",
+        "Ion al Glanetașului",
+        "Ion"
+      ],
+      "prompts": [
+        "Unde are loc transcrierea averii lui Ion pe numele bisericii",
+        "Ce tip de rivalitate există între Ion al Glanetașului și George Bulbuc",
+        "Ce eveniment se produce în Casa și curtea lui George în Capitolul XIII"
+      ],
+      "source_question_ids": [
+        "run-20260820T212156Z::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260820T212156Z::CHARACTER_RELATION::REL_03",
+        "run-20260820T212156Z::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-548d587e2093c8d4",
+      "text": "1. La întrebarea „Care este locul exact în care Ion simte chemarea pământului?”, răspunsul corect este ____.\n2. Ion și ____ sunt soți, iar nunta lor se desfășoară în Capitolul VI.\n3. La întrebarea „Cine bănuiește că învățătorul Herdelea îi subminează autoritatea în sat?”, răspunsul corect este ____.",
+      "answers": [
+        "Hotarul și câmpul",
+        "Ana",
+        "Preotul Belciug"
+      ],
+      "prompts": [
+        "Care este locul exact în care Ion simte chemarea pământului",
+        "Prin ce eveniment oficial s-au unit Ion și Ana în căsnicie",
+        "Cine bănuiește că învățătorul Herdelea îi subminează autoritatea în sat"
+      ],
+      "source_question_ids": [
+        "run-20260820T214438Z::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260820T214438Z::CHARACTER_RELATION::REL_01",
+        "run-20260820T214438Z::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-10bb16aab7a88e91",
+      "text": "1. La întrebarea „Care este numele învățătorului condamnat alături de Ion la tribunal?”, răspunsul corect este ____.\n2. Ana îl iubește pe Ion, deși el cântărește între ea și ____.\n3. Este cununată cu ____ la Armadia și pleacă împreună",
+      "answers": [
+        "Zaharia Herdelea",
+        "Florica",
+        "George Pintea"
+      ],
+      "prompts": [
+        "Care este numele învățătorului condamnat alături de Ion la tribunal",
+        "Ce sentiment manifestă Ana față de Ion în timpul cumpănii sale din primul capitol",
+        "Ce realizează Laura Herdelea în timpul ceremoniei de nuntă din Capitolul VI"
+      ],
+      "source_question_ids": [
+        "run-20260820T214438Z::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260820T214438Z::CHARACTER_RELATION::REL_02",
+        "run-20260820T214438Z::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-526d7a62b03bc236",
+      "text": "1. La întrebarea „În ce localitate are loc transcrierea averii lui Ion pe numele bisericii?”, răspunsul corect este ____.\n2. Cei doi sunt rivali declarați, situație care se accentuează după avertismentul lui ____.\n3. ____ se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă",
+      "answers": [
+        "Armadia",
+        "Savista",
+        "Ion"
+      ],
+      "prompts": [
+        "În ce localitate are loc transcrierea averii lui Ion pe numele bisericii",
+        "Cum se definește conflictul dintre Ion și George Bulbuc în al doilea volum",
+        "Ce eveniment se petrece în Casa lui George în Capitolul XIII"
+      ],
+      "source_question_ids": [
+        "run-20260820T214438Z::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260820T214438Z::CHARACTER_RELATION::REL_03",
+        "run-20260820T214438Z::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-e4162679bdbcd4f3",
+      "text": "1. La întrebarea „În care capitol se desfășoară evenimentul în care Vasile Baciu încearcă să apropie fiica sa de George Bulbuc?”, răspunsul corect este ____.\n2. La întrebarea „Care este legătura conjugală dintre Ion și Ana în timpul evenimentelor din Capitolul IX?”, răspunsul corect este ____.\n3. Ion îl lovește pe ____ cu un par.",
+      "answers": [
+        "Capitulul IV - Noaptea",
+        "Sunt căsătoriți.",
+        "George Bulbuc"
+      ],
+      "prompts": [
+        "În care capitol se desfășoară evenimentul în care Vasile Baciu încearcă să apropie fiica sa de George Bulbuc",
+        "Care este legătura conjugală dintre Ion și Ana în timpul evenimentelor din Capitolul IX",
+        "Cine îl lovește pe George Bulbuc cu un par la cârciuma lui Avrum"
+      ],
+      "source_question_ids": [
+        "run-20260821T114436Z::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+        "run-20260821T114436Z::CHARACTER_RELATION::REL_01",
+        "run-20260821T114436Z::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-80564e214f77479d",
+      "text": "1. La întrebarea „Care este personajul care hotărăște să cedeze averea pentru a încheia conflictul cu Ion al Glanetașului?”, răspunsul corect este ____.\n2. La întrebarea „Ce sentiment nutrește Ana față de Ion în contextul suferinței sale descrise în Capitolul VII?”, răspunsul corect este ____.\n3. ____ îi spune că tot pământul este acum al lui.",
+      "answers": [
+        "Vasile Baciu",
+        "Îl iubește.",
+        "Ion"
+      ],
+      "prompts": [
+        "Care este personajul care hotărăște să cedeze averea pentru a încheia conflictul cu Ion al Glanetașului",
+        "Ce sentiment nutrește Ana față de Ion în contextul suferinței sale descrise în Capitolul VII",
+        "Ce îi comunică Ion lui Titu Herdelea în hotarul satului după obținerea pământurilor"
+      ],
+      "source_question_ids": [
+        "run-20260821T114436Z::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+        "run-20260821T114436Z::CHARACTER_RELATION::REL_02",
+        "run-20260821T114436Z::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "CLOZE-88a281f54b6c0159",
+      "text": "1. La întrebarea „În ce sat principal are loc evenimentul morții copilului lui Ion?”, răspunsul corect este ____.\n2. La întrebarea „Ce tip de conflict social și erotic leagă pe Ion de George Bulbuc în prima parte a romanului?”, răspunsul corect este ____.\n3. ____ își pune capăt vieții prin spânzurare.",
+      "answers": [
+        "Pripas",
+        "Sunt rivali.",
+        "Ana"
+      ],
+      "prompts": [
+        "În ce sat principal are loc evenimentul morții copilului lui Ion",
+        "Ce tip de conflict social și erotic leagă pe Ion de George Bulbuc în prima parte a romanului",
+        "Ce eveniment tragic are loc în grajdul casei Baciu în Capitolul X"
+      ],
+      "source_question_ids": [
+        "run-20260821T114436Z::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+        "run-20260821T114436Z::CHARACTER_RELATION::REL_03",
+        "run-20260821T114436Z::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "SIMPLE_FACT_LOWHOP",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    }
+  ]
+}

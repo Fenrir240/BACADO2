@@ -1,0 +1,99 @@
+{
+  "work_id": "floare_albastra",
+  "characters": [
+    {
+      "id": "VOICE_FEMININE",
+      "name": "Vocea feminină",
+      "category": "major",
+      "role": "Ipostaza omului comun, cald, ancorat în viața concretă.",
+      "personality": "Ipostaza omului comun, cald, ancorat în viața concretă.",
+      "physical_description": "Instanță lirică definită prin discurs și atitudine, nu personaj epic descris fizic."
+    },
+    {
+      "id": "VOICE_MASCULINE",
+      "name": "Vocea masculină",
+      "category": "major",
+      "role": "Ipostaza eului reflexiv, atras de infinitul cunoașterii.",
+      "personality": "Ipostaza eului reflexiv, atras de infinitul cunoașterii.",
+      "physical_description": "Instanță lirică definită prin discurs și atitudine, nu personaj epic descris fizic."
+    }
+  ],
+  "groups": [
+    {
+      "id": "voices",
+      "name": "Instanțele Comunicării Lirice",
+      "character_ids": [
+        "VOICE_FEMININE",
+        "VOICE_MASCULINE"
+      ]
+    }
+  ],
+  "tree_layout": {},
+  "relation_graph": {
+    "central_node_id": "VOICE_FEMININE",
+    "nodes": {
+      "VOICE_FEMININE": {
+        "label": "Vocea feminină",
+        "group": "voice",
+        "x": 250,
+        "y": 90
+      },
+      "VOICE_MASCULINE": {
+        "label": "Vocea masculină",
+        "group": "voice",
+        "x": 730,
+        "y": 90
+      },
+      "PLANE_COSMIC": {
+        "label": "Planul cosmic / abstract",
+        "group": "plane",
+        "x": 130,
+        "y": 340
+      },
+      "PLANE_TERRESTRIAL": {
+        "label": "Planul terestru / uman",
+        "group": "plane",
+        "x": 370,
+        "y": 340
+      },
+      "PLANE_MEDITATIVE": {
+        "label": "Planul reflexiv / interior",
+        "group": "plane",
+        "x": 610,
+        "y": 340
+      },
+      "PLANE_ELEGIAC": {
+        "label": "Planul elegiac / al rememorării",
+        "group": "plane",
+        "x": 850,
+        "y": 340
+      }
+    },
+    "edges": [
+      {
+        "source": "VOICE_FEMININE",
+        "target": "PLANE_COSMIC",
+        "title": "Tabloul I — Monologul fetei și reproșul cunoașterii abstracte",
+        "text": "Secvența inițială configurează primul monolog al instanței feminine, care denunță tentația geniului de a evada în sferele cunoașterii absolute și ale cosmogoniei reci, avertizându-l asupra caracterului iluzoriu al fericirii abstracte prin antiteza dintre depărtările depersonalizante și căldura afectivă a existenței terestre."
+      },
+      {
+        "source": "VOICE_MASCULINE",
+        "target": "PLANE_MEDITATIVE",
+        "title": "Tabloul II — Monologul interior al geniului și conștientizarea distanței",
+        "text": "Cea de-a doua secvență lirică introduce replica meditativă a instanței masculine; deși geniul recunoaște intuitiv adevărul fetei («Ah! ea spuse adevărul»), reacționează prin detașare ironică și tăcere contemplativă («Eu am râs, n-am zis nimica»), marcând incompatibilitatea structurală dintre absolutul cunoașterii și trăirea imediată."
+      },
+      {
+        "source": "VOICE_FEMININE",
+        "target": "PLANE_TERRESTRIAL",
+        "title": "Tabloul III — Al doilea monolog al fetei și scenariul idilei în natură",
+        "text": "Secvența a treia dezvoltă ritualul erotic pastoral proiectat într-o natură paradisiacă, cu funcție ocrotitoare și complice (codrul, izvoarele, balta, trestia, luna). Idila se desfășoară gradat prin gesturi de tandrețe rustică, joc oracular («pe-un fir de romaniță») și senzualitate ingenuă, culminând cu întoarcerea spre sat, unde pragul porții prefigurează limita fragilă a fericirii omenești."
+      },
+      {
+        "source": "VOICE_MASCULINE",
+        "target": "PLANE_ELEGIAC",
+        "title": "Tabloul IV — Meditația elegiacă finală și conștiința ireversibilității",
+        "text": "Secvența concluzivă deplasează discursul liric în registrul elegiei filozofice. Rememorarea iubirii apuse generează o profundă criză existențială, marcată de trecerea la timpul trecut («te-ai dus», «a murit»), de pauza meditativă a suspensiei și de exclamația patetică a motivului central («Floare-albastră! floare-albastră!...»), culminând cu aforismul resemnării universale: «Totuși este trist în lume!»."
+      }
+    ]
+  }
+}

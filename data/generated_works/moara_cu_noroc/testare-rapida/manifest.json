@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "pipeline": "testare-rapida",
+  "status": "complete",
+  "generated_at_utc": "2026-08-22T20:06:57.512781+00:00",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "input": {
+    "knowledge_graph": "data/generated_works/moara_cu_noroc/knowledge-graph.json"
+  },
+  "project": {
+    "directory": "data/generated_works/moara_cu_noroc/testare-rapida",
+    "questions_json": "data/generated_works/moara_cu_noroc/testare-rapida/questions.json",
+    "questions_text": "data/generated_works/moara_cu_noroc/testare-rapida/questions-by-category.txt",
+    "selection_history": "data/generated_works/moara_cu_noroc/testare-rapida/selection-history.json"
+  },
+  "ui_artifacts": {
+    "flashcards": "data/flashcards/moara_cu_noroc.json",
+    "multiple_choice": "data/exercises/moara_cu_noroc/multiple_choice.json",
+    "chronology": "data/exercises/moara_cu_noroc/chronology.json",
+    "completion": "data/exercises/moara_cu_noroc/completion.json",
+    "matching": "data/exercises/moara_cu_noroc/matching.json"
+  },
+  "counts": {
+    "flashcards": 93,
+    "multiple_choice": 48,
+    "chronology": 21,
+    "completion": 12,
+    "matching_sets": 10,
+    "matching_pairs": 48
+  }
+}

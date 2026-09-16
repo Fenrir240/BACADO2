@@ -1,0 +1,10 @@
+{
+  "benchmark_id": "ION-EXP1-CH01-SUMMARY-V1",
+  "task": "chapter_summary_reconstruction",
+  "graph_version": "2.0",
+  "chapter_id": "CH_01",
+  "language": "ro",
+  "required_registers": ["simple", "elevated"],
+  "simple_word_range": [180, 300],
+  "elevated_word_range": [220, 350]
+}

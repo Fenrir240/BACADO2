@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "generation": {
+    "method": "model_essay_scene_matching_and_verbatim_pdf_extraction",
+    "locked_from_regeneration": true,
+    "selection_basis": "modele_eseuri/enigma_otiliei.md",
+    "text_generated_by_ai": false,
+    "source_pdf": "opere_pdf/enigma-otiliei.pdf",
+    "source_graph": "data/generated_works/enigma_otiliei/knowledge-graph.json"
+  },
+  "sequences": [
+    {
+      "id": "secventa_1_marturisirea_iubirii_si_intalnirea_de_la_baneasa",
+      "button_label": "Secvența 1",
+      "title": "Mărturisirea iubirii și întâlnirea de la Băneasa",
+      "chapter_id": "CH_08",
+      "chapter": "Capitolul 8",
+      "source": "Text verbatim din opera integrală · paginile PDF 125–126",
+      "pdf_pages": [125, 126],
+      "text": "Chinul lui Felix crescu cu trecerea zilelor, fiindcă răceala Otiliei, dacă ea era pricina, era definitivă, iar circulația scrisorii nu mai putea fi urmărită. În ziua când orice speranță păru pierdută, Felix fu atât de mâhnit, încât uită să se mai întoarcă acasă la prânz. Îl cuprinse o frenezie nebună de a umbla singur și merse pe jos, în frig, până la Băneasa. Vibra de amărăciunea de a fi înțeles și căuta înverșunat în minte o hotărâre care să fie pentru Otilia un adio sublim. Obosit, la întoarcere se așeză pe o bancă încărcată de zăpadă, și n-auzi nici huruitul unei trăsuri, nici scârțâitul unor pași. Îl deșteptă din toropeală o mână subțire care-i ridica bărbia în sus. Era Otilia.\n\n— Felix, ce faci tu aici? De când te caut cu trăsura! Vai, ce fără minte ești, câte supărări îmi faci!\n\nOtilia se lăsă pe banca înzăpezită, într-o descurajare amuzată. Era îmbrăcată într-o haină foarte pe talie, de astrahan, pe care Felix n-o mai văzuse.\n\n— Și mai spui că mă iubești!\n\nFelix tresări. Va să zică, Otilia citise scrisoarea. Fata îi ridică din nou bărbia, râzând:\n\n— Felix, hai, spune-mi, de ce-ai fugit de-acasă? Ți-am făcut noi ceva?\n\nFelix lăsă din nou capul în jos și răspunse, sfărâmat:\n\n— Dar știi foarte bine... ți-am scris... nu mai pot așa.\n\n— Tu mă iubești? îl întrebă Otilia serioasă ca și când l-ar fi întrebat dacă e bolnav.\n\nFelix mărturisi cu capul.\n\n— Ce copil ești! Ți-am citit scrisoarea, dar am uitat, știi că sunt o zăpăcită. De ce să fugi? Ți-am spus eu că nu te iubesc?\n\nFelix tresări deodată înfocat.\n\n— Otilia, e adevărat? Mă iubești?\n\n— Ei, ei, nu ți-a spus nimeni că te urăște.\n\nFelix fu iar dezamăgit. Luă mâinile Otiliei și începu să le sărute mărunt, și le așeză pe obraz, le strânse, în vreme ce Otilia îl lăsă să facă, zâmbind. Încurajat, voi să capete o confirmare de altă natură și întinse gâtul să sărute pe Otilia. Aceasta privi puțin, examinând șoseaua pustie, apoi evitând, blând, gestul lui Felix, îl sărută ea însăși pe obraz, ușor, lângă ureche. Felix era amețit de fericire.\n\n— Haide acasă, Felix, și fii cuminte, mai vorbim noi, altădată. Bietul papa e îngrijorat. Să nu-i spui nimic. O să-l mințim că ai avut lucrări la Universitate.",
+      "event_ids": ["EV_058"],
+      "source_mode": "verbatim_pdf_excerpt"
+    },
+    {
+      "id": "secventa_2_ultima_noapte_si_sacrificiul_otiliei",
+      "button_label": "Secvența 2",
+      "title": "Ultima noapte și sacrificiul Otiliei",
+      "chapter_id": "CH_20",
+      "chapter": "Capitolul 20",
+      "source": "Text verbatim din opera integrală · paginile PDF 482–484",
+      "pdf_pages": [482, 483, 484],
+      "text": "Otilia risipise într-atât lucrurile ei, încât odaia rămăsese aproape goală și nu se putea închipui că va mai putea sta mult, în astfel de condiții. Își strânsese lucrurile în două geamantane și alergă toată ziua prin oraș. Lui Felix îi lămurea că nu mai voia să stea multă vreme acolo, sub ochii Aglaei, care avea aerul că o ține de milă. Îl întrebă și pe el ce are de gând să facă.\n\n— Dar asta, Otilia, depinde de tine. Dacă zici că mă iubești, atunci tu îmi vei spune ce să fac. Dacă nu...\n\n— Ai dreptate! Te iubesc, nu te îndoi. Voi decide eu ce e de făcut.\n\nAfară era primăvară timpurie, și zăpezile se topiseră inundând totul. Vrăbiile se lăsau în bandă să culeagă ceea ce găseau după moină. Un fior de energie trecea prin trupul lui Felix. Într-o seară de la începutul lui martie, Felix stătu până târziu, citind. Auzea alături pași în odaie, zgomot de lucruri mișcate. Apoi totul se potoli și i se păru chiar că ghicește stingerea lămpii. Târziu de tot, spre miezul nopții, auzi o scârțâitură a ușii de alături, pași ușori de picioare goale care merseră până în dreptul ușii lui.\n\n— Felix, se auzi glasul șoptit al Otiliei, tu dormi?\n\n— Nu!\n\n— Stinge lampa.\n\nCu sentimentul unui lucru neașteptat, Felix suflă pe deasupra sticlei. Ușa se deschise și se-nchise la loc, și în slaba lumină aruncată de flacăra din sobă tânărul zări pe Otilia, cu picioarele goale, în cămașa ei lungă de noapte. Părea o păpușă mărită. Toată convorbirea se urmă mai în șoaptă.\n\n— Dragă Felix, m-am gândit foarte bine, bine de tot. În interesul meu și al tău, acum nu ne putem căsători.\n\nDezolarea lui Felix se simți în întuneric, în destinderea mușchilor. Otilia îl strânse tare de gât, apropiindu-se de el.\n\n— Nu ne putem căsători acum, am zis, dar mai pe urmă, da. Ca să-ți dau o dovadă că te iubesc, am venit la tine. Putem fi bărbat și soție și fără binecuvântarea lui popa Țuică.\n\nFelix o luă în brațe (era foarte ușoară), o înăbuși în sărutări, primite fără împotrivire, apoi se așeză pe fotoliu, cu fața la pieptul ei:\n\n— Otilia, șopti el, solemn, m-am încredințat. Ceea ce faci tu acum, numai o fată cu suflet fin putea să facă. Iartă-mă că am pus la îndoială dragostea ta și bunele tale intenții. Nu, nu trebuie să mă lași tu să fiu nedelicat. De acum încolo cred că vei fi odată soția mea și te voi aștepta oricând.\n\nOtilia îl sărută o dată, apăsat, apoi sări în picioare.\n\n— Știi ce? Vreau cel puțin, dacă tu ești atât de leal, să dorm noaptea asta la tine. Să văd cum e în patul unui băiat.\n\nSe aruncă în patul lui Felix, ghemuindu-și picioarele subțiri în poalele cămășii, și tânărul o înveli bine și apoi merse el însuși și se-ntinse pe o canapea mică, lângă sobă.\n\n— Otilia, șopti el, în chip de „noapte bună“, sunt foarte fericit. Noaptea asta e solemnă în existența mea.\n\nDimineața Felix se sculă sprinten și privi spre pat. Plapuma forma un cuib gol. Tânărul își închipui că Otilia a trecut în camera ei, se spălă repede pe față, cântând, se pieptănă și ieși în geamlâc, să bată la ușa fetei.\n\n— Otilio, Otilio?\n\nNu răspunse nimeni. Trase clanța și văzu că ușa se deschide. Înăuntru nu era nimeni, odaia aproape goală, geamantanele lipseau. Felix alergă ca un nebun pe scări, căută prin toate odăile și o descoperi pe Marina în bucătărie:\n\n— Unde e domnișoara Otilia?\n\n— Păi, nu știi? A plecat din zori, cu trăsura, cu geamantane cu tot. S-a dus unde-o fi urma ei.\n\nMultă vreme Felix stătu într-o prostrație totală, apoi, venindu-și puțin în fire, simți nevoia să alerge, colindă străzile și Șoseaua, și, în sfârșit, se hotărî să meargă la Pascalopol. Acolo află că moșierul era plecat la Paris cu „domnișoara“. Peste două săptămâni primi o carte poștală ilustrată cu aceste rânduri:\n\n„Cine a fost în stare de atâta stăpânire, e capabil să învingă și o dragoste nepotrivită pentru marele lui viitor.\nOtilia“\n\nDe atunci Felix n-o mai văzu niciodată pe Otilia. Află numai că se căsătorise cu Pascalopol, pe care-l urî din nou.",
+      "event_ids": ["EV_157", "EV_158"],
+      "source_mode": "verbatim_pdf_excerpt"
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "diagnostic_only": false,
+    "all_text_is_verbatim": true,
+    "matched_to_model_essay": true,
+    "visually_checked_pdf_pages": [125, 126, 482, 483, 484]
+  }
+}

@@ -1,0 +1,1441 @@
+{
+  "schema_version": 1,
+  "work_id": "moara_cu_noroc",
+  "last_batch_number": 4,
+  "selected_event_ids": [
+    "EV_001",
+    "EV_005",
+    "EV_006",
+    "EV_010",
+    "EV_016",
+    "EV_019",
+    "EV_021",
+    "EV_024",
+    "EV_026",
+    "EV_029",
+    "EV_031",
+    "EV_035",
+    "EV_037",
+    "EV_038",
+    "EV_039",
+    "EV_040",
+    "EV_041",
+    "EV_042",
+    "EV_051",
+    "EV_055",
+    "EV_057",
+    "EV_058",
+    "EV_059",
+    "EV_060",
+    "EV_061",
+    "EV_064",
+    "EV_067",
+    "EV_069",
+    "EV_070",
+    "EV_071",
+    "EV_072",
+    "EV_075",
+    "EV_077",
+    "EV_078",
+    "EV_081",
+    "EV_082",
+    "EV_083",
+    "EV_084",
+    "EV_085",
+    "EV_089",
+    "EV_091",
+    "EV_097",
+    "EV_100",
+    "EV_101",
+    "EV_104",
+    "EV_105",
+    "EV_114",
+    "EV_115",
+    "EV_120",
+    "EV_121",
+    "EV_122",
+    "EV_123",
+    "EV_134",
+    "EV_135",
+    "EV_141",
+    "EV_147",
+    "EV_153",
+    "EV_157",
+    "EV_161",
+    "EV_162",
+    "EV_163",
+    "EV_164",
+    "EV_166",
+    "EV_170"
+  ],
+  "focus_event_ids_by_category": {
+    "SIMPLE_FACT_LOWHOP": [
+      "EV_001",
+      "EV_005",
+      "EV_006",
+      "EV_010",
+      "EV_057",
+      "EV_058",
+      "EV_059",
+      "EV_060",
+      "EV_114",
+      "EV_115",
+      "EV_120",
+      "EV_121"
+    ],
+    "CHARACTER_RELATION": [
+      "EV_006",
+      "EV_019",
+      "EV_024",
+      "EV_026",
+      "EV_029",
+      "EV_037",
+      "EV_038",
+      "EV_040",
+      "EV_042",
+      "EV_064",
+      "EV_067",
+      "EV_072"
+    ],
+    "NARRATIVE_ACTION": [
+      "EV_005",
+      "EV_006",
+      "EV_010",
+      "EV_016",
+      "EV_058",
+      "EV_059",
+      "EV_060",
+      "EV_061",
+      "EV_115",
+      "EV_120",
+      "EV_121",
+      "EV_122"
+    ],
+    "TEMPORAL_ORDER": [
+      "EV_026",
+      "EV_031",
+      "EV_039",
+      "EV_041",
+      "EV_051",
+      "EV_061",
+      "EV_064",
+      "EV_070",
+      "EV_083",
+      "EV_089",
+      "EV_105",
+      "EV_161"
+    ],
+    "CAUSE_EFFECT": [
+      "EV_001",
+      "EV_005",
+      "EV_006",
+      "EV_010",
+      "EV_021",
+      "EV_041",
+      "EV_061",
+      "EV_081",
+      "EV_101",
+      "EV_121",
+      "EV_141",
+      "EV_161"
+    ],
+    "CHARACTER_EVOLUTION": [
+      "EV_055",
+      "EV_071",
+      "EV_072",
+      "EV_075",
+      "EV_077",
+      "EV_078",
+      "EV_091",
+      "EV_097",
+      "EV_100",
+      "EV_105",
+      "EV_115",
+      "EV_147"
+    ],
+    "LITERARY_INTERPRETATION": [
+      "EV_035",
+      "EV_057",
+      "EV_061",
+      "EV_069",
+      "EV_081",
+      "EV_082",
+      "EV_084",
+      "EV_085",
+      "EV_091",
+      "EV_100",
+      "EV_101",
+      "EV_104"
+    ],
+    "CROSS_CHAPTER_COMPARE": [
+      "EV_122",
+      "EV_123",
+      "EV_134",
+      "EV_135",
+      "EV_153",
+      "EV_157",
+      "EV_161",
+      "EV_162",
+      "EV_163",
+      "EV_164",
+      "EV_166",
+      "EV_170"
+    ]
+  },
+  "batches": [
+    {
+      "batch_number": 1,
+      "run_id": "run-20260822T190825824822Z-b001",
+      "reserved_at_utc": "2026-08-22T19:08:26.096576+00:00",
+      "algorithm_version": "question-packet-selection-v3-history",
+      "focus_event_count": 20,
+      "focus_event_ids": [
+        "EV_001",
+        "EV_005",
+        "EV_006",
+        "EV_019",
+        "EV_021",
+        "EV_024",
+        "EV_041",
+        "EV_051",
+        "EV_057",
+        "EV_058",
+        "EV_061",
+        "EV_072",
+        "EV_081",
+        "EV_091",
+        "EV_105",
+        "EV_114",
+        "EV_115",
+        "EV_134",
+        "EV_161",
+        "EV_166"
+      ],
+      "focus_event_ids_by_category": {
+        "SIMPLE_FACT_LOWHOP": [
+          "EV_001",
+          "EV_057",
+          "EV_114"
+        ],
+        "CHARACTER_RELATION": [
+          "EV_006",
+          "EV_019",
+          "EV_024"
+        ],
+        "NARRATIVE_ACTION": [
+          "EV_005",
+          "EV_058",
+          "EV_115"
+        ],
+        "TEMPORAL_ORDER": [
+          "EV_041",
+          "EV_051",
+          "EV_105"
+        ],
+        "CAUSE_EFFECT": [
+          "EV_001",
+          "EV_021",
+          "EV_041"
+        ],
+        "CHARACTER_EVOLUTION": [
+          "EV_072",
+          "EV_091",
+          "EV_105"
+        ],
+        "LITERARY_INTERPRETATION": [
+          "EV_061",
+          "EV_081",
+          "EV_091"
+        ],
+        "CROSS_CHAPTER_COMPARE": [
+          "EV_134",
+          "EV_161",
+          "EV_166"
+        ]
+      },
+      "context_event_count": 37,
+      "context_event_ids": [
+        "EV_001",
+        "EV_005",
+        "EV_006",
+        "EV_011",
+        "EV_018",
+        "EV_019",
+        "EV_021",
+        "EV_024",
+        "EV_031",
+        "EV_039",
+        "EV_040",
+        "EV_041",
+        "EV_042",
+        "EV_048",
+        "EV_049",
+        "EV_050",
+        "EV_051",
+        "EV_052",
+        "EV_053",
+        "EV_057",
+        "EV_058",
+        "EV_061",
+        "EV_072",
+        "EV_081",
+        "EV_091",
+        "EV_103",
+        "EV_104",
+        "EV_105",
+        "EV_106",
+        "EV_114",
+        "EV_115",
+        "EV_134",
+        "EV_154",
+        "EV_157",
+        "EV_160",
+        "EV_161",
+        "EV_166"
+      ],
+      "categories": [
+        {
+          "number": 1,
+          "category_id": "SIMPLE_FACT_LOWHOP",
+          "filename": "01-simple-facts.packet.json",
+          "prompt_filename": "01-intrebari-simple-lowhop.md",
+          "nodes": 11,
+          "edges": 11,
+          "packet_chars": 13639,
+          "packet_tokens": 4340,
+          "combined_tokens": 5634,
+          "selected_event_ids": [
+            "EV_001",
+            "EV_057",
+            "EV_114"
+          ],
+          "focus_event_ids": [
+            "EV_001",
+            "EV_057",
+            "EV_114"
+          ]
+        },
+        {
+          "number": 2,
+          "category_id": "CHARACTER_RELATION",
+          "filename": "02-character-relations.packet.json",
+          "prompt_filename": "02-relatii-dintre-personaje-lowhop.md",
+          "nodes": 10,
+          "edges": 18,
+          "packet_chars": 17774,
+          "packet_tokens": 5656,
+          "combined_tokens": 6943,
+          "selected_event_ids": [
+            "EV_006",
+            "EV_019",
+            "EV_024"
+          ],
+          "focus_event_ids": [
+            "EV_006",
+            "EV_019",
+            "EV_024"
+          ]
+        },
+        {
+          "number": 3,
+          "category_id": "NARRATIVE_ACTION",
+          "filename": "03-narrative-actions.packet.json",
+          "prompt_filename": "03-actiune-narativa-lowhop.md",
+          "nodes": 11,
+          "edges": 14,
+          "packet_chars": 15923,
+          "packet_tokens": 5067,
+          "combined_tokens": 6264,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_058",
+            "EV_115"
+          ],
+          "focus_event_ids": [
+            "EV_005",
+            "EV_058",
+            "EV_115"
+          ]
+        },
+        {
+          "number": 4,
+          "category_id": "TEMPORAL_ORDER",
+          "filename": "04-temporal-order.packet.json",
+          "prompt_filename": "04-ordine-narativa-midhop.md",
+          "nodes": 18,
+          "edges": 32,
+          "packet_chars": 32805,
+          "packet_tokens": 10439,
+          "combined_tokens": 11666,
+          "selected_event_ids": [
+            "EV_039",
+            "EV_040",
+            "EV_041",
+            "EV_042",
+            "EV_048",
+            "EV_049",
+            "EV_050",
+            "EV_051",
+            "EV_052",
+            "EV_053",
+            "EV_103",
+            "EV_104",
+            "EV_105",
+            "EV_106"
+          ],
+          "focus_event_ids": [
+            "EV_041",
+            "EV_051",
+            "EV_105"
+          ]
+        },
+        {
+          "number": 5,
+          "category_id": "CAUSE_EFFECT",
+          "filename": "05-cause-effect.packet.json",
+          "prompt_filename": "05-cauza-si-consecinta-midhop.md",
+          "nodes": 19,
+          "edges": 23,
+          "packet_chars": 25337,
+          "packet_tokens": 8063,
+          "combined_tokens": 9303,
+          "selected_event_ids": [
+            "EV_001",
+            "EV_011",
+            "EV_021",
+            "EV_031",
+            "EV_041"
+          ],
+          "focus_event_ids": [
+            "EV_001",
+            "EV_021",
+            "EV_041"
+          ]
+        },
+        {
+          "number": 6,
+          "category_id": "CHARACTER_EVOLUTION",
+          "filename": "06-character-evolution.packet.json",
+          "prompt_filename": "06-evolutia-personajelor-highhop.md",
+          "nodes": 27,
+          "edges": 65,
+          "packet_chars": 39787,
+          "packet_tokens": 12661,
+          "combined_tokens": 14042,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_024",
+            "EV_041",
+            "EV_072",
+            "EV_091",
+            "EV_105",
+            "EV_157",
+            "EV_160",
+            "EV_166"
+          ],
+          "focus_event_ids": [
+            "EV_072",
+            "EV_091",
+            "EV_105"
+          ]
+        },
+        {
+          "number": 7,
+          "category_id": "LITERARY_INTERPRETATION",
+          "filename": "07-literary-concepts.packet.json",
+          "prompt_filename": "07-teme-conflicte-si-simboluri-highhop.md",
+          "nodes": 24,
+          "edges": 40,
+          "packet_chars": 35392,
+          "packet_tokens": 11263,
+          "combined_tokens": 12603,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_011",
+            "EV_024",
+            "EV_061",
+            "EV_081",
+            "EV_091",
+            "EV_154",
+            "EV_161",
+            "EV_166"
+          ],
+          "focus_event_ids": [
+            "EV_061",
+            "EV_081",
+            "EV_091"
+          ]
+        },
+        {
+          "number": 8,
+          "category_id": "CROSS_CHAPTER_COMPARE",
+          "filename": "08-cross-chapter-comparison.packet.json",
+          "prompt_filename": "08-comparatii-intre-capitole-highhop.md",
+          "nodes": 24,
+          "edges": 54,
+          "packet_chars": 32966,
+          "packet_tokens": 10491,
+          "combined_tokens": 11860,
+          "selected_event_ids": [
+            "EV_001",
+            "EV_006",
+            "EV_018",
+            "EV_134",
+            "EV_161",
+            "EV_166"
+          ],
+          "focus_event_ids": [
+            "EV_134",
+            "EV_161",
+            "EV_166"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_number": 2,
+      "run_id": "run-20260822T195104194604Z-b002",
+      "reserved_at_utc": "2026-08-22T19:51:04.466135+00:00",
+      "algorithm_version": "question-packet-selection-v3-history",
+      "focus_event_count": 21,
+      "focus_event_ids": [
+        "EV_005",
+        "EV_006",
+        "EV_026",
+        "EV_038",
+        "EV_042",
+        "EV_055",
+        "EV_058",
+        "EV_059",
+        "EV_061",
+        "EV_069",
+        "EV_070",
+        "EV_075",
+        "EV_081",
+        "EV_082",
+        "EV_097",
+        "EV_100",
+        "EV_115",
+        "EV_120",
+        "EV_135",
+        "EV_162",
+        "EV_170"
+      ],
+      "focus_event_ids_by_category": {
+        "SIMPLE_FACT_LOWHOP": [
+          "EV_005",
+          "EV_058",
+          "EV_115"
+        ],
+        "CHARACTER_RELATION": [
+          "EV_026",
+          "EV_038",
+          "EV_042"
+        ],
+        "NARRATIVE_ACTION": [
+          "EV_006",
+          "EV_059",
+          "EV_120"
+        ],
+        "TEMPORAL_ORDER": [
+          "EV_026",
+          "EV_061",
+          "EV_070"
+        ],
+        "CAUSE_EFFECT": [
+          "EV_005",
+          "EV_061",
+          "EV_081"
+        ],
+        "CHARACTER_EVOLUTION": [
+          "EV_055",
+          "EV_075",
+          "EV_097"
+        ],
+        "LITERARY_INTERPRETATION": [
+          "EV_069",
+          "EV_082",
+          "EV_100"
+        ],
+        "CROSS_CHAPTER_COMPARE": [
+          "EV_135",
+          "EV_162",
+          "EV_170"
+        ]
+      },
+      "context_event_count": 40,
+      "context_event_ids": [
+        "EV_001",
+        "EV_005",
+        "EV_006",
+        "EV_011",
+        "EV_018",
+        "EV_024",
+        "EV_025",
+        "EV_026",
+        "EV_027",
+        "EV_038",
+        "EV_041",
+        "EV_042",
+        "EV_051",
+        "EV_055",
+        "EV_058",
+        "EV_059",
+        "EV_060",
+        "EV_061",
+        "EV_062",
+        "EV_067",
+        "EV_068",
+        "EV_069",
+        "EV_070",
+        "EV_071",
+        "EV_072",
+        "EV_075",
+        "EV_081",
+        "EV_082",
+        "EV_097",
+        "EV_100",
+        "EV_115",
+        "EV_120",
+        "EV_135",
+        "EV_154",
+        "EV_157",
+        "EV_160",
+        "EV_161",
+        "EV_162",
+        "EV_166",
+        "EV_170"
+      ],
+      "categories": [
+        {
+          "number": 1,
+          "category_id": "SIMPLE_FACT_LOWHOP",
+          "filename": "01-simple-facts.packet.json",
+          "prompt_filename": "01-intrebari-simple-lowhop.md",
+          "nodes": 11,
+          "edges": 14,
+          "packet_chars": 15130,
+          "packet_tokens": 4815,
+          "combined_tokens": 6108,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_058",
+            "EV_115"
+          ],
+          "focus_event_ids": [
+            "EV_005",
+            "EV_058",
+            "EV_115"
+          ]
+        },
+        {
+          "number": 2,
+          "category_id": "CHARACTER_RELATION",
+          "filename": "02-character-relations.packet.json",
+          "prompt_filename": "02-relatii-dintre-personaje-lowhop.md",
+          "nodes": 12,
+          "edges": 20,
+          "packet_chars": 17352,
+          "packet_tokens": 5522,
+          "combined_tokens": 6808,
+          "selected_event_ids": [
+            "EV_026",
+            "EV_038",
+            "EV_042"
+          ],
+          "focus_event_ids": [
+            "EV_026",
+            "EV_038",
+            "EV_042"
+          ]
+        },
+        {
+          "number": 3,
+          "category_id": "NARRATIVE_ACTION",
+          "filename": "03-narrative-actions.packet.json",
+          "prompt_filename": "03-actiune-narativa-lowhop.md",
+          "nodes": 12,
+          "edges": 11,
+          "packet_chars": 14832,
+          "packet_tokens": 4720,
+          "combined_tokens": 5917,
+          "selected_event_ids": [
+            "EV_006",
+            "EV_059",
+            "EV_120"
+          ],
+          "focus_event_ids": [
+            "EV_006",
+            "EV_059",
+            "EV_120"
+          ]
+        },
+        {
+          "number": 4,
+          "category_id": "TEMPORAL_ORDER",
+          "filename": "04-temporal-order.packet.json",
+          "prompt_filename": "04-ordine-narativa-midhop.md",
+          "nodes": 18,
+          "edges": 32,
+          "packet_chars": 30675,
+          "packet_tokens": 9762,
+          "combined_tokens": 10988,
+          "selected_event_ids": [
+            "EV_024",
+            "EV_025",
+            "EV_026",
+            "EV_027",
+            "EV_059",
+            "EV_060",
+            "EV_061",
+            "EV_062",
+            "EV_067",
+            "EV_068",
+            "EV_069",
+            "EV_070",
+            "EV_071",
+            "EV_072"
+          ],
+          "focus_event_ids": [
+            "EV_026",
+            "EV_061",
+            "EV_070"
+          ]
+        },
+        {
+          "number": 5,
+          "category_id": "CAUSE_EFFECT",
+          "filename": "05-cause-effect.packet.json",
+          "prompt_filename": "05-cauza-si-consecinta-midhop.md",
+          "nodes": 21,
+          "edges": 38,
+          "packet_chars": 31580,
+          "packet_tokens": 10049,
+          "combined_tokens": 11290,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_051",
+            "EV_061",
+            "EV_071",
+            "EV_081"
+          ],
+          "focus_event_ids": [
+            "EV_005",
+            "EV_061",
+            "EV_081"
+          ]
+        },
+        {
+          "number": 6,
+          "category_id": "CHARACTER_EVOLUTION",
+          "filename": "06-character-evolution.packet.json",
+          "prompt_filename": "06-evolutia-personajelor-highhop.md",
+          "nodes": 29,
+          "edges": 61,
+          "packet_chars": 39943,
+          "packet_tokens": 12711,
+          "combined_tokens": 14091,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_024",
+            "EV_041",
+            "EV_055",
+            "EV_075",
+            "EV_097",
+            "EV_157",
+            "EV_160",
+            "EV_166"
+          ],
+          "focus_event_ids": [
+            "EV_055",
+            "EV_075",
+            "EV_097"
+          ]
+        },
+        {
+          "number": 7,
+          "category_id": "LITERARY_INTERPRETATION",
+          "filename": "07-literary-concepts.packet.json",
+          "prompt_filename": "07-teme-conflicte-si-simboluri-highhop.md",
+          "nodes": 23,
+          "edges": 39,
+          "packet_chars": 35758,
+          "packet_tokens": 11379,
+          "combined_tokens": 12719,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_011",
+            "EV_024",
+            "EV_069",
+            "EV_082",
+            "EV_100",
+            "EV_154",
+            "EV_161",
+            "EV_166"
+          ],
+          "focus_event_ids": [
+            "EV_069",
+            "EV_082",
+            "EV_100"
+          ]
+        },
+        {
+          "number": 8,
+          "category_id": "CROSS_CHAPTER_COMPARE",
+          "filename": "08-cross-chapter-comparison.packet.json",
+          "prompt_filename": "08-comparatii-intre-capitole-highhop.md",
+          "nodes": 27,
+          "edges": 47,
+          "packet_chars": 32795,
+          "packet_tokens": 10436,
+          "combined_tokens": 11805,
+          "selected_event_ids": [
+            "EV_001",
+            "EV_006",
+            "EV_018",
+            "EV_135",
+            "EV_162",
+            "EV_170"
+          ],
+          "focus_event_ids": [
+            "EV_135",
+            "EV_162",
+            "EV_170"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_number": 3,
+      "run_id": "run-20260822T195623375580Z-b003",
+      "reserved_at_utc": "2026-08-22T19:56:23.625145+00:00",
+      "algorithm_version": "question-packet-selection-v3-history",
+      "focus_event_count": 21,
+      "focus_event_ids": [
+        "EV_006",
+        "EV_010",
+        "EV_029",
+        "EV_035",
+        "EV_039",
+        "EV_040",
+        "EV_059",
+        "EV_060",
+        "EV_064",
+        "EV_077",
+        "EV_083",
+        "EV_084",
+        "EV_100",
+        "EV_101",
+        "EV_115",
+        "EV_120",
+        "EV_121",
+        "EV_122",
+        "EV_153",
+        "EV_161",
+        "EV_163"
+      ],
+      "focus_event_ids_by_category": {
+        "SIMPLE_FACT_LOWHOP": [
+          "EV_006",
+          "EV_059",
+          "EV_120"
+        ],
+        "CHARACTER_RELATION": [
+          "EV_029",
+          "EV_040",
+          "EV_064"
+        ],
+        "NARRATIVE_ACTION": [
+          "EV_010",
+          "EV_060",
+          "EV_121"
+        ],
+        "TEMPORAL_ORDER": [
+          "EV_039",
+          "EV_083",
+          "EV_161"
+        ],
+        "CAUSE_EFFECT": [
+          "EV_006",
+          "EV_101",
+          "EV_121"
+        ],
+        "CHARACTER_EVOLUTION": [
+          "EV_077",
+          "EV_100",
+          "EV_115"
+        ],
+        "LITERARY_INTERPRETATION": [
+          "EV_035",
+          "EV_084",
+          "EV_101"
+        ],
+        "CROSS_CHAPTER_COMPARE": [
+          "EV_122",
+          "EV_153",
+          "EV_163"
+        ]
+      },
+      "context_event_count": 39,
+      "context_event_ids": [
+        "EV_001",
+        "EV_005",
+        "EV_006",
+        "EV_010",
+        "EV_018",
+        "EV_024",
+        "EV_029",
+        "EV_035",
+        "EV_037",
+        "EV_038",
+        "EV_039",
+        "EV_040",
+        "EV_041",
+        "EV_059",
+        "EV_060",
+        "EV_064",
+        "EV_077",
+        "EV_080",
+        "EV_081",
+        "EV_082",
+        "EV_083",
+        "EV_084",
+        "EV_085",
+        "EV_091",
+        "EV_100",
+        "EV_101",
+        "EV_111",
+        "EV_115",
+        "EV_120",
+        "EV_121",
+        "EV_122",
+        "EV_153",
+        "EV_157",
+        "EV_159",
+        "EV_160",
+        "EV_161",
+        "EV_162",
+        "EV_163",
+        "EV_166"
+      ],
+      "categories": [
+        {
+          "number": 1,
+          "category_id": "SIMPLE_FACT_LOWHOP",
+          "filename": "01-simple-facts.packet.json",
+          "prompt_filename": "01-intrebari-simple-lowhop.md",
+          "nodes": 12,
+          "edges": 11,
+          "packet_chars": 14194,
+          "packet_tokens": 4517,
+          "combined_tokens": 5810,
+          "selected_event_ids": [
+            "EV_006",
+            "EV_059",
+            "EV_120"
+          ],
+          "focus_event_ids": [
+            "EV_006",
+            "EV_059",
+            "EV_120"
+          ]
+        },
+        {
+          "number": 2,
+          "category_id": "CHARACTER_RELATION",
+          "filename": "02-character-relations.packet.json",
+          "prompt_filename": "02-relatii-dintre-personaje-lowhop.md",
+          "nodes": 11,
+          "edges": 16,
+          "packet_chars": 15380,
+          "packet_tokens": 4894,
+          "combined_tokens": 6181,
+          "selected_event_ids": [
+            "EV_029",
+            "EV_040",
+            "EV_064"
+          ],
+          "focus_event_ids": [
+            "EV_029",
+            "EV_040",
+            "EV_064"
+          ]
+        },
+        {
+          "number": 3,
+          "category_id": "NARRATIVE_ACTION",
+          "filename": "03-narrative-actions.packet.json",
+          "prompt_filename": "03-actiune-narativa-lowhop.md",
+          "nodes": 11,
+          "edges": 11,
+          "packet_chars": 13583,
+          "packet_tokens": 4322,
+          "combined_tokens": 5520,
+          "selected_event_ids": [
+            "EV_010",
+            "EV_060",
+            "EV_121"
+          ],
+          "focus_event_ids": [
+            "EV_010",
+            "EV_060",
+            "EV_121"
+          ]
+        },
+        {
+          "number": 4,
+          "category_id": "TEMPORAL_ORDER",
+          "filename": "04-temporal-order.packet.json",
+          "prompt_filename": "04-ordine-narativa-midhop.md",
+          "nodes": 19,
+          "edges": 32,
+          "packet_chars": 33546,
+          "packet_tokens": 10675,
+          "combined_tokens": 11902,
+          "selected_event_ids": [
+            "EV_037",
+            "EV_038",
+            "EV_039",
+            "EV_040",
+            "EV_080",
+            "EV_081",
+            "EV_082",
+            "EV_083",
+            "EV_084",
+            "EV_085",
+            "EV_159",
+            "EV_160",
+            "EV_161",
+            "EV_162"
+          ],
+          "focus_event_ids": [
+            "EV_039",
+            "EV_083",
+            "EV_161"
+          ]
+        },
+        {
+          "number": 5,
+          "category_id": "CAUSE_EFFECT",
+          "filename": "05-cause-effect.packet.json",
+          "prompt_filename": "05-cauza-si-consecinta-midhop.md",
+          "nodes": 19,
+          "edges": 28,
+          "packet_chars": 27056,
+          "packet_tokens": 8610,
+          "combined_tokens": 9850,
+          "selected_event_ids": [
+            "EV_006",
+            "EV_091",
+            "EV_101",
+            "EV_111",
+            "EV_121"
+          ],
+          "focus_event_ids": [
+            "EV_006",
+            "EV_101",
+            "EV_121"
+          ]
+        },
+        {
+          "number": 6,
+          "category_id": "CHARACTER_EVOLUTION",
+          "filename": "06-character-evolution.packet.json",
+          "prompt_filename": "06-evolutia-personajelor-highhop.md",
+          "nodes": 25,
+          "edges": 54,
+          "packet_chars": 36730,
+          "packet_tokens": 11688,
+          "combined_tokens": 13069,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_024",
+            "EV_041",
+            "EV_077",
+            "EV_100",
+            "EV_115",
+            "EV_157",
+            "EV_160",
+            "EV_166"
+          ],
+          "focus_event_ids": [
+            "EV_077",
+            "EV_100",
+            "EV_115"
+          ]
+        },
+        {
+          "number": 7,
+          "category_id": "LITERARY_INTERPRETATION",
+          "filename": "07-literary-concepts.packet.json",
+          "prompt_filename": "07-teme-conflicte-si-simboluri-highhop.md",
+          "nodes": 20,
+          "edges": 32,
+          "packet_chars": 30184,
+          "packet_tokens": 9605,
+          "combined_tokens": 10946,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_024",
+            "EV_035",
+            "EV_084",
+            "EV_101",
+            "EV_161",
+            "EV_162",
+            "EV_166"
+          ],
+          "focus_event_ids": [
+            "EV_035",
+            "EV_084",
+            "EV_101"
+          ]
+        },
+        {
+          "number": 8,
+          "category_id": "CROSS_CHAPTER_COMPARE",
+          "filename": "08-cross-chapter-comparison.packet.json",
+          "prompt_filename": "08-comparatii-intre-capitole-highhop.md",
+          "nodes": 23,
+          "edges": 46,
+          "packet_chars": 29886,
+          "packet_tokens": 9510,
+          "combined_tokens": 10880,
+          "selected_event_ids": [
+            "EV_001",
+            "EV_006",
+            "EV_018",
+            "EV_122",
+            "EV_153",
+            "EV_163"
+          ],
+          "focus_event_ids": [
+            "EV_122",
+            "EV_153",
+            "EV_163"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_number": 4,
+      "run_id": "run-20260822T200132842616Z-b004",
+      "reserved_at_utc": "2026-08-22T20:01:33.083995+00:00",
+      "algorithm_version": "question-packet-selection-v3-history",
+      "focus_event_count": 23,
+      "focus_event_ids": [
+        "EV_010",
+        "EV_016",
+        "EV_031",
+        "EV_037",
+        "EV_057",
+        "EV_060",
+        "EV_061",
+        "EV_064",
+        "EV_067",
+        "EV_071",
+        "EV_072",
+        "EV_078",
+        "EV_085",
+        "EV_089",
+        "EV_104",
+        "EV_121",
+        "EV_122",
+        "EV_123",
+        "EV_141",
+        "EV_147",
+        "EV_157",
+        "EV_161",
+        "EV_164"
+      ],
+      "focus_event_ids_by_category": {
+        "SIMPLE_FACT_LOWHOP": [
+          "EV_010",
+          "EV_060",
+          "EV_121"
+        ],
+        "CHARACTER_RELATION": [
+          "EV_037",
+          "EV_067",
+          "EV_072"
+        ],
+        "NARRATIVE_ACTION": [
+          "EV_016",
+          "EV_061",
+          "EV_122"
+        ],
+        "TEMPORAL_ORDER": [
+          "EV_031",
+          "EV_064",
+          "EV_089"
+        ],
+        "CAUSE_EFFECT": [
+          "EV_010",
+          "EV_141",
+          "EV_161"
+        ],
+        "CHARACTER_EVOLUTION": [
+          "EV_071",
+          "EV_078",
+          "EV_147"
+        ],
+        "LITERARY_INTERPRETATION": [
+          "EV_057",
+          "EV_085",
+          "EV_104"
+        ],
+        "CROSS_CHAPTER_COMPARE": [
+          "EV_123",
+          "EV_157",
+          "EV_164"
+        ]
+      },
+      "context_event_count": 46,
+      "context_event_ids": [
+        "EV_001",
+        "EV_005",
+        "EV_006",
+        "EV_010",
+        "EV_011",
+        "EV_016",
+        "EV_018",
+        "EV_024",
+        "EV_029",
+        "EV_030",
+        "EV_031",
+        "EV_032",
+        "EV_037",
+        "EV_057",
+        "EV_059",
+        "EV_060",
+        "EV_061",
+        "EV_062",
+        "EV_063",
+        "EV_064",
+        "EV_065",
+        "EV_067",
+        "EV_071",
+        "EV_072",
+        "EV_078",
+        "EV_085",
+        "EV_086",
+        "EV_087",
+        "EV_088",
+        "EV_089",
+        "EV_090",
+        "EV_091",
+        "EV_104",
+        "EV_121",
+        "EV_122",
+        "EV_123",
+        "EV_131",
+        "EV_141",
+        "EV_147",
+        "EV_151",
+        "EV_154",
+        "EV_157",
+        "EV_160",
+        "EV_161",
+        "EV_164",
+        "EV_166"
+      ],
+      "categories": [
+        {
+          "number": 1,
+          "category_id": "SIMPLE_FACT_LOWHOP",
+          "filename": "01-simple-facts.packet.json",
+          "prompt_filename": "01-intrebari-simple-lowhop.md",
+          "nodes": 11,
+          "edges": 11,
+          "packet_chars": 13161,
+          "packet_tokens": 4188,
+          "combined_tokens": 5482,
+          "selected_event_ids": [
+            "EV_010",
+            "EV_060",
+            "EV_121"
+          ],
+          "focus_event_ids": [
+            "EV_010",
+            "EV_060",
+            "EV_121"
+          ]
+        },
+        {
+          "number": 2,
+          "category_id": "CHARACTER_RELATION",
+          "filename": "02-character-relations.packet.json",
+          "prompt_filename": "02-relatii-dintre-personaje-lowhop.md",
+          "nodes": 10,
+          "edges": 17,
+          "packet_chars": 15172,
+          "packet_tokens": 4828,
+          "combined_tokens": 6115,
+          "selected_event_ids": [
+            "EV_037",
+            "EV_067",
+            "EV_072"
+          ],
+          "focus_event_ids": [
+            "EV_037",
+            "EV_067",
+            "EV_072"
+          ]
+        },
+        {
+          "number": 3,
+          "category_id": "NARRATIVE_ACTION",
+          "filename": "03-narrative-actions.packet.json",
+          "prompt_filename": "03-actiune-narativa-lowhop.md",
+          "nodes": 15,
+          "edges": 15,
+          "packet_chars": 17983,
+          "packet_tokens": 5723,
+          "combined_tokens": 6920,
+          "selected_event_ids": [
+            "EV_016",
+            "EV_061",
+            "EV_122"
+          ],
+          "focus_event_ids": [
+            "EV_016",
+            "EV_061",
+            "EV_122"
+          ]
+        },
+        {
+          "number": 4,
+          "category_id": "TEMPORAL_ORDER",
+          "filename": "04-temporal-order.packet.json",
+          "prompt_filename": "04-ordine-narativa-midhop.md",
+          "nodes": 19,
+          "edges": 32,
+          "packet_chars": 34197,
+          "packet_tokens": 10882,
+          "combined_tokens": 12109,
+          "selected_event_ids": [
+            "EV_029",
+            "EV_030",
+            "EV_031",
+            "EV_032",
+            "EV_062",
+            "EV_063",
+            "EV_064",
+            "EV_065",
+            "EV_086",
+            "EV_087",
+            "EV_088",
+            "EV_089",
+            "EV_090",
+            "EV_091"
+          ],
+          "focus_event_ids": [
+            "EV_031",
+            "EV_064",
+            "EV_089"
+          ]
+        },
+        {
+          "number": 5,
+          "category_id": "CAUSE_EFFECT",
+          "filename": "05-cause-effect.packet.json",
+          "prompt_filename": "05-cauza-si-consecinta-midhop.md",
+          "nodes": 19,
+          "edges": 25,
+          "packet_chars": 24570,
+          "packet_tokens": 7819,
+          "combined_tokens": 9059,
+          "selected_event_ids": [
+            "EV_010",
+            "EV_131",
+            "EV_141",
+            "EV_151",
+            "EV_161"
+          ],
+          "focus_event_ids": [
+            "EV_010",
+            "EV_141",
+            "EV_161"
+          ]
+        },
+        {
+          "number": 6,
+          "category_id": "CHARACTER_EVOLUTION",
+          "filename": "06-character-evolution.packet.json",
+          "prompt_filename": "06-evolutia-personajelor-highhop.md",
+          "nodes": 23,
+          "edges": 49,
+          "packet_chars": 35820,
+          "packet_tokens": 11399,
+          "combined_tokens": 12779,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_006",
+            "EV_059",
+            "EV_071",
+            "EV_078",
+            "EV_147",
+            "EV_157",
+            "EV_160",
+            "EV_161"
+          ],
+          "focus_event_ids": [
+            "EV_071",
+            "EV_078",
+            "EV_147"
+          ]
+        },
+        {
+          "number": 7,
+          "category_id": "LITERARY_INTERPRETATION",
+          "filename": "07-literary-concepts.packet.json",
+          "prompt_filename": "07-teme-conflicte-si-simboluri-highhop.md",
+          "nodes": 23,
+          "edges": 36,
+          "packet_chars": 34815,
+          "packet_tokens": 11079,
+          "combined_tokens": 12419,
+          "selected_event_ids": [
+            "EV_005",
+            "EV_011",
+            "EV_024",
+            "EV_057",
+            "EV_085",
+            "EV_104",
+            "EV_154",
+            "EV_161",
+            "EV_166"
+          ],
+          "focus_event_ids": [
+            "EV_057",
+            "EV_085",
+            "EV_104"
+          ]
+        },
+        {
+          "number": 8,
+          "category_id": "CROSS_CHAPTER_COMPARE",
+          "filename": "08-cross-chapter-comparison.packet.json",
+          "prompt_filename": "08-comparatii-intre-capitole-highhop.md",
+          "nodes": 26,
+          "edges": 51,
+          "packet_chars": 32488,
+          "packet_tokens": 10338,
+          "combined_tokens": 11708,
+          "selected_event_ids": [
+            "EV_001",
+            "EV_006",
+            "EV_018",
+            "EV_123",
+            "EV_157",
+            "EV_164"
+          ],
+          "focus_event_ids": [
+            "EV_123",
+            "EV_157",
+            "EV_164"
+          ]
+        }
+      ]
+    }
+  ]
+}

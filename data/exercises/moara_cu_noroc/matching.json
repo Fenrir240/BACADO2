@@ -1,0 +1,455 @@
+{
+  "version": 1,
+  "work_id": "moara_cu_noroc",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "exercise_type": "matching",
+  "source": {
+    "question_bank": "data/generated_works/moara_cu_noroc/testare-rapida/questions.json",
+    "knowledge_graph": "data/generated_works/moara_cu_noroc/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "CHARACTER_RELATION",
+    "NARRATIVE_ACTION",
+    "CAUSE_EFFECT",
+    "LITERARY_INTERPRETATION"
+  ],
+  "exercise_count": 10,
+  "pair_count": 48,
+  "exercises": [
+    {
+      "id": "MATCH-4e8f0a63eeca0ab0",
+      "pairs": [
+        {
+          "left": "Care este relația matrimonială dintre Ghiță și Ana în timpul discuției lor despre viitorul familiei?",
+          "right": "Sunt soț și soție.",
+          "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_01"
+        },
+        {
+          "left": "Ce intenție își formează Ghiță în al doisprezecelea capitol la Moara cu noroc?",
+          "right": "Să stea până la primăvară, să își adune averea și să plece departe cu familia.",
+          "source_question_id": "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_03"
+        },
+        {
+          "left": "Ce lanț cauzal leagă percepția Anei asupra lui Lică de recunoașterea ulterioară a compliceilor acestuia de către Ghiță?",
+          "right": "Vigilența Anei în capitolul șase creează tensiunea narativă care permite executarea planurilor porcarilor în capitolul șapte, culminând cu identificarea lor de către Ghiță în capitolul opt.",
+          "source_question_id": "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_03"
+        },
+        {
+          "left": "În ce mod este ilustrat conflictul exterior dintre Ghiță și Lică prin evenimente din capitolele al treilea, al unsprezecelea și al șaptesprezecelea?",
+          "right": "Conflictul se manifestă ca o luptă pentru supraviețuire și control, marcată de teamă, subordonare financiară și răzbunare, culminând cu capturarea lui Lică și închiderea ciclului violenței.",
+          "source_question_id": "run-20260822T195623375580Z-b003::LITERARY_INTERPRETATION::LITERARY_02"
+        },
+        {
+          "left": "Ce sentiment afectiv leagă pe Ghiță de Ana atunci când acesta anunță plecarea la Ineu?",
+          "right": "Iubire / dragoste",
+          "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_02"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_01",
+        "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_03",
+        "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_03",
+        "run-20260822T195623375580Z-b003::LITERARY_INTERPRETATION::LITERARY_02",
+        "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_02"
+      ],
+      "category_ids": [
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION",
+        "CAUSE_EFFECT",
+        "LITERARY_INTERPRETATION",
+        "CHARACTER_RELATION"
+      ]
+    },
+    {
+      "id": "MATCH-9bea0f7ae19242a4",
+      "pairs": [
+        {
+          "left": "Care este legătura matrimonială dintre Ghiță și Ana în cadrul capitolului al treilea?",
+          "right": "Sunt soț și soție.",
+          "source_question_id": "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_01"
+        },
+        {
+          "left": "Cum se leagă prin două etape cauzale descrierea drumului dificil de stabilirea rolului de sămădău și de întâlnirea personajelor?",
+          "right": "Lanțul începe cu EV_011 (cauza inițială), trece prin EV_021 (evenimentul intermediar) și se încheie cu EV_031 (consecința finală a secvenței).",
+          "source_question_id": "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_03"
+        },
+        {
+          "left": "Ce răspuns oferă Lică în capitolul 12 atunci când i se propune să transporte pe cineva la moara cu noroc?",
+          "right": "Lică refuză să-l ducă, declarând că nu i se potrivește acum și are nevoie de un om ca cel întrebat.",
+          "source_question_id": "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_03"
+        },
+        {
+          "left": "Ce rol joacă motivul focului purificator în evoluția narativă, așa cum reiese din capitolele al patrulea, al unsprezecelea și al șaptesprezecelea?",
+          "right": "Focul funcționează ca un simbol al distrugerii necesare și al curățării morale, apărând progresiv în texte pentru a marca punctul de cotitură spre catharsis și sfârșitul corupției.",
+          "source_question_id": "run-20260822T195623375580Z-b003::LITERARY_INTERPRETATION::LITERARY_03"
+        },
+        {
+          "left": "Ce face Lică la drumeți în pădurea de la Fundureni în timpul schimbării vremii?",
+          "right": "Se oprește la drumeți și vorbește privind înspre apus.",
+          "source_question_id": "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_02"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_01",
+        "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_03",
+        "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_03",
+        "run-20260822T195623375580Z-b003::LITERARY_INTERPRETATION::LITERARY_03",
+        "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_02"
+      ],
+      "category_ids": [
+        "CHARACTER_RELATION",
+        "CAUSE_EFFECT",
+        "NARRATIVE_ACTION",
+        "LITERARY_INTERPRETATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "MATCH-d4ee4f295e97fc30",
+      "pairs": [
+        {
+          "left": "Cine simte spaimă la gândul părăsirii colibei în primul capitol?",
+          "right": "Ana",
+          "source_question_id": "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_01"
+        },
+        {
+          "left": "Cum funcționează motivul drumului ca element structural al destinului personajelor, evidențiat prin descrierile geografice și sosirile succesive în jurul morii?",
+          "right": "Drumul acționează ca o cale a destinului care aduce simultan prosperitatea și pericolul; fiecare trecere peste el marchează o nouă etapă a dezumanizării și a inevitabilei confruntări finale.",
+          "source_question_id": "run-20260822T190825824822Z-b001::LITERARY_INTERPRETATION::LITERARY_03"
+        },
+        {
+          "left": "Ce tip de rivalitate există între Ghiță și Lică în contextul capitolului cinci?",
+          "right": "Sunt rivali direcți.",
+          "source_question_id": "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_03"
+        },
+        {
+          "left": "Care este consecința imediată a discuției dintre Ana și Ghiță privind menținerea atelierei de cizme?",
+          "right": "Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1.",
+          "source_question_id": "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_02"
+        },
+        {
+          "left": "Care este efectul imediat al binecuvântării Bătrânei de la începutul nuvelei asupra derulării narative?",
+          "right": "Cauza este rostirea binecuvântării de către Bătrână, evenimentul este actul narativ din capitolul 1, iar consecința directă este stabilirea stării finale care închide segmentul capitolului.",
+          "source_question_id": "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_02"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_01",
+        "run-20260822T190825824822Z-b001::LITERARY_INTERPRETATION::LITERARY_03",
+        "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_03",
+        "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_02",
+        "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_02"
+      ],
+      "category_ids": [
+        "NARRATIVE_ACTION",
+        "LITERARY_INTERPRETATION",
+        "CHARACTER_RELATION",
+        "CAUSE_EFFECT",
+        "CAUSE_EFFECT"
+      ]
+    },
+    {
+      "id": "MATCH-56b8acd686af90ae",
+      "pairs": [
+        {
+          "left": "Ce eveniment din capitolul patru determină apariția stării de meditație profundă a lui Ghiță la începutul capitolului cinci?",
+          "right": "Cauza directă este evenimentul EV_031, care generează consecința imediată reprezentată de evenimentul EV_041.",
+          "source_question_id": "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_01"
+        },
+        {
+          "left": "Cine sugerează să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana?",
+          "right": "Ghiță propune să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana.",
+          "source_question_id": "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_01"
+        },
+        {
+          "left": "Cum funcționează motivul drumului ca simbol al alegerilor morale și al pericolului, iar descrierile din capitolele 2, 7 și 16 conturează această dublă semnificație?",
+          "right": "Drumul apare inițial ca o provocare fizică în capitolul 2, devine ulterior sursa anxietății și a intruziunii străinilor în capitolul 7, iar în final marchează apropierea justiției și a sfârșitului inevitabil în capitolul 16, ilustrând răscrucea morală.",
+          "source_question_id": "run-20260822T195104194604Z-b002::LITERARY_INTERPRETATION::LITERARY_03"
+        },
+        {
+          "left": "În ce constă rivalitatea dintre Ghiță și Lică în contextul discuției tensionate din Capitolul 3?",
+          "right": "Opoziție și conflict de interese",
+          "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_03"
+        },
+        {
+          "left": "Cum evoluează conflictul dintre Ghiță și Lică Sămădăul, fiind marcat de apariția acestuia la moară și de arestarea sa finală?",
+          "right": "Conflictul dintre Ghiță și Lică este structurat pe etape de tensiune ascunsă, dezvăluire și confruntare directă, culminând cu capturarea lui Lică, ceea ce reflectă dinamica relației lor toxice.",
+          "source_question_id": "run-20260822T200132842616Z-b004::LITERARY_INTERPRETATION::LITERARY_02"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_01",
+        "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_01",
+        "run-20260822T195104194604Z-b002::LITERARY_INTERPRETATION::LITERARY_03",
+        "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_03",
+        "run-20260822T200132842616Z-b004::LITERARY_INTERPRETATION::LITERARY_02"
+      ],
+      "category_ids": [
+        "CAUSE_EFFECT",
+        "NARRATIVE_ACTION",
+        "LITERARY_INTERPRETATION",
+        "CHARACTER_RELATION",
+        "LITERARY_INTERPRETATION"
+      ]
+    },
+    {
+      "id": "MATCH-59b414f8404b2c87",
+      "pairs": [
+        {
+          "left": "Cum se transformă iubirea dintre Ghiță și Ana pe parcursul nuvelei, iar evenimentele din capitolele 1, 9 și 17 ilustrează această evoluție?",
+          "right": "Iuberea inițială, legată de liniștea familială, este erodată treptat de frică, secret și răzbunare, culminând cu izolarea morală a lui Ghiță și pierderea echilibrului conjugal.",
+          "source_question_id": "run-20260822T190825824822Z-b001::LITERARY_INTERPRETATION::LITERARY_01"
+        },
+        {
+          "left": "Ce eveniment din capitolul anterior a contribuit la confruntarea dintre Ghiță și Lică în fața judecătorului?",
+          "right": "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.",
+          "source_question_id": "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_01"
+        },
+        {
+          "left": "Care este legătura matrimonială dintre Ghiță și Ana în momentul în care ea îl roagă cu stăruință să își pună băiatul călare pe el?",
+          "right": "Soți",
+          "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_01"
+        },
+        {
+          "left": "Ce propoziție rostește Ghiță în timpul discuției din Capitolul 13 al nuvelei?",
+          "right": "„Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”",
+          "source_question_id": "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_03"
+        },
+        {
+          "left": "Ce relație de rivalitate se stabilește între Ghiță și Lică în contextul capitolului patru?",
+          "right": "Rivalitate / opoziție",
+          "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_03"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::LITERARY_INTERPRETATION::LITERARY_01",
+        "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_01",
+        "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_01",
+        "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_03",
+        "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_03"
+      ],
+      "category_ids": [
+        "LITERARY_INTERPRETATION",
+        "CAUSE_EFFECT",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION",
+        "CHARACTER_RELATION"
+      ]
+    },
+    {
+      "id": "MATCH-34a7d20d83cdc5be",
+      "pairs": [
+        {
+          "left": "Ce relație afectivă leagă pe Ghiță de Ana în timpul scenei de numărare a banilor?",
+          "right": "Se iubesc.",
+          "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_02"
+        },
+        {
+          "left": "Cum se transformă iubirea dintre Ghiță și Ana pe parcursul nuvelei, iar evenimentele din capitolele 1, 9 și 17 ilustrează această evoluție?",
+          "right": "Iubirea inițială, marcată de atașamentul familiei în capitolul 1, este erodată de secretul și trădarea lui Ghiță față de Lică în capitolul 9, pentru ca în final, în capitolul 17, să fie înlocuită de remușcări și destinul tragic.",
+          "source_question_id": "run-20260822T195104194604Z-b002::LITERARY_INTERPRETATION::LITERARY_01"
+        },
+        {
+          "left": "Cine rostește cuvintele „În ceas bun să fie zis” la începutul poveștii?",
+          "right": "Bătrâna.",
+          "source_question_id": "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_01"
+        },
+        {
+          "left": "Cum se leagă reacția lui Ghiță față de Lică din capitolul 10 de procesul acestuia din capitolul 12 printr-un lanț cauzal?",
+          "right": "Mânia lui Ghiță asupra lui Lică (EV_091) contribuie la arestarea complicei (EV_101), care la rândul său deschide calea pentru judecarea lui Lică (EV_111).",
+          "source_question_id": "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_03"
+        },
+        {
+          "left": "Ce conflict izbucnește între Ghiță și Lică în hanul Moara cu noroc în Capitolul 13?",
+          "right": "Ghiță își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”",
+          "source_question_id": "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_03"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_02",
+        "run-20260822T195104194604Z-b002::LITERARY_INTERPRETATION::LITERARY_01",
+        "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_01",
+        "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_03",
+        "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_03"
+      ],
+      "category_ids": [
+        "CHARACTER_RELATION",
+        "LITERARY_INTERPRETATION",
+        "NARRATIVE_ACTION",
+        "CAUSE_EFFECT",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "MATCH-d63795a2a11c2b4f",
+      "pairs": [
+        {
+          "left": "Ce fac Ana, Bătrâna și copiii când țiganii cântau în al șaselea capitol?",
+          "right": "Ascultă muzica țiganilor la ușa cârciumii.",
+          "source_question_id": "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_02"
+        },
+        {
+          "left": "Ce sentiment afectiv manifestă Ghiță față de Ana în timpul evenimentelor din capitolul patru?",
+          "right": "Ghiță o iubește pe Ana.",
+          "source_question_id": "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_02"
+        },
+        {
+          "left": "Ce eveniment din capitolul 12 contribuie direct la momentul în care Ghiță este numit un om cu multă ură și minte?",
+          "right": "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.",
+          "source_question_id": "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_01"
+        },
+        {
+          "left": "Prin ce evenimente narative este evidențiată erodarea iubirii dintre Ghiță și Ana pe parcursul operei?",
+          "right": "Iubirea dintre Ghiță și Ana este subliniată de momentele în care Ana își exprimă teama de a părăsi familia, de confuzia lui Ghiță la interogatoriul comisarului și de plecarea acestuia spre Ineu, toate ilustrând fragilitatea legăturii lor.",
+          "source_question_id": "run-20260822T200132842616Z-b004::LITERARY_INTERPRETATION::LITERARY_01"
+        },
+        {
+          "left": "Cum contribuie visul lui Ghiță din capitolul 14 la desfășurarea evenimentelor din capitolele 15 și 16?",
+          "right": "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.",
+          "source_question_id": "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_03"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_02",
+        "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_02",
+        "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_01",
+        "run-20260822T200132842616Z-b004::LITERARY_INTERPRETATION::LITERARY_01",
+        "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_03"
+      ],
+      "category_ids": [
+        "NARRATIVE_ACTION",
+        "CHARACTER_RELATION",
+        "CAUSE_EFFECT",
+        "LITERARY_INTERPRETATION",
+        "CAUSE_EFFECT"
+      ]
+    },
+    {
+      "id": "MATCH-11547a8ccc531261",
+      "pairs": [
+        {
+          "left": "Conform textului, care este efectul imediat al afirmației că liniștea colibei aduce mai multă fericire decât bogăția?",
+          "right": "Evenimentul EV_001 funcționează ca punct de plecare (cauză/context), iar consecința sa imediată este crearea cadrului narativ pentru momentul următor.",
+          "source_question_id": "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_02"
+        },
+        {
+          "left": "Ce acțiune întreprinde Lică alături de Buză-Ruptă în interiorul hanului de la răscruce când îi vine pofta de joc?",
+          "right": "Lică îl apucă pe Buză-Ruptă, iese din cârciumă și începe să frământe pământul.",
+          "source_question_id": "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_02"
+        },
+        {
+          "left": "Cum evoluează tema iubirii între Ghiță și Ana prin evenimentele din capitolele întâi, al nouălea și al șaptesprezecelea?",
+          "right": "Iuberea inițială, legată de familia și coliba Ana, se erodează sub presiunea autorității și a destinului, culminând cu resignarea lui Ghiță în fața alegerilor imposibile.",
+          "source_question_id": "run-20260822T195623375580Z-b003::LITERARY_INTERPRETATION::LITERARY_01"
+        },
+        {
+          "left": "Ce legătură matrimonială îl unește pe Ghiță cu Ana în contextul capitolului șapte?",
+          "right": "Soție și soț (sunt căsătoriți)",
+          "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_01"
+        },
+        {
+          "left": "Ce semnificație literară are motivul drumului în opera 'Moara cu noroc', având în vedere descrierile geografice și acțiunile personajelor?",
+          "right": "Motivul drumului funcționează ca un simbol al alegerilor morale și al destinului, traversat inițial ca o cale de prosperitate, apoi devenind spațiul unde se desfășoară conspirațiile și pierderea echilibrului familial.",
+          "source_question_id": "run-20260822T200132842616Z-b004::LITERARY_INTERPRETATION::LITERARY_03"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_02",
+        "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_02",
+        "run-20260822T195623375580Z-b003::LITERARY_INTERPRETATION::LITERARY_01",
+        "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_01",
+        "run-20260822T200132842616Z-b004::LITERARY_INTERPRETATION::LITERARY_03"
+      ],
+      "category_ids": [
+        "CAUSE_EFFECT",
+        "NARRATIVE_ACTION",
+        "LITERARY_INTERPRETATION",
+        "CHARACTER_RELATION",
+        "LITERARY_INTERPRETATION"
+      ]
+    },
+    {
+      "id": "MATCH-bb0170b9ebd79fd0",
+      "pairs": [
+        {
+          "left": "Prin ce etape narative este ilustrată escaladarea tensiunii dintre Ghiță și Lică, de la prima întâlnire ascunsă până la confruntarea finală?",
+          "right": "Conflictul evoluează de la o relație de subordonare financiară și teamă spre o rivalitate deschisă, marcată de trădări succesive și culminând cu arestarea lui Lică și ruinarea morală a lui Ghiță.",
+          "source_question_id": "run-20260822T190825824822Z-b001::LITERARY_INTERPRETATION::LITERARY_02"
+        },
+        {
+          "left": "Cum influențează teama Anei de a-și părăsi casa starea sa psihologică și legătura cu copiii în primul capitol?",
+          "right": "Teamă de singurătate și de părăsirea copilăriei determină o stare de vulnerabilitate emoțională, subliniind devotamentul inițial al Anei față de familie.",
+          "source_question_id": "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_02"
+        },
+        {
+          "left": "Ce relație afectivă leagă inițial pe Ghiță de Ana, chiar dacă în scena din Capitolul 7 el caută sprijinul lui Pintea?",
+          "right": "Iubire conjugală și devotament",
+          "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_02"
+        },
+        {
+          "left": "Cine primește drumeții ca pe niște prieteni așteptați în hanul Moara cu noroc?",
+          "right": "Ghiță, Ana și Bătrâna",
+          "source_question_id": "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_01"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::LITERARY_INTERPRETATION::LITERARY_02",
+        "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_02",
+        "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_02",
+        "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_01"
+      ],
+      "category_ids": [
+        "LITERARY_INTERPRETATION",
+        "CAUSE_EFFECT",
+        "CHARACTER_RELATION",
+        "NARRATIVE_ACTION"
+      ]
+    },
+    {
+      "id": "MATCH-72102e4e5ebacd57",
+      "pairs": [
+        {
+          "left": "Ce relație de rivalitate leagă pe Ghiță de Lică Sămădăul în momentul sosirii lui la moară?",
+          "right": "Sunt rivali.",
+          "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_03"
+        },
+        {
+          "left": "Prin ce etape narative evoluează conflictul exterior dintre Ghiță și Lică, iar momentele cheie din capitolele 3, 10 și 17 relevă dinamica fricii și a răzbunării?",
+          "right": "Conflictul începe cu sosirea lui Lică și ascunderea lui Ghiță în capitolul 3, escaladează prin prinderea lui Lică de către Pintea în capitolul 10 și se rezolvă definitiv cu capturarea sa în capitolul 17, evidențiind teama și subordonarea financiară.",
+          "source_question_id": "run-20260822T195104194604Z-b002::LITERARY_INTERPRETATION::LITERARY_02"
+        },
+        {
+          "left": "Ce face Ana când Lică rostește vorbe indirecte în timpul vizitei la han?",
+          "right": "Tresare și se ridică roșită ca bujorul.",
+          "source_question_id": "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_02"
+        },
+        {
+          "left": "Ce eveniment din capitolul 16 determină plecarea lui Ghiță călare la Ineu în capitolul următor?",
+          "right": "Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17.",
+          "source_question_id": "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_01"
+        }
+      ],
+      "source_question_ids": [
+        "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_03",
+        "run-20260822T195104194604Z-b002::LITERARY_INTERPRETATION::LITERARY_02",
+        "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_02",
+        "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_01"
+      ],
+      "category_ids": [
+        "CHARACTER_RELATION",
+        "LITERARY_INTERPRETATION",
+        "NARRATIVE_ACTION",
+        "CAUSE_EFFECT"
+      ]
+    }
+  ]
+}

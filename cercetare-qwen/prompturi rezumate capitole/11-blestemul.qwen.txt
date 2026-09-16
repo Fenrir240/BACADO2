@@ -1,0 +1,56 @@
+# Rezumat factual — Capitolul XI - Blestemul
+
+Ești un verbalizator factual. Transformă numai evenimentele verificate din `GRAPH_PACKET`
+într-un rezumat pentru Bacalaureat. Nu folosi memoria proprie despre roman și nu completa goluri.
+
+## Reguli obligatorii
+
+1. Folosește exclusiv `verified_events`, în ordinea `order`.
+2. Acoperă toate și numai ID-urile din `chapter.verified_event_sequence`.
+3. Nu folosi `excluded_events`; ele sunt păstrate doar pentru audit.
+4. Fiecare propoziție trebuie să aibă unul sau cel mult două `event_ids`.
+5. Pentru fiecare propoziție returnează numai `event_ids`; citatele rămân în packet și sunt
+   asociate local de validator. Nu copia citatele în răspuns.
+6. `fact` este reformularea canonică, iar `provenance.evidence_quote` este dovada primară.
+   Păstrează numai detaliile compatibile cu ambele și preferă formularea mai prudentă dacă
+   citatul susține doar o parte din `fact`.
+7. Nu adăuga cauze, intenții, consecințe, intensificări sau precizări temporale absente
+   din `fact` și din citatul-sursă. Sunt interzise în special cuvinte precum
+   „instantaneu”, „definitiv”, „complet”, „exclusiv” și „singura soluție” dacă nu apar în dovezi.
+8. Nu transforma interpretările simbolice în fapte. Rezumatul conține numai acțiuni și stări narative.
+9. Scrie concis, orientativ 80-220 de cuvinte, în 2-4 paragrafe. Acoperirea factuală are
+   prioritate față de lungime; nu adăuga informații pentru a atinge o limită minimă.
+10. `sentence_text` trebuie să reproducă exact propoziția corespunzătoare din `summary`.
+11. Dacă datele verificate sunt insuficiente, păstrează rezumatul mai scurt și explică în
+    `validation_notes`; nu inventa nimic.
+
+Returnează exclusiv JSON valid:
+
+```json
+{
+  "task": "chapter_summary",
+  "chapter_id": "CH_11",
+  "chapter_title": "Capitolul XI - Blestemul",
+  "status": "generated",
+  "summary": "Rezumatul factual.",
+  "sentence_evidence": [
+    {
+      "sentence_index": 1,
+      "sentence_text": "Propoziția exactă din summary.",
+      "event_ids": ["EV_..."]
+    }
+  ],
+  "coverage": {
+    "covered_event_ids": ["EV_..."],
+    "excluded_event_ids": [],
+    "event_count_expected": 8,
+    "event_count_covered": 8
+  },
+  "style": {"language": "ro", "word_count": 0, "paragraph_count": 0},
+  "validation_notes": []
+}
+```
+
+## GRAPH_PACKET
+
+{"metadata":{"packet_id":"ION-GRAPH2-SUMMARY-11","task":"chapter_summary","source_graph":"cercetare/graf2/knowledge-graph.json","source_graph_version":"5.1","source_graph_sha256":"d5e72342a6eaf448cc20cf49c0160d5ed79890b5491cea2b890785ab8d9c3bb1","language":"ro","compact":true,"chapter_id":"CH_11","chapter_title":"Capitolul XI - Blestemul","source_event_count":8,"verified_event_count":8,"excluded_event_count":0},"usage_rules":{"canonical_scope":"Numai verified_events pot apărea în rezumat.","provenance_rule":"Validatorul asociază local event_ids cu evidence_quote; modelul nu recopiază citatele.","source_support_rule":"O propoziție păstrează numai detaliile compatibile cu fact și evidence_quote.","exclusion_rule":"excluded_events nu se verbalizează.","interpretation_rule":"Rezumatul factual nu folosește teme, simboluri sau motivații deduse."},"chapter":{"id":"CH_11","ordinal":11,"title":"Capitolul XI - Blestemul","part_id":"PART_02","source_event_sequence":["EV_096","EV_097","EV_098","EV_101","EV_099","EV_100","EV_102","EV_103"],"verified_event_sequence":["EV_096","EV_097","EV_098","EV_101","EV_099","EV_100","EV_102","EV_103"],"excluded_event_sequence":[]},"verified_events":[{"id":"EV_096","order":1,"importance":"major","assertion_type":"explicit_fact","fact":"În fața morții Anei, preocuparea lui Ion se îndreaptă rapid spre drepturile asupra averii.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_11","pdf_page":434,"evidence_quote":"Adică prin moartea Anei ar pierde tot şi degeaba s-ar fi luptat, dacă n-ar fi copilul... Adică numai în sufletul copilului ţine averea lui, numai cât ţine sufletul copilului ţine şi moşia... Vru să se uite spre Zenobia cu copilul ar privirea lui Vasile nu -i dădea drumul, şi începu să -l frigă şi să -l sfâşiie, căci într -însa se vedea pe sine însuşi ca într -o oglindă: galben, speriat, tremurând de frica ameninţării... Iar socrul său parcă avea faţa unsă cu un zâmbet batjocoritor de biruinţă.","support_score":0.3}},{"id":"EV_097","order":2,"importance":"major","assertion_type":"explicit_fact","fact":"La scurt timp după moartea Anei, copilul începe să sufere de o boală gravă.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_11","pdf_page":450,"evidence_quote":"Petrişor, culcat pe spate, de-a curmezişul patului, gemea cu ochii închişi lăcrimaţi . În răstimpuri ridica mânuşiţele, le apropia şi le tremura parcă s -ar fi căznit să-şi smulgă o durere mare... Zenobia, la vatră, alegea cărbuni aprinşi, tocmai vrând să-i descânte de deochi; Glanetaşu însă, mai întristat, şedea pe marginea patului, şoşăind: - Taci cu moşul, taci, taci, taci! Ion îşi aruncă tot calabalâcul pe laviţă şi păşi lângă pat.","support_score":0.0}},{"id":"EV_098","order":3,"importance":"medium","assertion_type":"explicit_fact","fact":"Sunt încercate tratamente și descântece pentru vindecarea copilului.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_11","pdf_page":452,"evidence_quote":"Şi de-i deochiat de ochi căprii, şi de-i deochiat de ochi negri şi de-i deochiat de ochi mierii - descântecul din gura mea, leacul de la Dumnezeu!... Picură cu vârful cuţitului câţiva stropi de apă descântată în gura deschisă a copilului, apoi îşi înmuie degetele în ulcică şi -i făcu trei cruci pe frunte, trei pe bărbie, trei pe piept şi câte trei în fiecare talpă... Şi îndată Petrişor încetă de-a mai plânge. Gemu însă greu, cu ochii mari, speriaţi parcă de o vedenie urâtă. - Toţi cărbunii au picat la fund - mormăi Zenobia vărsând dintr-o dată apa din ulcică pe ţâţâna uşii.","support_score":0.3333}},{"id":"EV_101","order":4,"importance":"medium","assertion_type":"explicit_fact","fact":"Cât Petrișor este bolnav, Ion îl întreabă pe Herdelea dacă moartea copilului ar face ca pământurile să se întoarcă la Vasile Baciu.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_11","pdf_page":453,"evidence_quote":"- Rău - făcu Herdelea gânditor. Dacă-i aşa, e rău. - Ş-amu eu rămân iar pe drumuri, nasule, aşa -i?... toate pământurile se întorc înapoi de unde au venit, aşa-i?","support_score":0.25}},{"id":"EV_099","order":5,"importance":"major","assertion_type":"explicit_fact","fact":"Copilul moare, continuând succesiunea pierderilor începută cu Ana.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_11","pdf_page":454,"evidence_quote":"Ion începu de acuma să se gândească la înmormântare, socotind cât va trebui să cheltuiască şi hotărând să-l aşeze lângă Ana, că-i loc mai frumos şi mai larg... Apoi Petrişor se topi ceas cu ceas. A patra zi nu mai avu plâns, ci doar un horcăit aspru, ca şi când tragi cu ferestrăul într-un lemn prea tare... Atunci Ion aduse din Armadia pe doctorul Filipoiu. Când sosi însă cu doctorul, găsi copilul rece.","support_score":0.3333}},{"id":"EV_100","order":6,"importance":"medium","assertion_type":"explicit_fact","fact":"După moarte, Petrișor este înmormântat lângă Ana.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_11","pdf_page":454,"evidence_quote":"Ion începu de acuma să se gândească la înmormântare, socotind cât va trebui să cheltuiască şi hotărând să-l aşeze lângă Ana, că-i loc mai frumos şi mai larg... Apoi Petrişor se topi ceas cu ceas.","support_score":0.6}},{"id":"EV_102","order":7,"importance":"major","assertion_type":"explicit_fact","fact":"După înmormântarea lui Petrișor, Vasile Baciu îi cere lui Ion să-i înapoieze pământurile date Anei și copilului.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_11","pdf_page":455,"evidence_quote":"Să-mi întorci pământul... - Nu-ţi mai strica gura degeaba, socrule, zău -aşa, că doar eşti om bătrân! râse deodată Ion, întrerupându-l. Pe Vasile Baciu râsul îl înfurie.","support_score":0.2727}},{"id":"EV_103","order":8,"importance":"major","assertion_type":"explicit_fact","fact":"Întâlnind-o pe Florica pe câmp, Ion o oprește, o îmbrățișează și îi spune că tot a lui trebuie să fie.","provenance":{"status":"verified_primary","method":"explicit_anchor_terms+primary_text","source_ref":"REF_PDF_CH_11","pdf_page":478,"evidence_quote":"Apoi Ion, brusc ca o fiară, o cuprinse de subţiori şi -i muşcă buzele. Apoi Florica să lăsă pe spate, moale, gemând... - Tot a mea trebuie să fii tu!","support_score":0.2857}}],"excluded_events":[],"validation":{"passed":true,"checks":{"partition_is_exact":true,"verified_sequence_exact":true,"excluded_sequence_exact":true,"all_verified_have_primary_quotes":true,"no_boundary_context":true,"no_graph_noise":true},"verified_event_count":8,"excluded_event_count":0}}

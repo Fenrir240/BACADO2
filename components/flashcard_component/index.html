@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --ink: #153249;
+      --muted: #607789;
+      --teal: #137c80;
+      --teal-dark: #0f656a;
+      --green: #16875f;
+      --green-soft: #e8f7f0;
+      --red: #bd3b4b;
+      --red-soft: #fff0f2;
+      --line: #cfe1dd;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: transparent;
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+    }
+
+    .shell { padding: 6px 4px 14px; }
+    .meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 0 2px 10px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+    .badge {
+      padding: 5px 9px;
+      border: 1px solid #c8dfda;
+      border-radius: 999px;
+      background: #edf7f4;
+      color: var(--teal-dark);
+    }
+
+    .scene { height: 330px; perspective: 1200px; }
+    .card {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      cursor: pointer;
+      transform-style: preserve-3d;
+      transition: transform 560ms cubic-bezier(.2,.72,.2,1);
+    }
+    .card.flipped { transform: rotateY(180deg); }
+    .card:focus-visible { outline: 3px solid rgba(19,124,128,.24); outline-offset: 4px; border-radius: 18px; }
+
+    .face {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 30px 28px;
+      backface-visibility: hidden;
+      box-shadow: 0 18px 42px rgba(27,73,72,.12);
+    }
+    .front { background: linear-gradient(145deg, #ffffff, #f1f9f7); }
+    .back { background: linear-gradient(145deg, #ffffff, #eef5ff); transform: rotateY(180deg); }
+    .eyebrow {
+      margin: 0;
+      color: var(--teal-dark);
+      font-size: 11px;
+      font-weight: 850;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+    .content {
+      margin: 0;
+      max-width: 700px;
+      font-size: clamp(18px, 2.35vw, 25px);
+      font-weight: 760;
+      line-height: 1.42;
+      text-align: center;
+    }
+    .back .content { font-size: clamp(15px, 1.8vw, 19px); font-weight: 610; line-height: 1.55; }
+    .hint { margin: 0; color: var(--muted); font-size: 12px; font-weight: 650; }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .action {
+      min-height: 46px;
+      border-radius: 10px;
+      font: 800 14px/1 Inter, "Segoe UI", sans-serif;
+      cursor: pointer;
+      transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
+    }
+    .action:hover { transform: translateY(-2px); }
+    .action:disabled { cursor: default; opacity: .58; transform: none; }
+    .wrong { border: 1px solid #e7a5ae; background: var(--red-soft); color: var(--red); box-shadow: 0 4px 0 #e8bdc2; }
+    .correct { border: 1px solid #91cbb2; background: var(--green-soft); color: var(--green); box-shadow: 0 4px 0 #b7ddcb; }
+    .actions[hidden] { display: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .card { transition: none; }
+      .action { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="meta">
+      <span id="category" class="badge">Flashcard</span>
+      <span id="counter"></span>
+    </div>
+    <div class="scene">
+      <button id="card" class="card" type="button" aria-label="Întoarce flashcardul" aria-pressed="false">
+        <section class="face front">
+          <p class="eyebrow">Întrebare</p>
+          <p id="front-content" class="content"></p>
+          <p class="hint">Apasă cardul pentru a vedea răspunsul</p>
+        </section>
+        <section class="face back">
+          <p class="eyebrow">Răspuns-model</p>
+          <p id="back-content" class="content"></p>
+        </section>
+      </button>
+    </div>
+    <div id="actions" class="actions" hidden>
+      <button id="wrong" class="action wrong" type="button">✕ Nu am știut</button>
+      <button id="correct" class="action correct" type="button">✓ Am știut</button>
+    </div>
+  </main>
+
+  <script>
+    const send = (type, data) => window.parent.postMessage({ isStreamlitMessage: true, type, ...data }, "*");
+    const ready = () => send("streamlit:componentReady", { apiVersion: 1 });
+    const shell = document.querySelector(".shell");
+    let lastFrameHeight = 0;
+    const setHeight = () => requestAnimationFrame(() => {
+      const contentHeight = Math.ceil(shell.getBoundingClientRect().height) + 4;
+      const nextHeight = Math.max(455, contentHeight);
+      if (Math.abs(nextHeight - lastFrameHeight) < 1) return;
+      lastFrameHeight = nextHeight;
+      send("streamlit:setFrameHeight", { height: nextHeight });
+    });
+    const setValue = value => send("streamlit:setComponentValue", { value, dataType: "json" });
+
+    const card = document.getElementById("card");
+    const actions = document.getElementById("actions");
+    const wrong = document.getElementById("wrong");
+    const correct = document.getElementById("correct");
+    let args = {};
+    let flipped = false;
+    let submitted = false;
+
+    function flip() {
+      if (submitted) return;
+      flipped = !flipped;
+      card.classList.toggle("flipped", flipped);
+      card.setAttribute("aria-pressed", String(flipped));
+      actions.hidden = !flipped;
+      setHeight();
+    }
+
+    function submit(outcome) {
+      if (submitted || !flipped) return;
+      submitted = true;
+      wrong.disabled = true;
+      correct.disabled = true;
+      setValue({
+        type: "flashcard_outcome",
+        outcome,
+        card_id: args.card_id,
+        event_id: `${Date.now()}_${Math.random().toString(36).slice(2)}`,
+      });
+    }
+
+    card.addEventListener("click", flip);
+    wrong.addEventListener("click", () => submit("wrong"));
+    correct.addEventListener("click", () => submit("correct"));
+
+    function render(nextArgs) {
+      args = nextArgs || {};
+      flipped = false;
+      submitted = false;
+      card.classList.remove("flipped");
+      card.setAttribute("aria-pressed", "false");
+      actions.hidden = true;
+      wrong.disabled = false;
+      correct.disabled = false;
+      document.getElementById("front-content").textContent = args.front || "";
+      document.getElementById("back-content").textContent = args.back || "";
+      const categoryLabels = {
+        SIMPLE_FACT_LOWHOP: "Întrebări simple",
+        CHARACTER_RELATION: "Relații între personaje",
+        NARRATIVE_ACTION: "Acțiune narativă",
+        TEMPORAL_ORDER: "Ordine cronologică",
+        CAUSE_EFFECT: "Cauză și efect",
+        CHARACTER_EVOLUTION: "Evoluția personajelor",
+        LITERARY_INTERPRETATION: "Interpretare literară",
+        CROSS_CHAPTER_COMPARE: "Comparație între capitole",
+      };
+      document.getElementById("category").textContent = categoryLabels[args.category]
+        || String(args.category || "Flashcard").replaceAll("_", " ");
+      document.getElementById("counter").textContent = args.counter || "";
+      setHeight();
+    }
+
+    window.addEventListener("message", event => {
+      if (event.data.type === "streamlit:render") render(event.data.args || {});
+    });
+    new ResizeObserver(setHeight).observe(shell);
+    document.fonts?.ready?.then(setHeight);
+    ready();
+    setHeight();
+  </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --ink: #153249;
+      --muted: #607789;
+      --line: #d7e7e3;
+      --teal: #137c80;
+      --blue: #2767c7;
+      --green: #16875f;
+      --red: #bd3b4b;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; color: var(--ink); background: transparent; font-family: Inter, "Segoe UI", Arial, sans-serif; }
+    .shell {
+      padding: 13px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: linear-gradient(135deg, #fbfefd, #f5f9ff);
+    }
+    .hint { margin: 0 0 12px; color: var(--muted); font-size: 12px; line-height: 1.35; }
+    .exercise-text {
+      padding: 12px;
+      border: 1px solid #dce9e6;
+      border-radius: 10px;
+      background: rgba(255,255,255,.9);
+      font-size: 13px;
+      font-weight: 650;
+      line-height: 2.4;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+    .slot {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 118px;
+      min-height: 36px;
+      margin: 2px 4px;
+      padding: 3px;
+      border: 2px dashed #8ebdb5;
+      border-radius: 8px;
+      vertical-align: middle;
+      background: #f2faf7;
+      transition: border-color 130ms ease, background 130ms ease, box-shadow 130ms ease;
+    }
+    .slot::before { content: "Trage aici"; color: #78958f; font-size: 10px; font-weight: 700; }
+    .slot:has(.chip)::before { display: none; }
+    .slot.target { border-color: var(--blue); background: #eef6ff; box-shadow: 0 0 0 2px rgba(39,103,199,.13); }
+    .slot.correct { border-style: solid; border-color: #77c9a5; background: #edfbf3; }
+    .slot.wrong { border-style: solid; border-color: #e7a5ae; background: #fff4f5; }
+    .bank-wrap { margin-top: 13px; }
+    .bank-title { margin: 0 0 7px; color: var(--muted); font-size: 10px; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+    .bank {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      min-height: 52px;
+      padding: 8px;
+      border: 1px dashed #a9c8c2;
+      border-radius: 10px;
+      background: rgba(232,245,241,.58);
+    }
+    .bank.target { border-color: var(--blue); background: #eef6ff; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      max-width: 100%;
+      min-height: 34px;
+      padding: 7px 10px;
+      border: 1px solid #82b4aa;
+      border-radius: 8px;
+      color: #18485a;
+      background: #fff;
+      box-shadow: 0 3px 8px rgba(30,82,79,.1);
+      cursor: grab;
+      touch-action: none;
+      overflow-wrap: anywhere;
+      font-size: 11px;
+      font-weight: 750;
+      line-height: 1.3;
+      user-select: none;
+    }
+    .chip:active { cursor: grabbing; }
+    .chip.drag-source { opacity: .35; }
+    .chip.ghost {
+      position: fixed;
+      z-index: 9999;
+      margin: 0;
+      opacity: .96;
+      pointer-events: none;
+      transform: rotate(1deg);
+      box-shadow: 0 10px 22px rgba(21,50,73,.22);
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <p class="hint">Trage fiecare răspuns din partea de jos în spațiul potrivit. Îl poți muta apoi în alt spațiu.</p>
+    <section id="exercise-text" class="exercise-text"></section>
+    <section class="bank-wrap">
+      <p class="bank-title">Răspunsuri disponibile</p>
+      <div id="bank" class="bank"></div>
+    </section>
+  </main>
+  <script>
+    const shell = document.querySelector(".shell");
+    const exerciseText = document.getElementById("exercise-text");
+    const bank = document.getElementById("bank");
+    let args = {};
+    let answersById = new Map();
+    let answerOrder = [];
+    let placements = [];
+    let activeChip = null;
+    let activePointerId = null;
+    let originSlot = null;
+    let placementsBeforeDrag = [];
+    let ghost = null;
+    let lastFrameHeight = 0;
+
+    const send = (type, data) => window.parent.postMessage({ isStreamlitMessage: true, type, ...data }, "*");
+    const ready = () => send("streamlit:componentReady", { apiVersion: 1 });
+    const setValue = (value) => send("streamlit:setComponentValue", { value, dataType: "json" });
+    const escapeHtml = (value) => String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
+    const setHeight = () => requestAnimationFrame(() => {
+      const nextHeight = Math.max(180, Math.ceil(shell.getBoundingClientRect().height) + 2);
+      if (Math.abs(nextHeight - lastFrameHeight) < 1) return;
+      lastFrameHeight = nextHeight;
+      send("streamlit:setFrameHeight", { height: nextHeight });
+    });
+
+    function chipMarkup(answerId, sourceSlot = "") {
+      const answer = answersById.get(answerId);
+      if (!answer) return "";
+      return `<span class="chip" data-id="${escapeHtml(answerId)}" data-source-slot="${sourceSlot}">${escapeHtml(answer.label)}</span>`;
+    }
+
+    function emitPlacements() {
+      setValue({
+        type: "placements_changed",
+        event_id: `${Date.now()}_${Math.random().toString(36).slice(2)}`,
+        placements: [...placements],
+      });
+    }
+
+    function moveGhost(event) {
+      if (!ghost) return;
+      ghost.style.left = `${event.clientX + 12}px`;
+      ghost.style.top = `${event.clientY + 12}px`;
+    }
+
+    function highlightTarget(event) {
+      document.querySelectorAll(".slot, .bank").forEach(node => node.classList.remove("target"));
+      const target = document.elementFromPoint(event.clientX, event.clientY);
+      target?.closest(".slot, .bank")?.classList.add("target");
+    }
+
+    function finishChipDrag(event, cancelled = false) {
+      if (!activeChip || event.pointerId !== activePointerId) return;
+      try { activeChip.releasePointerCapture(activePointerId); } catch (_) {}
+      const answerId = activeChip.dataset.id;
+      const target = cancelled ? null : document.elementFromPoint(event.clientX, event.clientY);
+      const targetSlot = target?.closest(".slot");
+      const targetBank = target?.closest(".bank");
+      let next = [...placementsBeforeDrag];
+
+      if (targetSlot || targetBank) {
+        if (originSlot !== null) next[originSlot] = null;
+        if (targetSlot) {
+          const targetIndex = Number(targetSlot.dataset.index);
+          const displaced = next[targetIndex];
+          next[targetIndex] = answerId;
+          if (displaced && originSlot !== null && originSlot !== targetIndex) {
+            next[originSlot] = displaced;
+          }
+        }
+      }
+
+      activeChip.classList.remove("drag-source");
+      ghost?.remove();
+      document.querySelectorAll(".slot, .bank").forEach(node => node.classList.remove("target"));
+      activeChip = null;
+      activePointerId = null;
+      originSlot = null;
+      ghost = null;
+      const changed = JSON.stringify(next) !== JSON.stringify(placements);
+      placements = next;
+      render({ ...args, placements });
+      if (changed) emitPlacements();
+    }
+
+    function bindChips() {
+      document.querySelectorAll(".chip:not(.ghost)").forEach(chip => {
+        chip.addEventListener("pointerdown", event => {
+          if (event.button !== 0 && event.pointerType === "mouse") return;
+          event.preventDefault();
+          activeChip = chip;
+          activePointerId = event.pointerId;
+          originSlot = chip.dataset.sourceSlot === "" ? null : Number(chip.dataset.sourceSlot);
+          placementsBeforeDrag = [...placements];
+          chip.classList.add("drag-source");
+          chip.setPointerCapture(event.pointerId);
+          ghost = chip.cloneNode(true);
+          ghost.classList.remove("drag-source");
+          ghost.classList.add("ghost");
+          ghost.style.width = `${Math.min(chip.getBoundingClientRect().width, 360)}px`;
+          document.body.appendChild(ghost);
+          moveGhost(event);
+        });
+        chip.addEventListener("pointermove", event => {
+          if (!activeChip || event.pointerId !== activePointerId) return;
+          event.preventDefault();
+          moveGhost(event);
+          highlightTarget(event);
+        });
+        chip.addEventListener("pointerup", event => finishChipDrag(event, false));
+        chip.addEventListener("pointercancel", event => finishChipDrag(event, true));
+      });
+    }
+
+    function render(nextArgs) {
+      args = nextArgs || {};
+      const answerItems = Array.isArray(args.answers) ? args.answers : [];
+      answersById = new Map(answerItems.map(item => [String(item.id), item]));
+      answerOrder = answerItems.map(item => String(item.id));
+      const blankCount = String(args.text || "").split("____").length - 1;
+      const requested = Array.isArray(args.placements) ? args.placements : [];
+      placements = Array.from({ length: blankCount }, (_, index) => {
+        const value = requested[index];
+        return value !== null && answersById.has(String(value)) ? String(value) : null;
+      });
+      const feedback = args.feedback || {};
+      const segments = String(args.text || "").split("____");
+      exerciseText.innerHTML = segments.map((segment, index) => {
+        const slot = index < blankCount
+          ? `<span class="slot ${feedback[`slot_${index}`] === true ? "correct" : feedback[`slot_${index}`] === false ? "wrong" : ""}" data-index="${index}">${placements[index] ? chipMarkup(placements[index], index) : ""}</span>`
+          : "";
+        return `${escapeHtml(segment)}${slot}`;
+      }).join("");
+      const placed = new Set(placements.filter(Boolean));
+      bank.innerHTML = answerOrder.filter(id => !placed.has(id)).map(id => chipMarkup(id)).join("");
+      bindChips();
+      setHeight();
+    }
+
+    window.addEventListener("message", event => {
+      if (event.data.type === "streamlit:render") render(event.data.args || {});
+    });
+    new ResizeObserver(setHeight).observe(shell);
+    document.fonts?.ready?.then(setHeight);
+    ready();
+  </script>
+</body>
+</html>

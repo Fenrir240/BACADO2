@@ -1,0 +1,1314 @@
+{
+  "version": 1,
+  "work_id": "moara_cu_noroc",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "exercise_type": "multiple_choice",
+  "source": {
+    "question_bank": "data/generated_works/moara_cu_noroc/testare-rapida/questions.json",
+    "knowledge_graph": "data/generated_works/moara_cu_noroc/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "SIMPLE_FACT_LOWHOP",
+    "CHARACTER_RELATION",
+    "NARRATIVE_ACTION",
+    "CAUSE_EFFECT"
+  ],
+  "exercise_count": 48,
+  "skipped_count": 0,
+  "skipped": [],
+  "exercises": [
+    {
+      "id": "MCQ-ae0de238cd868880",
+      "question": "În ce loc se desfășoară evenimentul central din primul capitol al operei?",
+      "options": [
+        "Arad",
+        "Biserica de la Fundureni",
+        "Crângul și răchitele",
+        "Moara cu noroc"
+      ],
+      "answer": "Moara cu noroc",
+      "answer_node_ids": [
+        "LOC_MOARA"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T190825824822Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "LOC_MOARA",
+        "EV_001"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-5c0e9675ba2b7daf",
+      "question": "Care este relația matrimonială dintre Ghiță și Ana în timpul discuției lor despre viitorul familiei?",
+      "options": [
+        "Soți",
+        "Sunt soț și soție.",
+        "Opoziție și conflict de interese",
+        "Se iubesc."
+      ],
+      "answer": "Sunt soț și soție.",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-de894e6b3b61f1b1",
+      "question": "Cine simte spaimă la gândul părăsirii colibei în primul capitol?",
+      "options": [
+        "Ana",
+        "Arendașul",
+        "Andrei",
+        "Bătrâna"
+      ],
+      "answer": "Ana",
+      "answer_node_ids": [
+        "CHAR_ANA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_ANA",
+        "EV_005",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-895392b3263c0f52",
+      "question": "Ce eveniment din capitolul patru determină apariția stării de meditație profundă a lui Ghiță la începutul capitolului cinci?",
+      "options": [
+        "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.",
+        "Cauza este rostirea binecuvântării de către Bătrână, evenimentul este actul narativ din capitolul 1, iar consecința directă este stabilirea stării finale care închide segmentul capitolului.",
+        "Cauza directă este evenimentul EV_031, care generează consecința imediată reprezentată de evenimentul EV_041.",
+        "Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17."
+      ],
+      "answer": "Cauza directă este evenimentul EV_031, care generează consecința imediată reprezentată de evenimentul EV_041.",
+      "answer_node_ids": [
+        "STATE_CH_04_OPEN",
+        "EV_031",
+        "EV_041"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04",
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "STATE_CH_04_OPEN",
+        "EV_031",
+        "EV_041"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-31ae65d0bad78a7f",
+      "question": "Care este numele soției cârciumarului care participă la acest eveniment din capitolul șase?",
+      "options": [
+        "Andrei",
+        "Arendașul",
+        "Bătrâna",
+        "Ana"
+      ],
+      "answer": "Ana",
+      "answer_node_ids": [
+        "CHAR_ANA"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T190825824822Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_ANA",
+        "EV_057"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-60d1fce6fa4198f1",
+      "question": "Ce relație afectivă leagă pe Ghiță de Ana în timpul scenei de numărare a banilor?",
+      "options": [
+        "Se iubesc.",
+        "Iubire conjugală și devotament",
+        "Ghiță o iubește pe Ana.",
+        "Sunt rivali."
+      ],
+      "answer": "Se iubesc.",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-91956bedc7978f9f",
+      "question": "Ce fac Ana, Bătrâna și copiii când țiganii cântau în al șaselea capitol?",
+      "options": [
+        "Ana",
+        "Ascultă muzica țiganilor la ușa cârciumii.",
+        "Tresare și se ridică roșită ca bujorul.",
+        "Să stea până la primăvară, să își adune averea și să plece departe cu familia."
+      ],
+      "answer": "Ascultă muzica țiganilor la ușa cârciumii.",
+      "answer_node_ids": [
+        "CHAR_ANA",
+        "CHAR_BATRANA",
+        "CHAR_COPII"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_ANA",
+        "CHAR_BATRANA",
+        "CHAR_COPII",
+        "EV_058",
+        "CH_06"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-2f1d7d0adf0f0cf8",
+      "question": "Conform textului, care este efectul imediat al afirmației că liniștea colibei aduce mai multă fericire decât bogăția?",
+      "options": [
+        "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.",
+        "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.",
+        "Evenimentul EV_001 funcționează ca punct de plecare (cauză/context), iar consecința sa imediată este crearea cadrului narativ pentru momentul următor.",
+        "Lanțul începe cu EV_011 (cauza inițială), trece prin EV_021 (evenimentul intermediar) și se încheie cu EV_031 (consecința finală a secvenței)."
+      ],
+      "answer": "Evenimentul EV_001 funcționează ca punct de plecare (cauză/context), iar consecința sa imediată este crearea cadrului narativ pentru momentul următor.",
+      "answer_node_ids": [
+        "EV_001"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_001"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-63e53697414bf9b5",
+      "question": "Ce transformare suferă Ghiță, conform descrierii din evenimentul final al nuvelei?",
+      "options": [
+        "Am trebuinţă de un om ca tine.",
+        "Un fel de prefacere",
+        "În fundul Banatului ori în Ţară",
+        "Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1."
+      ],
+      "answer": "Un fel de prefacere",
+      "answer_node_ids": [
+        "EV_114"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T190825824822Z-b001::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "EV_114"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-bec692bd713801b4",
+      "question": "Ce relație de rivalitate leagă pe Ghiță de Lică Sămădăul în momentul sosirii lui la moară?",
+      "options": [
+        "Rivalitate / opoziție",
+        "Iubire conjugală și devotament",
+        "Sunt rivali.",
+        "Se iubesc."
+      ],
+      "answer": "Sunt rivali.",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-e8dd7b5cfd2f3ed1",
+      "question": "Ce intenție își formează Ghiță în al doisprezecelea capitol la Moara cu noroc?",
+      "options": [
+        "Ana",
+        "Să stea până la primăvară, să își adune averea și să plece departe cu familia.",
+        "Ghiță își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”",
+        "Ghiță, Ana și Bătrâna"
+      ],
+      "answer": "Să stea până la primăvară, să își adune averea și să plece departe cu familia.",
+      "answer_node_ids": [
+        "CHAR_GHITA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T190825824822Z-b001::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "EV_115",
+        "CH_12"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-fcbdad14ebbb59e2",
+      "question": "Cum se leagă prin două etape cauzale descrierea drumului dificil de stabilirea rolului de sămădău și de întâlnirea personajelor?",
+      "options": [
+        "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.",
+        "Lanțul începe cu EV_011 (cauza inițială), trece prin EV_021 (evenimentul intermediar) și se încheie cu EV_031 (consecința finală a secvenței).",
+        "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.",
+        "Evenimentul EV_001 funcționează ca punct de plecare (cauză/context), iar consecința sa imediată este crearea cadrului narativ pentru momentul următor."
+      ],
+      "answer": "Lanțul începe cu EV_011 (cauza inițială), trece prin EV_021 (evenimentul intermediar) și se încheie cu EV_031 (consecința finală a secvenței).",
+      "answer_node_ids": [
+        "EV_011",
+        "EV_021",
+        "EV_031"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T190825824822Z-b001::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_02",
+        "CH_03",
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "EV_011",
+        "EV_021",
+        "EV_031"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "MCQ-0565042d5b2bd1d5",
+      "question": "În ce capitol al nuvelei are loc evenimentul în care Ana își exprimă teama de a rămâne singură?",
+      "options": [
+        "Capitolul 1",
+        "Capitolul 3",
+        "Capitolul 2",
+        "Capitolul 4"
+      ],
+      "answer": "Capitolul 1",
+      "answer_node_ids": [
+        "CH_01"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T195104194604Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CH_01",
+        "EV_005"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-75bb3be03d189de9",
+      "question": "Care este legătura matrimonială dintre Ghiță și Ana în cadrul capitolului al treilea?",
+      "options": [
+        "Sunt rivali direcți.",
+        "Soți",
+        "Se iubesc.",
+        "Sunt soț și soție."
+      ],
+      "answer": "Sunt soț și soție.",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-4abf17edb6aede64",
+      "question": "Cine sugerează să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana?",
+      "options": [
+        "Ghiță propune să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana.",
+        "Bătrâna.",
+        "Ana",
+        "Ascultă muzica țiganilor la ușa cârciumii."
+      ],
+      "answer": "Ghiță propune să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana.",
+      "answer_node_ids": [
+        "CHAR_GHITA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "EV_006",
+        "CHAR_ANA",
+        "LOC_BISERICA"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-a85179ed74cca7ec",
+      "question": "Ce eveniment din capitolul anterior a contribuit la confruntarea dintre Ghiță și Lică în fața judecătorului?",
+      "options": [
+        "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.",
+        "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.",
+        "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.",
+        "Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17."
+      ],
+      "answer": "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.",
+      "answer_node_ids": [
+        "EV_071",
+        "EV_081"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_08",
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "EV_071",
+        "EV_081",
+        "STATE_CH_08_OPEN"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-fcf4b2cb88ffd923",
+      "question": "Care este persoana în vârstă care ascultă cântecul țiganilor alături de Ana și de copii?",
+      "options": [
+        "Andrei",
+        "Arendașul",
+        "Bătrâna",
+        "Ana"
+      ],
+      "answer": "Bătrâna",
+      "answer_node_ids": [
+        "CHAR_BATRANA"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T195104194604Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_BATRANA",
+        "EV_058"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-cde117d12ff47ef9",
+      "question": "Ce sentiment afectiv manifestă Ghiță față de Ana în timpul evenimentelor din capitolul patru?",
+      "options": [
+        "Ghiță o iubește pe Ana.",
+        "Iubire conjugală și devotament",
+        "Se iubesc.",
+        "Iubire / dragoste"
+      ],
+      "answer": "Ghiță o iubește pe Ana.",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-c6d765162f78186d",
+      "question": "Ce acțiune întreprinde Lică alături de Buză-Ruptă în interiorul hanului de la răscruce când îi vine pofta de joc?",
+      "options": [
+        "Se oprește la drumeți și vorbește privind înspre apus.",
+        "Ascultă muzica țiganilor la ușa cârciumii.",
+        "Tresare și se ridică roșită ca bujorul.",
+        "Lică îl apucă pe Buză-Ruptă, iese din cârciumă și începe să frământe pământul."
+      ],
+      "answer": "Lică îl apucă pe Buză-Ruptă, iese din cârciumă și începe să frământe pământul.",
+      "answer_node_ids": [
+        "CHAR_LICA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_LICA",
+        "EV_059",
+        "CHAR_BUZA",
+        "LOC_MOARA"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-9d627042ea751572",
+      "question": "Cum influențează teama Anei de a-și părăsi casa starea sa psihologică și legătura cu copiii în primul capitol?",
+      "options": [
+        "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.",
+        "Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1.",
+        "Lanțul începe cu EV_011 (cauza inițială), trece prin EV_021 (evenimentul intermediar) și se încheie cu EV_031 (consecința finală a secvenței).",
+        "Teamă de singurătate și de părăsirea copilăriei determină o stare de vulnerabilitate emoțională, subliniind devotamentul inițial al Anei față de familie."
+      ],
+      "answer": "Teamă de singurătate și de părăsirea copilăriei determină o stare de vulnerabilitate emoțională, subliniind devotamentul inițial al Anei față de familie.",
+      "answer_node_ids": [
+        "EV_005",
+        "CHAR_ANA"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_005",
+        "CHAR_ANA",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-63822c2012abcd8d",
+      "question": "În ce regiune geografică dorește Ghiță să se stabilească împreună cu familia după ce își va strânge averea?",
+      "options": [
+        "În fundul Banatului ori în Ţară",
+        "Am trebuinţă de un om ca tine.",
+        "Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1.",
+        "Un fel de prefacere"
+      ],
+      "answer": "În fundul Banatului ori în Ţară",
+      "answer_node_ids": [
+        "EV_115"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T195104194604Z-b002::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "EV_115"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-82714d9227a33372",
+      "question": "Ce tip de rivalitate există între Ghiță și Lică în contextul capitolului cinci?",
+      "options": [
+        "Rivalitate / opoziție",
+        "Soție și soț (sunt căsătoriți)",
+        "Sunt rivali direcți.",
+        "Opoziție și conflict de interese"
+      ],
+      "answer": "Sunt rivali direcți.",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T195104194604Z-b002::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-a4114c5d3df282e6",
+      "question": "Ce răspuns oferă Lică în capitolul 12 atunci când i se propune să transporte pe cineva la moara cu noroc?",
+      "options": [
+        "În fundul Banatului ori în Ţară",
+        "Un fel de prefacere",
+        "Lică refuză să-l ducă, declarând că nu i se potrivește acum și are nevoie de un om ca cel întrebat.",
+        "Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1."
+      ],
+      "answer": "Lică refuză să-l ducă, declarând că nu i se potrivește acum și are nevoie de un om ca cel întrebat.",
+      "answer_node_ids": [
+        "EV_120"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T195104194604Z-b002::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "EV_120",
+        "CHAR_LICA",
+        "LOC_MOARA",
+        "CH_12"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-9e18adc1bdc2ed1b",
+      "question": "Ce lanț cauzal leagă percepția Anei asupra lui Lică de recunoașterea ulterioară a compliceilor acestuia de către Ghiță?",
+      "options": [
+        "Vigilența Anei în capitolul șase creează tensiunea narativă care permite executarea planurilor porcarilor în capitolul șapte, culminând cu identificarea lor de către Ghiță în capitolul opt.",
+        "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.",
+        "Mânia lui Ghiță asupra lui Lică (EV_091) contribuie la arestarea complicei (EV_101), care la rândul său deschide calea pentru judecarea lui Lică (EV_111).",
+        "Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17."
+      ],
+      "answer": "Vigilența Anei în capitolul șase creează tensiunea narativă care permite executarea planurilor porcarilor în capitolul șapte, culminând cu identificarea lor de către Ghiță în capitolul opt.",
+      "answer_node_ids": [
+        "EV_051",
+        "EV_061",
+        "EV_071"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T195104194604Z-b002::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_06",
+        "CH_07",
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "EV_051",
+        "EV_061",
+        "EV_071"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "MCQ-89f826cead3aa620",
+      "question": "În ce locație se desfășoară conversația dintre Ana și Ghiță?",
+      "options": [
+        "Drumul de țară",
+        "Crângul și răchitele",
+        "Arad",
+        "Biserica de la Fundureni"
+      ],
+      "answer": "Biserica de la Fundureni",
+      "answer_node_ids": [
+        "LOC_BISERICA"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T195623375580Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "LOC_BISERICA",
+        "EV_006"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-c3c94ba6b1efebb2",
+      "question": "Care este legătura matrimonială dintre Ghiță și Ana în momentul în care ea îl roagă cu stăruință să își pună băiatul călare pe el?",
+      "options": [
+        "Sunt soț și soție.",
+        "Se iubesc.",
+        "Soție și soț (sunt căsătoriți)",
+        "Soți"
+      ],
+      "answer": "Soți",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA",
+        "CH_04"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-0a8ef9d6960c2441",
+      "question": "Cine rostește cuvintele „În ceas bun să fie zis” la începutul poveștii?",
+      "options": [
+        "„Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”",
+        "Bătrâna.",
+        "Ghiță, Ana și Bătrâna",
+        "Ana"
+      ],
+      "answer": "Bătrâna.",
+      "answer_node_ids": [
+        "CHAR_BATRANA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CHAR_BATRANA",
+        "EV_010"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-bf77a55df5e358b7",
+      "question": "Ce eveniment din capitolul 12 contribuie direct la momentul în care Ghiță este numit un om cu multă ură și minte?",
+      "options": [
+        "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.",
+        "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.",
+        "Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17.",
+        "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16."
+      ],
+      "answer": "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.",
+      "answer_node_ids": [
+        "EV_111",
+        "EV_121"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_12",
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_111",
+        "EV_121",
+        "CH_12",
+        "CH_13"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-9063e76fe132dc54",
+      "question": "Cine îl însoțește pe Lică când acesta iese să joace la moară?",
+      "options": [
+        "Arendașul",
+        "Ana",
+        "Andrei",
+        "Buză-Ruptă"
+      ],
+      "answer": "Buză-Ruptă",
+      "answer_node_ids": [
+        "CHAR_BUZA"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T195623375580Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_BUZA",
+        "EV_059"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-98e4ba8c166e0c57",
+      "question": "Ce relație afectivă leagă inițial pe Ghiță de Ana, chiar dacă în scena din Capitolul 7 el caută sprijinul lui Pintea?",
+      "options": [
+        "Iubire conjugală și devotament",
+        "Ghiță o iubește pe Ana.",
+        "Sunt rivali.",
+        "Se iubesc."
+      ],
+      "answer": "Iubire conjugală și devotament",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-2ea19bed359d6816",
+      "question": "Ce face Ana când Lică rostește vorbe indirecte în timpul vizitei la han?",
+      "options": [
+        "„Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”",
+        "Se oprește la drumeți și vorbește privind înspre apus.",
+        "Ascultă muzica țiganilor la ușa cârciumii.",
+        "Tresare și se ridică roșită ca bujorul."
+      ],
+      "answer": "Tresare și se ridică roșită ca bujorul.",
+      "answer_node_ids": [
+        "CHAR_ANA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_ANA",
+        "EV_060",
+        "CH_06"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-b6fef945f957cf71",
+      "question": "Care este consecința imediată a discuției dintre Ana și Ghiță privind menținerea atelierei de cizme?",
+      "options": [
+        "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.",
+        "Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1.",
+        "Evenimentul EV_001 funcționează ca punct de plecare (cauză/context), iar consecința sa imediată este crearea cadrului narativ pentru momentul următor.",
+        "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică."
+      ],
+      "answer": "Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1.",
+      "answer_node_ids": [
+        "EV_006"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_006",
+        "CH_01"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-522af023d715f8f7",
+      "question": "Ce afirmă Lică în momentul în care refuză o propunere?",
+      "options": [
+        "Am trebuinţă de un om ca tine.",
+        "Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1.",
+        "În fundul Banatului ori în Ţară",
+        "Un fel de prefacere"
+      ],
+      "answer": "Am trebuinţă de un om ca tine.",
+      "answer_node_ids": [
+        "EV_120"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T195623375580Z-b003::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "EV_120"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-4eeca8dde009dd5e",
+      "question": "În ce constă rivalitatea dintre Ghiță și Lică în contextul discuției tensionate din Capitolul 3?",
+      "options": [
+        "Sunt rivali direcți.",
+        "Rivalitate / opoziție",
+        "Opoziție și conflict de interese",
+        "Ghiță o iubește pe Ana."
+      ],
+      "answer": "Opoziție și conflict de interese",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA",
+        "CH_03"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-df07aa594fca420d",
+      "question": "Ce propoziție rostește Ghiță în timpul discuției din Capitolul 13 al nuvelei?",
+      "options": [
+        "Să stea până la primăvară, să își adune averea și să plece departe cu familia.",
+        "Ghiță își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”",
+        "„Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”",
+        "Tresare și se ridică roșită ca bujorul."
+      ],
+      "answer": "„Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”",
+      "answer_node_ids": [
+        "CHAR_GHITA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T195623375580Z-b003::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "EV_121",
+        "CH_13"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-be652173b839ff70",
+      "question": "Cum se leagă reacția lui Ghiță față de Lică din capitolul 10 de procesul acestuia din capitolul 12 printr-un lanț cauzal?",
+      "options": [
+        "Mânia lui Ghiță asupra lui Lică (EV_091) contribuie la arestarea complicei (EV_101), care la rândul său deschide calea pentru judecarea lui Lică (EV_111).",
+        "Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17.",
+        "Vigilența Anei în capitolul șase creează tensiunea narativă care permite executarea planurilor porcarilor în capitolul șapte, culminând cu identificarea lor de către Ghiță în capitolul opt.",
+        "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16."
+      ],
+      "answer": "Mânia lui Ghiță asupra lui Lică (EV_091) contribuie la arestarea complicei (EV_101), care la rândul său deschide calea pentru judecarea lui Lică (EV_111).",
+      "answer_node_ids": [
+        "EV_091",
+        "EV_101",
+        "EV_111"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T195623375580Z-b003::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_10",
+        "CH_11",
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "EV_091",
+        "EV_101",
+        "EV_111",
+        "CH_10",
+        "CH_11",
+        "CH_12"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "MCQ-49b5551a297544cc",
+      "question": "În ce capitol al nuvelei are loc scena în care Bătrâna rostește cuvântul de bine?",
+      "options": [
+        "Capitolul 4",
+        "Capitolul 3",
+        "Capitolul 2",
+        "Capitolul 1"
+      ],
+      "answer": "Capitolul 1",
+      "answer_node_ids": [
+        "CH_01"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T200132842616Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "CH_01",
+        "EV_010"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-37115afdc3d4409e",
+      "question": "Ce legătură matrimonială îl unește pe Ghiță cu Ana în contextul capitolului șapte?",
+      "options": [
+        "Sunt rivali direcți.",
+        "Soți",
+        "Soție și soț (sunt căsătoriți)",
+        "Rivalitate / opoziție"
+      ],
+      "answer": "Soție și soț (sunt căsătoriți)",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-f06d7c0fb1ba9076",
+      "question": "Cine primește drumeții ca pe niște prieteni așteptați în hanul Moara cu noroc?",
+      "options": [
+        "Ana",
+        "Ghiță, Ana și Bătrâna",
+        "Ghiță își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”",
+        "Să stea până la primăvară, să își adune averea și să plece departe cu familia."
+      ],
+      "answer": "Ghiță, Ana și Bătrâna",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA",
+        "CHAR_BATRANA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_01",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA",
+        "CHAR_BATRANA",
+        "EV_016",
+        "LOC_MOARA",
+        "CH_02"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-66d20fc61219eb0a",
+      "question": "Ce eveniment din capitolul 16 determină plecarea lui Ghiță călare la Ineu în capitolul următor?",
+      "options": [
+        "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.",
+        "Evenimentul EV_001 funcționează ca punct de plecare (cauză/context), iar consecința sa imediată este crearea cadrului narativ pentru momentul următor.",
+        "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.",
+        "Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17."
+      ],
+      "answer": "Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17.",
+      "answer_node_ids": [
+        "EV_151",
+        "EV_161"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_16",
+        "CH_17"
+      ],
+      "evidence_node_ids": [
+        "EV_151",
+        "EV_161",
+        "CH_16",
+        "CH_17"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-c4776ee1f315d87f",
+      "question": "Cine participă împreună cu Lică și Bătrâna în momentul în care Ana tresare roșită?",
+      "options": [
+        "Ana",
+        "Arendașul",
+        "Bătrâna",
+        "Andrei"
+      ],
+      "answer": "Ana",
+      "answer_node_ids": [
+        "CHAR_ANA"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T200132842616Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_ANA",
+        "EV_060"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-e5d1c7a447175a0c",
+      "question": "Ce sentiment afectiv leagă pe Ghiță de Ana atunci când acesta anunță plecarea la Ineu?",
+      "options": [
+        "Iubire / dragoste",
+        "Se iubesc.",
+        "Iubire conjugală și devotament",
+        "Ghiță o iubește pe Ana."
+      ],
+      "answer": "Iubire / dragoste",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_ANA"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-d9f723c0a1d58f14",
+      "question": "Ce face Lică la drumeți în pădurea de la Fundureni în timpul schimbării vremii?",
+      "options": [
+        "Ghiță își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”",
+        "Se oprește la drumeți și vorbește privind înspre apus.",
+        "Tresare și se ridică roșită ca bujorul.",
+        "„Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”"
+      ],
+      "answer": "Se oprește la drumeți și vorbește privind înspre apus.",
+      "answer_node_ids": [
+        "CHAR_LICA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_02",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_LICA",
+        "EV_061",
+        "LOC_FUNDURENI",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-54a222c66fc01087",
+      "question": "Care este efectul imediat al binecuvântării Bătrânei de la începutul nuvelei asupra derulării narative?",
+      "options": [
+        "Cauza directă este evenimentul EV_031, care generează consecința imediată reprezentată de evenimentul EV_041.",
+        "Cauza este rostirea binecuvântării de către Bătrână, evenimentul este actul narativ din capitolul 1, iar consecința directă este stabilirea stării finale care închide segmentul capitolului.",
+        "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.",
+        "Evenimentul EV_001 funcționează ca punct de plecare (cauză/context), iar consecința sa imediată este crearea cadrului narativ pentru momentul următor."
+      ],
+      "answer": "Cauza este rostirea binecuvântării de către Bătrână, evenimentul este actul narativ din capitolul 1, iar consecința directă este stabilirea stării finale care închide segmentul capitolului.",
+      "answer_node_ids": [
+        "EV_010",
+        "STATE_CH_01_CLOSE"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_010",
+        "STATE_CH_01_CLOSE",
+        "CH_01",
+        "CHAR_BATRANA"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-4de7dcce2340c54b",
+      "question": "Unde se desfășoară dialogul în care Ghiță este numit om cu multă ură în suflet?",
+      "options": [
+        "Moara cu noroc",
+        "Arad",
+        "Biserica de la Fundureni",
+        "Crângul și răchitele"
+      ],
+      "answer": "Moara cu noroc",
+      "answer_node_ids": [
+        "LOC_MOARA"
+      ],
+      "category_id": "SIMPLE_FACT_LOWHOP",
+      "source_question_id": "run-20260822T200132842616Z-b004::SIMPLE_FACT_LOWHOP::SIMPLE_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "LOC_MOARA",
+        "EV_121"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-2886f6c8a157676f",
+      "question": "Ce relație de rivalitate se stabilește între Ghiță și Lică în contextul capitolului patru?",
+      "options": [
+        "Soție și soț (sunt căsătoriți)",
+        "Rivalitate / opoziție",
+        "Sunt rivali.",
+        "Sunt rivali direcți."
+      ],
+      "answer": "Rivalitate / opoziție",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA"
+      ],
+      "category_id": "CHARACTER_RELATION",
+      "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_RELATION::REL_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-9d3cb28e530a3ad5",
+      "question": "Ce conflict izbucnește între Ghiță și Lică în hanul Moara cu noroc în Capitolul 13?",
+      "options": [
+        "Ghiță, Ana și Bătrâna",
+        "Ghiță își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”",
+        "Să stea până la primăvară, să își adune averea și să plece departe cu familia.",
+        "„Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”"
+      ],
+      "answer": "Ghiță își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”",
+      "answer_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA"
+      ],
+      "category_id": "NARRATIVE_ACTION",
+      "source_question_id": "run-20260822T200132842616Z-b004::NARRATIVE_ACTION::ACTION_03",
+      "difficulty": 1,
+      "chapter_ids": [
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA",
+        "EV_122",
+        "LOC_MOARA",
+        "CH_13"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "MCQ-da04b641b802f2eb",
+      "question": "Cum contribuie visul lui Ghiță din capitolul 14 la desfășurarea evenimentelor din capitolele 15 și 16?",
+      "options": [
+        "Lanțul începe cu EV_011 (cauza inițială), trece prin EV_021 (evenimentul intermediar) și se încheie cu EV_031 (consecința finală a secvenței).",
+        "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.",
+        "Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.",
+        "Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte."
+      ],
+      "answer": "Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.",
+      "answer_node_ids": [
+        "EV_131",
+        "EV_141",
+        "EV_151"
+      ],
+      "category_id": "CAUSE_EFFECT",
+      "source_question_id": "run-20260822T200132842616Z-b004::CAUSE_EFFECT::CAUSE_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_14",
+        "CH_15",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "EV_131",
+        "EV_141",
+        "EV_151",
+        "CH_14",
+        "CH_15",
+        "CH_16"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    }
+  ]
+}

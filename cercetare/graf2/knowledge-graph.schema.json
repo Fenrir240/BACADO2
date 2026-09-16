@@ -1,0 +1,520 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knowledge-graph.schema.json",
+  "title": "Schema knowledge graph narativ Ion - graful 2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "metadata",
+    "sources",
+    "ontology",
+    "nodes",
+    "edges",
+    "chapters",
+    "reconstruction_profiles",
+    "validation"
+  ],
+  "$defs": {
+    "sourceRefs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "eventAttributes": {
+      "type": "object",
+      "required": [
+        "event_id",
+        "chapter_id",
+        "chapter_order",
+        "global_order",
+        "title",
+        "canonical_description",
+        "participants",
+        "location",
+        "time_context",
+        "preconditions",
+        "causes",
+        "action",
+        "immediate_effects",
+        "long_term_effects",
+        "state_transitions",
+        "motivations",
+        "conflicts",
+        "themes",
+        "importance",
+        "source_refs",
+        "confidence",
+        "simple_narration",
+        "elevated_narration",
+        "simple_transition",
+        "elevated_transition"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string"
+        },
+        "chapter_id": {
+          "type": "string"
+        },
+        "chapter_order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "global_order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical_description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "participants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "location": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time_context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "preconditions": {
+          "type": "array"
+        },
+        "causes": {
+          "type": "array"
+        },
+        "action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "immediate_effects": {
+          "type": "array"
+        },
+        "long_term_effects": {
+          "type": "array"
+        },
+        "state_transitions": {
+          "type": "array"
+        },
+        "motivations": {
+          "type": "array"
+        },
+        "conflicts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "themes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "importance": {
+          "enum": [
+            "major",
+            "medium",
+            "supporting"
+          ]
+        },
+        "source_refs": {
+          "$ref": "#/$defs/sourceRefs"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "simple_narration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "elevated_narration": {
+          "type": "string",
+          "minLength": 1
+        },
+        "simple_transition": {
+          "type": "string"
+        },
+        "elevated_transition": {
+          "type": "string"
+        }
+      }
+    },
+    "node": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "label",
+        "description",
+        "chapter_ids",
+        "importance",
+        "confidence",
+        "assertion_type",
+        "source_refs",
+        "attributes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "enum": [
+            "Work",
+            "Author",
+            "Part",
+            "Chapter",
+            "NarrativeEvent",
+            "NarrativeSubevent",
+            "Character",
+            "CharacterState",
+            "NarrativeState",
+            "Decision",
+            "Motivation",
+            "Action",
+            "Consequence",
+            "Location",
+            "TimeContext",
+            "Object",
+            "Family",
+            "Institution",
+            "SocialGroup",
+            "Relationship",
+            "Conflict",
+            "Theme",
+            "Motif",
+            "Symbol",
+            "Value",
+            "Emotion",
+            "SocialStatus",
+            "NarrativePerspective",
+            "LiteraryTechnique",
+            "Evidence",
+            "SourceFragment",
+            "SourceDocument",
+            "OntologyClass",
+            "LiteraryMovement",
+            "LiteraryTrait"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "chapter_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "importance": {
+          "enum": [
+            "major",
+            "medium",
+            "supporting"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "assertion_type": {
+          "enum": [
+            "explicit_fact",
+            "explicit_motivation",
+            "inferred_motivation",
+            "literary_interpretation",
+            "symbolic_interpretation",
+            "uncertain"
+          ]
+        },
+        "source_refs": {
+          "$ref": "#/$defs/sourceRefs"
+        },
+        "attributes": {
+          "type": "object"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "type"
+            ],
+            "properties": {
+              "type": {
+                "const": "NarrativeEvent"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "attributes": {
+                "$ref": "#/$defs/eventAttributes"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "source",
+        "predicate",
+        "target",
+        "qualifiers",
+        "assertion_type",
+        "source_refs"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "predicate": {
+          "enum": [
+            "instance_of",
+            "subclass_of",
+            "created_by",
+            "part_of",
+            "has_part",
+            "has_chapter",
+            "chapter_of",
+            "occurs_in_chapter",
+            "occurs_at",
+            "occurs_before",
+            "occurs_after",
+            "immediately_precedes",
+            "immediately_follows",
+            "causes",
+            "contributes_to",
+            "enables",
+            "prevents",
+            "motivates",
+            "results_in",
+            "foreshadows",
+            "resolves",
+            "intensifies",
+            "contrasts_with",
+            "parallels",
+            "has_participant",
+            "participates_in",
+            "initiates",
+            "experiences",
+            "observes",
+            "discovers",
+            "communicates_to",
+            "hides_from",
+            "helps",
+            "opposes",
+            "manipulates",
+            "harms",
+            "protects",
+            "loves",
+            "desires",
+            "is_married_to",
+            "is_parent_of",
+            "is_child_of",
+            "is_rival_of",
+            "has_motivation",
+            "has_consequence",
+            "has_state_before",
+            "has_state_after",
+            "changes_state_of",
+            "gains",
+            "loses",
+            "believes",
+            "fears",
+            "decides",
+            "abandons_goal",
+            "adopts_goal",
+            "expresses_theme",
+            "expresses_motif",
+            "symbolizes",
+            "supported_by",
+            "derived_from_source",
+            "has_simple_verbalization",
+            "has_elevated_verbalization",
+            "has_opening_state",
+            "has_closing_state",
+            "documents",
+            "mentions",
+            "has_evidence",
+            "evokes_symbol",
+            "expresses_value",
+            "uses_technique",
+            "belongs_to_literary_movement",
+            "has_characteristic",
+            "exemplifies_characteristic"
+          ]
+        },
+        "target": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qualifiers": {
+          "type": "object"
+        },
+        "assertion_type": {
+          "enum": [
+            "explicit_fact",
+            "explicit_motivation",
+            "inferred_motivation",
+            "literary_interpretation",
+            "symbolic_interpretation",
+            "uncertain"
+          ]
+        },
+        "source_refs": {
+          "$ref": "#/$defs/sourceRefs"
+        }
+      }
+    },
+    "chapter": {
+      "type": "object",
+      "required": [
+        "id",
+        "ordinal",
+        "title",
+        "part_id",
+        "opening_state",
+        "closing_state",
+        "event_sequence",
+        "source_refs"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "ordinal": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 13
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "part_id": {
+          "type": "string"
+        },
+        "opening_state": {
+          "type": "string"
+        },
+        "closing_state": {
+          "type": "string"
+        },
+        "event_sequence": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_refs": {
+          "$ref": "#/$defs/sourceRefs"
+        }
+      }
+    }
+  },
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "title",
+        "work",
+        "author",
+        "language",
+        "version",
+        "generated_at",
+        "canonical_format"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_type",
+          "title",
+          "confidence"
+        ]
+      }
+    },
+    "ontology": {
+      "type": "object",
+      "required": [
+        "node_types",
+        "relationship_types",
+        "assertion_types"
+      ]
+    },
+    "nodes": {
+      "type": "array",
+      "minItems": 200,
+      "maxItems": 300,
+      "items": {
+        "$ref": "#/$defs/node"
+      }
+    },
+    "edges": {
+      "type": "array",
+      "minItems": 300,
+      "items": {
+        "$ref": "#/$defs/edge"
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "minItems": 13,
+      "maxItems": 13,
+      "items": {
+        "$ref": "#/$defs/chapter"
+      }
+    },
+    "reconstruction_profiles": {
+      "type": "object",
+      "minProperties": 4
+    },
+    "validation": {
+      "type": "object"
+    }
+  }
+}

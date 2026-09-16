@@ -1,0 +1,939 @@
+{
+  "version": 1,
+  "work_id": "enigma_otiliei",
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "exercise_type": "chronology",
+  "source": {
+    "question_bank": "data/generated_works/enigma_otiliei/testare-rapida/questions.json",
+    "knowledge_graph": "data/generated_works/enigma_otiliei/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "TEMPORAL_ORDER",
+    "CHARACTER_EVOLUTION"
+  ],
+  "exercise_count": 21,
+  "skipped_count": 0,
+  "skipped": [],
+  "exercises": [
+    {
+      "id": "CHRON-5fb4d0b1574aa013",
+      "instruction_source": "În ce ordine cronologică au loc următoarele întâlniri dintre Felix, Otilia și Pascalopol în Capitolul 4?",
+      "items": [
+        {
+          "event_id": "EV_029",
+          "event": "Felix privi cu aviditate rafturile, lucru ce părea a încânta pe Pascalopol. Otilia pretinse cărți: — Mi-ai făgăduit că-mi dai câteva romane nemțești.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_030",
+          "event": "Domnișoara Otilia, mărturisi Pascalopol lui Felix, e o mare ștrengăriță. Feciorul, care se părea a fi un om de la moșie, mai isteț, îmbrăcat în livrea, îi chemă la ceai, și Felix avu și în sufragerie prilejul să-și dea seama că modestul Pascalopol din strada Antim era acasă la el un om foarte subțire.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_031",
+          "event": "A doua zi, stând turcește pe sofaua ei, Otilia vorbea lui Felix, pe mâinile căruia petrecuse o jumătate de ibrișin: — Mi se pare că nu-ți place Pascalopol. De ce?",
+          "position": 3
+        },
+        {
+          "event_id": "EV_032",
+          "event": "Otilia fu de o veselie nebună și stătu tot timpul la spatele lui Pascalopol, șoptindu-i la ureche și așezându-se pe scaunul lui, spre ciuda cruntă a Aglaei și Aurichii. Lui Felix i se păru din nou că, pe când Otilia pleca puțin capul înspre obrazul lui Pascalopol, acesta și-l apropia de al său, într-un gest de voluptate tactilă.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T133255320706Z-b001::TEMPORAL_ORDER::TEMPORAL_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "EV_029",
+        "EV_030",
+        "EV_031",
+        "EV_032",
+        "CH_04"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "CHRON-e695eb238674ccb8",
+      "instruction_source": "Cum se transformă statutul social și material al Otiliei de la protecția lui Pascalopol în capitolul 9, prin contestarea testamentului din capitolul 11, până la condiția sa finală în capitolul 19?",
+      "items": [
+        {
+          "event_id": "EV_065",
+          "event": "Sau fugea călare de dușmani neidentificați spre păduri care se îndoiau moale până la pământ, ținând în brațe pe Otilia. Generozitatea lui se-ntindea și asupra lui moș Costache, căruia, ruinat, îi oferea un azil, de dragul Otiliei, și chiar asupra lui Pascalopol, pe care-l visa bolnav, senil, readus la viață prin sforțările lui de medic.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_082",
+          "event": "Ce zici de o coală păturită frumos, dictată de Pascalopol, în care moș Costache lasă toată averea iubitei Otilia? Lasă-mă în pace odată, strigă, ieșită din fire, Aglae, lasămă-n pace!",
+          "position": 2
+        },
+        {
+          "event_id": "EV_149",
+          "event": "Asta-i acum, observă Stănică în liber-cugetător, crezi că Dumnezeu stă cu răbojul să ne ție socoteala vieții? Părintele făcu un gest de oroare și amenință pe Stănică cu pumnul: — „Pus-am gurii mele pază, când a stătut păcătosul împotriva mea.“ Marina și Otilia veniră cu proviziile și le întinseră pe masă.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T133255320706Z-b001::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_09",
+        "CH_11",
+        "CH_19"
+      ],
+      "evidence_node_ids": [
+        "CHAR_OTILIA",
+        "CHAR_PASCALOPOL",
+        "CHAR_COSTACHE",
+        "EV_065",
+        "EV_082",
+        "EV_149",
+        "CH_19"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "CHRON-af594b9413dfe8c8",
+      "instruction_source": "Care este succesiunea corectă a convorbirilor purtate între Aurica, Costache, Otilia și Felix în Capitolele 3 și 4?",
+      "items": [
+        {
+          "event_id": "EV_023",
+          "event": "Aurichii îi intră în cap, de la o vreme, că Felix era lipsit în casa lui moș Costache de plăcerile gastronomice ale unei bune gospodării. Eu mă întreb cum poți să stai, se înduioșa Aurica, Otilia nu știe nimic, iar Marina e o leneșă.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_024",
+          "event": "Aurica nu se lasă cu una, cu două, spuse Otilia; în tot cazul, cum nu cred că ai de gând s-o iei de nevastă, îți va păstra o ură eternă. Tot Otilia îi comunică mai târziu că Aurica s-a plâns lui moș Costache că el, Felix, n-a fost cavaler cu ea, că i-a dat brațul în văzul tuturor pe stradă și a intrat de atâtea ori în odaia ei, inducând-o în eroare că ar avea intenții serioase.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_025",
+          "event": "Într-adevăr, puțin după această convorbire, Otilia îl luă pe moș Costache de braț și, plină de gingășii, îl duse în casă „să-i spună ceva“. Întrevederea fu lungă și Felix însuși putu să audă mormăiturile bătrânului și implorările ascuțite ale Otiliei.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_026",
+          "event": "Otilia deveni pentru Felix, încetul cu încetul, adevărata stăpână a casei, căreia îi încredința toate dezideratele lui, evitând pe moș Costache, totdeauna voit bâlbâit și gata să se strecoare printre degete.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T133255320706Z-b001::TEMPORAL_ORDER::TEMPORAL_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_03",
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "EV_023",
+        "EV_024",
+        "EV_025",
+        "EV_026",
+        "CH_03",
+        "CH_04"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "CHRON-f18158da7d6150a4",
+      "instruction_source": "Cum evoluează dinamica relațională a Aglaei de la inițiativa ei de a-i căsători pe copii în capitolul 5, prin reacția la vestea căsătoriei lui Titi din capitolul 8, până la opoziția față de nuntă în capitolul 9?",
+      "items": [
+        {
+          "event_id": "EV_034",
+          "event": "Poate o să vrea domnul Pascalopol, zise Aglae, să încerce să-ți găsească ceva, cum are dumnealui relații... Simion, Aurica, Olimpia și Stănică întoarseră automat capul spre Pascalopol, ca și cum din partea lui venea o propunere precisă.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_064",
+          "event": "Ea însă nu vorbea cu Aglae, așa că rolul de vestitor al comediei căzu asupra lui Felix. Când acesta spuse că Titi s-a căsătorit, Aglae nu vru să creadă și i se păru că Felix face o glumă.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_072",
+          "event": "Însă tanti Aglae n-a putut-o suferi pe mama și n-ar fi voit ca moș Costache să se însoare, și încă cu o femeie cu copii din altă căsătorie. Papa ține grozav la copii, în felul lui, repet, și ei toți își puseseră nădejdea că va crește pe Titi et Co.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T133255320706Z-b001::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_05",
+        "CH_08",
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "CHAR_AGLAE",
+        "CHAR_SIMION",
+        "EV_034",
+        "CH_05",
+        "EV_064",
+        "STATE_CH_08_CLOSE",
+        "EV_072"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "CHRON-3ef9a138226023b9",
+      "instruction_source": "În ce ordine apar următoarele momente din viața lui Felix, Otilia și Pascalopol până la sosirea Olimpiei?",
+      "items": [
+        {
+          "event_id": "EV_028",
+          "event": "Astfel se făcu că într-o după-amiaza, Felix și Otilia, așezați în larga trăsură, străbăteau Calea Victoriei de la capătul dinspre Dâmbovița până în apropiere de Biserica Albă. Aci se coborâră în fața unei clădiri cam fumurii, numai cu două caturi, dar înalte, în gangul căreia intrară.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_029",
+          "event": "Felix privi cu aviditate rafturile, lucru ce părea a încânta pe Pascalopol. Otilia pretinse cărți: — Mi-ai făgăduit că-mi dai câteva romane nemțești.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_030",
+          "event": "Domnișoara Otilia, mărturisi Pascalopol lui Felix, e o mare ștrengăriță. Feciorul, care se părea a fi un om de la moșie, mai isteț, îmbrăcat în livrea, îi chemă la ceai, și Felix avu și în sufragerie prilejul să-și dea seama că modestul Pascalopol din strada Antim era acasă la el un om foarte subțire.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_031",
+          "event": "A doua zi, stând turcește pe sofaua ei, Otilia vorbea lui Felix, pe mâinile căruia petrecuse o jumătate de ibrișin: — Mi se pare că nu-ți place Pascalopol. De ce?",
+          "position": 4
+        },
+        {
+          "event_id": "EV_032",
+          "event": "Otilia fu de o veselie nebună și stătu tot timpul la spatele lui Pascalopol, șoptindu-i la ureche și așezându-se pe scaunul lui, spre ciuda cruntă a Aglaei și Aurichii. Lui Felix i se păru din nou că, pe când Otilia pleca puțin capul înspre obrazul lui Pascalopol, acesta și-l apropia de al său, într-un gest de voluptate tactilă.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_033",
+          "event": "Pe la începutul lunii august, după-amiază, Marina aduse de alături vestea că a venit Olimpia cu Stănică. Otilia informă pe Felix: — Asta este cealaltă fată a tantei Aglae, și Stănică e bărbatu-său...",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T133255320706Z-b001::TEMPORAL_ORDER::TEMPORAL_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04",
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "EV_028",
+        "EV_029",
+        "EV_030",
+        "EV_031",
+        "EV_032",
+        "EV_033",
+        "CH_04",
+        "CH_05"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "CHRON-f639347fb36d26d6",
+      "instruction_source": "Cum se degradează obiectivul afectiv al lui Felix de la observatorul pasiv din capitolul 3, prin criza geloziei față de Pascalopol în capitolul 8, până la deziluzia matură din capitolul 11?",
+      "items": [
+        {
+          "event_id": "EV_022",
+          "event": "Într-altă zi, Felix găsi pe Titi așezat pe o bancă, cu o mână în dreptul inimii și aplecat cu bustul peste pântece, ca și când ar fi fost chinuit de o mare durere lăuntrică. Fața îi era tânguitoare, iar Aglae și Aurica ședeau îngrijorate în juru-i, îmbărbătându-l: — Dar n-ai nimic, omul lui Dumnezeu, de unde ți-a mai venit și asta?",
+          "position": 1
+        },
+        {
+          "event_id": "EV_057",
+          "event": "Atunci toate gingășiile ei față de Felix își pierdeau, spre ciuda acestuia, orice semnificație. Dacă Pascalopol intra în chiar clipa când Otilia cosea nasturele lui Felix (lucrul se-ntâmplă o dată), fata nu lăsa lucrul, nici nu-și schimba stilul familiar, dar ochii ei erau iluminați, și, pe dată ce sfârșea, alerga la moșier și începea cu el obișnuitele calinerii.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_086",
+          "event": "Felix lăsă capul în jos, nedându-și seama dacă Georgeta îl ironizează sau crede că Pascalopol îi e unchi, însă în sinea lui îl ocărî cu toată violența pe Stănică...",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T133255320706Z-b001::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_03",
+        "CH_08",
+        "CH_11"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "EV_022",
+        "CH_03",
+        "EV_057",
+        "CHAR_OTILIA",
+        "EV_086",
+        "CH_11"
+      ],
+      "source_run_id": "run-20260822T133255320706Z-b001"
+    },
+    {
+      "id": "CHRON-080f5716a613d034",
+      "instruction_source": "În ce succesiune temporară au avut loc: strigătele lui Pascalopol, predarea buchetului, comentariul despre Aglae și reflexia privind programul izolat?",
+      "items": [
+        {
+          "event_id": "EV_043",
+          "event": "Tropotul, răgetele sugrumate făceau o larmă surdă, în care răsăreau niște urlete sălbatice. Felix și Otilia nu distinseră alt animal; dar Pascalopol, ținând bine caii, care sforăiau, începu să strige: — Măi, care sunteți acolo?",
+          "position": 1
+        },
+        {
+          "event_id": "EV_044",
+          "event": "Când se apropie de brișcă, văzu că, din partea opusă, Pascalopol venea cu un buchet gros, pe care-l depuse apoi în brațele Otiliei. Felix se pregătea să întindă și el pe al său Otiliei, care nu-l vedea, dar un amestec de sentimente îl opri.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_045",
+          "event": "Cocoana Aglae, pe cât am văzut, observă Felix, mai mult râzând, nu are ochi prea buni pentru Otilia, și mi se pare că nici pentru mine. Nu, confirmă Pascalopol, foarte serios.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_046",
+          "event": "Felix mulțumi, rezervându-și să se gândească, însă nu putu să nu remarce că Pascalopol îi făcea un program deosebit, izolat de al Otiliei. Asta îl indispuse, fiindcă aici i se părea locul cel mai bun de a se apropia mai mult de Otilia.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T133903276112Z-b002::TEMPORAL_ORDER::TEMPORAL_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "EV_043",
+        "EV_044",
+        "EV_045",
+        "EV_046",
+        "CH_06"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "CHRON-5a485a63c9cec876",
+      "instruction_source": "Cum evoluează poziția socială și rolul Otiliei în familia Giurgiuveanu-Tulea de la o simplă fetiță cunoscută prin scrisori până la îngrijitoarea autoritară a lui Costache și Felix?",
+      "items": [
+        {
+          "event_id": "EV_002",
+          "event": "Felix nu văzuse pe Costache Giurgiuveanu decât cu mulți ani în urmă, ca copil, și tot atunci o cunoscuse și pe Otilia, care era o simplă fetiță. Dar în fiecare an scria la sărbătorile consacrate și în alte câteva împrejurări „unchiului Costache“, întrebând ce mai face „verișoara Otilia“, iar Otilia scria „unchiului Iosif“, întrebând ce mai face „vărul Felix“.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_076",
+          "event": "Moș Costache, înfundat în țigările lui, n-auzi bine, iar Marina, care tocmai ieșea pe ușă, răspunse enigmatic: — Apoi, Otilia, cum e Otilia! Lui Felix îi veni gust să bată cu pumnul în masă, înciudat de a nu putea afla neted un lucru așa de simplu.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_153",
+          "event": "Misiunea de tovarășă eroică, egală nu era pentru Otilia, care voia să fie socotită copil și să nu întâmpine nici o rezistență. Otiliei îi plăcea să îngrijească pe moș Costache și pe Felix ca pe niște copii și era credincioasă, atâta vreme cât nimeni n-o constrângea.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T133903276112Z-b002::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_10",
+        "CH_20"
+      ],
+      "evidence_node_ids": [
+        "CH_01",
+        "EV_002",
+        "CHAR_OTILIA",
+        "CHAR_FELIX",
+        "EV_076",
+        "EV_153",
+        "CHAR_COSTACHE"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "CHRON-17c7f224b0aa9f1b",
+      "instruction_source": "Care este ordinea cronologică a evenimentelor legate de suspiciuni și reacții: supărarea lui Costache, sfatul lui Pascalopol, intervenția Otiliei și descoperirea scrisorii?",
+      "items": [
+        {
+          "event_id": "EV_055",
+          "event": "Moș Costache se duse supărat în odaia lui, să-și dreagă îmbrăcămintea, iar Otilia veni cu informația că Stănică și doctorul trecuse, prin stradă, în curtea Aglaei. Ceea ce face Stănică mi se pare foarte suspect, spuse Pascalopol către Felix și Otilia.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_056",
+          "event": "Domnul Felix merge des prin casa cocoanei Aglae, n-ar strica să tragă cu urechea. Trebuie să țină și el la dumneata (am văzut eu că ține, nuanță Pascalopol cu o ironie bonomă), cum țiu și eu, și moș Costache...",
+          "position": 2
+        },
+        {
+          "event_id": "EV_057",
+          "event": "Atunci toate gingășiile ei față de Felix își pierdeau, spre ciuda acestuia, orice semnificație. Dacă Pascalopol intra în chiar clipa când Otilia cosea nasturele lui Felix (lucrul se-ntâmplă o dată), fata nu lăsa lucrul, nici nu-și schimba stilul familiar, dar ochii ei erau iluminați, și, pe dată ce sfârșea, alerga la moșier și începea cu el obișnuitele calinerii.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_058",
+          "event": "Când, târziu, ieși, ca un hoț, ușa odăii fetei era deschisă, scrisoarea lipsea de pe masă, iar Otilia era în oraș. Se-ntoarse la masă cu Pascalopol și cu moș Costache, privi pe Felix degajat, se purta ca și când nimic nu se-ntâmplase.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T133903276112Z-b002::TEMPORAL_ORDER::TEMPORAL_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_07",
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "EV_055",
+        "EV_056",
+        "EV_057",
+        "EV_058",
+        "CH_07",
+        "CH_08"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "CHRON-b243179bb770d665",
+      "instruction_source": "Cum se transformă dinamica afectivă și relațională a lui Stănică Rațiu de la un partener pragmatic al Aglaei la un soț copleșit de sentimentalitate față de Olimpia?",
+      "items": [
+        {
+          "event_id": "EV_034",
+          "event": "Poate o să vrea domnul Pascalopol, zise Aglae, să încerce să-ți găsească ceva, cum are dumnealui relații... Simion, Aurica, Olimpia și Stănică întoarseră automat capul spre Pascalopol, ca și cum din partea lui venea o propunere precisă.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_127",
+          "event": "Stănică cumpără prăjituri de la o cofetărie și porni spre casă. Învârtindu-se cu mintea tot în jurul ideii de căsătorie, se înflăcăra de Olimpia.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_128",
+          "event": "Cuprins de un val de sentimentalitate, Stănică se așeză în spatele ei, cu fața spre oglindă, scoase capul mustăcios de după coafura ei și o strânse de mijloc. Olimpia mea scumpă, tot ce văd mă întărește și mai mult în convingerea că nimic nu e mai înalt ca misterul căsătoriei.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T133903276112Z-b002::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_05",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "CHAR_STANICA",
+        "CHAR_OLIMPIA",
+        "EV_034",
+        "CHAR_AGLAE",
+        "EV_127",
+        "EV_128"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "CHRON-0e00abfaf6489ded",
+      "instruction_source": "În ce ordine s-au desfășurat etapele relației dintre Felix, Otilia și Pascalopol: predarea buchetului, comentariul despre Aglae, jocul la heleșteu, urcatul în șură și întâlnirea de toamnă?",
+      "items": [
+        {
+          "event_id": "EV_044",
+          "event": "Când se apropie de brișcă, văzu că, din partea opusă, Pascalopol venea cu un buchet gros, pe care-l depuse apoi în brațele Otiliei. Felix se pregătea să întindă și el pe al său Otiliei, care nu-l vedea, dar un amestec de sentimente îl opri.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_045",
+          "event": "Cocoana Aglae, pe cât am văzut, observă Felix, mai mult râzând, nu are ochi prea buni pentru Otilia, și mi se pare că nici pentru mine. Nu, confirmă Pascalopol, foarte serios.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_046",
+          "event": "Felix mulțumi, rezervându-și să se gândească, însă nu putu să nu remarce că Pascalopol îi făcea un program deosebit, izolat de al Otiliei. Asta îl indispuse, fiindcă aici i se părea locul cel mai bun de a se apropia mai mult de Otilia.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_047",
+          "event": "Felix, atras de nebunia Otiliei, se urcă într-adevăr pe urmele fetei, care se cățărase cu mâinile și cu picioarele. Pascalopol aștepta jos, vădit încurcat, în vreme ce Otilia, cu mâna streașină la ochi, ca un general, făcea de sus observațiuni: — Vai, ce de mai sunt!",
+          "position": 4
+        },
+        {
+          "event_id": "EV_048",
+          "event": "Îmi place Pascalopol, zise ea ca pentru sine, în lume e un om încântător, dar nu vrea să se urce în șură. Otilia își ridicase rochia până la genunchi și înainta pe latura cea mai dulce a heleșteului, îndemnând și pe Felix cu atâta insistență, încât acesta îi făcu pe plac și, descălțându-se, intră și el în apă.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_049",
+          "event": "Când, pe toamnă târziu, Felix, acum student în anul întâi la Medicină, se găsi întâmplător în casa Aglaei, Aurica nu uită să-l atragă în punctul ei de vedere. Nu-mi explic, insinuă ea, cum poți dumneata, un tânăr așa de distins și de familie bună, să ieși pe stradă cu o destrăbălată ca Otilia.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T133903276112Z-b002::TEMPORAL_ORDER::TEMPORAL_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_06",
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "EV_044",
+        "EV_045",
+        "EV_046",
+        "EV_047",
+        "EV_048",
+        "EV_049",
+        "CH_06",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "CHRON-001e8d4c0ae7c22b",
+      "instruction_source": "Ce pași parcurge degradarea morală și iluziile ideale ale lui Felix Sima, de la observatorul inocent al familiei la un participant cinic și dezamăgit de mediul bucureștean?",
+      "items": [
+        {
+          "event_id": "EV_022",
+          "event": "Într-altă zi, Felix găsi pe Titi așezat pe o bancă, cu o mână în dreptul inimii și aplecat cu bustul peste pântece, ca și când ar fi fost chinuit de o mare durere lăuntrică. Fața îi era tânguitoare, iar Aglae și Aurica ședeau îngrijorate în juru-i, îmbărbătându-l: — Dar n-ai nimic, omul lui Dumnezeu, de unde ți-a mai venit și asta?",
+          "position": 1
+        },
+        {
+          "event_id": "EV_061",
+          "event": "Otilia pleda cu atâta tărie cauza lui Pascalopol, încât Felix se îndupleca pentru o zi și se lăsa convins că moșierul vine numai să ocrotească dragostea dintre el și Otilia. Când însă Pascalopol sosea seara, întâmpinat de râsetele vioaie ale fetei, omagiat cu furtuni de execuții la pianoforte, mângâiat, răsplătit cu bucurii naive pentru cel mai mic dar, Felix se întuneca din nou de gelozie și-i ura moșierului o moarte repede.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_086",
+          "event": "Felix lăsă capul în jos, nedându-și seama dacă Georgeta îl ironizează sau crede că Pascalopol îi e unchi, însă în sinea lui îl ocărî cu toată violența pe Stănică...",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T133903276112Z-b002::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_03",
+        "CH_08",
+        "CH_11"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "EV_022",
+        "CHAR_TITI",
+        "EV_061",
+        "EV_086",
+        "CHAR_GEORGETA",
+        "CHAR_PASCALOPOL"
+      ],
+      "source_run_id": "run-20260822T133903276112Z-b002"
+    },
+    {
+      "id": "CHRON-c245bf25d47c1905",
+      "instruction_source": "În ce ordine cronologică au loc jocul de zaruri, întâlnirea cu Pascalopol, aprinderea țigărilor la masă și reacția lui Felix la familiaritatea Otiliei?",
+      "items": [
+        {
+          "event_id": "EV_003",
+          "event": "Pascalopol, se recomandă el cu o ceremonie care trăda creșterea lui aleasă, reținând ceva mai mult mâna tânărului într-a sa, spre a-l examina. Îl privi fără excesivă cordialitate, chiar cu oarecare umbră de ironie îndepărtată, însă cu o politețe grabnică, respectuoasă: — Va să zică dumneata ești Felix de care ne-a vorbit atâta domnișoara Otilia!",
+          "position": 1
+        },
+        {
+          "event_id": "EV_004",
+          "event": "Pascalopol își mușcă puțin buza de sus, cam schimbat la față, dar, lovind zarurile, răspunse conciliant: — Așa ești dumneata, cocoană Aglae, malițioasă. Otilia sărise acum de pe scaunul lui moș Costache pe acela al lui Pascalopol, pendulându-și și aici piciorul.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_005",
+          "event": "Însă Otilia nu făcea nici un gest care să pară îndrăzneț, nu scotea nici o vorbă nechibzuită. Totuși, pe Felix, familiaritatea ei, oricât de copilărească, cu Pascalopol îl nemulțumi.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_006",
+          "event": "Otilia trase un chibrit pe grătarul unei chibritelnițe și îi aprinse țigara. Aglae vru și ea una, însă numai de la Pascalopol, care i-o oferi cu obișnuita grabă; Costache se mulțumi cu un noduros fabricat propriu.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T134456134455Z-b003::TEMPORAL_ORDER::TEMPORAL_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_003",
+        "EV_004",
+        "EV_005",
+        "EV_006"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "CHRON-0c6e0f29ee059d3d",
+      "instruction_source": "Cum se transformă poziția socială și relațională a Otiliei de la copilăria în umbra lui Felix și Costache, prin rivalitatea cu Pascalopol, până la rolul ei de îngrijitoare dependentă în capitolul 20?",
+      "items": [
+        {
+          "event_id": "EV_002",
+          "event": "Felix nu văzuse pe Costache Giurgiuveanu decât cu mulți ani în urmă, ca copil, și tot atunci o cunoscuse și pe Otilia, care era o simplă fetiță. Dar în fiecare an scria la sărbătorile consacrate și în alte câteva împrejurări „unchiului Costache“, întrebând ce mai face „verișoara Otilia“, iar Otilia scria „unchiului Iosif“, întrebând ce mai face „vărul Felix“.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_065",
+          "event": "Sau fugea călare de dușmani neidentificați spre păduri care se îndoiau moale până la pământ, ținând în brațe pe Otilia. Generozitatea lui se-ntindea și asupra lui moș Costache, căruia, ruinat, îi oferea un azil, de dragul Otiliei, și chiar asupra lui Pascalopol, pe care-l visa bolnav, senil, readus la viață prin sforțările lui de medic.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_153",
+          "event": "Misiunea de tovarășă eroică, egală nu era pentru Otilia, care voia să fie socotită copil și să nu întâmpine nici o rezistență. Otiliei îi plăcea să îngrijească pe moș Costache și pe Felix ca pe niște copii și era credincioasă, atâta vreme cât nimeni n-o constrângea.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T135119780700Z-b004::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_09",
+        "CH_20"
+      ],
+      "evidence_node_ids": [
+        "CHAR_OTILIA",
+        "EV_002",
+        "CHAR_FELIX",
+        "EV_065",
+        "CHAR_PASCALOPOL",
+        "EV_153",
+        "CHAR_COSTACHE",
+        "CH_01",
+        "CH_09",
+        "CH_20"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "CHRON-f8407a915d37dc58",
+      "instruction_source": "Care este succesiunea corectă a vizitei la tablourile familiei, a cinei improvizate din grădină, a veștii despre boala lui Simion și a convorbirii în șoaptă cu Otilia?",
+      "items": [
+        {
+          "event_id": "EV_015",
+          "event": "Fu chemată, la cererea lui Pascalopol, și Aglae, care sosi pe o portiță dindărătul casei, însoțită de Aurica și de Simion, cu broboada pe el și cu ghergheful în mână. La lumina unei lămpi atârnate de grinda chioșcului, începu o cină improvizată, la care fu invitat și Felix și la care se ilustrară prin lăcomie moș Costache, Aglae și Simion.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_016",
+          "event": "Conversația de jos și incidentul cu pianul o indispusese probabil, și acum se refugiase aici, fără să iasă din raza lui Pascalopol. Zărind pe Felix, Otilia îl chemă în șoaptă.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_017",
+          "event": "În ziua următoare, Felix nu merse în casa Aglaei, fiindcă Marina aduse știrea că Simion e „rău“. Otilia lămuri lui Felix într-un chip foarte vag cum stau lucrurile, cu o discrețiune care se dovedi mai târziu felul ei propriu de a fi, afară de clipele de umoare sarcastică.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_018",
+          "event": "Felix fu purtat apoi prin fața tablourilor, care, precum i se spuse, erau opera lui Simion și a lui Titi. Simion avea numai câteva și începu să le arate cu degetul către Felix, căutându-i cu insistență aprobarea pe față.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T134456134455Z-b003::TEMPORAL_ORDER::TEMPORAL_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_02",
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "EV_015",
+        "EV_016",
+        "EV_017",
+        "EV_018"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "CHRON-2a99020b249cd1a5",
+      "instruction_source": "Cum evoluează dinamica afectivă și relațională a Aglaei Tulea de la tensiunea cu Pascalopol și Otilia, prin izolarea față de Simion bolnav, până la haosul familial din capitolul 20?",
+      "items": [
+        {
+          "event_id": "EV_004",
+          "event": "Pascalopol își mușcă puțin buza de sus, cam schimbat la față, dar, lovind zarurile, răspunse conciliant: — Așa ești dumneata, cocoană Aglae, malițioasă. Otilia sărise acum de pe scaunul lui moș Costache pe acela al lui Pascalopol, pendulându-și și aici piciorul.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_068",
+          "event": "Felix, trimis de moș Costache să vadă cum se află Simion, care se văieta din nou că e bolnav, avu impresia că Aglae nu știa nimic de proiectul lui Pascalopol. „Poate, își zicea el, Aglae se dezinteresează de această chestiune, în care, de fapt, nici n-are vreun drept să se amestece, ori, în sfârșit, este prea preocupată de boala lui Simion.“ Într-adevăr, bătrânul, trecând cu iuțeală hipocondrică de la o ipoteză la alta, părea totuși bolnav cu adevărat.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_154",
+          "event": "Cu o singură mână, greoi, își pipăi mijlocul, și apoi șopti: — Pascalopol! Felix abia avu timp să-i explice Otiliei că bătrânul voia să aibă alături pe moșier, că odaia se și umplu de Aglae, Stănică, Olimpia, Aurica, Titi și Marina.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T135119780700Z-b004::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_09",
+        "CH_20"
+      ],
+      "evidence_node_ids": [
+        "CHAR_AGLAE",
+        "EV_004",
+        "CHAR_PASCALOPOL",
+        "CHAR_OTILIA",
+        "EV_068",
+        "CHAR_FELIX",
+        "EV_154",
+        "CHAR_MARINA",
+        "CH_01",
+        "CH_09",
+        "CH_20"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "CHRON-f881f52b4f8b090e",
+      "instruction_source": "Cum se succed evenimentele legate de reacția lui Felix la familiaritate, de masa de la Pascalopol, de jignirea cu cuvântul orfan, de aprinderea țigărilor și de descoperirea vecinătății cu Aglae și Simion?",
+      "items": [
+        {
+          "event_id": "EV_004",
+          "event": "Pascalopol își mușcă puțin buza de sus, cam schimbat la față, dar, lovind zarurile, răspunse conciliant: — Așa ești dumneata, cocoană Aglae, malițioasă. Otilia sărise acum de pe scaunul lui moș Costache pe acela al lui Pascalopol, pendulându-și și aici piciorul.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_005",
+          "event": "Însă Otilia nu făcea nici un gest care să pară îndrăzneț, nu scotea nici o vorbă nechibzuită. Totuși, pe Felix, familiaritatea ei, oricât de copilărească, cu Pascalopol îl nemulțumi.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_006",
+          "event": "Otilia trase un chibrit pe grătarul unei chibritelnițe și îi aprinse țigara. Aglae vru și ea una, însă numai de la Pascalopol, care i-o oferi cu obișnuita grabă; Costache se mulțumi cu un noduros fabricat propriu.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_007",
+          "event": "Aglae vru și ea una, însă numai de la Pascalopol, care i-o oferi cu obișnuita grabă; Costache se mulțumi cu un noduros fabricat propriu. Chiar și Otilia, rugată din ochi de Pascalopol, își luă o țigare și trase din ea așezându-se pe marginea scaunului musafirului.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_008",
+          "event": "Tonul cu care fu pronunțat cuvântul „orfan“ și chiar cuvântul însuși pe care nu-l mai folosise nimeni, în legătură cu el, jigniră profund pe Felix. Vai, ce spui, tanti Aglae, dar Felix nu cade pe capul nimănui, reproșă Otilia.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_009",
+          "event": "Înțelese acum că tanti Aglae, cu Simion al ei și cu Aurica locuiau alături. Felix mai dădu câteva ocoluri odăii, ascultând exercițiile Otiliei, care le intona și vocal acum, cu un glas subțirel și",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T134456134455Z-b003::TEMPORAL_ORDER::TEMPORAL_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_01",
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "EV_004",
+        "EV_005",
+        "EV_006",
+        "EV_007",
+        "EV_008",
+        "EV_009"
+      ],
+      "source_run_id": "run-20260822T134456134455Z-b003"
+    },
+    {
+      "id": "CHRON-d57f1650a470a489",
+      "instruction_source": "Cum se degradează ambițiile și statutul lui Felix Sima de la inocența relației cu Otilia, prin confruntarea cu interesele lui Stănică Rațiu, până la marginalizarea sa ca simplu îngrijitor?",
+      "items": [
+        {
+          "event_id": "EV_002",
+          "event": "Felix nu văzuse pe Costache Giurgiuveanu decât cu mulți ani în urmă, ca copil, și tot atunci o cunoscuse și pe Otilia, care era o simplă fetiță. Dar în fiecare an scria la sărbătorile consacrate și în alte câteva împrejurări „unchiului Costache“, întrebând ce mai face „verișoara Otilia“, iar Otilia scria „unchiului Iosif“, întrebând ce mai face „vărul Felix“.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_078",
+          "event": "Simion, socru-meu, e un fleac ramolit, n-are decât cartoane mâzgălite, moș Costache e cărpănos. Bănuind că Stănică vrea să-i ceară bani lui, Felix făcu gestul de a se disculpa, de a regreta.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_153",
+          "event": "Misiunea de tovarășă eroică, egală nu era pentru Otilia, care voia să fie socotită copil și să nu întâmpine nici o rezistență. Otiliei îi plăcea să îngrijească pe moș Costache și pe Felix ca pe niște copii și era credincioasă, atâta vreme cât nimeni n-o constrângea.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T135119780700Z-b004::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_10",
+        "CH_20"
+      ],
+      "evidence_node_ids": [
+        "CHAR_FELIX",
+        "EV_002",
+        "CHAR_OTILIA",
+        "EV_078",
+        "CHAR_STANICA",
+        "EV_153",
+        "CHAR_COSTACHE",
+        "CHAR_SIMION",
+        "CH_01",
+        "CH_10",
+        "CH_20"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "CHRON-05ce97a69a4fc20a",
+      "instruction_source": "În ce ordine cronologică se desfășoară următoarele evenimente din casa lui Moș Costache: întâlnirea cu Pascalopol, reacția lui Felix la chioșc, cina improvizată și conversația discretă cu Otilia?",
+      "items": [
+        {
+          "event_id": "EV_013",
+          "event": "Otilia, dădu afară în sfârșit secretul mulțumirii sale bătrânul, mi-a dat Pascalopol să-i plătesc chiria și, din greșeală, mi-a dat cu o sută de franci mai mult. Felix înțelese vag că moș Costache făcea lui Pascalopol unele comisioane și se gândi și la oficiul de tutor al bătrânului.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_014",
+          "event": "Ceea ce izbi pe Felix, care privea din chioșc, fu nu veselia volubilă a Otiliei, cât satisfacția reținută a lui Pascalopol, care nu se clasa deloc printre sentimentele paterne. Moș Costache ieși până în poartă.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_015",
+          "event": "Fu chemată, la cererea lui Pascalopol, și Aglae, care sosi pe o portiță dindărătul casei, însoțită de Aurica și de Simion, cu broboada pe el și cu ghergheful în mână. La lumina unei lămpi atârnate de grinda chioșcului, începu o cină improvizată, la care fu invitat și Felix și la care se ilustrară prin lăcomie moș Costache, Aglae și Simion.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_016",
+          "event": "Conversația de jos și incidentul cu pianul o indispusese probabil, și acum se refugiase aici, fără să iasă din raza lui Pascalopol. Zărind pe Felix, Otilia îl chemă în șoaptă.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T135119780700Z-b004::TEMPORAL_ORDER::TEMPORAL_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_02"
+      ],
+      "evidence_node_ids": [
+        "Costache și Felix: Otilia, dădu afară...",
+        "Costache și Felix: Ceea ce izbi pe Felix...",
+        "Aglae și Aurica: Fu chemată, la cererea...",
+        "Felix și Otilia: Conversația de jos...",
+        "CH_02",
+        "EV_013",
+        "EV_014",
+        "EV_015",
+        "EV_016"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "CHRON-bfc1894a5a2306e8",
+      "instruction_source": "Care este succesiunea corectă a acestor momente cheie din finalul poveștii: plata tacită a Marinei, calculul financiar al lui Pascalopol, pasiunea pentru desen a lui Titi și ieșirea liniștită a lui Costache la biserică?",
+      "items": [
+        {
+          "event_id": "EV_143",
+          "event": "Felix dădu el bani Marinei, îndemnând-o să nu spună nimic despre asta Otiliei, fiindcă era sigur că atunci fata nu s-ar mai fi atins de nimic. Aglae, pe de o parte, cerceta cu de-amănuntul fiecare odaie, intrând până și-n camera Otiliei și a lui Felix, Stănică, pe de alta, scotocea peste tot și ciocănea, în căutare de trape misterioase, păzindu-se chiar de Olimpia, fiindcă, atunci când aceasta intră după el în salon, se răsti: — Ce te ții, frate, după mine, am și eu nevoie de liniște, după atâta zbucium, să-mi adun ideile.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_144",
+          "event": "Dar dacă bătrânul amână mereu și moare într-o noapte, și vine Aglae și-i găsește banii? „Ce om, ce om, Costache ăsta!“ Pascalopol se duse de-a dreptul acasă, își puse halatul chinezesc, ceru o sticlă de Vichy, pe care-l îndulci cu puțin sirop, se plimbă prin casă, cântă puțin din flaut, cu întreruperi, menuetul din D dur-Divertimento de Mozart, apoi trecu la registrele lui, le consultă bine, iar se plimbă, cu mâinile la spate, lovind palmele una într-alta, în prada celor mai adânci preocupări, umplu din nou un pahar de Vichy și trecu hotărât la birou, în fața mașinii de scris, la care începu să bată următoarea scrisoare:",
+          "position": 2
+        },
+        {
+          "event_id": "EV_145",
+          "event": "Când filmul îi plăcea mai mult, atunci Titi își procura un program cu desene sau fotografii de actori din colecția Path é-Frÿres și le copia în pastel sau în acuarelă. Olimpia nu știu să vorbească bătrânului decât de Aglae, Aurica și ceilalți care „țin foarte mult, unchiule, la dumneata“,",
+          "position": 3
+        },
+        {
+          "event_id": "EV_146",
+          "event": "Nu s-ar fi supărat nici unul, nici Aglae, căreia i-ar fi rămas capitalul, nici Otilia, care s-ar fi folosit de el. Moș Costache ieși ușurat din biserică, după ce se închină cu evlavie, mergând de-a-ndăratelea, și se simți cu duioșie bun.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T135119780700Z-b004::TEMPORAL_ORDER::TEMPORAL_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_18",
+        "CH_19"
+      ],
+      "evidence_node_ids": [
+        "Aglae și Felix: Felix dădu el bani...",
+        "Aglae și Costache: Dar dacă bătrânul amână...",
+        "Aglae și Aurica: Când filmul îi plăcea...",
+        "Aglae și Costache: Nu s-ar fi supărat...",
+        "CH_18",
+        "EV_143",
+        "EV_144",
+        "CH_19",
+        "EV_145",
+        "EV_146"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    },
+    {
+      "id": "CHRON-bd3af1ecc7b22ab5",
+      "instruction_source": "Așezați în ordinea apariției în narațiune aceste etape ale evoluției personajelor: plimbarea prin heleșteu, critica Auricii, absența lui Pascalopol, înscrierea la facultate, rolul de intermediar familial și prezentarea medicului.",
+      "items": [
+        {
+          "event_id": "EV_048",
+          "event": "Îmi place Pascalopol, zise ea ca pentru sine, în lume e un om încântător, dar nu vrea să se urce în șură. Otilia își ridicase rochia până la genunchi și înainta pe latura cea mai dulce a heleșteului, îndemnând și pe Felix cu atâta insistență, încât acesta îi făcu pe plac și, descălțându-se, intră și el în apă.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_049",
+          "event": "Când, pe toamnă târziu, Felix, acum student în anul întâi la Medicină, se găsi întâmplător în casa Aglaei, Aurica nu uită să-l atragă în punctul ei de vedere. Nu-mi explic, insinuă ea, cum poți dumneata, un tânăr așa de distins și de familie bună, să ieși pe stradă cu o destrăbălată ca Otilia.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_050",
+          "event": "Pascalopol, întors de la moșie, își reluase de mult obiceiurile și, fără a-și exagera primejdiile din partea lui Felix, venea aproape în fiecare zi la moș Costache. În seara aceasta nu veni.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_051",
+          "event": "Titi tăcu neutru, apoi spuse convins: — Mama zice că ai să-ți cauți o funcție! Când Felix se înscrise cu adevărat la Universitate, Aglae păru consternată.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_052",
+          "event": "Acum tanti Aglae nu mai venea în casa lui moș Costache, spre întristarea acestuia și bucuria Otiliei. În schimb, atât Costache, cât și Aglae, ca să poată păstra comunicarea între ei, unul, din lașitate, cealaltă, din interes, se foloseau de Felix, care începu să fie, fără voia lui, un agent de legătură.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_053",
+          "event": "Întâmplător, se afla și Pascalopol, fiind spre seară, alături, se-nțelege, de Otilia și de Felix. Acesta rămase nedumerit când Stănică recomandă pe individul roșu: — V-am adus un doctor fain, eminent, prieten intim al meu, domnul doctor Vasiliad, cam grecotei el, nu-i vorbă, dar bun doctor, pe mulți a sculat din pat.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T135119780700Z-b004::TEMPORAL_ORDER::TEMPORAL_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_06",
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "Felix și Otilia: Îmi place Pascalopol...",
+        "Aurica și Felix: Când, pe toamnă târziu...",
+        "Costache și Felix: Pascalopol, întors de la moșie...",
+        "Aglae și Felix: Titi tăcu neutru...",
+        "Aglae și Costache: Acum tanti Aglae nu mai venea...",
+        "Doctorul și Felix: Întâmplător, se afla...",
+        "EV_048",
+        "EV_049",
+        "EV_050",
+        "EV_051",
+        "EV_052",
+        "EV_053"
+      ],
+      "source_run_id": "run-20260822T135119780700Z-b004"
+    }
+  ]
+}

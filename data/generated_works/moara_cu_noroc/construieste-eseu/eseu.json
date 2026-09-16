@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "pipeline": "construieste-eseu",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "source": {
+    "knowledge_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\grafuri\\moara-cu-noroc\\knowledge-graph.json",
+    "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\construieste-eseu\\eseu-model.md",
+    "model_essay_sha256": "50da830b75b7f9daa5f4718b92e9885122c1a3a642942e3bf51de29649ccc09f",
+    "input_model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\moara_cu_noroc.md"
+  },
+  "generation": {
+    "model": "offline-result",
+    "reasoning_effort": "none",
+    "attempts": 0,
+    "retry_on_invalid": false,
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\construieste-eseu\\runs\\run-20260822T201325Z",
+    "reused_from": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\construieste-eseu\\runs\\run-20260822T200657Z\\result.json"
+  },
+  "default_composition_element_ids": [
+    "incipit_final",
+    "title"
+  ],
+  "strict_trait_policy": {
+    "mode": "model_essay_only",
+    "expected_count": 2,
+    "reject_unlisted_traits": true,
+    "accepted_trait_ids": [
+      "trasatura_1",
+      "trasatura_2"
+    ],
+    "accepted_trait_titles": [
+      "Verosimilitatea evenimentelor petrecute în operă",
+      "Interesul pentru psihologia personajelor"
+    ],
+    "rule": "Sunt corecte exclusiv trăsăturile dezvoltate explicit în eseul-model; orice altă trăsătură este evaluată ca incorectă."
+  },
+  "movement": {
+    "name": "Realism"
+  },
+  "mindmap": {
+    "movement_name": "Realism",
+    "traits": [
+      {
+        "id": "trasatura_1",
+        "title": "Verosimilitatea evenimentelor petrecute în operă"
+      },
+      {
+        "id": "trasatura_2",
+        "title": "Interesul pentru psihologia personajelor"
+      }
+    ],
+    "theme": {
+      "id": "tema",
+      "title": "Dezumanizarea ca efect al lăcomiei"
+    },
+    "sequences": [
+      {
+        "id": "secventa_1",
+        "title": "Împrumutul forțat al banilor de către Lică",
+        "chapter": ""
+      },
+      {
+        "id": "secventa_2",
+        "title": "Predarea Anei către Lică în duminica de Paște",
+        "chapter": ""
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "introducere",
+      "kind": "introduction",
+      "title": "Introducere",
+      "instructions": "Prezintă opera „Moara cu noroc” de Ioan Slavici, specificând genul literar (nuvelă psihologică), anul apariției (1881) și volumul („Novele din popor”). Menționează apartenența autorului la epoca Marilor Clasici și prezintă succint curentul literar în care se încadrează opera.",
+      "checklist": [
+        "titlul operei: „Moara cu noroc”",
+        "autorul: Ioan Slavici",
+        "genul literar: nuvelă psihologică",
+        "anul apariției: 1881",
+        "volumul: „Novele din popor”",
+        "epoca literară: Marii Clasici"
+      ]
+    },
+    {
+      "id": "trasatura_1",
+      "kind": "literary_trait",
+      "title": "Verosimilitatea evenimentelor petrecute în operă",
+      "source_excerpt": "O primă trăsătură care face posibilă încadrarea nuvelei în realism este verosimilitatea evenimentelor petrecute în operă, susținută de cronotopul precis.",
+      "instructions": "Demonstrează cum realizarea unui cadru spatio-temporal concret (toponime reale: Ineu, Arad, Salonta, Pesta; interval temporal religios: de la Sf. Gheorghe la Paștele anului următor) conferă verosimilitate întâmplărilor și localizează clar acțiunea, conform principiilor realismului.",
+      "model_fragment": "O primă trăsătură care face posibilă încadrarea nuvelei în realism este verosimilitatea evenimentelor petrecute în operă, susținută de cronotopul precis. Astfel, din punct de vedere al indicilor spațiali se observă menționarea unor toponime, precum: Ineu, Arad, Salonta, Pesta. În ceea ce privește indicii temporali, aceștia indică faptul că acțiunea se desfășoară în perioada de timp dintre două sărbători religioase: Sf. Gheorghe și Paștele din anul următor. Prin acești indici, a căror existență incontestabilă amplifică impresia de verosimil, evenimentele sunt clar localizate și delimitate, așa cum se întâmplă în creațiile de tip realist."
+    },
+    {
+      "id": "trasatura_2",
+      "kind": "literary_trait",
+      "title": "Interesul pentru psihologia personajelor",
+      "source_excerpt": "O altă trăsătură a realismului, care se regăsește în această nuvelă este reprezentată de interesul pentru psihologia personajelor.",
+      "instructions": "Analizează complexitatea sufletului uman și dramele existențiale ale personajelor, evidențiind conflictul interior al lui Ghiță (între dorința de înavuțire și valorile morale). Demonstrează utilizarea tehnicilor narative specifice realismului psihologic: monologul interior, stilul indirect liber și detaliile sugestive de gestică și mimică.",
+      "model_fragment": "O altă trăsătură a realismului, care se regăsește în această nuvelă este reprezentată de interesul pentru psihologia personajelor. Ioan Slavici este primul prozator care arată că sufletul oamenilor care populează mediul rural și mic-urban nu este deloc simplu, nici liniar, ci dimpotrivă, personajele trăiesc drame ale existenței, sunt complexe. Astfel, sunt analizate în profunzime frământările sufletești ale lui Ghiță, un om prins între dorința de înavuțire și pierderea valorilor morale. Conflictul interior al personajului este redat cu ajutorul monologului interior, al stilului indirect liber, precum și prin detalii sugestive de gestică și mimică."
+    },
+    {
+      "id": "tema",
+      "kind": "theme",
+      "title": "Dezumanizarea ca efect al lăcomiei",
+      "source_excerpt": "Tema nuvelei realist-psihologică „Moara cu noroc” este dezumanizarea ca efect al lăcomiei.",
+      "instructions": "Explică modul în care dorința de îmbogățire rapidă declanșează procesul de degradare morală a protagonistului, determinându-l să abandoneze valorile familiale și morale, să se supună manipulării și să își instrumenteze propria familie, culminând cu pierderea identității și a demnității."
+    },
+    {
+      "id": "secventa_1",
+      "kind": "sequence",
+      "title": "Împrumutul forțat al banilor de către Lică",
+      "chapter": "",
+      "source_excerpt": "O secvență relevantă pentru tema dezumanizării este cea în care, venind la han pe cărări ferite, într-o duminică, Lică îi ia toți banii adunați lui Ghiță, dar nu tâlhărindu-l, ci „împrumutându-se”.",
+      "instructions": "Analizează tactica de manipulare și dominare psihologică a lui Lică, dilema creată pentru Ghiță și schimbarea raportului de forțe de la egalitate la dependență totală. Evidențiază cum acest gest marchează începutul „drumului sinuos al obișnuirii cu răul” și al pierderii autonomiei morale."
+    },
+    {
+      "id": "secventa_2",
+      "kind": "sequence",
+      "title": "Predarea Anei către Lică în duminica de Paște",
+      "chapter": "",
+      "source_excerpt": "O altă secvență semnificativă pentru tema operei este cea petrecută în duminica de Paște, când Ghiță ajunge pe ultima treaptă a degradării morale.",
+      "instructions": "Studiază momentul culminant al degradării lui Ghiță, care prioritizează răzbunarea și scăparea de sub controlul lui Lică în detrimentul propriei soții. Analizează reacția Ana, motivată de dezgust față de lașitatea soțului, și consecințele acestei acte asupra destrămării definitive a familiei și a statutului social al protagonistului."
+    },
+    {
+      "id": "element_incipit_final",
+      "kind": "composition",
+      "title": "Relația incipit–final",
+      "instructions": "Prezintă relația dintre incipit și final pe baza schemei studiate."
+    },
+    {
+      "id": "element_conflict",
+      "kind": "composition",
+      "title": "Conflictul",
+      "instructions": "Prezintă conflictul pe baza schemei studiate."
+    },
+    {
+      "id": "element_title",
+      "kind": "composition",
+      "title": "Titlul",
+      "instructions": "Prezintă semnificația titlului pe baza schemei studiate."
+    },
+    {
+      "id": "concluzie",
+      "kind": "conclusion",
+      "title": "Concluzie",
+      "source_excerpt": "În concluzie, „Moara cu noroc” este un text emblematic pentru categoria nuvelei în general și a nuvelei psihologice, în particular. Prin sinteza temelor, subtilitățile narative, construcția echilibrată a subiectului și personajele puternice, memorabile, ea rămâne un model în proza românească.",
+      "instructions": "Sintezează valoarea operei ca model al nuvelei psihologice, reamintind importanța sintezei temelor, a construcției echilibrate a subiectului și a profilării complexe a personajelor. Subliniază mesajul moral privind pericolul lăcomiei și importanța păstrării integrității spirituale în fața tentatiilor exterioare."
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "trait_count": 2,
+    "sequence_count": 2,
+    "source_excerpts_verified": true,
+    "trait_titles_verified": true,
+    "trait_model_fragments_verified": true,
+    "local_source_repairs": []
+  }
+}

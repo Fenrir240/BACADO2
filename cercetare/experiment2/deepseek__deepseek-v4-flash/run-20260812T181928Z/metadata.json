@@ -1,0 +1,145 @@
+{
+  "experiment": "Experimentul 2",
+  "run_id": "run-20260812T181928Z",
+  "timestamp_utc": "2026-08-12T18:19:28.477264+00:00",
+  "requested_model": "deepseek/deepseek-v4-flash",
+  "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+  "context_length": 1048576,
+  "graph_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\graf1\\knowledge-graph.json",
+  "graph_sha256": "19e81d5c346fb9dbd11d025ee52a857284152d98a8c6421e5a3731ca8f82e1c3",
+  "chapter_packet_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\experiment2\\inputs\\chapter-01-graph.json",
+  "chapter_packet_sha256": "815ff4923f766b1ef9909997f18a2c768fdbe9f4d4e0834b88d40a218b4788d4",
+  "question_prompt_template_sha256": "fee63198ddddc045d18a6a41d4c55f8ad9a88ca4d865a80052cee5f2a70fb41f",
+  "summary_prompt_template_sha256": "f640928fd21f14ccf17d3d03d65c3f298d640a04e1afb199a4965c9ba5c7d725",
+  "evaluator_sha256": "f02117f6a83614d85a15303cfd3cb3f5e3b5e9c30e9ec71847025be4daab507e",
+  "api_key_saved": false,
+  "task_settings": {
+    "questions": {
+      "reasoning_effort": "high"
+    },
+    "summary": {
+      "reasoning_effort": "high"
+    }
+  },
+  "tasks": {
+    "questions": {
+      "task": "questions",
+      "json_valid": true,
+      "duration_seconds": 144.086,
+      "prompt_sha256": "ddca6c244f8c3b85e61c3b671be43280dc237f5391bd7667852e492a12c09813",
+      "prompt_characters": 900220,
+      "estimated_prompt_tokens": 360088,
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 60000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "high",
+          "exclude": true
+        }
+      },
+      "returned_model": "deepseek/deepseek-v4-flash",
+      "model_verification": "accepted_exact_or_canonical_model_id",
+      "provider": "SiliconFlow",
+      "generation_id": "gen-1786558765-IPCjLqVq40dS5EVvpx26",
+      "usage": {
+        "prompt_tokens": 294728,
+        "completion_tokens": 14322,
+        "total_tokens": 309050,
+        "cost": 0.0423248,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0423248,
+          "upstream_inference_prompt_cost": 0.03831464,
+          "upstream_inference_completions_cost": 0.00401016
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 11510,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "summary": {
+      "task": "summary",
+      "json_valid": true,
+      "duration_seconds": 451.317,
+      "prompt_sha256": "789552da387d12507e065f419159853ba0a46340cdd68cc7077d82ab905d9059",
+      "prompt_characters": 94921,
+      "estimated_prompt_tokens": 37969,
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 60000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "high",
+          "exclude": true
+        }
+      },
+      "returned_model": "deepseek/deepseek-v4-flash",
+      "model_verification": "accepted_exact_or_canonical_model_id",
+      "provider": "DeepInfra",
+      "generation_id": "gen-1786559425-N5FGfijFkhEKVwP8FDWN",
+      "usage": {
+        "prompt_tokens": 30635,
+        "completion_tokens": 33917,
+        "total_tokens": 64552,
+        "cost": 0.008857602,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 64,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.008857602,
+          "upstream_inference_prompt_cost": 0.002752542,
+          "upstream_inference_completions_cost": 0.00610506
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 18993,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  },
+  "semantic_similarity_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "semantic_similarity_config_sha256": "52f837c50a9743f7c8cfd40bf195514238258fcbb4ac85e8571ed8a96e57a1eb",
+  "summary_manifest_sha256": "41a8d8c63dc41535d76596059d5e95886cae7f526247b0d22df1385884efbb4c",
+  "reference_style_profile_sha256": "df971e2a4b114981f9b2507cc9351b376cffbb92727defc5b739c6c8d1554636",
+  "base_runner_sha256": "859ffeeb546779183e16d65276cc85eb065f983f2e44c07d6dd262525dbe2fbd",
+  "resume_history": [
+    {
+      "resumed_at": "2026-08-12T18:30:28.338763+00:00",
+      "retried_tasks": [
+        "summary"
+      ],
+      "skipped_valid_tasks": [
+        "questions"
+      ],
+      "archived_attempts": {
+        "summary": "previous-attempts\\summary-retry-20260812T183028Z"
+      }
+    }
+  ]
+}

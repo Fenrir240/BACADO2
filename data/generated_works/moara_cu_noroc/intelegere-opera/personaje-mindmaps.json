@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "source": {
+    "kind": "knowledge_graph",
+    "generator": "scripts/build_character_mindmaps.py",
+    "deterministic": true,
+    "uses_ai": false
+  },
+  "characters": {
+    "CHAR_GHITA": {
+      "id": "CHAR_GHITA",
+      "name": "Ghiță",
+      "tree_label": "Ghiță",
+      "short_role": "Cizmar care arendează hanul Moara cu noroc și se degradează moral sub influența lui Lică",
+      "physical": "Bărbat viguros; gesturile, paloarea și izbucnirile îi exteriorizează frământarea.",
+      "traits": "harnic, energic, orgolios, neliniștit, duplicitar și treptat violent",
+      "village_role": "Cizmar care arendează hanul Moara cu noroc și se degradează moral sub influența lui Lică.",
+      "human_type": "omul cinstit corupt de dorința de înavuțire"
+    },
+    "CHAR_LICA": {
+      "id": "CHAR_LICA",
+      "name": "Lică Sămădăul",
+      "tree_label": "Lică Sămădăul",
+      "short_role": "Conducător autoritar al porcarilor, infractor inteligent și manipulator care îl subordone…",
+      "physical": "Bărbat înalt, uscățiv, cu mustață lungă; ținuta și privirea îi exprimă autoritatea.",
+      "traits": "sigur pe sine, crud, lucid, seducător, orgolios și lipsit de scrupule",
+      "village_role": "Conducător autoritar al porcarilor, infractor inteligent și manipulator care îl subordonează pe Ghiță.",
+      "human_type": "forța malefică și stăpânul lumii porcarilor"
+    },
+    "CHAR_ANA": {
+      "id": "CHAR_ANA",
+      "name": "Ana",
+      "tree_label": "Ana",
+      "short_role": "Soția lui Ghiță, devotată familiei la început și înstrăinată pe măsura degradării soțului",
+      "physical": "Femeie tânără și frumoasă, ale cărei gesturi și reacții urmăresc destrămarea cuplului.",
+      "traits": "blândă, lucidă, iubitoare, temătoare, apoi dezamăgită și răzbunătoare",
+      "village_role": "Soția lui Ghiță, devotată familiei la început și înstrăinată pe măsura degradării soțului.",
+      "human_type": "soția-victimă și conștiința afectivă a familiei"
+    },
+    "CHAR_PINTEA": {
+      "id": "CHAR_PINTEA",
+      "name": "Pintea",
+      "tree_label": "Pintea",
+      "short_role": "Jandarm și fost tovarăș al lui Lică, hotărât să-l prindă și aliat dificil al lui Ghiță",
+      "physical": "Căprar energic, cunoscător al urmelor și al tacticilor lui Lică.",
+      "traits": "tenace, intuitiv, curajos, suspicios și răzbunător",
+      "village_role": "Jandarm și fost tovarăș al lui Lică, hotărât să-l prindă și aliat dificil al lui Ghiță.",
+      "human_type": "reprezentantul legii"
+    },
+    "CHAR_BATRANA": {
+      "id": "CHAR_BATRANA",
+      "name": "Bătrâna",
+      "tree_label": "Bătrâna",
+      "short_role": "Mama Anei și soacra lui Ghiță, purtătoarea normelor morale tradiționale din incipit și fi…",
+      "physical": "Femeie în vârstă care ocrotește copiii și contemplă în final ruinele hanului.",
+      "traits": "înțeleaptă, cumpătată, religioasă, prudentă și resemnată",
+      "village_role": "Mama Anei și soacra lui Ghiță, purtătoarea normelor morale tradiționale din incipit și final.",
+      "human_type": "vocea rațiunii și a moralității"
+    },
+    "CHAR_BUZA": {
+      "id": "CHAR_BUZA",
+      "name": "Buză-Ruptă",
+      "tree_label": "Buză-Ruptă",
+      "short_role": "Complice al lui Lică, implicat în atacul asupra arendașului și judecat împreună cu Săilă",
+      "physical": "Porcar identificabil prin semnul fizic sugerat de poreclă.",
+      "traits": "brutal, nesigur și influențabil",
+      "village_role": "Complice al lui Lică, implicat în atacul asupra arendașului și judecat împreună cu Săilă.",
+      "human_type": "complice și acuzat"
+    },
+    "CHAR_SAILA": {
+      "id": "CHAR_SAILA",
+      "name": "Săilă Boarul",
+      "tree_label": "Săilă Boarul",
+      "short_role": "Complice al lui Lică, implicat în jafuri și folosit ca țap ispășitor în anchetă",
+      "physical": "Porcar robust, recunoscut de martori și de obiectele compromițătoare.",
+      "traits": "violent, temător și dependent de Lică",
+      "village_role": "Complice al lui Lică, implicat în jafuri și folosit ca țap ispășitor în anchetă.",
+      "human_type": "complice și acuzat"
+    },
+    "CHAR_RAUT": {
+      "id": "CHAR_RAUT",
+      "name": "Răuț",
+      "tree_label": "Răuț",
+      "short_role": "Om de încredere al lui Lică și executant al poruncilor sale, inclusiv al crimelor finale",
+      "physical": "Porcar înarmat, asociat constant cu oamenii sămădăului.",
+      "traits": "ascultător față de Lică, brutal și primejdios",
+      "village_role": "Om de încredere al lui Lică și executant al poruncilor sale, inclusiv al crimelor finale.",
+      "human_type": "complice violent"
+    },
+    "CHAR_MARTI": {
+      "id": "CHAR_MARTI",
+      "name": "Marți",
+      "tree_label": "Marți",
+      "short_role": "Slugă a lui Ghiță și ajutor în paza hanului și în acțiunile lui Pintea",
+      "physical": "Bărbat folosit la pază și urmărire.",
+      "traits": "practic, atent și obedient",
+      "village_role": "Slugă a lui Ghiță și ajutor în paza hanului și în acțiunile lui Pintea.",
+      "human_type": "sluga și ajutorul jandarmilor"
+    },
+    "CHAR_COPII": {
+      "id": "CHAR_COPII",
+      "name": "Copiii lui Ghiță și ai Anei",
+      "tree_label": "C. Anei",
+      "short_role": "Copiii familiei, protejați de bătrână și rămași orfani după catastrofa finală",
+      "physical": "Copii mici, feriți de confruntarea finală prin plecarea la Ineu.",
+      "traits": "inocenți și dependenți de adulți",
+      "village_role": "Copiii familiei, protejați de bătrână și rămași orfani după catastrofa finală.",
+      "human_type": "victimele inocente"
+    },
+    "CHAR_LAIE": {
+      "id": "CHAR_LAIE",
+      "name": "Laie",
+      "tree_label": "Laie",
+      "short_role": "Slugă tânără a lui Ghiță, trimisă cu mesaje și implicată fără voie în situațiile primejdi…",
+      "physical": "Băiat de serviciu care se deplasează între han, crâng și Ineu.",
+      "traits": "ascultător, speriat și loial gospodăriei",
+      "village_role": "Slugă tânără a lui Ghiță, trimisă cu mesaje și implicată fără voie în situațiile primejdioase.",
+      "human_type": "sluga-martor"
+    },
+    "CHAR_COMISAR": {
+      "id": "CHAR_COMISAR",
+      "name": "Comisarul",
+      "tree_label": "Comisarul",
+      "short_role": "Reprezentant al autorității care îl interoghează pe Ghiță și cercetează jafurile",
+      "physical": "Funcționar al ordinii publice din Ineu.",
+      "traits": "suspicios, ironic și insistent",
+      "village_role": "Reprezentant al autorității care îl interoghează pe Ghiță și cercetează jafurile.",
+      "human_type": "anchetatorul"
+    },
+    "CHAR_UTA": {
+      "id": "CHAR_UTA",
+      "name": "Uța",
+      "tree_label": "Uța",
+      "short_role": "Slujnică a familiei, rămasă la han în timpul anchetei și al tensiunilor domestice",
+      "physical": "Fată mărunțică din gospodăria hanului.",
+      "traits": "harnică, directă și atentă",
+      "village_role": "Slujnică a familiei, rămasă la han în timpul anchetei și al tensiunilor domestice.",
+      "human_type": "slujnica-martor"
+    },
+    "CHAR_HANTL": {
+      "id": "CHAR_HANTL",
+      "name": "Hanțl",
+      "tree_label": "Hanțl",
+      "short_role": "Personaj atacat pe drumul de țară, a cărui rănire este legată de fărădelegile oamenilor l…",
+      "physical": "Drumeț rănit în contextul tâlhăriilor.",
+      "traits": "vulnerabil și traumatizat",
+      "village_role": "Personaj atacat pe drumul de țară, a cărui rănire este legată de fărădelegile oamenilor lui Lică.",
+      "human_type": "victima violenței"
+    },
+    "CHAR_DOAMNA": {
+      "id": "CHAR_DOAMNA",
+      "name": "Doamna tânără",
+      "tree_label": "Doamna tânără",
+      "short_role": "Femeie bogată implicată în transportul banilor și ucisă în lanțul de crime pus pe seama c…",
+      "physical": "Femeie elegantă care călătorește cu trăsură și slugi.",
+      "traits": "prudentă și neliniștită",
+      "village_role": "Femeie bogată implicată în transportul banilor și ucisă în lanțul de crime pus pe seama complicilor lui Lică.",
+      "human_type": "victima crimei"
+    },
+    "CHAR_UNGUR": {
+      "id": "CHAR_UNGUR",
+      "name": "Sluga ungur",
+      "tree_label": "Sluga ungur",
+      "short_role": "Slugă angajată de Ghiță pentru paza și munca hanului",
+      "physical": "Bărbat angajat în gospodăria cârciumii.",
+      "traits": "obedient și vulnerabil la izbucnirile stăpânului",
+      "village_role": "Slugă angajată de Ghiță pentru paza și munca hanului.",
+      "human_type": "sluga"
+    }
+  },
+  "groups": [
+    {
+      "title": "Personaje principale 1",
+      "caption": "Au cea mai mare importanță în desfășurarea operei.",
+      "characters": [
+        {
+          "id": "CHAR_GHITA",
+          "name": "Ghiță",
+          "tree_label": "Ghiță",
+          "short_role": "Cizmar care arendează hanul Moara cu noroc și se degradează moral sub influența lui Lică",
+          "physical": "Bărbat viguros; gesturile, paloarea și izbucnirile îi exteriorizează frământarea.",
+          "traits": "harnic, energic, orgolios, neliniștit, duplicitar și treptat violent",
+          "village_role": "Cizmar care arendează hanul Moara cu noroc și se degradează moral sub influența lui Lică.",
+          "human_type": "omul cinstit corupt de dorința de înavuțire"
+        },
+        {
+          "id": "CHAR_LICA",
+          "name": "Lică Sămădăul",
+          "tree_label": "Lică Sămădăul",
+          "short_role": "Conducător autoritar al porcarilor, infractor inteligent și manipulator care îl subordone…",
+          "physical": "Bărbat înalt, uscățiv, cu mustață lungă; ținuta și privirea îi exprimă autoritatea.",
+          "traits": "sigur pe sine, crud, lucid, seducător, orgolios și lipsit de scrupule",
+          "village_role": "Conducător autoritar al porcarilor, infractor inteligent și manipulator care îl subordonează pe Ghiță.",
+          "human_type": "forța malefică și stăpânul lumii porcarilor"
+        },
+        {
+          "id": "CHAR_ANA",
+          "name": "Ana",
+          "tree_label": "Ana",
+          "short_role": "Soția lui Ghiță, devotată familiei la început și înstrăinată pe măsura degradării soțului",
+          "physical": "Femeie tânără și frumoasă, ale cărei gesturi și reacții urmăresc destrămarea cuplului.",
+          "traits": "blândă, lucidă, iubitoare, temătoare, apoi dezamăgită și răzbunătoare",
+          "village_role": "Soția lui Ghiță, devotată familiei la început și înstrăinată pe măsura degradării soțului.",
+          "human_type": "soția-victimă și conștiința afectivă a familiei"
+        },
+        {
+          "id": "CHAR_PINTEA",
+          "name": "Pintea",
+          "tree_label": "Pintea",
+          "short_role": "Jandarm și fost tovarăș al lui Lică, hotărât să-l prindă și aliat dificil al lui Ghiță",
+          "physical": "Căprar energic, cunoscător al urmelor și al tacticilor lui Lică.",
+          "traits": "tenace, intuitiv, curajos, suspicios și răzbunător",
+          "village_role": "Jandarm și fost tovarăș al lui Lică, hotărât să-l prindă și aliat dificil al lui Ghiță.",
+          "human_type": "reprezentantul legii"
+        }
+      ]
+    },
+    {
+      "title": "Personaje principale 2",
+      "caption": "Au cea mai mare importanță în desfășurarea operei.",
+      "characters": [
+        {
+          "id": "CHAR_BATRANA",
+          "name": "Bătrâna",
+          "tree_label": "Bătrâna",
+          "short_role": "Mama Anei și soacra lui Ghiță, purtătoarea normelor morale tradiționale din incipit și fi…",
+          "physical": "Femeie în vârstă care ocrotește copiii și contemplă în final ruinele hanului.",
+          "traits": "înțeleaptă, cumpătată, religioasă, prudentă și resemnată",
+          "village_role": "Mama Anei și soacra lui Ghiță, purtătoarea normelor morale tradiționale din incipit și final.",
+          "human_type": "vocea rațiunii și a moralității"
+        }
+      ]
+    },
+    {
+      "title": "Familie și legături apropiate",
+      "caption": "Sunt legate direct de personajele principale prin familie, iubire sau căsătorie.",
+      "characters": [
+        {
+          "id": "CHAR_COPII",
+          "name": "Copiii lui Ghiță și ai Anei",
+          "tree_label": "C. Anei",
+          "short_role": "Copiii familiei, protejați de bătrână și rămași orfani după catastrofa finală",
+          "physical": "Copii mici, feriți de confruntarea finală prin plecarea la Ineu.",
+          "traits": "inocenți și dependenți de adulți",
+          "village_role": "Copiii familiei, protejați de bătrână și rămași orfani după catastrofa finală.",
+          "human_type": "victimele inocente"
+        }
+      ]
+    },
+    {
+      "title": "Rivali și conflicte 1",
+      "caption": "Participă la opoziții sau la momente tensionate ale acțiunii.",
+      "characters": [
+        {
+          "id": "CHAR_BUZA",
+          "name": "Buză-Ruptă",
+          "tree_label": "Buză-Ruptă",
+          "short_role": "Complice al lui Lică, implicat în atacul asupra arendașului și judecat împreună cu Săilă",
+          "physical": "Porcar identificabil prin semnul fizic sugerat de poreclă.",
+          "traits": "brutal, nesigur și influențabil",
+          "village_role": "Complice al lui Lică, implicat în atacul asupra arendașului și judecat împreună cu Săilă.",
+          "human_type": "complice și acuzat"
+        },
+        {
+          "id": "CHAR_SAILA",
+          "name": "Săilă Boarul",
+          "tree_label": "Săilă Boarul",
+          "short_role": "Complice al lui Lică, implicat în jafuri și folosit ca țap ispășitor în anchetă",
+          "physical": "Porcar robust, recunoscut de martori și de obiectele compromițătoare.",
+          "traits": "violent, temător și dependent de Lică",
+          "village_role": "Complice al lui Lică, implicat în jafuri și folosit ca țap ispășitor în anchetă.",
+          "human_type": "complice și acuzat"
+        },
+        {
+          "id": "CHAR_RAUT",
+          "name": "Răuț",
+          "tree_label": "Răuț",
+          "short_role": "Om de încredere al lui Lică și executant al poruncilor sale, inclusiv al crimelor finale",
+          "physical": "Porcar înarmat, asociat constant cu oamenii sămădăului.",
+          "traits": "ascultător față de Lică, brutal și primejdios",
+          "village_role": "Om de încredere al lui Lică și executant al poruncilor sale, inclusiv al crimelor finale.",
+          "human_type": "complice violent"
+        },
+        {
+          "id": "CHAR_MARTI",
+          "name": "Marți",
+          "tree_label": "Marți",
+          "short_role": "Slugă a lui Ghiță și ajutor în paza hanului și în acțiunile lui Pintea",
+          "physical": "Bărbat folosit la pază și urmărire.",
+          "traits": "practic, atent și obedient",
+          "village_role": "Slugă a lui Ghiță și ajutor în paza hanului și în acțiunile lui Pintea.",
+          "human_type": "sluga și ajutorul jandarmilor"
+        }
+      ]
+    },
+    {
+      "title": "Rivali și conflicte 2",
+      "caption": "Participă la opoziții sau la momente tensionate ale acțiunii.",
+      "characters": [
+        {
+          "id": "CHAR_LAIE",
+          "name": "Laie",
+          "tree_label": "Laie",
+          "short_role": "Slugă tânără a lui Ghiță, trimisă cu mesaje și implicată fără voie în situațiile primejdi…",
+          "physical": "Băiat de serviciu care se deplasează între han, crâng și Ineu.",
+          "traits": "ascultător, speriat și loial gospodăriei",
+          "village_role": "Slugă tânără a lui Ghiță, trimisă cu mesaje și implicată fără voie în situațiile primejdioase.",
+          "human_type": "sluga-martor"
+        },
+        {
+          "id": "CHAR_COMISAR",
+          "name": "Comisarul",
+          "tree_label": "Comisarul",
+          "short_role": "Reprezentant al autorității care îl interoghează pe Ghiță și cercetează jafurile",
+          "physical": "Funcționar al ordinii publice din Ineu.",
+          "traits": "suspicios, ironic și insistent",
+          "village_role": "Reprezentant al autorității care îl interoghează pe Ghiță și cercetează jafurile.",
+          "human_type": "anchetatorul"
+        },
+        {
+          "id": "CHAR_UTA",
+          "name": "Uța",
+          "tree_label": "Uța",
+          "short_role": "Slujnică a familiei, rămasă la han în timpul anchetei și al tensiunilor domestice",
+          "physical": "Fată mărunțică din gospodăria hanului.",
+          "traits": "harnică, directă și atentă",
+          "village_role": "Slujnică a familiei, rămasă la han în timpul anchetei și al tensiunilor domestice.",
+          "human_type": "slujnica-martor"
+        },
+        {
+          "id": "CHAR_DOAMNA",
+          "name": "Doamna tânără",
+          "tree_label": "Doamna tânără",
+          "short_role": "Femeie bogată implicată în transportul banilor și ucisă în lanțul de crime pus pe seama c…",
+          "physical": "Femeie elegantă care călătorește cu trăsură și slugi.",
+          "traits": "prudentă și neliniștită",
+          "village_role": "Femeie bogată implicată în transportul banilor și ucisă în lanțul de crime pus pe seama complicilor lui Lică.",
+          "human_type": "victima crimei"
+        }
+      ]
+    },
+    {
+      "title": "Personaje secundare",
+      "caption": "Completează lumea operei și susțin firele narative importante.",
+      "characters": [
+        {
+          "id": "CHAR_HANTL",
+          "name": "Hanțl",
+          "tree_label": "Hanțl",
+          "short_role": "Personaj atacat pe drumul de țară, a cărui rănire este legată de fărădelegile oamenilor l…",
+          "physical": "Drumeț rănit în contextul tâlhăriilor.",
+          "traits": "vulnerabil și traumatizat",
+          "village_role": "Personaj atacat pe drumul de țară, a cărui rănire este legată de fărădelegile oamenilor lui Lică.",
+          "human_type": "victima violenței"
+        },
+        {
+          "id": "CHAR_UNGUR",
+          "name": "Sluga ungur",
+          "tree_label": "Sluga ungur",
+          "short_role": "Slugă angajată de Ghiță pentru paza și munca hanului",
+          "physical": "Bărbat angajat în gospodăria cârciumii.",
+          "traits": "obedient și vulnerabil la izbucnirile stăpânului",
+          "village_role": "Slugă angajată de Ghiță pentru paza și munca hanului.",
+          "human_type": "sluga"
+        }
+      ]
+    }
+  ],
+  "tree_layout": {
+    "width": 980,
+    "height": 540,
+    "root": {
+      "label": "Moara cu noroc",
+      "x": 490.0,
+      "y": 46
+    },
+    "groups": [
+      {
+        "label": "Principale 1",
+        "x": 123.33,
+        "y": 145,
+        "character_ids": [
+          "CHAR_GHITA",
+          "CHAR_LICA",
+          "CHAR_ANA",
+          "CHAR_PINTEA"
+        ]
+      },
+      {
+        "label": "Principale 2",
+        "x": 270.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_BATRANA"
+        ]
+      },
+      {
+        "label": "Familie / apropiați",
+        "x": 416.67,
+        "y": 145,
+        "character_ids": [
+          "CHAR_COPII"
+        ]
+      },
+      {
+        "label": "Rivali / conflicte 1",
+        "x": 563.33,
+        "y": 145,
+        "character_ids": [
+          "CHAR_BUZA",
+          "CHAR_SAILA",
+          "CHAR_RAUT",
+          "CHAR_MARTI"
+        ]
+      },
+      {
+        "label": "Rivali / conflicte 2",
+        "x": 710.0,
+        "y": 145,
+        "character_ids": [
+          "CHAR_LAIE",
+          "CHAR_COMISAR",
+          "CHAR_UTA",
+          "CHAR_DOAMNA"
+        ]
+      },
+      {
+        "label": "Secundare",
+        "x": 856.67,
+        "y": 145,
+        "character_ids": [
+          "CHAR_HANTL",
+          "CHAR_UNGUR"
+        ]
+      }
+    ],
+    "characters": {
+      "CHAR_GHITA": {
+        "x": 86.67,
+        "y": 270
+      },
+      "CHAR_LICA": {
+        "x": 160.0,
+        "y": 270
+      },
+      "CHAR_ANA": {
+        "x": 86.67,
+        "y": 375
+      },
+      "CHAR_PINTEA": {
+        "x": 160.0,
+        "y": 375
+      },
+      "CHAR_BATRANA": {
+        "x": 270.0,
+        "y": 270
+      },
+      "CHAR_COPII": {
+        "x": 416.67,
+        "y": 270
+      },
+      "CHAR_BUZA": {
+        "x": 526.67,
+        "y": 270
+      },
+      "CHAR_SAILA": {
+        "x": 600.0,
+        "y": 270
+      },
+      "CHAR_RAUT": {
+        "x": 526.67,
+        "y": 375
+      },
+      "CHAR_MARTI": {
+        "x": 600.0,
+        "y": 375
+      },
+      "CHAR_LAIE": {
+        "x": 673.33,
+        "y": 270
+      },
+      "CHAR_COMISAR": {
+        "x": 746.67,
+        "y": 270
+      },
+      "CHAR_UTA": {
+        "x": 673.33,
+        "y": 375
+      },
+      "CHAR_DOAMNA": {
+        "x": 746.67,
+        "y": 375
+      },
+      "CHAR_HANTL": {
+        "x": 822.93,
+        "y": 270
+      },
+      "CHAR_UNGUR": {
+        "x": 890.4,
+        "y": 270
+      }
+    }
+  },
+  "relation_graph": {
+    "central_node_id": "CHAR_GHITA",
+    "legend": [
+      {
+        "group": "central",
+        "label": "personaje principale"
+      },
+      {
+        "group": "rich",
+        "label": "rivali / conflicte"
+      },
+      {
+        "group": "victim",
+        "label": "familie / apropiați"
+      }
+    ],
+    "nodes": {
+      "CHAR_GHITA": {
+        "label": "Ghiță",
+        "x": 490,
+        "y": 280,
+        "group": "central"
+      },
+      "CHAR_LICA": {
+        "label": "Lică Sămădăul",
+        "x": 490.0,
+        "y": 60.0,
+        "group": "central"
+      },
+      "CHAR_ANA": {
+        "label": "Ana",
+        "x": 719.24,
+        "y": 102.02,
+        "group": "central"
+      },
+      "CHAR_PINTEA": {
+        "label": "Pintea",
+        "x": 860.91,
+        "y": 212.02,
+        "group": "central"
+      },
+      "CHAR_BATRANA": {
+        "label": "Bătrâna",
+        "x": 860.91,
+        "y": 347.98,
+        "group": "central"
+      },
+      "CHAR_BUZA": {
+        "label": "Buză-Ruptă",
+        "x": 719.24,
+        "y": 457.98,
+        "group": "rich"
+      },
+      "CHAR_SAILA": {
+        "label": "Săilă Boarul",
+        "x": 490.0,
+        "y": 500.0,
+        "group": "rich"
+      },
+      "CHAR_RAUT": {
+        "label": "Răuț",
+        "x": 260.76,
+        "y": 457.98,
+        "group": "rich"
+      },
+      "CHAR_MARTI": {
+        "label": "Marți",
+        "x": 119.09,
+        "y": 347.98,
+        "group": "rich"
+      },
+      "CHAR_COPII": {
+        "label": "C. Anei",
+        "x": 119.09,
+        "y": 212.02,
+        "group": "victim"
+      },
+      "CHAR_LAIE": {
+        "label": "Laie",
+        "x": 260.76,
+        "y": 102.02,
+        "group": "rich"
+      }
+    },
+    "edges": [
+      {
+        "source": "CHAR_ANA",
+        "target": "CHAR_GHITA",
+        "predicate": "is_married_to",
+        "title": "Ana – Ghiță",
+        "text": "Ana este căsătorit(ă) cu Ghiță. Momente comune din graf: Vorbă scurtă, răspunse Ghiţă, să rămânem aici, să cârpesc şi mai departe cizmele oamenilor, care umblă toată săptămâna în opinci ori desculţi, iară dacă duminica e noroi, îşi duc cizmele în mână până la biserică, şi să ne punem pe prispa casei la soare, privind eu la Ana, Ana la mine, amândoi la copilaş, iară d-ta la tustrei. Dar binecuvântat era locul acesta mai ales de când veniseră cârciumarul cel nou cu nevasta lui tânără şi cu soacră-sa cea bătrână, căci ei nu primeau pe drumeţ ca pe un străin venit din lume, ci ca pe un prieten aşteptat de multă vreme"
+      },
+      {
+        "source": "CHAR_BATRANA",
+        "target": "CHAR_ANA",
+        "predicate": "is_parent_of",
+        "title": "Bătrâna – Ana",
+        "text": "Bătrâna este părintele lui/ei Ana. Momente comune din graf: Dar binecuvântat era locul acesta mai ales de când veniseră cârciumarul cel nou cu nevasta lui tânără şi cu soacră-sa cea bătrână, căci ei nu primeau pe drumeţ ca pe un străin venit din lume, ci ca pe un prieten aşteptat de multă vreme Sâmbătă de cu seară locul se deşerta, şi Ghiţă, ajungând să mai răsufle, se punea cu Ana şi cu bătrâna să numere banii, şi atunci el privea la Ana, Ana privea la el, amândoi priveau la cei doi copilaşi, căci doi erau acum, iară bătrâna privea la câteşipatru şi se simţea întreţinută, căci avea un ginere harnic, o fată norocoasă, doi nepoţi sprinteni, iară sporul era dat de la Dumnezeu, dintr-un câştig făcut cu bine."
+      },
+      {
+        "source": "CHAR_GHITA",
+        "target": "CHAR_COPII",
+        "predicate": "is_parent_of",
+        "title": "Ghiță – Copiii lui Ghiță și ai Anei",
+        "text": "Ghiță este părintele lui/ei Copiii lui Ghiță și ai Anei. Momente comune din graf: Altfel în această odaie îşi petrecea cârciumarul ziua, cu nevasta şi cu copiii, fiindcă odaia în care se culca el era în altă parte, cu intrarea prin bucătărie şi cu ferestrele la deal, câtă vreme aici ferestrele erau spre drum, încât, şezând la masă, putea să vadă cu o privire şi cârciuma, şi drumul, şi locul de dinaintea cârciumii. Încetul cu încetul, Ghiţă îşi puse tare şi tot mai tare de gând că mai stă pân' la primăvară la Moara cu noroc, apoi îşi adună toată averea, îşi ia nevasta şi copiii şi se duce departe, unde nu-l cunoaşte nimeni, în fundul Banatului, ori chiar în Ţară."
+      },
+      {
+        "source": "CHAR_ANA",
+        "target": "CHAR_COPII",
+        "predicate": "is_parent_of",
+        "title": "Ana – Copiii lui Ghiță și ai Anei",
+        "text": "Ana este părintele lui/ei Copiii lui Ghiță și ai Anei. Momente comune din graf: Mi-e greu să-mi părăsesc coliba în care mi-am petrecut viaţa şi mi-am crescut copiii şi mă cuprinde un fel de spaimă când mă gândesc să rămân singură într-însa: de aceea, poate că mai ales de aceea, Ana îmi părea prea tânără, prea aşezată, oarecum prea blândă la fire, şi-mi vine să râd când mi-o închipuiesc cârciumăriţă. Du-te, îi zise apoi Lică lui Răuţ, care stătea în prag, leagă-l pe slugă, apoi adă nevasta cu copiii în casă."
+      },
+      {
+        "source": "CHAR_GHITA",
+        "target": "CHAR_LICA",
+        "predicate": "co_occurs_with",
+        "title": "Ghiță – Lică Sămădăul",
+        "text": "Ghiță interacționează în acțiune cu Lică Sămădăul. Momente comune din graf: Lasă, că m-am înţeles eu cu dânşii, răspunse Ghiţă, apoi se duse pe ici în colea, ca nimeni să nu-i vadă faţa şi ca nu cumva nevasta să-l întrebe: \"Ce ai, Ghiţă?\" Peste puţin sosi şi sămădăul, vestitul Lică Sămădăul, la Moara cu noroc. Lică le zise aceste aşa, ca orişicine să poată înţelege că are grabă şi că nu vrea să mai lungească vorba: bătrâna plecă dar fără de întârziere să caute pe Ghiţă, iar Ana rămase privind ca un copil uimit la călăreţul ce stătea ca un stâlp de piatră înaintea ei."
+      },
+      {
+        "source": "CHAR_GHITA",
+        "target": "CHAR_PINTEA",
+        "predicate": "co_occurs_with",
+        "title": "Ghiță – Pintea",
+        "text": "Ghiță interacționează în acțiune cu Pintea. Momente comune din graf: De aceea simţea şi Ghiţă că Pintea e oarecum singurul om cu care ar putea să vorbească mai pe faţă, şi acum, când se văzu peste noapte sub acelaşi acoperământ cu Lică, ar fi dorit să-l aibă şi pe Pintea în apropiere. De aceea acum, când simţea trebuinţa de un suflet în care să-şi caute sprijinire, Ghiţă nu se gândea la Ana, care dormea liniştită lângă dânsul, ci la Pintea, care-l mângâiase adeseori cu privirile sale pline de încredere."
+      },
+      {
+        "source": "CHAR_BATRANA",
+        "target": "CHAR_GHITA",
+        "predicate": "co_occurs_with",
+        "title": "Bătrâna – Ghiță",
+        "text": "Bătrâna interacționează în acțiune cu Ghiță. Momente comune din graf: Dar binecuvântat era locul acesta mai ales de când veniseră cârciumarul cel nou cu nevasta lui tânără şi cu soacră-sa cea bătrână, căci ei nu primeau pe drumeţ ca pe un străin venit din lume, ci ca pe un prieten aşteptat de multă vreme Sâmbătă de cu seară locul se deşerta, şi Ghiţă, ajungând să mai răsufle, se punea cu Ana şi cu bătrâna să numere banii, şi atunci el privea la Ana, Ana privea la el, amândoi priveau la cei doi copilaşi, căci doi erau acum, iară bătrâna privea la câteşipatru şi se simţea întreţinută, căci avea un ginere harnic, o fată norocoasă, doi nepoţi sprinteni, iară sporul era dat de la Dumnezeu, dintr-un câştig făcut cu bine."
+      },
+      {
+        "source": "CHAR_BUZA",
+        "target": "CHAR_SAILA",
+        "predicate": "co_occurs_with",
+        "title": "Buză-Ruptă – Săilă Boarul",
+        "text": "Buză-Ruptă interacționează în acțiune cu Săilă Boarul. Momente comune din graf: Într-o zi de luni erau cinci care la Moara cu noroc şi şapte oameni sub cerdac, când sosi şi Lică dimpreună cu Buză-Ruptă, cu Săilă Boarul şi cu Răuţ, omul de care numai arareori se despărţea. Înspre seară, Săilă Boarul plecă cu Buză-Ruptă spre Ineu, Răuţ o luă, după ce schimbă câteva semne tainice cu Sămădăul, spre pădurea de la Fundureni, iară Lică se opri la drumeţi şi grăi privind înspre apus, de unde se ridicau nişte nori grei spre cer: — Se schimbă vremea, precum se vede; dar tot mi-e că am să rămân aici peste noapte."
+      },
+      {
+        "source": "CHAR_ANA",
+        "target": "CHAR_LICA",
+        "predicate": "co_occurs_with",
+        "title": "Ana – Lică Sămădăul",
+        "text": "Ana interacționează în acțiune cu Lică Sămădăul. Momente comune din graf: Lasă, că m-am înţeles eu cu dânşii, răspunse Ghiţă, apoi se duse pe ici în colea, ca nimeni să nu-i vadă faţa şi ca nu cumva nevasta să-l întrebe: \"Ce ai, Ghiţă?\" Peste puţin sosi şi sămădăul, vestitul Lică Sămădăul, la Moara cu noroc. Lică le zise aceste aşa, ca orişicine să poată înţelege că are grabă şi că nu vrea să mai lungească vorba: bătrâna plecă dar fără de întârziere să caute pe Ghiţă, iar Ana rămase privind ca un copil uimit la călăreţul ce stătea ca un stâlp de piatră înaintea ei."
+      },
+      {
+        "source": "CHAR_LICA",
+        "target": "CHAR_PINTEA",
+        "predicate": "co_occurs_with",
+        "title": "Lică Sămădăul – Pintea",
+        "text": "Lică Sămădăul interacționează în acțiune cu Pintea. Momente comune din graf: De aceea simţea şi Ghiţă că Pintea e oarecum singurul om cu care ar putea să vorbească mai pe faţă, şi acum, când se văzu peste noapte sub acelaşi acoperământ cu Lică, ar fi dorit să-l aibă şi pe Pintea în apropiere. Ghiţă luase hotărârea să nu aştepte decât plecarea lui Lică, apoi să-şi pună caii la căruţă şi să se ducă la Ineu, ca să-l caute pe Pintea."
+      },
+      {
+        "source": "CHAR_BUZA",
+        "target": "CHAR_LICA",
+        "predicate": "co_occurs_with",
+        "title": "Buză-Ruptă – Lică Sămădăul",
+        "text": "Buză-Ruptă interacționează în acțiune cu Lică Sămădăul. Momente comune din graf: Într-o zi de luni erau cinci care la Moara cu noroc şi şapte oameni sub cerdac, când sosi şi Lică dimpreună cu Buză-Ruptă, cu Săilă Boarul şi cu Răuţ, omul de care numai arareori se despărţea. Lui Lică îi veni de la o vreme poftă să joace şi, apucând pe Buză-Ruptă, ieşi din cârciumă şi începu să frământe pământul, încât părul răsucit în plete lungi îi zbura în vânt."
+      },
+      {
+        "source": "CHAR_LICA",
+        "target": "CHAR_SAILA",
+        "predicate": "co_occurs_with",
+        "title": "Lică Sămădăul – Săilă Boarul",
+        "text": "Lică Sămădăul interacționează în acțiune cu Săilă Boarul. Momente comune din graf: Într-o zi de luni erau cinci care la Moara cu noroc şi şapte oameni sub cerdac, când sosi şi Lică dimpreună cu Buză-Ruptă, cu Săilă Boarul şi cu Răuţ, omul de care numai arareori se despărţea. Înspre seară, Săilă Boarul plecă cu Buză-Ruptă spre Ineu, Răuţ o luă, după ce schimbă câteva semne tainice cu Sămădăul, spre pădurea de la Fundureni, iară Lică se opri la drumeţi şi grăi privind înspre apus, de unde se ridicau nişte nori grei spre cer: — Se schimbă vremea, precum se vede; dar tot mi-e că am să rămân aici peste noapte."
+      },
+      {
+        "source": "CHAR_LICA",
+        "target": "CHAR_RAUT",
+        "predicate": "co_occurs_with",
+        "title": "Lică Sămădăul – Răuț",
+        "text": "Lică Sămădăul interacționează în acțiune cu Răuț. Momente comune din graf: Du-te, îi zise apoi Lică lui Răuţ, care stătea în prag, leagă-l pe slugă, apoi adă nevasta cu copiii în casă. Într-o zi de luni erau cinci care la Moara cu noroc şi şapte oameni sub cerdac, când sosi şi Lică dimpreună cu Buză-Ruptă, cu Săilă Boarul şi cu Răuţ, omul de care numai arareori se despărţea."
+      },
+      {
+        "source": "CHAR_GHITA",
+        "target": "CHAR_MARTI",
+        "predicate": "co_occurs_with",
+        "title": "Ghiță – Marți",
+        "text": "Ghiță interacționează în acțiune cu Marți. Momente comune din graf: Patru zile pe săptămână, de marţi seară până sâmbătă, era mereu plină, şi toţi se opreau la cârciuma lui Ghiţă, şi toţi luau câte ceva, şi toţi plăteau cinstit. Marţi, care intră mai nesfiit, nu ştia nimic despre cele petrecute atunci, duminică, însă, din mărturisirile lui, comisarul află că Ghiţă are o verigă de sârmă, pe care sunt înşirate semnele turmelor lui Lică, de la care a primit în mai multe rânduri porci, şi că luni, ca ieri, Lică a stat cu Răuţ, cu Buză-Ruptă, cu Săilă Boarul şi cu Ghiţă la cârciumă, că au vorbit cam în taină despre arândaşul şi că în amurgul serii BuzăRuptă şi cu Săilă au plecat spre Ineu, Răuţ a luat-o pe vale în sus la pădure, iară Lică a rămas până dimineaţa la cârciumă."
+      },
+      {
+        "source": "CHAR_BUZA",
+        "target": "CHAR_RAUT",
+        "predicate": "co_occurs_with",
+        "title": "Buză-Ruptă – Răuț",
+        "text": "Buză-Ruptă interacționează în acțiune cu Răuț. Momente comune din graf: Într-o zi de luni erau cinci care la Moara cu noroc şi şapte oameni sub cerdac, când sosi şi Lică dimpreună cu Buză-Ruptă, cu Săilă Boarul şi cu Răuţ, omul de care numai arareori se despărţea. Înspre seară, Săilă Boarul plecă cu Buză-Ruptă spre Ineu, Răuţ o luă, după ce schimbă câteva semne tainice cu Sămădăul, spre pădurea de la Fundureni, iară Lică se opri la drumeţi şi grăi privind înspre apus, de unde se ridicau nişte nori grei spre cer: — Se schimbă vremea, precum se vede; dar tot mi-e că am să rămân aici peste noapte."
+      },
+      {
+        "source": "CHAR_RAUT",
+        "target": "CHAR_SAILA",
+        "predicate": "co_occurs_with",
+        "title": "Răuț – Săilă Boarul",
+        "text": "Răuț interacționează în acțiune cu Săilă Boarul. Momente comune din graf: Într-o zi de luni erau cinci care la Moara cu noroc şi şapte oameni sub cerdac, când sosi şi Lică dimpreună cu Buză-Ruptă, cu Săilă Boarul şi cu Răuţ, omul de care numai arareori se despărţea. Înspre seară, Săilă Boarul plecă cu Buză-Ruptă spre Ineu, Răuţ o luă, după ce schimbă câteva semne tainice cu Sămădăul, spre pădurea de la Fundureni, iară Lică se opri la drumeţi şi grăi privind înspre apus, de unde se ridicau nişte nori grei spre cer: — Se schimbă vremea, precum se vede; dar tot mi-e că am să rămân aici peste noapte."
+      },
+      {
+        "source": "CHAR_ANA",
+        "target": "CHAR_PINTEA",
+        "predicate": "co_occurs_with",
+        "title": "Ana – Pintea",
+        "text": "Ana interacționează în acțiune cu Pintea. Momente comune din graf: De aceea acum, când simţea trebuinţa de un suflet în care să-şi caute sprijinire, Ghiţă nu se gândea la Ana, care dormea liniştită lângă dânsul, ci la Pintea, care-l mângâiase adeseori cu privirile sale pline de încredere. La început ar fi fost în stare să-şi pună caii la căruţă şi să plece acu în vreme de noapte la Ineu, ca să-l caute pe Pintea; încetul cu încetul, însă, gândurile s-au lămurit în sufletul lui, şi în cele din urmă simţindu-se mai tare, el îşi zise: \"Adică de ce să pun eu mai multă încredere într-un om străin decât în nevasta mea!?\" De abia se înnoptase, toţi dormeau la cârciumă, şi chiar Ghiţă, mai împăcat cu gândurile sale, aţipise, când câinii începură să latre şi o luară din ce în ce mai neastâmpăraţi pe vale în sus."
+      },
+      {
+        "source": "CHAR_BUZA",
+        "target": "CHAR_MARTI",
+        "predicate": "co_occurs_with",
+        "title": "Buză-Ruptă – Marți",
+        "text": "Buză-Ruptă interacționează în acțiune cu Marți. Momente comune din graf: Marţi, care intră mai nesfiit, nu ştia nimic despre cele petrecute atunci, duminică, însă, din mărturisirile lui, comisarul află că Ghiţă are o verigă de sârmă, pe care sunt înşirate semnele turmelor lui Lică, de la care a primit în mai multe rânduri porci, şi că luni, ca ieri, Lică a stat cu Răuţ, cu Buză-Ruptă, cu Săilă Boarul şi cu Ghiţă la cârciumă, că au vorbit cam în taină despre arândaşul şi că în amurgul serii BuzăRuptă şi cu Săilă au plecat spre Ineu, Răuţ a luat-o pe vale în sus la pădure, iară Lică a rămas până dimineaţa la cârciumă. Comisarul, care din mărturisirea lui Marţi îşi făcuse gândul că Buză-Ruptă şi Săilă au călcat de cu seară pe arândaşul, iară spre miază-noapte Răuţ a venit să-l vestească pe Lică despre cele petrecute şi să-i aducă poate o parte din lucrurile răpite, credea că Ghiţă spune dinadins un neadevăr; el făcu dar câţiva paşi înainte, privi aspru în ochii lui Ghiţă şi întrebă: — Carevasăzică, omul care a venit cu femeia nu era Răuţ; el a venit numaidecât seara, cum am zice, chiar pe timpul când arândaşul fusese călcat, şi a plecat peste puţin?"
+      },
+      {
+        "source": "CHAR_GHITA",
+        "target": "CHAR_RAUT",
+        "predicate": "co_occurs_with",
+        "title": "Ghiță – Răuț",
+        "text": "Ghiță interacționează în acțiune cu Răuț. Momente comune din graf: Marţi, care intră mai nesfiit, nu ştia nimic despre cele petrecute atunci, duminică, însă, din mărturisirile lui, comisarul află că Ghiţă are o verigă de sârmă, pe care sunt înşirate semnele turmelor lui Lică, de la care a primit în mai multe rânduri porci, şi că luni, ca ieri, Lică a stat cu Răuţ, cu Buză-Ruptă, cu Săilă Boarul şi cu Ghiţă la cârciumă, că au vorbit cam în taină despre arândaşul şi că în amurgul serii BuzăRuptă şi cu Săilă au plecat spre Ineu, Răuţ a luat-o pe vale în sus la pădure, iară Lică a rămas până dimineaţa la cârciumă. Comisarul, care din mărturisirea lui Marţi îşi făcuse gândul că Buză-Ruptă şi Săilă au călcat de cu seară pe arândaşul, iară spre miază-noapte Răuţ a venit să-l vestească pe Lică despre cele petrecute şi să-i aducă poate o parte din lucrurile răpite, credea că Ghiţă spune dinadins un neadevăr; el făcu dar câţiva paşi înainte, privi aspru în ochii lui Ghiţă şi întrebă: — Carevasăzică, omul care a venit cu femeia nu era Răuţ; el a venit numaidecât seara, cum am zice, chiar pe timpul când arândaşul fusese călcat, şi a plecat peste puţin?"
+      },
+      {
+        "source": "CHAR_LICA",
+        "target": "CHAR_MARTI",
+        "predicate": "co_occurs_with",
+        "title": "Lică Sămădăul – Marți",
+        "text": "Lică Sămădăul interacționează în acțiune cu Marți. Momente comune din graf: Marţi, care intră mai nesfiit, nu ştia nimic despre cele petrecute atunci, duminică, însă, din mărturisirile lui, comisarul află că Ghiţă are o verigă de sârmă, pe care sunt înşirate semnele turmelor lui Lică, de la care a primit în mai multe rânduri porci, şi că luni, ca ieri, Lică a stat cu Răuţ, cu Buză-Ruptă, cu Săilă Boarul şi cu Ghiţă la cârciumă, că au vorbit cam în taină despre arândaşul şi că în amurgul serii BuzăRuptă şi cu Săilă au plecat spre Ineu, Răuţ a luat-o pe vale în sus la pădure, iară Lică a rămas până dimineaţa la cârciumă. Comisarul, care din mărturisirea lui Marţi îşi făcuse gândul că Buză-Ruptă şi Săilă au călcat de cu seară pe arândaşul, iară spre miază-noapte Răuţ a venit să-l vestească pe Lică despre cele petrecute şi să-i aducă poate o parte din lucrurile răpite, credea că Ghiţă spune dinadins un neadevăr; el făcu dar câţiva paşi înainte, privi aspru în ochii lui Ghiţă şi întrebă: — Carevasăzică, omul care a venit cu femeia nu era Răuţ; el a venit numaidecât seara, cum am zice, chiar pe timpul când arândaşul fusese călcat, şi a plecat peste puţin?"
+      },
+      {
+        "source": "CHAR_GHITA",
+        "target": "CHAR_LAIE",
+        "predicate": "co_occurs_with",
+        "title": "Ghiță – Laie",
+        "text": "Ghiță interacționează în acțiune cu Laie. Momente comune din graf: Duminică, după ce bătrâna plecase la biserică, Ghiţă-şi răsuflă veninul asupra lui Laie, apoi se făcuse mai vesel decât de obicei. Ghiţă uitase de mult că au lătrat o dată câinii, când Lică sosi la cârciumă si-l deşteptă cu câteva ghionturi din somn pe Laie, care dormea pe laiţa de sub cerdac, ca să-l trimită după stăpânul lui."
+      },
+      {
+        "source": "CHAR_BUZA",
+        "target": "CHAR_GHITA",
+        "predicate": "co_occurs_with",
+        "title": "Buză-Ruptă – Ghiță",
+        "text": "Buză-Ruptă interacționează în acțiune cu Ghiță. Momente comune din graf: Ghiţă nu se mai îndoia că acei doi au fost Săilă şi Buză-Ruptă, care plecaseră ieri seară spre Ineu; însă el nu putea vorbi. Marţi, care intră mai nesfiit, nu ştia nimic despre cele petrecute atunci, duminică, însă, din mărturisirile lui, comisarul află că Ghiţă are o verigă de sârmă, pe care sunt înşirate semnele turmelor lui Lică, de la care a primit în mai multe rânduri porci, şi că luni, ca ieri, Lică a stat cu Răuţ, cu Buză-Ruptă, cu Săilă Boarul şi cu Ghiţă la cârciumă, că au vorbit cam în taină despre arândaşul şi că în amurgul serii BuzăRuptă şi cu Săilă au plecat spre Ineu, Răuţ a luat-o pe vale în sus la pădure, iară Lică a rămas până dimineaţa la cârciumă."
+      }
+    ]
+  }
+}

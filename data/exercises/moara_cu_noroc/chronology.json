@@ -1,0 +1,913 @@
+{
+  "version": 1,
+  "work_id": "moara_cu_noroc",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "exercise_type": "chronology",
+  "source": {
+    "question_bank": "data/generated_works/moara_cu_noroc/testare-rapida/questions.json",
+    "knowledge_graph": "data/generated_works/moara_cu_noroc/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "TEMPORAL_ORDER",
+    "CHARACTER_EVOLUTION"
+  ],
+  "exercise_count": 21,
+  "skipped_count": 0,
+  "skipped": [],
+  "exercises": [
+    {
+      "id": "CHRON-f5b9aa068754cc83",
+      "instruction_source": "În ce succesiune s-au desfășurat aceste etape ale procesului: negarea legăturii cu arândașul, bănuiala despre ascunderea argintăriei, confirmarea mărturiilor împotriva acuzaților și declarația lui Hanțl?",
+      "items": [
+        {
+          "event_id": "EV_103",
+          "event": "Înainte de toate el spusese că nu ţine minte să fi vorbit la Moara cu noroc despre arândaş şi despre slujnică, ori că Săilă să fi plecat cu Buză-Ruptă drept la Ineu, iară când i se citiră mărturisirile celorlalţi, el răspunse scurt: \"Se poate, dar eu nu-mi aduc aminte\".",
+          "position": 1
+        },
+        {
+          "event_id": "EV_104",
+          "event": "Întrebat dacă nu bănuieşte că birtaşul de la Moara cu noroc era înţeles cu Săilă şi cu Buză-Ruptă, Lică răspunse că nu crede ca aceştia să fi fost oamenii cu feţele acoperite ce l-au călcat pe arândaş şi au săvârşit în ziua următoare faptele din drumul de ţară, ci că argintăria arândaşului a fost ascunsă de cineva la casa lui Buză-Ruptă, poate de vreun om al lui Pintea, care le este vrăjmaş.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_105",
+          "event": "Răuţ, Acrişor şi alţi martori şi bănuiţi, care fuseseră luaţi la cerce- tare în urma lui Lică, întăriră prin mărturisirile lor parte cele spuse de Lică, parte cele mărturisite de Marţi înaintea comisarului, astfel că, pe când Pintea veni la rând, atât în mintea judecătorilor, cât şi a oamenilor ce se aflau de faţă, Buză-Ruptă şi Săilă păreau ca dovediţi de a fi săvârşit faptele rele, iară Lică şi Ghiţă tare bănuiţi de a fi stătut în înţelegere cu dânşii.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_106",
+          "event": "Spre marea mirare a celor de faţă, el spunea din cuvânt în cuvânt ceea ce spusese şi Lică, anume, că nu-i crede pe BuzăRuptă şi pe Săilă vinovaţi, că argintăria arândaşului a fost ascunsă de alţii la casa lui Buză-Ruptă, că cuţitul lui Săilă a fost lăsat dinadins în trupul lui Hanţl, că Răuţ nu a venit atunci noaptea cu o muiere la Moara cu noroc, ci singur ori cu vreun tovarăş al său, iară Lică îi râdea în faţă, şi cum îl vedea pe Lică râzând, îşi pierdea tot mai mult cumpătul şi vorbea tot mai aprins, încât se făcu în cele din urmă de râsul lumii adunate la judecată.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T190825824822Z-b001::TEMPORAL_ORDER::ORDER_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_11"
+      ],
+      "evidence_node_ids": [
+        "EV_103",
+        "EV_104",
+        "EV_105",
+        "EV_106",
+        "CH_11"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "CHRON-c8a776ba90381ddd",
+      "instruction_source": "Cum se transformă statutul social al lui Ghiță, de la rivalitatea cu Lică în capitolul 11, până la izolarea finală marcată de starea din capitolul 16?",
+      "items": [
+        {
+          "event_id": "EV_041",
+          "event": "Ghiţă se lăsă pe coate şi rămase aşa întins pe pământ şi cu privirea pierdută în depărtare.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_105",
+          "event": "Răuţ, Acrişor şi alţi martori şi bănuiţi, care fuseseră luaţi la cerce- tare în urma lui Lică, întăriră prin mărturisirile lor parte cele spuse de Lică, parte cele mărturisite de Marţi înaintea comisarului, astfel că, pe când Pintea veni la rând, atât în mintea judecătorilor, cât şi a oamenilor ce se aflau de faţă, Buză-Ruptă şi Săilă păreau ca dovediţi de a fi săvârşit faptele rele, iară Lică şi Ghiţă tare bănuiţi de a fi stătut în înţelegere cu dânşii.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_160",
+          "event": "Când uşa căzu sfărâmată din ţâţâni şi Răuţ se ivi cu Lică în ea, Ana era întinsă la pământ şi cu pieptul plin de sânge cald, iară Ghiţă o ţinea sub genunchi şi apăsa cuţitul tot mai adânc spre inima ei.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_05",
+        "CH_11",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "CHAR_LICA",
+        "EV_105",
+        "CHAR_ANA",
+        "EV_160",
+        "STATE_CH_16_CLOSE"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "CHRON-3010a8a9f57ef0e0",
+      "instruction_source": "În ce succesiune apar aceste scene cu Ghiță: răsuflarea veninului asupra lui Laie, rugămintea Anei pentru copil, privirea pierdută în depărtare și trezirea lui Laie de către Lică?",
+      "items": [
+        {
+          "event_id": "EV_039",
+          "event": "Duminică, după ce bătrâna plecase la biserică, Ghiţă-şi răsuflă veninul asupra lui Laie, apoi se făcuse mai vesel decât de obicei.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_040",
+          "event": "strigă Ana speriată, apoi fugi după câine, îl luă de zgardă, îl aduse la locul unde fusese şi începu să-l roage pe Ghiţă cu stăruinţă ca să-şi pună iar băiatul călare pe el.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_041",
+          "event": "Ghiţă se lăsă pe coate şi rămase aşa întins pe pământ şi cu privirea pierdută în depărtare.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_042",
+          "event": "Ghiţă uitase de mult că au lătrat o dată câinii, când Lică sosi la cârciumă si-l deşteptă cu câteva ghionturi din somn pe Laie, care dormea pe laiţa de sub cerdac, ca să-l trimită după stăpânul lui.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T190825824822Z-b001::TEMPORAL_ORDER::ORDER_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04",
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "EV_039",
+        "EV_040",
+        "EV_041",
+        "EV_042",
+        "CH_04",
+        "CH_05"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "CHRON-45b890770bf2c5c4",
+      "instruction_source": "Cum se degradează legătura afectivă dintre Ana și Ghiță, de la separarea inițială din capitolul 1, prin plecarea spre Ineu, până la disperarea finală din capitolul 16?",
+      "items": [
+        {
+          "event_id": "EV_005",
+          "event": "Mi-e greu să-mi părăsesc coliba în care mi-am petrecut viaţa şi mi-am crescut copiii şi mă cuprinde un fel de spaimă când mă gândesc să rămân singură într-însa: de aceea, poate că mai ales de aceea, Ana îmi părea prea tânără, prea aşezată, oarecum prea blândă la fire, şi-mi vine să râd când mi-o închipuiesc cârciumăriţă.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_072",
+          "event": "Ana rămase cu inima încleştată când Ghiţă îi spuse că trebuie să plece cu Pintea şi cu slugile la Ineu.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_157",
+          "event": "Ana se cutremură în tot trupul, apoi se îndreptă, se dete un pas înapoi şi grăi înecată: — Nu vreau să mor, Ghiţă!",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_08",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "CHAR_ANA",
+        "CHAR_GHITA",
+        "EV_005",
+        "EV_072",
+        "EV_157"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "CHRON-8eb56e51c38f3f5b",
+      "instruction_source": "În ce succesiune apar aceste etape ale conflictului cu Lică: prima confruntare, criza de nervos a lui Ghiță, izolarea familiei, teama Anei, întrebarea post-plecare și avertismentul final?",
+      "items": [
+        {
+          "event_id": "EV_048",
+          "event": "Simţind că Ghiţă e mai tare, Lică privi îngrijat spre uşă şi grăi iute: — Ce vrei cu mine?",
+          "position": 1
+        },
+        {
+          "event_id": "EV_049",
+          "event": "Ghiţă îşi pierduse bunul cumpăt şi tocmai pentru aceea se simţea în strâmtoare faţă de Lică, pe care nimic nu putea să-l scoată din sărite.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_050",
+          "event": "Du-te, îi zise apoi Lică lui Răuţ, care stătea în prag, leagă-l pe slugă, apoi adă nevasta cu copiii în casă.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_051",
+          "event": "De aceea, Ana tăcuse atunci, şi de atunci tăcea mereu şi privea numai din când în când furişat la Lică, zicând în sine: \"Trebuie să fie om rău şi primejdios\".",
+          "position": 4
+        },
+        {
+          "event_id": "EV_052",
+          "event": "îl întrebă ea într-una din zile după plecarea lui Lică.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_053",
+          "event": "Fă cum ştii, dar eu îţi spun, şi nu mă lasă inima să nu-ţi spun, că Lică e om rău şi om primejdios: asta se vede din ochii lui, din rânjetul lui şi mai ales din căutătura ce are, când îşi roade mustaţa cu dinţii.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T190825824822Z-b001::TEMPORAL_ORDER::ORDER_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_05",
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "EV_048",
+        "EV_049",
+        "EV_050",
+        "EV_051",
+        "EV_052",
+        "EV_053"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "CHRON-e2f306d8949cd8ff",
+      "instruction_source": "Cum își pierde Lică controlul și autoritatea, de la manipularea inițială a lui Ghiță, prin confruntarea cu mânia acestuia, până la capturarea sa finală?",
+      "items": [
+        {
+          "event_id": "EV_024",
+          "event": "Lasă, că m-am înţeles eu cu dânşii, răspunse Ghiţă, apoi se duse pe ici în colea, ca nimeni să nu-i vadă faţa şi ca nu cumva nevasta să-l întrebe: \"Ce ai, Ghiţă?\" Peste puţin sosi şi sămădăul, vestitul Lică Sămădăul, la Moara cu noroc.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_091",
+          "event": "Nici acum însă mânia lui nu era pornită asupra lui Ghiţă, ci asupra lui Lică, deoarece numai Lică era de vină pentru cele petrecute.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_166",
+          "event": "dar astă dată Lică nu mai putea să fugă şi, dacă fugea, tot prins era, prins de mâna lui Pintea, prins cu toate dovezile.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T190825824822Z-b001::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_03",
+        "CH_10",
+        "CH_17"
+      ],
+      "evidence_node_ids": [
+        "CHAR_LICA",
+        "CHAR_GHITA",
+        "EV_091",
+        "EV_166",
+        "CHAR_PINTEA"
+      ],
+      "source_run_id": "run-20260822T190825824822Z-b001"
+    },
+    {
+      "id": "CHRON-8c16974a37dc3c1d",
+      "instruction_source": "În ce ordine cronologică au loc următoarele scene de la moară: întâlnirea cu Lică, privirea spre bătrână, vorbirea lui Lică și identificarea ginerei?",
+      "items": [
+        {
+          "event_id": "EV_024",
+          "event": "Lasă, că m-am înţeles eu cu dânşii, răspunse Ghiţă, apoi se duse pe ici în colea, ca nimeni să nu-i vadă faţa şi ca nu cumva nevasta să-l întrebe: \"Ce ai, Ghiţă?\" Peste puţin sosi şi sămădăul, vestitul Lică Sămădăul, la Moara cu noroc.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_025",
+          "event": "El îşi opri calul înaintea cârciumii, aruncă o privire la Ana, apoi alta la bătrâna care şedeau pe laiţa de lângă masa cea mare din umbra cerdacului, trase cu ochii o raită primprejur, apoi întrebă unde-i cârciumarul.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_026",
+          "event": "Lică le zise aceste aşa, ca orişicine să poată înţelege că are grabă şi că nu vrea să mai lungească vorba: bătrâna plecă dar fără de întârziere să caute pe Ghiţă, iar Ana rămase privind ca un copil uimit la călăreţul ce stătea ca un stâlp de piatră înaintea ei.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_027",
+          "event": "E Ghiţă, ginere-meu, grăi bătrâna, şi, mulţumită lui Dumnezeu, ne merge bine de când suntem aici.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T195104194604Z-b002::TEMPORAL_ORDER::TEMPORAL_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "EV_024",
+        "EV_025",
+        "EV_026",
+        "EV_027",
+        "CH_03"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "CHRON-4a52730963a58ed9",
+      "instruction_source": "Cum se transformă situația materială și socială a lui Ghiță de la planul de plecare în capitolul 12 până la uciderea Anei sub influența lui Lică?",
+      "items": [
+        {
+          "event_id": "EV_041",
+          "event": "Ghiţă se lăsă pe coate şi rămase aşa întins pe pământ şi cu privirea pierdută în depărtare.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_115",
+          "event": "Încetul cu încetul, Ghiţă îşi puse tare şi tot mai tare de gând că mai stă pân' la primăvară la Moara cu noroc, apoi îşi adună toată averea, îşi ia nevasta şi copiii şi se duce departe, unde nu-l cunoaşte nimeni, în fundul Banatului, ori chiar în Ţară.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_160",
+          "event": "Când uşa căzu sfărâmată din ţâţâni şi Răuţ se ivi cu Lică în ea, Ana era întinsă la pământ şi cu pieptul plin de sânge cald, iară Ghiţă o ţinea sub genunchi şi apăsa cuţitul tot mai adânc spre inima ei.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_05",
+        "CH_12",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "EV_041",
+        "CHAR_ANA",
+        "EV_115",
+        "EV_160",
+        "STATE_CH_16_CLOSE"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "CHRON-95f2ea724d731d3d",
+      "instruction_source": "Care este succesiunea corectă a acestor momente legate de joc și planuri: dorința lui Lică de a juca, reacția Anei la glume, plecarea drumeților spre pădure și reflecția lui Ghiță despre Pintea?",
+      "items": [
+        {
+          "event_id": "EV_059",
+          "event": "Lui Lică îi veni de la o vreme poftă să joace şi, apucând pe Buză-Ruptă, ieşi din cârciumă şi începu să frământe pământul, încât părul răsucit în plete lungi îi zbura în vânt.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_060",
+          "event": "Oamenii de la uşă zâmbiră pe sub mustaţă, Ana tresări şi se ridică roşită ca bujorul, iară bătrâna privi la o parte, făcându-se că nu înţelege vorbele lui Lică.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_061",
+          "event": "Înspre seară, Săilă Boarul plecă cu Buză-Ruptă spre Ineu, Răuţ o luă, după ce schimbă câteva semne tainice cu Sămădăul, spre pădurea de la Fundureni, iară Lică se opri la drumeţi şi grăi privind înspre apus, de unde se ridicau nişte nori grei spre cer: — Se schimbă vremea, precum se vede; dar tot mi-e că am să rămân aici peste noapte.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_062",
+          "event": "De aceea simţea şi Ghiţă că Pintea e oarecum singurul om cu care ar putea să vorbească mai pe faţă, şi acum, când se văzu peste noapte sub acelaşi acoperământ cu Lică, ar fi dorit să-l aibă şi pe Pintea în apropiere.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T195104194604Z-b002::TEMPORAL_ORDER::TEMPORAL_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_06",
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "EV_059",
+        "EV_060",
+        "EV_061",
+        "EV_062",
+        "CH_06",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "CHRON-65603bc250c9f3d8",
+      "instruction_source": "Cum evoluează legătura afectivă dintre Ana și Ghiță de la teama inițială de singurătate la disperarea finală din capitolul 16?",
+      "items": [
+        {
+          "event_id": "EV_005",
+          "event": "Mi-e greu să-mi părăsesc coliba în care mi-am petrecut viaţa şi mi-am crescut copiii şi mă cuprinde un fel de spaimă când mă gândesc să rămân singură într-însa: de aceea, poate că mai ales de aceea, Ana îmi părea prea tânără, prea aşezată, oarecum prea blândă la fire, şi-mi vine să râd când mi-o închipuiesc cârciumăriţă.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_077",
+          "event": "Da, îi răspunse Ana, în toate părţile cât vezi cu ochii.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_157",
+          "event": "Ana se cutremură în tot trupul, apoi se îndreptă, se dete un pas înapoi şi grăi înecată: — Nu vreau să mor, Ghiţă!",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_08",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "CHAR_ANA",
+        "EV_005",
+        "CHAR_COPII",
+        "EV_077",
+        "EV_157",
+        "CHAR_GHITA"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "CHRON-38a8dde4ad2ef56d",
+      "instruction_source": "În ce ordine se desfășoară aceste evenimente cheie: îndoielile lui Ghiță privind somnul Anei, hotărârea sa de a-l căuta pe Pintea, sosirea jandarmului, exclamația lui Pintea și recunoașterea drumetilor de către Ghiță?",
+      "items": [
+        {
+          "event_id": "EV_067",
+          "event": "Dac-ar fi ştiut că Ana doarme, Ghiţă ar fi plecat să se încredinţeze.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_068",
+          "event": "Ghiţă luase hotărârea să nu aştepte decât plecarea lui Lică, apoi să-şi pună caii la căruţă şi să se ducă la Ineu, ca să-l caute pe Pintea.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_069",
+          "event": "Făcându-şi socoteala cu drumeţii, Ghiţă se întreba mereu ce va fi având nevasta să-i spună, şi grăbea mai mult decât de obicei, dar pe când drumeţii erau gata de plecare, iată că sosi şi Pintea, însoţit de alţi doi jandarmi, la cârciumă.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_070",
+          "event": "strigă Pintea râzând, aş fi oare ceea ce sunt, dacă n-aş fi dovedit că ştiu toate potecile şi toate apucăturile tovarăşilor mei de mai nainte?",
+          "position": 4
+        },
+        {
+          "event_id": "EV_071",
+          "event": "Ghiţă nu se mai îndoia că acei doi au fost Săilă şi Buză-Ruptă, care plecaseră ieri seară spre Ineu; însă el nu putea vorbi.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_072",
+          "event": "Ana rămase cu inima încleştată când Ghiţă îi spuse că trebuie să plece cu Pintea şi cu slugile la Ineu.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T195104194604Z-b002::TEMPORAL_ORDER::TEMPORAL_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_07",
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "EV_067",
+        "EV_068",
+        "EV_069",
+        "EV_070",
+        "EV_071",
+        "EV_072",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260822T195104194604Z-b002"
+    },
+    {
+      "id": "CHRON-0bc416d62602aa9b",
+      "instruction_source": "Cum se modifică poziția și autoritatea lui Lică Sămădăul de la manipularea lui Ghiță la capturarea sa de către Pintea?",
+      "items": [
+        {
+          "event_id": "EV_024",
+          "event": "Lasă, că m-am înţeles eu cu dânşii, răspunse Ghiţă, apoi se duse pe ici în colea, ca nimeni să nu-i vadă faţa şi ca nu cumva nevasta să-l întrebe: \"Ce ai, Ghiţă?\" Peste puţin sosi şi sămădăul, vestitul Lică Sămădăul, la Moara cu noroc.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_100",
+          "event": "Pe când ei sosiră la cazarmă, tot Ineul ştia că Pintea, căprarul, l-a prins pe Lică Sămădăul şi că era să-l împuşte pe drum, în mijlocul uliţei, şi vreo cincizeci de oameni doritori de a afla ceva despre cele petrecute veneau în urma lor.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_166",
+          "event": "dar astă dată Lică nu mai putea să fugă şi, dacă fugea, tot prins era, prins de mâna lui Pintea, prins cu toate dovezile.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T195623375580Z-b003::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_03",
+        "CH_10",
+        "CH_17"
+      ],
+      "evidence_node_ids": [
+        "CHAR_LICA",
+        "EV_024",
+        "CHAR_GHITA",
+        "EV_100",
+        "CHAR_PINTEA",
+        "STATE_CH_10_CLOSE",
+        "EV_166"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "CHRON-0ae60cc561924082",
+      "instruction_source": "În ce ordine cronologică s-au desfășurat: reflecția lui Ghiță asupra câștigului, certea cu sluga, vărsarea veninului asupra lui Laie și intervenția Anei pentru câine?",
+      "items": [
+        {
+          "event_id": "EV_037",
+          "event": "Ghiţă întâia oară în viaţa lui ar fi voit să n-aibă nevastă şi copii, pentru ca să poată zice: \"Prea puţin îmi pasă!\" Se gândea la câştigul pe care l-ar putea face în tovărăşie cu Lică, vedea banii grămadă înaintea sa şi i se împăienjeneau parcă ochii: de dragul acestui câştig ar fi fost gata să-şi pună pe un an, doi capul în primejdie.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_038",
+          "event": "Chiar atunci seara Ghiţă îşi bătu sluga, pe ungurul, fără a-şi da seama pentru ce, iar când Ana îl mustră, fără de voie, pentru aceasta, el îi aruncă vorbele: — Ei!",
+          "position": 2
+        },
+        {
+          "event_id": "EV_039",
+          "event": "Duminică, după ce bătrâna plecase la biserică, Ghiţă-şi răsuflă veninul asupra lui Laie, apoi se făcuse mai vesel decât de obicei.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_040",
+          "event": "strigă Ana speriată, apoi fugi după câine, îl luă de zgardă, îl aduse la locul unde fusese şi începu să-l roage pe Ghiţă cu stăruinţă ca să-şi pună iar băiatul călare pe el.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T195623375580Z-b003::TEMPORAL_ORDER::ORDER_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "EV_037",
+        "EV_038",
+        "EV_039",
+        "EV_040",
+        "CH_04"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "CHRON-58a0eeec06728e2b",
+      "instruction_source": "Cum se consolidează poziția socială și autoritatea lui Lică Sămădăul, de la implicarea în jocurile din capitolul 6 până la starea finală de control absolut în capitolul 16?",
+      "items": [
+        {
+          "event_id": "EV_059",
+          "event": "Lui Lică îi veni de la o vreme poftă să joace şi, apucând pe Buză-Ruptă, ieşi din cârciumă şi începu să frământe pământul, încât părul răsucit în plete lungi îi zbura în vânt.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_147",
+          "event": "Ploaia începu să cadă în stropi mari, tunetele începură să răsune de-a lungul văii cu nişte zguduiri puternice şi tot mai puternice; fulgerele sfâşiau mai în lung, pe-ntrecute şi tot mai pe-ntrecute noaptea căzută în pripă; iar Lică gonea cu frâul slobod şi plecat spre gâtul calului, încât trecea ca blestemul pământului printre şiroaie îndesate, printre tunete şi fulgere.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_160",
+          "event": "Când uşa căzu sfărâmată din ţâţâni şi Răuţ se ivi cu Lică în ea, Ana era întinsă la pământ şi cu pieptul plin de sânge cald, iară Ghiţă o ţinea sub genunchi şi apăsa cuţitul tot mai adânc spre inima ei.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_06",
+        "CH_15",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "CHAR_LICA",
+        "EV_059",
+        "CH_06",
+        "EV_147",
+        "CH_15",
+        "EV_160",
+        "STATE_CH_16_CLOSE"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "CHRON-06a723c69df93c8f",
+      "instruction_source": "Care este succesiunea corectă a acestor momente finale: lacrimile lui Ghiță, intrarea violentă a lui Răuț cu Lică, plecarea sa călare la Ineu și întoarcerea Pintei spre foc?",
+      "items": [
+        {
+          "event_id": "EV_159",
+          "event": "Ghiţă începu şi el să plângă, o strânse la sân şi îi sărută fruntea.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_160",
+          "event": "Când uşa căzu sfărâmată din ţâţâni şi Răuţ se ivi cu Lică în ea, Ana era întinsă la pământ şi cu pieptul plin de sânge cald, iară Ghiţă o ţinea sub genunchi şi apăsa cuţitul tot mai adânc spre inima ei.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_161",
+          "event": "Ghiţă plecase călare la Ineu, şi calul lui trebuia să fie la Moara cu noroc, un cal odihnit şi luat din grajd, cu care, pe lângă tot înconjurul, putea sosi la vreme în Ineu.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_162",
+          "event": "În vremea aceasta Răuţ se depărtase spre Ineu, Pârvu o luase spre Şicula, iară Pintea, văzând focul la Moara cu noroc, îi lăsă pe săteni să creadă că a trăsnit din cer, şi aducându-şi aminte de vorbele lui Ghiţă, se întoarse drept pe zarea de lumină ca să sosească, dacă mai era cu putinţă, la vreme.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T195623375580Z-b003::TEMPORAL_ORDER::ORDER_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_16",
+        "CH_17"
+      ],
+      "evidence_node_ids": [
+        "EV_159",
+        "EV_160",
+        "EV_161",
+        "EV_162",
+        "CH_16",
+        "CH_17"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "CHRON-83bf5e3fc43fbbf9",
+      "instruction_source": "Cum se transformă legătura afectivă dintre Ghiță și Ana, de la idila inițială din capitolul 1 până la distanțarea fatală marcată de plecarea spre Ineu în capitolul 17?",
+      "items": [
+        {
+          "event_id": "EV_006",
+          "event": "Vorbă scurtă, răspunse Ghiţă, să rămânem aici, să cârpesc şi mai departe cizmele oamenilor, care umblă toată săptămâna în opinci ori desculţi, iară dacă duminica e noroi, îşi duc cizmele în mână până la biserică, şi să ne punem pe prispa casei la soare, privind eu la Ana, Ana la mine, amândoi la copilaş, iară d-ta la tustrei.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_071",
+          "event": "Ghiţă nu se mai îndoia că acei doi au fost Săilă şi Buză-Ruptă, care plecaseră ieri seară spre Ineu; însă el nu putea vorbi.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_161",
+          "event": "Ghiţă plecase călare la Ineu, şi calul lui trebuia să fie la Moara cu noroc, un cal odihnit şi luat din grajd, cu care, pe lângă tot înconjurul, putea sosi la vreme în Ineu.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_08",
+        "CH_17"
+      ],
+      "evidence_node_ids": [
+        "CHAR_GHITA",
+        "EV_006",
+        "CH_01",
+        "EV_071",
+        "CH_08",
+        "EV_161",
+        "CH_17"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "CHRON-484032ec4501e601",
+      "instruction_source": "Care este ordinea corectă a acestor etape ale anchetei: bănuielile vizitiului, declarația lui Ghiță, interogatoriul cu Marți, întrebarea către Lică, reacția lui Ghiță și confuzia finală?",
+      "items": [
+        {
+          "event_id": "EV_080",
+          "event": "Adică tu crezi că Sămădăul fură şi ea vinde, grăi vizitiul cu îndoială.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_081",
+          "event": "Înaintea judecătorului, faţă în faţă cu crucea şi cu lumânările aprinse, el nu putea tăgădui c-a avut daraveri cu Lică şi trebuia să spună toate cele petrecute, şi din două una: ori Lică ajungea să fie dovedit şi pus la pedeapsă, şi atunci nici el, Ghiţă, ca om însoţit cu un făcător de rele, nu putea să scape cu obrazul curat, ori Lică scăpa, şi atunci Ghiţă trebuia să se teamă de răzbunarea lui.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_082",
+          "event": "Marţi, care intră mai nesfiit, nu ştia nimic despre cele petrecute atunci, duminică, însă, din mărturisirile lui, comisarul află că Ghiţă are o verigă de sârmă, pe care sunt înşirate semnele turmelor lui Lică, de la care a primit în mai multe rânduri porci, şi că luni, ca ieri, Lică a stat cu Răuţ, cu Buză-Ruptă, cu Săilă Boarul şi cu Ghiţă la cârciumă, că au vorbit cam în taină despre arândaşul şi că în amurgul serii BuzăRuptă şi cu Săilă au plecat spre Ineu, Răuţ a luat-o pe vale în sus la pădure, iară Lică a rămas până dimineaţa la cârciumă.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_083",
+          "event": "îl întrebă comisarul cam aspru, după ce află de la dânsul că Lică a petrecut ca ieri, cu Săilă şi cu ceilalţi la cârciumă.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_084",
+          "event": "răspunse Ghiţă hotărât, ca omul care-şi aprinde casa în cap, apoi aruncă o privire la Pintea, ca şi când ar voi să-i zică: \"Asta ţi-o spun ţie!\" Comisarul îşi pierdu răbdarea în faţă cu liniştea lui Ghiţă.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_085",
+          "event": "Ghiţă, care nu ştia nimic despre mărturisirile lui Marţi, nu înţelegea unde bate comisarul cu întrebările lui, iar Pintea şi comisarul, văzând mărturisirile celor doi oameni luaţi la cercetare, îşi dădeau silinţă să se dumerească asupra lor.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T195623375580Z-b003::TEMPORAL_ORDER::ORDER_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_08",
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "EV_080",
+        "EV_081",
+        "EV_082",
+        "EV_083",
+        "EV_084",
+        "EV_085",
+        "CH_08",
+        "CH_09"
+      ],
+      "source_run_id": "run-20260822T195623375580Z-b003"
+    },
+    {
+      "id": "CHRON-29deb68a96971eba",
+      "instruction_source": "Ce pierderi suferă Ana pe parcursul narațiunii, de la atașamentul față de coliba natală și copii până la disperarea finală și frica de moarte în capitolul 16?",
+      "items": [
+        {
+          "event_id": "EV_005",
+          "event": "Mi-e greu să-mi părăsesc coliba în care mi-am petrecut viaţa şi mi-am crescut copiii şi mă cuprinde un fel de spaimă când mă gândesc să rămân singură într-însa: de aceea, poate că mai ales de aceea, Ana îmi părea prea tânără, prea aşezată, oarecum prea blândă la fire, şi-mi vine să râd când mi-o închipuiesc cârciumăriţă.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_078",
+          "event": "Pe când Ana îi povestea bătrânei cele ce aflase despre drumeaţa cea frumoasă, se întoarse şi vizitiul de la grajd şi se puse pe laiţa de sub cerdac.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_157",
+          "event": "Ana se cutremură în tot trupul, apoi se îndreptă, se dete un pas înapoi şi grăi înecată: — Nu vreau să mor, Ghiţă!",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260822T200132842616Z-b004::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_08",
+        "CH_16"
+      ],
+      "evidence_node_ids": [
+        "CHAR_ANA",
+        "EV_005",
+        "CH_01",
+        "EV_078",
+        "CH_08",
+        "EV_157",
+        "CH_16"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "CHRON-b83801e7b823b555",
+      "instruction_source": "În ce ordine apar în capitolul 7 momentele legate de conflictele interioare ale lui Ghiţă: simțul izolării, hotărârea de a-l sfida pe Lică, dorința de sprijin și decizia finală?",
+      "items": [
+        {
+          "event_id": "EV_062",
+          "event": "De aceea simţea şi Ghiţă că Pintea e oarecum singurul om cu care ar putea să vorbească mai pe faţă, şi acum, când se văzu peste noapte sub acelaşi acoperământ cu Lică, ar fi dorit să-l aibă şi pe Pintea în apropiere.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_063",
+          "event": "Şi dacă pier, atâta pagubă!\" Şi mai ales acesta era gândul care-l stăpânea pe Ghiţă: nimic nu era în el mai tare decât pornirea de a se pune împotriva lui Lică şi de a nu da nici cât e negru sub unghie îndărăt.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_064",
+          "event": "De aceea acum, când simţea trebuinţa de un suflet în care să-şi caute sprijinire, Ghiţă nu se gândea la Ana, care dormea liniştită lângă dânsul, ci la Pintea, care-l mângâiase adeseori cu privirile sale pline de încredere.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_065",
+          "event": "La început ar fi fost în stare să-şi pună caii la căruţă şi să plece acu în vreme de noapte la Ineu, ca să-l caute pe Pintea; încetul cu încetul, însă, gândurile s-au lămurit în sufletul lui, şi în cele din urmă simţindu-se mai tare, el îşi zise: \"Adică de ce să pun eu mai multă încredere într-un om străin decât în nevasta mea!?\" De abia se înnoptase, toţi dormeau la cârciumă, şi chiar Ghiţă, mai împăcat cu gândurile sale, aţipise, când câinii începură să latre şi o luară din ce în ce mai neastâmpăraţi pe vale în sus.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T200132842616Z-b004::TEMPORAL_ORDER::TEMPORAL_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "EV_062",
+        "EV_063",
+        "EV_064",
+        "EV_065",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "CHRON-ccdf18f94a1c116c",
+      "instruction_source": "Care este succesiunea cronologică a acestor scene dintre personaje: amenințarea Bătrânei, reflecția asupra pierderilor, comentariul cârciumarului despre oameni și retragerea lor treptată?",
+      "items": [
+        {
+          "event_id": "EV_029",
+          "event": "Bătrâna ar putea să-şi ţie gura, grăi Lică după ce se văzu singur cu Ghiţă.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_030",
+          "event": "Nu doară c-aş putea plăti tot ce se poate pierde într-un an, ci pentru că de la mine nimeni nu cutează să fure, ba să-l ferească Dumnezeu pe acela pe care aş crede că-l pot bănui.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_031",
+          "event": "Oamenii sunt mulţi şi de multe feluri, grăi cârciumarul în ziua următoare, privind când la nevastă, când la soacră-sa.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_032",
+          "event": "De aici înainte, cârciumarul, cârciumăriţa şi soacra cârciumarului nu-şi mai aduceau aminte de oamenii ce treceau pe drum, iar altfel lucrurile se petreceau tot ca mai nainte.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T200132842616Z-b004::TEMPORAL_ORDER::TEMPORAL_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_03",
+        "CH_04"
+      ],
+      "evidence_node_ids": [
+        "EV_029",
+        "EV_030",
+        "EV_031",
+        "EV_032",
+        "CH_03",
+        "CH_04"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    },
+    {
+      "id": "CHRON-4961e6e2210692d6",
+      "instruction_source": "În ce ordine se desfășoară evenimentele cheie din arcul narativ al lui Pintea: ancheta comisarului, plecarea în căruță, rememorarea legăturii cu Lică, manevra lui Pintea, apariția căruței la deal și furia îndreptată spre Lică?",
+      "items": [
+        {
+          "event_id": "EV_086",
+          "event": "Comisarul, care din mărturisirea lui Marţi îşi făcuse gândul că Buză-Ruptă şi Săilă au călcat de cu seară pe arândaşul, iară spre miază-noapte Răuţ a venit să-l vestească pe Lică despre cele petrecute şi să-i aducă poate o parte din lucrurile răpite, credea că Ghiţă spune dinadins un neadevăr; el făcu dar câţiva paşi înainte, privi aspru în ochii lui Ghiţă şi întrebă: — Carevasăzică, omul care a venit cu femeia nu era Răuţ; el a venit numaidecât seara, cum am zice, chiar pe timpul când arândaşul fusese călcat, şi a plecat peste puţin?",
+          "position": 1
+        },
+        {
+          "event_id": "EV_087",
+          "event": "Plecând, Ghiţă mâna caii, Pintea şedea lângă el, iară Laie se făcuse ghem în fundul căruţei, lângă Uţa, care-şi adusese în pripă şi o legătură cu rufe, pe care şi-o pusese pe un snop de coceni, ca să şadă bine.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_088",
+          "event": "Despre Pintea, un fost tovarăş al lui Lică, om ieşit din fundul temniţelor ca să-şi urmărească prietenii de mai nainte, om care bănuieşte pe toată lumea, fiindcă asta îi este meseria; pentru acest om el se depărtase de Ana, soţia sa; în acest om pusese el mai multă încredere decât în aceea cu care era legat pe toată viaţa.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_089",
+          "event": "Pintea îşi dete seama de toate aceste, făcu un ocol împrejur, apoi se întoarse iar la Ghiţă, care stătea dimpreună cu Laie, încremenit, în drum, în vreme ce Uţa rămase cuprinsă de fiori în căruţă.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_090",
+          "event": "Era în amurgul serii când Ana văzu căruţa lui Ghiţă în culmea dea- lului despre Ineu, venind la vale şi venind, încât era să crezi că are să se sfărâme în bucăţi.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_091",
+          "event": "Nici acum însă mânia lui nu era pornită asupra lui Ghiţă, ci asupra lui Lică, deoarece numai Lică era de vină pentru cele petrecute.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260822T200132842616Z-b004::TEMPORAL_ORDER::TEMPORAL_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_09",
+        "CH_10"
+      ],
+      "evidence_node_ids": [
+        "EV_086",
+        "EV_087",
+        "EV_088",
+        "EV_089",
+        "EV_090",
+        "EV_091",
+        "CH_09",
+        "CH_10"
+      ],
+      "source_run_id": "run-20260822T200132842616Z-b004"
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "schema_version": 2,
+  "identity": {
+    "title": "Floare albastră",
+    "author": "Mihai Eminescu",
+    "publication": "1873, revista Convorbiri literare",
+    "source_refs": [
+      "WORK_FLOARE_ALBASTRA"
+    ]
+  },
+  "literary_context": {
+    "movement": "Romantismul canonic eminescian",
+    "period": "Epoca Marilor Clasici",
+    "definition": "Curent fondat pe antiteză, primatul sensibilității și evadarea în natură.",
+    "historical_context": "Perioada tinereții poetului, prefigurând marile creații ulterioare.",
+    "classification": "Poem filozofic / Eglogă / Elegie",
+    "traits": [
+      {
+        "name": "Amestecul speciilor literare",
+        "explanation": "Îmbinarea idilei rustice cu pastelul descriptiv și meditația elegiacă.",
+        "evidence_quotes": [
+          {
+            "quote": "«Hai în codrul cu verdeață...», «Ah! ea spuse adevărul; Eu am râs, n-am zis nimica.»",
+            "stanza": 4,
+            "node_id": "ST_04"
+          }
+        ],
+        "essay_use": "Susține încadrarea în romantism prin contopirea genurilor.",
+        "source_refs": [
+          "TRAIT_SPECIES_MIX"
+        ]
+      },
+      {
+        "name": "Antiteza ca principiu compozițional",
+        "explanation": "Opoziția structurală dintre absolutul cunoașterii și efemeritatea trăirii imediate.",
+        "evidence_quotes": [
+          {
+            "quote": "«Iar te-ai cufundat în stele...», «Nu căta în depărtare / Fericirea ta, iubite!»",
+            "stanza": 3,
+            "node_id": "ST_03"
+          }
+        ],
+        "essay_use": "Structurază conflictul ideatic Geniu vs. Om Comun.",
+        "source_refs": [
+          "TRAIT_ANTITHESIS"
+        ]
+      }
+    ]
+  },
+  "genre_and_species": [
+    {
+      "name": "Eglogă",
+      "justification": "Dialog imaginar între două ipostaze umane într-un cadru pastoral.",
+      "evidence_quotes": [
+        {
+          "quote": "«Astfel zise mititica, / Dulce netezindu-mi părul.»",
+          "stanza": 4,
+          "node_id": "ST_04"
+        }
+      ]
+    },
+    {
+      "name": "Pastel",
+      "justification": "Descriere pitorească a naturii terestre și cosmice.",
+      "evidence_quotes": [
+        {
+          "quote": "«Acolo-n ochi de pădure, / Lângă balta cea senină»",
+          "stanza": 6,
+          "node_id": "ST_06"
+        }
+      ]
+    },
+    {
+      "name": "Meditație elegiacă",
+      "justification": "Reflecție asupra pierderii ireversibile și tristeții universale.",
+      "evidence_quotes": [
+        {
+          "quote": "«Și te-ai dus, dulce minune, / Ș-a murit iubirea noastră»",
+          "stanza": 14,
+          "node_id": "ST_14"
+        }
+      ]
+    }
+  ],
+  "themes_and_ideas": [
+    {
+      "theme": "Iubirea",
+      "poetic_idea": "Imposibilitatea împlinirii durabile între idealul cosmic și trăirea terestră.",
+      "evidence_quotes": [
+        {
+          "quote": "«Sufletul vieții mele», «cui ce-i pasă că-mi ești drag?»",
+          "stanza": 1,
+          "node_id": "ST_01"
+        }
+      ]
+    },
+    {
+      "theme": "Condiția omului de geniu",
+      "poetic_idea": "Incompatibilitatea funciară dintre setea de absolut și orizontul limitat al fericirii comune.",
+      "evidence_quotes": [
+        {
+          "quote": "«Eu am râs, n-am zis nimica», «Ca un stâlp eu stam în lună!»",
+          "stanza": 4,
+          "node_id": "ST_04"
+        }
+      ]
+    },
+    {
+      "theme": "Timpul ireversibil",
+      "poetic_idea": "Natura trecătoare a clipei de extaz și imposibilitatea conservării fericirii contingente.",
+      "evidence_quotes": [
+        {
+          "quote": "«te-ai dus», «a murit», «Totuși este trist în lume!»",
+          "stanza": 14,
+          "node_id": "ST_14"
+        }
+      ]
+    }
+  ],
+  "lyrical_situation": {
+    "voices": [
+      {
+        "name": "Vocea feminină",
+        "role": "Ipostaza omului comun, cald, ancorat în viața concretă.",
+        "stanzas": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "linguistic_markers": [
+          "încalte",
+          "mititica",
+          "mi-i spune",
+          "cine treabă are"
+        ]
+      },
+      {
+        "name": "Vocea masculină",
+        "role": "Ipostaza eului reflexiv, atras de infinitul cunoașterii.",
+        "stanzas": [
+          4,
+          13,
+          14
+        ],
+        "linguistic_markers": [
+          "n-am zis nimica",
+          "eu stam",
+          "albastra-mi floare"
+        ]
+      }
+    ],
+    "addressing": "Directă și inversă, alternând monologul interior cu replicile adresate iubitului.",
+    "lyrical_type": "Poezie dramatică / Dialogică cu accente eglogale și elegiace."
+  },
+  "structure": {
+    "stanza_count": 14,
+    "tableaux": [
+      {
+        "title": "Tabloul I — Monologul fetei și reproșul cunoașterii abstracte",
+        "stanzas": [
+          1,
+          2,
+          3
+        ],
+        "function": "Denunță tentația geniului de a evada în sferele cunoașterii absolute."
+      },
+      {
+        "title": "Tabloul II — Monologul interior al geniului și conștientizarea distanței",
+        "stanzas": [
+          4
+        ],
+        "function": "Marchează incompatibilitatea structurală dintre absolutul cunoașterii și trăirea imediată."
+      },
+      {
+        "title": "Tabloul III — Al doilea monolog al fetei și scenariul idilei în natură",
+        "stanzas": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "function": "Proiectează ritualul erotic pastoral într-o natură paradisiacă și complice."
+      },
+      {
+        "title": "Tabloul IV — Meditația elegiacă finală și conștiința ireversibilității",
+        "stanzas": [
+          13,
+          14
+        ],
+        "function": "Deplasează discursul în registrul elegiei filozofice și al resemnării universale."
+      }
+    ],
+    "oppositions": [
+      "cosmic-terestru",
+      "eternitate-moarte",
+      "abstract-concret",
+      "bărbat-femeie",
+      "apolinic-dionisiac"
+    ]
+  },
+  "composition_and_language": [
+    {
+      "element": "Titlul oximoronic",
+      "explanation": "Motiv romantic de circulație universală; «floare» sugerează viața terestră, gingășia și efemerul, iar «albastră» evocă infinitul și aspirația spre absolut.",
+      "evidence_quotes": [
+        {
+          "quote": "«Floare-albastră! floare-albastră!...»",
+          "stanza": 14,
+          "node_id": "ST_14"
+        }
+      ]
+    },
+    {
+      "element": "Simetria Incipit-Final",
+      "explanation": "Adresarea tandru din incipit devine lamentație tragică a despărțirii în final.",
+      "evidence_quotes": [
+        {
+          "quote": "«Iar te-ai cufundat în stele...», «Și te-ai dus, dulce minune...»",
+          "stanza": 1,
+          "node_id": "ST_01"
+        }
+      ]
+    },
+    {
+      "element": "Figuri semantice",
+      "explanation": "Metafore, epitete și comparații amplifică profunzimea trăirilor și a planurilor spațiale.",
+      "evidence_quotes": [
+        {
+          "quote": "«râuri în soare», «trestia cea lină», «roșie ca mărul»",
+          "stanza": 2,
+          "node_id": "ST_02"
+        }
+      ]
+    }
+  ],
+  "composition_schemas": [
+    {
+      "id": "title",
+      "title": "Titlul",
+      "focus": "Sintagma romantică polisemantică",
+      "branches": [
+        {
+          "heading": "Origine mitică",
+          "content": "Motiv de circulație universală la Novalis și Leopardi, simbolizând aspirația către ideal."
+        },
+        {
+          "heading": "Valențe cromatice",
+          "content": "Albastrul evocă infinitul ceresc și marea, contrapunându-se delicateții florii terestre."
+        },
+        {
+          "heading": "Funcție simbolică",
+          "content": "Reunește viața efemeră cu nostalgia absolutului spiritual neîmplinit."
+        },
+        {
+          "heading": "Răsunare tematică",
+          "content": "Anunță nucleul de virtualități ce va cristaliza problematica geniului în Luceafărul."
+        }
+      ]
+    },
+    {
+      "id": "semantic_figures",
+      "title": "Limbaj și figuri semantice",
+      "focus": "Instrumente ale expresivității lirice",
+      "branches": [
+        {
+          "heading": "Metafora cognitivă",
+          "content": "«râuri în soare» ilustrează dimensiunea amplă și luminoasă a cunoașterii pure."
+        },
+        {
+          "heading": "Epitetele descriptive",
+          "content": "«balta cea senină» și «trestia cea lină» creează armonie de calm și securitate."
+        },
+        {
+          "heading": "Comparația plastică",
+          "content": "«roșie ca mărul» face trimitere la puritatea vitală și cuplul adamic primordial."
+        },
+        {
+          "heading": "Personificarea afectivă",
+          "content": "«izvoare plâng» conferă naturii vibrație sufletească, complice la starea îndrăgostiților."
+        }
+      ]
+    }
+  ],
+  "prosody": {
+    "stanza_form": "Catrene",
+    "rhyme": "Îmbrățișată (a-b-b-a)",
+    "rhythm": "Trohaic",
+    "measure": "7-8 silabe",
+    "source_refs": [
+      "PROS_RHYTHM_METER"
+    ]
+  },
+  "key_vocabulary": [
+    {
+      "term": "încalte",
+      "definition_in_context": "Adverb popular și arhaic cu sensul «măcar», «cel puțin», «barem».",
+      "source_refs": [
+        "LEX_INCALTE"
+      ]
+    },
+    {
+      "term": "mititica",
+      "definition_in_context": "Diminutiv afectuos, subliniază ingenuitatea și naturalețea instanței feminine.",
+      "source_refs": [
+        "ST_04"
+      ]
+    },
+    {
+      "term": "de-aur",
+      "definition_in_context": "Inversiune sintactică care transformă fata într-o apariție solară și fermecătoare.",
+      "source_refs": [
+        "ST_08"
+      ]
+    }
+  ],
+  "common_misconceptions": [
+    {
+      "claim": "Eul liric masculin este întotdeauna prezentat ca un «geniu» izolat definitiv.",
+      "correction": "Textul îl prezintă mai întâi ca un interlocutor receptiv, iar izolarea apare post-factum.",
+      "source_refs": [
+        "SEQ_02",
+        "SEQ_04"
+      ]
+    },
+    {
+      "claim": "Adverbul «Totuși» din final exprimă o resemnare nihilistă totală.",
+      "correction": "Subliniază o concesivitate senină, care nu anulează valoarea iubirii trăite, ci o înscrie într-o resemnare superioară.",
+      "source_refs": [
+        "CRIT_TOTUSI_DEBATE"
+      ]
+    }
+  ],
+  "learning_objectives": [
+    {
+      "id": "OBJ_01",
+      "skill": "recall",
+      "description": "Identifică structura poemului în patru tablouri și secvențele lor dominante.",
+      "source_refs": [
+        "SEQ_01",
+        "SEQ_02",
+        "SEQ_03",
+        "SEQ_04"
+      ]
+    },
+    {
+      "id": "OBJ_02",
+      "skill": "understand",
+      "description": "Explică rolul antitezei în configurarea opoziției cosmic-terestru.",
+      "source_refs": [
+        "TRAIT_ANTITHESIS"
+      ]
+    },
+    {
+      "id": "OBJ_03",
+      "skill": "apply",
+      "description": "Localizează în text figurile de stil specifice fiecărui plan spațial.",
+      "source_refs": [
+        "FIG_SUN_RIVERS",
+        "FIG_WEEPING_SPRINGS"
+      ]
+    },
+    {
+      "id": "OBJ_04",
+      "skill": "analyze",
+      "description": "Corelează evoluția temporală cu stările sufletești ale vocilor lirice.",
+      "source_refs": [
+        "GRAM_PRESENT_COSMIC",
+        "GRAM_PAST_BREAK"
+      ]
+    },
+    {
+      "id": "OBJ_05",
+      "skill": "evaluate",
+      "description": "Argumentează caracterul oximoronic al titlului poemului.",
+      "source_refs": [
+        "COMP_TITLE"
+      ]
+    },
+    {
+      "id": "OBJ_06",
+      "skill": "analyze",
+      "description": "Compară ipostazele vocilor feminine și masculine din perspectiva romantismului.",
+      "source_refs": [
+        "VOICE_FEMININE",
+        "VOICE_MASCULINE"
+      ]
+    },
+    {
+      "id": "OBJ_07",
+      "skill": "understand",
+      "description": "Descrie funcția cronotopului «pragului porții» în destrămarea idilei.",
+      "source_refs": [
+        "CHRONOTOPE_THRESHOLD"
+      ]
+    },
+    {
+      "id": "OBJ_08",
+      "skill": "apply",
+      "description": "Redactează un eseu scurt integrând tema condiției geniului și a timpului.",
+      "source_refs": [
+        "THEME_GENIUS_CONDITION",
+        "THEME_TIME"
+      ]
+    }
+  ],
+  "evidence_bank": [
+    {
+      "id": "EV_01",
+      "fact": "Publicarea operei",
+      "quote": "publicat în 1873, în revista “Convorbiri literare”",
+      "stanza": null,
+      "node_id": "WORK_FLOARE_ALBASTRA"
+    },
+    {
+      "id": "EV_02",
+      "fact": "Monologul inițial feminin",
+      "quote": "«Iar te-ai cufundat în stele / Și în nori și-n ceruri nalte?»",
+      "stanza": 1,
+      "node_id": "ST_01"
+    },
+    {
+      "id": "EV_03",
+      "fact": "Reacția masculină meditativă",
+      "quote": "«Ah! ea spuse adevărul; / Eu am râs, n-am zis nimica.»",
+      "stanza": 4,
+      "node_id": "ST_04"
+    },
+    {
+      "id": "EV_04",
+      "fact": "Chemarea în natura ocrotitoare",
+      "quote": "«Hai în codrul cu verdeață, / Und-izvoare plâng în vale»",
+      "stanza": 5,
+      "node_id": "ST_05"
+    },
+    {
+      "id": "EV_05",
+      "fact": "Jocul oracular popular",
+      "quote": "«Eu pe-un fir de romaniță / Voi cerca de mă iubești.»",
+      "stanza": 7,
+      "node_id": "ST_07"
+    },
+    {
+      "id": "EV_06",
+      "fact": "Sărutul tăinuit",
+      "quote": "«Căci va fi sub pălărie - / Ș-apoi cine treabă are!»",
+      "stanza": 9,
+      "node_id": "ST_09"
+    },
+    {
+      "id": "EV_07",
+      "fact": "Pragul porții ca limită",
+      "quote": "«Și sosind l-al porții prag, / Vom vorbi-n întunecime»",
+      "stanza": 12,
+      "node_id": "ST_12"
+    },
+    {
+      "id": "EV_08",
+      "fact": "Impietrirea solitară",
+      "quote": "«Ca un stâlp eu stam în lună!»",
+      "stanza": 13,
+      "node_id": "ST_13"
+    },
+    {
+      "id": "EV_09",
+      "fact": "Dispariția și moartea iubirii",
+      "quote": "«Și te-ai dus, dulce minune, / Ș-a murit iubirea noastră»",
+      "stanza": 14,
+      "node_id": "ST_14"
+    },
+    {
+      "id": "EV_10",
+      "fact": "Aforismul final",
+      "quote": "«Totuși este trist în lume!»",
+      "stanza": 14,
+      "node_id": "ST_14"
+    }
+  ],
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "generated_at": "2026-08-24T15:26:37.770452+00:00",
+    "source_graph_sha256": "178ad22e8a1005e1a61a1c56e87619d49b5262cc462453d933043497998a4eb7",
+    "source_essay_sha256": "b55d61d3983e7fd787b7a68ca572074ac9f10f0a1c0f3ef8141c3adac60e1790"
+  }
+}

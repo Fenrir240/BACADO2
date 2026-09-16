@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "reasoning_effort": "medium",
+    "attempts_per_element": 1,
+    "retry_on_invalid": false,
+    "api_calls": 3,
+    "reused_element_count": 0,
+    "reused_element_ids": [],
+    "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\knowledge-graph.json",
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-composition-runs\\run-20260822T173550Z"
+  },
+  "elements": [
+    {
+      "id": "incipit_final",
+      "title": "Relația incipit–final",
+      "central_idea": "Structura circulară a nuvelei transformă incipitul și finalul în oglinda morală a destinului, demonstrând cum renunțarea la cumpătare declanșează un proces ireversibil de dezumanizare.",
+      "branches": [
+        {
+          "heading": "Incipitul",
+          "key_idea": "Liniștea familiei și modestia ca surse ale fericirii autentice.",
+          "explanation": "La începutul nuvelei, familia lui Ghiță trăiește într-o modestie serenoasă, considerând că liniștea colibei și iubirea reciprocă sunt mai presus de bogăție. Bătrâna și Ana subliniază importanța răbdării și a recunoștinței pentru ceea ce posedă, iar Ghiță însuși își exprimă dorința de a rămâne alături de cei dragi, departe de primejdiile lumii exterioare. Această stare inițială conturează un echilibru moral și afectiv care va fi ulterior distrus.",
+          "evidence_node_ids": [
+            "EV_001",
+            "EV_003",
+            "EV_005",
+            "EV_006"
+          ]
+        },
+        {
+          "heading": "Finalul",
+          "key_idea": "Distrugerea totală a echilibrului familial prin consecințele lăcomiei și ale destinului.",
+          "explanation": "În final, haosul și moartea înlocuiesc pacea inițială, iar hanul devine locul unei tragedii sângeroase provocate de manipularea lui Lică și de slăbiciunea lui Ghiță. Bătrâna și copiii plâng lângă crucile ridicate pe malul râului, simbolizând pierderea definitivă a celor dragi și imposibilitatea de a repara greșelile comise. Replica finală a bătrânei confirmă ideea că soarta este implacabilă atunci când omul renunță la valorile morale.",
+          "evidence_node_ids": [
+            "EV_169",
+            "EV_170",
+            "EV_167"
+          ]
+        },
+        {
+          "heading": "Corespondențe și contraste",
+          "key_idea": "Simetria structurală evidențiază trecerea de la armonie la dezumanizare.",
+          "explanation": "Opera construiește o simetrie clară între cele două capete ale narativului, reluând personajele centrale și locația centrală, dar inversându-le stările emoționale și morale. Dacă în incipit familia se unește în jurul valorilor tradiționale și al speranței, în final aceleași personaje se regăsesc în fața devastării și a doliului. Acest contrast marchează procesul ireversibil de degradare a lui Ghiță și semnifică avertismentul autorului privind pericolul abandonării cumpătării.",
+          "evidence_node_ids": [
+            "THEME_DEHUMANIZATION",
+            "THEME_FAMILY",
+            "THEME_DESTINY"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Structura circulară funcționează ca o lentilă interpretativă pentru tema dezumanizării.",
+          "explanation": "În eseu, această relație poate fi utilizată pentru a demonstra cum Slavici organizează acțiunea pe un arc tragic, unde începutul stabilește parametrii morali ai fericirii, iar finalul verifică prețul încălcării lor. Elevul poate compara replicile și gesturile din cele două momente pentru a ilustra evoluția personajelor și pentru a susține ideea că norocul material nu compensază niciodată pierderea integrității sufletești. Astfel, incipitul și finalul devin puncte de reper obligatorii în argumentarea caracterului realist-psihologic al operei.",
+          "evidence_node_ids": [
+            "CHAR_GHITA",
+            "CHAR_BATRANA",
+            "TECH_MONOLOGUE"
+          ]
+        }
+      ],
+      "essay_paragraph": "Relația dintre incipit și finalul nuvelei „Moara cu noroc” ilustrează mecanismul tragic al dezumanizării, construit pe o simetrie structurală care inversează stările inițiale ale personajelor. La deschidere, familia lui Ghiță trăiește într-o modestie serenoasă, considerând că liniștea colibei și iubirea reciprocă sunt superioare oricărei bogății materiale. Bătrâna și Ana subliniază valoarea răbdării, iar cizmarul își manifestă dorința de a rămâne alături de cei dragi, departe de primejdiile lumii exterioare. În final, acest echilibru este complet distrus, hanul devenind scena unei tragedii sângeroase provocate de lăcomie și manipulare. Personajele se regăsesc în fața devastării și a doliului, iar replica finală a bătrânei confirmă implacabilitatea destinului atunci când omul renunță la cumpătare. Prin această structură circulară, Slavici demonstrează că înavuțirea obținută prin compromisuri morale duce inevitabil la pierderea identității și a legăturilor umane fundamentale.",
+      "memory_formula": [
+        "Liniște + familie = fericire autentică",
+        "Lăcomie + secret = dezumanizare progresivă",
+        "Incipit armonic → Final tragic = lecție morală"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "conflict",
+      "title": "Conflictul",
+      "central_idea": "Degradarea morală prin lăcomie, declanșată de conflictul dintre integritate și înavuțire.",
+      "branches": [
+        {
+          "heading": "Conflictul central",
+          "key_idea": "Lupta dintre dorința de înavuțire și păstrarea integrității morale.",
+          "explanation": "Protagonistul se confruntă cu o dilemă acută între nevoia de prosperitate materială și obligația de a rămâne un soț și tată cinstit. Această tensiune este alimentată constant de presiunea exercitată de Lică Sămădăul, care transformă dependența financiară într-o capcană morală. Astfel, conflictul interior devine motorul principal al acțiunii, determinând fiecare alegere critică a personajului.",
+          "evidence_node_ids": [
+            "CONFLICT_GHITA_INNER",
+            "CONFLICT_GHITA_LICA",
+            "EV_037"
+          ]
+        },
+        {
+          "heading": "Forme și planuri ale conflictului",
+          "key_idea": "Tensiunile se manifestă simultan pe plan psihologic, relațional și simbolic.",
+          "explanation": "Pe plan psihologic, ezitările și vinovăția lui Ghiță sunt expuse prin monolog interior și gesturi vizibile de neliniște. În plan relațional, lăcomia distruge încrederea conjugală, îndepărtându-l treptat de Ana și de familia sa. Simbolic, banii însemnați și prezența destinului funcționează ca repere care accentuează prăbușirea progresivă a echilibrului inițial.",
+          "evidence_node_ids": [
+            "CONFLICT_GHITA_ANA",
+            "THEME_DEHUMANIZATION",
+            "MOTIF_MONEY",
+            "TECH_MONOLOGUE"
+          ]
+        },
+        {
+          "heading": "Evoluție și consecințe",
+          "key_idea": "Escaladarea tensiunilor duce la pierderea controlului și la distrugerea totală a lumii personale.",
+          "explanation": "Inițial reticent, Ghiță cedează treptat șantajului moral, acceptând să ascundă faptele și să tolereze influența corupătoare a porcarilor. Această subordonare îl transformă din protector în complice, iar secretul acumulat generează o stare permanentă de frică și suspiciune. Consecința finală este catastrofala, familia fiind devastată și hanul devenind martorul unei dezumanizări ireversibile.",
+          "evidence_node_ids": [
+            "EV_055",
+            "EV_081",
+            "EV_122",
+            "CHAR_COPII"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Conflictul trebuie analizat ca mecanism structural care leagă destinul individual de învățătura morală a operei.",
+          "explanation": "În eseu, vei prezenta mai întâi nucleul dilemei etice, apoi vei detalia modul în care acesta se ramifică în relațiile cu cei apropiați și în simbolistica banilor. Ulterior, vei evidenția cum progresia dramelor interne antrenează cititorul spre concluzia că lăcomia anulează orice legătură umană autentică. În final, vei sublinia rolul didactic al acestei evoluții tragice.",
+          "evidence_node_ids": [
+            "WORK_MOARA_CU_NOROC",
+            "THEME_DESTINY",
+            "EV_019"
+          ]
+        }
+      ],
+      "essay_paragraph": "În „Moara cu noroc”, conflictul constituie coloana vertebrală a construcției narative, ilustrând prăbușirea morală a unui om obișnuit sub greutatea lăcomiei. Dilema fundamentală dintre câștigul ușor și integritatea familială se manifestă pe multiple planuri, de la tensiunile interioare ale lui Ghiță până la manipularea brută exercitată de Lică Sămădăul. Pe măsură ce protagonistul cedează presiunii financiare, liniștea casei este înlocuită de secret, frică și neîncredere conjugală. Această escaladare progresivă demonstrează cum compromisurile morale erodează treptat identitatea și distrug legăturile umane cele mai sacre. Prin tehnici precum monologul interior și stilul indirect liber, Slavici surprinde cu finețe stările de agitație și vinovăție care marchează tranziția de la cinste la degradare. În final, tragedia nu este doar rezultatul unei alegeri greșite, ci al incapacității de a rezista tentației puterii și a averii. Opera rămâne astfel un studiu psihologic profund, avertizând asupra pericolului pe care îl reprezintă renunțarea la valorile etice în schimbul prosperității materiale.",
+      "memory_formula": [
+        "Dilema etică = Înavuțire vs. Cinste",
+        "Escaladare = Cădere morală → Secret → Distrugere familială",
+        "Rol structural = Motor psihologic + Avertisment didactic"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    },
+    {
+      "id": "title",
+      "title": "Titlul",
+      "central_idea": "Titlul funcționează ca o cheie simbolică și ironică, revelând iluzia prosperității materiale în fața alegerii morale.",
+      "branches": [
+        {
+          "heading": "Sens și tip de titlu",
+          "key_idea": "Titlul este simbolic și ironic, sugerând o iluzie a prosperității care ascunde un pericol moral.",
+          "explanation": "Prin referirea la hanul izolat de la răscruce, numele operei evocă inițial ideea unui loc binecuvântat și prosper, dar devine treptat simbolul unei capcane spirituale. Cuvântul noroc funcționează ca o ironie dramatică, deoarece succesul material promis se transformă în pierderea valorilor fundamentale și în distrugerea familiei. Astfel, titlul anunță de la început că aparenta favoare a sorții este de fapt o probă a alegerii morale.",
+          "evidence_node_ids": [
+            "LOC_MOARA",
+            "THEME_DESTINY",
+            "EV_010",
+            "EV_019"
+          ]
+        },
+        {
+          "heading": "Legătura cu opera",
+          "key_idea": "Titlul leagă direct acțiunea de spațiul narativ și de destinul personajelor principale.",
+          "explanation": "Hanul Moara cu noroc constituie centrul geografic și psihologic al nuvelei, unde se întâlnesc cizmarul Ghiță, soția sa Ana și manipulatorul Lică Sămădăul. În acest cadru, tensiunile dintre dorința de îmbogățire și integritatea familială ies la iveală, iar norocul devine motorul care îi determină pe personaje să ia decizii ireversibile. Spațiul funcționează ca un laborator al degradării umane, reflectând exact evoluția tragică a protagonistului.",
+          "evidence_node_ids": [
+            "CHAR_GHITA",
+            "CHAR_ANA",
+            "CHAR_LICA",
+            "THEME_DEHUMANIZATION",
+            "EV_024",
+            "EV_037"
+          ]
+        },
+        {
+          "heading": "Semnificație literară",
+          "key_idea": "Titlul sintetizează tema centrală a operei și mesajul moral al autorului.",
+          "explanation": "Prin contrastul dintre aparența favorabilă a sortii și realitatea dureroasă a consecințelor, Slavici construiește un studiu complex al dezumanizării provocate de lăcomie. Replicile bătrânei și evenimentele care urmează demonstrează că adevăratul noroc rezidă în liniștea sufletească și în respectarea normelor morale, nu în câștigurile materiale obținute prin compromisuri. Opera transmite astfel o lecție profundă despre responsabilitatea alegerilor individuale în fața tentatiilor lumii.",
+          "evidence_node_ids": [
+            "THEME_DEHUMANIZATION",
+            "THEME_FAMILY",
+            "THEME_DESTINY",
+            "EV_010",
+            "EV_019",
+            "EV_030"
+          ]
+        },
+        {
+          "heading": "Cum folosesc elementul în eseu",
+          "key_idea": "Titlul poate fi utilizat ca punct de plecare pentru a structura analiza mesajului și a evoluției personajului.",
+          "explanation": "În eseu, poți începe prin a evidenția caracterul dual al titlului, arătând cum el anticipă conflictul interior al lui Ghiță între valori și interese materiale. Apoi, vei demonstra cum apariția lui Lică și atragerea banilor grămadă transformă hanul dintr-un refugiu într-o sursă de suferință, ilustrând tematica dezumanizării. În final, vei concluziona că titlul rămâne o avertisment actual privind prețul moral al succesului facil și importanța păstrării echilibrului familial.",
+          "evidence_node_ids": [
+            "CONFLICT_GHITA_INNER",
+            "CONFLICT_GHITA_LICA",
+            "THEME_DEHUMANIZATION",
+            "EV_037",
+            "EV_047"
+          ]
+        }
+      ],
+      "essay_paragraph": "Titlul nuvelei „Moara cu noroc” funcționează ca o cheie de lectură simbolică și ironică, anticipând de la început paradoxul central al operei. Pe de o parte, numele hanului evocă un loc de refugiu și prosperitate, iar pe de altă parte, cuvântul „noroc” sugerează o iluzie periculoasă care va ghida destinul personajelor. Prin această dublă semnificație, Ioan Slavici anunță studiul complex al dezumanizării protagoniștilor sub efectul lăcomiei și al dominației exterioare. Hanul devine treptat un spațiu al tentatiei, unde conflictele interioare ale lui Ghiță și ruptura familială sunt alimentate de promisiuni materiale false. Autorul utilizează titlul pentru a contrapune aparenta favoare a sortii cu responsabilitatea alegerii morale, demonstrând că adevăratul echilibru rezidă în cinste și în protecția celor dragi. Astfel, compoziția capătă o valoare didactică puternică, avertizând cititorul asupra costurilor spirituale ale succesului facil și consolidând mesajul că liniștea sufletească depinde exclusiv de integritatea alegerilor noastre.",
+      "memory_formula": [
+        "Titlu simbolic = iluzia norocului vs. realitatea morală",
+        "Hanul = laborator al dezumanizării prin lăcomie",
+        "Alegerea conștientă > câștigul material imediat"
+      ],
+      "validation": {
+        "valid": true,
+        "errors": []
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "element_id": "incipit_final",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 12000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 23750,
+        "completion_tokens": 6587,
+        "total_tokens": 30337,
+        "cost": 0.00156881,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.00156881,
+          "upstream_inference_prompt_cost": 0.0007125,
+          "upstream_inference_completions_cost": 0.00085631
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 5225,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "element_id": "conflict",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 12000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 66786,
+        "completion_tokens": 4554,
+        "total_tokens": 71340,
+        "cost": 0.0085002,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0085002,
+          "upstream_inference_prompt_cost": 0.0066786,
+          "upstream_inference_completions_cost": 0.0018216
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 3256,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    {
+      "element_id": "title",
+      "validation": {
+        "valid": true,
+        "errors": []
+      },
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 12000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "medium",
+          "exclude": true
+        }
+      },
+      "usage": {
+        "prompt_tokens": 39370,
+        "completion_tokens": 6344,
+        "total_tokens": 45714,
+        "cost": 0.0064746,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0064746,
+          "upstream_inference_prompt_cost": 0.003937,
+          "upstream_inference_completions_cost": 0.0025376
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 4910,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  ]
+}

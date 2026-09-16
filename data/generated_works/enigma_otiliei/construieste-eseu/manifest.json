@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "pipeline": "construieste-eseu",
+  "status": "ready",
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "artifact": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\construieste-eseu\\eseu.json",
+  "source": {
+    "knowledge_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\knowledge-graph.json",
+    "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\construieste-eseu\\eseu-model.md",
+    "model_essay_sha256": "b74119a486a306d78f02409dddb7bf46208d17c08003f66cdb97443e9cd68bac",
+    "input_model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\enigma_otiliei.md"
+  },
+  "strict_trait_policy": {
+    "mode": "model_essay_only",
+    "expected_count": 2,
+    "reject_unlisted_traits": true,
+    "accepted_trait_ids": [
+      "trasatura_1",
+      "trasatura_2"
+    ],
+    "accepted_trait_titles": [
+      "verosimilitatea evenimentelor petrecute în operă, indusă prin cronotopul precis",
+      "realizarea unor tipologii umane"
+    ],
+    "rule": "Sunt corecte exclusiv trăsăturile dezvoltate explicit în eseul-model; orice altă trăsătură este evaluată ca incorectă."
+  },
+  "generation": {
+    "model": "reused-result",
+    "reasoning_effort": "none",
+    "attempts": 0,
+    "retry_on_invalid": false,
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\construieste-eseu\\runs\\run-20260822T141420Z",
+    "reused_from": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\construieste-eseu\\runs\\run-20260822T140801Z\\result.json"
+  },
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "trait_count": 2,
+    "sequence_count": 2,
+    "source_excerpts_verified": true,
+    "trait_titles_verified": true,
+    "trait_model_fragments_verified": true,
+    "local_source_repairs": [
+      {
+        "section_id": "concluzie",
+        "reason": "near_exact_excerpt_replaced_from_model_essay",
+        "similarity": 0.9953
+      }
+    ]
+  }
+}

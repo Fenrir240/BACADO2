@@ -1,0 +1,126 @@
+{
+  "experiment": "Experimentul 1",
+  "run_id": "run-20260806T140802Z",
+  "timestamp_utc": "2026-08-06T14:08:02.334448+00:00",
+  "requested_model": "google/gemini-2.5-flash-lite",
+  "model_name": "Google: Gemini 2.5 Flash Lite",
+  "context_length": 1048576,
+  "graph_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\graf1\\knowledge-graph.json",
+  "graph_sha256": "19e81d5c346fb9dbd11d025ee52a857284152d98a8c6421e5a3731ca8f82e1c3",
+  "chapter_packet_path": "C:\\LittleProgrammer\\internship\\BacApp2\\cercetare\\experiment1\\inputs\\chapter-01-graph.json",
+  "chapter_packet_sha256": "815ff4923f766b1ef9909997f18a2c768fdbe9f4d4e0834b88d40a218b4788d4",
+  "question_prompt_template_sha256": "fee63198ddddc045d18a6a41d4c55f8ad9a88ca4d865a80052cee5f2a70fb41f",
+  "summary_prompt_template_sha256": "d69be953078c9ca56ca71186779ce91a470cb18ac57955eb54dc2579513552f6",
+  "evaluator_sha256": "2dcb9da3ed4df5e014db3c8cf86bb6075ed52018cadc266e74cb449acdb387b8",
+  "api_key_saved": false,
+  "task_settings": {
+    "questions": {
+      "reasoning_effort": "high"
+    },
+    "summary": {
+      "reasoning_effort": "low"
+    }
+  },
+  "tasks": {
+    "questions": {
+      "task": "questions",
+      "json_valid": true,
+      "duration_seconds": 126.353,
+      "prompt_sha256": "02005379c0910402078a013f880684fded48719c23e44c86b68c435771091eaf",
+      "prompt_characters": 900066,
+      "estimated_prompt_tokens": 360027,
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 60000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "high",
+          "exclude": true
+        }
+      },
+      "returned_model": "google/gemini-2.5-flash-lite",
+      "model_verification": "accepted_exact_or_canonical_model_id",
+      "provider": "Google",
+      "generation_id": "gen-1786025282-n4bsBgIFBJxwi6BQ0cbq",
+      "usage": {
+        "prompt_tokens": 303420,
+        "completion_tokens": 30227,
+        "total_tokens": 333647,
+        "cost": 0.0424328,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.0424328,
+          "upstream_inference_prompt_cost": 0.030342,
+          "upstream_inference_completions_cost": 0.0120908
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 24575,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    },
+    "summary": {
+      "task": "summary",
+      "json_valid": true,
+      "duration_seconds": 66.329,
+      "prompt_sha256": "b0227e0a5481137d7927d791a15627c647cfb0ecd5f40b6728cb9de8a1fd202f",
+      "prompt_characters": 95930,
+      "estimated_prompt_tokens": 38372,
+      "applied_parameters": {
+        "stream": false,
+        "provider.allow_fallbacks": true,
+        "provider.require_parameters": true,
+        "provider.data_collection": "deny",
+        "max_tokens": 60000,
+        "temperature": 0,
+        "response_format": {
+          "type": "json_object"
+        },
+        "reasoning": {
+          "effort": "low",
+          "exclude": true
+        }
+      },
+      "returned_model": "google/gemini-2.5-flash-lite",
+      "model_verification": "accepted_exact_or_canonical_model_id",
+      "provider": "Google",
+      "generation_id": "gen-1786025409-LljkF2EIbWH1KzIacNNC",
+      "usage": {
+        "prompt_tokens": 31314,
+        "completion_tokens": 20224,
+        "total_tokens": 51538,
+        "cost": 0.011221,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 0.011221,
+          "upstream_inference_prompt_cost": 0.0031314,
+          "upstream_inference_completions_cost": 0.0080896
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 11997,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  }
+}

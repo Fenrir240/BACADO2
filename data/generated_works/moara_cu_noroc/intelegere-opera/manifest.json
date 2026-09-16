@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "pipeline": "intelegere-opera",
+  "status": "ready",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\knowledge-graph.json",
+  "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\moara_cu_noroc.md",
+  "model_essay_sha256": "e915d898830844c6ff23c9a201935a4bebe16932f37cfc2fcb86154c137d5a40",
+  "source_graph_sha256_before": "0f1378de28e98579f846746388857d5c513e37b85bbd1ed437da1eea5eab3839",
+  "source_graph_modified": false,
+  "model": "qwen/qwen3.7-flash",
+  "reasoning_effort": "medium",
+  "qwen_calls": 22,
+  "retry_on_invalid": false,
+  "steps": [
+    {
+      "id": "summary",
+      "calls": 17
+    },
+    {
+      "id": "characters",
+      "calls": 0,
+      "deterministic": true
+    },
+    {
+      "id": "relevant_sequences",
+      "calls": 1,
+      "text_generated_by_ai": false
+    },
+    {
+      "id": "literary_current",
+      "calls": 1
+    },
+    {
+      "id": "composition",
+      "calls": 3
+    }
+  ],
+  "pipeline_run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\pipeline-runs\\run-20260822T164253411330Z",
+  "artifacts": {
+    "summary_json": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\rezumat-pe-capitole.json",
+    "summary_markdown": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\rezumat-pe-capitole.md",
+    "characters": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\personaje-mindmaps.json",
+    "relevant_sequences": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\secvente-relevante.json",
+    "literary_current": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\curent-literar.json",
+    "composition": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\elemente-compozitionale.json"
+  },
+  "cost_summary": {
+    "api_calls": 15,
+    "prompt_tokens": 234565,
+    "completion_tokens": 79336,
+    "reasoning_tokens": 67240,
+    "total_tokens": 313901,
+    "cost_usd": 0.03313669
+  },
+  "executed_qwen_calls": 15,
+  "reused_summary_chapters": 7,
+  "reused_artifacts": [],
+  "source_graph_sha256_after": "0f1378de28e98579f846746388857d5c513e37b85bbd1ed437da1eea5eab3839"
+}

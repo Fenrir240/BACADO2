@@ -1,0 +1,5 @@
+{
+  "task": "questions",
+  "error_type": "ValueError",
+  "message": "Răspunsul OpenRouter nu conține choices."
+}

@@ -1,0 +1,16 @@
+# Configurație locală pentru Experimentul 1; poate conține cheia OpenRouter.
+/cercetare/experiment1/config.local.env
+
+# Generated review/build artifacts.
+/tmp/
+.env
+*.db
+config.local.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+tmp/
+/opere_pdf/
+/data/sources/ion/ion.pdf
+/data/generated_works/**/runs/
+/data/generated_works/**/*-runs/

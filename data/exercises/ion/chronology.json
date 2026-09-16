@@ -1,0 +1,1068 @@
+{
+  "version": 1,
+  "work_id": "ion",
+  "exercise_type": "chronology",
+  "source": {
+    "question_bank": "cercetare-qwen/toate-intrebarile.json",
+    "knowledge_graph": "cercetare/graf2/knowledge-graph.json",
+    "question_count": 96,
+    "models": [
+      "qwen/qwen3.5-flash-02-23",
+      "qwen/qwen3.7-flash"
+    ],
+    "generation_mode": "deterministic_no_ai_calls"
+  },
+  "eligible_categories": [
+    "TEMPORAL_ORDER",
+    "CHARACTER_EVOLUTION"
+  ],
+  "exercise_count": 24,
+  "skipped_count": 0,
+  "skipped": [],
+  "exercises": [
+    {
+      "id": "CHRON-0c13220615843f23",
+      "instruction_source": "În ce ordine se desfășoară următoarele evenimente din Capitolul I: Ion o alege pe Ana la joc, Vasile îl insultă pe Ion și George este preferat ca ginere?",
+      "items": [
+        {
+          "event_id": "EV_004",
+          "event": "Ion joacă alături de Ana, o ține de brâu și o cheamă să-l urmeze în livada din spatele șurii.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_006",
+          "event": "Vasile Baciu îl numește pe Ion «golan» și «tâlhar» în fața oamenilor și încearcă să-l alunge de lângă Ana.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_007",
+          "event": "După aceea, vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.",
+          "position": 3
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260818T204220Z::TEMPORAL_ORDER::ORDER_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_01"
+      ],
+      "evidence_node_ids": [
+        "EV_004",
+        "EV_006",
+        "EV_007",
+        "EV_005"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "CHRON-251d107c6bc23d8a",
+      "instruction_source": "Cum evoluează statutul social și material al lui Ion de la sărăcie umilitoare la proprietar respectat, prin obținerea pământurilor?",
+      "items": [
+        {
+          "event_id": "EV_006",
+          "event": "Vasile Baciu îl numește pe Ion «golan» și «tâlhar» în fața oamenilor și încearcă să-l alunge de lângă Ana.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_012",
+          "event": "Privind hotarul, Ion simte glasul pământului ca pe o chemare care îl copleșește.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_013",
+          "event": "După aceea, în fața hotarului Ion se simte slab, dar lucrând propriul petec se imaginează stăpân.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_053",
+          "event": "După aceea, judecătorul îl condamnă pe Ion la două săptămâni de închisoare.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_069",
+          "event": "După sfatul preotului, Ion pleacă hotărât să lase legea să decidă conflictul cu Vasile Baciu.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_070",
+          "event": "Ion o conduce pe Ana până la poartă și o trimite înapoi la tatăl ei.",
+          "position": 6
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260818T204220Z::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_02",
+        "CH_05",
+        "CH_07"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "EV_006",
+        "EV_012",
+        "EV_013",
+        "EV_053",
+        "EV_069",
+        "EV_070",
+        "CH_01",
+        "CH_02",
+        "CH_05",
+        "CH_07"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "CHRON-1f929c26fde37c71",
+      "instruction_source": "Care este succesiunea corectă a acestor momente care traversează capitolele II și III: Ion oscilează între micime și putere, Belciug îl condamnă în biserică și Ion declară că o va lua pe Ana?",
+      "items": [
+        {
+          "event_id": "EV_013",
+          "event": "După aceea, în fața hotarului Ion se simte slab, dar lucrând propriul petec se imaginează stăpân.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_023",
+          "event": "La început, preotul îl mustră public pe Ion pentru violențele de la horă și cârciumă.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_025",
+          "event": "După aceea, beat în Jidovița, Ion afirmă că se va căsători cu Ana indiferent de opoziție.",
+          "position": 3
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260818T204220Z::TEMPORAL_ORDER::ORDER_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_02",
+        "CH_03"
+      ],
+      "evidence_node_ids": [
+        "EV_013",
+        "EV_023",
+        "EV_025",
+        "EV_014",
+        "EV_015",
+        "EV_016",
+        "EV_017",
+        "EV_018",
+        "EV_019",
+        "EV_020",
+        "EV_021",
+        "EV_022",
+        "EV_024"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "CHRON-d6a907cb23bb45d0",
+      "instruction_source": "Cum se transformă relația afectivă a Anei de la speranța iubirii la izolarea totală și sinucidere?",
+      "items": [
+        {
+          "event_id": "EV_015",
+          "event": "În drum spre tatăl ei cu un coș de mâncare, Ana se oprește la fâneața lui Ion și îi vorbește.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_040",
+          "event": "În timp ce Vasile Baciu doarme în aceeași încăpere, Ion și Ana întrețin relații sexuale pe cuptor.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_044",
+          "event": "Apoi, ana își ascunde starea și se teme de reacția tatălui.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_088",
+          "event": "Ajuns pe câmp, Ion privește pământurile dobândite și se simte puternic în fața lor.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_093",
+          "event": "Savista îi spune Anei că Ion o caută pe Florica și că George îi va omorî.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_095",
+          "event": "Ana își pune capăt vieții prin spânzurare în grajd.",
+          "position": 6
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260818T204220Z::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_02",
+        "CH_04",
+        "CH_05",
+        "CH_09",
+        "CH_10"
+      ],
+      "evidence_node_ids": [
+        "CHAR_002",
+        "EV_015",
+        "EV_040",
+        "EV_044",
+        "EV_088",
+        "EV_093",
+        "EV_095",
+        "CH_02",
+        "CH_04",
+        "CH_05",
+        "CH_09",
+        "CH_10"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "CHRON-684cdf33eec2ca6b",
+      "instruction_source": "Ordonați cronologic aceste evenimente din finalul romanului: Petrișor moare, Vasile cere pământurile înapoi și Ion intră în disperare?",
+      "items": [
+        {
+          "event_id": "EV_099",
+          "event": "După aceea, copilul moare, continuând succesiunea pierderilor începută cu Ana.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_102",
+          "event": "După înmormântarea lui Petrișor, Vasile Baciu îi cere lui Ion să-i înapoieze pământurile date Anei și copilului.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_103",
+          "event": "Întâlnind-o pe Florica pe câmp, Ion o oprește, o îmbrățișează și îi spune că tot a lui trebuie să fie.",
+          "position": 3
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260818T204220Z::TEMPORAL_ORDER::ORDER_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_11"
+      ],
+      "evidence_node_ids": [
+        "EV_099",
+        "EV_102",
+        "EV_103",
+        "EV_100",
+        "EV_101"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "CHRON-2ba5b3da906824e1",
+      "instruction_source": "Ce evoluție suferă Titu Herdelea de la visător idealist la intelectual dezamăgit care părăsește satul?",
+      "items": [
+        {
+          "event_id": "EV_021",
+          "event": "Atras de doamna Lang, Titu merge la Jidovița și caută prilejuri de a o cuceri.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_078",
+          "event": "La mai puțin de o săptămână după botezul copilului, Ion găsește din nou prilej să o bată pe Ana.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_079",
+          "event": "După ce vede urmările sinuciderii lui Avrum, Ana începe din nou să se gândească la moarte.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260818T204220Z::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_02",
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "CHAR_010",
+        "EV_021",
+        "EV_078",
+        "EV_079",
+        "CH_02",
+        "CH_08"
+      ],
+      "source_run_id": "run-20260818T204220Z"
+    },
+    {
+      "id": "CHRON-a0d4214b92cd4a62",
+      "instruction_source": "Care este ordinea cronologică a evenimentelor: Ion o privește stăruitor pe Florica, Ana observă dorința lui Ion, Savista o avertizează pe Ana și Florica se căsătorește cu George?",
+      "items": [
+        {
+          "event_id": "EV_090",
+          "event": "Florica se căsătorește cu George Bulbuc, iar nunta lor reunește comunitatea.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_091",
+          "event": "La nunta Floricăi, Ion nu-și desprinde privirea de mireasă, iar George simte primejdia.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_092",
+          "event": "Ana înțelege la ospăț că Ion o dorește pe Florica și se simte batjocorită în fața oamenilor.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_093",
+          "event": "Savista îi spune Anei că Ion o caută pe Florica și că George îi va omorî.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260820T212156Z::TEMPORAL_ORDER::ORDER_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_10"
+      ],
+      "evidence_node_ids": [
+        "EV_090",
+        "EV_091",
+        "EV_092",
+        "EV_093",
+        "CH_10"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "CHRON-bc972714a4ceda5b",
+      "instruction_source": "Cum evoluează situația materială a lui Ion al Glanetașului, de la dilema inițială dintre iubire și avere până la acceptarea învoielii succesoral?",
+      "items": [
+        {
+          "event_id": "EV_005",
+          "event": "Ion știe că încă o iubește pe Florica, dar cântărește faptul că ea este săracă, în timp ce Ana are pământuri, case și vite.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_059",
+          "event": "În drumul spre cununie, Ion înțelege că trebuie să o primească și pe Ana odată cu pământurile și respinge gândul de a fugi cu Florica, fiindcă ar rămâne sărac.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_123",
+          "event": "Ion și Vasile Baciu acceptă învoiala propusă de Belciug: ceea ce stăpânește fiecare va reveni bisericii dacă moare fără moștenitori direcți.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260820T212156Z::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_06",
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_002",
+        "CHAR_003",
+        "CHAR_005",
+        "CHAR_013",
+        "CH_01",
+        "CH_06",
+        "CH_12",
+        "EV_005",
+        "EV_059",
+        "EV_123"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "CHRON-b139602cab6f524f",
+      "instruction_source": "În ce ordine apar următoarele momente narative: Vasile cere înapoi pământurile, Ion îl vizitează des pe George, Savista observă legătura și Ion reia legătura cu Florica pe câmp?",
+      "items": [
+        {
+          "event_id": "EV_102",
+          "event": "După înmormântarea lui Petrișor, Vasile Baciu îi cere lui Ion să-i înapoieze pământurile date Anei și copilului.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_103",
+          "event": "Întâlnind-o pe Florica pe câmp, Ion o oprește, o îmbrățișează și îi spune că tot a lui trebuie să fie.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_104",
+          "event": "Pentru a o vedea pe Florica, Ion începe să meargă des în casa lui George sub pretextul prieteniei.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_107",
+          "event": "În continuare, savista urmărește mișcările lui Ion și înțelege că acesta o caută pe Florica.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260820T212156Z::TEMPORAL_ORDER::ORDER_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_11",
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "EV_102",
+        "EV_103",
+        "EV_104",
+        "EV_107",
+        "CH_11",
+        "CH_12"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "CHRON-ad454daf9acd6ed3",
+      "instruction_source": "Cum se transformă relația afectivă a lui Ion cu Ana, de la declarația publică din Jidovița până la nunta forțată?",
+      "items": [
+        {
+          "event_id": "EV_025",
+          "event": "După aceea, beat în Jidovița, Ion afirmă că se va căsători cu Ana indiferent de opoziție.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_038",
+          "event": "Mai târziu, ion insistă să se întâlnească pe ascuns cu Ana la casa lui Vasile.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_056",
+          "event": "Pentru a curma rușinea publică, Belciug îi cheamă pe Vasile Baciu, Ion și Ana și încearcă să obțină o învoială de căsătorie și zestre.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260820T212156Z::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_03",
+        "CH_04",
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_002",
+        "CHAR_005",
+        "CHAR_013",
+        "CH_03",
+        "CH_04",
+        "CH_06",
+        "EV_025",
+        "EV_038",
+        "EV_056"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "CHRON-2178509f3833aa4e",
+      "instruction_source": "Stabiliți succesiunea corectă a evenimentelor: George își recunoaște fapta, Ion moare sub nuc, Ion își revine după lovituri, Ion se târăște spre poartă, Ion își înțelege starea și George îl lovește pe Ion?",
+      "items": [
+        {
+          "event_id": "EV_110",
+          "event": "Întors acasă, George ia sapa din tindă și îl lovește de trei ori pe Ion în întuneric.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_111",
+          "event": "După loviturile primite la sfârșitul capitolului anterior, Ion își revine din starea de inconștiență.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_112",
+          "event": "Ion simte durerile cumplite și își dă seama că este pe moarte.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_113",
+          "event": "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_114",
+          "event": "După ce se târăște până sub nucul de lângă poartă, Ion moare acolo și este găsit dimineața.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_115",
+          "event": "Mai târziu, ucigașul declară că l-a omorât pe Ion pentru că venise la soția sa.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260820T212156Z::TEMPORAL_ORDER::ORDER_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_12",
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_110",
+        "EV_111",
+        "EV_112",
+        "EV_113",
+        "EV_114",
+        "EV_115",
+        "CH_12",
+        "CH_13"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "CHRON-6a10773d4a7c1209",
+      "instruction_source": "Ce degradare suferă Ana în relația cu familia sa, de la insultele aduse soțului de tatăl ei până la violența fizică directă?",
+      "items": [
+        {
+          "event_id": "EV_006",
+          "event": "Vasile Baciu îl numește pe Ion «golan» și «tâlhar» în fața oamenilor și încearcă să-l alunge de lângă Ana.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_065",
+          "event": "Trimisă de Ion să-și înduplece tatăl, Ana încearcă să-i vorbească lui Vasile Baciu, dar acesta o lovește și o alungă.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_123",
+          "event": "Ion și Vasile Baciu acceptă învoiala propusă de Belciug: ceea ce stăpânește fiecare va reveni bisericii dacă moare fără moștenitori direcți.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260820T212156Z::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_07",
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_002",
+        "CHAR_005",
+        "CHAR_013",
+        "CH_01",
+        "CH_07",
+        "CH_12",
+        "EV_006",
+        "EV_065",
+        "EV_123"
+      ],
+      "source_run_id": "run-20260820T212156Z"
+    },
+    {
+      "id": "CHRON-3ece9d16abea76eb",
+      "instruction_source": "În ce ordine cronologică au loc următoarele evenimente: Savista o avertizează pe Ana, Ion o privește stăruitor pe Florica, Florica se căsătorește cu George și Ana observă dorința lui Ion?",
+      "items": [
+        {
+          "event_id": "EV_090",
+          "event": "Florica se căsătorește cu George Bulbuc, iar nunta lor reunește comunitatea.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_091",
+          "event": "La nunta Floricăi, Ion nu-și desprinde privirea de mireasă, iar George simte primejdia.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_092",
+          "event": "Ana înțelege la ospăț că Ion o dorește pe Florica și se simte batjocorită în fața oamenilor.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_093",
+          "event": "Savista îi spune Anei că Ion o caută pe Florica și că George îi va omorî.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260820T214438Z::TEMPORAL_ORDER::TEMPORAL_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_10"
+      ],
+      "evidence_node_ids": [
+        "EV_090",
+        "EV_091",
+        "EV_092",
+        "EV_093",
+        "CH_10"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "CHRON-0ab413d727e4da2a",
+      "instruction_source": "Cum se transformă statutul material și relațional al lui Ion de la dilema inițială din Capitolul I până la învoiala succesorală din Capitolul XII?",
+      "items": [
+        {
+          "event_id": "EV_005",
+          "event": "Ion știe că încă o iubește pe Florica, dar cântărește faptul că ea este săracă, în timp ce Ana are pământuri, case și vite.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_059",
+          "event": "În drumul spre cununie, Ion înțelege că trebuie să o primească și pe Ana odată cu pământurile și respinge gândul de a fugi cu Florica, fiindcă ar rămâne sărac.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_123",
+          "event": "Ion și Vasile Baciu acceptă învoiala propusă de Belciug: ceea ce stăpânește fiecare va reveni bisericii dacă moare fără moștenitori direcți.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260820T214438Z::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_06",
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "CHAR_002",
+        "CHAR_003",
+        "EV_005",
+        "EV_059",
+        "EV_123",
+        "CH_01",
+        "CH_06",
+        "CH_12"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "CHRON-bec1f55bfb07b6e6",
+      "instruction_source": "Care este succesiunea corectă a acestor momente: Savista observă legătura, Ion îl vizitează des pe George, Vasile cere înapoi pământurile și Ion reia legătura cu Florica pe câmp?",
+      "items": [
+        {
+          "event_id": "EV_102",
+          "event": "După înmormântarea lui Petrișor, Vasile Baciu îi cere lui Ion să-i înapoieze pământurile date Anei și copilului.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_103",
+          "event": "Întâlnind-o pe Florica pe câmp, Ion o oprește, o îmbrățișează și îi spune că tot a lui trebuie să fie.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_104",
+          "event": "Pentru a o vedea pe Florica, Ion începe să meargă des în casa lui George sub pretextul prieteniei.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_107",
+          "event": "În continuare, savista urmărește mișcările lui Ion și înțelege că acesta o caută pe Florica.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260820T214438Z::TEMPORAL_ORDER::TEMPORAL_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_11",
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "EV_102",
+        "EV_103",
+        "EV_104",
+        "EV_107",
+        "CH_11",
+        "CH_12"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "CHRON-f363d3b18f7b2c32",
+      "instruction_source": "Cum evoluează relația afectivă și poziția Anei de la declarația publică din Jidovița până la intervenția preotului Belciug?",
+      "items": [
+        {
+          "event_id": "EV_025",
+          "event": "După aceea, beat în Jidovița, Ion afirmă că se va căsători cu Ana indiferent de opoziție.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_038",
+          "event": "Mai târziu, ion insistă să se întâlnească pe ascuns cu Ana la casa lui Vasile.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_056",
+          "event": "Pentru a curma rușinea publică, Belciug îi cheamă pe Vasile Baciu, Ion și Ana și încearcă să obțină o învoială de căsătorie și zestre.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260820T214438Z::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_03",
+        "CH_04",
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_002",
+        "CHAR_001",
+        "EV_025",
+        "EV_038",
+        "EV_056",
+        "CH_03",
+        "CH_04",
+        "CH_06"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "CHRON-8158c71ed365ce84",
+      "instruction_source": "Așezați în ordinea cronologică corectă evenimentele care descriu finalul tragic: George își recunoaște fapta, Ion moare sub nuc, Ion se târăște spre poartă, Ion își înțelege starea, Ion își revine după lovituri și George îl lovește pe Ion?",
+      "items": [
+        {
+          "event_id": "EV_110",
+          "event": "Întors acasă, George ia sapa din tindă și îl lovește de trei ori pe Ion în întuneric.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_111",
+          "event": "După loviturile primite la sfârșitul capitolului anterior, Ion își revine din starea de inconștiență.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_112",
+          "event": "Ion simte durerile cumplite și își dă seama că este pe moarte.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_113",
+          "event": "Ion se târăște aproximativ un sfert de ceas până sub nucul de lângă poartă.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_114",
+          "event": "După ce se târăște până sub nucul de lângă poartă, Ion moare acolo și este găsit dimineața.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_115",
+          "event": "Mai târziu, ucigașul declară că l-a omorât pe Ion pentru că venise la soția sa.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260820T214438Z::TEMPORAL_ORDER::TEMPORAL_03",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_12",
+        "CH_13"
+      ],
+      "evidence_node_ids": [
+        "EV_110",
+        "EV_111",
+        "EV_112",
+        "EV_113",
+        "EV_114",
+        "EV_115",
+        "CH_12",
+        "CH_13"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "CHRON-9cad7db5a78c8e8a",
+      "instruction_source": "Cum se degradează și își schimbă obiectivul Vasile Baciu de la insulta publică față de Ion până la acceptarea învoielii succesoral?",
+      "items": [
+        {
+          "event_id": "EV_006",
+          "event": "Vasile Baciu îl numește pe Ion «golan» și «tâlhar» în fața oamenilor și încearcă să-l alunge de lângă Ana.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_065",
+          "event": "Trimisă de Ion să-și înduplece tatăl, Ana încearcă să-i vorbească lui Vasile Baciu, dar acesta o lovește și o alungă.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_123",
+          "event": "Ion și Vasile Baciu acceptă învoiala propusă de Belciug: ceea ce stăpânește fiecare va reveni bisericii dacă moare fără moștenitori direcți.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260820T214438Z::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_07",
+        "CH_12"
+      ],
+      "evidence_node_ids": [
+        "CHAR_005",
+        "CHAR_002",
+        "CHAR_001",
+        "EV_006",
+        "EV_065",
+        "EV_123",
+        "CH_01",
+        "CH_07",
+        "CH_12"
+      ],
+      "source_run_id": "run-20260820T214438Z"
+    },
+    {
+      "id": "CHRON-3086aa4776d4f614",
+      "instruction_source": "În ce ordine apar aceste evenimente legate de conflictul patrimonial: Ion se poartă calculat cu Ana, Vasile și Ion merg la notar, Contractul îi dă lui Ion toate pământurile, Vasile hotărăște să cedeze averea?",
+      "items": [
+        {
+          "event_id": "EV_081",
+          "event": "Temându-se că Ana ar putea cere despărțirea înaintea procesului cu Vasile, Ion trece pentru o vreme de la bătăi la mângâieri.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_082",
+          "event": "Înspăimântat de apropierea judecății, Vasile Baciu hotărăște să încheie conflictul și să-i dea lui Ion averea.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_083",
+          "event": "Vasile Baciu și Ion merg la notarul din Jidovița pentru încheierea contractului.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_084",
+          "event": "Contractul îl face pe Ion stăpânul tuturor pământurilor lui Vasile Baciu.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260821T114436Z::TEMPORAL_ORDER::TEMPORAL_01",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "EV_081",
+        "EV_082",
+        "EV_083",
+        "EV_084",
+        "CH_09"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "CHRON-75f39d154a410c6f",
+      "instruction_source": "Cum evoluează statutul material și identitatea lui Ion al Glanetașului, de la prima conștiință a posesiei în fața hotarului, până la procesul pentru pământuri și teama de a le pierde după nașterea copilului?",
+      "items": [
+        {
+          "event_id": "EV_013",
+          "event": "După aceea, în fața hotarului Ion se simte slab, dar lucrând propriul petec se imaginează stăpân.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_075",
+          "event": "Ion îl angajează pe avocatul Victor Grofșoru și îl cheamă în judecată pe Vasile Baciu pentru pământurile promise.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_101",
+          "event": "Cât Petrișor este bolnav, Ion îl întreabă pe Herdelea dacă moartea copilului ar face ca pământurile să se întoarcă la Vasile Baciu.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260821T114436Z::CHARACTER_EVOLUTION::EVOLUTION_01",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_02",
+        "CH_08",
+        "CH_11"
+      ],
+      "evidence_node_ids": [
+        "CHAR_001",
+        "EV_013",
+        "CH_02",
+        "EV_075",
+        "CH_08",
+        "EV_101",
+        "CH_11"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "CHRON-c1aac36aab1c3d35",
+      "instruction_source": "În ce ordine apar aceste evenimente legate de descoperirea și consecințele sarcinii Anei: George surprinde plecarea lui Ion, Zvonurile despre Ana se răspândesc, George pleacă dezgustat după ce îi surprinde, Ana trăiește în teroare?",
+      "items": [
+        {
+          "event_id": "EV_041",
+          "event": "În continuare, ascuns afară pentru a spiona, George îl vede pe Ion ieșind din casa Anei.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_042",
+          "event": "După ce îl vede pe Ion ieșind și aude temerea Anei că ar putea fi însărcinată, George pleacă dezgustat.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_043",
+          "event": "La început, femeile satului observă schimbarea Anei și transformă sarcina într-un subiect de bârfă.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_044",
+          "event": "Apoi, ana își ascunde starea și se teme de reacția tatălui.",
+          "position": 4
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260821T114436Z::TEMPORAL_ORDER::TEMPORAL_02",
+      "difficulty": 2,
+      "chapter_ids": [
+        "CH_04",
+        "CH_05"
+      ],
+      "evidence_node_ids": [
+        "EV_041",
+        "EV_042",
+        "EV_043",
+        "EV_044",
+        "CH_04",
+        "CH_05"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "CHRON-c29f99767377f534",
+      "instruction_source": "Cum se transformă relația afectivă și poziția socială a Anei, de la intimitatea forțată cu Ion, prin obligarea căsătoriei sub presiunea rușinii, până la confirmarea nefericirii în timpul nunții?",
+      "items": [
+        {
+          "event_id": "EV_040",
+          "event": "În timp ce Vasile Baciu doarme în aceeași încăpere, Ion și Ana întrețin relații sexuale pe cuptor.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_046",
+          "event": "După ce o bate, Vasile Baciu o trimite pe Ana la Ion ca să se înțeleagă cu el asupra căsătoriei.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_061",
+          "event": "Apoi, atracția pentru Florica rămâne activă chiar în timpul căsătoriei cu Ana.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260821T114436Z::CHARACTER_EVOLUTION::EVOLUTION_02",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_04",
+        "CH_05",
+        "CH_06"
+      ],
+      "evidence_node_ids": [
+        "CHAR_002",
+        "EV_040",
+        "CH_04",
+        "EV_046",
+        "CH_05",
+        "EV_061",
+        "CH_06"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "CHRON-8905876599d2fd0d",
+      "instruction_source": "În ce ordine apar aceste evenimente legate de conflictul matrimonial: Ion hotărăște să recurgă la lege, Titu decide să plece din Pripas, Ion o alungă pe Ana, Titu pleacă la Lușca, Ana se simte fără rost, Ana rămâne la Vasile Baciu?",
+      "items": [
+        {
+          "event_id": "EV_069",
+          "event": "După sfatul preotului, Ion pleacă hotărât să lase legea să decidă conflictul cu Vasile Baciu.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_070",
+          "event": "Ion o conduce pe Ana până la poartă și o trimite înapoi la tatăl ei.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_071",
+          "event": "Alungată de Ion, Ana pleacă plângând și spune că numai ea nu are niciun rost în lume.",
+          "position": 3
+        },
+        {
+          "event_id": "EV_072",
+          "event": "Dezamăgit de conflictul electoral și de compromisurile tatălui său, Titu își găsește un post de subnotar în Lușca.",
+          "position": 4
+        },
+        {
+          "event_id": "EV_073",
+          "event": "După aflarea rezultatului alegerilor, Titu părăsește Pripasul pentru postul din Lușca, nu pentru România.",
+          "position": 5
+        },
+        {
+          "event_id": "EV_074",
+          "event": "După ce Ion o alungă, Ana se întoarce și rămâne în casa tatălui ei, Vasile Baciu.",
+          "position": 6
+        }
+      ],
+      "category_id": "TEMPORAL_ORDER",
+      "source_question_id": "run-20260821T114436Z::TEMPORAL_ORDER::TEMPORAL_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_07",
+        "CH_08"
+      ],
+      "evidence_node_ids": [
+        "EV_069",
+        "EV_070",
+        "EV_071",
+        "EV_072",
+        "EV_073",
+        "EV_074",
+        "CH_07",
+        "CH_08"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    },
+    {
+      "id": "CHRON-18b69c27413f8636",
+      "instruction_source": "Cum își modifică Vasile Baciu autoritatea și obiectivul familial, de la preferarea lui George ca ginere, prin eșecul planurilor împotriva lui Ion, până la cedarea totală a averii sub amenințarea judecății?",
+      "items": [
+        {
+          "event_id": "EV_007",
+          "event": "După aceea, vasile îl preferă pe George Bulbuc, flăcău înstărit și potrivit rangului familiei sale.",
+          "position": 1
+        },
+        {
+          "event_id": "EV_034",
+          "event": "La început, vasile Baciu încearcă să întărească apropierea dintre fiica sa și George Bulbuc.",
+          "position": 2
+        },
+        {
+          "event_id": "EV_082",
+          "event": "Înspăimântat de apropierea judecății, Vasile Baciu hotărăște să încheie conflictul și să-i dea lui Ion averea.",
+          "position": 3
+        }
+      ],
+      "category_id": "CHARACTER_EVOLUTION",
+      "source_question_id": "run-20260821T114436Z::CHARACTER_EVOLUTION::EVOLUTION_03",
+      "difficulty": 3,
+      "chapter_ids": [
+        "CH_01",
+        "CH_04",
+        "CH_09"
+      ],
+      "evidence_node_ids": [
+        "CHAR_005",
+        "EV_007",
+        "CH_01",
+        "EV_034",
+        "CH_04",
+        "EV_082",
+        "CH_09"
+      ],
+      "source_run_id": "run-20260821T114436Z"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "generator_schema_version": 2,
+  "pipeline": "opera-completa",
+  "status": "ready",
+  "work": {
+    "work_id": "floare_albastra",
+    "title": "Floare albastră",
+    "author": "Mihai Eminescu"
+  },
+  "work_type": "poezie",
+  "input": {
+    "knowledge_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\grafuri\\floare_albastra\\knowledge-graph.json",
+    "knowledge_graph_sha256": "178ad22e8a1005e1a61a1c56e87619d49b5262cc462453d933043497998a4eb7",
+    "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\floare_albastra.md",
+    "model_essay_sha256": "b55d61d3983e7fd787b7a68ca572074ac9f10f0a1c0f3ef8141c3adac60e1790"
+  },
+  "canonical_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\floare_albastra\\knowledge-graph.json",
+  "model": "qwen/qwen3.7-flash",
+  "reasoning_effort": "medium",
+  "qwen_calls": 6,
+  "executed_qwen_calls": 0,
+  "force": true,
+  "registered_in_app": true,
+  "steps": [
+    {
+      "id": "intelegere-opera",
+      "status": "complete",
+      "usage": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0
+      }
+    },
+    {
+      "id": "testare-rapida",
+      "status": "complete",
+      "usage": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0
+      }
+    },
+    {
+      "id": "construieste-eseu",
+      "status": "complete",
+      "usage": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0
+      }
+    },
+    {
+      "id": "validate-and-publish",
+      "status": "complete",
+      "report": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\floare_albastra\\pipeline-total\\runs\\run-20260824T152637703159Z\\validation-report.json"
+    },
+    {
+      "id": "register-work",
+      "status": "complete",
+      "changed": false
+    }
+  ],
+  "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\floare_albastra\\pipeline-total\\runs\\run-20260824T152637703159Z",
+  "cost_report": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\floare_albastra\\cost-report.json",
+  "registry_entry": {
+    "id": "floare_albastra",
+    "title": "Floare albastră",
+    "author": "Mihai Eminescu",
+    "type": "poezie",
+    "icon": "🌸",
+    "category": "my"
+  },
+  "costs": {
+    "currency": "USD",
+    "latest_run": {
+      "api_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0
+    },
+    "work_lifetime": {
+      "api_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0
+    },
+    "report": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\floare_albastra\\cost-report.json"
+  }
+}

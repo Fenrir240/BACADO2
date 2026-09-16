@@ -1,0 +1,50 @@
+[
+  {
+    "id": "luceafarul",
+    "title": "Luceafărul",
+    "author": "Mihai Eminescu",
+    "type": "poezie",
+    "icon": "🌙",
+    "category": "my"
+  },
+  {
+    "id": "ion",
+    "title": "Ion",
+    "author": "Liviu Rebreanu",
+    "type": "roman",
+    "icon": "🌾",
+    "category": "my"
+  },
+  {
+    "id": "morometii",
+    "title": "Moromeții",
+    "author": "Marin Preda",
+    "type": "roman",
+    "icon": "📖",
+    "category": "other"
+  },
+  {
+    "id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu",
+    "type": "roman",
+    "icon": "🏛️",
+    "category": "other"
+  },
+  {
+    "id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici",
+    "type": "nuvelă psihologică",
+    "icon": "📘",
+    "category": "my"
+  },
+  {
+    "id": "floare_albastra",
+    "title": "Floare albastră",
+    "author": "Mihai Eminescu",
+    "type": "poezie",
+    "icon": "🌸",
+    "category": "my"
+  }
+]

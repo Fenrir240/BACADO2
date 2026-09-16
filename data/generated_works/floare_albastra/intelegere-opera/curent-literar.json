@@ -1,0 +1,43 @@
+{
+  "work_id": "floare_albastra",
+  "literary_current": {
+    "movement": {
+      "id": "romantismul_canonic_eminescian",
+      "name": "Romantismul canonic eminescian",
+      "period": "Epoca Marilor Clasici",
+      "definition": "Curent fondat pe antiteză, primatul sensibilității și evadarea în natură.",
+      "historical_context": "Perioada tinereții poetului, prefigurând marile creații ulterioare.",
+      "work_classification": "Poem filozofic / Eglogă / Elegie"
+    },
+    "traits": [
+      {
+        "id": "trasatura_1",
+        "title": "Amestecul speciilor literare",
+        "explanation": "Îmbinarea idilei rustice cu pastelul descriptiv și meditația elegiacă.",
+        "evidence_from_work": [
+          "«Hai în codrul cu verdeață...», «Ah! ea spuse adevărul; Eu am râs, n-am zis nimica.»"
+        ],
+        "essay_use": "Susține încadrarea în romantism prin contopirea genurilor.",
+        "source_refs": [
+          "TRAIT_SPECIES_MIX"
+        ]
+      },
+      {
+        "id": "trasatura_2",
+        "title": "Antiteza ca principiu compozițional",
+        "explanation": "Opoziția structurală dintre absolutul cunoașterii și efemeritatea trăirii imediate.",
+        "evidence_from_work": [
+          "«Iar te-ai cufundat în stele...», «Nu căta în depărtare / Fericirea ta, iubite!»"
+        ],
+        "essay_use": "Structurază conflictul ideatic Geniu vs. Om Comun.",
+        "source_refs": [
+          "TRAIT_ANTITHESIS"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "generated_at": "2026-08-24T15:26:37.776461+00:00"
+  }
+}

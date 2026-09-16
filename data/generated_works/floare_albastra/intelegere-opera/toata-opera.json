@@ -1,0 +1,132 @@
+{
+  "work_id": "floare_albastra",
+  "title": "Floare albastră",
+  "author": "Mihai Eminescu",
+  "total_stanzas": 14,
+  "total_sequences": 4,
+  "tableaux": [
+    {
+      "sequence_id": "SEQ_01",
+      "number": 1,
+      "title": "Tabloul I — Monologul fetei și reproșul cunoașterii abstracte",
+      "stanzas_included": [
+        1,
+        2,
+        3
+      ],
+      "dominant_plane": "PLANE_COSMIC",
+      "dominant_voice": "VOICE_FEMININE",
+      "stanzas": [
+        {
+          "number": 1,
+          "text": "Iar te-ai cufundat în stele / Și în nori și-n ceruri nalte? / De nu m-ai uita încalte, / Sufletul vieții mele."
+        },
+        {
+          "number": 2,
+          "text": "În zadar râuri în soare / Grămădești-n a ta gândire / Și câmpiile asire / Și întunecata mare;"
+        },
+        {
+          "number": 3,
+          "text": "Piramidele-nvechite / Urcă-n cer vârful lor mare - / Nu căta în depărtare / Fericirea ta, iubite!"
+        }
+      ],
+      "simple_verbalization": "Fata îi reproșează iubitului că se izolează în gânduri înalte, printre stele, nori, câmpii asire și piramide, uitând de dragostea pământească, și îl îndeamnă să nu caute fericirea în depărtări inaccesibile.",
+      "elevated_verbalization": "Secvența inițială configurează primul monolog al instanței feminine, care denunță tentația geniului de a evada în sferele cunoașterii absolute și ale cosmogoniei reci, avertizându-l asupra caracterului iluzoriu al fericirii abstracte prin antiteza dintre depărtările depersonalizante și căldura afectivă a existenței terestre."
+    },
+    {
+      "sequence_id": "SEQ_02",
+      "number": 2,
+      "title": "Tabloul II — Monologul interior al geniului și conștientizarea distanței",
+      "stanzas_included": [
+        4
+      ],
+      "dominant_plane": "PLANE_MEDITATIVE",
+      "dominant_voice": "VOICE_MASCULINE",
+      "stanzas": [
+        {
+          "number": 4,
+          "text": "Astfel zise mititica, / Dulce netezindu-mi părul. / Ah! ea spuse adevărul; / Eu am râs, n-am zis nimica."
+        }
+      ],
+      "simple_verbalization": "Tânărul meditativ ascultă vorbele drăgăstoase ale fetei, recunoaște în sinea lui că ea are dreptate, dar zâmbește ironic și tace, înțelegând că idealurile lor de viață sunt diferite.",
+      "elevated_verbalization": "Cea de-a doua secvență lirică introduce replica meditativă a instanței masculine; deși geniul recunoaște intuitiv adevărul fetei («Ah! ea spuse adevărul»), reacționează prin detașare ironică și tăcere contemplativă («Eu am râs, n-am zis nimica»), marcând incompatibilitatea structurală dintre absolutul cunoașterii și trăirea imediată."
+    },
+    {
+      "sequence_id": "SEQ_03",
+      "number": 3,
+      "title": "Tabloul III — Al doilea monolog al fetei și scenariul idilei în natură",
+      "stanzas_included": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "dominant_plane": "PLANE_TERRESTRIAL",
+      "dominant_voice": "VOICE_FEMININE",
+      "stanzas": [
+        {
+          "number": 5,
+          "text": "- Hai în codrul cu verdeață, / Und-izvoare plâng în vale, / Stânca stă să se prăvale / În prăpastia măreață."
+        },
+        {
+          "number": 6,
+          "text": "Acolo-n ochi de pădure, / Lângă balta cea senină / Și sub trestia cea lină / Vom ședea în foi de mure."
+        },
+        {
+          "number": 7,
+          "text": "Și mi-i spune-atunci povești / Și minciuni cu-a ta guriță, / Eu pe-un fir de romaniță / Voi cerca de mă iubești."
+        },
+        {
+          "number": 8,
+          "text": "Și de-a soarelui căldură / Voi fi roșie ca mărul, / Mi-oi desface de-aur părul, / Să-ți astup cu dânsul gura."
+        },
+        {
+          "number": 9,
+          "text": "De mi-i da o sărutare, / Nime-n lume n-a s-o știe, / Căci va fi sub pălărie - / Ș-apoi cine treabă are!"
+        },
+        {
+          "number": 10,
+          "text": "Când prin crengi s-a fi ivit / Luna-n noaptea cea de vară, / Mi-i ținea de subsuoară, / Te-oi ținea de după gât."
+        },
+        {
+          "number": 11,
+          "text": "Pe cărare-n bolți de frunze, / Apucând spre sat în vale, / Ne-om da sărutări pe cale, / Dulci ca florile ascunse."
+        },
+        {
+          "number": 12,
+          "text": "Și sosind l-al porții prag, / Vom vorbi-n întunecime: / Grija noastră n-aib-o nime, / Cui ce-i pasă că-mi ești drag?"
+        }
+      ],
+      "simple_verbalization": "Fata îl cheamă pe iubit în mijlocul naturii ocrotitoare, la pădure, lângă baltă și izvoare, unde își imaginează un joc tandru al iubirii, cu destăinuiri, sărutări tăinuite sub pălărie, ivirea lunii și întoarcerea spre sat la căderea nopții.",
+      "elevated_verbalization": "Secvența a treia dezvoltă ritualul erotic pastoral proiectat într-o natură paradisiacă, cu funcție ocrotitoare și complice (codrul, izvoarele, balta, trestia, luna). Idila se desfășoară gradat prin gesturi de tandrețe rustică, joc oracular («pe-un fir de romaniță») și senzualitate ingenuă, culminând cu întoarcerea spre sat, unde pragul porții prefigurează limita fragilă a fericirii omenești."
+    },
+    {
+      "sequence_id": "SEQ_04",
+      "number": 4,
+      "title": "Tabloul IV — Meditația elegiacă finală și conștiința ireversibilității",
+      "stanzas_included": [
+        13,
+        14
+      ],
+      "dominant_plane": "PLANE_ELEGIAC",
+      "dominant_voice": "VOICE_MASCULINE",
+      "stanzas": [
+        {
+          "number": 13,
+          "text": "Înc-o gură - și dispare... / Ca un stâlp eu stam în lună! / Ce frumoasă, ce nebună / E albastra-mi, dulce floare!"
+        },
+        {
+          "number": 14,
+          "text": "Și te-ai dus, dulce minune, / Ș-a murit iubirea noastră - / Floare-albastră! floare-albastră!... / Totuși este trist în lume!"
+        }
+      ],
+      "simple_verbalization": "Fata dispare, clipa de fericire se stinge, iar bărbatul rămâne singur sub lumina lunii, regretând cu tristețe pierderea iubirii ideale și a «florii albastre», conștient de suferința profundă din lume.",
+      "elevated_verbalization": "Secvența concluzivă deplasează discursul liric în registrul elegiei filozofice. Rememorarea iubirii apuse generează o profundă criză existențială, marcată de trecerea la timpul trecut («te-ai dus», «a murit»), de pauza meditativă a suspensiei și de exclamația patetică a motivului central («Floare-albastră! floare-albastră!...»), culminând cu aforismul resemnării universale: «Totuși este trist în lume!»."
+    }
+  ],
+  "generated_at": "2026-08-24T15:26:37.773057+00:00"
+}

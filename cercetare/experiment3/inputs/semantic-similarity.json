@@ -1,0 +1,13 @@
+{
+  "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "device": null,
+  "normalize_embeddings": true,
+  "similarity": "cosine",
+  "review_threshold": 0.74,
+  "duplicate_threshold": 0.82,
+  "distinct_points": 5.0,
+  "review_points": 2.5,
+  "duplicate_points": 0.0,
+  "threshold_status": "provisional_until_domain_calibration",
+  "decision_definition": "Două întrebări sunt duplicate dacă solicită aceeași informație și ar trebui să primească în esență același răspuns."
+}

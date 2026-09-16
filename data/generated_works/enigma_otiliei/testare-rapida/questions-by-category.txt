@@ -1,0 +1,209 @@
+ÎNTREBĂRI CUMULATIVE — ENIGMA OTILIEI
+Total: 96
+
+SIMPLE_FACT_LOWHOP
+========================================================================
+1. În care capitol al romanului se desfășoară scena casei cu geamuri acoperite cu hârtie translucidă?
+   Răspuns: Capitolul 1
+2. Care dintre participanții la discuția despre tușit este avocatul fără procese?
+   Răspuns: Stănică Rațiu
+3. Ce sentiment îl cuprinde pe Felix când își analizează atitudinea față de cele două fete?
+   Răspuns: Profund vinovat
+4. În ce capitol al romanului se face referire la corespondența dintre Felix și Costache?
+   Răspuns: Capitolul 1
+5. Care personaj califică drept suspecte acțiunile avocatului Stănică Rațiu în această scenă?
+   Răspuns: Leonida Pascalopol
+6. Ce activitate academică îl ține ocupat pe Felix înainte de apariția lui Costache?
+   Răspuns: Citirea unui curs
+7. În ce capitol are loc întâlnirea dintre Felix, Otilia și Pascalopol?
+   Răspuns: Capitolul 1
+8. Care dintre personaje discută cu Costache despre frecvența vizitelor lui Felix în casa Aglaei?
+   Răspuns: Aglae Tulea
+9. În ce capitală are loc conversația dintre Felix și Costache privind grijile pentru Otilia?
+   Răspuns: București
+10. În ce capitol al romanului se desfășoară scena cu Pascalopol, Aglae, Costache și Otilia la masa de joc?
+   Răspuns: Capitolul 1
+11. Care este participantul la acest eveniment din capitolul opt care acționează ca protector rafinat al Otiliei?
+   Răspuns: Leonida Pascalopol
+12. Care este ordinea globală a evenimentului în care Weissmann îl lămurește pe Felix despre prețul danturii?
+   Răspuns: 110
+
+CHARACTER_RELATION
+========================================================================
+1. Care este legătura de rudenie dintre Costache Giurgiuveanu și Otilia Mărculescu, conform evenimentului din Capitolul 1?
+   Răspuns: Tatăl vitreg
+2. Ce relație afectivă leagă pe Felix Sima de Otilia Mărculescu în cadrul întâlnirii din Capitolul 2?
+   Răspuns: Iubire reciprocă
+3. Cum se manifestă rivalitatea dintre Stănică Rațiu și Otilia Mărculescu în contextul evenimentului din Capitolul 5?
+   Răspuns: Rivalitate explicită
+4. Care este legătura de rudenie dintre Costache Giurgiuveanu și Otilia Mărculescu în familia Tulea?
+   Răspuns: Costache Giurgiuveanu este tatăl vitreg al Otiliei Mărculescu.
+5. Ce sentimente nutrește Felix Sima față de Otilia Mărculescu în contextul capitolului al doilea?
+   Răspuns: Felix Sima o iubește pe Otilia Mărculescu.
+6. În ce tip de conflict se află Stănică Rațiu cu Otilia Mărculescu în casa Tulea?
+   Răspuns: Stănică Rațiu este rivalul Otiliei Mărculescu.
+7. În capitolul în care Otilia aprinde țigara pentru adulți, ce legătură de rudenie are Costache Giurgiuveanu cu ea?
+   Răspuns: Tată vitreg
+8. În timpul conversației din salonul familiei, ce sentiment profund leagă pe Felix Sima de Otilia Mărculescu?
+   Răspuns: Dragoste reciprocă
+9. În contextul întâlnirii medicale din capitolul șapte, ce tip de antagonism există între Stănică Rațiu și Otilia?
+   Răspuns: Rivalitate
+10. Care este legătura de rudenie care îl unește pe Costache Giurgiuveanu cu Otilia Mărculescu?
+   Răspuns: Tată vitreg (relație parentală)
+11. Ce sentiment afectiv profund nutrește Felix Sima față de Otilia în roman?
+   Răspuns: Dragoste / iubire
+12. În ce tip de rivalitate se află Stănică Rațiu față de Otilia?
+   Răspuns: Rivalitate / opoziție interesată
+
+NARRATIVE_ACTION
+========================================================================
+1. Cine trimitea anual scrisori de sărbători „unchiului Costache” și „unchiului Iosif” pentru a întreba unul de celălalt?
+   Răspuns: Felix și Otilia.
+2. Ce observație face Leonida Pascalopol despre comportamentul lui Stănică Rațiu în timp ce conversau cu Felix și Otilia?
+   Răspuns: Consideră că ceea ce face Stănică este foarte suspect.
+3. Ce acțiune desfășoară Costache Giurgiuveanu în Capitolul 14 în timp ce Felix studiază intens pentru examene?
+   Răspuns: Crăpă ușa odăii și își vâră capul înăuntru ca o bilă.
+4. Cine se recomandă cu o ceremonie formală tânărului Felix în prima parte a romanului?
+   Răspuns: Leonida Pascalopol
+5. Ce sfat oferă Aglae lui Costache privind frecvența vizitelor lui Felix în casa sa?
+   Răspuns: Aglae sugerează ca Costache să observe atenția lui Felix față de Otilia
+6. Ce discuție purtă Felix cu tutorele său despre viitorul Otiliei în al paisprezecelea capitol?
+   Răspuns: Felix exprimă îngrijorarea că Otilia ar putea rămâne pe drumuri fără lux
+7. Cine își mușcă buza de sus și răspunde conciliant în timpul jocului de zaruri din primul capitol?
+   Răspuns: Leonida Pascalopol își mușcă buza de sus, lovește zarurile și răspunde conciliant către Aglae Tulea.
+8. Ce face Otilia Mărculescu atunci când Pascalopol intră în cameră în timp ce îi cosea un nasture lui Felix?
+   Răspuns: Otilia continuă să-i coasă un nasture lui Felix fără să își schimbe stilul, apoi aleargă la moșier pentru calinerii.
+9. Ce se întâmplă în Capitolul 14 legat de vizita Georgetei, a generalului și a lui Weissmann la București?
+   Răspuns: Georgeta, generalul, Olimpia și Titi ajung pentru a discuta despre portretul lui Iorgu, iar Weissmann îl informează pe Felix despre dantură.
+10. Cine este nemulțumit de familiaritatea Otiliei cu Pascalopol în Capitolul 1?
+   Răspuns: Felix Sima.
+11. Ce face Costache Giurgiuveanu la masa din Capitolul 8 după ce verifică camera Otiliei?
+   Răspuns: Se întoarce la masă cu Pascalopol, privește pe Felix degajat și se poartă ca și când nimic nu s-ar fi întâmplat.
+12. Ce reacții provoacă Weissmann printre participanți în Capitolul 14?
+   Răspuns: În afară de Georgeta, Felix și generalul care râd, ceilalți îl privesc uimiți, iar Olimpia îl contemplă ca pe un monstru.
+
+TEMPORAL_ORDER
+========================================================================
+1. În ce ordine cronologică au loc următoarele întâlniri dintre Felix, Otilia și Pascalopol în Capitolul 4?
+   Răspuns: 1. Felix privi cu aviditate rafturile...; 2. Domnișoara Otilia, mărturisi Pascalopol...; 3. A doua zi, stând turcește...; 4. Otilia fu de o veselie nebună...
+2. Care este succesiunea corectă a convorbirilor purtate între Aurica, Costache, Otilia și Felix în Capitolele 3 și 4?
+   Răspuns: 1. Aurica și Costache: Aurichii îi intră în cap...; 2. Aurica și Costache: Aurica nu se lasă cu una...; 3. Costache și Felix: Într-adevăr, puțin după această convorbire...; 4. Costache și Felix: Otilia deveni pentru Felix...
+3. În ce ordine apar următoarele momente din viața lui Felix, Otilia și Pascalopol până la sosirea Olimpiei?
+   Răspuns: 1. Felix și Otilia: Astfel se făcu că într-o după-amiaza...; 2. Felix privi cu aviditate rafturile...; 3. Domnișoara Otilia, mărturisi Pascalopol...; 4. A doua zi, stând turcește...; 5. Otilia fu de o veselie nebună...; 6. Aglae și Felix: Pe la începutul lunii august...
+4. În ce succesiune temporară au avut loc: strigătele lui Pascalopol, predarea buchetului, comentariul despre Aglae și reflexia privind programul izolat?
+   Răspuns: 1. Strigătele lui Pascalopol; 2. Predarea buchetului; 3. Comentariul despre Aglae; 4. Reflexia privind programul izolat.
+5. Care este ordinea cronologică a evenimentelor legate de suspiciuni și reacții: supărarea lui Costache, sfatul lui Pascalopol, intervenția Otiliei și descoperirea scrisorii?
+   Răspuns: 1. Supărarea lui Costache; 2. Sfatul lui Pascalopol; 3. Intervenția Otiliei la intrarea moșierului; 4. Descoperirea scrisorii lipsă.
+6. În ce ordine s-au desfășurat etapele relației dintre Felix, Otilia și Pascalopol: predarea buchetului, comentariul despre Aglae, jocul la heleșteu, urcatul în șură și întâlnirea de toamnă?
+   Răspuns: 1. Predarea buchetului; 2. Comentariul despre Aglae; 3. Jocul la heleșteu; 4. Urcatul în șură; 5. Întâlnirea de toamnă.
+7. În ce ordine cronologică au loc jocul de zaruri, întâlnirea cu Pascalopol, aprinderea țigărilor la masă și reacția lui Felix la familiaritatea Otiliei?
+   Răspuns: 1. Întâlnirea cu Pascalopol; 2. Jocul de zaruri; 3. Reacția lui Felix la familiaritatea Otiliei; 4. Aprinderea țigărilor la masă.
+8. Care este succesiunea corectă a vizitei la tablourile familiei, a cinei improvizate din grădină, a veștii despre boala lui Simion și a convorbirii în șoaptă cu Otilia?
+   Răspuns: 1. Cina improvizată din grădină; 2. Convorbirea în șoaptă cu Otilia; 3. Vestea despre boala lui Simion; 4. Vizita la tablourile familiei.
+9. Cum se succed evenimentele legate de reacția lui Felix la familiaritate, de masa de la Pascalopol, de jignirea cu cuvântul orfan, de aprinderea țigărilor și de descoperirea vecinătății cu Aglae și Simion?
+   Răspuns: 1. Masa de la Pascalopol; 2. Reacția lui Felix la familiaritate; 3. Aprinderea țigărilor; 4. Ofertarea țigării către Aglae; 5. Jignirea cu cuvântul „orfan“; 6. Descoperirea vecinătății cu Aglae și Simion.
+10. În ce ordine cronologică se desfășoară următoarele evenimente din casa lui Moș Costache: întâlnirea cu Pascalopol, reacția lui Felix la chioșc, cina improvizată și conversația discretă cu Otilia?
+   Răspuns: 1. Întâlnirea cu Pascalopol; 2. Reacția lui Felix la chioșc; 3. Cina improvizată; 4. Conversația discretă cu Otilia.
+11. Care este succesiunea corectă a acestor momente cheie din finalul poveștii: plata tacită a Marinei, calculul financiar al lui Pascalopol, pasiunea pentru desen a lui Titi și ieșirea liniștită a lui Costache la biserică?
+   Răspuns: 1. Plata tacită a Marinei; 2. Calculul financiar al lui Pascalopol; 3. Pasiunea pentru desen a lui Titi; 4. Ieșirea liniștită a lui Costache la biserică.
+12. Așezați în ordinea apariției în narațiune aceste etape ale evoluției personajelor: plimbarea prin heleșteu, critica Auricii, absența lui Pascalopol, înscrierea la facultate, rolul de intermediar familial și prezentarea medicului.
+   Răspuns: 1. Plimbarea prin heleșteu; 2. Critica Auricii; 3. Absența lui Pascalopol; 4. Înscrierea la facultate; 5. Rolul de intermediar familial; 6. Prezentarea medicului.
+
+CAUSE_EFFECT
+========================================================================
+1. Ce interacțiune dintre Otilia și Costache a declanșat scena în care Felix află despre sosirea Olimpiei și a lui Stănică?
+   Răspuns: Interacțiunea dintre Otilia și Costache din capitolul 4 a cauzat direct momentul din capitolul 5 când Felix este informat despre sosirea Olimpiei și a lui Stănică.
+2. Care este consecința narativă imediată a descrierii arhitecturale a casei Giurgiuveanu-Tulea din primul capitol?
+   Răspuns: Efectul imediat al descrierii este crearea contextului narativ necesar pentru desfășurarea acțiunii din restul capitolului, fără a genera schimbări de stare pe termen lung.
+3. Ce succesiune de evenimente leagă descoperirea vecinătății cu familia Tulea de refuzul lui Felix de a vizita casa Aglaei din cauza stării lui Simion?
+   Răspuns: Constatarea vecinătății (EV_009) contribuie la contextul în care Felix primește vestea bolii lui Simion și decide să nu meargă la Aglae (EV_017), formând prima etapă a unui lanț cauzal care continuă cu intervenția Otiliei.
+4. Care este cauza directă care determină reacțiile și visele lui Felix din capitolul nouă, în care acesta își imaginează salvarea familiei Giurgiuveanu-Tulea?
+   Răspuns: Cauza directă este comportamentul schimbător al Otiliei, care ignoră gingășiile lui Felix când intră Pascalopol, determinându-l pe tânăr să dezvolte un complex de inferioritate și fantasme generoase.
+5. Ce consecință imediată produce corespondența copilărească dintre Felix, Otilia și Costache în primul capitol, stabilind tonul relațiilor viitoare?
+   Răspuns: Consecința imediată este stabilirea contextului narativ necesar pentru dinamica familială, care va genera ulterior tensiuni afective și conflicte între personaje.
+6. Cum influențează prezența moșierului Pascalopol și avertizarea Auricăi asupra reputației Otiliei evoluția relației dintre cei doi tineri în capitolele șase până la opt?
+   Răspuns: Prezența lui Pascalopol și critica Auricăi îl determină pe Felix să se retragă emoțional, iar Otilia, simțind distanțarea, își îndreaptă afecțiunea către moșier, consolidând rivalitatea.
+7. Ce eveniment din capitolul anterior a contribuit la apariția reacției lui Olimpia față de situația Otiliei?
+   Răspuns: Evenimentul EV_089 (petrecerea Otiliei cu Pascalopol la Paris) a contribuit direct la această reacție.
+8. Care este consecința imediată a prezentării reciproce dintre Felix, Otilia și Pascalopol în primul capitol?
+   Răspuns: Acțiunea creează contextul narativ imediat pentru momentul următor din același capitol.
+9. Ce succesiune cauzală de două etape leagă primirea scrisorii de Costache de petrecerea Otiliei cu Pascalopol, având ca nod central relația lui Felix cu Georgeta?
+   Răspuns: Lanțul începe cu primirea scrisorii de către Costache (EV_073), contribuie la apariția relației lui Felix cu Georgeta (EV_081), care la rândul său favorizează petrecerea Otiliei cu Pascalopol (EV_089).
+10. Care este cauza directă care a declanșat conversația dintre Felix și Otilia privind starea de sănătate a lui Simion în Capitolul 17?
+   Răspuns: Evenimentul din Capitolul 16 (EV_121), în care Stănică și Olimpia discutau despre regulile familiei și sentimentul de vinovăție al lui Stănică, a cauzat direct evenimentul din Capitolul 17.
+11. Care este efectul imediat al scenei cu jocul de zaruri și conversația dintre Aglae, Costache, Otilia și Pascalopol din Capitolul 1?
+   Răspuns: Interacțiunea creează contextul narativ imediat pentru desfășurarea momentului următor din același capitol.
+12. Ce lanț cauzal de două etape leagă întâlnirea dintre Felix și Georgeta de propunerea de a-l interna pe Simion într-un ospiciu?
+   Răspuns: Întâlnirea dintre Felix și Georgeta (EV_105) contribuie la dezbaterea asupra averii lui Simion (EV_113), care la rândul său duce la propunerea internării acestuia (EV_121).
+
+CHARACTER_EVOLUTION
+========================================================================
+1. Cum se transformă statutul social și material al Otiliei de la protecția lui Pascalopol în capitolul 9, prin contestarea testamentului din capitolul 11, până la condiția sa finală în capitolul 19?
+   Răspuns: Otilia trece de la o poziție privilegiată, protejată de Pascalopol și centrul atenției familiei, la momentul conflictual al testamentului dictat de moșier, pentru a ajunge în final într-o stare de dependență materială și muncă asiduă, marcată de pierderea averii și izolarea socială.
+2. Cum evoluează dinamica relațională a Aglaei de la inițiativa ei de a-i căsători pe copii în capitolul 5, prin reacția la vestea căsătoriei lui Titi din capitolul 8, până la opoziția față de nuntă în capitolul 9?
+   Răspuns: Aglae începe prin a manipula mediul familial pentru a aranja căsătorii convenabile, apoi intră în criză și negare când află de uniunea neautorizată a lui Titi, culminând cu blocarea activă a oricărei noi alianțe matrimoniale care ar putea submina controlul său asupra patrimoniului și ierarhiei clanului.
+3. Cum se degradează obiectivul afectiv al lui Felix de la observatorul pasiv din capitolul 3, prin criza geloziei față de Pascalopol în capitolul 8, până la deziluzia matură din capitolul 11?
+   Răspuns: Felix pornește ca un martor lucid al mecanismelor familiei, traversează o fază intensă de suferință și rivalitate emoțională legată de Otilia și Pascalopol, pentru a ajunge într-un stadiu de cinism relativ și acceptare a realității sociale, marcând pierderea idealismului juvenil.
+4. Cum evoluează poziția socială și rolul Otiliei în familia Giurgiuveanu-Tulea de la o simplă fetiță cunoscută prin scrisori până la îngrijitoarea autoritară a lui Costache și Felix?
+   Răspuns: De la o prezență distantă și infantilă în corespondența familială (Cap. 1), trece printr-o fază de confuzie și dependență emoțională față de Felix și Costache (Cap. 10), pentru a se transforma într-o figură centrală, matriarhală și protectorie care își asumă responsabilitatea îngrijirii celor doi bătrâni (Cap. 20).
+5. Cum se transformă dinamica afectivă și relațională a lui Stănică Rațiu de la un partener pragmatic al Aglaei la un soț copleșit de sentimentalitate față de Olimpia?
+   Răspuns: Inițial prezentat ca un agent oportunist al clanului Tulea, implicat în negocieri familiale (Cap. 5), el trece printr-o criză de conștiință și dorință de căsătorie legitimă (Cap. 16), culminând cu o declarație publică de devotament și o apropiere fizică emoționantă cu Olimpia, marcând trecerea de la calcul la sentiment.
+6. Ce pași parcurge degradarea morală și iluziile ideale ale lui Felix Sima, de la observatorul inocent al familiei la un participant cinic și dezamăgit de mediul bucureștean?
+   Răspuns: Pornind de la o poziție de martor pasiv și curios în casa familiei (Cap. 3), este antrenat în conflicte de gelozie și rivalitate romantică cu Pascalopol (Cap. 8), iar confruntarea cu ipocrizia socială și manipulările lui Stănică îl determină să abandoneze idealismul inițial, adoptând o atitudine defensivă și realistă (Cap. 11).
+7. 
+8. 
+9. 
+10. Cum se transformă poziția socială și relațională a Otiliei de la copilăria în umbra lui Felix și Costache, prin rivalitatea cu Pascalopol, până la rolul ei de îngrijitoare dependentă în capitolul 20?
+   Răspuns: Otilia evoluează de la o figură centrală în relațiile de rudenie și afecțiune (Felix, Costache), trece printr-o fază de competiție afectivă și socială cu Pascalopol, pentru a se stabiliza într-un rol final de îngrijitoare subordonată, pierzându-și autonomia și statutul egalitar.
+11. Cum evoluează dinamica afectivă și relațională a Aglaei Tulea de la tensiunea cu Pascalopol și Otilia, prin izolarea față de Simion bolnav, până la haosul familial din capitolul 20?
+   Răspuns: Aglae parcurge o traiectorie de la controlul autoritar și rivalitatea deschisă cu Otilia și Pascalopol, către o izolare emoțională marcată de boala lui Simion, culminând cu un colaps al structurii familiale și pierderea controlului asupra rețelei de alianțe și afecțiuni din casă.
+12. Cum se degradează ambițiile și statutul lui Felix Sima de la inocența relației cu Otilia, prin confruntarea cu interesele lui Stănică Rațiu, până la marginalizarea sa ca simplu îngrijitor?
+   Răspuns: Felix începe ca un tânăr idealist legat afectiv de Otilia, trece printr-o etapă de conștientizare a manipulării financiare și sociale exercitate de Stănică Rațiu, și se încheie cu reducerea sa la un rol instrumental de îngrijitor, fără putere decizională sau viitor autonom.
+
+LITERARY_INTERPRETATION
+========================================================================
+1. Prin ce evenimente și capitole se manifestă tema societății burgheze citadine în roman?
+   Răspuns: Evenimentele EV_001, EV_073 și EV_154, situate în capitolele 1, 10 și 20, ilustrează mecanismele de parvenire și tipurile umane ale mediului urban, confirmând caracterul critic al temei sociale.
+2. Cum evoluează conflictul amoros dintre Felix, Otilia și Pascalopol prin interacțiunile cu familia Giurgiuveanu?
+   Răspuns: Interacțiunile din capitolele 1, 10 și 20 arată tensiunea dintre iubirea matură a lui Pascalopol și atașamentul dependent al lui Felix față de Otilia, evidențiat prin contrastul cu relația tutelară a lui Costache.
+3. Ce semnificație literară are motivul casei degradate în raport cu destinul personajelor și al mediului descris?
+   Răspuns: Descrierea arhitecturii haotice din capitolul 1 și transformările ulterioare din capitolele 10 și 20 simbolizează dezordinea morală și avariția care determină destrămarea familiei Giurgiuveanu.
+4. Cum se manifestă tema societății burgheze în evoluția relațiilor dintre Costache, Pascalopol și Otilia pe parcursul capitolelor unu, zece și douăzeci?
+   Răspuns: Tema este evidențiată prin atitudinea lui Pascalopol la masă, refuzul lui Costache de a semna actele și agitația din jurul patului de moarte, care dezvăluie interesele economice și tipurile umane ale mediului urban.
+5. În ce mod evoluează conflictele afective dintre Felix, Otilia și Pascalopol de la amintirile copilăriei până la criza relației în capitolul zece?
+   Răspuns: Conflictul se structurează pe diferențe de vârstă și așteptări: de la corespondența formală din copilărie, la distanțarea subtilă a Otilei față de Felix și dorința acesteia de a fi tratată ca o copilă, nu ca o parteneră egală.
+6. Ce rol joacă motivul casei degradate în conturarea atmosferei romanului și în reflectarea stării sufletești a personajelor?
+   Răspuns: Motivul funcționează ca o extensie a dezordinii morale și a izolării: de la evitarea casei Aglaei, la contemplarea ușii umflate și a mucegaiului de către Felix, până la aglomerația din odaia morții, casa marchează trecerea de la speranță la epuizare.
+7. 
+8. 
+9. 
+10. Prin care evenimente din capitolele 1, 10 și 20 se conturează imaginea societății burgheze bucureștene, iar cum se reflectă această lume în relațiile personajelor?
+   Răspuns: Tema societății burgheze este evidențiată prin interacțiunile sociale din capitolul 1 (jocul de cărți și atitudinile), capitolul 10 (comentariile lui Stănică despre Georgeta) și capitolul 20 (aglomerația la moș Costache), arătând o lume dominată de interese, ipocrizie și convenții.
+11. Cum se manifestă tensiunea dintre iubirea idealistă a lui Felix și realitatea socială, ilustrată prin scenele din capitolele 1, 9 și 20?
+   Răspuns: Conflictul amoros este structurat pe opoziția dintre ideal și convenție. Evenimentul din cap. 9 (seminul nasturului și intervenția lui Stănică) arată fragilitatea legăturii, cel din cap. 1 (scrisorile copilăriei) sugerează o legătură inițială inocentă, iar cel din cap. 20 (îngrijirile Otiliei) relevă dinamica protector-copil, subliniind imposibilitatea egalității afective.
+12. Ce rol structural joacă motivul casei lui Costache Giurgiuveanu în evoluția acțiunii, așa cum reiese din scenele din capitolele 3, 12 și 20?
+   Răspuns: Casa funcționează ca un simbol al dezordinii morale și al declinului familial. Evenimentele din cap. 3 (vizita lui Felix și vestea bolii lui Simion), cap. 12 (ascunderea lui Felix și atmosfera tensionată) și cap. 20 (haosul din odaia bătrânului) ilustrează cum spațiul locuit reflectă lupta pentru succesiune și coruperea valorilor tradiționale.
+
+CROSS_CHAPTER_COMPARE
+========================================================================
+1. 
+2. 
+3. 
+4. Cum se transformă rolul lui Felix în fața familiei și a Otiliei între momentul introducerii sale ceremonioase în capitolul unu și agitația din camera de culcare a bunicului în capitolul douăzeci?
+   Răspuns: În capitolul unu, Felix este examinat cu ironie de Pascalopol într-un context de paternitate alegată, iar în capitolul douăzeci devine intermediarul care explică dorințele moribundului Costache Otiliei, reflectând o trecere de la statutul de străin la cel de martor implicat în criza socială a casei.
+5. În ce mod diferă tensiunea legată de moștenire și banii ascunși între discuția financiară dintre Costache și Felix din capitolul doi și furtul pachetului de către Stănică în capitolul douăzeci?
+   Răspuns: În capitolul doi, conflictul succesoral apare ca o dependență financiară controlată de tutore, simbolizată prin banii dați pentru cheltuieli, iar în capitolul douăzeci se materializează în furtul direct al sumei ascunse, marcând prăbușirea autorității lui Costache și victoria parvenitului Stănică.
+6. Cum evoluează tema paternității și a protecției între recomandarea formală a lui Pascalopol în capitolul unu și căutările obsesive ale Aglaei împreună cu intervenția protectoare a lui Felix în capitolul optsprezece?
+   Răspuns: În capitolul unu, paternitatea este prezentată ca o relație formală și ierarhică, marcată de examinarea lui Felix de către Pascalopol, iar în capitolul optsprezece se fragmentează în lupta pentru putere, unde Felix preia un rol protector față de Otilia, contrastând cu aviditatea familială.
+7. Cum se transformă relația lui Felix cu Otilia și rivalitatea față de Pascalopol între prima lor întâlnire formală și momentul despărțirii definitive din finalul romanului?
+   Răspuns: La început, Felix o iubește pe Otilia într-un context de cunoaștere și competiție blândă, iar conflictul este marcat de o atracție reciprocă; spre final, iubirea devine dureroasă, rivalitatea se înrăutățește, iar despărțirea marchează închiderea definitivă a acestei dinamici afective.
+8. În ce mod diferă tensiunea legată de moștenire și statutul financiar al familiei între momentul primirii banilor de către Felix și criza medicală care declanșează întrebările despre averea ascunsă?
+   Răspuns: Inițial, dependența financiară a lui Felix subliniază o structură familială controlată de tutore, iar banii circulă discret; ulterior, boala lui Costache transformă grija în curiozitate posesivă, dezvăluind că moștenirea devine un instrument de putere și suspiciune între rude.
+9. Cum evoluează tema paternității și a protecției între recomandarea formală a lui Pascalopol pentru Felix și tensiunile familiale care îl izolează pe Costache în fața propriilor rude?
+   Răspuns: La început, paternitatea apare ca o formă de mentorat și protecție socială oferită de Pascalopol, stabilind un cadru de respect; mai târziu, ea se distorsionează în autoritate fragilă și neîncredere, Costache devenind victima propriei sale izolări și a dinamicii toxice dintre Aglae și restul familiei.
+10. Cum se transformă relația lui Felix cu Costache, de la prima întâlnire rece din Capitolul 1 la amintirea respingerii finale din Capitolul 20?
+   Răspuns: În Capitolul 1, relația este formală și marcată de o politețe distantă, în timp ce în Capitolul 20 ea devine un amintire dureroasă a respingerii definitive („Aici nu stă nimeni“).
+11. Cum evoluează conflictul succesoral legat de banii ascunși, comparând tensiunea financiară inițială din Capitolul 2 cu paranoia finală a Aglaei din Capitolul 18?
+   Răspuns: Conflictul trece de la o simplă gestionare a cheltuielilor mici (Capitolul 2) la o obsesie paranoică pentru furtul averii complete, culminând cu planurile lui Pascalopol (Capitolul 18).
+12. Cum contrastează tema paternității între prezentarea ceremonială a lui Pascalopol ca mentor în Capitolul 1 și simbolismul urnei funerare asociat lui Stănică în Capitolul 16?
+   Răspuns: Paternitatea apare în Capitolul 1 ca o relație socială formală și de protecție, în timp ce în Capitolul 16 devine un simbol al morții și al tradiției învechite, sugerând o moștenire spirituală sau materială blocată.

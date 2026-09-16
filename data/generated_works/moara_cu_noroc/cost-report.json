@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "report_type": "complete_work_openrouter_cost",
+  "currency": "USD",
+  "cost_source": "OpenRouter usage.cost returned for each API call",
+  "updated_at_utc": "2026-08-22T20:14:09.012563+00:00",
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "latest_total_run": {
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\pipeline-total\\runs\\run-20260822T201408953504Z",
+    "by_section": {
+      "intelegere-opera": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      },
+      "testare-rapida": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      },
+      "construieste-eseu": {
+        "api_calls": 0,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "cost_usd": 0.0
+      }
+    },
+    "total": {
+      "api_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "reasoning_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0
+    }
+  },
+  "lifetime": {
+    "by_section": {
+      "intelegere-opera": {
+        "api_calls": 22,
+        "prompt_tokens": 247201,
+        "completion_tokens": 112002,
+        "reasoning_tokens": 96152,
+        "total_tokens": 359203,
+        "cost_usd": 0.03776235
+      },
+      "testare-rapida": {
+        "api_calls": 32,
+        "prompt_tokens": 300045,
+        "completion_tokens": 261436,
+        "reasoning_tokens": 210031,
+        "total_tokens": 561481,
+        "cost_usd": 0.04298803
+      },
+      "construieste-eseu": {
+        "api_calls": 1,
+        "prompt_tokens": 84358,
+        "completion_tokens": 7944,
+        "reasoning_tokens": 6291,
+        "total_tokens": 92302,
+        "cost_usd": 0.0116134
+      }
+    },
+    "total": {
+      "api_calls": 55,
+      "prompt_tokens": 631604,
+      "completion_tokens": 381382,
+      "reasoning_tokens": 312474,
+      "total_tokens": 1012986,
+      "cost_usd": 0.09236378
+    }
+  }
+}

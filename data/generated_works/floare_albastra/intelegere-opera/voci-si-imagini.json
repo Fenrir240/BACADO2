@@ -1,0 +1,224 @@
+{
+  "work_id": "floare_albastra",
+  "voices": [
+    {
+      "id": "VOICE_FEMININE",
+      "name": "Vocea feminină",
+      "role": "Ipostaza omului comun, cald, ancorat în viața concretă.",
+      "attitude": "Ipostaza omului comun, cald, ancorat în viața concretă.",
+      "personality": "Ipostaza omului comun, cald, ancorat în viața concretă.",
+      "physical_description": "Instanță lirică definită prin discurs și atitudine, nu personaj epic descris fizic.",
+      "linguistic_markers": "încalte; mititica; mi-i spune; cine treabă are",
+      "associated_stanzas": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "VOICE_MASCULINE",
+      "name": "Vocea masculină",
+      "role": "Ipostaza eului reflexiv, atras de infinitul cunoașterii.",
+      "attitude": "Ipostaza eului reflexiv, atras de infinitul cunoașterii.",
+      "personality": "Ipostaza eului reflexiv, atras de infinitul cunoașterii.",
+      "physical_description": "Instanță lirică definită prin discurs și atitudine, nu personaj epic descris fizic.",
+      "linguistic_markers": "n-am zis nimica; eu stam; albastra-mi floare",
+      "associated_stanzas": [
+        4,
+        13,
+        14
+      ]
+    }
+  ],
+  "sensory_mindmap": {
+    "title": "Harta Imaginilor Artistice",
+    "categories": [
+      {
+        "type": "Imagini Vizuale Cosmice",
+        "items": [
+          {
+            "label": "Cufundarea în spațiul stelar și nori",
+            "quote": "Iar te-ai cufundat în stele / Și în nori și-n ceruri nalte?",
+            "stanza": 1,
+            "source_refs": [
+              "IMG_COSMIC_EXPEDITION"
+            ]
+          },
+          {
+            "label": "Râurile de lumină și gândire",
+            "quote": "În zadar râuri în soare / Grămădești-n a ta gândire",
+            "stanza": 2,
+            "source_refs": [
+              "IMG_SUN_RIVERS"
+            ]
+          },
+          {
+            "label": "Câmpiile asire și marea întunecată",
+            "quote": "Și câmpiile asire / Și întunecata mare;",
+            "stanza": 2,
+            "source_refs": [
+              "IMG_ASSYRIAN_PLAINS"
+            ]
+          },
+          {
+            "label": "Vârfurile piramidelor învechite",
+            "quote": "Piramidele-nvechite / Urcă-n cer vârful lor mare",
+            "stanza": 3,
+            "source_refs": [
+              "IMG_PYRAMIDS"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Imagini Vizuale Terestre",
+        "items": [
+          {
+            "label": "Ochiul de pădure și balta senină",
+            "quote": "Acolo-n ochi de pădure, / Lângă balta cea senină / Și sub trestia cea lină",
+            "stanza": 6,
+            "source_refs": [
+              "IMG_CLEAR_POND"
+            ]
+          },
+          {
+            "label": "Ivirea lunii prin crengi în noaptea de vară",
+            "quote": "Când prin crengi s-a fi ivit / Luna-n noaptea cea de vară",
+            "stanza": 10,
+            "source_refs": [
+              "IMG_SUMMER_MOON"
+            ]
+          },
+          {
+            "label": "Cărarea sub bolți de frunze spre sat",
+            "quote": "Pe cărare-n bolți de frunze, / Apucând spre sat în vale",
+            "stanza": 11,
+            "source_refs": [
+              "IMG_LEAF_ARCHES"
+            ]
+          },
+          {
+            "label": "Oprirea la pragul porții în întuneric",
+            "quote": "Și sosind l-al porții prag, / Vom vorbi-n întunecime",
+            "stanza": 12,
+            "source_refs": [
+              "IMG_VILLAGE_GATE_THRESHOLD"
+            ]
+          },
+          {
+            "label": "Moartea iubirii și plecarea minunii",
+            "quote": "Și te-ai dus, dulce minune, / Ș-a murit iubirea noastră",
+            "stanza": 14,
+            "source_refs": [
+              "IMG_DYING_LOVE"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Imagini Tactile & Afective",
+        "items": [
+          {
+            "label": "Netezirea afectuoasă a părului",
+            "quote": "Dulce netezindu-mi părul",
+            "stanza": 4,
+            "source_refs": [
+              "IMG_TENDER_GESTURE"
+            ]
+          },
+          {
+            "label": "Odihna în foi de mure",
+            "quote": "Vom ședea în foi de mure.",
+            "stanza": 6,
+            "source_refs": [
+              "IMG_BERRY_LEAVES"
+            ]
+          },
+          {
+            "label": "Părul de aur desfăcut peste gura iubitului",
+            "quote": "Mi-oi desface de-aur părul, / Să-ți astup cu dânsul gura.",
+            "stanza": 8,
+            "source_refs": [
+              "IMG_GOLDEN_HAIR"
+            ]
+          },
+          {
+            "label": "Sărutul tăinuit sub pălărie",
+            "quote": "De mi-i da o sărutare, / Nime-n lume n-a s-o știe, / Căci va fi sub pălărie",
+            "stanza": 9,
+            "source_refs": [
+              "IMG_SECRET_KISS"
+            ]
+          },
+          {
+            "label": "Îmbrățișarea tandră pe cărare",
+            "quote": "Mi-i ținea de subsuoară, / Te-oi ținea de după gât.",
+            "stanza": 10,
+            "source_refs": [
+              "IMG_EMBRACE_WALK"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Imagini Auditive",
+        "items": [
+          {
+            "label": "Oprirea la pragul porții în întuneric",
+            "quote": "Și sosind l-al porții prag, / Vom vorbi-n întunecime",
+            "stanza": 12,
+            "source_refs": [
+              "IMG_VILLAGE_GATE_THRESHOLD"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Imagini Dinamice & Plastice",
+        "items": [
+          {
+            "label": "Codrul cu verdeață și stânca măreață",
+            "quote": "Hai în codrul cu verdeață, / Und-izvoare plâng în vale, / Stânca stă să se prăvale",
+            "stanza": 5,
+            "source_refs": [
+              "IMG_GREEN_FOREST"
+            ]
+          },
+          {
+            "label": "Oracolul florii de romaniță",
+            "quote": "Eu pe-un fir de romaniță / Voi cerca de mă iubești.",
+            "stanza": 7,
+            "source_refs": [
+              "IMG_ROMANITA_GAME"
+            ]
+          },
+          {
+            "label": "Împietrirea solitară în lumina lunii",
+            "quote": "Ca un stâlp eu stam în lună!",
+            "stanza": 13,
+            "source_refs": [
+              "IMG_STATUE_IN_MOONLIGHT"
+            ]
+          },
+          {
+            "label": "Dispariția bruscă a fetei",
+            "quote": "Înc-o gură - și dispare...",
+            "stanza": 13,
+            "source_refs": [
+              "IMG_DISAPPEARANCE"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

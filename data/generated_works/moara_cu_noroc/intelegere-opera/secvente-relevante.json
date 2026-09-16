@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "work": {
+    "work_id": "moara_cu_noroc",
+    "title": "Moara cu noroc",
+    "author": "Ioan Slavici"
+  },
+  "generation": {
+    "model": "qwen/qwen3.7-flash",
+    "reasoning_effort": "medium",
+    "attempts": 1,
+    "retry_on_invalid": false,
+    "selection_only": true,
+    "text_generated_by_ai": false,
+    "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\knowledge-graph.json",
+    "run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\moara_cu_noroc\\intelegere-opera\\qwen-sequence-selection-runs\\run-20260822T171513084351Z",
+    "usage": {
+      "prompt_tokens": 24280,
+      "completion_tokens": 4376,
+      "total_tokens": 28656,
+      "cost": 0.00129728,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00129728,
+        "upstream_inference_prompt_cost": 0.0007284,
+        "upstream_inference_completions_cost": 0.00056888
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 4289,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "sequences": [
+    {
+      "id": "secventa_1_imprumutul_banilor_si_dominarea_lui_lica",
+      "button_label": "Secvența 1",
+      "title": "Lică îi ia banii lui Ghiță sub forma unui «împrumut»",
+      "chapter_id": "CH_05",
+      "chapter": "Capitolul 5 · pagina PDF 11",
+      "source": "Ioan Slavici, «Moara cu noroc» · fragmente verbatim verificate în PDF",
+      "text": "— Asta-i treaba ta! strigă Lică mânios. Adu-mi cheile!\n\n— Ce fel de chei?\n\n— Toate cheile: de la saltarul mesei, de la dulap, de la orice ladă, răspunse Lică rece. Cel ce vine aici vine să-şi facă bani; ţi-ai făcut şi tu de când eşti aici: am să mă împrumut de la tine.\n\nGhiţă rămase câtva timp încremenit şi cu ochii ţintiţi la dânsul.\n\n— N-am să te prad, adause Lică; am să iau cu împrumut şi să plătesc cinstit, cu camătă, cu cametele cametelor, se înţelege, când îmi vine la socoteală. În scris n-am nevoie să-ţi dau, fiindcă nu poate să-ţi fie de nici un folos: dacă trăiesc şi-mi merg trebile bine, am să plătesc cu prisos, iară dacă mor fără de vreme ori dacă-mi merge rău, tot n-ai de unde să iei.\n\n— Să-ţi dau bani număraţi.\n\n— Ce să mai pierdem vremea numărând!?\n\n— Atunci ia cât iai, dar fii cuminte şi mai lasă, ca să nu simtă nevasta şi soacră-mea, grăi Ghiţă, arătând saltarul, în care erau şi banii, şi cheile.\n\n— Aşa ne înţelegem! zise Lică.\n\nGhiţă ar fi avut poftă să sară la el şi să-l sfâşie în bucăţi, dar nu putea, pentru că ceilalţi doi erau în apropiere şi ar fi trebuit să mântuie prea iute cu dânsul. Îi era parcă-i seacă sângele din vine când vedea pe Lică la banii ce-şi adunase para cu para, dar acum era legat şi trebuia să se stăpânească.\n\n— Nimic! răspunse Ghiţă, nimic nu vreau. Tu vezi prea bine că am nevastă şi copii şi că nu-ţi pot face nimic. Îmi iai banii: să-ţi fie de bine! Mi-ai luat liniştea sufletului şi mi-ai stricat viaţa: să-ţi fie de bine!",
+      "event_ids": [
+        "EV_045",
+        "EV_046",
+        "EV_047"
+      ],
+      "source_mode": "verbatim_pdf_excerpts",
+      "pdf_pages": [
+        11
+      ],
+      "analysis_focus": "Lică transformă jaful într-un fals împrumut, îl obligă pe Ghiță să accepte și schimbă raportul dintre ei într-o relație de dependență și dominare psihologică."
+    },
+    {
+      "id": "secventa_2_tradarea_de_paste_si_degradarea_morala",
+      "button_label": "Secvența 2",
+      "title": "Ghiță o lasă pe Ana drept momeală în ziua de Paște",
+      "chapter_id": "CH_14",
+      "chapter": "Capitolul 14 · Duminica de Paște · paginile PDF 47–48",
+      "source": "Ioan Slavici, «Moara cu noroc» · fragmente verbatim verificate în PDF",
+      "text": "— Fă cu ea ce vrei! răspunse Ghiţă în glumă; dar în dosul glumei se simţea mânia lui oarbă şi nesăţioasă.\n\nEra pe la un ceas după-amiazăzi când Lică îl apucă la o parte şi îi zise:\n\n— Noi ne-am înţeles: tu pleci pe ici încolo şi mă laşi pe mine aici cu dânsa. N-ai nevoie să-i spui nimic: te duci ca să se pomenească deodată singură cu mine şi atât. Am să le zic celorlalţi că te-ai pus să dormi în podul grajdului, pentru ca nimeni afară de noi să nu mai simtă nimic.\n\nGhiţă se aşteptase la aceasta; acum însă, când nu mai era timp de a se chibzui, el rămase încremenit.\n\n— Are să-ţi fie greu acu o dată, urmă Lică; de aici înainte eşti lecuit pe vecie. Tu vezi că ea mi se dă mie de bună voie: aşa sunt muierile.\n\nOchii lui Ghiţă se împăienjeniră. În două ceasuri putea să meargă călare şi pe căi ascunse la Ineu şi în alte două ceasuri, pe când se întunecă, să se întoarcă dimpreună cu Pintea la Moara cu noroc. „Aşa vrea Dumnezeu! îşi zise el; aşa mi-a fost rânduit.” Şi când şi le zicea aceste, se simţea aşa de tare, încât cu toate cele ce văzuse, nu credea că e cu putinţă ca Ana, Ana lui, să se dea vie în mâinile unui om ca Lică. „Şi dacă se dă, atunci e mai bine aşa, adăugă el: să se hotărască odată; să ştiu cum stau, căci viaţa mea tot e pierdută dacă nu reuşesc acum.”\n\n— Bine, îi zise dar lui Lică. Şi când să mă întorc?\n\n— Mâine dimineaţă.\n\n— Dar un lucru, adause Ghiţă, fă ce faci, însă nu mă face de ruşinea lumii: caută ca ceilalţi să nu simtă nimic.\n\nAtât dorea şi Ana: să rămână singură cu Ghiţă. Într-un târziu, însă, ea băgă de seamă că Ghiţă, care nu fusese de faţă la plecarea celorlalţi, nu se mai întoarce şi începu a se nedumeri.\n\n— Ghiţă doarme prea mult, zise ea ridicându-se.\n\n— S-a dus şi el, grăi Lică aşezat.\n\n— Cine?\n\n— Ghiţă. N-am zis că-i fac rând să plece?\n\n— Aşa-i, zise ea zâmbind, s-a dus. Cu atât mai bine!\n\nLică se ridică şi făcu ca şi când ar fi voind să plece şi el.\n\n— Ce vrei? întrebă ea.\n\n— Nu spuneam că trebuie să plec?\n\n— Să nu umblăm cu vorbe deşerte, îi zise ea. Acu rămâi. Tu eşti om, Lică, iară Ghiţă nu e decât o muiere îmbrăcată în haine bărbăteşti, ba chiar mai rău decât aşa.",
+      "event_ids": [
+        "EV_139",
+        "EV_140",
+        "EV_141",
+        "EV_142"
+      ],
+      "source_mode": "verbatim_pdf_excerpts",
+      "pdf_pages": [
+        47,
+        48
+      ],
+      "analysis_focus": "Ghiță pune răzbunarea și prinderea lui Lică mai presus de siguranța Anei; acceptarea lucidă a planului și reacția de dezgust a soției marchează ultima treaptă a degradării sale morale."
+    }
+  ],
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "diagnostic_only": true,
+    "all_text_is_verbatim": true,
+    "curated_from_model_essay": true,
+    "verified_against_source_pdf": true,
+    "verified_pdf_pages": [
+      11,
+      47,
+      48
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+ÎNTREBĂRI CUMULATIVE — MOARA CU NOROC
+Total: 96
+
+SIMPLE_FACT_LOWHOP
+========================================================================
+1. În ce loc se desfășoară evenimentul central din primul capitol al operei?
+   Răspuns: Moara cu noroc
+2. Care este numele soției cârciumarului care participă la acest eveniment din capitolul șase?
+   Răspuns: Ana
+3. Ce transformare suferă Ghiță, conform descrierii din evenimentul final al nuvelei?
+   Răspuns: Un fel de prefacere
+4. În ce capitol al nuvelei are loc evenimentul în care Ana își exprimă teama de a rămâne singură?
+   Răspuns: Capitolul 1
+5. Care este persoana în vârstă care ascultă cântecul țiganilor alături de Ana și de copii?
+   Răspuns: Bătrâna
+6. În ce regiune geografică dorește Ghiță să se stabilească împreună cu familia după ce își va strânge averea?
+   Răspuns: În fundul Banatului ori în Ţară
+7. În ce locație se desfășoară conversația dintre Ana și Ghiță?
+   Răspuns: Biserica de la Fundureni
+8. Cine îl însoțește pe Lică când acesta iese să joace la moară?
+   Răspuns: Buză-Ruptă
+9. Ce afirmă Lică în momentul în care refuză o propunere?
+   Răspuns: Am trebuinţă de un om ca tine.
+10. În ce capitol al nuvelei are loc scena în care Bătrâna rostește cuvântul de bine?
+   Răspuns: Capitolul 1
+11. Cine participă împreună cu Lică și Bătrâna în momentul în care Ana tresare roșită?
+   Răspuns: Ana
+12. Unde se desfășoară dialogul în care Ghiță este numit om cu multă ură în suflet?
+   Răspuns: Moara cu noroc
+
+CHARACTER_RELATION
+========================================================================
+1. Care este relația matrimonială dintre Ghiță și Ana în timpul discuției lor despre viitorul familiei?
+   Răspuns: Sunt soț și soție.
+2. Ce relație afectivă leagă pe Ghiță de Ana în timpul scenei de numărare a banilor?
+   Răspuns: Se iubesc.
+3. Ce relație de rivalitate leagă pe Ghiță de Lică Sămădăul în momentul sosirii lui la moară?
+   Răspuns: Sunt rivali.
+4. Care este legătura matrimonială dintre Ghiță și Ana în cadrul capitolului al treilea?
+   Răspuns: Sunt soț și soție.
+5. Ce sentiment afectiv manifestă Ghiță față de Ana în timpul evenimentelor din capitolul patru?
+   Răspuns: Ghiță o iubește pe Ana.
+6. Ce tip de rivalitate există între Ghiță și Lică în contextul capitolului cinci?
+   Răspuns: Sunt rivali direcți.
+7. Care este legătura matrimonială dintre Ghiță și Ana în momentul în care ea îl roagă cu stăruință să își pună băiatul călare pe el?
+   Răspuns: Soți
+8. Ce relație afectivă leagă inițial pe Ghiță de Ana, chiar dacă în scena din Capitolul 7 el caută sprijinul lui Pintea?
+   Răspuns: Iubire conjugală și devotament
+9. În ce constă rivalitatea dintre Ghiță și Lică în contextul discuției tensionate din Capitolul 3?
+   Răspuns: Opoziție și conflict de interese
+10. Ce legătură matrimonială îl unește pe Ghiță cu Ana în contextul capitolului șapte?
+   Răspuns: Soție și soț (sunt căsătoriți)
+11. Ce sentiment afectiv leagă pe Ghiță de Ana atunci când acesta anunță plecarea la Ineu?
+   Răspuns: Iubire / dragoste
+12. Ce relație de rivalitate se stabilește între Ghiță și Lică în contextul capitolului patru?
+   Răspuns: Rivalitate / opoziție
+
+NARRATIVE_ACTION
+========================================================================
+1. Cine simte spaimă la gândul părăsirii colibei în primul capitol?
+   Răspuns: Ana
+2. Ce fac Ana, Bătrâna și copiii când țiganii cântau în al șaselea capitol?
+   Răspuns: Ascultă muzica țiganilor la ușa cârciumii.
+3. Ce intenție își formează Ghiță în al doisprezecelea capitol la Moara cu noroc?
+   Răspuns: Să stea până la primăvară, să își adune averea și să plece departe cu familia.
+4. Cine sugerează să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana?
+   Răspuns: Ghiță propune să rămână la biserică pentru a cârpi cizmele oamenilor, stând la soare alături de Ana.
+5. Ce acțiune întreprinde Lică alături de Buză-Ruptă în interiorul hanului de la răscruce când îi vine pofta de joc?
+   Răspuns: Lică îl apucă pe Buză-Ruptă, iese din cârciumă și începe să frământe pământul.
+6. Ce răspuns oferă Lică în capitolul 12 atunci când i se propune să transporte pe cineva la moara cu noroc?
+   Răspuns: Lică refuză să-l ducă, declarând că nu i se potrivește acum și are nevoie de un om ca cel întrebat.
+7. Cine rostește cuvintele „În ceas bun să fie zis” la începutul poveștii?
+   Răspuns: Bătrâna.
+8. Ce face Ana când Lică rostește vorbe indirecte în timpul vizitei la han?
+   Răspuns: Tresare și se ridică roșită ca bujorul.
+9. Ce propoziție rostește Ghiță în timpul discuției din Capitolul 13 al nuvelei?
+   Răspuns: „Tu eşti om, Ghiţă, om cu multă ură în sufletul tău, şi eşti om cu minte...”
+10. Cine primește drumeții ca pe niște prieteni așteptați în hanul Moara cu noroc?
+   Răspuns: Ghiță, Ana și Bătrâna
+11. Ce face Lică la drumeți în pădurea de la Fundureni în timpul schimbării vremii?
+   Răspuns: Se oprește la drumeți și vorbește privind înspre apus.
+12. Ce conflict izbucnește între Ghiță și Lică în hanul Moara cu noroc în Capitolul 13?
+   Răspuns: Ghiță își ridică ambele mâini asupra lui Lică și îl provoacă: „Te crezi tu mai rău decât mine!?”
+
+TEMPORAL_ORDER
+========================================================================
+1. În ce succesiune s-au desfășurat aceste etape ale procesului: negarea legăturii cu arândașul, bănuiala despre ascunderea argintăriei, confirmarea mărturiilor împotriva acuzaților și declarația lui Hanțl?
+   Răspuns: 1. Negarea legăturii cu arândașul; 2. Bănuiala despre ascunderea argintăriei; 3. Confirmarea mărturiilor împotriva acuzaților; 4. Declarația lui Hanțl.
+2. În ce succesiune apar aceste scene cu Ghiță: răsuflarea veninului asupra lui Laie, rugămintea Anei pentru copil, privirea pierdută în depărtare și trezirea lui Laie de către Lică?
+   Răspuns: 1. Răsuflarea veninului asupra lui Laie; 2. Rugămintea Anei pentru copil; 3. Privirea pierdută în depărtare; 4. Trezirea lui Laie de către Lică.
+3. În ce succesiune apar aceste etape ale conflictului cu Lică: prima confruntare, criza de nervos a lui Ghiță, izolarea familiei, teama Anei, întrebarea post-plecare și avertismentul final?
+   Răspuns: 1. Prima confruntare; 2. Criza de nervos a lui Ghiță; 3. Izolarea familiei; 4. Teama Anei; 5. Întrebarea post-plecare; 6. Avertismentul final.
+4. În ce ordine cronologică au loc următoarele scene de la moară: întâlnirea cu Lică, privirea spre bătrână, vorbirea lui Lică și identificarea ginerei?
+   Răspuns: 1. Lasă, că m-am înţeles eu cu dânşii...; 2. El îşi opri calul înaintea cârciumii...; 3. Lică le zise aceste aşa...; 4. E Ghiţă, ginere-meu...
+5. Care este succesiunea corectă a acestor momente legate de joc și planuri: dorința lui Lică de a juca, reacția Anei la glume, plecarea drumeților spre pădure și reflecția lui Ghiță despre Pintea?
+   Răspuns: 1. Lui Lică îi veni de la o vreme poftă să joace...; 2. Oamenii de la uşă zâmbiră pe sub mustaţă...; 3. Înspre seară, Săilă Boarul plecă cu Buză-Ruptă...; 4. De aceea simţea şi Ghiţă că Pintea e oarecum singurul om...
+6. În ce ordine se desfășoară aceste evenimente cheie: îndoielile lui Ghiță privind somnul Anei, hotărârea sa de a-l căuta pe Pintea, sosirea jandarmului, exclamația lui Pintea și recunoașterea drumetilor de către Ghiță?
+   Răspuns: 1. Dac-ar fi ştiut că Ana doarme...; 2. Ghiţă luase hotărârea să nu aştepte decât plecarea lui Lică...; 3. Făcându-şi socoteala cu drumeţii...; 4. strigă Pintea râzând...; 5. Ghiţă nu se mai îndoia că acei doi au fost Săilă şi Buză-Ruptă...; 6. Ana rămase cu inima încleştată când Ghiţă îi spuse...
+7. În ce ordine cronologică s-au desfășurat: reflecția lui Ghiță asupra câștigului, certea cu sluga, vărsarea veninului asupra lui Laie și intervenția Anei pentru câine?
+   Răspuns: 1. Reflecția lui Ghiță asupra câștigului; 2. Certea cu sluga; 3. Vărsarea veninului asupra lui Laie; 4. Intervenția Anei pentru câine.
+8. Care este succesiunea corectă a acestor momente finale: lacrimile lui Ghiță, intrarea violentă a lui Răuț cu Lică, plecarea sa călare la Ineu și întoarcerea Pintei spre foc?
+   Răspuns: 1. Lacrimile lui Ghiță; 2. Intrarea violentă a lui Răuț cu Lică; 3. Plecarea sa călare la Ineu; 4. Întoarcerea Pintei spre foc.
+9. Care este ordinea corectă a acestor etape ale anchetei: bănuielile vizitiului, declarația lui Ghiță, interogatoriul cu Marți, întrebarea către Lică, reacția lui Ghiță și confuzia finală?
+   Răspuns: 1. Bănuielile vizitiului; 2. Declarația lui Ghiță; 3. Interogatoriul cu Marți; 4. Întrebarea către Lică; 5. Reacția lui Ghiță; 6. Confuzia finală.
+10. În ce ordine apar în capitolul 7 momentele legate de conflictele interioare ale lui Ghiţă: simțul izolării, hotărârea de a-l sfida pe Lică, dorința de sprijin și decizia finală?
+   Răspuns: 1. Simțul izolării față de Pintea; 2. Hotărârea de a-l sfida pe Lică; 3. Dorința de sprijin moral; 4. Decizia finală de a avea încredere în soție
+11. Care este succesiunea cronologică a acestor scene dintre personaje: amenințarea Bătrânei, reflecția asupra pierderilor, comentariul cârciumarului despre oameni și retragerea lor treptată?
+   Răspuns: 1. Amenințarea Bătrânei; 2. Reflecția asupra pierderilor; 3. Comentariul cârciumarului despre oameni; 4. Retragerea lor treptată
+12. În ce ordine se desfășoară evenimentele cheie din arcul narativ al lui Pintea: ancheta comisarului, plecarea în căruță, rememorarea legăturii cu Lică, manevra lui Pintea, apariția căruței la deal și furia îndreptată spre Lică?
+   Răspuns: 1. Ancheta comisarului; 2. Plecarea în căruță; 3. Rememorarea legăturii cu Lică; 4. Manevra lui Pintea; 5. Apariția căruței la deal; 6. Furia îndreptată spre Lică
+
+CAUSE_EFFECT
+========================================================================
+1. Ce eveniment din capitolul patru determină apariția stării de meditație profundă a lui Ghiță la începutul capitolului cinci?
+   Răspuns: Cauza directă este evenimentul EV_031, care generează consecința imediată reprezentată de evenimentul EV_041.
+2. Conform textului, care este efectul imediat al afirmației că liniștea colibei aduce mai multă fericire decât bogăția?
+   Răspuns: Evenimentul EV_001 funcționează ca punct de plecare (cauză/context), iar consecința sa imediată este crearea cadrului narativ pentru momentul următor.
+3. Cum se leagă prin două etape cauzale descrierea drumului dificil de stabilirea rolului de sămădău și de întâlnirea personajelor?
+   Răspuns: Lanțul începe cu EV_011 (cauza inițială), trece prin EV_021 (evenimentul intermediar) și se încheie cu EV_031 (consecința finală a secvenței).
+4. Ce eveniment din capitolul anterior a contribuit la confruntarea dintre Ghiță și Lică în fața judecătorului?
+   Răspuns: Confruntarea este cauzată de recunoașterea lui Ghiță că Săilă și Buză-Ruptă au plecat spre Ineu, un eveniment care îl pune pe Ghiță într-o poziție de vulnerabilitate față de Lică.
+5. Cum influențează teama Anei de a-și părăsi casa starea sa psihologică și legătura cu copiii în primul capitol?
+   Răspuns: Teamă de singurătate și de părăsirea copilăriei determină o stare de vulnerabilitate emoțională, subliniind devotamentul inițial al Anei față de familie.
+6. Ce lanț cauzal leagă percepția Anei asupra lui Lică de recunoașterea ulterioară a compliceilor acestuia de către Ghiță?
+   Răspuns: Vigilența Anei în capitolul șase creează tensiunea narativă care permite executarea planurilor porcarilor în capitolul șapte, culminând cu identificarea lor de către Ghiță în capitolul opt.
+7. Ce eveniment din capitolul 12 contribuie direct la momentul în care Ghiță este numit un om cu multă ură și minte?
+   Răspuns: Evenimentul din capitolul 12 („Ai avut tată om de frunte...”) contribuie direct la discuția din capitolul 13 unde Ghiță este caracterizat ca având multă ură și minte.
+8. Care este consecința imediată a discuției dintre Ana și Ghiță privind menținerea atelierei de cizme?
+   Răspuns: Consecința imediată este stabilirea contextului narativ pentru scena următoare, care pregătește interacțiunile ulterioare din capitolul 1.
+9. Cum se leagă reacția lui Ghiță față de Lică din capitolul 10 de procesul acestuia din capitolul 12 printr-un lanț cauzal?
+   Răspuns: Mânia lui Ghiță asupra lui Lică (EV_091) contribuie la arestarea complicei (EV_101), care la rândul său deschide calea pentru judecarea lui Lică (EV_111).
+10. Ce eveniment din capitolul 16 determină plecarea lui Ghiță călare la Ineu în capitolul următor?
+   Răspuns: Cauza este momentul narativ din capitolul 16 privind puterea tainică, evenimentul focal este deplasarea lui Ghiță la Ineu, iar consecința este declanșarea acțiunii specifice din capitolul 17.
+11. Care este efectul imediat al binecuvântării Bătrânei de la începutul nuvelei asupra derulării narative?
+   Răspuns: Cauza este rostirea binecuvântării de către Bătrână, evenimentul este actul narativ din capitolul 1, iar consecința directă este stabilirea stării finale care închide segmentul capitolului.
+12. Cum contribuie visul lui Ghiță din capitolul 14 la desfășurarea evenimentelor din capitolele 15 și 16?
+   Răspuns: Cauza inițială este visul din capitolul 14, evenimentul central este reacția lui Ghiță din capitolul 15, iar consecința pe termen scurt este pregătirea contextului narativ pentru capitolul 16.
+
+CHARACTER_EVOLUTION
+========================================================================
+1. Cum se transformă statutul social al lui Ghiță, de la rivalitatea cu Lică în capitolul 11, până la izolarea finală marcată de starea din capitolul 16?
+   Răspuns: Ghiță trece de la o poziție de rivalitate activă față de Lică, marcată de procesul din capitolul 11, către o stare de izolare și pierdere a controlului asupra propriei destine, culminând cu închiderea dramatică a capitolului 16.
+2. Cum se degradează legătura afectivă dintre Ana și Ghiță, de la separarea inițială din capitolul 1, prin plecarea spre Ineu, până la disperarea finală din capitolul 16?
+   Răspuns: Relația pornește de la teama de despărțire și dependența de copii, trece prin tensiunea impusă de plecare și alianța cu Pintea, și se sfârșește în panică și respingere totală față de soțul ei.
+3. Cum își pierde Lică controlul și autoritatea, de la manipularea inițială a lui Ghiță, prin confruntarea cu mânia acestuia, până la capturarea sa finală?
+   Răspuns: Lică începe ca un manipulator care subordonează cizmarul, trece printr-o fază de conflict deschis și pierdere a influenței morale, și se încheie cu captura fizică și neutralizarea completă a puterii sale.
+4. 
+5. 
+6. 
+7. Cum se transformă situația materială și socială a lui Ghiță de la planul de plecare în capitolul 12 până la uciderea Anei sub influența lui Lică?
+   Răspuns: Ghiță trece de la o stare de neliniște și planuri de retragere materială (cap. 5-12) la o degradare morală totală, culminând cu uciderea Anei sub presiunea lui Lică (cap. 16).
+8. Cum evoluează legătura afectivă dintre Ana și Ghiță de la teama inițială de singurătate la disperarea finală din capitolul 16?
+   Răspuns: Legătura lor începe cu devotamentul și teama Anei de singurătate (cap. 1), trece prin îndepărtarea afectivă progresivă (cap. 8) și se sfârșește în disperare și frică de moarte (cap. 16).
+9. Cum se modifică poziția și autoritatea lui Lică Sămădăul de la manipularea lui Ghiță la capturarea sa de către Pintea?
+   Răspuns: Lică își exercită controlul asupra lui Ghiță (cap. 3), își pierde autoritatea și libertatea după capturarea de către Pintea (cap. 10) și rămâne definitiv prins fără posibilitate de evadare (cap. 17).
+10. Cum se consolidează poziția socială și autoritatea lui Lică Sămădăul, de la implicarea în jocurile din capitolul 6 până la starea finală de control absolut în capitolul 16?
+   Răspuns: Lică își întărește treptat dominația asupra hanului, trecând prin faze de provocare și acțiune decisivă, culminând cu instaurarea unei stări finale de putere necontestată și teroare.
+11. Cum se transformă legătura afectivă dintre Ghiță și Ana, de la idila inițială din capitolul 1 până la distanțarea fatală marcată de plecarea spre Ineu în capitolul 17?
+   Răspuns: Relația lor trece de la armonia și complicitatea tineretului la tensiuni și separare fizică, reflectând destrămarea progresivă a cuplului sub presiunea circumstanțelor.
+12. Ce pierderi suferă Ana pe parcursul narațiunii, de la atașamentul față de coliba natală și copii până la disperarea finală și frica de moarte în capitolul 16?
+   Răspuns: Ana trece de la devotamentul familial și liniștea inițială la izolarea emoțională și teama existențială, pierzându-și treptat siguranța și speranțele într-un viitor comun.
+
+LITERARY_INTERPRETATION
+========================================================================
+1. Cum se transformă iubirea dintre Ghiță și Ana pe parcursul nuvelei, iar evenimentele din capitolele 1, 9 și 17 ilustrează această evoluție?
+   Răspuns: Iuberea inițială, legată de liniștea familială, este erodată treptat de frică, secret și răzbunare, culminând cu izolarea morală a lui Ghiță și pierderea echilibrului conjugal.
+2. Prin ce etape narative este ilustrată escaladarea tensiunii dintre Ghiță și Lică, de la prima întâlnire ascunsă până la confruntarea finală?
+   Răspuns: Conflictul evoluează de la o relație de subordonare financiară și teamă spre o rivalitate deschisă, marcată de trădări succesive și culminând cu arestarea lui Lică și ruinarea morală a lui Ghiță.
+3. Cum funcționează motivul drumului ca element structural al destinului personajelor, evidențiat prin descrierile geografice și sosirile succesive în jurul morii?
+   Răspuns: Drumul acționează ca o cale a destinului care aduce simultan prosperitatea și pericolul; fiecare trecere peste el marchează o nouă etapă a dezumanizării și a inevitabilei confruntări finale.
+4. Cum se transformă iubirea dintre Ghiță și Ana pe parcursul nuvelei, iar evenimentele din capitolele 1, 9 și 17 ilustrează această evoluție?
+   Răspuns: Iubirea inițială, marcată de atașamentul familiei în capitolul 1, este erodată de secretul și trădarea lui Ghiță față de Lică în capitolul 9, pentru ca în final, în capitolul 17, să fie înlocuită de remușcări și destinul tragic.
+5. Prin ce etape narative evoluează conflictul exterior dintre Ghiță și Lică, iar momentele cheie din capitolele 3, 10 și 17 relevă dinamica fricii și a răzbunării?
+   Răspuns: Conflictul începe cu sosirea lui Lică și ascunderea lui Ghiță în capitolul 3, escaladează prin prinderea lui Lică de către Pintea în capitolul 10 și se rezolvă definitiv cu capturarea sa în capitolul 17, evidențiind teama și subordonarea financiară.
+6. Cum funcționează motivul drumului ca simbol al alegerilor morale și al pericolului, iar descrierile din capitolele 2, 7 și 16 conturează această dublă semnificație?
+   Răspuns: Drumul apare inițial ca o provocare fizică în capitolul 2, devine ulterior sursa anxietății și a intruziunii străinilor în capitolul 7, iar în final marchează apropierea justiției și a sfârșitului inevitabil în capitolul 16, ilustrând răscrucea morală.
+7. Cum evoluează tema iubirii între Ghiță și Ana prin evenimentele din capitolele întâi, al nouălea și al șaptesprezecelea?
+   Răspuns: Iuberea inițială, legată de familia și coliba Ana, se erodează sub presiunea autorității și a destinului, culminând cu resignarea lui Ghiță în fața alegerilor imposibile.
+8. În ce mod este ilustrat conflictul exterior dintre Ghiță și Lică prin evenimente din capitolele al treilea, al unsprezecelea și al șaptesprezecelea?
+   Răspuns: Conflictul se manifestă ca o luptă pentru supraviețuire și control, marcată de teamă, subordonare financiară și răzbunare, culminând cu capturarea lui Lică și închiderea ciclului violenței.
+9. Ce rol joacă motivul focului purificator în evoluția narativă, așa cum reiese din capitolele al patrulea, al unsprezecelea și al șaptesprezecelea?
+   Răspuns: Focul funcționează ca un simbol al distrugerii necesare și al curățării morale, apărând progresiv în texte pentru a marca punctul de cotitură spre catharsis și sfârșitul corupției.
+10. Prin ce evenimente narative este evidențiată erodarea iubirii dintre Ghiță și Ana pe parcursul operei?
+   Răspuns: Iubirea dintre Ghiță și Ana este subliniată de momentele în care Ana își exprimă teama de a părăsi familia, de confuzia lui Ghiță la interogatoriul comisarului și de plecarea acestuia spre Ineu, toate ilustrând fragilitatea legăturii lor.
+11. Cum evoluează conflictul dintre Ghiță și Lică Sămădăul, fiind marcat de apariția acestuia la moară și de arestarea sa finală?
+   Răspuns: Conflictul dintre Ghiță și Lică este structurat pe etape de tensiune ascunsă, dezvăluire și confruntare directă, culminând cu capturarea lui Lică, ceea ce reflectă dinamica relației lor toxice.
+12. Ce semnificație literară are motivul drumului în opera 'Moara cu noroc', având în vedere descrierile geografice și acțiunile personajelor?
+   Răspuns: Motivul drumului funcționează ca un simbol al alegerilor morale și al destinului, traversat inițial ca o cale de prosperitate, apoi devenind spațiul unde se desfășoară conspirațiile și pierderea echilibrului familial.
+
+CROSS_CHAPTER_COMPARE
+========================================================================
+1. Cum se transformă relația dintre Ghiță și Ana și temele care o însoțesc între momentul inițial de la biserică și plecare lui Ghiță spre Ineu?
+   Răspuns: La început, cuplul este unit de iubire și familie, iar apoi, în capitolul final, iubirea rămâne ancorată, dar destinul devine factorul dominant al separării.
+2. În ce mod diferă tensiunea interioară a lui Ghiță și dinamica personajelor din jurul său între prosperitatea aparentă a hanului și confruntarea cu Lică?
+   Răspuns: Inițial, activitatea hanului sugerează echilibru și teme familiale, iar ulterior, prezența Lică și a Anei accentuează dezumanizarea și ruperea conflictului interior.
+3. Cum evoluează tema dezumanizării și a destinului între reflexia filozofică de la începutul nuvelei și arestarea lui Lică în capitolul final?
+   Răspuns: De la o meditație asupra liniștii și sărăciei ca fericire reală, narativul trece la capturarea fizică a răului, unde destinul și dezumanizarea se împletesc cu consecințele morale finale.
+4. Cum se transformă relația dintre Ghiță și Ana între momentul în care își aleg să rămână cizmarii la biserică și cel al incendiului final de la han?
+   Răspuns: La început, cuplul caută liniștea și iubirea simplă, iar spre final, legătura lor este marcată de destinul tragic și de focul distrugător.
+5. În ce măsură se manifestă tensiunea interioară a lui Ghiță între datoria față de familie și dorința de câștig în dialogurile sale cu sluga și cu mama soției?
+   Răspuns: Atât în relația cu Marți, cât și cu Bătrâna, Ghiță prioritizează afacerile și banii, lăsând pe plan secund armonia familială și tradiția.
+6. Cum evoluează tema dezumanizării prin lăcomie de la prologul moralizator până la concluzia fatalistă a ultimului capitol?
+   Răspuns: De la avertismentul inițial despre liniște versus bogăție, narativul ajunge la o stare de rezignare fatalistă, unde lăcomia a șters orice urmă de umanitate.
+7. Cum se schimbă atitudinea lui Ghiță față de Ana între momentul în care propune să rămână cizmar la biserică și cel în care o caută pe Marți înainte de a pleca?
+   Răspuns: La început, Ghiță prioritizează liniștea familiei și căsătoria cu Ana, respingând bogăția; spre final, el devine obsedat de organizarea afacerii și de ascunderea adevărului, iar legătura cu Ana se subordonează fricii și secretului, demonstrând degradarea morală.
+8. Cum evoluează tensiunea interioară a lui Ghiță între perioada cinstită a cârciumerii cu Marți și momentul confruntării verbale cu Lică?
+   Răspuns: Inițial, conflictul este latent, Ghiță menținând o imagine cinstită și dedicată familiei; ulterior, el devine conștient de propria degradare și reacționează prin furie și provocare la adresa lui Lică, arătând că lăcomia a învins echilibrul moral.
+9. Cum se transformă tema dezumanizării prin lăcomie de la reflexia inițială despre liniște versus bogăție până la scena finală cu murgul lui Lică?
+   Răspuns: La început, dezumanizarea este prezentată ca o alegere filosofică greșită ce distruge liniștea; spre final, ea devine o realitate concretă și violentă, simbolizată de panică și instabilitate la moară, arătând cum lăcomia a corupt întregul spațiu și personaje.
+10. Cum se schimbă atitudinea lui Ghiță față de familie între promisiunea din Capitolul 1 și criza finală din Capitolul 16?
+   Răspuns: În Capitolul 1, Ghiță prioritizează liniștea domestică și căsătoria, iar în Capitolul 16, lăcomia îl izolează complet, transformând iubirea în frică și rupând legătura familială.
+11. În ce mod diferă manifestarea conflictului interior al lui Ghiță între activitatea cinstită din Capitolul 2 și obsesia pentru bani din Capitolul 13?
+   Răspuns: La început, conflictul rămâne latent sub o muncă onestă și devotament familial, iar mai târziu eruptează ca paranoie și lăcomie, alimentând dezumanizarea și tăind legăturile morale.
+12. Cum evoluează tema dezumanizării prin lăcomie între avertismentul inițial din Capitolul 1 și incendiul final din Capitolul 17?
+   Răspuns: Inițial prezentată ca un avertisment filozofic despre pacea sărăciei, tema culminează cu arsonul calculat al lui Lică, unde lăcomia consumă complet moralitatea și transformă soarta în auto-distrugere.

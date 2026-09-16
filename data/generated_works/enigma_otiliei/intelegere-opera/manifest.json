@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "pipeline": "intelegere-opera",
+  "status": "ready",
+  "work": {
+    "work_id": "enigma_otiliei",
+    "title": "Enigma Otiliei",
+    "author": "George Călinescu"
+  },
+  "source_graph": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\knowledge-graph.json",
+  "model_essay": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\modele_eseuri\\enigma_otiliei.md",
+  "model_essay_sha256": "3898c84e015cdb47fa716e8bb11d07414f42e4790905f71cac980a61ba10e409",
+  "source_graph_sha256_before": "4cc73cd4a6a9c5454a6f62db21a305520c64b3ed5c3f852ecdce3b451219ac43",
+  "source_graph_modified": false,
+  "model": "qwen/qwen3.7-flash",
+  "reasoning_effort": "medium",
+  "qwen_calls": 25,
+  "retry_on_invalid": false,
+  "steps": [
+    {
+      "id": "summary",
+      "calls": 20
+    },
+    {
+      "id": "characters",
+      "calls": 0,
+      "deterministic": true
+    },
+    {
+      "id": "relevant_sequences",
+      "calls": 1,
+      "text_generated_by_ai": false
+    },
+    {
+      "id": "literary_current",
+      "calls": 1
+    },
+    {
+      "id": "composition",
+      "calls": 3
+    }
+  ],
+  "pipeline_run_dir": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\pipeline-runs\\run-20260822T133113728424Z",
+  "artifacts": {
+    "summary_json": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\rezumat-pe-capitole.json",
+    "summary_markdown": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\rezumat-pe-capitole.md",
+    "characters": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\personaje-mindmaps.json",
+    "relevant_sequences": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\secvente-relevante.json",
+    "literary_current": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\curent-literar.json",
+    "composition": "C:\\LittleProgrammer\\internship\\BacApp2 - qwen\\data\\generated_works\\enigma_otiliei\\intelegere-opera\\elemente-compozitionale.json"
+  },
+  "cost_summary": {
+    "api_calls": 5,
+    "prompt_tokens": 136824,
+    "completion_tokens": 16087,
+    "reasoning_tokens": 12300,
+    "total_tokens": 152911,
+    "cost_usd": 0.01663967
+  },
+  "executed_qwen_calls": 5,
+  "reused_summary_chapters": 20,
+  "reused_artifacts": [
+    "relevant_sequences",
+    "literary_current"
+  ],
+  "source_graph_sha256_after": "4cc73cd4a6a9c5454a6f62db21a305520c64b3ed5c3f852ecdce3b451219ac43"
+}

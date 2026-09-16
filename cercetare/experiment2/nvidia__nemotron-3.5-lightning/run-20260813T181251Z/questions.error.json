@@ -1,0 +1,5 @@
+{
+  "task": "questions",
+  "error_type": "RuntimeError",
+  "message": "OpenRouter HTTP 400: {\"error\":{\"message\":\"Provider returned error\",\"code\":400,\"metadata\":{\"raw\":\"{\\\"error\\\":{\\\"message\\\":\\\"This model's maximum context length is 262144 tokens. However, you requested 27000 output tokens and your prompt contains at least 235145 input tokens, for a total of at least 262145 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=235145)\\\",\\\"type\\\":\\\"invalid_request_error\\\",\\\"param\\\":\\\"messages\\\",\\\"code\\\":\\\"context_length_exceeded\\\"}}\",\"provider_name\":\"Venice\",\"is_byok\":false,\"provider_error_code\":\"context_length_exceeded\",\"retry_after_seconds\":29,\"retry_after_seconds_raw\":28.873,\"headers\":{\"Retry-After\":\"29\"}}},\"user_id\":\"org_3HOxRiTX7Q4sWxrepTeWRDvBnNr\"}"
+}

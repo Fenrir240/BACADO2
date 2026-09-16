@@ -1,0 +1,271 @@
+{
+"benchmark_id": "ION-EXP1-QUESTIONS-V1",
+"task": "question_generation",
+"graph_version": "2.0",
+"questions": [
+{
+"question_id": "Q_001",
+"slot_id": "SLOT_01",
+"blueprint_id": "FACT_1HOP",
+"status": "generated",
+"question_text": "Unde se adună satul la hora duminicală?",
+"answer": {
+"answer_type": "entity",
+"text": "Curtea Todosiei",
+"node_ids": ["LOC_002"],
+"ordered_node_ids": []
+},
+"query_plan": {
+"start_node_ids": ["EV_002"],
+"predicates": ["occurs_at"],
+"intermediate_node_ids": [],
+"expected_result_ids": ["LOC_002"]
+},
+"evidence": {
+"node_ids": ["EV_002", "LOC_002"],
+"edge_ids": ["EDGE_00141"],
+"path_node_ids": ["EV_002", "LOC_002"]
+},
+"scope": {
+"chapter_ids": ["CH_01"]
+},
+"declared_difficulty": {
+"level": 1,
+"required_hops": 1,
+"required_nodes": 2,
+"chapters_involved": 1
+}
+},
+{
+"question_id": "Q_002",
+"slot_id": "SLOT_02",
+"blueprint_id": "RELATION_1HOP",
+"status": "generated",
+"question_text": "Cu cine este căsătorit George Bulbuc?",
+"answer": {
+"answer_type": "entity",
+"text": "Florica",
+"node_ids": ["CHAR_003"],
+"ordered_node_ids": []
+},
+"query_plan": {
+"start_node_ids": ["CHAR_004"],
+"predicates": ["is_married_to"],
+"intermediate_node_ids": [],
+"expected_result_ids": ["CHAR_003"]
+},
+"evidence": {
+"node_ids": ["CHAR_004", "CHAR_003"],
+"edge_ids": ["EDGE_00102"],
+"path_node_ids": ["CHAR_004", "CHAR_003"]
+},
+"scope": {
+"chapter_ids": ["CH_09"]
+},
+"declared_difficulty": {
+"level": 1,
+"required_hops": 1,
+"required_nodes": 2,
+"chapters_involved": 1
+}
+},
+{
+"question_id": "Q_003",
+"slot_id": "SLOT_03",
+"blueprint_id": "TEMPORAL_ORDER",
+"status": "generated",
+"question_text": "Care este ordinea cronologică a următoarelor evenimente: intrarea drumului în Pripas, adunarea satului la horă și vizualizarea ierarhiilor?",
+"answer": {
+"answer_type": "ordered_events",
+"text": "Intrarea drumului în Pripas, adunarea satului la horă, vizualizarea ierarhiilor.",
+"node_ids": ["EV_001", "EV_002", "EV_003"],
+"ordered_node_ids": ["EV_001", "EV_002", "EV_003"]
+},
+"query_plan": {
+"start_node_ids": ["EV_001"],
+"predicates": ["immediately_precedes", "immediately_precedes"],
+"intermediate_node_ids": ["EV_002"],
+"expected_result_ids": ["EV_001", "EV_002", "EV_003"]
+},
+"evidence": {
+"node_ids": ["EV_001", "EV_002", "EV_003"],
+"edge_ids": ["EDGE_00151", "EDGE_00175"],
+"path_node_ids": ["EV_001", "EV_002", "EV_003"]
+},
+"scope": {
+"chapter_ids": ["CH_01"]
+},
+"declared_difficulty": {
+"level": 2,
+"required_hops": 2,
+"required_nodes": 3,
+"chapters_involved": 1
+}
+},
+{
+"question_id": "Q_004",
+"slot_id": "SLOT_04",
+"blueprint_id": "DIRECT_CAUSE",
+"status": "generated",
+"question_text": "Care este motivația directă pentru care Ion îl lovește pe George?",
+"answer": {
+"answer_type": "motivation",
+"text": "Disputa pentru lăutari și revanșa împotriva lui Vasile.",
+"node_ids": ["MOT_010"],
+"ordered_node_ids": []
+},
+"query_plan": {
+"start_node_ids": ["EV_010"],
+"predicates": ["has_motivation"],
+"intermediate_node_ids": [],
+"expected_result_ids": ["MOT_010"]
+},
+"evidence": {
+"node_ids": ["EV_010", "MOT_010"],
+"edge_ids": ["EDGE_00320"],
+"path_node_ids": ["EV_010", "MOT_010"]
+},
+"scope": {
+"chapter_ids": ["CH_01"]
+},
+"declared_difficulty": {
+"level": 2,
+"required_hops": 1,
+"required_nodes": 2,
+"chapters_involved": 1
+}
+},
+{
+"question_id": "Q_005",
+"slot_id": "SLOT_05",
+"blueprint_id": "DIRECT_EFFECT",
+"status": "generated",
+"question_text": "Care este consecința directă a faptului că Ion îl lovește pe George?",
+"answer": {
+"answer_type": "consequence",
+"text": "Ion câștigă respect, iar rivalitatea rămâne activă.",
+"node_ids": ["CON_010"],
+"ordered_node_ids": []
+},
+"query_plan": {
+"start_node_ids": ["EV_010"],
+"predicates": ["has_consequence"],
+"intermediate_node_ids": [],
+"expected_result_ids": ["CON_010"]
+},
+"evidence": {
+"node_ids": ["EV_010", "CON_010"],
+"edge_ids": ["EDGE_00322"],
+"path_node_ids": ["EV_010", "CON_010"]
+},
+"scope": {
+"chapter_ids": ["CH_01"]
+},
+"declared_difficulty": {
+"level": 2,
+"required_hops": 1,
+"required_nodes": 2,
+"chapters_involved": 1
+}
+},
+{
+"question_id": "Q_006",
+"slot_id": "SLOT_06",
+"blueprint_id": "MULTIHOP_CAUSAL",
+"status": "generated",
+"question_text": "Ce lanț cauzal duce de la avertismentul Savistei până la moartea lui Ion?",
+"answer": {
+"answer_type": "causal_chain",
+"text": "Savista îl avertizează pe George, George pregătește capcana, George îl surprinde pe Ion, George îl lovește cu sapa, Ion se întoarce în pământ.",
+"node_ids": ["EV_108", "EV_110", "EV_112", "EV_113", "EV_114"],
+"ordered_node_ids": ["EV_108", "EV_110", "EV_112", "EV_113", "EV_114"]
+},
+"query_plan": {
+"start_node_ids": ["EV_108"],
+"predicates": ["causes", "enables", "immediately_precedes", "immediately_precedes"],
+"intermediate_node_ids": ["EV_110", "EV_112", "EV_113"],
+"expected_result_ids": ["EV_108", "EV_110", "EV_112", "EV_113", "EV_114"]
+},
+"evidence": {
+"node_ids": ["EV_108", "EV_110", "EV_112", "EV_113", "EV_114"],
+"edge_ids": ["EDGE_02893", "EDGE_02894", "EDGE_02685", "EDGE_02705"],
+"path_node_ids": ["EV_108", "EV_110", "EV_112", "EV_113", "EV_114"]
+},
+"scope": {
+"chapter_ids": ["CH_12", "CH_13"]
+},
+"declared_difficulty": {
+"level": 3,
+"required_hops": 4,
+"required_nodes": 5,
+"chapters_involved": 2
+}
+},
+{
+"question_id": "Q_007",
+"slot_id": "SLOT_07",
+"blueprint_id": "STATE_TRANSITION",
+"status": "generated",
+"question_text": "Cum se schimbă starea lui Ion în capitolul IX?",
+"answer": {
+"answer_type": "state_transition",
+"text": "Ion trece de la contemplarea pământurilor la sărutarea pământului, iar obsesia atinge apogeul.",
+"node_ids": ["STATE_CH_09_OPEN", "CON_082"],
+"ordered_node_ids": ["STATE_CH_09_OPEN", "CON_082"]
+},
+"query_plan": {
+"start_node_ids": ["STATE_CH_09_OPEN"],
+"predicates": ["enables", "immediately_precedes", "immediately_precedes", "results_in"],
+"intermediate_node_ids": ["EV_080", "EV_081", "EV_082"],
+"expected_result_ids": ["STATE_CH_09_OPEN", "CON_082"]
+},
+"evidence": {
+"node_ids": ["STATE_CH_09_OPEN", "EV_080", "EV_081", "EV_082", "CON_082", "CHAR_001"],
+"edge_ids": ["EDGE_01935", "EDGE_01952", "EDGE_01971", "EDGE_01964", "EDGE_01968"],
+"path_node_ids": ["STATE_CH_09_OPEN", "EV_080", "EV_081", "EV_082", "CON_082"]
+},
+"scope": {
+"chapter_ids": ["CH_09"]
+},
+"declared_difficulty": {
+"level": 2,
+"required_hops": 4,
+"required_nodes": 5,
+"chapters_involved": 1
+}
+},
+{
+"question_id": "Q_008",
+"slot_id": "SLOT_08",
+"blueprint_id": "CROSS_CHAPTER_COMPARE",
+"status": "generated",
+"question_text": "Comparați efectul obținerii pământului asupra lui Ion în capitolele VII și IX.",
+"answer": {
+"answer_type": "comparison",
+"text": "În capitolul VII Ion devine proprietar, iar în capitolul IX triumful material devine experiență senzorială.",
+"node_ids": ["CON_080"],
+"ordered_node_ids": []
+},
+"query_plan": {
+"start_node_ids": ["EV_069"],
+"predicates": ["enables", "results_in"],
+"intermediate_node_ids": ["EV_080"],
+"expected_result_ids": ["CON_080"]
+},
+"evidence": {
+"node_ids": ["EV_069", "EV_080", "CON_080"],
+"edge_ids": ["EDGE_02890", "EDGE_01928"],
+"path_node_ids": ["EV_069", "EV_080", "CON_080"]
+},
+"scope": {
+"chapter_ids": ["CH_07", "CH_09"]
+},
+"declared_difficulty": {
+"level": 3,
+"required_hops": 2,
+"required_nodes": 3,
+"chapters_involved": 2
+}
+}
+]
+}

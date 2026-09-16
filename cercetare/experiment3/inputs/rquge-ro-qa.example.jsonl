@@ -1,0 +1,3 @@
+{"id":"qa-exemplu-1","question":"Cine este tatăl Anei?","context":"Vasile Baciu este tatăl Anei.","answer":"Vasile Baciu","question_type":"entity","split":"train"}
+{"id":"qa-exemplu-2","question":"Pe cine lovește Ion la cârciumă?","context":"La cârciuma lui Avrum, Ion îl lovește pe George.","answer":"George","question_type":"direct_consequence","split":"validation"}
+

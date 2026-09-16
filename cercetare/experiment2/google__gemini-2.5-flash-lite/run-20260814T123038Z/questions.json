@@ -1,0 +1,467 @@
+{
+  "benchmark_id": "ION-EXP2-QUESTIONS-V1",
+  "task": "question_generation",
+  "graph_version": "2.0",
+  "questions": [
+    {
+      "question_id": "Q_001",
+      "slot_id": "SLOT_01",
+      "blueprint_id": "FACT_1HOP",
+      "status": "generated",
+      "question_text": "Cine este autorul romanului \"Ion\"?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Liviu Rebreanu",
+        "node_ids": [
+          "AUTHOR_REBREANU"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "WORK_ION"
+        ],
+        "predicates": [
+          "created_by"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "AUTHOR_REBREANU"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "WORK_ION",
+          "AUTHOR_REBREANU"
+        ],
+        "edge_ids": [
+          "EDGE_00035"
+        ],
+        "path_node_ids": [
+          "WORK_ION",
+          "AUTHOR_REBREANU"
+        ]
+      },
+      "scope": {
+        "chapter_ids": []
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 0
+      }
+    },
+    {
+      "question_id": "Q_002",
+      "slot_id": "SLOT_02",
+      "blueprint_id": "RELATION_1HOP",
+      "status": "generated",
+      "question_text": "Care este relația dintre Ion și George Bulbuc?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "rivali",
+        "node_ids": [
+          "CHAR_001",
+          "CHAR_004"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "CHAR_001"
+        ],
+        "predicates": [
+          "is_rival_of"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CHAR_004"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "CHAR_001",
+          "CHAR_004"
+        ],
+        "edge_ids": [
+          "EDGE_00105"
+        ],
+        "path_node_ids": [
+          "CHAR_001",
+          "CHAR_004"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_01",
+          "CH_03",
+          "CH_04",
+          "CH_06",
+          "CH_09",
+          "CH_12",
+          "CH_13"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 1,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 7
+      }
+    },
+    {
+      "question_id": "Q_003",
+      "slot_id": "SLOT_03",
+      "blueprint_id": "TEMPORAL_ORDER",
+      "status": "generated",
+      "question_text": "Care este ordinea evenimentelor: Ion cosește fâneața, Ana vine pe câmp, George îl surprinde pe Ion?",
+      "answer": {
+        "answer_type": "ordered_entity",
+        "text": "Ion cosește fâneața, Ana vine pe câmp, George îl surprinde pe Ion",
+        "node_ids": [
+          "EV_011",
+          "EV_015",
+          "EV_112"
+        ],
+        "ordered_node_ids": [
+          "EV_011",
+          "EV_015",
+          "EV_112"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [],
+        "predicates": [],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "EV_011",
+          "EV_015",
+          "EV_112"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_011",
+          "EV_015",
+          "EV_112"
+        ],
+        "edge_ids": [],
+        "path_node_ids": []
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_02",
+          "CH_03",
+          "CH_13"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 0,
+        "required_nodes": 3,
+        "chapters_involved": 3
+      }
+    },
+    {
+      "question_id": "Q_004",
+      "slot_id": "SLOT_04",
+      "blueprint_id": "DIRECT_CAUSE",
+      "status": "generated",
+      "question_text": "Ce l-a motivat pe Ion să mute hotarul?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "dorința de a recupera pământ pierdut de familie",
+        "node_ids": [
+          "MOT_026"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_026"
+        ],
+        "predicates": [
+          "has_motivation"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "MOT_026"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_026",
+          "MOT_026"
+        ],
+        "edge_ids": [
+          "EDGE_00688"
+        ],
+        "path_node_ids": [
+          "EV_026",
+          "MOT_026"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_03"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_005",
+      "slot_id": "SLOT_05",
+      "blueprint_id": "DIRECT_EFFECT",
+      "status": "generated",
+      "question_text": "Ce consecință a avut confirmarea sarcinii de către Firoana?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "sarcina devine certitudine",
+        "node_ids": [
+          "CON_045"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_045"
+        ],
+        "predicates": [
+          "has_consequence"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CON_045"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_045",
+          "CON_045"
+        ],
+        "edge_ids": [
+          "EDGE_01122"
+        ],
+        "path_node_ids": [
+          "EV_045",
+          "CON_045"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_05"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_006",
+      "slot_id": "SLOT_06",
+      "blueprint_id": "MULTIHOP_CAUSAL",
+      "status": "generated",
+      "question_text": "Care este lanțul cauzal de la refuzul lui Vasile de a transfera pământurile până la moartea lui Ion?",
+      "answer": {
+        "answer_type": "ordered_entity",
+        "text": "Vasile refuză transferul înainte de nuntă, Ana înțelege motivația soțului, Ion redevine obsedat de Florica, Ion vizitează noaptea casa lui George, George îl surprinde pe Ion, George îl lovește cu sapa, Ion este ucis",
+        "node_ids": [
+          "EV_057",
+          "EV_060",
+          "EV_086",
+          "EV_105",
+          "EV_112",
+          "EV_113",
+          "CON_113"
+        ],
+        "ordered_node_ids": [
+          "EV_057",
+          "EV_060",
+          "EV_086",
+          "EV_105",
+          "EV_112",
+          "EV_113",
+          "CON_113"
+        ]
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_057"
+        ],
+        "predicates": [
+          "causes",
+          "contributes_to",
+          "causes",
+          "causes",
+          "causes",
+          "causes",
+          "causes"
+        ],
+        "intermediate_node_ids": [
+          "EV_060",
+          "EV_086",
+          "EV_105",
+          "EV_112",
+          "EV_113"
+        ],
+        "expected_result_ids": [
+          "CON_113"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_057",
+          "EV_060",
+          "EV_086",
+          "EV_105",
+          "EV_112",
+          "EV_113",
+          "CON_113"
+        ],
+        "edge_ids": [
+          "EDGE_01406",
+          "EDGE_01471",
+          "EDGE_02054",
+          "EDGE_02496",
+          "EDGE_02665",
+          "EDGE_02730",
+          "EDGE_02687"
+        ],
+        "path_node_ids": [
+          "EV_057",
+          "EV_060",
+          "EV_086",
+          "EV_105",
+          "EV_112",
+          "EV_113",
+          "CON_113"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_06",
+          "CH_09",
+          "CH_12",
+          "CH_13"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 6,
+        "required_nodes": 7,
+        "chapters_involved": 4
+      }
+    },
+    {
+      "question_id": "Q_007",
+      "slot_id": "SLOT_07",
+      "blueprint_id": "STATE_TRANSITION",
+      "status": "generated",
+      "question_text": "Ce stare a suferit Ana după ce Ion a început să o agreseze fizic?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "Ana este degradată fizic și psihic",
+        "node_ids": [
+          "CON_066"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [
+          "EV_065"
+        ],
+        "predicates": [
+          "has_consequence"
+        ],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "CON_066"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_065",
+          "CON_066"
+        ],
+        "edge_ids": [
+          "EDGE_01608"
+        ],
+        "path_node_ids": [
+          "EV_065",
+          "CON_066"
+        ]
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_07"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 2,
+        "required_hops": 1,
+        "required_nodes": 2,
+        "chapters_involved": 1
+      }
+    },
+    {
+      "question_id": "Q_008",
+      "slot_id": "SLOT_08",
+      "blueprint_id": "CROSS_CHAPTER_COMPARE",
+      "status": "generated",
+      "question_text": "Cum diferă reacția lui Ion la obținerea pământurilor în Capitolul IX față de reacția sa la nașterea lui Petrișor în Capitolul VIII?",
+      "answer": {
+        "answer_type": "entity",
+        "text": "În Capitolul IX, Ion se bucură de pământuri ca de o iubită, în timp ce în Capitolul VIII, nașterea lui Petrișor îi produce o bucurie temporară și remușcare.",
+        "node_ids": [
+          "EV_080",
+          "EV_081",
+          "EV_082",
+          "EV_075"
+        ],
+        "ordered_node_ids": []
+      },
+      "query_plan": {
+        "start_node_ids": [],
+        "predicates": [],
+        "intermediate_node_ids": [],
+        "expected_result_ids": [
+          "EV_080",
+          "EV_081",
+          "EV_082",
+          "EV_075"
+        ]
+      },
+      "evidence": {
+        "node_ids": [
+          "EV_080",
+          "EV_081",
+          "EV_082",
+          "EV_075"
+        ],
+        "edge_ids": [],
+        "path_node_ids": []
+      },
+      "scope": {
+        "chapter_ids": [
+          "CH_08",
+          "CH_09"
+        ]
+      },
+      "declared_difficulty": {
+        "level": 3,
+        "required_hops": 0,
+        "required_nodes": 4,
+        "chapters_involved": 2
+      }
+    }
+  ]
+}
